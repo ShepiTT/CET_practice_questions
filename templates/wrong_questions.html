@@ -1,0 +1,283 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>错题集</h2>
+    <div class="btn-group">
+        <button id="toggle-all-answers" class="btn btn-outline-warning">显示所有答案</button>
+        <button id="retry-all-wrong" class="btn btn-outline-primary">一键重练错题</button>
+        <span class="btn btn-danger disabled">{{ wrong_q_ids|length }} 道错题</span>
+    </div>
+</div>
+
+<div id="groups-container">
+    {% for group in groups %}
+    <div class="card group-card mb-5 shadow-sm">
+        <div class="card-header bg-light d-flex justify-content-between align-items-center">
+            <h5 class="mb-0 text-primary">{{ group.source_file }} - {{ group.title }}</h5>
+        </div>
+        <div class="card-body">
+            {% if group.group_type == 'cloze' %}
+                <div class="vocabulary-bank p-3 mb-4 bg-light border rounded shadow-sm">
+                    <h6 class="text-secondary border-bottom pb-2 mb-3"><i class="bi bi-grid-3x3-gap"></i> Vocabulary Bank</h6>
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-2">
+                        {% for opt in group.questions[0].options %}
+                        <div class="col">
+                            <div class="p-2 border bg-white rounded-sm text-center">
+                                <strong class="text-primary">{{ opt.label }})</strong> {{ opt.text }}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+
+            {% if group.passage and group.passage != "Audio context required." %}
+            <div class="passage-box p-3 bg-white border rounded mb-4" style="max-height: 400px; overflow-y: auto; white-space: pre-wrap;">{{ group.passage }}</div>
+            {% endif %}
+
+            <div class="questions-list">
+                {% for q in group.questions %}
+                <div class="question-item mb-4 pb-3 border-bottom {% if q.id in wrong_q_ids %}is-wrong border-danger-subtle bg-danger-subtle p-2 rounded{% endif %}" data-q-id="{{ q.id }}">
+                    <div class="d-flex justify-content-between mb-2">
+                        <span class="badge {% if q.id in wrong_q_ids %}bg-danger{% else %}bg-secondary{% endif %}">Q{{ q.q_number }}</span>
+                        <div class="btn-group">
+                            {% if q.id in wrong_q_ids %}
+                            <button class="btn btn-sm btn-outline-primary retry-btn" data-q-id="{{ q.id }}">重做此题</button>
+                            <button class="btn btn-sm btn-outline-success remove-btn" data-q-id="{{ q.id }}">移出</button>
+                            {% endif %}
+                        </div>
+                    </div>
+                    
+                    <div class="ms-4">
+                        <p class="mb-2">{{ q.content }}</p>
+                        
+                        <div class="options-container mb-3">
+                            {% if group.group_type == 'matching' %}
+                                <div class="input-group mb-2" style="max-width: 200px;">
+                                    <input type="text" class="form-control matching-input" placeholder="字母">
+                                    <button class="btn btn-primary submit-btn">提交</button>
+                                </div>
+                            {% elif group.group_type == 'cloze' %}
+                                <div class="input-group mb-2" style="max-width: 200px;">
+                                    <select class="form-select cloze-select">
+                                        <option value="">选择...</option>
+                                        {% for opt in q.options %}
+                                        <option value="{{ opt.label }}">{{ opt.label }}</option>
+                                        {% endfor %}
+                                    </select>
+                                    <button class="btn btn-primary submit-btn">提交</button>
+                                </div>
+                            {% else %}
+                                <div class="row row-cols-1 row-cols-md-2 g-2">
+                                    {% for opt in q.options %}
+                                    <div class="col">
+                                        <button class="btn btn-outline-primary w-100 text-start mcq-btn" data-label="{{ opt.label }}">
+                                            <strong>{{ opt.label }}.</strong> {{ opt.text }}
+                                        </button>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+
+                        <div class="feedback mt-2 d-none">
+                            <div class="alert py-2 mb-2"></div>
+                            {% if q.explanation %}
+                            <div class="explanation-box p-3 bg-white border rounded small" style="white-space: pre-wrap;">
+                                <strong>题目详解：</strong><br>
+                                {{ q.explanation }}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="text-center py-5">
+        <h3 class="text-muted">太棒了！目前没有错题。</h3>
+        <a href="/" class="btn btn-primary mt-3">去刷题</a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let allAnswersShown = false;
+
+document.addEventListener('click', function(e) {
+    // MCQ buttons
+    if (e.target.classList.contains('mcq-btn') || e.target.closest('.mcq-btn')) {
+        const btn = e.target.classList.contains('mcq-btn') ? e.target : e.target.closest('.mcq-btn');
+        const qItem = btn.closest('.question-item');
+        if (qItem.classList.contains('answered')) return;
+        submitAnswer(qItem, btn.dataset.label);
+    }
+    
+    // Submit buttons (Matching/Cloze)
+    if (e.target.classList.contains('submit-btn')) {
+        const qItem = e.target.closest('.question-item');
+        if (qItem.classList.contains('answered')) return;
+        
+        let answer = "";
+        const matchingInput = qItem.querySelector('.matching-input');
+        const clozeSelect = qItem.querySelector('.cloze-select');
+        
+        if (matchingInput) answer = matchingInput.value;
+        else if (clozeSelect) answer = clozeSelect.value;
+        
+        if (!answer) return;
+        submitAnswer(qItem, answer);
+    }
+
+    // Retry button (single)
+    if (e.target.classList.contains('retry-btn')) {
+        const qItem = e.target.closest('.question-item');
+        resetQuestion(qItem);
+    }
+});
+
+function resetQuestion(qItem) {
+    qItem.classList.remove('answered');
+    qItem.querySelector('.feedback').classList.add('d-none');
+    qItem.querySelectorAll('.mcq-btn').forEach(b => {
+        b.classList.remove('btn-success', 'btn-danger', 'text-white');
+        b.classList.add('btn-outline-primary');
+    });
+    const mInput = qItem.querySelector('.matching-input');
+    if (mInput) mInput.value = '';
+    const cSelect = qItem.querySelector('.cloze-select');
+    if (cSelect) cSelect.value = '';
+}
+
+function submitAnswer(qItem, answer) {
+    const qId = qItem.dataset.qId;
+    qItem.classList.add('answered');
+
+    fetch('/submit_answer', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question_id: qId, answer: answer })
+    })
+    .then(res => res.json())
+    .then(data => {
+        renderFeedback(qItem, answer, data);
+    });
+}
+
+function renderFeedback(qItem, user_answer, data) {
+    qItem.classList.add('answered');
+    const feedback = qItem.querySelector('.feedback');
+    const alertDiv = feedback.querySelector('.alert');
+    feedback.classList.remove('d-none');
+    
+    qItem.querySelectorAll('.mcq-btn').forEach(btn => {
+        if (btn.dataset.label === data.correct_answer) {
+            btn.classList.add('btn-success', 'text-white');
+            btn.classList.remove('btn-outline-primary');
+        } else if (btn.dataset.label === user_answer.toUpperCase() && !data.is_correct) {
+            btn.classList.add('btn-danger', 'text-white');
+            btn.classList.remove('btn-outline-primary');
+        }
+    });
+
+    if (data.is_correct) {
+        alertDiv.className = 'alert alert-success py-2 mb-2';
+        alertDiv.textContent = '回答正确！';
+    } else {
+        if (user_answer === "SHOW_ANSWER_REQUEST") {
+            alertDiv.className = 'alert alert-info py-2 mb-2';
+            alertDiv.textContent = `正确答案是：${data.correct_answer || '未设置'}`;
+        } else {
+            alertDiv.className = 'alert alert-danger py-2 mb-2';
+            alertDiv.textContent = `回答错误。正确答案是：${data.correct_answer || '未设置'}`;
+        }
+    }
+}
+
+// Toggle All Answers
+document.getElementById('toggle-all-answers').addEventListener('click', function() {
+    allAnswersShown = !allAnswersShown;
+    this.textContent = allAnswersShown ? '隐藏所有答案' : '显示所有答案';
+    this.classList.toggle('btn-warning', allAnswersShown);
+    this.classList.toggle('btn-outline-warning', !allAnswersShown);
+
+    const questions = document.querySelectorAll('.question-item');
+    questions.forEach(qItem => {
+        if (allAnswersShown) {
+            if (!qItem.classList.contains('answered')) {
+                const qId = qItem.dataset.qId;
+                fetch('/submit_answer', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question_id: qId, answer: "SHOW_ANSWER_REQUEST" })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    renderFeedback(qItem, "SHOW_ANSWER_REQUEST", data);
+                    qItem.dataset.wasAutoShown = "true";
+                });
+            }
+        } else {
+            if (qItem.dataset.wasAutoShown === "true") {
+                resetQuestion(qItem);
+                delete qItem.dataset.wasAutoShown;
+            }
+        }
+    });
+});
+
+// Retry All Wrong Questions
+document.getElementById('retry-all-wrong').addEventListener('click', function() {
+    if (!confirm('确定要重新练习当前页面所有的错题吗？')) return;
+    
+    // Hide answers first if they are shown
+    if (allAnswersShown) {
+        document.getElementById('toggle-all-answers').click();
+    }
+
+    const wrongQuestions = document.querySelectorAll('.question-item.is-wrong');
+    wrongQuestions.forEach(qItem => {
+        resetQuestion(qItem);
+    });
+    
+    // Scroll to first wrong question
+    if (wrongQuestions.length > 0) {
+        wrongQuestions[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+});
+
+document.querySelectorAll('.remove-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const qId = this.dataset.qId;
+        const qItem = this.closest('.question-item');
+        if (!confirm('确定移出吗？')) return;
+
+        fetch('/remove_wrong', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ question_id: qId })
+        })
+        .then(res => res.json())
+        .then(data => {
+            if (data.status === 'success') {
+                qItem.classList.remove('is-wrong', 'bg-danger-subtle', 'border-danger-subtle');
+                qItem.querySelector('.badge').className = 'badge bg-secondary';
+                this.parentElement.remove();
+            }
+        });
+    });
+});
+</script>
+<style>
+    .passage-box { line-height: 1.6; font-size: 1.05rem; }
+    .bg-danger-subtle { background-color: rgba(220, 53, 69, 0.05) !important; }
+    .vocabulary-bank { font-family: 'Times New Roman', serif; }
+    .question-item.answered .mcq-btn { pointer-events: none; }
+    .question-item.answered .submit-btn { display: none; }
+</style>
+{% endblock %}

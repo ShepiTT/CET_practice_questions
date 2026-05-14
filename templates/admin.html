@@ -1,0 +1,211 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4">
+        <div class="list-group">
+            {% for f in files %}
+            <a href="/admin?file={{ f }}" class="list-group-item list-group-item-action {% if f == selected_file %}active{% endif %}">
+                {{ f }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-md-8">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h3>设置标准答案: {{ selected_file }}</h3>
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#importModal">一键导入答案</button>
+        </div>
+
+        <div class="mb-3">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="filter-unanswered">
+                <label class="form-check-label" for="filter-unanswered">
+                    只显示未设置答案的题目
+                </label>
+            </div>
+        </div>
+
+        <!-- Import Modal -->
+        <div class="modal fade" id="importModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">批量导入答案</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-muted small">请将“答案总览”文本粘贴到下方文本框中：</p>
+                        <textarea id="importText" class="form-control" rows="10" placeholder="Q1 - 第1页 ... 正确答案: B ..."></textarea>
+                        <div id="importPreview" class="mt-3 small d-none">
+                            <h6>解析预览:</h6>
+                            <div id="previewList" class="border p-2 bg-light" style="max-height: 200px; overflow-y: auto;"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                        <button type="button" id="confirmImport" class="btn btn-success" disabled>确认导入 (<span id="importCount">0</span> 题)</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover" id="questions-table">
+                <thead>
+                    <tr>
+                        <th>题号</th>
+                        <th>内容摘要</th>
+                        <th>标准答案</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for q in questions %}
+                    <tr>
+                        <td>{{ q.q_number }}</td>
+                        <td><small>{{ q.content[:50] }}...</small></td>
+                        <td>
+                            <select class="form-select form-select-sm answer-select" data-q-id="{{ q.id }}">
+                                <option value="">未设置</option>
+                                {% for char in ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'] %}
+                                <option value="{{ char }}" {% if q.correct_answer == char %}selected{% endif %}>{{ char }}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const selectedFile = "{{ selected_file }}";
+let parsedAnswers = [];
+
+document.getElementById('importText').addEventListener('input', function() {
+    const text = this.value;
+    // Patterns to handle various formats including detailed explanations
+    const patterns = [
+        // Format: 第 1 题 / 题号：第1题 ... 答案：A 详解：...
+        /(?:题号[：:]\s*)?第\s*(\d+)\s*题\s*答案[：:]\s*([A-Z])[\s\)]*.*?(?:详解[：:]\s*)?([\s\S]*?)(?=(?:题号[：:]\s*)?第\s*\d+\s*题|$)/gi,
+        // Format: Q1 - 第1页 ... 正确答案: B ...
+        /Q(\d+)\s*-\s*第\d+页[\s\S]*?正确答案[：:]\s*([A-Z])/gi,
+        // Format: 26 Blank 26... 正确答案: C
+        /(\d+)\s+Blank\s+\d+[\s\S]*?正确答案[：:]\s*([A-Z])/gi,
+        // Format: 题号 1: B
+        /题号\s*(\d+)[：:]\s*([A-Z])/gi,
+        // Format: 26 C or Q26 C
+        /(?:Q)?(\d+)\s+([A-Z])(?:\s|$)/gi
+    ];
+    
+    parsedAnswers = [];
+    const previewList = document.getElementById('previewList');
+    previewList.innerHTML = '';
+    const foundNums = new Set();
+
+    patterns.forEach((regex, index) => {
+        let match;
+        while ((match = regex.exec(text)) !== null) {
+            const qNum = parseInt(match[1]);
+            const ans = match[2];
+            const expl = (index === 0) ? match[3].trim() : null; // Only the first pattern has explanation
+            
+            if (!foundNums.has(qNum)) {
+                parsedAnswers.push({ 
+                    q_number: qNum, 
+                    answer: ans,
+                    explanation: expl
+                });
+                foundNums.add(qNum);
+                const div = document.createElement('div');
+                div.className = 'mb-1 border-bottom pb-1';
+                div.innerHTML = `<strong>题号 ${qNum}:</strong> ${ans}${expl ? ' <span class="badge bg-info">含详解</span>' : ''}`;
+                previewList.appendChild(div);
+            }
+        }
+    });
+
+    const previewContainer = document.getElementById('importPreview');
+    const confirmBtn = document.getElementById('confirmImport');
+    const countSpan = document.getElementById('importCount');
+
+    if (parsedAnswers.length > 0) {
+        previewContainer.classList.remove('d-none');
+        confirmBtn.disabled = false;
+        countSpan.textContent = parsedAnswers.length;
+    } else {
+        previewContainer.classList.add('d-none');
+        confirmBtn.disabled = true;
+        countSpan.textContent = '0';
+    }
+});
+
+document.getElementById('confirmImport').addEventListener('click', function() {
+    if (parsedAnswers.length === 0) return;
+    
+    this.disabled = true;
+    this.textContent = '正在导入...';
+
+    fetch('/batch_set_answers', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            filename: selectedFile,
+            answers: parsedAnswers
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.status === 'success') {
+            let msg = `成功导入 ${data.updated_count} 道题目的答案！`;
+            if (data.not_found && data.not_found.length > 0) {
+                msg += `\n未找到以下题号: ${data.not_found.join(', ')}`;
+            }
+            alert(msg);
+            location.reload();
+        } else {
+            alert('导入失败: ' + (data.error || '未知错误'));
+            this.disabled = false;
+            this.textContent = '确认导入';
+        }
+    });
+});
+
+document.getElementById('filter-unanswered').addEventListener('change', function() {
+    const showOnlyUnanswered = this.checked;
+    const rows = document.querySelectorAll('#questions-table tbody tr');
+    
+    rows.forEach(row => {
+        const select = row.querySelector('.answer-select');
+        if (showOnlyUnanswered && select.value !== "") {
+            row.style.display = 'none';
+        } else {
+            row.style.display = '';
+        }
+    });
+});
+
+document.querySelectorAll('.answer-select').forEach(select => {
+    select.addEventListener('change', function() {
+        const qId = this.dataset.qId;
+        const answer = this.value;
+        
+        fetch('/set_answer', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ question_id: qId, answer: answer })
+        })
+        .then(res => res.json())
+        .then(data => {
+            if (data.status === 'success') {
+                this.classList.add('is-valid');
+                setTimeout(() => this.classList.remove('is-valid'), 1000);
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12 text-center mb-5">
+        <h1 class="display-4">欢迎来到英语四级刷题系统</h1>
+        <p class="lead">提升英语水平，从现在开始</p>
+        <div class="mt-4">
+            <a href="/random_practice" class="btn btn-lg btn-success shadow-sm px-5 py-3 me-2">
+                <i class="bi bi-shuffle"></i> 开启随机刷题模式
+            </a>
+        </div>
+        
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-8">
+                <div class="card border-0 shadow-sm bg-light">
+                    <div class="card-body p-4">
+                        <div class="row text-center">
+                            <div class="col">
+                                <div class="h4 mb-0 text-primary">{{ stats.total }}</div>
+                                <div class="small text-muted text-uppercase fw-bold">总题目数</div>
+                            </div>
+                            <div class="col border-start border-end">
+                                <div class="h4 mb-0 text-success">{{ stats.answered }}</div>
+                                <div class="small text-muted text-uppercase fw-bold">已刷题</div>
+                            </div>
+                            <div class="col">
+                                <div class="h4 mb-0 text-warning">{{ stats.unanswered }}</div>
+                                <div class="small text-muted text-uppercase fw-bold">未刷题</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col">
+        <h3 class="section-header">按试卷练习</h3>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for file in files %}
+    <div class="col">
+        <div class="card h-100">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">{{ file }}</h5>
+                <p class="card-text text-muted">选择题练习</p>
+                <a href="/practice/{{ file }}" class="btn btn-primary mt-auto">开始刷题</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

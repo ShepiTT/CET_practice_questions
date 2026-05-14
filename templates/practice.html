@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>{{ filename }}</h2>
+    <div>
+        <button id="show-all-answers" class="btn btn-outline-warning me-2">显示所有答案</button>
+        {% if mode == 'random' %}
+        <a href="/random_practice" class="btn btn-success me-2">换一批题目</a>
+        {% endif %}
+        <a href="/" class="btn btn-outline-secondary">返回列表</a>
+    </div>
+</div>
+
+<div id="groups-container">
+    {% for group in groups %}
+    <div class="card group-card mb-5 shadow-sm">
+        <div class="card-header bg-light">
+            <h5 class="mb-0 text-primary">{{ group.title }}</h5>
+        </div>
+        <div class="card-body">
+            {% if group.group_type == 'cloze' %}
+                <div class="vocabulary-bank p-3 mb-4 bg-light border rounded shadow-sm">
+                    <h6 class="text-secondary border-bottom pb-2 mb-3"><i class="bi bi-grid-3x3-gap"></i> Vocabulary Bank</h6>
+                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-2">
+                        {% for opt in group.questions[0].options %}
+                        <div class="col">
+                            <div class="p-2 border bg-white rounded-sm text-center">
+                                <strong class="text-primary">{{ opt.label }})</strong> {{ opt.text }}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+
+            {% if group.passage and group.passage != "Audio context required." %}
+            <div class="passage-box p-3 bg-white border rounded mb-4" style="max-height: 400px; overflow-y: auto; white-space: pre-wrap;">{{ group.passage }}</div>
+            {% endif %}
+
+            <div class="questions-list">
+                {% for q in group.questions %}
+                <div class="question-item mb-4 pb-3 border-bottom" data-q-id="{{ q.id }}">
+                    <div class="d-flex">
+                        <span class="badge bg-secondary me-2 h-100">Q{{ q.q_number }}</span>
+                        <div class="flex-grow-1">
+                            <p class="mb-2">{{ q.content }}</p>
+                            
+                            <div class="options-container">
+                                {% if group.group_type == 'matching' %}
+                                    <div class="input-group mb-2" style="max-width: 200px;">
+                                        <span class="input-group-text">对应段落字母</span>
+                                        <input type="text" class="form-control matching-input" placeholder="如: A" maxlength="2">
+                                        <button class="btn btn-primary submit-btn">提交</button>
+                                    </div>
+                                {% elif group.group_type == 'cloze' %}
+                                    <div class="input-group mb-2" style="max-width: 200px;">
+                                        <select class="form-select cloze-select">
+                                            <option value="">选择选项...</option>
+                                            {% for opt in q.options %}
+                                            <option value="{{ opt.label }}">{{ opt.label }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <button class="btn btn-primary submit-btn">提交</button>
+                                    </div>
+                                {% else %}
+                                    {# MCQ for Listening and Careful Reading #}
+                                    <div class="row row-cols-1 row-cols-md-2 g-2">
+                                        {% for opt in q.options %}
+                                        <div class="col">
+                                            <button class="btn btn-outline-primary w-100 text-start mcq-btn" data-label="{{ opt.label }}">
+                                                <strong>{{ opt.label }}.</strong> {{ opt.text }}
+                                            </button>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="feedback mt-2 d-none">
+                                <div class="alert py-2 mb-2"></div>
+                                <div class="explanation-box p-3 bg-light border rounded small d-none" style="white-space: pre-wrap;">
+                                    <strong>题目详解：</strong><br>
+                                    <span class="explanation-text"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('click', function(e) {
+    // Handle MCQ buttons
+    if (e.target.classList.contains('mcq-btn') || e.target.closest('.mcq-btn')) {
+        const btn = e.target.classList.contains('mcq-btn') ? e.target : e.target.closest('.mcq-btn');
+        const qItem = btn.closest('.question-item');
+        if (qItem.classList.contains('answered')) return;
+        
+        submitAnswer(qItem, btn.dataset.label);
+    }
+    
+    // Handle Submit buttons (Matching/Cloze)
+    if (e.target.classList.contains('submit-btn')) {
+        const qItem = e.target.closest('.question-item');
+        if (qItem.classList.contains('answered')) return;
+        
+        let answer = "";
+        const matchingInput = qItem.querySelector('.matching-input');
+        const clozeSelect = qItem.querySelector('.cloze-select');
+        
+        if (matchingInput) answer = matchingInput.value;
+        else if (clozeSelect) answer = clozeSelect.value;
+        
+        if (!answer) {
+            alert("请输入或选择答案");
+            return;
+        }
+        submitAnswer(qItem, answer);
+    }
+});
+
+let allAnswersShown = false;
+
+document.getElementById('show-all-answers').addEventListener('click', function() {
+    allAnswersShown = !allAnswersShown;
+    this.textContent = allAnswersShown ? '隐藏所有答案' : '显示所有答案';
+    this.classList.toggle('btn-warning', allAnswersShown);
+    this.classList.toggle('btn-outline-warning', !allAnswersShown);
+
+    const questions = document.querySelectorAll('.question-item');
+    questions.forEach(qItem => {
+        if (allAnswersShown) {
+            // Only show if not already answered manually
+            if (!qItem.classList.contains('answered')) {
+                const qId = qItem.dataset.qId;
+                fetch('/submit_answer', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ question_id: qId, answer: "SHOW_ANSWER_REQUEST" })
+                })
+                .then(res => res.json())
+                .then(data => {
+                    renderFeedback(qItem, "SHOW_ANSWER_REQUEST", data);
+                    qItem.dataset.wasAutoShown = "true";
+                });
+            }
+        } else {
+            // Hide if it was automatically shown
+            if (qItem.dataset.wasAutoShown === "true") {
+                resetQuestion(qItem);
+                delete qItem.dataset.wasAutoShown;
+            }
+        }
+    });
+});
+
+function resetQuestion(qItem) {
+    qItem.classList.remove('answered');
+    const feedback = qItem.querySelector('.feedback');
+    feedback.classList.add('d-none');
+    
+    // Reset buttons/inputs
+    qItem.querySelectorAll('.mcq-btn').forEach(btn => {
+        btn.classList.remove('btn-success', 'btn-danger', 'text-white');
+        btn.classList.add('btn-outline-primary');
+    });
+    
+    const matchingInput = qItem.querySelector('.matching-input');
+    if (matchingInput) matchingInput.value = '';
+    
+    const clozeSelect = qItem.querySelector('.cloze-select');
+    if (clozeSelect) clozeSelect.value = '';
+    
+    // Hide explanation
+    const explBox = qItem.querySelector('.explanation-box');
+    if (explBox) explBox.classList.add('d-none');
+}
+
+function submitAnswer(qItem, answer) {
+    const qId = qItem.dataset.qId;
+    qItem.classList.add('answered');
+    // Ensure we clear the auto-shown flag if user answers manually
+    delete qItem.dataset.wasAutoShown;
+
+    fetch('/submit_answer', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question_id: qId, answer: answer })
+    })
+    .then(res => res.json())
+    .then(data => {
+        renderFeedback(qItem, answer, data);
+    });
+}
+
+function renderFeedback(qItem, user_answer, data) {
+    qItem.classList.add('answered');
+    const feedback = qItem.querySelector('.feedback');
+    const alertDiv = feedback.querySelector('.alert');
+    feedback.classList.remove('d-none');
+    
+    // Mark options (for MCQ)
+    qItem.querySelectorAll('.mcq-btn').forEach(btn => {
+        if (btn.dataset.label === data.correct_answer) {
+            btn.classList.add('btn-success');
+            btn.classList.remove('btn-outline-primary');
+        } else if (btn.dataset.label === user_answer.toUpperCase() && !data.is_correct) {
+            btn.classList.add('btn-danger');
+            btn.classList.remove('btn-outline-primary');
+        }
+    });
+
+    if (data.is_correct) {
+        alertDiv.className = 'alert alert-success py-2 mb-2';
+        alertDiv.textContent = '回答正确！';
+    } else {
+        alertDiv.className = 'alert alert-info py-2 mb-2'; // Use info color for revealed answers
+        if (user_answer === "SHOW_ANSWER_REQUEST") {
+            alertDiv.textContent = `正确答案是：${data.correct_answer || '未设置'}`;
+        } else {
+            alertDiv.className = 'alert alert-danger py-2 mb-2';
+            alertDiv.textContent = `回答错误。正确答案是：${data.correct_answer || '未设置'}`;
+        }
+    }
+
+    // Show explanation if available
+    if (data.explanation) {
+        const explBox = qItem.querySelector('.explanation-box');
+        const explText = qItem.querySelector('.explanation-text');
+        explText.textContent = data.explanation;
+        explBox.classList.remove('d-none');
+    }
+}
+</script>
+<style>
+    .passage-box { line-height: 1.6; font-size: 1.05rem; }
+    .question-item.answered .mcq-btn { pointer-events: none; }
+    .btn-success { color: white !important; }
+    .btn-danger { color: white !important; }
+    .vocabulary-bank { font-family: 'Times New Roman', serif; }
+    .vocabulary-bank .border { transition: all 0.2s; }
+    .vocabulary-bank .border:hover { background-color: #f8f9fa; border-color: #0d6efd !important; }
+</style>
+{% endblock %}
