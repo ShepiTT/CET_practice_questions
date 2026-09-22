@@ -24,7 +24,7 @@
                         {% for opt in group.questions[0].options %}
                         <div class="col">
                             <div class="p-2 border bg-white rounded-sm text-center">
-                                <strong class="text-primary">{{ opt.label }})</strong> {{ opt.text }}
+                                <strong class="text-primary">{{ opt.label }})</strong> {{ opt.text|clean_exam_text }}
                             </div>
                         </div>
                         {% endfor %}
@@ -33,8 +33,10 @@
             {% endif %}
 
             {% if group.passage and group.passage != "Audio context required." %}
-            <div class="passage-box p-3 bg-white border rounded mb-4" style="max-height: 400px; overflow-y: auto; white-space: pre-wrap;">{{ group.passage }}</div>
+            <div class="passage-box p-3 bg-white border rounded mb-4" style="max-height: 400px; overflow-y: auto; white-space: pre-wrap;">{{ group.passage|clean_exam_text }}</div>
             {% endif %}
+
+            {% if group.group_type == 'listening' %}{% include '_audio_controls.html' %}{% endif %}
 
             <div class="questions-list">
                 {% for q in group.questions %}
@@ -50,7 +52,8 @@
                     </div>
                     
                     <div class="ms-4">
-                        <p class="mb-2">{{ q.content }}</p>
+                        <p class="mb-2">{{ q.content|clean_exam_text }}</p>
+                            {% if not q.correct_answer %}<p class="small text-warning-emphasis">本题暂无标准答案，可练习但不判分。</p>{% endif %}
                         
                         <div class="options-container mb-3">
                             {% if group.group_type == 'matching' %}
@@ -73,7 +76,7 @@
                                     {% for opt in q.options %}
                                     <div class="col">
                                         <button class="btn btn-outline-primary w-100 text-start mcq-btn" data-label="{{ opt.label }}">
-                                            <strong>{{ opt.label }}.</strong> {{ opt.text }}
+                                            <strong>{{ opt.label }}.</strong> {{ opt.text|clean_exam_text }}
                                         </button>
                                     </div>
                                     {% endfor %}
@@ -108,6 +111,7 @@
 {% block scripts %}
 <script>
 let allAnswersShown = false;
+const REVEAL = "REVEAL"; // client-side marker for renderFeedback, never sent to the server
 
 document.addEventListener('click', function(e) {
     // MCQ buttons
@@ -155,18 +159,7 @@ function resetQuestion(qItem) {
 }
 
 function submitAnswer(qItem, answer) {
-    const qId = qItem.dataset.qId;
-    qItem.classList.add('answered');
-
-    fetch('/submit_answer', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question_id: qId, answer: answer })
-    })
-    .then(res => res.json())
-    .then(data => {
-        renderFeedback(qItem, answer, data);
-    });
+    return sendQuestionAnswer(qItem, answer);
 }
 
 function renderFeedback(qItem, user_answer, data) {
@@ -179,17 +172,21 @@ function renderFeedback(qItem, user_answer, data) {
         if (btn.dataset.label === data.correct_answer) {
             btn.classList.add('btn-success', 'text-white');
             btn.classList.remove('btn-outline-primary');
-        } else if (btn.dataset.label === user_answer.toUpperCase() && !data.is_correct) {
+        } else if (btn.dataset.label === user_answer.toUpperCase() && !data.is_correct && !data.unanswered) {
             btn.classList.add('btn-danger', 'text-white');
             btn.classList.remove('btn-outline-primary');
         }
     });
 
-    if (data.is_correct) {
+    if (data.unanswered) {
+        // No key for this question yet: grading it would mark a correct pick wrong.
+        alertDiv.className = 'alert alert-warning py-2 mb-2';
+        alertDiv.textContent = '本题暂无标准答案，未计入成绩。可在后台设置答案。';
+    } else if (data.is_correct) {
         alertDiv.className = 'alert alert-success py-2 mb-2';
         alertDiv.textContent = '回答正确！';
     } else {
-        if (user_answer === "SHOW_ANSWER_REQUEST") {
+        if (user_answer === REVEAL) {
             alertDiv.className = 'alert alert-info py-2 mb-2';
             alertDiv.textContent = `正确答案是：${data.correct_answer || '未设置'}`;
         } else {
@@ -211,16 +208,13 @@ document.getElementById('toggle-all-answers').addEventListener('click', function
         if (allAnswersShown) {
             if (!qItem.classList.contains('answered')) {
                 const qId = qItem.dataset.qId;
-                fetch('/submit_answer', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ question_id: qId, answer: "SHOW_ANSWER_REQUEST" })
-                })
-                .then(res => res.json())
+                // Read-only reveal. Must not go through /submit_answer, which records an attempt.
+                requestJSON('/answer/' + qId)
                 .then(data => {
-                    renderFeedback(qItem, "SHOW_ANSWER_REQUEST", data);
+                    if (!allAnswersShown || qItem.dataset.pending === 'true' || qItem.classList.contains('answered')) return;
+                    renderFeedback(qItem, REVEAL, data);
                     qItem.dataset.wasAutoShown = "true";
-                });
+                }).catch(error => { if (allAnswersShown) showQuestionError(qItem, error.message); });
             }
         } else {
             if (qItem.dataset.wasAutoShown === "true") {

@@ -1,0 +1,27 @@
+{# Per-group controls for a listening group. Expects `group` and `audio_files` (source_file -> mp3 or None). #}
+{% set mp3 = audio_files.get(group.source_file) if audio_files else none %}
+<div class="audio-controls d-flex flex-wrap align-items-center gap-2 mb-3"
+     data-group-id="{{ group.id }}"
+     data-audio-start="{{ group.audio_start if group.audio_start is not none else '' }}">
+    {% if mp3 %}
+    <button type="button" class="btn btn-sm btn-success audio-play"
+            data-src="/audio/{{ mp3 }}" data-title="{{ group.source_file[:-4] }}">
+        ▶ 播放本组{% if group.audio_start is not none %} <span class="audio-start-label">({{ group.audio_start|mmss }})</span>{% endif %}
+    </button>
+    <button type="button" class="btn btn-sm btn-outline-secondary audio-mark"
+            title="听到这组题开始时点一下，下次直接从这里播">⏺ 标记本组起点</button>
+    <small class="text-muted audio-hint">{% if group.audio_start is none %}还没标记起点，会从头播放{% endif %}</small>
+    {% else %}
+    <span class="badge bg-secondary">无音频</span>
+    <small class="text-muted">把 {{ group.source_file[:-4] }}.mp3 放进 data/audio/ 就能播放</small>
+    {% endif %}
+    {% if group.transcript %}
+    <button type="button" class="btn btn-sm btn-outline-info ms-auto" data-bs-toggle="collapse"
+            data-bs-target="#transcript-{{ group.id }}" title="做完再看">📄 听力原文</button>
+    {% endif %}
+</div>
+{% if group.transcript %}
+<div class="collapse mb-3" id="transcript-{{ group.id }}">
+    <div class="p-3 bg-light border rounded small" style="white-space: pre-wrap;">{{ group.transcript }}</div>
+</div>
+{% endif %}

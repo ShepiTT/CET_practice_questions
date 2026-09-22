@@ -64,9 +64,9 @@
                         <td>{{ q.q_number }}</td>
                         <td><small>{{ q.content[:50] }}...</small></td>
                         <td>
-                            <select class="form-select form-select-sm answer-select" data-q-id="{{ q.id }}">
+                            <select class="form-select form-select-sm answer-select" data-q-id="{{ q.id }}" data-saved="{{ q.correct_answer or '' }}">
                                 <option value="">未设置</option>
-                                {% for char in ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'] %}
+                                {% for char in q.allowed_answers %}
                                 <option value="{{ char }}" {% if q.correct_answer == char %}selected{% endif %}>{{ char }}</option>
                                 {% endfor %}
                             </select>
@@ -149,7 +149,7 @@ document.getElementById('confirmImport').addEventListener('click', function() {
     this.disabled = true;
     this.textContent = '正在导入...';
 
-    fetch('/batch_set_answers', {
+    requestJSON('/batch_set_answers', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -157,7 +157,6 @@ document.getElementById('confirmImport').addEventListener('click', function() {
             answers: parsedAnswers
         })
     })
-    .then(res => res.json())
     .then(data => {
         if (data.status === 'success') {
             let msg = `成功导入 ${data.updated_count} 道题目的答案！`;
@@ -171,6 +170,11 @@ document.getElementById('confirmImport').addEventListener('click', function() {
             this.disabled = false;
             this.textContent = '确认导入';
         }
+    }).catch(error => {
+        alert('导入失败: ' + error.message);
+    }).finally(() => {
+        this.disabled = false;
+        this.innerHTML = '确认导入 (<span id="importCount">' + parsedAnswers.length + '</span> 题)';
     });
 });
 
@@ -193,18 +197,22 @@ document.querySelectorAll('.answer-select').forEach(select => {
         const qId = this.dataset.qId;
         const answer = this.value;
         
-        fetch('/set_answer', {
+        this.disabled = true;
+        requestJSON('/set_answer', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ question_id: qId, answer: answer })
         })
-        .then(res => res.json())
         .then(data => {
             if (data.status === 'success') {
+                this.dataset.saved = answer;
                 this.classList.add('is-valid');
                 setTimeout(() => this.classList.remove('is-valid'), 1000);
             }
-        });
+        }).catch(error => {
+            this.value = this.dataset.saved;
+            alert('保存失败: ' + error.message);
+        }).finally(() => { this.disabled = false; });
     });
 });
 </script>

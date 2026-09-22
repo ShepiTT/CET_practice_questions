@@ -1,0 +1,8 @@
+# Optional maintenance tools; the Flask app only needs requirements.txt.
+-r requirements.txt
+lxml==6.1.3
+rapidocr-onnxruntime==1.2.3
+onnxruntime==1.30.0
+faster-whisper==1.2.1
+# GPU ASR on Windows additionally requires CUDA 12 cuBLAS and cuDNN 9.
+# Keep these large dependencies in an isolated environment on the data drive.

@@ -2,57 +2,61 @@ import pdfplumber
 import re
 import os
 
+import ocr
+
 def extract_mcq_robust(q_num, text_to_search, section_name):
     # Find the start of the question: "q_num. " (very flexible, handle missing spaces like "1.A)" or "1 . A)")
-    start_pattern = rf'(?:\s|^){q_num}\s*\.(?:\s*|(?=[A-D]\)))'
+    start_pattern = rf'(?:\s|^){q_num}\s*\.(?:\s*|(?=[A-D][).]))'
     start_match = re.search(start_pattern, text_to_search)
     if not start_match:
         return None
     
-    # Search window: about 1500 chars
+    # Search window: about 1500 chars, cut at whatever comes next. Everything past that
+    # belongs to another question, and letting an option run into it makes one option
+    # swallow the questions that follow.
     window = text_to_search[start_match.end():start_match.end() + 1500]
-    
-    # Labels A) B) C) D) - handle missing spaces like A)Option
-    labels = [r'A\)', r'B\)', r'C\)', r'D\)']
-    pos = {}
-    for label in labels:
-        m = re.search(label, window)
-        if m:
-            pos[label] = m.start()
-    
-    if len(pos) < 4:
+    boundary = re.search(
+        rf'(?:\s|^){q_num + 1}\s*\.(?:\s*|(?=[A-D][).]))'
+        r'|Questions\s*\d+|Section\s*[A-O]\b|Part\s*[I-V]+\b'
+        r'|Passage\s*(?:One|Two|Three|I|II|III)\b|\bDirections\b',
+        window, re.IGNORECASE)
+    if boundary:
+        window = window[:boundary.start()]
+
+    # All four labels must be inside that window. They are NOT in alphabetical order on the
+    # page: the choices are set in two columns, so the text reads "A) … C) …" then
+    # "B) … D) …". Order them by position, not by letter.
+    #
+    # Most papers print "A)", but some print "A." — miss that and the paper yields nothing
+    # at all. The period form is the looser pattern (an initial or an abbreviation can
+    # imitate it), so it is only tried when the paren form fails to find all four.
+    pos = None
+    for bracket in (r'\)', r'[).]'):
+        found = {}
+        for letter in 'ABCD':
+            m = re.compile(rf'(?<![A-Za-z]){letter}\s*{bracket}').search(window)
+            if not m:
+                break
+            found[letter] = (m.start(), m.end())
+        else:
+            pos = found
+            break
+    if not pos:
         return None
-        
-    sorted_labels = sorted(pos.keys(), key=lambda l: pos[l])
-    
-    # Content is between start and first label
-    content = window[:pos[sorted_labels[0]]].strip()
+
+    order = sorted('ABCD', key=lambda l: pos[l][0])
+
+    # Content is between the question number and the first label on the page
+    content = window[:pos[order[0]][0]].strip()
     if not content or len(content) < 2:
         content = f"Question {q_num}"
-    
+
     options_dict = {}
-    for i in range(len(sorted_labels)):
-        curr_label = sorted_labels[i]
-        start = pos[curr_label] + 2 # skip "A)"
-        
-        if i + 1 < len(sorted_labels):
-            next_label = sorted_labels[i+1]
-            end = pos[next_label]
-        else:
-            end = len(window)
-            
-        segment = window[start:end]
-        # Clean segment: stop at next question or major markers
-        next_q_num = q_num + 1
-        # Flexible next question marker: "2. ", "2 . ", "2.A)", etc.
-        next_q_pattern = rf'(?:\s|^){next_q_num}\s*\.(?:\s*|(?=[A-D]\)))'
-        # Even more aggressive splitting for stuck-together strings like "Questions3and4"
-        split_pattern = next_q_pattern + r'|Questions\s*\d+|Section\s*[A-O]|Part\s*[I-V]|Passage\s*(?:One|Two|Three|I|II|III)|\bDirections\b'
-        segment = re.split(split_pattern, segment, flags=re.IGNORECASE)[0].strip()
-        
-        label_char = curr_label[0] # 'A', 'B', etc.
-        options_dict[label_char] = segment
-        
+    for i, letter in enumerate(order):
+        start = pos[letter][1]
+        end = pos[order[i + 1]][0] if i + 1 < len(order) else len(window)
+        options_dict[letter] = window[start:end].strip()
+
     return {
         'q_number': q_num,
         'content': content,
@@ -66,6 +70,9 @@ def extract_mcq_robust(q_num, text_to_search, section_name):
     }
 
 def clean_noise(text):
+    # Page furniture can sit in the middle of a sentence after PDF extraction.
+    # Only remove the exact exam-header pattern, not ordinary years/numbers.
+    text = re.sub(r'(?:\b\d{1,3}\s*)?[·•]\s*\d{4}\s*年\s*\d{1,2}\s*月\s*[四六]级真题\s*[（(][^()（）\n]{1,12}[)）]\s*[·•]', '', text)
     # Remove website links
     text = re.sub(r'pastpapers\.cn', '', text, flags=re.IGNORECASE)
     # Remove patterns like "·2024年6月四级真题(第一套)· 6"
@@ -76,10 +83,67 @@ def clean_noise(text):
     text = re.sub(r'\n\s*第\s*\d+\s*页.*?\n', '\n', text)
     return text
 
-def parse_cet_pdf_v2(file_path):
-    filename = os.path.basename(file_path)
-    groups = []
-    
+BANK_LABELS = "ABCDEFGHIJKLMNO"
+
+def extract_word_bank(bank_text):
+    """Return the Section A word bank as [{'label', 'text'}], sorted by label.
+
+    pdfplumber / OCR output for the bank is not always clean. Seen in the real papers:
+      '0) underneath'  -> zero printed instead of O
+      'l)roughly'      -> lower-case L instead of I
+      'ID)literary', 'OM) splitting' -> a stray letter glued to the label
+      'J potential', 'Hpressure'     -> ')' dropped (and maybe the space)
+      'D normal', 'Dnatural', ') properly' -> 'I)' read as a bare D or a lone ')'
+    Clean 'X) word' entries win (the last one for a repeated label: anything earlier is the
+    tail of the passage). Labels still missing are then recovered, in this order, from what
+    is left of the text once the clean entries are removed.
+    """
+    text = re.sub(r'(?<![A-Za-z])0\s*([).])', r'O\1', bank_text)
+    text = re.sub(r'(?<![A-Za-z])l\)', 'I)', text)
+
+    # Most papers print "A) word"; some print "A.word". The period form is the looser
+    # pattern (an initial like "U.S." can imitate it), so only fall back to it when the
+    # paren form clearly did not find a bank.
+    strict = re.compile(r'(?<![A-Za-z])([A-O])\)\s*([A-Za-z\-]+)')
+    if len(set(m.group(1) for m in strict.finditer(text))) < 10:
+        strict = re.compile(r'(?<![A-Za-z])([A-O])\s*[).]\s*([A-Za-z\-]+)')
+    words, bank_start = {}, None
+    for m in strict.finditer(text):
+        words[m.group(1)] = m.group(2)
+        if bank_start is None:
+            bank_start = m.start()
+    if bank_start is None:
+        return []
+
+    bank_only = text[bank_start:]
+    residual = strict.sub(' ', bank_only)
+    used = lambda word: word in words.values()
+    missing = lambda: [label for label in BANK_LABELS if label not in words]
+
+    # 1. a stray letter glued to the label: 'ID)literary', 'OM) splitting'
+    for label in missing():
+        m = re.search(rf'(?<![A-Za-z])(?:[A-Z]{label}|{label}[A-Z])\)\s*([A-Za-z\-]+)', bank_only)
+        if m and not used(m.group(1)):
+            words[label] = m.group(1)
+    # 2. the label with its ')' dropped, maybe glued to the word: 'J potential', 'Hpressure'
+    for label in missing():
+        m = re.search(rf'(?<![A-Za-z]){label}\s*\)?\s*([a-z][A-Za-z\-]*)', residual)
+        if m and not used(m.group(1)):
+            words[label] = m.group(1)
+    # 3. 'I)' read as a bare D or a lone ')': 'D normal', 'Dnatural', ') properly'
+    for m in re.finditer(r'(?<![A-Za-z])(?:D|\))\s*([A-Za-z][A-Za-z\-]+)', residual):
+        if missing() and not used(m.group(1)):
+            words['I' if 'I' in missing() else missing()[0]] = m.group(1)
+    # 4. a single label left: whatever bare 'X word' remains is it
+    if len(missing()) == 1:
+        m = re.search(r'(?<![A-Za-z])[A-O] ([A-Za-z][A-Za-z\-]+)', residual)
+        if m and not used(m.group(1)):
+            words[missing()[0]] = m.group(1)
+
+    return [{'label': label, 'text': words[label]} for label in sorted(words)]
+
+
+def pdf_text(file_path):
     with pdfplumber.open(file_path) as pdf:
         full_text = ""
         for page in pdf.pages:
@@ -88,6 +152,34 @@ def parse_cet_pdf_v2(file_path):
             text = page.extract_text(x_tolerance=2, y_tolerance=3)
             if text:
                 full_text += text + "\n"
+    return full_text
+
+OCR_DIGITS = str.maketrans({'l': '1', 'I': '1', 'O': '0', 'o': '0'})
+
+def normalize_ocr(text):
+    """Undo the misreads OCR makes exactly where the parser keys on digits: 'l'/'I' for 1 and
+    'O'/'o' for 0 in question numbers at line starts and in 'Questions X to Y' headings, and a
+    comma or colon after a question number ('12, A)' -> '12. A)')."""
+    text = re.sub(r'Questions\s+([0-9lIOo]{1,2})\s+(and|to)\s+([0-9lIOo]{1,2})\b',
+                  lambda m: f"Questions {m.group(1).translate(OCR_DIGITS)} {m.group(2)} "
+                            f"{m.group(3).translate(OCR_DIGITS)}", text)
+    text = re.sub(r'(?m)^([ \t]*)([0-9lIOo]{1,2})[ \t]*[.,:、．][ \t]*(?=[A-Z(])',
+                  lambda m: f"{m.group(1)}{m.group(2).translate(OCR_DIGITS)}. ", text)
+    return text
+
+def load_text(file_path, allow_ocr=False):
+    """Text of a paper: its own text layer, else the cached OCR (or OCR now when allowed)."""
+    text = pdf_text(file_path)
+    if len(text.strip()) >= 500:
+        return text
+    text = ocr.ocr_pdf(file_path) if allow_ocr else ocr.cached_text(file_path)
+    return normalize_ocr(text) if text else ''
+
+def parse_cet_pdf_v2(file_path, allow_ocr=False):
+    return parse_cet_text(load_text(file_path, allow_ocr))
+
+def parse_cet_text(full_text):
+    groups = []
 
     # Clean the text from noise before processing
     full_text = clean_noise(full_text)
@@ -136,15 +228,23 @@ def parse_cet_pdf_v2(file_path):
                 groups.append(group)
 
     # --- 2. Banked Cloze (Section A) ---
-    cloze_section = re.search(r'Section\s*A.*?ten\s*blanks.*?(.*?)([A-Z]\)\s*[A-Z].*?)(?=(?:Section\s*B|Part\s*IV|$))', norm_text, re.DOTALL | re.IGNORECASE)
-    if cloze_section:
-        passage = cloze_section.group(1).strip()
-        bank_text = cloze_section.group(2).strip()
-        
-        bank = []
-        bank_matches = re.findall(r'([A-Z])\)\s*([A-Za-z\-]+)', bank_text)
-        for label, word in bank_matches:
-            bank.append({'label': label, 'text': word})
+    # The bank is the tail of the Section A region. Bound that region at Section B FIRST:
+    # papers that typeset the bank as "A.acknowledge" instead of "A) acknowledge" have no
+    # "X)" in Section A at all, and a regex allowed to run past the boundary happily binds
+    # the "bank" to Section B's paragraph letters, giving the student 15 nonsense words.
+    cloze_start = re.search(r'Section\s*A.*?ten\s*blanks', norm_text, re.DOTALL | re.IGNORECASE)
+    if cloze_start:
+        region_end = re.search(r'Section\s*B|Part\s*IV', norm_text[cloze_start.end():], re.IGNORECASE)
+        region = norm_text[cloze_start.end():
+                           cloze_start.end() + (region_end.start() if region_end else 15000)]
+        # Label A opens the bank; take its LAST occurrence, since the passage above may
+        # contain an "A)" of its own.
+        starts = [m.start() for m in re.finditer(r'(?<![A-Za-z])A\s*[).]\s*[A-Za-z]', region)]
+        split_at = starts[-1] if starts else len(region)
+        passage = region[:split_at].strip()
+        bank_text = region[split_at:].strip()
+
+        bank = extract_word_bank(bank_text)
             
         if bank:
             groups.append({
@@ -201,7 +301,14 @@ def parse_cet_pdf_v2(file_path):
     # Questions 1and2are basedon thenewsreport you havejustheard.
     # Use list() because iterators are one-time use
     # Flexible regex: remove mandatory period at the end and handle missing spaces
-    listening_pattern = r'Questions\s*(\d+)\s*(?:and|to|-|~)\s*(\d+)\s*are\s*based\s*on\s*the\s*(?:passage|news\s*report|conversation)\s*you\s*have\s*just\s*heard'
+    listening_pattern = (
+        r'Questions\s*(\d+)\s*(?:and|to|-|~)\s*(\d+)\s*are\s*based\s*on\s*the\s*'
+        # CET-4 hears news reports, conversations and passages; CET-6 also hears
+        # recordings and lectures. The noun itself is optional: extraction sometimes
+        # drops it ('based on the you have just heard') and the heading is still one.
+        r'(?:passage|news\s*report|conversation|recording|lecture|talk)?\s*'
+        r'you\s*have\s*just\s*heard'
+    )
     listening_groups = list(re.finditer(listening_pattern, norm_text, re.IGNORECASE))
     
     if not listening_groups:
@@ -210,6 +317,10 @@ def parse_cet_pdf_v2(file_path):
     
     for match in listening_groups:
         start_q, end_q = int(match.group(1)), int(match.group(2))
+        # Reading headers may contain OCR-spliced "heard" text. Listening only
+        # occupies questions 1-25 in both CET-4 and CET-6.
+        if not 1 <= start_q <= end_q <= 25:
+            continue
         mcqs = []
         for q_num in range(start_q, end_q + 1):
             q_data = extract_mcq_robust(q_num, full_text, "Listening Comprehension")

@@ -1,0 +1,5855 @@
+{
+  "proposed": [
+    {
+      "id": 1366,
+      "source": "2019-06-CET4-1.pdf",
+      "number": 46,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1385,
+      "source": "2019-06-CET4-1.pdf",
+      "number": 36,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1388,
+      "source": "2019-06-CET4-1.pdf",
+      "number": 39,
+      "answer": "N",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1390,
+      "source": "2019-06-CET4-1.pdf",
+      "number": 41,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1401,
+      "source": "2019-06-CET4-1.pdf",
+      "number": 7,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1403,
+      "source": "2019-06-CET4-1.pdf",
+      "number": 9,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1406,
+      "source": "2019-06-CET4-1.pdf",
+      "number": 12,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1420,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 46,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1427,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 53,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1431,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 27,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 1440,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 36,
+      "answer": "H",
+      "identity_score": 0.99830220713073
+    },
+    {
+      "id": 1441,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 37,
+      "answer": "E",
+      "identity_score": 0.9740932642487047
+    },
+    {
+      "id": 1443,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 39,
+      "answer": "B",
+      "identity_score": 0.9932885906040269
+    },
+    {
+      "id": 1445,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 41,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1454,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 5,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1455,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 6,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1456,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 7,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1460,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 11,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1465,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 16,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1466,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 17,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1473,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 24,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1478,
+      "source": "2019-06-CET4-3.pdf",
+      "number": 49,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1639,
+      "source": "2019-12-CET4-3.pdf",
+      "number": 40,
+      "answer": "B",
+      "identity_score": 0.9728209934395501
+    },
+    {
+      "id": 1765,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 28,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 1777,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 40,
+      "answer": "G",
+      "identity_score": 0.9942196531791907
+    },
+    {
+      "id": 1803,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 22,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2287,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 46,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2288,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 47,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2289,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 48,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2290,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 49,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2291,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 50,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2292,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 51,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2293,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 52,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2294,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 53,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2295,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 54,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2297,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 26,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2298,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 27,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2299,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 28,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2300,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 29,
+      "answer": "K",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2301,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 30,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2302,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 31,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2303,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 32,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2304,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 33,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2305,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 34,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2306,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 35,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2307,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 36,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2308,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 37,
+      "answer": "J",
+      "identity_score": 0.9940119760479041
+    },
+    {
+      "id": 2309,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 38,
+      "answer": "F",
+      "identity_score": 0.9986577181208054
+    },
+    {
+      "id": 2310,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 39,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2311,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 40,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2312,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 41,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2313,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 42,
+      "answer": "M",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2314,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 43,
+      "answer": "H",
+      "identity_score": 0.9479768786127167
+    },
+    {
+      "id": 2315,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 44,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2316,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 45,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2317,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 1,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2318,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 2,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2319,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 3,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2320,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 4,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2321,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 5,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2322,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 7,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2323,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 8,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2324,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 9,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2325,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 10,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2326,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 11,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2327,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 12,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2328,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 13,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2329,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 14,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2330,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 15,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2331,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 16,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2332,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 17,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2333,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 18,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2334,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 19,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2335,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 20,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2336,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 21,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2337,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 22,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2338,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 23,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1812,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 51,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1817,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 26,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 1820,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 29,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 1847,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 11,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1854,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 18,
+      "answer": "C",
+      "identity_score": 0.9423076923076923
+    },
+    {
+      "id": 1855,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 19,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1858,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 22,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1860,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 24,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1861,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 25,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1881,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 35,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 1885,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 39,
+      "answer": "F",
+      "identity_score": 0.9819819819819819
+    },
+    {
+      "id": 1887,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 41,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2341,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 47,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2342,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 48,
+      "answer": "B",
+      "identity_score": 0.9904761904761905
+    },
+    {
+      "id": 2344,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 50,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2345,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 51,
+      "answer": "A",
+      "identity_score": 0.9850746268656716
+    },
+    {
+      "id": 2346,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 52,
+      "answer": "D",
+      "identity_score": 0.9863013698630136
+    },
+    {
+      "id": 2347,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 53,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2348,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 54,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2349,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 55,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2352,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 28,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2353,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 29,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2354,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 30,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2357,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 33,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2358,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 34,
+      "answer": "K",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2359,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 35,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2364,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 40,
+      "answer": "M",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2365,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 41,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2366,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 42,
+      "answer": "B",
+      "identity_score": 0.998109640831758
+    },
+    {
+      "id": 2368,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 44,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2372,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 3,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2373,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 4,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2375,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 6,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2376,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 7,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2377,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 8,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2380,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 11,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2383,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 14,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2384,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 15,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2385,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 16,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2387,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 18,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2389,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 20,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2390,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 21,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2392,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 23,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2393,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 24,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2395,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 26,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2396,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 27,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2397,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 28,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2398,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 29,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2399,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 30,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2400,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 31,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2401,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 32,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2402,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 33,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2403,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 34,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2404,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 35,
+      "answer": "K",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2405,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 36,
+      "answer": "D",
+      "identity_score": 0.9438202247191011
+    },
+    {
+      "id": 2406,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 37,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2407,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 38,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2408,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 39,
+      "answer": "B",
+      "identity_score": 0.9883198562443846
+    },
+    {
+      "id": 2409,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 40,
+      "answer": "K",
+      "identity_score": 0.9931318681318682
+    },
+    {
+      "id": 2411,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 42,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2412,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 43,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2413,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 44,
+      "answer": "I",
+      "identity_score": 0.9966733200266135
+    },
+    {
+      "id": 1897,
+      "source": "2020-12-CET4-1.pdf",
+      "number": 51,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1916,
+      "source": "2020-12-CET4-1.pdf",
+      "number": 40,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1917,
+      "source": "2020-12-CET4-1.pdf",
+      "number": 41,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1925,
+      "source": "2020-12-CET4-1.pdf",
+      "number": 4,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1931,
+      "source": "2020-12-CET4-1.pdf",
+      "number": 10,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1932,
+      "source": "2020-12-CET4-1.pdf",
+      "number": 11,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1950,
+      "source": "2020-12-CET4-2.pdf",
+      "number": 49,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1960,
+      "source": "2020-12-CET4-2.pdf",
+      "number": 34,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 1966,
+      "source": "2020-12-CET4-2.pdf",
+      "number": 40,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1967,
+      "source": "2020-12-CET4-2.pdf",
+      "number": 41,
+      "answer": "F",
+      "identity_score": 0.996551724137931
+    },
+    {
+      "id": 1991,
+      "source": "2020-12-CET4-2.pdf",
+      "number": 20,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2020,
+      "source": "2020-12-CET4-3.pdf",
+      "number": 40,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2021,
+      "source": "2020-12-CET4-3.pdf",
+      "number": 41,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1647,
+      "source": "2021-06-CET4-1.pdf",
+      "number": 48,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 1664,
+      "source": "2021-06-CET4-1.pdf",
+      "number": 40,
+      "answer": "H",
+      "identity_score": 0.9957301451750641
+    },
+    {
+      "id": 1665,
+      "source": "2021-06-CET4-1.pdf",
+      "number": 41,
+      "answer": "E",
+      "identity_score": 0.9929078014184397
+    },
+    {
+      "id": 1702,
+      "source": "2021-06-CET4-2.pdf",
+      "number": 40,
+      "answer": "K",
+      "identity_score": 0.9923371647509579
+    },
+    {
+      "id": 1703,
+      "source": "2021-06-CET4-2.pdf",
+      "number": 41,
+      "answer": "D",
+      "identity_score": 0.9505962521294719
+    },
+    {
+      "id": 1731,
+      "source": "2021-06-CET4-3.pdf",
+      "number": 49,
+      "answer": "C",
+      "identity_score": 0.9824561403508771
+    },
+    {
+      "id": 1741,
+      "source": "2021-06-CET4-3.pdf",
+      "number": 29,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 1752,
+      "source": "2021-06-CET4-3.pdf",
+      "number": 40,
+      "answer": "I",
+      "identity_score": 0.9701492537313433
+    },
+    {
+      "id": 1753,
+      "source": "2021-06-CET4-3.pdf",
+      "number": 41,
+      "answer": "F",
+      "identity_score": 0.9910179640718563
+    },
+    {
+      "id": 2039,
+      "source": "2021-12-CET4-1.pdf",
+      "number": 39,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2041,
+      "source": "2021-12-CET4-1.pdf",
+      "number": 41,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2198,
+      "source": "2021-12-CET4-1.pdf",
+      "number": 1,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2199,
+      "source": "2021-12-CET4-1.pdf",
+      "number": 2,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2073,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 40,
+      "answer": "M",
+      "identity_score": 0.9840425531914894
+    },
+    {
+      "id": 2074,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 41,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2220,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 51,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2221,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 52,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2222,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 53,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2224,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 1,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2225,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 2,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2226,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 3,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2227,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 4,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2228,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 5,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2229,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 6,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2230,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 7,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2231,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 8,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2232,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 9,
+      "answer": "C",
+      "identity_score": 0.9722222222222222
+    },
+    {
+      "id": 2233,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 10,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2234,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 11,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2100,
+      "source": "2021-12-CET4-3.pdf",
+      "number": 33,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2102,
+      "source": "2021-12-CET4-3.pdf",
+      "number": 35,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2106,
+      "source": "2021-12-CET4-3.pdf",
+      "number": 39,
+      "answer": "D",
+      "identity_score": 0.9464285714285714
+    },
+    {
+      "id": 2107,
+      "source": "2021-12-CET4-3.pdf",
+      "number": 40,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2115,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 48,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2116,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 49,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2118,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 51,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2138,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 41,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2139,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 42,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2146,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 4,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2151,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 9,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2168,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 26,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2175,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 33,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2183,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 41,
+      "answer": "B",
+      "identity_score": 0.9971910112359551
+    },
+    {
+      "id": 2184,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 42,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2255,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 47,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2261,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 54,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2263,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 2,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2264,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 3,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2265,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 4,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2266,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 5,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2267,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 6,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2269,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 8,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2270,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 9,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2271,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 10,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2272,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 11,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2273,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 12,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2274,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 13,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2281,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 21,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2415,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 46,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2417,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 48,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2418,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 49,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2419,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 50,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2420,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 51,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2421,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 52,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2422,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 53,
+      "answer": "A",
+      "identity_score": 0.994413407821229
+    },
+    {
+      "id": 2423,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 26,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2424,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 27,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2425,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 28,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2426,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 29,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2427,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 30,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2428,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 31,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2429,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 32,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2430,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 33,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2431,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 34,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2432,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 35,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2433,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 36,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2434,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 37,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2435,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 38,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2436,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 39,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2437,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 40,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2438,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 41,
+      "answer": "D",
+      "identity_score": 0.9803921568627451
+    },
+    {
+      "id": 2439,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 42,
+      "answer": "N",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2440,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 43,
+      "answer": "J",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2441,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 44,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2442,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 45,
+      "answer": "O",
+      "identity_score": 0.9988776655443322
+    },
+    {
+      "id": 2443,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 1,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2444,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 2,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2445,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 3,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2446,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 4,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2447,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 5,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2448,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 6,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2450,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 8,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2451,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 9,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2452,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 10,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2453,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 11,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2454,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 12,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2455,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 13,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2456,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 14,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2457,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 15,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2458,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 16,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2459,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 17,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2460,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 18,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2461,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 19,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2462,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 20,
+      "answer": "B",
+      "identity_score": 0.9873417721518988
+    },
+    {
+      "id": 2463,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 21,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2464,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 22,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2465,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 23,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2466,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 24,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2467,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 25,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2468,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 46,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2469,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 47,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2470,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 48,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2471,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 49,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2472,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 50,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2473,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 51,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2474,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 52,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2475,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 53,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2476,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 54,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2477,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 55,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2478,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 26,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2479,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 27,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2480,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 28,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2481,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 29,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2482,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 30,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2483,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 31,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2484,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 32,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2485,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 33,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2486,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 34,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2487,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 35,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2488,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 36,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2489,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 37,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2490,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 38,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2491,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 39,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2492,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 40,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2493,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 41,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2495,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 44,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2496,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 45,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2497,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 1,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2498,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 2,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2499,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 3,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2500,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 4,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2501,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 5,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2502,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 6,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2504,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 8,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2505,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 9,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2506,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 10,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2507,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 11,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2508,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 12,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2509,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 13,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2510,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 14,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2511,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 15,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2512,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 16,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2513,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 17,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2514,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 18,
+      "answer": "C",
+      "identity_score": 0.9900990099009901
+    },
+    {
+      "id": 2515,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 19,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2516,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 20,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2517,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 21,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2518,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 22,
+      "answer": "B",
+      "identity_score": 0.9811320754716981
+    },
+    {
+      "id": 2519,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 23,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2520,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 24,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2521,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 25,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2522,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 46,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2523,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 47,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2524,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 48,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2525,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 49,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2526,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 50,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2527,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 51,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2528,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 52,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2529,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 53,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2530,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 54,
+      "answer": "D",
+      "identity_score": 0.9855072463768116
+    },
+    {
+      "id": 2531,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 55,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2532,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 26,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2533,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 27,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2534,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 28,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2535,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 29,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2536,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 30,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2537,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 31,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2538,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 32,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2539,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 33,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2540,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 34,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2541,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 35,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2542,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 36,
+      "answer": "D",
+      "identity_score": 0.9973404255319149
+    },
+    {
+      "id": 2543,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 37,
+      "answer": "H",
+      "identity_score": 0.9985775248933144
+    },
+    {
+      "id": 2544,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 38,
+      "answer": "N",
+      "identity_score": 0.9946524064171123
+    },
+    {
+      "id": 2545,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 39,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2546,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 40,
+      "answer": "B",
+      "identity_score": 0.9959839357429718
+    },
+    {
+      "id": 2547,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 41,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2548,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 42,
+      "answer": "E",
+      "identity_score": 0.9992542878448919
+    },
+    {
+      "id": 2551,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 45,
+      "answer": "L",
+      "identity_score": 0.9981785063752276
+    },
+    {
+      "id": 2552,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 46,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2553,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 47,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2554,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 48,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2555,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 49,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2556,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 50,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2557,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 51,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2558,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 52,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2559,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 53,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2560,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 54,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2561,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 55,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2562,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 26,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2563,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 27,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2564,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 28,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2565,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 29,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2566,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 30,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2567,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 31,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2568,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 32,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2569,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 33,
+      "answer": "K",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2570,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 34,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2571,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 35,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2572,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 36,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2573,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 37,
+      "answer": "C",
+      "identity_score": 0.998766954377312
+    },
+    {
+      "id": 2574,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 38,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2575,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 39,
+      "answer": "J",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2576,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 40,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2577,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 41,
+      "answer": "O",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2578,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 42,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2579,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 43,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2580,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 44,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2581,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 45,
+      "answer": "K",
+      "identity_score": 0.995475113122172
+    },
+    {
+      "id": 2582,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 1,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2583,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 2,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2584,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 3,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2585,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 4,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2586,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 5,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2587,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 6,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2588,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 7,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2589,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 8,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2590,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 9,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2591,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 10,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2592,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 11,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2593,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 12,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2594,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 13,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2595,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 14,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2596,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 15,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2597,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 16,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2598,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 17,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2599,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 18,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2600,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 19,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2601,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 20,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2602,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 21,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2603,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 22,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2604,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 23,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2605,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 24,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2606,
+      "source": "2024-12-CET6-1.pdf",
+      "number": 25,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2607,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 46,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2608,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 47,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2609,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 48,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2610,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 49,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2611,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 50,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2612,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 51,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2613,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 52,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2614,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 53,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2615,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 54,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2616,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 55,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2617,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 26,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2618,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 27,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2619,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 28,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2620,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 29,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2621,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 30,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2622,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 31,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2623,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 32,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2624,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 33,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2625,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 34,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2626,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 35,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2627,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 36,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2628,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 37,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2629,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 38,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2630,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 39,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2631,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 40,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2632,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 41,
+      "answer": "M",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2633,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 42,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2634,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 43,
+      "answer": "N",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2635,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 44,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2636,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 45,
+      "answer": "J",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2637,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 1,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2638,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 2,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2639,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 3,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2640,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 4,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2641,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 5,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2642,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 6,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2643,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 7,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2644,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 8,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2645,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 9,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2646,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 10,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2647,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 11,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2648,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 12,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2649,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 13,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2650,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 14,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2651,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 15,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2652,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 16,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2653,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 17,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2654,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 18,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2655,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 19,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2656,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 20,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2657,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 21,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2658,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 22,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2659,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 23,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2660,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 24,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2661,
+      "source": "2024-12-CET6-2.pdf",
+      "number": 25,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2662,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 46,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2663,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 47,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2664,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 48,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2665,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 49,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2666,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 50,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2667,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 51,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2668,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 52,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2669,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 53,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2670,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 54,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2671,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 55,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2672,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 26,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2673,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 27,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2674,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 28,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2675,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 29,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2676,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 30,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2677,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 31,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2678,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 32,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2679,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 33,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2680,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 34,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2681,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 35,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2682,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 36,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2683,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 37,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2684,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 38,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2685,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 39,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2686,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 40,
+      "answer": "M",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2687,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 41,
+      "answer": "J",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2688,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 42,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2689,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 43,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2690,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 44,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2691,
+      "source": "2024-12-CET6-3.pdf",
+      "number": 45,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2692,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 46,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2693,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 47,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2694,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 48,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2695,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 49,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2696,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 50,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2697,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 51,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2698,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 52,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2699,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 53,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2700,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 54,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2701,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 55,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2702,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 26,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2703,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 27,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2704,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 28,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2705,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 29,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2706,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 30,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2707,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 31,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2708,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 32,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2709,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 33,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2710,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 34,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2711,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 35,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2712,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 36,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2713,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 37,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2714,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 38,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2715,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 39,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2716,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 40,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2717,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 41,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2718,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 42,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2719,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 43,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2720,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 44,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2721,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 45,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2722,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 1,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2723,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 2,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2724,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 3,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2725,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 4,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2726,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 5,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2727,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 6,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2728,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 7,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2729,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 8,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2730,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 9,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2731,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 10,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2732,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 11,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2733,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 12,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2734,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 13,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2735,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 14,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2736,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 15,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2737,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 16,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2738,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 17,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2739,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 18,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2740,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 19,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2741,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 20,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2742,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 21,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2743,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 22,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2744,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 23,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2745,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 24,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2746,
+      "source": "2025-06-CET6-1.pdf",
+      "number": 25,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2747,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 46,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2748,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 47,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2749,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 48,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2750,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 49,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2751,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 50,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2752,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 51,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2753,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 52,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2754,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 53,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2755,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 54,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2756,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 55,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2757,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 26,
+      "answer": "K",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2758,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 27,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2759,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 28,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2760,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 29,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2761,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 30,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2762,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 31,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2763,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 32,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2764,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 33,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2765,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 34,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2766,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 35,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2767,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 36,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2768,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 37,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2769,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 38,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2770,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 39,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2771,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 40,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2772,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 41,
+      "answer": "M",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2773,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 42,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2774,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 43,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2775,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 44,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2776,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 45,
+      "answer": "J",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2777,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 1,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2778,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 2,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2779,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 3,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2780,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 4,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2781,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 5,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2782,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 6,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2783,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 7,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2784,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 8,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2785,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 9,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2786,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 10,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2787,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 11,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2788,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 12,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2789,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 13,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2790,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 14,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2791,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 15,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2792,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 16,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2793,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 17,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2794,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 18,
+      "answer": "D",
+      "identity_score": 0.9577464788732394
+    },
+    {
+      "id": 2795,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 19,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2796,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 20,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2797,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 21,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2798,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 22,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2799,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 23,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2800,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 24,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2801,
+      "source": "2025-06-CET6-2.pdf",
+      "number": 25,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2802,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 46,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2803,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 47,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2804,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 48,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2805,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 49,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2806,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 50,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2807,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 51,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2808,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 52,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2809,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 53,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2810,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 54,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2811,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 55,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2812,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 26,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2813,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 27,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2814,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 28,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2815,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 29,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2816,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 30,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2817,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 31,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2818,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 32,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2819,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 33,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2820,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 34,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2821,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 35,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2822,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 36,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2823,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 37,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2824,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 38,
+      "answer": "B",
+      "identity_score": 0.9980276134122288
+    },
+    {
+      "id": 2825,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 39,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2826,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 40,
+      "answer": "M",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2827,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 41,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2829,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 43,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2830,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 44,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2831,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 45,
+      "answer": "N",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2832,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 46,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2833,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 47,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2834,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 48,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2835,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 49,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2836,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 50,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2837,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 51,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2838,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 52,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2839,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 53,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2840,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 54,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2841,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 55,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2842,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 26,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2843,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 27,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2844,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 28,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2845,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 29,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2846,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 30,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2847,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 31,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2848,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 32,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2849,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 33,
+      "answer": "K",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2850,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 34,
+      "answer": "L",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2851,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 35,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2852,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 36,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2853,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 37,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2854,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 38,
+      "answer": "D",
+      "identity_score": 0.9939393939393939
+    },
+    {
+      "id": 2855,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 39,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2856,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 40,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2857,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 41,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2858,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 42,
+      "answer": "M",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2859,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 43,
+      "answer": "J",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2861,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 45,
+      "answer": "G",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2862,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 1,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2863,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 2,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2864,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 3,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2865,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 4,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2866,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 5,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2867,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 6,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2868,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 7,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2869,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 8,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2870,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 9,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2871,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 10,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2872,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 11,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2873,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 12,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2874,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 13,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2875,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 14,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2876,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 15,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2877,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 16,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2878,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 17,
+      "answer": "A",
+      "identity_score": 0.9577464788732394
+    },
+    {
+      "id": 2879,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 18,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2880,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 19,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2881,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 20,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2882,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 21,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2883,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 22,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2884,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 23,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2885,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 24,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2886,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 25,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2887,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 46,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2888,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 47,
+      "answer": "B",
+      "identity_score": 0.9876543209876543
+    },
+    {
+      "id": 2889,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 48,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2890,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 49,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2891,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 50,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2892,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 51,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2893,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 52,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2894,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 53,
+      "answer": "D",
+      "identity_score": 0.95
+    },
+    {
+      "id": 2895,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 54,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2896,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 55,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2897,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 26,
+      "answer": "I",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2898,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 27,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2899,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 28,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2900,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 29,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2901,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 30,
+      "answer": "K",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2902,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 31,
+      "answer": "A",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2903,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 32,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2904,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 33,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2905,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 34,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2906,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 35,
+      "answer": "O",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2907,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 36,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2908,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 37,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2909,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 38,
+      "answer": "J",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2910,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 39,
+      "answer": "E",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2911,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 40,
+      "answer": "M",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2912,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 41,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2914,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 43,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2915,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 44,
+      "answer": "N",
+      "identity_score": 0.9964912280701754
+    },
+    {
+      "id": 2916,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 45,
+      "answer": "H",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2917,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 1,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2918,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 2,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2919,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 3,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2920,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 4,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2921,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 5,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2922,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 6,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2923,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 7,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2924,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 8,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2925,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 9,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2926,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 10,
+      "answer": "C",
+      "identity_score": 0.9894736842105263
+    },
+    {
+      "id": 2927,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 11,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2928,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 12,
+      "answer": "C",
+      "identity_score": 0.9902912621359223
+    },
+    {
+      "id": 2929,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 13,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2930,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 14,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2931,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 15,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2932,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 16,
+      "answer": "C",
+      "identity_score": 0.9795918367346939
+    },
+    {
+      "id": 2933,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 17,
+      "answer": "B",
+      "identity_score": 0.9902912621359223
+    },
+    {
+      "id": 2934,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 18,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2935,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 19,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2936,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 20,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2937,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 21,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2938,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 22,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2939,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 23,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2940,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 24,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2941,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 25,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2942,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 46,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2943,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 47,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2944,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 48,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2945,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 49,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2946,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 50,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2947,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 51,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2948,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 52,
+      "answer": "C",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2949,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 53,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2950,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 54,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2951,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 55,
+      "answer": "D",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2952,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 26,
+      "answer": "N",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2953,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 27,
+      "answer": "G",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2954,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 28,
+      "answer": "F",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2955,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 29,
+      "answer": "J",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2956,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 30,
+      "answer": "H",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2957,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 31,
+      "answer": "M",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2958,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 32,
+      "answer": "E",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2959,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 33,
+      "answer": "C",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2960,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 34,
+      "answer": "D",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2961,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 35,
+      "answer": "B",
+      "identity_score": 0.94
+    },
+    {
+      "id": 2963,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 37,
+      "answer": "I",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2964,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 38,
+      "answer": "A",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2965,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 39,
+      "answer": "J",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2967,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 41,
+      "answer": "L",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2968,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 42,
+      "answer": "F",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2969,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 43,
+      "answer": "K",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2970,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 44,
+      "answer": "B",
+      "identity_score": 1.0
+    },
+    {
+      "id": 2971,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 45,
+      "answer": "N",
+      "identity_score": 1.0
+    }
+  ],
+  "unresolved": [
+    {
+      "id": 1442,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 38,
+      "answer": "G",
+      "identity_score": null
+    },
+    {
+      "id": 1482,
+      "source": "2019-06-CET4-3.pdf",
+      "number": 53,
+      "answer": "A",
+      "identity_score": null
+    },
+    {
+      "id": 1526,
+      "source": "2019-12-CET4-1.pdf",
+      "number": 37,
+      "answer": "I",
+      "identity_score": null
+    },
+    {
+      "id": 1530,
+      "source": "2019-12-CET4-1.pdf",
+      "number": 41,
+      "answer": "F",
+      "identity_score": null
+    },
+    {
+      "id": 1532,
+      "source": "2019-12-CET4-1.pdf",
+      "number": 43,
+      "answer": "J",
+      "identity_score": null
+    },
+    {
+      "id": 1533,
+      "source": "2019-12-CET4-1.pdf",
+      "number": 44,
+      "answer": "D",
+      "identity_score": null
+    },
+    {
+      "id": 1542,
+      "source": "2019-12-CET4-1.pdf",
+      "number": 8,
+      "answer": "C",
+      "identity_score": null
+    },
+    {
+      "id": 1548,
+      "source": "2019-12-CET4-1.pdf",
+      "number": 14,
+      "answer": "C",
+      "identity_score": null
+    },
+    {
+      "id": 1581,
+      "source": "2019-12-CET4-2.pdf",
+      "number": 37,
+      "answer": "I",
+      "identity_score": null
+    },
+    {
+      "id": 1590,
+      "source": "2019-12-CET4-2.pdf",
+      "number": 1,
+      "answer": "D",
+      "identity_score": null
+    },
+    {
+      "id": 1598,
+      "source": "2019-12-CET4-2.pdf",
+      "number": 9,
+      "answer": "B",
+      "identity_score": null
+    },
+    {
+      "id": 1600,
+      "source": "2019-12-CET4-2.pdf",
+      "number": 11,
+      "answer": "C",
+      "identity_score": null
+    },
+    {
+      "id": 1601,
+      "source": "2019-12-CET4-2.pdf",
+      "number": 12,
+      "answer": "A",
+      "identity_score": null
+    },
+    {
+      "id": 1611,
+      "source": "2019-12-CET4-2.pdf",
+      "number": 22,
+      "answer": "A",
+      "identity_score": null
+    },
+    {
+      "id": 1612,
+      "source": "2019-12-CET4-2.pdf",
+      "number": 23,
+      "answer": "B",
+      "identity_score": null
+    },
+    {
+      "id": 1636,
+      "source": "2019-12-CET4-3.pdf",
+      "number": 37,
+      "answer": "I",
+      "identity_score": null
+    },
+    {
+      "id": 1637,
+      "source": "2019-12-CET4-3.pdf",
+      "number": 38,
+      "answer": "D",
+      "identity_score": null
+    },
+    {
+      "id": 1638,
+      "source": "2019-12-CET4-3.pdf",
+      "number": 39,
+      "answer": "G",
+      "identity_score": null
+    },
+    {
+      "id": 1643,
+      "source": "2019-12-CET4-3.pdf",
+      "number": 44,
+      "answer": "J",
+      "identity_score": null
+    },
+    {
+      "id": 1776,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 39,
+      "answer": "O",
+      "identity_score": null
+    },
+    {
+      "id": 1778,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 41,
+      "answer": "E",
+      "identity_score": null
+    },
+    {
+      "id": 2296,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 55,
+      "answer": "C",
+      "identity_score": null
+    },
+    {
+      "id": 2339,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 25,
+      "answer": "B",
+      "identity_score": null
+    },
+    {
+      "id": 1832,
+      "source": "2020-09-CET4-1.pdf",
+      "number": 41,
+      "answer": "I",
+      "identity_score": null
+    },
+    {
+      "id": 1886,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 40,
+      "answer": "H",
+      "identity_score": null
+    },
+    {
+      "id": 2367,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 43,
+      "answer": null,
+      "identity_score": null
+    },
+    {
+      "id": 2369,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 45,
+      "answer": "N",
+      "identity_score": null
+    },
+    {
+      "id": 2394,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 25,
+      "answer": "C",
+      "identity_score": null
+    },
+    {
+      "id": 2410,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 41,
+      "answer": "O",
+      "identity_score": null
+    },
+    {
+      "id": 2414,
+      "source": "2020-09-CET6-2.pdf",
+      "number": 45,
+      "answer": "N",
+      "identity_score": null
+    },
+    {
+      "id": 2072,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 39,
+      "answer": "I",
+      "identity_score": null
+    },
+    {
+      "id": 2223,
+      "source": "2021-12-CET4-2.pdf",
+      "number": 54,
+      "answer": "A",
+      "identity_score": null
+    },
+    {
+      "id": 2108,
+      "source": "2021-12-CET4-3.pdf",
+      "number": 41,
+      "answer": "J",
+      "identity_score": null
+    },
+    {
+      "id": 2140,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 43,
+      "answer": "H",
+      "identity_score": null
+    },
+    {
+      "id": 2142,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 45,
+      "answer": "J",
+      "identity_score": null
+    },
+    {
+      "id": 2166,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 24,
+      "answer": "D",
+      "identity_score": null
+    },
+    {
+      "id": 2268,
+      "source": "2023-03-CET4-1.pdf",
+      "number": 7,
+      "answer": "B",
+      "identity_score": null
+    },
+    {
+      "id": 2416,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 47,
+      "answer": "D",
+      "identity_score": null
+    },
+    {
+      "id": 2449,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 7,
+      "answer": "A",
+      "identity_score": null
+    },
+    {
+      "id": 2494,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 42,
+      "answer": "J",
+      "identity_score": null
+    },
+    {
+      "id": 2503,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 7,
+      "answer": "D",
+      "identity_score": null
+    },
+    {
+      "id": 2549,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 43,
+      "answer": "I",
+      "identity_score": null
+    },
+    {
+      "id": 2550,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 44,
+      "answer": "C",
+      "identity_score": null
+    },
+    {
+      "id": 2828,
+      "source": "2025-06-CET6-3.pdf",
+      "number": 42,
+      "answer": "O",
+      "identity_score": null
+    },
+    {
+      "id": 2286,
+      "source": "2025-12-CET4-1.pdf",
+      "number": 47,
+      "answer": "C",
+      "identity_score": null
+    },
+    {
+      "id": 2860,
+      "source": "2025-12-CET6-1.pdf",
+      "number": 44,
+      "answer": "O",
+      "identity_score": null
+    },
+    {
+      "id": 2913,
+      "source": "2025-12-CET6-2.pdf",
+      "number": 42,
+      "answer": "O",
+      "identity_score": null
+    },
+    {
+      "id": 2962,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 36,
+      "answer": null,
+      "identity_score": null
+    },
+    {
+      "id": 2966,
+      "source": "2025-12-CET6-3.pdf",
+      "number": 40,
+      "answer": null,
+      "identity_score": null
+    }
+  ],
+  "conflicts": [
+    {
+      "id": 1422,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 48,
+      "answer": "C",
+      "identity_score": 1.0,
+      "existing": "B"
+    },
+    {
+      "id": 1446,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 42,
+      "answer": "I",
+      "identity_score": 0.9916666666666667,
+      "existing": "D"
+    },
+    {
+      "id": 1504,
+      "source": "2019-06-CET4-3.pdf",
+      "number": 45,
+      "answer": "I",
+      "identity_score": 0.9767441860465116,
+      "existing": "D"
+    },
+    {
+      "id": 1876,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 30,
+      "answer": "I",
+      "identity_score": 0.94,
+      "existing": "D"
+    },
+    {
+      "id": 2355,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 31,
+      "answer": "J",
+      "identity_score": 0.94,
+      "existing": "O"
+    },
+    {
+      "id": 1999,
+      "source": "2020-12-CET4-3.pdf",
+      "number": 48,
+      "answer": "B",
+      "identity_score": 1.0,
+      "existing": "D"
+    },
+    {
+      "id": 2098,
+      "source": "2021-12-CET4-3.pdf",
+      "number": 31,
+      "answer": "O",
+      "identity_score": 0.94,
+      "existing": "F"
+    },
+    {
+      "id": 2137,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 40,
+      "answer": "F",
+      "identity_score": 0.9938461538461538,
+      "existing": "D"
+    }
+  ],
+  "existing_agree": 606,
+  "sources": {
+    "2019-06-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2019-06-1/",
+      "sha256": "5cdcf3ec5d24426154ac28dee1e117b99b7197601fd6838e90f0be70242a36a1"
+    },
+    "2019-06-CET4-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2019-06-2/",
+      "sha256": "3ab52d0f2e0360dcefd812e2bc5d1c8755aa044054de800f0a86f77cf75fe562"
+    },
+    "2019-06-CET4-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2019-06-3/",
+      "sha256": "31a6bff3e2202a9c51ffcaab0c4207e6c57b6edcac21221ea82f39b4d1b9e214"
+    },
+    "2019-12-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2019-12-1/",
+      "sha256": "5b9a7da84984bef05732075823ef8309b65725c4c8fd687541dac1b90f74b630"
+    },
+    "2019-12-CET4-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2019-12-2/",
+      "sha256": "a92d805b7672595b4dd59cc2043f4b0a7baf8153370a2bd87c6dee606b075a90"
+    },
+    "2019-12-CET4-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2019-12-3/",
+      "sha256": "8a0626957c231d15afdecc51251e8243f3d938bc56458e2fd9a88820307c377f"
+    },
+    "2020-07-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+      "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+    },
+    "2020-07-CET6-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+      "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+    },
+    "2020-09-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2020-09-1/",
+      "sha256": "f6858c460c62eb1ad57e9f47d0c4059215c2e84b0501bc4cec8ef1055c3e9d64"
+    },
+    "2020-09-CET4-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2020-09-2/",
+      "sha256": "ba899e8c217d9d28a445ae5419575075ad972d6bb9ea52a85239e741391ee0c5"
+    },
+    "2020-09-CET6-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2020-09-1/",
+      "sha256": "b22df27f183c937e148924af0461be460aa9e468d4647d89abe87fdf45588e42"
+    },
+    "2020-09-CET6-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2020-09-2/",
+      "sha256": "105fed750bf12d7c05efe278ce235e67ab01cade432c608409d9766ea8f2eb56"
+    },
+    "2020-12-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2020-12-1/",
+      "sha256": "f41bede7b77b7b4fc79936c786af9f68717e871069ca6b663e24aeb93e44666f"
+    },
+    "2020-12-CET4-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2020-12-2/",
+      "sha256": "cf3e1ebe69b212fb5d37acd3d90ab79a4e1a4062b5e6656fe7f137df66889cb2"
+    },
+    "2020-12-CET4-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2020-12-3/",
+      "sha256": "f418b0af3a24ba21b2c5416b38793ae0bf44039251d308172b9a178d538661fe"
+    },
+    "2021-06-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2021-06-1/",
+      "sha256": "84981423e13e2b8f4605e572e1fe35379a0e325de9cc8b1ba29488e4c6ebeddd"
+    },
+    "2021-06-CET4-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2021-06-2/",
+      "sha256": "1b751613a7a807ed63300edaff54170aeccdb9986688c3a791cc246426c0dbe3"
+    },
+    "2021-06-CET4-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2021-06-3/",
+      "sha256": "1307458e634f1a5c398ea850efced0d16ac5367ffa2f1a76c2fa57da7c3cf3aa"
+    },
+    "2021-12-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2021-12-1/",
+      "sha256": "034002987aa5f85ddd98ef5720a079b557dc0155807442de27da7e6e833cff82"
+    },
+    "2021-12-CET4-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2021-12-2/",
+      "sha256": "ec67a6ae94573b78e1cf2d8935d316a5500994198c4c4d99a73272774a66c98d"
+    },
+    "2021-12-CET4-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2021-12-3/",
+      "sha256": "cc4e3275ff7fd76a69f99cc2ad513ba138783609021e9e6eef263dbdbe25736c"
+    },
+    "2022-09-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2022-09-1/",
+      "sha256": "95af8e5e6ff9f2b2d712360bbcfa9f57103792538301beb01ca0ef27f418ffca"
+    },
+    "2023-03-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2023-03-1/",
+      "sha256": "661772add806f3da52820ff766de4d605d193844e68ce30ecaa75fc88f5e3eb5"
+    },
+    "2024-06-CET6-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2024-06-1/",
+      "sha256": "28bc14cd84bfe4fc6acf3755e9ff67981da5f245ddf4a208e770a5a8db12b199"
+    },
+    "2024-06-CET6-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2024-06-2/",
+      "sha256": "c047124174ea94a414c7480b1c852586d2a1888bfb3a3373dc2c200c8c39b793"
+    },
+    "2024-06-CET6-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2024-06-3/",
+      "sha256": "e71b03feac2a85282b7ce480fd416b155f09ebcd7f9fc0386a70bc7383ba83d9"
+    },
+    "2024-12-CET6-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2024-12-1/",
+      "sha256": "551ee33178f885185454d400ea95236209d49ab67ca43ee7ab064236ed33d752"
+    },
+    "2024-12-CET6-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2024-12-2/",
+      "sha256": "2f88e23dd73b2c57a7a0c843d98329378e2ef5f7410ebd774e1bb660617788a6"
+    },
+    "2024-12-CET6-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2024-12-3/",
+      "sha256": "3e3b33ac982cd8a11791d272673410f9239f4c6a4a4c1ed5b8d2f9a4f6bbddc8"
+    },
+    "2025-06-CET6-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2025-06-1/",
+      "sha256": "ebdbf3eab65f90ff26f559754d9937bd93414539cf3b61720c19ff1a34d164db"
+    },
+    "2025-06-CET6-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2025-06-2/",
+      "sha256": "f5de08719bd3cc693ad4c370d645dd78a80846d9a6fe8e2b62fd9b642ae6000b"
+    },
+    "2025-06-CET6-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2025-06-3/",
+      "sha256": "ddcf4173182923354d5d828dcd48c15d5e035807b18685d3ed78987781e19cf1"
+    },
+    "2025-12-CET4-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet4/paper/2025-12-1/",
+      "sha256": "f99e90771250bf6bc02ad7b2fbad5bf50a3b4871788b54f433b35c8adaac470d"
+    },
+    "2025-12-CET6-1.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2025-12-1/",
+      "sha256": "d2814a1913f894c574ba348d9c15e1a2fecf1bdf3d850c7d7094e4660a5c641a"
+    },
+    "2025-12-CET6-2.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2025-12-2/",
+      "sha256": "84ba2cc73902e4dc4c886a986432d9ffe50daaf1d53f1f57fec3631fe9e8bfb2"
+    },
+    "2025-12-CET6-3.pdf": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2025-12-3/",
+      "sha256": "3b7adb15fa69cdc107415b279d408ec88be67802ac73fd4f0cfe7b35dfcc3de5"
+    }
+  },
+  "applied": false
+}

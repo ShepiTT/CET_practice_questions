@@ -1,0 +1,94 @@
+{
+  "answers": [
+    {
+      "id": 2394,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 25,
+      "answer": "C",
+      "evidence": "关于\n美钞真实价值的争议一直在继续。",
+      "answer_cache_sha256": "e44356ec92450086e0c5f494175b1ece2971a0a4474fd46de68574be083c5c6a",
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-09-1/",
+        "sha256": "b22df27f183c937e148924af0461be460aa9e468d4647d89abe87fdf45588e42"
+      },
+      "options": {
+        "A": "The stabilization of the dollar value.",
+        "B": "The issuing of government securities.",
+        "C": "A gold standard for American currency.",
+        "D": "A steady apprUeciation of the U.S. dollar.\nO\nPart ][ Reading Comprehension (40 minutes)\nY"
+      }
+    },
+    {
+      "id": 2416,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 47,
+      "answer": "D",
+      "evidence": "由此可知，D项符合题",
+      "answer_cache_sha256": "444a39c62b4f5e3f056bf4451e77c5f72d9b6c7635dec2fce27b2220155049ce",
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2024-06-1/",
+        "sha256": "28bc14cd84bfe4fc6acf3755e9ff67981da5f245ddf4a208e770a5a8db12b199"
+      },
+      "options": {
+        "A": "The more people are around, the more they need to worry about their personal safety.",
+        "B": "The more people who witness an event, the less likely anyone will venture to participate.",
+        "C": "The more people idling around on the street, the more likely they need taking care of.",
+        "D": "The more people are around, the less chance someone will step forward to intervene."
+      }
+    },
+    {
+      "id": 2449,
+      "source": "2024-06-CET6-1.pdf",
+      "number": 7,
+      "answer": "A",
+      "evidence": "由此可知，A项与对话内容相符。",
+      "answer_cache_sha256": "444a39c62b4f5e3f056bf4451e77c5f72d9b6c7635dec2fce27b2220155049ce",
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2024-06-1/",
+        "sha256": "28bc14cd84bfe4fc6acf3755e9ff67981da5f245ddf4a208e770a5a8db12b199"
+      },
+      "options": {
+        "A": "A blur.",
+        "B": "Stars.",
+        "C": "The edge of our galaxy.",
+        "D": "An ordinary flying object."
+      }
+    },
+    {
+      "id": 2503,
+      "source": "2024-06-CET6-2.pdf",
+      "number": 7,
+      "answer": "D",
+      "evidence": "由此可知，D项正确。A项和B项都是根据对话中的harmonize",
+      "answer_cache_sha256": "b8a40bf8bb80afa91448a6c523d8c65aa6b9b7c7fe7b47ad9f7dff23d0c0ee76",
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2024-06-2/",
+        "sha256": "c047124174ea94a414c7480b1c852586d2a1888bfb3a3373dc2c200c8c39b793"
+      },
+      "options": {
+        "A": "The people in Berkton were in a harmonious atmosphere",
+        "B": "The majority of residents lived in harmony with their neighbors",
+        "C": "The majority of residents enjoyed cosy housing conditions",
+        "D": "AII the houses in Berkton looked aesthetically similar."
+      }
+    }
+  ],
+  "reading_group": {
+    "id": 503,
+    "before": {
+      "id": 503,
+      "source_file": "2024-06-CET6-3.pdf",
+      "title": "Listening: Questions 46 to 50",
+      "passage": "Audio context required.",
+      "group_type": "listening",
+      "audio_start": null,
+      "transcript": null
+    },
+    "new_passage": "Sarcasm and jazz have something surprisingly in common: You know them when you hear them. Sarcasm is mostly understood through tone of voice, which is used to portray the opposite of the literal words. For example, when someone says, \"Well, that's exactly what I need right now,\" their tone can tell you it's not what they need at all.\n\nMost frequently, sarcasm highlights an irritation or is, quite simply, mean.\n\nIf you want to be happier and improve your relationships, cut out sarcasm. Why? Because sarcasm is actually hostility disguised as humor.\n\nDespite smiling outwardly, many people who receive sarcastic comments feel put down and often think the sarcastic person is rude, or contemptible. Indeed, it's not surprising that the origin of the word sarcasm derives from the Greek word \"sarkazein\" which literally means \"to tear or strip the flesh off.\" Hence, it's no wonder that sarcasm is often preceded by the word \"cutting\" and that it hurts.\n\nWhat's more, since actions strongly determine thoughts and feelings, when a person consistently acts sarcastically it may only serve to heighten their underlying hostility and insecurity. After all, when you come right down to it, sarcasm can be used as a subtle form of bullying—and most bullies are angry, insecure, or cowardly.\n\nAlternatively, when a person stops voicing negative comments, especially sarcastic ones, they may soon start to feel happier and more self-confident. Also, other people in their life benefit even more because they no longer have to hear the emotionally hurtful language of sarcasm.\n\nNow, I'm not saying all sarcasm is bad. It may just be better used sparingly—like a potent spice in cooking. Too much of the spice, and the dish will be overwhelmed by it. Similarly, an occasional dash of sarcastic wit can spice up a chat and add an element of humor to it. But a big or steady serving of sarcasm will overwhelm the emotional flavor of any conversation and can taste very bitter to its recipient.\n\nSo, tone down the sarcasm and work on clever wit instead, which is usually without any hostility and thus more appreciated by those you're communicating with. In essence, sarcasm is easy while true, harmless wit takes talent.\n\nThus, the main difference between wit and sarcasm is that, as already stated, sarcasm is often hostility disguised as humor. It can be intended to hurt and is often bitter and biting. Witty statements are usually in response to someone's unhelpful remarks or behaviors, and the intent is to untangle and clarify the issue by emphasizing its absurdities. Sarcastic statements are expressed in a cutting manner; witty remarks are delivered with undisguised and harmless humor.",
+    "reference": {
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2024-06-3/",
+      "sha256": "e71b03feac2a85282b7ce480fd416b155f09ebcd7f9fc0386a70bc7383ba83d9"
+    }
+  },
+  "backup": "D:\\lxx\\cet-4-6\\instance\\cet4_v2.db.bak-20260919-222952-reviewed"
+}

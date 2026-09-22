@@ -15,6 +15,10 @@
 - **错题集管理**:
   - **按组展示**: 错题不仅仅显示单题，还会带上完整的原文和同组的其他题目，方便复习。
   - **二刷功能**: 支持在错题集中一键重练，实时反馈对错。
+- **听力音频**:
+  - 每套卷子的 MP3 放在 `data/audio/` 下即自动识别，页面底部一个播放器，每组听力题一个"播放本组"按钮。
+  - 第一遍听的时候点"标记本组起点"，之后直接从该组开始播放。
+  - 没有音频的卷子，听力题不会进入随机模式（避免靠猜污染统计）。
 - **交互优化**:
   - **显示/隐藏答案**: 支持在练习过程中随时切换答案和详解的可见性。
   - **词汇库展示**: 选词填空（Section A）上方独立显示 Vocabulary Bank，模拟真实考试体验。
@@ -40,7 +44,13 @@ pip install -r requirements.txt
 
 ### 3. 准备数据
 
-将你的英语四级真题 PDF 文件放入项目根目录下的 `data` 文件夹中。建议文件命名格式为 `YYYY-MM-CET4-X.pdf`（如 `2024-06-CET4-1.pdf`）。
+一条命令拉取全部真题、答案解析和听力音频（来源：[CET通](https://www.cettong.cn) 的公开仓库，免费、仅供个人学习）：
+
+```bash
+python fetch_library.py
+```
+
+文件会按项目命名放好：试卷 `data/YYYY-MM-CET4-X.pdf`、答案 `data/answers/`、听力 `data/audio/YYYY-MM-CET4-X.mp3`。以后网站更新了再跑一次即可，已有文件不会被覆盖。也可以手动把 PDF 放进 `data/`、MP3 放进 `data/audio/`，文件名对上就能识别。
 
 ### 4. 运行系统
 
@@ -55,11 +65,16 @@ python app.py
 ```text
 英语刷题系统/
 ├── data/               # 存放 PDF 真题文件
+│   ├── audio/          # 听力 MP3（fetch_library.py 拉取）
+│   └── answers/        # 答案解析 PDF（fetch_library.py 拉取）
 ├── instance/           # 自动生成的 SQLite 数据库文件
 ├── templates/          # HTML 模板文件 (Bootstrap 5)
+├── tests/              # pytest 测试（python -m pytest tests）
 ├── app.py              # Flask 主程序与路由逻辑
 ├── models.py           # 数据库模型定义
 ├── parser.py           # PDF 解析核心逻辑
+├── fetch_library.py    # 同步真题 / 答案 / 音频
+├── repair_db.py        # 修复旧数据库（去重选项、清理假记录），可重复运行
 ├── requirements.txt    # 项目依赖清单
 └── README.md           # 项目介绍文档
 ```
@@ -75,4 +90,19 @@ python app.py
 
 ---
 
-希望这个工具能帮助你高效备考，顺利通过英语四级考试！🚀
+## 数据核对与听力定位
+
+维护工具依赖单独列在 `requirements-data.txt`。以下命令默认只生成审计报告；加 `--apply` 才会备份数据库并写入。答案补全仅填空缺，已有答案冲突保留在报告中，不自动覆盖。
+
+```bash
+python fetch_reference_keys.py --all
+python repair_reference_text.py
+python complete_answer_keys.py
+python align_listening.py
+```
+
+参考答案和原文来自懒笔记公开试卷页，先核对题干、选项和段落身份。原始页面快照保存在 `.cache/reference/`，来源 URL、哈希及变更记录保存在 `instance/*-*.json`。`repair_reference_text.py` 的文本变更需先检查报告，确认试卷一致后再应用。
+
+`transcribe_listening.py` 生成本地录音的逐词时间戳，`align_listening.py` 将原文开头与这些时间戳匹配，不直接套用网页音频的时间。`refine_listening.py <审计文件>` 可复查漏识别的开头；不确定的定位保持为空。ASR 模型目录为 `.cache/models/base.en/`（`Systran/faster-whisper-base.en`）。
+
+本机数据任务使用明确的 CPU 亲和性和低优先级，至少保留 4 个完整物理核心。其他机器须按其实际拓扑选择 CPU 编号；无法确认保留核心时拒绝启动。

@@ -1,0 +1,553 @@
+2024年6月四级真题解析
+PartI
+·题·
+第三套
+Writing
+作文要求考生假设自己所在的大学正在向学生征求意见，即大学餐厅是否应当对公众开放，考生需要就
+此写一篇文章表达自己的观点。这属于选择论证型作文，考生可以二选其一，展开论述。支持开放，可以从方
+便临时去高校办事的公众：增加学校和公众的联系等方面进行论证。反对开放，可以从大学餐厅具有专属性
+质，应确保师生利益，向公众开放可能造成一系列不利因素等方面进行论证。
+·参考范文&点评··
+1表明立场：大学食堂应对公众
+I firmly believe that university canteens should indeed be open to the
+public.
+开放。
+2陈述第一个理由：不仅可以提
+This move not only enhances the utilization of campus resources but also
+高校园资源的利用率，而且有
+contributes to community cohesion.2University canteens,often renowned for
+助于增强社区凝聚力。
+their diverse and nutritional menus, could serve as an additional dining option
+3陈述第二个理由：可以增加额
+for the local community, particularly those seeking healthy and affordable
+外收入，用于再投资，改善学
+meals. Moreover, opening up canteens to the public could potentially generate
+校设施，支持学术项目。
+additional revenue for the university, which could then be reinvested in
+4陈述第三个理由：有助于提升
+improving facilities or supporting academic programs.3 Such an approach also
+大学的包容性，打破大学和周
+fosters a sense of inclusivity, breaking down barriers between the university
+边社区的隔阁。
+and the surrounding community.4 However, it is crucial to ensure that the flow
+5指出应注意的第一个事项：确
+of external visitors does not disrupt the daily lives of students and staff.5 Well-
+保访客不会打扰师生日常生
+planned measures, such as designated visiting hours and appropriate seating
+arrangements, can help strike a balance.6
+活。
+6指出精心规划的措施可以帮助
+取得平衡。
+In conclusion, opening university canteens to the public is a beneficial
+7得出结论：向公众开放大学食
+endeavor that can bring about positive changes for both the university and the
+堂是一项有益的尝试，只要规
+wider community,provided that it is implemented with careful consideration
+and planning.7
+·范文译文·
+我坚信大学食堂确实应该向公众开放。
+划得当，就能给大学和社区带
+来积极的变化。
+这一举措不仅提高了校园资源的利用率，而且有助于增强社区凝聚力。大学食堂通常以其多样化和营养
+丰富的菜单而闻名，可以为当地社区提供额外的用餐选择，尤其是那些寻求健康和经济餐饮的人群。此外，向
+公众开放食堂可能会为大学带来额外收人，这些收入可以再投资于改善设施或支持学术项目。这种做法还培养
+了包容性，打破了大学与周边社区之间的隔离。然而，确保外来访客的流动不影响学生和教职员工的日常生活
+也是至关重要的。精心规划的措施，如指定的参观时间和适当的座位安排，有助于取得平衡。
+总之，向公众开放大学食堂是一项有益的尝试，只要经过深思熟虑和精心的规划，就能为大学和更广泛
+的社区带来积极的变化。
+老师说
+本套讲解视频中，老师教你链炼语言，使用高级词汇和向式进行写作的技巧，带你分折这次四级阅读题源、命题点，教
+你如何应对四级阅读的方法，帮助你分析中文向子结构，找出中英文之间的对应性，提升翻译技能，扫码观看视频解析课！
+38四级2024.6第三套
+亮点词汇·
+contributeto有助于，促进 reinvest再投资
+cohesion凝聚力 inclusivity包容性
+(be)renownedfor因...·而闻名
+well-planned精心规划的
+designated指定的
+breakdownbarriers打破隔阁
+nutritional营养的 disrupt打扰，干扰
+·写作句型·
+I. I firmly believe that...
+strikeabalance取得平衡
+bringaboutpositivechanges带来积极的变化
+句型意为“我坚信”．是用于表达观点的一个常用句式。
+2... provided that...
+句型意为“如果，在的情况下”，表示一种假设的条件，其中provided相当于连词，tha引导
+从句。
+Part I
+Listening Comprehension
+特别说明：由于多题多卷，官方第三套真题的听力试题与第二套真题的一致，只是选项顺序不同。
+因此，本套试卷不再提供听力部分。
+Part 111
+Reading Comprehension
+SectionA
+·概览·
+本文节选自网站https:/www.tum.de上2019年9月8日发表的一篇标题为“EmployeesLessUpsetatBeing
+ReplacedbyRobotsthanbyOtherPeople的文章在未来几十年里，数以百万计的工作岗位将受到机器
+人和人工暂能的威。而工人将如何应对被技术所取代的趋势，本文针对相关研究进行了阐述。
+·全文翻译·
+在未来几十年里，数以百万计的工作岗位将受到机器人和人工智能的威胁。尽管学术界对这些发展进行
+了激烈的[26]辩论，但关于工人如何[27]应对被技术取代的研究却很少。
+为了找到答案，慕尼黑工业大学和鹿特丹伊拉斯漠大学的商业研究人员对来自若干国家的两千多人进行
+了11项研究和调查。
+研究结果表明：原则上，大多数人认为，工人被其他人取代比被机器人或智能软件取代更28有利。然
+而，一旦涉及他们自已的工作，这种偏好就会[29]逆转。在这种情况下，大多数工人发现，看到自已的工作交
+给机器人而非其他员工并不那么令人沮丧。不过，从长远来看，这些人认为机器对他们未来在职场中的角色更
+具威胁性。在最近失业的人群中也可以看到这些影响。
+研究人员也能够找出这些[30]看似矛盾的结果背后的原因，即人们更倾向于将自己与其他人而非机器进行
+[31]比较。因此，被机器人或软件取代对他们的自我价值感[32]构成的威胁较小。甚至当参与者认为他们正在
+被其他在工作中依赖人工智能等技术能力的员工取代时，也可以观察到这种自我威胁的降低。
+“即使失业是由于新技术的33引人造成的，人们仍然会在社会背景下对其进行判断，”该研究的作者之
+一克里斯托弗·富克斯表示，“在试图应对职场的巨大变化以减少对社会的[35]干扰时，了解这些[34]心理影响
+很重要。
+四级2024.6第三839
+·答案详解·
+26.D）debate（n讨论，辩论V讨论，辩论）
+语法判断空格前是形容词短语intensiveacademic，空格后是介词短语onthesedevelopments，由此可知，空
+格处应填人一个名词。
+语义判断文章开头提到，在未来儿十年里。数以百万计的工作岗位将受到机器人和人工智能的威胁。空格
+所在句意为“尽管学术界对这些发展进行了激烈的
+少，代人选项可知，debate符合语境。
+27.M)react（V反应：回应）
+但关于工人如何 被技术取代的研究却很
+语法判断空格前是从句的主语workers，空格后是介词to，空格所在句子时态为一般现在时，由此可知，空
+格处应填人动词原形，充当从句的谓语。
+语义判断对于将来会被机器所取代，工人会作何感想。下文便提到了相关研究，并给出了结论。reactto意
+为“对·....·作出反应”．故react符合语境。
+28.G）favorably（adv费成地：有利地）
+语法判断空格前是viewitmore，空格后是状语从句，由此可知，空格处应填人一个副词，修饰view。
+语义判断本句意为“原则上，大多数人认为，工人被其他人取代比被机器人或智能软件取代更
+下文转折表述当涉及他们自已的工作时，大多数人发现，把工作交给机器人而非其他员工并不那么令人组
+丧，前后表意相反，代人选项可知，favorably符合语境。
+29.N)reverses（w逆转，彻底改变）
+语法判断空格前是句子的主语Thispreference，空格后是逗号、连词however和状语从句，由此可知，空格
+处应填人动词的第三人称单数，充当主句的谓语。
+语义判断前一句提到大多数人认为，工人被其他人取代比被机器人或智能软件取代更有利，而后一句是说
+大多数工人发现，看到自已的工作交给机器人而不是其他员工并不那么令人沮丧，前后表意相反，因此，
+空格所在句指的是，当涉及自已的工作时：人们的偏好会发生逆转，故reverses符合语境。
+30.o）seemingly（ady貌似，看似：似乎，好像）
+语法判断空格前是限定词these，空格后是名词短语paradoxicalresults，由此可知，空格处应填人一个形容词
+或分词，与paradoxical一起充当results的定语，或填入一个副词，修饰paradoxical。
+语义判断研究结果表明，和被其他员工替代相比，被机器人替代并未让人们感到那么沮丧，但从长远来
+看，这些人认为机器对他们的威胁性更高，这些结果似乎是相互矛盾的。因此seemingly符合语境。
+3l.A）compare（w比较，对比n比较）
+语法判断空格前是动词短语tendto，空格后是宾语themselves，由此可知，空格处应填人动词原形。
+语义判断此处阐述研究结果自相矛盾的原因，即人们更愿意与其他人而非机器相比较，故compare符合
+语境。
+32.K)poses（y造成，引起n姿势）
+语法判断空格前是句子的主语beingreplacedbyarobotor software，空格后是宾语lessofathreat，由此可
+知，空格处应填人动词的第三人称单数，充当句子的请语。
+语义判断该句意为“因此，被机器人或软件取代对他们的自我价值感
+“构成威胁”，故poses符合语境。
+33.Dintroduction（n引进：介绍）
+威胁较小”，poseathreat意为
+语法判断空格前是定冠词the，空格后是介词短语ofnewtechnologies，由此可知，空格处应填人一个名词。
+语义判断技术的发展终究会使机器人和人工智能接替更多的工作岗位，工人将被淘汰，即失业是由于新技
+术的引人造成的，故introduction符合语境。
+34.L）psychological（adi.心理的：精神上的）
+语法判断空格前是限定词these，空格后是名词effects，由此可知，空格处应填入一个形容词或分词，充当
+effects的定语。
+40四级2024.6第三窖
+语义判断技术革新及人工智能的发展会导致工人下岗，随之而来的就是社会的变化，为了使影响最小化，
+了解工人对待职场变化的态度至关重要。代人选项可知，psychological符合语境。
+35.E）disruptions（n.扰乱：中断）
+语法判断空格前是动词minimize，空格后是介词短语insociety，由此可知，空格处应填人一个名词，充当
+minimize的宾语。
+时，了解这些心理影响很重要”，
+语义判该句意为“在试图应对职场的巨大变化以减少对社会的
+代人选项可知，disruptions符合语境。
+干扰项注释
+B）contradicts（v反驳，否认：相矛盾）C）conventional（adj依照惯例的，遵循习俗的）F）drastically
+（ady.极其，非常：彻底地激烈地）H）guarantee（w确保，保证：担保n保证，担保）J)
+modifications（n.修改，改进）
+SectionB
+·概览·夏
+本文主要讨论了随看科技的进步和教育方式的变革，美国部分地区传统的“雪休日”（即学生因大
+策，要求学生在学校因极端天气停课时，通过电子设备在家线上学习。此举意图减少学生因天气原因造
+成的旷课，同时也避免了额外的“补课日”。尽管此举在实践中已初显成效，但也引发了一些争议，各
+方对此看法不一。
+“雪休日”变成“线上学习日”，别想逃课了
+A）当遇到诸如大雪、洪水、极端高温或严寒等恶劣天气导致交通困难、停电或威胁公共安全时，某些机构，
+比如学校，很可能会关闭。[39]当美国出现降雪天气时，这意味着学校的孩子们有机会享受“雪休日”这
+一由来已久的传统，即学校被迫停课，学生们得到一个意想不到的休息日。
+B）雪休日的标准主要是校车无法在其路线上安全行驶。以及会对步行上学的孩子造成危险。通常情况下，即
+使校车无法运行，课程也被取消，但学校仍然正常开放。极端天气导致停课或延迟上课的情况在应对能力
+较弱的地区更为频繁。[41]在习惯了冬季大量降雪的美国北部地区，雪休日不太常见，因为市政当局设备
+精良，能够及时清理道路和清除积雪。而在不太习惯下雪的地区，即使是一两英寸的小雪也可能使道路变
+得不安全。
+C）雪休日是美国影视作品中常见的主题，孩子们得知放假的好消息后，伴着欢快的流行背景音乐跑到户外堆
+雪人、打雪仗。但对于南卡罗来纳州、内华达州、佐治亚州和印第安纳州等美国儿个州的学生来说，这一
+传统现在已经结束了。[37]本学年，许多学校董事会都出台了政策，要求学生在学校因下雪或极端天气停
+课时在家学习。这被称为“线上学习日”，听起来当然没有雪休日有趣。
+D）老师们也失去了雪休日，相反，他们将被期望随时待命，以便上线进行虚拟点名并在线回答学生们的问
+学校停课时完成作业。如果该试点项自成功，就可能会在全州范围内推广品
+E[40|但是一些家长反对这项新政策，如果安德森县学区的Facebook页面上的激烈争论能说明什么的话。
+“下雪的时候，让孩子们尽情享受吧，”一位评论者表示。另一位评论者说，这一决定将“进一步毁掉学
+校”，还有人说下雪天是“童年乐趣的一部分”但该政策的支持者表示，这意味着核子们缺课的天数将
+减少。这也将终结一个在美国高中不太受欢迎的传统：“补课日”，这一传统要求许多州的学生在学校放
+假期间通过补课来弥补因天气原因而损失的时间。
+F）由于9月份“佛罗伦萨”飓风装击期间学校关闭，北卡罗来纳州的学生已经安排了几天补课。安德森县学
+区主管汤姆·威尔逊说，取消雪休日的做法既实际又省钱。他说，技术已经改变了每一个行业，所以利用
+四级2024.6第三座41
+技术“取消”补课日是合理的。印第安纳州教育部的亚当·贝克说，线上学习日被证明是一个“巨大的
+成功”。他说，印第安纳州的大多数学校已经在课堂上使用数字设备，所以将其推广到学校停课的日子
+是一个“容易的决定”。他否认这一决定剥夺了孩子享受雪天的机会。“学生仍然可以享受雪天和户外时
+光，”他说。“许多学生有体育和科学作业，这可以让他们出去享受天气。”[43]但俄亥俄州当地的学校
+校长正在抵制采用线上学习日的提议。他们担心，在家不能上网的学生将因这项政策而处于不利地位，而
+校长汤姆·罗斯则担心，线上学习日会降低教育质量。
+G）[36]还有所谓的“暴风雪书包”，孩子们可以在预计的大雪封路之前把作业带回家。但罗斯表示，这还不
+足以代替上课。他说：“我认为我们仍然需要课堂时间为孩子们提供他们应该享有的教育。”“用暴风雪书
+包或在家做作业是无法做到这一点的。这样做的效果不会那么好。
+H）[45]关于旷课是否会影响学习成绩的争论由来已久。在英国，解决旷课问题一直是学校的关注重点。英国
+教育部在2016年发表的一项研究中指出，旷课可能会对学习成绩产生负面影响。研究还得出结论说，即使
+一年中只旷课几天，也足以导致学生无法在考试中取得好成绩。这与美国哈佛大学的一项研究结果不同，
+该研究得出的结论是，由于天气原因偶尔旷课几天并不会对学习造成影响。
+D哈佛大学的研究调查了7年的学校成绩数据，没有发现雪天停课会造成任何影响。造成更多干扰的是，尽
+管许多教职员工和学生都缺席了，学校仍然试图在恶劣天气下继续上课。但哈佛大学去年夏天发表的另一
+项研究显示，天气确实会对学习成绩产生影响。[38]炎热的天气对成绩有负面影响。研究人员对1000万名
+学生13年来的成绩进行了调查，发现极端炎热天气的年份与成绩下降之间存在“显著”联系。
+J）显然，学生应该每天都去上学以获得最大的教育效益。在极端天气情况下，学生并不总是有这样的选
+择。【42]然而，研究表明，与未经批准的旷课相比，在极端天气等情况下经批准的旷课对学生造成的问
+题要少得多。这是因为未经批准的旷课往往反映了学生脱离课堂的模式和行为，或者反映了学生在学校
+频率有关。
+·答案详解·
+题干译文有人反对在极端天气导致学校停课前给学生布置家庭作业的做法。
+36.
+答案解析G。由题千关键信息opposition，assignments、takehome和extremeweatherforces a school closure
+定位到G段。该段首句提到，还有所谓的“暴风雪书包”，孩子们可以在预计的大雪封路之前把作业带
+回家。但罗斯表示，这还不足以代替上课。可见有人反对这种做法，由此可见，题干是对该句的同义转
+述，其中There isoppositionto是对原文ButMrRoth saysit isnotsufficientasa replacement的概括总结，而the
+practice of giving children assignments to take home对应原文中的with assignments that children take home，而
+before extreme weatherforces a school closure对应原文中的ahead of an expected snow closure.
+37.题干译文美国许多学校所采取的新政策要求学生在遇到学校停课的情况下，在家进行线上学习。
+案解析C。由题干关键信息Newpolicies、manyUS schools、onlinelearning和school closure定位到C段。
+该段最后两句承接上文提到，本学年，许多学校董事会都出台了政策，要求学生在学校因下雪或极端天
+气停课时在家学习。这被称为“线上学习日”，听起来当然没有雪休日有趣。由此可知，题干是对原
+文内容的概括总结。其中Newpoliciesadopted bymanyUS schools对应原文中的manyschool boards have
+introduced policies，而require students todo onlinelearning athome对应原文中的require students to workfrom
+home和“e-learning days"，而in case ofa school closure对应原文中的if the school is shut by snow or extreme
+weather。
+38.题干译文一些研究表明，极端炎热的天气会对学生的学习成绩产生负面影响。
+答案解析I。由题千关键信息someresearch、extremehotweather和negativelyaffects students performance定位
+到I段。该段讲述天气对学生学习成绩的影响，最后一句提到，炎热的天气对成绩有负面影响。研究人员对
+1000万名学生13年来的成绩进行了调查，发现极端炎热天气的年份与成绩下降之间存在“显著”联系。由
+此可知，题干是对该句内容的概括总结。题干中的Accordingto someresearch对应原文中的Theresultsofio
+42四级2024.6第三菱
+million school studentswereexaminedover13years and researchersfound，extremehotweather对应原文中的
+extremelyhotweather，negativelyaffects对应原文中的hasthe negative impact，而students performance对应原
+文中的lowerresults。
+答案解析A。由题千关键信息atime-honouredtradition in theUS、schoolkids、stayathome和snowdays定位
+到A段。该段第二句提到，当美国出现降雪天气时，这意味着学校的孩子们有机会享受“雪休日这一由
+来已久的传统，即学校被追停课，学生们得到一个意想不到的休息日。由此可见，题千是对该句的同义
+转述，其中atime-honouredtradition对应原文中的thelong-standingtradition，intheUs属于原词重现，snow
+days对应原文中的snowday，schoolkids对应原文中的schoolchildren，而stayathome对应原文中的getan
+unexpecteddayoff.
+答案解E。由题千关键信息Debateson socialmediasomeparents、areopposedto和the“snowday"tradition
+定位到E段。该段首句承接前文提到，但是一些家长反对这项新政策，如果安德森县学区的Facebook页面
+上的激烈争论能说明什么的话。该句中的“新政策”即指前文提到的用“线上学习日“取代传统的“雪
+休日”，由此可知，题干是对原文内容的概括总结。题干中的Debates on socialmedia对应原文中的the
+vigorous debate on the Facebook page of Anderson County school district, j some parents are opposed to ending
+the“snowday”tradition对应原文中的someparents objectto thenewpolicy。
+41题干译文在美国北部地区，学校受雪天影响（而停课）的可能性较小。
+案解板B。由题干关键信息morenorthernregions of theUS、less likely和beaffectedbysnowyweather定位
+到B段。该段倒数第二句提到，在习惯了冬季大量降雪的美国北部地区，雪休日不太常见，因为市政当局
+设备精良，能够及时清理道路和清除积雪，即学校受雪天影响（而停课）的可能性较小。由此可知，题干
+是对原文内容的同义转述。题干中的Inmorenorthern regions of theUS对应原文中的inmorenorthernareasof
+the United States,而 school is less likely to be affected by snowy weather是对Snow days are less common...that
+are used to heavy winter snowfall, because municipalities are well equipped to clear roads and remove snow 的
+概括总结。
+42.题干译文研究表明，经批准的旷课比未经批准的广课（对学业）造成的问题更少。
+答案解板J。由题千关键信息Research、absencesfrom schoolwithpermission和manyproblems定位到J段。该
+段第三句提到，然而，研究表明，与未经批准的旷课相比，在极端天气等情况下经批准的旷课对学生造成
+的问题要少得多。由此可知，题干是对该句内容的同义转述。其中Research indicates对应原文中的research
+shows，absences from school with permission对应原文中的that authorised absences from school，而do not
+cause as many problems as those without permission对应原文中are less problematic for students than absences
+thatare notauthorised.
+43.题干译文有人反对线上学习日，因为担心在家不能上网的学生将会受到影响。
+答案解析F。由题千关键信息objection to e-learningdays、fear和students withno access to the Intermet at home
+定位到F段。该段最后两句提到，但俄亥俄州当地的学校校长正在抵制采用线上学习日的提议。他们担
+心，在家不能上网的学生将因这项政策而处于不利地位。由此可知，题干是对原文内容的同义转述。
+m题千中的There is objection to e-learning days对应原文中的local school superintendents in Ohio are resisting
+proposals to adopt e-learning days,而 owing to fear that students with no access to the Internet at home will suffer
+对应原文中的Theyfear that students without internet access at home will be disadvantaged by the policy
+44，题干译文在一个试点项目中，当学校停课时，学生会获得电子设备来完成作业。
+答案解析D。由题干关键信息apilotprogramme、electronicdevices、doassignments和schools areclosed定位
+到D段。该段第二句提到，南卡罗来纳州安德森县一个学区的试点项目为学生提供了布置作业的电子平板
+电脑，以便他们在学校停课时完成作业。由此可知，题干是对原文内容的同义转述。其中apilotprogramme
+属于原词重现，students aregiven electronicdevicestodo assignmentswhen schoolsare closed对应原文中的has
+四城2024.6第三#43
+supplied students with electronic tablets loaded with assignments to complete in the event of a school closurea
+45.题干译文关于广课对学生学习成绩的影响，长期以来一直存在着争论。
+答案解析H。由题千关键信息Along-standingdebate，theimpactof school absences和students academic
+performance定位到H段。该段首句提到，关于旷课是否会影响学习成绩的争论由来已久。由此可知，题干
+是对原文内容的同义转述，其中Along-standingdebate isgoing onover对应原文中的There is a long-running
+debate on，而the impactof school absences on students academic performance对应原文中的whethermissing
+days of school affects attainmento
+Section
+Passage One
+·概览·
+本文节选自www.fredericksburg.com网站上一篇题为“Book Review：“Dress Codes'will change the way
+youthinkaboutfashion”的文章。这篇文章是针对《着装规范：时尚法则如何创造历史》一书的书评。文
+章指出，该书作者福特认为，理解特定时期的时尚的最佳方式是研究对时尚施加的限制。福特带领读者
+了解时尚的演变，也研究背后的动机。这部作品内容丰富，也不乏幽默和有趣的章节。这本书最大的优
+势在于其思想的深度，福特让我们质疑潜意识的信念。
+·全文翻译·
+重难点单词及短语
+[46]这听起来可能令人惊，但你并不需要对时尚甚至历史感兴趣，
+就可以享受阅读《着装规范：时尚法则如何创造历史》这本书。我恰巧对
+·coden.规范：规则；法规
+时尚和历史都感兴趣，但最终出于完全不同的原因喜欢上了这本书。
+"reasoned adj.镇密的；理由充
+理查德·汤普森福特是一位法学教授，而你可能永远不会忘记这一
+分的推理，推断
+点，即使一页的时间也不会。46]他的论点经过镇密且充分的论证，而且
+argumentn.论点：理由
+书中充满了例子，听起来几乎就像是在阅读法庭意见书一样，可能只是更
+元长一些。你可能再也不会认为时尚是件小事了。
+"packedwith充满
+·courtopinion法院判决意见
+[47]】福特的论点是，要理解任何一个时代的特定时尚意味着什么，最
+·wordyadj.完长的，啰嗪的
+好的方法是看一看当时对时尚施加的限制【48|通过这个视角，他向我们
+triflen.小事：项事：稍微
+展示了13世纪首批通过的确保只有贵族才能穿着某些面料、颜色和佩戴某
+·thesisn.论点：论文
+些装饰品的法律，这反映了中产阶级的崛起，他们现在能够模仿其中一些
+"restrictionn.限制
+时尚风格。上层阶级的地位受到了威胁：时尚是维护其地位的工具。
+lensn.镜头
+福特带领读者回顾了时尚的发展历程，同时仔细研究了地位，性别，
+"nobilityn.贵族：高贵的举止
+权力和个性的潜在动机，他认为所有这些动机影响了过去时尚界的所有创
+fabricn布料：织物
+新，并在现如今继续影响着我们。「49]他的作品比较嗨涩难懂一一充满了
+·ornamentn.装饰物
+研究细节，从句和精确的形容词和名词。但这部作品中也不乏幽默和足够
+preserve维护；保护：保持
+有趣的章节，使文字充满吸引力。没有什么能够逃过他犀利的分析：无论
+underlyingadj-隐含的，潜在
+是19世纪让女性苦不堪言的摧残身体的（紧身）时尚，还是成为现代硅谷
+标志性的T恤制服。
+的：下层的
+innovation n.创新
+[50]但这本书（关于时尚！最大的优势在于其思想的深刻程度。福
+denseadj.（信息量大得）难理
+特让我们质疑潜意识的观念，让我们意识到我们几乎从不这样做，让我们
+解的
+理解最简单的选择都充满了意义，然而这个意义能够并且确实一直在变
+episoden。（小说的）片段：一
+化。想一想，1918年的一份（商品）目录坚持认为男孩和女孩应该穿恰当
+节：一集
+的颜色。我们认为我们今天的思想已经进步了：福特向我们展示了事实
+并非如此。
+44四级2024.6第三窖
+"sparev使幸免，使逃脱
+·答案详解·
+46.作者如何看待（着装规范：时尚法则如何创造历史）这本书？
+C)它阅读起来令人十分愉快，又长见识。
+A）人们出于完全不同的原因阅读它。
+D）它将时尚转化为值得深思的事物。
+B）它是为对时尚史感兴趣的人准备的。
+定根据题千关键词thebook可以将答案定位到第一段第一句、第二段第二句。
+第一段第一句指出，这听起来可能令人惊，但你并不需要对时尚甚至历史感兴趣，就可以享受阅读《着
+装规范：时尚法则如何创造历史》这本书。接下来第二段第二句指出，该书作者的论点经过镇密且充分的
+论证，而且书中充满了例子，看完后你可能再也不会认为时尚是件小事了。由此可知，在作者看来，这本
+书令人享受，且能让人增长见识，选项C与原文意思一致，故本题选C。选项A错在，原文是说作者出于不
+同的原因喜欢上了这本书，并不是人们出于完全不同的原因阅读它，故排除。选项B以偏概全，选项D属
+于过度推断，均排除。
+47.根据福特的说法，人们如何才能最好地理解一个时代的特定时尚？
+C）通过浏览面料、颜色和装饰品。
+A）通过仔细研究对其施加的限制。
+D）通过对上层阶级和中产阶级进行调查。
+B)通过观察贵族的穿着。
+定根据题干关键词bestunderstandaparticularfashion inanera可以将答案定位到第三段第一句。
+第三段第一句指出，福特的论点是，要理解任何一个时代的特定时尚意味着什么，最好的方法是看一看当
+时对时尚施加的限制。由此可知，本题选A。选项中的restraintsimposedonit与原文中的restrictionsplaced
+onthem是同义替换，restraint和restriction都是“限制”的意思。其他三项虽然包含部分原文词汇，但都不
+是福特所说的理解一个时代特定时尚的最佳方式，故排除。
+48.13世纪首批通过的时尚行业的法律的目的是什么？
+C）帮助开创一些新时尚。
+A）促进中产阶级的崛起。
+B）放宽对着装规范的限制。
+D）维护贵族的地位。
+根据题干关键词thefirstlawspassedregardingfashioninthe1200s可以将答案定位到第三段第二、三句。
+第三段第二句指出，福特向我们展示了13世纪首批通过的确保只有贵族才能穿着某些面料，颜色和佩戴某
+些装饰品的法律，这反映了中产阶级的崛起，他们现在能够模仿其中一些时尚风格。但是仅从这句话，我
+们无法推断通过该法律的目的。我们继续读下一句：上层阶级的地位受到了威胁：时尚是维护其地位的工
+具。由此可知，首批通过的时尚行业的法律规定贵族才能穿某些面料，颜色和装饰品，其目的也就是维护
+贵族的地位，故本题选D，选项中的preserve是原词重现。虽然原文提到了中产阶级的崛起，但这是这部法
+律的颁布反映出的一个现象，而不是其目的，故排除A。选项B和C原文没有提及，均排除。
+49.作者认为福特的作品怎么样？
+A）它使用比较和对比的手法来描述不同时代的时尚。
+B)它读起来很嗨涩，但不乏幽默感或吸引力。
+C）它充满了有趣的章节，使读者免于无法忍受的枯燥。
+D)在提出论点方面，它具有学术特点。
+根据题干关键词Ford'swriting可以将答案定位到倒数第二段第二、三句。
+倒数第二段第二句和第三句指出，他的作品比较嗨涩难懂一一充满了研究细节，从句和精确的形容词和
+最为全面且符合文章内容，故本题选B，选项中的heavyreading与原文中的dense属于同义替换。本题还可
+以用排除法来做。选项A原文未提及，故排除。选项C错在，原文说作品“不乏”足够有趣的章节，并没
+有说“充满”了有趣的章节，而且该选项对福特作品的概括也不全面，故排除。作者只是提到福特的作品
+中论点论证密，例子丰富，听起来就像阅读法庭意见书一样，这表明作者认为福特的书有法律文献的味
+道，而并非D项所说的具有学术特点，故D项可排除。
+四级2024.6黑三45
+50.作者认为福特这本书最大的优点是什么？
+C)进化的思维。
+A）丰富的信息。
+D）思想的深度。
+B)有意义的选择。
+根据题干关键词thegreateststrengthofFord’sbook可以将答案定位到最后一段第一句。
+最后一句段第一句指出，这本书（关于时尚！）最大的优势在于其思想的深刻程度，故本题选D。选项
+解析
+Intellectualdepth与原文中的intellectualprofoundness是同义替换。其他三项均不符合题意，故排除。
+Passage Two
+本文节选自网站harappa.education于2020年10月4日发表的一篇题为TheArtOfPersuasion”的文
+章。这篇文章主要讨论的是说服的艺术。首先介绍了什么是说服的艺术，并指出，有些人天生就具有说
+服力，有些人可以靠后天学习说服力。作者指出在工作中说服力发挥着十分重要的作用。环用期
+·全文翻译·
+说服的艺术意味着劝服别人同意你的观点或遵循你的行动方案。[51]对
+@重难点单词及短语
+于我们中的一些人来说，说服是种本能的特质，影响他人的力量自然而然地
+·convincew说服：使相信
+产生。对于其他人来说，说服技巧是可以随着时间的推移而学习和发展的。
+instinctiveadj.本能的
+雇主们非常重视具有说服技巧的员工，因为他们可以影响工作表现的
+·visionn.愿景
+几个方面。此外，团队合作和领导力在很大程度上依赖于说服力来完成各
+·motivatew激励
+项事务。如果没有说服技巧，员工可能不会全心投人组织的愿景和长期使
+logic.n.逻辑
+命，也不会对其重要性深信不疑。[52]有效运用说服技巧不仅能让同事对
+·reasoning n.推理；论证
+你的想法感到兴奋，还可以帮助你激励他们实现共同的目标。
+·on-boardadj.（对某项工作、
+为了在工作场所学会说服的艺术，你需要了解如何处理冲突并达成
+活动）参与或支持的
+一致。良好的沟通是有效说服的第一步，但逻辑和推理同样重要。[53]在
+pursue追求：执行
+让别人支持你的日标之前，你应该帮助他们理解为什么他们要追求这个目
+·compellingadj.令人信服的：
+标。使用视觉辅助工具来支持你的想法可以帮你更好地传达你的想法，提
+有说服力的
+出令人信服的论点，这样你的听众将会做出合乎逻辑的选择，并将全身心
+地投人实现你的想法和计划。
+·be/becomecommittedto全心
+投入：致力于
+成功的说服技巧基于你与他人进行积极互动以及保持有意义的关系的
+sustain使持续：保持：遭受
+能力。为了维持这些关系，你也必须为他们的最佳利益着想。[54I当你的
+.alongsideprep.与....起.
+同事和你一起取得成功时，他们更有可能同意你的观点。他们取得的成就
+越多，获得的进步越大，就越信任你的判断和你的实力。
+与同时
+.strengthn.实力：影响力
+我们每天都在说服别人，也在被人说服一一我们要么有说服力，要么
+·collaborationn.合作，协作
+被别人说服。[55]与传统的组织结构相比，绝大多数人更喜欢协作和团队
+pusharound把·差来道
+合作：没有人喜欢被人告之应该做什么或被人摆布。因此，组织和领导者
+应该采用强有力的说服技巧，以促成必要的变革。
+·答案详解·
+51.在第一段中，关于说服他人的能力，作者说了什么？
+A它可能是人们与生俱来的，也能够后天培养。
+去：摆布：使唤
+B）事实证明，它对于让他人遵循自己的行动方案至关重要。
+C它指的是影响同事的自然且本能的力量。
+D）人们可能将其视为一种说服他人的手段和沟通的艺术。
+46四线2024.6电三营
+根据题千关键词theabilitytobepersuasiveinthefirstparagraph可以将答案定位到第一段第二，三句。
+定位
+第一段第一句指出什么是说服的艺术。接着，第二、，三句指出，对一些人来说，说服是一种本能的特质，
+对于其他人来说，说服的技巧是可以随着时间的推移而学习和发展的。由此可知，选项A正确，说服力既
+有可能与生俱来，也有可能后天培养。选项中的cultivate（培养）与原文中的learnedanddeveloped属于同
+义替换。其他三项虽然包括原文中的词汇，但是表达的意思都不准确，可以排除。
+52.为什么说服技巧在工作场所受到高度重视？
+A）它们能让员工相信他们的长期收益。
+B）它们能让员工无条件地信任他们的领导。
+C它们有助于激励同事为了一个共同的目标而奋斗。
+D）它们帮助组织有效地拓宽其视野。
+根据题千关键词persuasion skillsgreatlyvalued intheworkplace可以将答案定位到第二段最后一句。
+定位
+第二段讲的是在工作场所说服力为什么很重要。首先，有说服力的员工可以影响工作表现的几个方面。其
+次，团队合作和领导力在很大程度上依赖于说服力。第三，说服技巧可以让员工为组织的愿景和长期使命
+全心投人，且深信不疑。第四，有效使用说服技巧不仅可以让你的同事对你的想法感到兴奋，还可以帮你
+激励他们实现共同的目标。对比四个选项，只有选项C与第四点符合，故为正确答案。其他三项均与原文
+不符，故排除。
+53.在工作场所，人们应该如何学习说服的艺术？
+A）获得有效的沟通技巧。
+B）避免卷人与他人的冲突。
+C）了解追求目标的原因。
+D）全身心地投人到自已的想法和计划中。
+根据题干关键词learn theartofpersuasionattheworkplace可以将答案定位到第三段第三句。
+定位
+第三段讲的是人们应如何学习说服的艺术。首先，在工作场所学会说服的艺术，你需要了解如何处理冲突
+解折
+并达成一致。其次，需要良好的沟通，逻辑和推理。第三，在让别人支持你的目标之前，你应该帮他们理
+解为什么要追求这个目标。第四，使用视觉辅助工具来支持你的想法。对比四个选项，可知选项A“获得
+有效的沟通技巧”，与原文第二点“需要良好的沟通”相符，为正确答案。选项B错在应该是了解如何解
+决冲突，选项C错在应该是让支持你的人理解为什么追求这个目标，故排除。选项D原文没有提及，
+故排除。
+54.什么时候你更有可能成功说服你的同事？
+A）当他们确信你为他们的利益而工作，同时栖性你自己的利益时。
+B）当他们意识到你做判断的潜在力量时。
+C）当他们意识到你与他们保持着有意义的关系时。
+D）当他们确信他们将和你一起取得成就时。
+根据题干关键词morelikelytosucceedinpersuadingyourcoworkers可以将答案定位到第四段第三句。
+第四段第三句指出，当你的同事和你一起取得成功时，他们更有可能同意你的观点。由此可知，当同事们
+确信跟你一起会取得成就时，你更有可能说服他们，故选项D正确。选项A错在原文没有提到性自已的
+利益：选项B用原文词汇混淆视听，表达的意思与原文不符：原文没有提到同事们意识到你与他们保持着
+有意义的关系，故排除选项C。
+55.为什么建议组织和领导者采用强有力的说服技巧，以促成必要的变革？
+A）让员工相信协作的价值。
+B）考虑到当今大多数人的偏好。
+C)改进传统的组织结构。
+D）适应员工不断变化的工作方式。
+根据题干关键词adoptpowerful persuasionskillstobringaboutnecessarychanges可以将答案定位到最后一段
+后两句。
+四线2024.6第三街47
+解最后一段后两句指出，与传统的组织结构相比，绝大多数人更喜欢协作和团队合作：没有人喜欢被人告之
+应该做什么或被人摆布。因此，组织和领导者应该采用强有力的说服技巧，以促成必要的变革，也就是
+说，考虑到大多数人更喜欢协作，不喜欢被摆布，所以组织和领导者需要用强有力的说服技巧以促成必要
+的变革，故选项B正确。其他三个选项都与原文不符，可以排除。
+Part IV
+·难词译注·
+Translation
+社会安定 social stability
+表示mean;signifyindicate
+向往yearning for
+倒过来upsidedown
+国家昌盛nationalprosperity
+幸福和好运happinessandgoodluck
+寓意mean;carrythemeaningof,symbolize
+由来已久的long-standing;age-old;time-honored
+·参考译文·建
+The Chinese character "fu", signifying happiness and good luck, is one of the most commonly used auspicious
+symbols in traditional Chinese culture. People usually write a big character of fu on red paper, which means that they
+look forward to family happiness, social stability and national prosperity. Posting the character of fu during the Spring
+Festival is a long-standing folk custom. In order to celebrate the Spring Festival, every family will put the character
+of fu on the doors or walls to express the yearning for a happy life and the expectation for a better future. People
+sometimes put the character offu upside down, indicating that happiness and good luck have arrived.a(A
+·译点精析·
+1.第一句：本句由两个小句构成，第一个小句中的“表示幸福和好运”根据英文表达习惯翻译成非谓语动词
+或非限制性定语从句，即signifyinghappiness andgood luck或whichmeanshappiness andgood luck；第二个小
+句中的“最常用的之一”翻译成oneofthemostcommonlyused..
+2.第二句：“寓意期盼家庭幸福、社会安定、国家昌盛”表示伴随情况，起补充说明的作用，可翻译成现
+在分词短语或非限制性定语从句，即symbolizingthattheylookforwardto familyhappiness,social stability
+and national prosperity或which means that they look forward to family happiness, social stability and national
+prosperity
+3.第三句：“春节贴福字是民间的习俗”翻译成postingthe characteroffuduring theSpringFestival is...folk
+custom.
+4，第四句：“表达对幸福生活的向往、对美好未来的期待”表示目的，翻译成不定式短语，即to expressthe
+yearning for a happy life and the expectation for a better future.
+5.第五句：“将福字倒过来贴”翻译成putthecharacterof fuupsidedown：“表示幸福已到、好运已到”表示伴
+随情况，可翻译成现在分词短语，即indicatingthathappiness andgoodluckhavearrived。
+2024年6月大学英语四级考试
+Part Ill  Reading Comprehension
+26. D 27.M 28.G 29.N 30.0
+36.G 37.C 38. 1 39.A 40.E
+46.C 47.A 48.D 49.B 50.D
+48四级2024.6第三）
+第三套 四答案速查
+31.A 32. K 33.1 34. L 35.E
+41.B 42.J 43.F 44.D 45.H
+51.A 52. C 53.A 54. D 55. B

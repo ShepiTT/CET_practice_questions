@@ -1,0 +1,889 @@
+2025年12月四级真题解析
+【第二套
+Part I Writing
+·审题·
+作文要求考生针对“所有大学生都应必修学术写作”的提案发表观点。考生需要明确表达自已对该提案
+的态度，并围绕学术写作的必要性展开论述。文章可以阐释学术写作在培养批判性思维，提升学术与职业
+素养等方面的核心价值，同时可适当回应可能的反对意见（如选课灵活性，学科差异等），以形成有说服力
+的论证。
+·参考范文&点评·
+Should All University Students Be Required to Learn Academic Writing?
+1开篇明确表态，支持大学生
+I fully support the proposal that all university students should take academic
+必修学术写作课程，并点明其
+writing courses, Academic writing is fundamental to critical thinking, structured
+communication, and intellectual development.1
+核心价值，快速进人主题。
+2从两方面展开论述：一是学
+术写作对逻辑思维，论证能
+arguments with evidence to express themselves clearly. These abilities are
+力与清晰表达的培养：二是
+essential not only in research but also in the future workplace. Secondly, learning
+强调其在培养学术诚信与尊
+academic normssuchas proper citation-helps foster academic integrity and
+respect for intellectual property.?
+重知识产权方面的作用。
+3针对反对意见（如选课录活
+While some may argue that mandatory courses reduce flexibility, written
+性）进行回应，强调书面沟
+communication is universally beneficial. Even STEM students must write reports
+通的普适性，并以理工科为
+or papers. A well-designed course can adapt to different disciplines, focusing on
+practical writing skills relevant to various fields. 3
+例增强说服力。
+4总结重学术写作对学生学
+In conclusion, equipping students with academic writing skills prepares them for
+业与职业发展的长远意义，
+academic and professional success. It is an investment in their ability to think critically
+and contribute meaningfully to their fields.4
+·范文译文·
+呼应开头，结构完整。
+所有大学生都应学习学术写作吗？
+我完全支持所有大学生都应必修学术写作课程这一提议。学术写作是培养批判性思维、结构化表达与心
+智成长的基础工具。
+首先，它训练学生有逻辑地组织复杂观点、用证据支撑论点，从而清晰地表达自我。这些能力不仅在学
+术研究中至关重要，在未来职场中同样备受重视。其次，学习诸如规范引用等学术准则，有助于培养学术诚信
+和对知识产权的尊重。
+尽管有人可能认为必修课程会降低选课灵活性，但书面沟通具有广泛价值。即使是理工科学生也必须撰
+写报告或论文。一门精心设计的课程可以适配不同学科，侧重培养与各领域相关的实用写作技能。
+总之，为学生配备学术写作能力，可以让他们为学业和职业上的成功做好准备。这是对他们批判性思维
+能力和在本领域做出有意义的贡献的一种投资。
+四级2025.12第二套19
+亮点词汇·
+fundamental基础的，基本的
+propercitation规范引用
+critical thinking批判性思维
+flexibility灵活性
+investment投资
+academicintegrity学术诚信
+structuredcommunication结构化表达
+intellectualproperty知识产权
+intellectualdevelopment心智成长
+mandatorycourse必修课
+·写作句型·
+l. While some may argue that..., ...is universally beneficial.
+句型意为“尽管有人可能认为·…·，但·具有广泛价值”．是强调普适性、反驳异议的常用句型，可用
+于回应对立观点并强化自身立场。
+2. It is an investment in...
+句型意为“这是对·……的投资”，是总结行动价值的句型，常用于总结行动的意义或升华主题。
+Part II
+Listening Comprehension
+SectionA
+News Report One
+·听力原文·
+听力原文译文
+Customs and Border Protection officials are seeing a rise in people illegally bringing eggs from Mexico into
+border states such as Texas. [1] The U.S. average price for a dozen large eggs last month hit S4.25. That's more than
+double their S1.78 price in December 2023. Meanwhile, 30 eggs in Mexico sell for just $3.40. Those bringing eggs into
+the U.S. risk fines of up to $10,000. But officials say they usually seize and destroy the eggs. They also impose a s300
+penalty.
+The Department of Agriculture banned eggs from Mexico in 2012. This was due to the risk of bird flu. Officials
+said most people arriving at international borders with eggs are truthful about their purchases. [2] They simply don't
+know bringing eggs is not allowed. *Generally, the items are declared during the first inspection. Then the person can
+abandon the eggs without consequence," a Customs and Border Protection spokesperson said. Even so, there have been
+a very small number of cases recently when authorities discovered eggs during further inspections.
+·答案详解·
+I. What do we learn from the news report about the egg price in the U.S.?
+关于美国的鸡蛋价格，我们从这则新闻报道中了解到什么？
+C)它因禽流感而上涨。
+A）它已急剧上涨。
+D）它一直是消费者关心的问题
+B）它一直在波动。
+新闻开头提到，美国一打大号鸡蛋的平均价格已达到4.25美元，这一价格是2023年12月价格（1.78美元）
+的两倍多。这直接表明美国的鸡蛋价格急剧上涨，因此选项A为正确答案。虽然新闻中提及从2012年起美
+国因禽流感风险而禁止从墨西哥进口鸡蛋，但并未明确指出禽流感是美国鸡蛋价格上涨的直接原因，故C
+项不准确。B项和D项新闻中未提及，可排除。
+2. What does the news report say about most people arriving at American borders with eggs?
+关于大多数携带鸡蛋抵达美国边境的人，新闻报道说了什么？
+C他们不知道携带鸡蛋是被禁止的。
+A）他们不想丢弃自己的鸡蛋。
+B）他们不知道自己会被重罚。
+D)他们在检查中没有申报鸡蛋。
+20四级2025.12第二套）
+新闻中间部分明确指出：官员称，大多数携带鸡蛋抵达国际边境口岸的人会如实申报购买的物品，他们只
+是不知道携带鸡蛋是不被允许的。这与选项C完全吻合。A项（不想放弃）和D项（没有申报）与新闻中
+“通常会在首次检查时被申报”“可以丢弃鸡蛋而无需承担后果”的描述不符。B项新闻中未提及，可
+排除。
+News Report Two
+·听力原文·
+[3] Net Ease House, a restaurant in America, has been hit with criticism after announcing on their website that
+children under the age of ten are no longer welcome. Among the reasons given for the decision, the restaurant cited
+noise levels, lack of space for highchairs, cleaning up crazy messes, and the liability of kids running around the
+restaurant. They decided that it was time to take control.
+The decision wasn't made lightly, but some recent events pushed them to implement this new policy. Responding
+to the post, one person commented that it is messed up beyond another level. Children-are children. Moms are tired
+and don't have time to cook. Not welcoming children under ten is a complete slap in the face to families. He felt
+so disappointed in the establishment. There are others, however, who showed support for the restaurant's decision.
+[4] They said it has the right to implement any rules it wants.
+·答案详解·
+3. What do we learn from the news report about the restaurant Net Ease House?
+关于“网易居”餐厅，我们从这则新闻报道中了解到什么？
+C)它不再像以前那样噜杂拥挤。
+A）它不再批评年轻顾客。
+D）它实施了一项旨在扩展业务的决定。
+B）它已禁止10岁以下儿童在此用餐。
+新闻开头部分指出，美国“网易居”餐厅在其网站上宣布不再接待10岁以下儿童就餐，此举受到了诸多批
+评。这与选项B完全吻合。其余三项新闻中并未提及，可排除。
+4.Whatdo supporters sayinresponsetotherestaurant'snewpolicy?支持者对该餐厅的新政策有何回应？
+C）它有权采用任何它想要的规定。
+A)它充分顾及常客的感受。
+B）它迎合了不同顾客的口味。
+D）它应该在网上公布其决定。
+新闻末尾提到，也有一些人支持该餐厅的决定，他们称餐厅有权实施其想要的任何规定。这与选项C的
+意思完全一致。D项是利用新闻开头“餐厅在其网站上宣布这一新规”这一细节信息设置的干扰项，与题
+干所问无关。其余两项新闻中并未提及，可排除。
+News ReportThree
+·听力原文·
+[5] Security officers were searching a suburb in Australia where an adult snake was believed to be wandering
+after the discovery of a huge, freshly shed snakeskin. [6] The skin was found at a construction site, and the government
+wrote to residents to warn them. They were told to observe and, if possible, photograph the animal. If it was moving
+watch where it went. It was recommended not to make contact with the animal.
+The type of snake was determined to be one of the world's largest snake species. It is not poisonous but can still
+attack and kill its victims. This type of snake is classified as a threat to humans, especially small children as well as
+pets. They may carry viruses that are fatal to native snakes, which do not have resistance.
+If officers found the snake, they would employ a licensed snake catcher to catch it and transport it to a specialist
+animal doctor, the government said. [7] If caught, the snake could be examined to determine where it came from, how
+long it had been in the area, what it had been eating, whether it was carrying any diseases of concern, and whether it
+had produced babies.
+四级2025.12第二套】21
+·答案详解·
+5.Whatdoesthereportsay security officerswere searchingfor?新闻报道称，安保人员正在搜寻什么？
+A）一只失踪的宠物。
+C)一张巨大的动物皮。
+B)一条成年蛇。
+D)一位蛇类专家。
+解新闻开头明确指出，安保人员正在澳大利亚一处郊区展开搜查，此前在当地发现一张巨大且刚蜕下的蛇
+皮，人们据此推测有一条成年蛇在附近出没。因此，搜寻目标是一条成年蛇，选项B正确。C项“动物
+皮”是线索，而不是搜寻的最终目标。A、D两项新闻未提及，可排除。
+6.Wheredoesthereportsaythediscoverywasmade?新闻报道称这一发现是在哪里发生的？
+A)在一个政府办公室里。
+C)在当地一家动物园。
+B）在一所废弃的房子里。
+D)在一处建筑工地。
+新闻中明确指出，这张蛇皮是在一处建筑工地被发现的。由此可知，选项D与新闻内容相符，为正确
+答案。解答本题需弄清楚题干关键词discoverywasmade，指的就是发现蛇皮。其余三项新闻未提及，
+可排除。
+7. What did the government say would be done if security officers found what they were searching for?
+政府表示，如果安保人员找到了他们正在搜寻的目标，政府人员将做什么？
+A）查明它来自哪里。
+C）保护它的幼惠免受伤害。
+B）治愈它可能患有的任何疾病。
+D）确定如何安全捕获它。
+解+
+新闻结尾部分指出，若成功捕获，会对该蛇进行检查，以确定其来源、在该区域活动的时长、进食情况，
+是否携带需重点关注的疾病，以及是否已产下幼蛇。选项A正是有关部门捕获到蛇之后要做的事情之一。
+新闻中只提到，捕获蛇后对其进行检查，确定一系列事情，其中包括该蛇是否已产下幼蛇，而没有提到要
+保护蛇的幼患免受伤害，故排除C项。D项是抓捕前的工作，不是抓获后要做的事。新闻未提及要治疗该
+蛇的疾病，故排除B。
+SectionB
+Conversation One
+·听力原文·
+W: Poor Hannah.
+M: Why? What happened?
+W: Didn't you hear? [8] She won a TV competition and became a millionaire overnight.
+M: [8] No way! That's incredible! Are you kidding?
+W: [8] No, I'm serious. I swear it! She went on a TV show where they quiz on general knowledge and she won first
+prize.
+M: Wow! That's so lucky of her. How much did she win?
+W: I'm not sure of the exact figure, but it's a few million Euros, maybe five million Euros after tax.
+M: I can't believe it. You are really not joking, are you?
+W: Honestly, look at my face. Our friend Hannah won a ton of money.
+M: Unbelievable. Then why were you saying "poor Hannah'"?
+W: [9] Well, it turns out that she's spent it all already.
+M:Fivemillion Euroshowis that even possible?
+W: She bought a house for herself and her husband, a house for her parents, and then a house for each of her four
+brothers and sisters. And then she bought her husband a ridiculously expensive sports car.
+M: Wow! [1o] Are they all happy? Because that's what matters, isn't it?
+W: I know for a fact Hannah isn't. You see, she was planning to quit the job she hates and retire early. But now that she
+22四级2025.12第二#）
+ran out of money, she can't. Basically, she miscalculated how fast she was burning through the money, and she's
+now full of regret.
+M: Why don't they sell that flashy new car?
+W: She wants to, but her husband refuses to get rid of it. He says the car is the best thing that has ever happened to
+him, and [11] if she sells it, he will divorce her.
+·答案详解·
+8.Whydoesthewomansaysheswearsit?女士为什么说她发誓那是真的？
+A)男士不认同汉娜很可怜。
+C男士认为她不可能是百万富翁。
+D）男士认为她不可信。
+B）男土不相信她所说的话。
+解在对话中，当女士告知男士汉娜赢了一个电视比赛，一夜之间成了百万富翁，男士接连表示怀疑和难以置
+信，并询问女士是否在开玩笑，女士回应说自已没有开玩笑，她发誓这是真的，所以答案是B项。对话开
+头，女士感叹“可怜的汉娜”后，男士追问女士这么感叹的原因，从而引出了话题，他并没有同意或者反
+驳“汉娜很可岭”这个说法，排除A项。C项张冠李戴，男土对汉娜成为百万富翁表示怀疑和难以置信，
+并未提及他认为发誓的女士不可能是百万富翁，故排除：D项在对话中未体现，男士只是不相信女士关于
+汉娜的消息，并非否定女士的人品，故也排除。
+9.WhatdowelearnaboutHannahfromtheconversation？从对话中我们了解到汉娜的什么情况？
+A）她已经一分钱都不剩了。
+C）她再也保不住自已的工作了。
+B）她被家人背叛了。
+D）她被抢走了500万欧元。
+解对话中女士解释了感叹“可岭的汉娜”的原因，指出汉娜虽然赢得了巨额奖金，但已经把钱全花完了，导
+致她无法辞掉自已讨厌的那份工作，所以答案是A项。对话中女士说汉娜本来打算辞掉那份讨厌的工作，
+早点退休的，C项“她再也保不住自已的工作了”与汉娜希望辞职的意愿不相符，故排除；B，D两项的内
+容在对话中均没有涉及，故排除。
+1o.Whatdoesthemanthinkreallymatterstopeople?男士认为对人们来说真正重要的是什么？
+A)财富。
+C)和睦。
+B)家庭。
+D)快乐。
+当女士告知男士汉娜为全家人都购买了房子后，男士询问大家是否因此都感到快乐，并紧接着强调“开心
+才是重要的，不是吗？”，这表明他认为快乐才是最重要的，所以答案是D项。据此排除其他三项。
+ll., What does Hannah's husband say he'll do if she sells the new car?
+汉娜的丈夫说，如果她把新车卖掉，他会怎么做？
+A）和她离婚。
+C)给她买一辆更贵的车。
+B)离家出走。
+D)让最好的事情发生在他们身上。
+对话结尾部分，女士说，汉娜的丈夫表示那辆跑车是他这辈子遇到的最好的东西，并威胁说如果汉娜卖掉
+这辆车，他就会和她离婚，所以答案是A项。B、C两项对话中没有相关内容，都排除；D项是利用对话中
+的字句拼凑的干扰项，故也排除。
+Conversation Two
+听力原文·
+W: If you have time right now, I think we need to sit down and discuss what exactly we are going to do for Jake's
+education next year. I've been thinking it over, and I'd like to send him to Westwood Elementary.
+M: You mean that boarding school? I thought we agreed that we would not be sending him away at such a young age.
+I admit that their academic record is very strong, with many outstanding awards for achievements in Science and
+School?
+四线2025.12第二膏23
+W: They do have a great outdoor campus where he could finally learn all those outdoor sports you have been wanting
+[13] They did just open though, so I don't think I feel comfortable having our son in the first class of a brand new
+school.
+M: Yeah, the classrooms would probably smell like paint, making the air in the school all stuffy. What about
+our local school then? [14] They have a wonderful arts program that would really challenge Jake in terms of
+creativity and imagination. Being practically next door, one of us could take him to school every day before
+going to work.
+W: I don't know. They have a reputation of being overly strict with the students. Not to mention the overwhelming
+amount of homework they assign, which would lead to a lot of pressure for Jake and me. [15] What if we send him
+to the place near your mother's house?
+答案详解·
+12.WhatdoesthemansayaboutJake?男士是怎么评价杰克的？
+C）他还不够成熟，无法独立生活。
+A）他在科学和数学方面并不出色。
+B)他的学习成绩并不突出。
+D）他不喜欢韦斯特伍德小学。
+在对话中，当女士提出想把杰克送到韦斯特伍德小学时，男士回复那是所寄宿学校，杰克现在还不够成
+熟，没法独立生活，所以答案是C项。A项和B项张冠李戴，在对话中，女士和男士谈论韦斯特伍德小学
+时，提到了“科学和数学”和“学习成绩”这些并非杰克的特点，故均排除；D项在对话中并未提及，
+故排除。
+I3. Why does the woman feel uncomfortable about sending Jake to Lakeview School?
+为什么女士对送杰克去湖景学校感到不自在？
+C)学校缺少户外运动设施。
+A)学校太远了。
+B)学校是刚开办的。
+D)学校的一流教师太少了。
+解对于男士建议的湖景学校，女士先是肯定了其优点，随后话锋一转说这所学校才刚刚开办，让他们儿子去
+一所全新学校的第一届班级就读，她总觉得不太放心，所以答案是B项。A项在对话中并未提及，故
+排除；C项与对话提到的“那所学校有很棒的户外校园”的表述矛盾，故排除；D项未在对话中提及，故
+排除。
+A）学校有个漂亮的校园。
+C)学校有很棒的艺术课程。
+D）学校对杰克的呼吸问题有帮助。
+B)学校步行就能到。
+所以答案是C项。A项中“漂亮的校园”是湖景学校的特点，故排除；B项中“步行就能到”这个描述不准
+确，对话中强调的是方便在上班前顺路送杰克上学，故排除；D项中“对杰克的呼吸问题有帮助”也是湖
+景学校可能带来的好处，故排除。
+15.Whatdoes thewoman suggestattheendof the conversation?女士在对话结尾提出了什么建议？
+C咨询她的母亲杰克该上哪所学校。
+A）询问杰克他自己更愿意就读哪所学校。
+B）慎重考虑什么对杰克明年的教育最有利。
+D）将杰克送到男士母亲家附近的学校。
+在对话结尾，女士提出了一个新的建议：把杰克送到男士母亲家附近的学校，所以答案是D项。A项和C项
+均未在对话中明确体现，故排除。B项“慎重考虑什么对杰克明年的教育最有利”也不是女士最后提出的
+建议，故排除。
+24四级2025.12第二套】
+Sectionc
+Passage One
+·听力原文·
+Analytical decision-making is a decision-making approach where a manager makes important business decisions
+only with solid data. This style contrasts with more instinctive leadership styles where managers make many decisions
+using instinct or opinion. While analytical decision-makers benefit from a deliberate, thoughtful approach, this style
+also has some shortcomings.
+[l6] A key flaw with analytical decision-making is that it takes time. While this approach is beneficial when you
+have the time and the decision is important, it is problematic when time is crucial. Analytical decision-makers struggle
+with deadlines and a sense of urgency with decisions. In situations where you need more timely action, decisions based
+on some information and instinct may work better.
+The desire to be right is a major driver of analytical decision-making. Leaders who use this style don't want to
+make mistakes. [17] This commitment to one right way of thinking or doing things hinders the manager's flexibility.
+Inflexibility causes you to ignore or avoid listening to the thoughts and ideas of others. You only want to utilize hard
+data or facts.
+Despite its restrictions, analytical decision-making does have several key strengths. [18] By relying on facts
+and data, you minimize your potential for a wrong decision. You also get away from the habit of making guesses or
+following instincts. Database technology enables business leaders to look to hard evidence in analyzing target markets
+and promotional strategies rather than making assumptions or guesses on what works.
+答案详解·
+6. What does the passage say is a major flaw of analytical decision-making?
+文章称分析型决策的一个主要缺陷是什么？
+C)它过于依赖确凿数据。
+A）它耗时过长。
+B）它不适用于关键问题。
+D）它会削弱领导者的紧迫感。
+解文章开头部分明确提到，分析型决策的一个关键缺陷在于耗时。选项A与文章表述一致，因此为正确答
+案。其他三项均不符合原文对该决策方式缺陷的描述，故排除。
+17. What does a leader tend to do when they're committed to analytical decision-making?
+执着于分析型决策的领导者往往会做什么？
+A）依赖数字技术。
+C）忽视他人的想法和观点。
+B）进行假设和猜测。
+D)强调灵活思考。
+解，文章中间部分提到，执着于分析型决策的领导者会因对一种正确的思维或行事方式的坚持而缺乏灵活性，
+进而忽视或拒绝听取他人的想法与观点。选项C与文章内容一致，因此为正确答案。选项B与原文“决策
+者通过使用分析型决策的方式可以摆脱主观猜测”相悸；选项D与原文“抑制灵活性”矛盾；选项A并非
+领导者的核心行为特征，故均可排除。
+18.Whatisakeystrengthofanalyticaldecision-making？分析型决策的核心优势是什么？
+A）最大化可用资源的优势。
+C)发掘新的潜在市场。
+B)将做出错误决策的可能性降到最低。
+D)完善推广策略。
+解文章结尾部分明确指出，分析型决策通过依靠事实和数据，能最大限度降低做出错误决策的可能。选项B
+与文章内容一致，因此为正确答案。其他三个选项文章未提及，故排除。
+Passage Two
+·听力原文·
+What is the secret to living past loo? Playing the piano is among the things the world's oldest person believes
+四级2025.12第二套】25
+has contributed to her long life. [19] Branyas Morera is now 115 years and 320 days old. That means she's been alive
+longer than any other living individual. Branyas was born in the United States on April 4, 1907, but her family moved
+to Spain, where they were originally from when she was a young child. She has lived there ever since. The ll5-year-
+old is active on social media, regularly sharing aspects of her life. [20] She also shares some of her secrets to living so
+long. These include playing the piano from a young age. Unfortunately, she had to give up the practice seven years ago
+at 108. Her other secrets for living a long life? She led an active lifestyle until her later years but has never followed a
+specific diet.
+"Many people ask me what diet I follow to live so many years," Branyas wrote. "I have always eaten little, but
+everything, and I have never followed any plan." But she does eat yogurt every day, which she said has “"an infinite
+number of positive properties" for the body. [2i] She has also said that the secret to a long life is "knowing how to
+choose" what to forget."Life would be impossible if we remembered everything," she said.
+·答案详解·
+19.WhatdowelearnaboutBranyasMorera?关于布兰亚斯·莫雷拉，我们了解到什么信息？
+A）她是世界上最知名的钢琴家之一。
+C)她年幼时移居美国。
+B）她今年4月刚庆祝了110岁生日。
+D）她是目前世界上最长寿的人。
+解文章开篇明确说明，布兰亚斯·莫雷拉如今115岁零320天，是目前在世的最长寿者。选项D与文章内容一
+致，因此为正确答案。原文只提及她有弹钢琴的习惯，但并未说她是知名钢琴家，故排除A：选项B与时
+间线矛盾，故排除；选项C混淆了“出生于美国”和“移居美国”的信息，故排除。
+20.WhatisoneofBranyasMorera'ssecretsto livingalonglife?布兰亚斯·莫雷拉的长寿秘决之一是什么？
+A始终活跃于社交媒体。
+C)从小弹钢琴。
+B)定期进行剧烈运动。
+D）每天遵循特定的饮食方案。
+解→文章中间部分提到，布兰亚斯·莫雷拉分享的长寿秘决包括从小弹钢琴。选项与文章内容一致，因此为
+正确答案。选项A是她的生活状态而非长寿秘决；选项B原文未提及；选项D与“从未遵循特定饮食方案”
+矛盾，故均可排除。
+2l. What does Branyas Morera think also contributes to a long life?
+布兰亚斯·莫雷拉认为还有什么因素有助于长寿？
+A）尽可能少吃东西。
+C）弄清每种食物的积极属性。
+B)拥有选择性遗忘的能力。
+D）知道如何记住人生中的重大事件。
+解文章结尾部分提到，布兰亚斯·莫雷拉说过，长寿的秘决在于知道如何选择该忘记什么。选项B与文章内容一
+致，因此为正确答案。选项A与原文“吃得很少，但什么都吃”不符；选项C、D原文未提及，均可排除。
+Passage Three
+·听力原文·
+It's the first day of school, and your teacher tells you to find a seat in the classroom. Where do you sit? Does it
+matter? Yes! [22] It does matter where you sit in your classroom, so choose and choose carefully! Studies report that
+where you sit in the classroom can impact your ability to learn and the way your teacher perceives you. Guess what
+else? Your grade!
+Then, what is the best seat in the classroom? In one study, students who sat in the front and center of the
+classroom received a higher grade average and scored higher on tests than those sitting towards the back of the
+classroom. Get this! [23] Students sitting in the middle of the classroom also outscored students sitting behind them.
+This study gathered that students had a clearer vision of the blackboard, and were able to focus more attention on the
+instructor. By sitting front and center, students were able to hear better too. [24] The instructors said that they also
+formed a better connection with the students who sat in front. Perhaps the connection is made because of eye contact
+26四级2025.12（地二套】
+and visibility and more interaction. But when you sit in the front row, you may be called on more by your teacher,
+mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are
+extremely shy, the attention could cause sorne unwanted stress.
+·答案详解·
+22.Whatisofgreatimportance to studentsaccordingtothespeaker?说话者认为对学生而言什么至关重要？
+C)老师对他们的看法。
+A)学习能力。
+B)开学第一天。
+D)他们在教室里的座位。
+解文章开篇通过设问强调座位选择至关重要，随后补充说明座位会影响学习能力、老师的看法和成绩，故选
+项D是正确答案。选项A，C是座位会影响的方面；选项B是引出话题的时间背景，均可排除。
+23. What did one study find about students seated in the middle of the classroom?
+关于坐在教室中间位置的学生，一项研究发现了什么？
+A）他们经常受到老师的密切关注。
+C)他们其实希望能看清黑板。
+B)他们的平均成绩在班级里是最高的。
+D）他们的分数高于坐在他们后面的学生。
+解文章中间部分明确指出，研究发现，坐在教室中间位置的学生，分数高于坐在他们后面的学生。选项D与
+文章内容一致，为正确答案。选项A是前排学生的特点：选项B文章未提及；选项C混淆了“能清晰看到黑
+板”和“希望看清黑板”的表述，均可排除。
+24. What can eye contact, visibility and more interaction probably bring about?
+眼神交流、明显性和更多互动可能会带来什么结果？
+A)班级所有学生的平均成绩提高。
+C)对以学生为中心的教学方法更有力的支持。
+B）老师与学生之间的联系更紧密。
+D)更有利于有效课堂学习的氛围。
+解文章中间部分提到，老师们反馈与前排学生建立了更紧密的联系一一这可能是因为双方有眼神交流，学生
+在课堂上显眼，以及互动更频繁。选项B与文章内容一致，因此为正确答案。其他三个选项的说法在文中
+无依据，均可排除。
+关于坐在前排的极度害羞的学生，我们能了解到什么？
+A）他们可能会承受一些不必要的压力。
+C)他们可能会受到老师的额外关注。
+B）他们可能会努力表现出自已有准备。
+D）当被老师点名时，他们可能会感到无助。
+文章结尾部分提到，对于极度害差的学生来说，这种关注可能会带来一些不必要的压力。选项A与文章内
+容相符，因此为正确答案。选项C是产生压力的原因而非结果；选项B、D原文未提及，故均可排除。
+Part Il
+Reading Comprehension
+Section
+·概览·
+本文节选自2018年4月29日发表于网站BigThink上的一篇标题为“Study:Memoriesofmusiccannotbe
+losttoAlzheimersanddementia”的文章。一项研究表明，音乐引发的ASMR，其对应的脑区不会因阿尔
+茨海默病而受损。该研究证实，音乐能短暂帮助患者恢复认知，缓解症状，还可能改善其生活质量。
+·全文翻译·
+有些音乐会让你忍不住舞动脚步，有些则能激励你走出去改变世界。无论如何，说音乐能以独特的方式
+触动人心，是[26]合理的。
+四级2025.12第二窖】27
+如果你特别喜欢某段音乐，你的大脑会产生一种叫作“自发性知觉经络反应（ASMR），的现象，这对你
+来说，[27]感觉就像大脑被刺了一下。
+事实证明，ASMR十分特别。根据《阿尔茨海默病预防杂志》[28近期发表的一项研究，大脑中负责
+ASMR的区域，并不会因阿尔茨海默病而受损。阿尔茨海默病[29]往往会让患者陷人层层困惑，而这项研究证
+实，音乐有时[30]确实能将患者从阿尔茨海默病的混沌状态中唤醒，让他们恢复（至少接近）正常状态···哪
+怕只是片刻。ASMR的作用真强大！
+这一现象已被多次[31]观察到，但很少得到正式严谨的研究。最著名的例子之一是92岁的亨利·德莱尔的
+故事，他在听青年时代的歌曲时，能从痴呆状态中清醒过来。
+犹他大学放射学副教授、该研究的[32]合著者杰夫·安德森表示：“在我们的社会中，痴呆症的诊断正最
+低照护成本，同时提升患者的生活[35]质量。
+·答案详解·
+26.D）fair（adj.合理的）
+语法判断空格前面为it's，后面为不定式tosay，故空格处应填形容词，构成“it's+形容词+todo”结构。
+语义判断前文列举了音乐给人们带来的不同影响，此处是总结性表述无论如何，说音乐能以独特的方式触
+动人心，是”。代人选项可知，fair可以自然衔接前文的例子与后文的总结，符合语境，故为答案。
+27.E)feels（w使人感觉）
+语法判断空格前面是关系代词which（指代ASMR），后面是toyoulike.，能直接接like的动词以感官动词
+为主，故空格处应填感官动词。全文用一般现在时，故此处填动词的第三人称单数。
+语义判断句意为“如果你特别喜欢某段音乐，你的大脑会产生一种叫作“自发性知觉经络反应
+（ASMR）的现象，这对你来说，房
+就像大脑被刺了一下”。此处描述ASMR给人的感觉“就像大
+脑被刺了一下”，代人选项可知，feeltosb.like（对某人来说感觉像）这一结构符合语境，故选E。
+28.L)recently（ady.最近，近期）
+语法判断空格前面为不定冠词a，后面为publishedstudy，故此处填副词。
+语义判断句意为“根据《阿尔茨海默病预防杂志》
+发表的一项研究，大脑中负责ASMR的区域，并
+不会因阿尔茨海默病而受损”。代人选项可知，recently符合此处语境，故为答案。
+29.N)）tends（w往往会，倾向于）
+语法判断空格前面是主语Alzheimer's（Alzheimer'sdisease的简称），后面是toput，故此处应填动词，作谓
+语。根据全文时态可知，此处应填动词的第三人称单数。
+语义判断此处描述阿尔茨海默病的普遍影响“
+处语境，能客观描述该病的常见症状，故为答案。
+30.A）actually（adv实际上：事实上）
+让患者陷人层层困惑”。代人选项可知，tends符合此
+语法判断空格前面为cansometimes，后面为动词lift，故空格处应填副词。
+语义判断前文提到“大脑中负责ASMR的区域，并不会因阿尔茨海默病而受损”，后文说“音乐能有时
+能将患者从阿尔茨海默病的混沌状态中唤醒”。代人选项可知，actually符合此处语境，既能衔接研
+究结论，又能突出音乐起改善作用的真实性，故为答案。
+3l.H)observed（v观察：注意到）
+语法判断空格前是hasbeen，后面是severaltimes，故空格处应填过去分词或形容词，构成现在完成时的被
+动语态或系表结构。
+语义判断句意为“这一现象已被多次
+，但很少得到正式严谨的研究”。代入选项可知，observed“观
+察：注意到”与“先观察现象再深人研究”的科研流程相符，也与本文对ASMR研究现状的描述相符，故
+答案为H。
+28四级2025.12第二膏
+32.C)contributing（w贡献）
+语法判断空格前面为associateprofessor..和连词and，后面为名词author，故空格处需填形容词或现在分词，
+作定语修饰后面的名词，与associateprofessor构成并列关系。
+语义判断句子介绍杰夫·安德森的身份“犹他大学放射学副教授、该研究的
+作者”，contributing
+author（合著者）是学术文本中的固定术语，故答案为C。
+33.M）taxing（u耗费力量或资源，使负重担）
+语法判断空格前面是系动词are，后面是名词resources和介词短语tothemaximum（最大限度地），空格处
+应填形容词或现在分词，描述diagnoses与resources的关系。
+语义判断句意为“在我们的社会中，痴呆症的诊断正最大限度地
+医疗资源”结合医疗资源紧张的
+社会现实，又根据后文提到的“降低照护成本”的诉求，可知此处选M。
+34.F)）manageable（adj.可控制的）
+语法判断空格前面是makethe symptomsmore，后面为逗号，故空格处应填形容词，构成比较级。
+，降低照护成
+语义判断句意为“没人说播放音乐能治愈阿尔茨海默病，但它或许能让症状变得更
+”。句子中的but提示语义转折，前文铺垫“音乐不是治愈方法”，此处需
+本，同时提升患者的生活
+体现“音乐能改善症状”。代人选项可知，manageable符合此处语境，故为答案。
+35.K）quality（n.质量：品质）
+语法判断空格前面是patient's，后面是介词短语of life，故空格处需填名词。
+语义判断句意为“但它或许能让症状变得更可控，降低照护成本，同时提升患者的生活
++quality
+oflife（生活质量）是固定短语，且与此处描述音乐的积极意义相符，故答案为K。
+干扰项注释
+B)consequently（ady.因此：结果；所以）G)mends（修补：康复；好转）I）phase（n.阶段时期v分
+阶段进行）J）plotting（v密谋；绘制）O)yielded（w产生：屈服）
+SectionB
+·概览·
+本文节选自BBC的Worklife栏目于2019年12月11日发表的报道。文章探讨了电子游戏技能是否能助力
+求职。尽管传统观念常视游戏为消遣，但越来越多的企业甚至军队开始认可游戏玩家具备的软技能，如
+团队合作，战略规划，快速反应及抗压能力。游戏学院通过分析玩家游戏档案来提供技能课程，也有玩
+家将游戏中的领导，，管理能力成功应用于现实商业。虽然传统观念仍对游戏存有偏见，目前将游戏成就
+写入简历仍存在争议，但倡导者认为应鼓励游戏玩家挖掘其中的职业价值。
+·全文翻译·
+玩电子游戏有助于你找到更好的工作吗？
+A）电子游戏产业的规模比电影和音乐产业加起来还要大，然而我们当中很少有人会把玩电脑游戏所获得的成
+就列为简历中的工作经历。但为什么不能呢？[39]企业正开始意识到游戏玩家能够为职场带来的技能。
+B）一家初创公司坚信，通过游戏所学到的技能一一这些技能是历经多年的训练与实战才辛苦获得的一一可以
+应用于实际的工作场景。而游戏学院认为，这一观点是有确凿数据支撑的。你喜欢像《传送门》这样的奇
+特解谜游戏，还是像《防御阵型》这样的塔防游戏？该团队发现，信息技术行业的从业者玩这类游戏的比
+例高于平均水平。[42]但如果你喜欢《文明》《全面战争》或《幽浮》这类核心在于策略和资源管理的游
+戏，那么你可能与管理者们有更多的共同之处。
+游戏学院的想法很简单：从玩家的在线游戏档案分析他们的游戏习惯，并据此开设能够反映其天赋的有价
+迁移性。
+四线2025.12第二套29
+D）甚至连军队也在招聘游戏玩家。一位英国皇家空军发言人表示：“能够吸收信息，迅速做出反应并协调行
+动，同时在压力下保持冷静，这些通常是擅长玩游戏的人所具备的特质。”[36】这些技能都是英国皇家空
+军在“各种岗位”中所寻求的素质之一。“通过玩游戏习得的技能，能够与某些领域的需求高度契合。”
+E）“游戏玩家可以在职业场景中运用许多软技能，比如团队合作能力、问题解决能力和战略规划能力。“海
+斯招聘公司的区域总监瑞安·加德纳说道。44]但这是否真的意味着你在《守望先锋》中的百强排名应该
+写进你的简历里呢？加德纳先生说：“关键在于你如何能让其与你所申请的工作岗位相关联，或者如何让
+其使你作为一名潜在员工更具吸引力。”
+F）两年前，格拉斯哥大学的一项研究因提出玩游戏能使学生取得更大成功而成为头条新闻。但该研究的作者
+之一马修巴尔博士表示：“这项研究尚未真正改变人们的看法，至少目前还没有。”他现在正在撰写
+本关于这一主题的书。[38】“从目前来看，我认为游戏背负的负面名声意味着，告诉别人你是位坚定的游
+戏玩家更有可能会损害你获得工作的机会。但举例来说，如果有人能说明自已是如何在一款线上游戏里领
+导团队的，那么他们或许就能说服雇主，这种能力是有用的。”巴尔博士说道。
+G】休闲式玩游戏不太可能对你的职业前景有帮助。【41]但游戏学院的建议之一是将休闲玩家转变为“有意
+识”的玩家，运用批判性思维来发展自已的技能。联合创始人大卫·巴里说道：“我们把游戏实战表现视
+说他们想要领导能力一一为什么我不能指出我多年来在《魔兽世界》中带领团队完成团队副本的经历？”
+游戏网站“科塔克”采访时表示：“如果你正在玩《星战前夜》这款游戏，那么你基本上就已经拥有了一
+个工商管理硕土学位。”在游戏界，这款游戏常常被戏称为“电子表格模拟器”，其虚构的宇宙中的经济
+体系却是基于真实市场原则运转的。如果你想建造一艘新的宇宙飞船，所需的原材料必须由另一位玩家开
+采。制造成本会纳人考量范围，而商品的价格会根据需求和运输该商品的距离而波动。
+I）一直梦想着自己开公司的里奇先生，曾在游戏里运营一家由数百名玩家组成的公司。[37]最终，他意识到
+自已可以把技能运用到现实商业中一一而不是无偿施展。他对“森泰克”公司进行了重组，该公司曾是其
+父亲公司的一个税务工具，如今已进人第四个年头，帮助国际品牌进人加拿大市场。[37里奇先生认为，
+《星战前夜》能教授诸如创造力，领导力，组织能力和冲突解决能力等技能。他将自己已的成功归功于他的
+家庭、他强烈的自主创业愿望，以及“冰岛那家超牛的公司开发出了一款超赞的游戏”。
+J）[43]数字创业家兼商业顾问米娅·贝内特表示：“在更为传统的观念中，游戏仍被想象为青少年男孩的消
+遣一一种浪费时间的行为。”但她表示，游戏与诸如“决策能力、预测能力以及未来规划能力”等技能
+之间存在某种关联。“它还有助于培养一些元技能一一比如学习如何学习的能力、实践探索能力以及创新
+思维能力。”
+K）马克·朗在萨里郡的国民医疗服务体系工作，担任放射治疗物理师已有十二年了。如今，他玩游戏的时间
+比过去少了。“我本想说，我的游戏技能能够使我用类似光子炮的直线加速器来消灭癌症，但实际情况并
+非如此。”[40]相反，他将自已能接触电脑归功于像《魔法宫殿》那样的老式游戏。每一次游戏版本更新
+都提高了他对电脑运作原理的了解。玩游戏还激发了他的竞争精神一一而他认为，这种精神是可以迁移到
+工作中的。他表示：“制定治疗方案时，目标是优化作用于肿瘤的辐射剂量，并尽可能抑制其对周围健康
+组织和器官的影响。”这个的关键是“重复这个过程，但每次都要做出一些细微的改变以改善结果”。这
+与追求高分或完美通关并无二致。[40】“大多数电子游戏本质上都是需要解决的谜题，”他说，“而解决
+问题是我工作中非常重要的一部分。”
+L）在游戏学院，巴里先生清楚他们仍然有很长的路要走。“雇主群体需要科学依据，”他说道，但同时他也
+承认，自已是在开始询问玩家们最引以为傲的游戏成就后，才真正相信这一点的。“他们给出的答案所涵
+盖的范围和规模令人惊叹，”他说道，“但若间及工作中的成就，他们却答不上来。他问道：“人们在游
+戏中所获得的参与感和强大的技能一一为什么工作就不能像那样呢？
+30四级2025.12[第二套】
+·答案详解
+36. 题干译文某些游戏技能符合英国军队的要求。
+案解析D。由题于关键信息Certain gaming skills、requirements of the armed forces和Britain定位到D段。D
+段通过一位英国皇家空军发言人的话指出：“能够吸收信息，迅速做出反应并协调行动，同时在压力下保
+持冷静，这些通常是擅长玩游戏的人所具备的特质。紧接着下一句指出，这些技能都是英国皇家空军在
+“各种岗位”中所寻求的素质之一。由此可知题干是对这两句的概括，其中Certaingamingskills对应原文
+中的Those skills；meet the requirements of the armed forces in Britain对应原文中的are part of what the Royal
+AirForceislookingfor“inavarietyofroles，故答案为D。
+37.题干译文一位资深玩家将自己的游戏技能运用到了现实商业活动中，并将其成功部分归功于一家游戏公司。
+[案解析I。由题千关键信息Oneveteranplayer、gaming skills、real-worldbusiness和oweshis successpartlyto
+agamecompany定位到I段。I段开头提到，里奇先生曾在游戏里运营一家由数百名玩家组成的公司。接着
+第二句指出，他意识到自已可以把技能运用到现实商业中。最后两句提到，里奇先生认为，《星战前夜》
+能教授诸如创造力、领导力，组织能力和冲突解决能力等技能。他将自已的成功归功于他的家庭，他强烈
+的自主创业愿望，以及“冰岛那家超牛的公司开发出了一款超赞的游戏”由此可知题千是对这些内容的
+概括，其中One veteran player对应原文中的MrRicci；has applied his gaming skills tohis real-world business对
+应原文中的couldtransferhisskillstoreal-lifebusiness，这里的skills指的就是该段倒数第二句提到的skillslike
+creativity,leadership,organisation, and conflict resolution；而owes his success partly to对应原文中的credits his
+success toa game company对应原文中的a damn good company in Iceland thatmade a damn good game，故答
+案为I。
+38.题干译文据一位研究人员称，游戏的负面名声将很可能限制玩家获得工作的几率。
+答案解析F。由题干关键信息arescarcher、bad reputation aboutgames和chancesof landingajob定位到F段。
+F段倒数第二句通过引用巴尔博士的话指出：“从自前来看，我认为游戏背负的负面名声意味着，告诉
+别人你是位坚定的游戏玩家更有可能会损害你获得工作的机会。，故题干是对该句的同义转述。其中a
+researcher对应原文中的one of theauthors of thestudy,Dr.MatthewBarr；bad reputationaboutgames与原文中
+的the negative reputation around games同义；will probably limit a gamer's chances of landing a job与原文中的
+ismorelikelytoharmyour chances ofgettinga job同义，故答案为F。
+39.题于译文企业开始意识到，游戏技能能够应用于员工的工作当中。
+答案解柜A。由题千关键信息Businesses、gaming skills、applicable和employeeswork定位到A段。A段最
+后一句提到，企业正开始意识到游戏玩家能够为职场带来的技能，故题干与该句属于同义转述，其中
+Businesses arebeginning to realise对应原文中的Businesses are waking up to；而gaming skills are applicable to
+their employeeswork与原文中的the skills gamers canbringto theworkplace同义，故答案为A。
+40.题干译文一位物理师承认，玩游戏帮助他积累了计算机方面的知识以及解决问题的能力。
+案解K。由题千关键信息Aphysicist、computerknowledge和skillsofsolvingproblems定位到K段。K段
+第三句提到，他（一位放射治疗物理师）将自已能接触电脑归功于像《魔法宫殿》那样的老式游戏。每一
+次游戏版本更新都提高了他对电脑运作原理的了解。最后一句引用马克·朗的话提到：“大多数电子游戏
+本质上都是需要解决的迷题，而解决问题是我工作中非常重要的一部分。”题干是对这两句内容的概括。
+其中Aphysicist是原词重现；admitsgaminghas contributed to his computerknowledge是对原文中creditsold-
+school games like Palace of Magic with exposing him to computers 以 及Every new gaming upgrade improved his
+knowledgeofhowtheyworked的概括；而skillsofsolvingproblem与原文中的problem-solving同义，故答
+案为K。
+41.题干译文游戏学院建议，借助批判性思维帮助玩家培养自身技能。
+答案解G。由题干关键信息Game Academy、proposestohelpgamers、develop theirskills和critical thinking
+定位到G段。G段第二句提到，游戏学院建议将休闲玩家转变为“有意识”的玩家，运用批判性思维来发展
+自己的技能。题干是对该句的同义转述，其中GameAcademyproposes对应原文中的partofGameAcademy's
+四级2025.12第二套）31
+suggestion is; to help gamers develop their skills using critical thinking是对原文中to transform casual gamers into
+“conscious"ones,applyingcritical thinkingtodevelopingtheirskills的概括总结，故答案为G。
+42.题干译文喜欢玩那些需要靠管理技能才能取胜的游戏的人，可能拥有更多管理者的特质。
+定位到B段。B段最后一句提到，如果你喜欢《文明》《全面战争》或《幽浮》这类核心在于策略和资源管
+理的游戏，那么你可能与管理者们有更多的共同之处。故题于是对这句的同义转述，其中Onewho enjoys
+playing games that require management skills to win对应原文中的if you prefer..where strategy and resource
+withmanagers，故答案为B。
+题干译文在更为传统的观念中，玩游戏是年轻男孩们参与的一项浪费时间的活动。
+43.
+答案解析J。由题干关键信息moreconventional views、a time-wasting activity和pursuedbyyoungboys定位到
+J段。J段第一句提到，数字创业家兼商业顾问米娅·贝内特表示：“在更为传统的观念中，游戏仍被想象
+views对应原文中的Inmore traditional settings；gaming is a time-wasting activitypursued by young boys与原文
+中的gaming is still imagined to be the pursuit of teenageboysa waste of time同义，故答案为J。
+44.题于译文有人建议，如果游戏技能能够提升求职者的吸引力，那么就应将其填入简历当中。
+案解析E。由题于关键信息gamingskills、resume和enhanceajobapplicant'sappeal定位到E段。E段第二、
+三句提到，但这是否真的意味着你在《守望先锋》中的百强排名应该写进你的简历里呢？加德纳先生说：
+*关键在于你如何能让其与你所申请的工作岗位相关联，或者如何让其使你作为一名潜在员工更具吸引
+力。”换言之，加德纳先生建议，如果游戏技能能够提升求职者的吸引力，那么就应将其填入简历当中。
+题干是对这两句内容的概括，其中Itis suggested对应原文中的Mr.Gardner says；gamingskills指的是原文中
+提到的 plenty of soft skills...such as teamwork, problem solving and strategic planning；be included in a resume
+对应原文中的should go down in your resume；enhance a job applicant's appeal对应原文中的makes you more
+interestingasapotentialemployee，故答案为E。
+45.题干译文许多玩家都清楚，他们对游戏的热爱塑造了如今的自己。
+客案解析H。由题千关键信息Manygamers，passion、playinggames和shaped theiridentity定位到H段。H段
+第一句提到，如今已经有不少玩家意识到，正是他们的爱好造就了如今的自己。题干是对这句话的同义转
+述，其中Manygamers对应原文中的plentyofgamers；know属于原词重现；theirpassionforplayinggames对
+应原文中的theirhobby；has shapedtheiridentity对应原文中hasmadethemwhotheyare，故答案为H。
+Sectionc
+Passage One
+·概览·
+文章中提到，垃圾食品是许多美国人的主食，食品公司的广告误导大众，以往青少年健康饮食干预
+多因侧重未来健康收效甚微。新研究巧妙利用青少年叛逆、追求自主的天性，以及他们对社会公平的重
+视，通过揭露食品行业问题等方法，让他们将健康饮食与自身价值观关联起来。这既有助于转变态度又
+可以改善选择，为预防肥胖提供有效途径。
+·全文翻译·
+@重难点单词及短语
+垃圾食品如今已成为许多美国人饮食中的主食。[46]零食公司推出的广告
+宣传活动常常邀请体育明星代言，传递出的理念是：只要加强体育锻炼，就能
+staplen.基本食物：主食
+feature以为特色;
+抵消食用这些产品带来的任何负面影响。但近期研究表明，肥胖率上升的罪魁
+祸首并非缺乏运动，而是不良的饮食习惯。
+32四级2025.12第二弄
+由主演
+neutralize使无效：中和
+帮助减少垃圾食品摄人的干预措施对儿童和青少年尤为重要。预防胜于
+：consumptionn.消耗（量）
+治疗，因为肥胖极难治愈。[47]遗感的是，尽管健康教育在低龄儿童群体中取
+得了一定成效，却很难影响到青少年。
+·innovativeadj.创新的
+·flawn.缺陷
+如今，一项大规模研究尝试了一种创新方法来转变青少年对健康饮食的
+态度，且收效喜人。[48]研究人员认为，以往的干预措施之所以多半失败，是
+assumev假设
+exploit利用；剥削；开发
+·instinctn.天性，本能
+并假定这一点足以成为激励青少年的动力。[49]与之相反，这项新的干预措施
+巧妙地利用了青少年叛逆、追求自主的天性，以及他们对社会公平的重视。
+rebelliousnessn.叛逆
+为实现这一目标，研究人员让学生阅读了一篇关于食品行业的文章。文
+·autonomyn.自主权；自治
+章揭露了食品行业为了让垃圾食品更容易使人上瘾，并将产品包装成“健康食
+manipulativeadj.善于操纵
+品”而采用的操控性，欺骗性手段这一秘密。文章还解释了广告宣传活动是如
+何专门针对低龄儿童和低收入人群，对这些弱势群体造成伤害的。在阅读文章
+·deceptive adj.欺骗性的
+之后，参与者又浏览了一份虚构的青少年调查报告，该报告显示，青少年们希
+·addictiveadj.使人上瘾的
+·vulnerableadj.脆弱的；易
+受伤害的
+千预措施实施后，参与者将健康饮食与自主意识和社会公平关联起来，
+同时也认为健康饮食更具吸引力。重要的是，这项新干预措施对参与者的实际
+“fictional adj虚构的
+行为也产生了一些积极影响。一天后，在一个看似无关的场景中，研究人员为
+·appealingadj.有吸引力的
+·contextn.背景，环境
+学生们提供了可供选择的零食和饮料。相比饼干、汽水这类不健康的选择，青
+少年们更倾向于选择水果，水这类健康的零食和饮品。[50]显然，将健康饮食
+与青少年自身的价值观相结合，似乎是预防肥胖的有效途径。
+·答案详解·
+46.关于零食公司的广告宜传活动，我们了解到什么？
+A）这些广告传递的理念是，只要消费者加强锻炼，食用它们的产品就没有问题。
+B）这些广告传递的信息是，不良饮食习惯是造成美国人肥胖的原因。
+C）这些广告通常邀请体育明星代言，以此强调其零食产品的益处。
+D)这些广告声称，缺乏运动是肥胖率上升的罪魁祸首。
+根据题千关键词advertisingcampaignsfromthesnackfoodcompanies定位到第一段第二句。
+定位解析
+第一段第二句指出，零食公司推出的广告宣传活动常常邀请体育明星代言，传递出的理念是：只要加强体
+育锻炼，就能抵消食用这些产品带来的任何负面影响。也就是说，只要消费者加强锻炼，食用它们的产品
+就没有问题，A项与原文意思一致，故选A。B项原文中未提及，故排除。C项偷换概念，用体育明星代言
+是为了传递“运动抵消危害”的观点，而不是强调零食本身的好处，故排除。D项与原文不符，故排除。
+47.文章对健康教育有何论述？
+C）它在对抗肥胖的相关行动中几乎没有发挥作用。
+A）它揭示了青少年叛逆和追求自主的天性。
+D它在很大程度上未能引导青少年远离垃圾食品。
+B)它更注重治疗而非预防。
+根据题干关键词healtheducation定位到第二段最后一句。
+定位
+第二段最后一句提到，尽管健康教育在低龄儿童群体中取得了一定成效，却很难影响到青少年。这说明健康教
+育在引导青少年远离垃圾食品方面基本没有效果，D项与原文相符，故选D。选项A是利用新研究中提及的青
+儿童群体中取得了一定成效，并不是几乎没有发挥作用，故排除C。
+48.以往旨帮助在减少垃圾食品摄入的干预措施存在的一个重大缺陷是什么？
+A）它们只能暂时激励青少年远离垃圾食品。
+B）它们将重点放在了年轻人未来能获得的益处上。
+四级2025.12（第二）33
+C）它们的出发点是“动力是唯一的关键因素”这一假设。
+D它们无法迎合青少年叛逆的天性。
+根据题干关键词amajorflaw定位到第三段第二句。
+定位
+第三段第二句指出，以往的干预措施之所以多半失败，是因为存在一个重大缺陷：这些措施将重点放在
+“未来拥有更健康的身体，上，并假定这一点足以成为激励青少年的动力，B项与原文相符，故选B。A项
+文中未提及，故排除。第二句是假设未来的健康足以成为动力，而不是认为“动力是唯一的关键因素”，
+故排除C。原文虽提到新干预措施利用了青少年叛逆的天性，但并未提到以往干预措施的重大缺陷是无法
+迎合青少年叛逆的天性，故排除D。
+49.这项新的干预措施在哪些方面具有创新性？
+A）它强调人们的社会责任感。
+C）它利用了青少年的天性倾向。
+B）它巧妙地利用了青少年的个人弱点。
+D）它承诺能带来即时益处，而非未来的益处。
+第三段最后一句指出，新的干预措施巧妙地利用了青少年叛逆、追求自主的天性，以及他们对社会公平的
+重视，C项与原文内容相符，故选C。A项所说的“社会责任感”在文中并未提及，故排除。青少年叛逆、
+追求自主的天性不等同于弱点，B项表述错误，故排除。文中提及新干预措施时并未指出它承诺带来即时
+益处，故排除D。
+50.从这项新研究中可以得出什么结论？
+A）可以采用一种截然不同的方法来抵制零食的广告宣传活动。
+B）必须找到一种有效的干预措施，说服青少年转向更健康的生活方式。
+C）通过建立青少年价值观与健康饮食之间的关联，肥胖问题有望得到预防。
+D）揭露食品公司的操控性、欺骗性手段，是一种对抗肥胖的创新方法。
+根据题干关键词conclusion定位到文章最后一句。
+最后一句提到，将健康饮食与青少年自身的价值观相结合，似乎是预防肥胖的有效途径，C项与原文内容
+相符，故选C。A项与新研究的结论无关，新研究的重点是改变青少年的饮食态度，而非对抗零食广告，
+故排除A。B项是宠统的呼吁，不是研究得出的具体结论，故排除。揭露食品公司的操纵性，欺骗性手段
+是研究过程中所采用的具体做法，而非研究的最终结论，故排除D项。
+Passage Two
+·概览·
+文章围绕婴儿的快速眼动睡眠展开，指出婴儿快速眼动睡眠多却不做梦，也无梦，约两岁才开始
+做梦。幼儿的梦境简单，随着成长发育逐渐会变得复杂，且部分孩子会不记得自已的梦境。此外，文章
+还指出宝宝睡眠紧张或醒后烦躁不安，并非量梦所致。
+·全文翻译·
+成年人在快速眼动睡眠期间会做梦，而婴儿的快速眼动睡眠次数极多。因此，我！@重难点单词及短语
+们或许可以合理推测，婴儿也会做大量的梦。
+"pathwayn.通路，路
+[51]但科学家认为，快速眼动睡眠对新生儿和婴儿的作用与做梦完全不同。当婴
+nightmaren.梦
+儿处于快速眼动睡眠状态时，这有助于他们的大脑构建神经通路和连接，最终促进语
+言学习。
+overactiveadj.过于
+活跃的
+婴儿在大脑发育的这个阶段并不会做梦，因此我们可以确定，婴儿也不会做恶
+·consensusn.共识
+梦。[52]疆梦源于创伤经历、过于活跃的想象力以及日常生活中的正常压力。
+你是否会好奇：婴儿会梦到什么？这是个好问题，但答案是一什么都不会梦到！
+34四级2025.12【第二窖】
+那么，婴儿何时开始做梦呢？普遍的共识是，他们大约在两岁左右开始做梦。
+-slideshown.幻灯
+[53】心理学家大卫·福尔克斯致力于研究儿童（从婴幼儿到青少年），旨在揭示他们
+片，幻灯片放映
+梦境中的秘密。在他的实验室里，他让孩子们人睡，然后在夜间唤醒他们三次，让他
+们描述自己记得的梦境内容。
+narrationn.叙述，
+讲述
+福尔克斯的研究结果并不令人意外。基本上，年幼的孩子做的梦很简单。[54]但
+"multipleadj.数量多
+孩子们在梦中具体看到的内容取决于他们的年龄。随着儿童的成长发育，他们的梦境
+也会随之发展。
+"stringw用线（或细
+与成年人的梦境相比，幼儿的梦境通常只是一些“快照”式的片段，更像是幻灯
+绳等）串，把
+片而非电影。他们的梦中常常出现动物和其他熟悉的场景，比如人们吃饭的画面。福
+连在一起
+尔克斯表示：“儿童的梦境生活··.···似乎与他们清醒时的想象力和叙事能力相似。”5
+"recollectionn.回
+至9岁的孩子开始在梦中看到动态的影像和正在活动的人物。梦境中也会出现多个相
+忆，记忆
+互串联依次发生的事件。他们回忆梦境的能力也开始显著提升。不过，情况并非总
+factorn.因素
+是如此：在福尔克斯的研究中，当孩子们在快速眼动睡眠期间被唤醒时，有25%的孩
+子完全不记得自己做过梦，这种趋势会一直持续到9罗。
+[55]因此，如果你的宝宝在睡觉时看起来处于紧张状态，或者醒来后情绪烦躁
+可能是其他因素在起作用。
+·答案详解·
+51.科学家如何看待快速眼动睡眠？
+A）它既是成人也是婴儿做梦的标志。
+C)它决定了大脑中神经元连接的形成。
+B）它对人类的语言学习至关重要。
+D）它在婴儿和成人身上发挥的作用不同。
+定根据题干关键词scientiststhinkofREM定位到第二段第一句。
+文章首段提到，成年人在快速眼动睡眠期间会做梦，而婴儿的快速眼动睡眠次数极多。因此，我们或许可以
+合理推测，婴儿也会做大量的梦。第二段第一句话锋一转指出，但科学家认为，快速眼动睡眠对新生儿
+和婴儿的作用与做梦完全不同，而由后文可知，婴儿不会做梦。由此可知，快速眼动睡眠对成人和婴儿
+的作用完全不同，D项与原文相符，故选D。第三段明确提到，婴儿不会做梦，A项与此相，故排除。
+第二段第二句提到，当婴儿处于快速眼动睡眠状态时，这有助于他们的大脑构建神经通路和连接，最终
+促进语言学习，并不是说快速眼动睡眠对所有人的语言学习都至关重要，也不是说快速眼动睡眠决定了
+大脑中神经元连接的形成，故排除B、C两项。
+52.从文章中我们可以推断出关于需梦的什么信息？
+A）想象力活跃的人经常做梦。
+C）疆梦在大脑发育的不同阶段有所不同。
+B）遭受情绪压力的人会做疆梦。
+D）成年人和婴儿在睡眠中都会做梦。
+定+根据题干关键词nightmares定位到第三段第二句。
+第三段第二句指出，梦源于创伤经历、过于活跃的想象力以及日常生活中的正常压力，由此可以推断
+遭受情绪压力的人可能会做嚣梦，故选B。A项错在原文使用的是overactive（过于活跃的）一词，而非active
+（活跃的），二者意思有别，故排除。C项文中未提及，故排除。第三段第一句明确指出婴儿不会做梦，故
+排除D。
+53.心理学家大卫·福尔克斯的研究目的是什么？
+A）揭示儿童梦境的秘密。
+C）解开做梦与大脑发育之间的谜团。
+B）验证儿童是否在两岁时开始做梦。
+D)确认关于儿童何时开始做梦的普遍共识。
+根据题千关键词psychologistDavidFoulkes定位到第五段第三句。
+第五段第三句提到，心理学家大卫·福尔克斯致力于研究儿童（从婴幼儿到青少年），旨在揭示他们梦境
+解析
+中的秘密，A项表述正确，reveal thesecrets of children'sdreams与原文bringthesecrets of theirdreams tothe
+四级2025.12第二串）35
+lightofday属于同义转述关系，故选A。原文虽然提到儿童大约在两岁左右开始做梦是一种普遍的共识，
+但该共识并不是大卫·福尔克斯的主要研究方向，故排除B项和D项。原文中提到研究聚焦于揭示儿童梦
+境中的秘密，而非解开做梦与大脑发育之间的谜团，故排除C项。
+54.福尔克斯关于儿童梦境的发现是什么？
+A）它们以奇特的动物为主要元素。
+C)它们随着年龄的增长而发展演变。
+B）它们对成年人来说并不意外。
+D)它们反映了儿童清醒时的生活。
+第六段第三，四句提到，孩子们在梦中具体看到的内容取决于他们的年龄。随着儿童的成长发育，他们的
+梦境也会随之发展，故选C项。原文中提到儿童梦境是以熟悉的动物和场景为主，而非奇特的动物，A项
+错误。原文中提到的是研究结果不令人意外，而不是儿童梦境内容对成年人来说并不意外，B项错误。题
+干问的是福尔克斯关于儿童梦境的核心发现，D项不属于核心发现，只是儿童梦境的局部特征，故排除。
+55.对于醒来后显得烦躁不安的婴儿，我们可以做出什么推测？
+A）他们是被强行叫醒的。
+C）他们难以回忆起梦中的影像。
+B）他们受到了恶梦的惊扰。
+D）他们受到了做梦之外其他因素的影响。
+根据题干关键词babieswhoappearupsetuponwaking定位到最后一段。
+作用。结合前文中提到的婴儿不会做梦的结论可知，婴儿醒来后烦躁不安并非源于做梦，而是其他因素，
+故选D项。文中未提及婴儿被强行叫醒，故排除A项。原文明确提到婴儿不会做梦，所以他们不会做
+梦，也不可能有梦境可回忆，B项和C项表述错误，故均排除。
+Part IV
+·难词译注·
+悄然兴起quietlyemerge
+旅游新潮流newtraveltrend
+与不同unlike
+传统旅游traditionaltourism
+追求aimto
+尽可能多的asmanyaspossible
+随意行走strollcasually
+·参考译文·
+Translation
+按照主题路线followthemedroutes
+大街小巷streets and alleys
+品尝地道小吃samplelocalsnacks
+欣赏特色建筑admiredistinctivearchitecture
+城市的风景和人物city'ssceneryandpeople
+更深人了解gainadeeperunderstandingof
+In recent years, "city walk" has quietly emerged among young people in China, becoming a new travel trend.
+Unlike traditional tourism, city walk does not aim to visit as many attractions as possible in a short period. Instead, it
+involves strolling casually or following themed routes through the streets and alleys of a city. Walkers sample local
+snacks, admire distinctive architecture, and learn about the local way of life. They also capture the city's scenery and
+people with cameras or smartphones. This form of travel allows city walkers to gain a deeper understanding of the
+city's history and culture.
+·译点精析·
+1.第一句：句子的谓语“在中国的年轻人中悄然兴起”翻译为hasquietlyemergedamongyoungpeopleinChina；
+2.第二句：“不追求在短时间内游览尽可能多的景点”是句子的谓语和宾语部分，翻译为doesnotaimtovisitas
+36四级2025.12第二套
+manyattractionsaspossibleinashortperiod；“而是随意行走或按照主题路线漫步在城市的大街小巷”翻译为
+单独的句子，即Instead, it involves strolling casually orfollowing themed routes through the streets and alleys ofa
+city
+地生活方式”，翻译为samplelocal snacks,admiredistinctive architecture,andlearn aboutthelocal wayof life。
+4.第四句：“记录”翻译成capture（意为“拍摄；捕获”），比record更贴切，更生动，能体现“捕捉瞬间”
+的感觉。
+5.第五句：“这种旅游方式”是句子主语，翻译为Thisformoftravel“能让城市漫步者更深人了解城市的历
+史与文化”是句子的谓语和宾语部分，翻译为allowscitywalkerstogain adeeperunderstandingof thecity's
+historyandculture，使用了allowsb.todosth.（允许某人做某事）的结构。
+四级2025.12第二套37

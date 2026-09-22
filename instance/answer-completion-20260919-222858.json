@@ -1,0 +1,30 @@
+{
+  "proposed": [
+    {
+      "id": 2394,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 25,
+      "answer": "C",
+      "method": "explicit_verdict",
+      "evidence": "What have generations of American politicians\nargued for?\nC）【精析】细节辩认题。讲座临近结束时提到，关于美钞真实价值的争议一直在继续。在美国历史上，几代政治家都支持美国货币的金本位制。录音中的gold standard意为“金本位”，即金本位制，\n就是以黄金为本位币的货币制度。\nReading Comprehension\nSection A\n【结构框图】\n你知道有关寻找借口的心理原因吗？扫码看视频讲解。\n第1段简述了男女在寻找失败借口方面存在的差异及心理原因。\n本文主要介绍了第2、3段介绍一种自我妨碍行为，解释其背后的心理原因，并介绍了相关的有关寻找借口的案例。\n心理研究发现。\n第4段分析这种行为的利弊。\n六级2020年　39\n【词性分析】\nl）momentum 动力，势头，K）potential潜力，可能性；L）realms 领域，范围；N）ruin 毁坏，破坏动词：D）heaving（用力）拉，举，抬；E）hospitalized送（某人）住院治疗；F）labeled贴标签于，用标签标明；\nH）mastering精通，掌握；J）obsessed使痴迷，使迷恋；N）ruin毁坏，毁掉形容词：A）contrary相反的，矛盾的；D）heaving拥挤的，热闹的；J）obsessed（对·）着迷的；K）potential\n潜在的，可能的；M）reciprocal 相互的，互惠的副词：C）heavily 很多地，大量地；O）viciously凶残地，恶毒地答案详解"
+    }
+  ],
+  "unresolved": [
+    {
+      "source": "2024-06-CET6-1.pdf",
+      "number": 7,
+      "reason": "missing_or_conflicting_verdict"
+    },
+    {
+      "source": "2024-06-CET6-1.pdf",
+      "number": 47,
+      "reason": "missing_or_conflicting_verdict"
+    },
+    {
+      "source": "2024-06-CET6-2.pdf",
+      "number": 7,
+      "reason": "no_numbered_block"
+    }
+  ],
+  "applied": false
+}

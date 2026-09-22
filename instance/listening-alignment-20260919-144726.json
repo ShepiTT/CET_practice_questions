@@ -1,0 +1,4091 @@
+{
+  "proposed": [
+    {
+      "id": 277,
+      "source": "2019-06-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-1/",
+        "sha256": "53cc04d351fa0560d0fa7537aa6e932f2ebbc3ef5aa65357882f77c8ce92a940"
+      },
+      "start": 158.27,
+      "score": 1.0,
+      "script_prefix": "on the st of january new regulations will come into effect which eliminate an annual leave bonus for people who put off marrying until the age",
+      "heard_prefix": "on the st of january new regulations will come into effect which eliminate an annual leave bonus for people who put off marrying until the age",
+      "transcript": "On the 1st of January, new regulations will come into effect which eliminate an annual leave bonus for people who put off marrying until the age of 23 for women, and 25 for men, the South China Morning Post reports. The holiday bonus was designed to encourage young people to delay getting married in line with China's one-child policy. But with that policy now being abolished, this holiday incentive is no longer necessary, the government says. In Shanghai, a young couple at a marriage registration office told the paper that they decided to register their marriage as soon as possible to take advantage of the existing policy, because an extra holiday was a big deal for them. In Beijing, one registration office had about 300 couples seeking to get married the day after the changes were announced, rather than the usual number of between 70 and 80. But one lawyer tells the paper that the changes still have to be adopted by local governments and these procedures take time. So people who are rushing to register for marriage can relax.",
+      "audio_sha256": "512b56a8d2d311c6282a8ad459097205c73bfe857c5c5a904c8716081223ffbe"
+    },
+    {
+      "id": 278,
+      "source": "2019-06-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-1/",
+        "sha256": "53cc04d351fa0560d0fa7537aa6e932f2ebbc3ef5aa65357882f77c8ce92a940"
+      },
+      "start": 290.41,
+      "score": 0.9230769230769231,
+      "script_prefix": "everyone loves a good house party but the cleaning up the next morning isn't as enjoyable now however a new zealand based start up company aims",
+      "heard_prefix": "everyone loves a good house party but the cleaning up the next morning isn't as enjoyable now however a new zealand based startup company aims to",
+      "transcript": "Everyone loves a good house party, but the cleaning-up the next morning isn't as enjoyable. Now, however, a New Zealand-based start-up company aims to bring messy homes—and even splitting headaches—back to normal. The properly-named start-up Morning-After Maids was launched about a month ago in Auckland by roommates Rebecca Foley and Catherine Ashurst. Aside from cleaning-up, the two will also cook breakfast and even get coffee and painkillers for recovering merrymakers. Although they are both gainfully employed, they fit cleaning jobs into their nights and weekends, which is when their service is in most demand anyway. Besides being flooded with requests from across the country, Foley and Ashurst have also received requests from the U.S. and Canada to provide services there. They are reportedly meeting with lawyers to see how best to take the business forward.",
+      "audio_sha256": "512b56a8d2d311c6282a8ad459097205c73bfe857c5c5a904c8716081223ffbe"
+    },
+    {
+      "id": 279,
+      "source": "2019-06-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-1/",
+        "sha256": "53cc04d351fa0560d0fa7537aa6e932f2ebbc3ef5aa65357882f77c8ce92a940"
+      },
+      "start": 459.51,
+      "score": 1.0,
+      "script_prefix": "kyle how did your driver's theory exam go it was yesterday right yes i prepared as much as i could but i was so nervous since",
+      "heard_prefix": "kyle how did your driver's theory exam go it was yesterday right yes i prepared as much as i could but i was so nervous since",
+      "transcript": "W: Kyle, how did your driver's theory exam go? It was yesterday, right?\nM: Yes. I prepared as much as I could, but I was so nervous since it was my second try. The people who worked at the test center were very kind, though. We had a little conversation which calmed me down a bit, and that was just what I needed. Then, after the exam, they printed out my result, but I was afraid to open it until I was outside. It was such a relief to pass.\nW: Congratulations! I knew you could do it! I guess you underestimated how difficult it would be the first time, didn't you? I hear a lot of people make that mistake and go in underprepared, but good job in passing the second time. I'm so proud of you. Now, all you have to do next is your road test. Have you had any lessons yet?\nM: Yes, thanks. I'm so happy to be actually on the road now. I've only had two driving lessons so far, and my instructor is very understanding. So I'm really enjoying it. And I can't wait for my next session, although the lessons are rather expensive, £20 an hour. And the instructor says I'll need about 30 to 40 lessons in total. That's what—six to eight hundred pounds. So this time I'll need to make a lot more effort and hopefully will be successful the first time.\nW: Well, good luck.",
+      "audio_sha256": "512b56a8d2d311c6282a8ad459097205c73bfe857c5c5a904c8716081223ffbe"
+    },
+    {
+      "id": 280,
+      "source": "2019-06-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-1/",
+        "sha256": "53cc04d351fa0560d0fa7537aa6e932f2ebbc3ef5aa65357882f77c8ce92a940"
+      },
+      "start": 642.47,
+      "score": 1.0,
+      "script_prefix": "emma i got accepted to the university of leeds since you're going to university in england do you know how much it is for international students",
+      "heard_prefix": "emma i got accepted to the university of leeds since you're going to university in england do you know how much it is for international students",
+      "transcript": "M: Emma, I got accepted to the University of Leeds. Since you're going to university in England, do you know how much it is for international students to study there?\nW: Congratulations! Yes, I believe for international students, you'll have to pay around £13,000 a year. It's just a bit more than the local students.\nM: Okay, so that's about $17,000 for the tuition and fees. Anyway, I'm only going to be there for a year, doing my master's. So it's pretty good. If I stayed in the U.S., it'd take two years and cost at least $50,000 in tuition alone. Also, I have a good chance of winning a scholarship at Leeds, which would be pretty awesome, the benefits of being a music genius.\nW: Yeah, I heard you're a talented piano player. So you're doing a postgraduate degree now? I'm still in my last year, graduating next June. Finally, I'll be done with my studies, and could go on to earning loads of money.\nM: Are you still planning on being a teacher? No money in that job then.\nW: You'd be surprised. I'm still going to be a teacher. But the plan is to work at an international school overseas, after I get a year or so of the experience in England. It's better pay, and I get to travel, which reminds me I'm late for my class and I've got some documents I need to print out first. I'd better run.",
+      "audio_sha256": "512b56a8d2d311c6282a8ad459097205c73bfe857c5c5a904c8716081223ffbe"
+    },
+    {
+      "id": 282,
+      "source": "2019-06-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-1/",
+        "sha256": "53cc04d351fa0560d0fa7537aa6e932f2ebbc3ef5aa65357882f77c8ce92a940"
+      },
+      "start": 1047.95,
+      "score": 1.0,
+      "script_prefix": "my research focus is on what happens to our immune system as we age so the job of the immune system is to fight infections it",
+      "heard_prefix": "my research focus is on what happens to our immune system as we age so the job of the immune system is to fight infections it",
+      "transcript": "My research focus is on what happens to our immune system as we age. So the job of the immune system is to fight infections. It also protects us from viruses and from auto-immune diseases. We know that as we get older, it's easier for us to get infections. So, older adults have more chances of falling ill. This is evidence that our immune system really doesn't function so well when we age. In most of our work when we're looking at older adults who've got an illness, we always have to have health controls. So we work very closely with a great group of volunteers called \"The 1,000 Elders.\" These volunteers are all 65 or over but in good health. They come to the university to provide us with blood samples, to be interviewed and to help us carry out a whole range of research. The real impact of our research is going to be on health in old age. At the moment we're living much longer, life expectancy is increasing at two years for every decade. That means an extra five hours a day. I want to make sure that older adults are still able to enjoy their old age and that they're not spending time in hospital with infections, feeling unwell and being generally weak. We want people to be healthy even when they are old.",
+      "audio_sha256": "512b56a8d2d311c6282a8ad459097205c73bfe857c5c5a904c8716081223ffbe"
+    },
+    {
+      "id": 283,
+      "source": "2019-06-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-1/",
+        "sha256": "53cc04d351fa0560d0fa7537aa6e932f2ebbc3ef5aa65357882f77c8ce92a940"
+      },
+      "start": 1212.27,
+      "score": 1.0,
+      "script_prefix": "when ted komada started teaching years ago at killip elementary he didn't know how to manage a classroom and was struggling to connect with students he",
+      "heard_prefix": "when ted komada started teaching years ago at killip elementary he didn't know how to manage a classroom and was struggling to connect with students he",
+      "transcript": "When Ted Komada started teaching 14 years ago at Killip Elementary, he didn't know how to manage a classroom and was struggling to connect with students. He noticed a couple of days after school that a group of kids would get together to play chess. \"I know how to play chess. Let me go and show these kids how to do it,\" he said. Now Komada coaches the school's chess team. The whole program started as a safe place for kids to come after school. And this week dozens of those students are getting ready to head out to Nashville Tennessee, to compete with about 5,000 other young people at the SuperNationals of chess. The competition only happens every four years and the last time the team went, they won the third place in the nation. Komada says chess gives him, and his students, control. The school has the highest number of kids from low-income families. Police frequent the area day and night, as two months ago, a young man was shot just down the street. Komada likes to teach his students that they should think about their move before they do it. The lessons prove valuable outside the classroom as well. Many parents see these lessons translate into the real world. Students are more likely to think about their actions and see whether they will lead to trouble.",
+      "audio_sha256": "512b56a8d2d311c6282a8ad459097205c73bfe857c5c5a904c8716081223ffbe"
+    },
+    {
+      "id": 288,
+      "source": "2019-06-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-2/",
+        "sha256": "6d8d04b03baaf39ed7a4a68efefbbe5782a5caf94a38de455184d732565619a4"
+      },
+      "start": 43.96,
+      "score": 1.0,
+      "script_prefix": "france is facing potentially more than billion in lost revenue this year due to huge declines in tourism safety concerns have been one of the biggest",
+      "heard_prefix": "france is facing potentially more than billion in lost revenue this year due to huge declines in tourism safety concerns have been one of the biggest",
+      "transcript": "France is facing potentially more than $1 billion in lost revenue this year due to huge declines in tourism. Safety concerns have been one of the biggest reasons why the country has lost over half a billion in revenue already in the first six months of 2016. The terror attacks in Paris last November were called Europe's worst in the past decade. Besides violence, workers' strikes and heavy floods are said to have also been why international tourists have stayed away. So far in the Paris region, there's been a 46% decline in Japanese visitors, 35% fewer Russians and 27% fewer Italians. American travelers seem the least affected. Their numbers have only dropped by roughly 5%. According to the French government, the country is the No. 1 tourist destination in the world, and tourism is extremely important to the French economy. The sector represents roughly 9% of its GDP. The head of Paris' tourism board said, \"It's time to realize that the tourism sector is going through an industrial disaster.\"",
+      "audio_sha256": "79197a604a5130218c257da0cf14dce931083b1a4b7a2e7772629e1e0c1a10d8"
+    },
+    {
+      "id": 289,
+      "source": "2019-06-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-2/",
+        "sha256": "6d8d04b03baaf39ed7a4a68efefbbe5782a5caf94a38de455184d732565619a4"
+      },
+      "start": 177.54,
+      "score": 1.0,
+      "script_prefix": "a small plane with two sick us workers arrived safely in chile late wednesday after leaving antarctica in a daring rescue mission from a remote south",
+      "heard_prefix": "a small plane with two sick us workers arrived safely in chile late wednesday after leaving antarctica in a daring rescue mission from a remote south",
+      "transcript": "A small plane with two sick US workers arrived safely in Chile late Wednesday after leaving Antarctica in a daring rescue mission from a remote South Pole research station. After making a stop for a few hours at a British station on the edge of Antarctica, the two workers were flown to the southernmost Chilean city of Punta Arenas. In a chaotic two days of flying, the rescue team flew 3,000 miles round-trip from the British station Rothera to pick up the workers at the US Amundsen-Scott station at the South Pole. \"The two patients aboard will be transported to a medical facility that can provide a level of care that is not available at Amundsen-Scott,\" says a spokesperson. Normally planes don't go to the polar post from February to October because of the dangers of flying in the pitch-dark and cold. \"Antarctica creates a hostile environment,\" says the operations director for the British Antarctic Survey. \"If you're not careful, it'll come round and bite you.\"",
+      "audio_sha256": "79197a604a5130218c257da0cf14dce931083b1a4b7a2e7772629e1e0c1a10d8"
+    },
+    {
+      "id": 290,
+      "source": "2019-06-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-2/",
+        "sha256": "6d8d04b03baaf39ed7a4a68efefbbe5782a5caf94a38de455184d732565619a4"
+      },
+      "start": 299.33,
+      "score": 1.0,
+      "script_prefix": "a pilot from virginia removed his son's loose tooth using a helicopter rick rahim from virginia flies helicopters for a living and when his seven year",
+      "heard_prefix": "a pilot from virginia removed his son's loose tooth using a helicopter rick rahim from virginia flies helicopters for a living and when his seven year",
+      "transcript": "A pilot from Virginia removed his son's loose tooth using a helicopter. Rick Rahim, from Virginia, flies helicopters for a living, and when his seven-year-old son's tooth became loose, he did not waste time by tying it to a door handle. Instead, Mr. Rahim tied one end of a string around his son's tooth and the other end to his full-sized commercial helicopter. The father of four posted a video clip of his playful venture on Facebook, advising parents to do fun and creative stuff with their kids. The video shows him launching the helicopter into the air and flying just far enough to successfully remove the loose tooth. At the end of the video, Mr. Rahim assures watchers that the circumstances were safe, and that he has 13 years of helicopter flying experience behind him. \"You've got to do everything safe in life, and that's what I did today,\" he said. Mr. Rahim later said that although some parents have used remote control helicopters to pull teeth before, he might be the first to use a full-sized aircraft, as he can't find evidence that it has been done before.",
+      "audio_sha256": "79197a604a5130218c257da0cf14dce931083b1a4b7a2e7772629e1e0c1a10d8"
+    },
+    {
+      "id": 292,
+      "source": "2019-06-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-2/",
+        "sha256": "6d8d04b03baaf39ed7a4a68efefbbe5782a5caf94a38de455184d732565619a4"
+      },
+      "start": 652.82,
+      "score": 0.9230769230769231,
+      "script_prefix": "hi emily i hear you are leaving for italy soon do you plan to have a going away party before you disappear it'd be really nice",
+      "heard_prefix": "hi emily i hear you're leaving for italy soon do you plan to have a going away party before you disappear it'd be really nice for",
+      "transcript": "M: Hi, Emily, I hear you are leaving for Italy soon. Do you plan to have a going-away party before you disappear? It'd be really nice for us to hang out together before you go.\nW: I'm not sure. I'm leaving in just two more days, and I'm going to miss all my friends here and especially this place. Why don't you come over? I'm feeling rather sad, actually. I'm currently sitting alone at a table outside the Black Cat Cafe, listening to the rain and watching people passing by.\nM: I'm sorry. I can't just now. I need to get this assignment finished by Monday, and I'm way behind. Anyhow, cheer up. You're not leaving for good, and you'll absolutely love Italy.\nW: Yeah, you're right. But I just feel like I'm not quite ready to go. And studying in a foreign country seems a bit overwhelming.\nM: Just think of your life in Milan. In the mornings, you can go down to a small local cafe, soaking up the sun's rays and drinking coffee. I envy you. You can buy lots of gorgeous Italian clothes.\nW: That does sound nice. And of course I can keep in touch with everyone through Facebook. Maybe you can all come visit me.\nM: Of course we will. When is your flight?\nW: On Saturday, after lunch, at 1:45.\nM: Okay, I'll try and come to the airport on Saturday to see you off, I'll give you a call that morning no matter what.",
+      "audio_sha256": "79197a604a5130218c257da0cf14dce931083b1a4b7a2e7772629e1e0c1a10d8"
+    },
+    {
+      "id": 294,
+      "source": "2019-06-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-2/",
+        "sha256": "6d8d04b03baaf39ed7a4a68efefbbe5782a5caf94a38de455184d732565619a4"
+      },
+      "start": 1057.88,
+      "score": 0.9230769230769231,
+      "script_prefix": "my name is brendan leonard and i'm an author magazine writer filmmaker and public speaker i'm self employed which means i work for myself and i",
+      "heard_prefix": "name is brendan leonard and i'm an author magazine writer filmmaker and public speaker i am self employed which means i work for myself and i",
+      "transcript": "My name is Brendan Leonard and I'm an author, magazine writer, filmmaker and public speaker. I'm self-employed, which means I work for myself and I do what I love. We have a popular saying in America which goes, \"Do what you love and you'll never work a day in your life.\" But I'm here to tell you that instead of focusing on doing what we love, I think we should focus on loving what we do. In my line of work, you hear a lot about talent, which is an idea we've mostly invented to give ourselves an excuse to be lazy. Here's why: If you see someone doing something really well, you would say it's because they're talented. You think they're somehow special. You discount the tremendous amount of work they've done to get to where they are. Research has shown that talent is nothing without hard work. I choose to believe in hard work, but not so much in talent. There are no special people, just people who put in enough hard work until something special happens. I can promise you one thing: whatever you choose to do for a career, if you work hard at it, eventually, special things will happen. They may not happen as quickly as you'd like them to, and they may turn out to be completely different from the special things you imagined at the beginning, but they will happen.",
+      "audio_sha256": "79197a604a5130218c257da0cf14dce931083b1a4b7a2e7772629e1e0c1a10d8"
+    },
+    {
+      "id": 295,
+      "source": "2019-06-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-2/",
+        "sha256": "6d8d04b03baaf39ed7a4a68efefbbe5782a5caf94a38de455184d732565619a4"
+      },
+      "start": 1223.08,
+      "score": 1.0,
+      "script_prefix": "a question we often ask others and are also frequently asked by others is what do you normally do after school or work some commonplace answers",
+      "heard_prefix": "a question we often ask others and are also frequently asked by others is what do you normally do after school or work some commonplace answers",
+      "transcript": "A question we often ask others and are also frequently asked by others is \"What do you normally do after school or work?\" Some commonplace answers are, \"Well, I go to the gym.\" \"Um, I just go home and watch TV.\" \"I meet my friends for dinner.\" or \"I just go to bed because it's so late and I'm tired.\" Unlike any of these typical responses, I'm proud to say that I love to dance salsa after a long and tiring day of work. Salsa is a kind of dancing that evolved in the mid-1970s in New York. My dancing life began not because I wanted to do it, but because my mother was sick and tired of seeing me running around after school doing nothing. So she enrolled me into a ballet course when I was six. I fell in love with it instantly and continued with ballet dancing for about 10 years. Then I left my native country of New Zealand to start my career as an English teacher, which eventually brought my dancing life to a halt. It wasn't until I rediscovered salsa in a lovely studio while working in Asia that I renewed my passion for dancing. Since then I have been trying to attend dancing classes twice a week after work. It's a great way for me to relieve stress and pressure, and dance my way towards feeling energetic and happy again.",
+      "audio_sha256": "79197a604a5130218c257da0cf14dce931083b1a4b7a2e7772629e1e0c1a10d8"
+    },
+    {
+      "id": 305,
+      "source": "2019-12-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-2/",
+        "sha256": "5a9f3076848fabda239647d6679081432ac8c0376fb76020f752cb199a8b3f55"
+      },
+      "start": 163.65,
+      "score": 1.0,
+      "script_prefix": "a man from libya was enjoying a walk along the sands at southport beach when he was about half a mile out from the dock he",
+      "heard_prefix": "a man from libya was enjoying a walk along the sands at southport beach when he was about half a mile out from the dock he",
+      "transcript": "A man from Libya was enjoying a walk along the sands at Southport Beach. When he was about half a mile out from the dock, he felt a bit tired. So he lay down and fell asleep. But the tide swept in quickly at the beach. And the man was shocked to wake up and find the tide had come in and completely surrounded him, cutting him off from the shore. Fortunately for him, the beach lifeguards were quickly on the scene to stop him from drowning. They acted professionally to ensure the man was comfortable until an ambulance arrived. He was then taken to hospital. He is now in a stable condition. When interviewed, Keith Porter of the Southport Beach said, \"Our beach is so flat that it's very common for the tide to come around the back of people and cut them off from the beach. Thankfully the emergency services have again worked well together to ensure a positive outcome. And we wish the gentleman a speedy recovery.\"",
+      "audio_sha256": "f0f3a8c4b60bbd8c5978557d771ff29fbb1775d616c8b9d68fd900f6305e50ff"
+    },
+    {
+      "id": 306,
+      "source": "2019-12-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-2/",
+        "sha256": "5a9f3076848fabda239647d6679081432ac8c0376fb76020f752cb199a8b3f55"
+      },
+      "start": 273.38,
+      "score": 0.9615384615384616,
+      "script_prefix": "a raccoon a small cat like animal climbed to the top of a storey skyscraper early on wednesday it was captured after becoming an online star",
+      "heard_prefix": "a raccoon a small cat like animal climbed to the top of a story skyscraper early on wednesday it was captured after becoming an online star",
+      "transcript": "A raccoon, a small cat-like animal, climbed to the top of a 25-storey skyscraper early on Wednesday. It was captured after becoming an online star across the world. At a little before 3 a.m., the animal made it to the roof of the building after it took a long break on a 17th floor window edge. At the top of the building, animal control officers put cat food in traps and captured the raccoon. A private wildlife management company will release the animal into the wild. The raccoon's upward journey began on Monday. The brown animal was spotted stuck on a narrow window edge of the office tower. On Tuesday, the raccoon slowly climbed the building. It reached the 23rd floor, and its legend continued to grow on social media with every floor it climbed. As it went up, people gathered on the sidewalk below to take photos and cheer for its safety. Online office workers posted photos and videos of the raccoon resting on window edges and climbing up the building's concrete exterior. One online post said that the raccoon has succeeded in uniting the country the way no politician could.",
+      "audio_sha256": "f0f3a8c4b60bbd8c5978557d771ff29fbb1775d616c8b9d68fd900f6305e50ff"
+    },
+    {
+      "id": 307,
+      "source": "2019-12-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-2/",
+        "sha256": "5a9f3076848fabda239647d6679081432ac8c0376fb76020f752cb199a8b3f55"
+      },
+      "start": 462.64,
+      "score": 1.0,
+      "script_prefix": "i have really amazing news i just got a text message from my bank saying my salary has been deposited in my account getting paid is",
+      "heard_prefix": "i have really amazing news i just got a text message from my bank saying my salary has been deposited in my account getting paid is",
+      "transcript": "W: I have really amazing news. I just got a text message from my bank, saying my salary has been deposited in my account.\nM: Getting paid is good. But I don't understand why you're so excited. It happens every month.\nW: Well, I've been working for a few years. In fact, I worked all through university, but I only had part-time jobs then. So this is the first time I've ever been paid for a month of full-time work.\nM: Wow, then you must feel great. I mean, it's been two decades, but I can still remember when I got my first real salary. I was happy for days. I felt like it was a small fortune, even though it wasn't.\nW: Yeah, I've never earned so much money before. And there're so many things I'd like to do with it. What did you do with your first pay?\nM: I bought a new suit for work and took my parents to a nice restaurant to celebrate. Maybe you could do the same.\nW: I have enough professional clothes. And my parents are across the country. So seeing them is impossible. But some people from the office are members of a gym I want to join. And my university classmates are arranging a trip to visit our old campus, and I'd love to go with them. But I can't afford both.\nM: If I were you, I'd join the gym, because it's a good way to stay healthy, and it might help you build a stronger relationship with your colleagues. And good relationships are key to a successful career.\nW: Hmm. You're right. Thanks for the advice. I'm taking it.",
+      "audio_sha256": "f0f3a8c4b60bbd8c5978557d771ff29fbb1775d616c8b9d68fd900f6305e50ff"
+    },
+    {
+      "id": 308,
+      "source": "2019-12-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-2/",
+        "sha256": "5a9f3076848fabda239647d6679081432ac8c0376fb76020f752cb199a8b3f55"
+      },
+      "start": 648.44,
+      "score": 1.0,
+      "script_prefix": "what's going on with you lately you seem so distracted like you aren't really listening to anything i say i know i'm sorry i can't seem",
+      "heard_prefix": "what's going on with you lately you seem so distracted like you aren't really listening to anything i say i know i'm sorry i can't seem",
+      "transcript": "W: What's going on with you lately? You seem so distracted, like you aren't really listening to anything I say.\nM: I know. I'm sorry. I can't seem to focus on anything, because I still haven't decided if I should accept the offer for that PhD program in London, or if I should take the job offer in New York.\nW: Look, it's a tough decision. But you're running out of time, aren't you? I thought you said the company expected an answer by the end of the month.\nM: Actually, it's the beginning of next month for the job, but the university needs a decision by the end of the week. So I have to act quickly.\nW: You definitely need advice for an important decision like this. So who have you talked to about it? What does your family think? And your advisor for your master's program?\nM: I've asked their advice and that's part of the problem. My parents want me to get the degree, but my advisor thinks it's time for me to get more work experience.\nW: What do you mean by part of the problem? Oh, wait. It's your girlfriend, isn't it? You've been dating since your first year of university, so that's six years now. She must have an opinion about all this. I mean, isn't it time for you to think about getting married?\nM: Well, I do want to get married, but she thinks we need to wait until we've launched our careers. Plus, she's not sure what she'll be doing next year. She's considering a job in England and one in Australia. And her parents are pushing for the latter.",
+      "audio_sha256": "f0f3a8c4b60bbd8c5978557d771ff29fbb1775d616c8b9d68fd900f6305e50ff"
+    },
+    {
+      "id": 309,
+      "source": "2019-12-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-2/",
+        "sha256": "5a9f3076848fabda239647d6679081432ac8c0376fb76020f752cb199a8b3f55"
+      },
+      "start": 870.48,
+      "score": 0.9615384615384616,
+      "script_prefix": "analytical skills are our ability to understand and solve problems using information we have available these skills are extremely important for our professional social and intellectual",
+      "heard_prefix": "skills are our ability to understand and solve problems using the information we have available these skills are extremely important for our professional social and intellectual",
+      "transcript": "Analytical skills are our ability to understand and solve problems using information we have available. These skills are extremely important for our professional, social, and intellectual lives. What are the best ways to improve them? One way is to expand your world view. Unfortunately, this takes time. Ultimately, it will help you better evaluate information and analyze different ideas and outcomes. Traveling is a great way to expand your world view, although it can be expensive.\nAn entertaining way of enhancing your analytical skills is to engage them by playing brain games. These are games that challenge you to think deeply and to develop your analytical skills. These games will get you used to thinking in a certain way. As a result, they will help improve your ability to think. However, opinions vary on whether video games are effective. The general consensus is that the best ones avoid mindless violence, and instead focus on strategy and challenge us to solve problems and achieve broad goals.\nJoining a debate or reading club or group is also a good idea. This provides people with the opportunity to come together and discuss ideas, literature and problems. Groups like these will help you refine your analytical skills and enable you to express yourself better. Any social group that encourages free exchange of ideas and pursuit of knowledge is beneficial. It helps you to actively develop your analytical skills.",
+      "audio_sha256": "f0f3a8c4b60bbd8c5978557d771ff29fbb1775d616c8b9d68fd900f6305e50ff"
+    },
+    {
+      "id": 310,
+      "source": "2019-12-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-2/",
+        "sha256": "5a9f3076848fabda239647d6679081432ac8c0376fb76020f752cb199a8b3f55"
+      },
+      "start": 1066.89,
+      "score": 1.0,
+      "script_prefix": "there's an endless amount of scientific data proving that dogs can develop strong bonds with their owners people aren't kidding when they say they love their",
+      "heard_prefix": "there's an endless amount of scientific data proving that dogs can develop strong bonds with their owners people aren't kidding when they say they love their",
+      "transcript": "There's an endless amount of scientific data proving that dogs can develop strong bonds with their owners. People aren't kidding when they say they \"love\" their dog, or their dog \"loves\" them. But we're rather ignorant about the nature of the relationships that form between dogs.\nIn an effort to understand the matter further, I spoke with Dr. Marc Bekoff, a researcher and former professor of animal behavior. The doctor's response to the question of whether or not dogs can fall in love like humans do was a straight \"Of course.\" He went on to say that if love is defined as a long-term commitment—meaning dogs seek one another out when they're apart, they're happy when they're reunited, they protect one another, they feed one another, they raise their children together—then of course dogs love each other.\nNow our furry friends don't really experience \"romantic\" love like in the movies, but they can form deep and lasting bonds with their fellow dogs as well as humans. In fact, evidence shows that most dogs stay with one partner their whole lives. In actuality, love between dogs can be even more intimate than human relationships. When they interact, they aren't afraid to smell each other and will express themselves clearly and honestly. Once again, it seems we have a lot to learn from dogs.",
+      "audio_sha256": "f0f3a8c4b60bbd8c5978557d771ff29fbb1775d616c8b9d68fd900f6305e50ff"
+    },
+    {
+      "id": 311,
+      "source": "2019-12-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-2/",
+        "sha256": "5a9f3076848fabda239647d6679081432ac8c0376fb76020f752cb199a8b3f55"
+      },
+      "start": 1232.46,
+      "score": 1.0,
+      "script_prefix": "a piece of history has been found thanks to a boy tripping on a rare million year old animal fossil in november jude sparks now was",
+      "heard_prefix": "a piece of history has been found thanks to a boy tripping on a rare million year old animal fossil in november jude sparks now was",
+      "transcript": "A piece of history has been found thanks to a boy tripping on a rare, 1.2-million-year-old animal fossil. In November 2016, Jude Sparks, now 10, was on an outing with his family near their New Mexico home when he tripped over what he thought was a cow bone. Now, researchers at New Mexico State University are preserving this discovery, which was identified as an ancient elephant-like animal.\nKyle Sparks, father of Jude, said he let his son decide what to do with the fossil. So Jude reached out to Peter Houde, a professor at New Mexico State University, who had experience with the same type of fossil in the past. The next day, Houde came out to see the fossil for himself. Houde told ABC News that he was quite excited about the find. \"It was fortunate that the family didn't try to dig up the fossil because that could destroy the specimen. They did the right thing by calling someone who would know what to do. It's great for the community because now everybody can appreciate it,\" he added.\nHoude and his fellow faculty members dug up the fossil in late May. They hope to return to the site with geologists for an additional search as there could be more fossils near the site. Jude and his family had been invited by the researchers to see the fossil being preserved at the university.",
+      "audio_sha256": "f0f3a8c4b60bbd8c5978557d771ff29fbb1775d616c8b9d68fd900f6305e50ff"
+    },
+    {
+      "id": 317,
+      "source": "2019-12-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-1/",
+        "sha256": "efefbd09cfe89672c8213f5ad5fbb59b614404350f2b21e617d9552183e90efd"
+      },
+      "start": 160.64,
+      "score": 0.9230769230769231,
+      "script_prefix": "starting april th of this year the national museum of natural history will begin renovating its fossil hall the fossil hall which displays some of the",
+      "heard_prefix": "starting april th of this year the national museum of natural history will begin renovating its fossil haul the fossil haul which displays some of the",
+      "transcript": "Starting April 28th of this year, the National Museum of Natural History will begin renovating its fossil hall. The fossil hall, which displays some of the world's oldest and largest fossil specimens, receives more than 2 million visitors each year. It's one of the museum's most famous attractions. As a result, the museum plans to expand the hall as well as add to its ancient birds collection. Bird lovers, both young and old, have already responded with excitement at the news. The museum's social media account has been flooded with messages of support. In the meantime, the current collection will be closed. However, visitors will be compensated during the closure. The Museum's special exhibition area will now be free of charge. This week the resident exhibition is a display of ancient wall paintings on loan from Australia. They celebrate the cultural heritage of the country and will be available to view until Sunday. Next week the exhibition will be taken over by the Wildlife Photographer of the Year Competition. The winner of this year's competition will be awarded a preview of the new fossil hall as well as a cash prize.",
+      "audio_sha256": "63b8bdb7ef5d6458861b6ddd87626587cbbdc39ef5a97b3e0bd3644f211a514f"
+    },
+    {
+      "id": 320,
+      "source": "2019-12-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-1/",
+        "sha256": "efefbd09cfe89672c8213f5ad5fbb59b614404350f2b21e617d9552183e90efd"
+      },
+      "start": 672.18,
+      "score": 1.0,
+      "script_prefix": "what's up with you you don't look very happy i feel like i'm a failure i can't seem to do anything very well i wouldn't say",
+      "heard_prefix": "what's up with you you don't look very happy i feel like i'm a failure i can't seem to do anything very well i wouldn't say",
+      "transcript": "W: What's up with you? You don't look very happy.\nM: I feel like I'm a failure. I can't seem to do anything very well.\nW: I wouldn't say that. You do very well in a lot of things. That presentation you gave last week was excellent.\nM: Yes, but I have this urge to strive for perfection. I really want to push harder and progress further.\nW: Well, that's very admirable. But be careful. Over-concern with being perfect can damage our confidence if we never achieve it.\nM: Yes, I know. I feel awful whenever I make a mistake in whatever I'm trying to do.\nW: Well, think about it. You can't make progress without making mistakes and learning from them. Thomas Edison, the famous inventor, once said, \"I've not failed. I've just found 10,000 ways that won't work.\"\nM: You may well be right. I guess I should recognize my mistakes and learn the lesson they teach me and move forward.\nW: Also, remember a successful ending is not the only thing worthy of a celebration. You need to recognize each step of progress you take towards achieving your goals, and no matter how tiny it is, it's still good news.\nM: I always feel down when I see others accomplishing things, and I feel miserable about my own achievements. I'm always trying to be as good as others. But I never seem to get there.\nW: Listen, if you always compare yourself with others, you'll never feel good enough. You're the only person you should be comparing yourself with. When you compare your current status with the starting point, you'll find you've made progress, right? That's good enough.\nM: That's great advice. Thank you. I'm feeling better already.",
+      "audio_sha256": "63b8bdb7ef5d6458861b6ddd87626587cbbdc39ef5a97b3e0bd3644f211a514f"
+    },
+    {
+      "id": 322,
+      "source": "2019-12-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-1/",
+        "sha256": "efefbd09cfe89672c8213f5ad5fbb59b614404350f2b21e617d9552183e90efd"
+      },
+      "start": 1085.22,
+      "score": 1.0,
+      "script_prefix": "today i found out that seattle doesn't really get that much rain compared with most us cities in fact seattle ranks th among major us cities",
+      "heard_prefix": "today i found out that seattle doesn't really get that much rain compared with most us cities in fact seattle ranks th among major us cities",
+      "transcript": "Today I found out that Seattle doesn't really get that much rain compared with most US cities. In fact, Seattle ranks 44th among major US cities in average annual rainfall. Cities that get more rainfall than Seattle include Houston, Memphis, Nashville, and pretty much every major city on the eastern coast, such as New York, Boston and Miami. So why does everyone think of Seattle as a rainy city? The primary root of this misconception lies in that Seattle has a relatively large number of days per year with rainfall compared with New York and Boston, which get an average of about 16% more rain per year than Seattle, but also average between them about 36 fewer days a year of rainfall. So it rains a lot less in Seattle, and the rain is spread out over more days than those cities. This is why few locals in Seattle carry an umbrella generally. When it does rain, it tends to be a very light rain. That isn't troublesome. It almost never really rains as most people think. On top of that, it never really storms in Seattle, either. Seattle gets an average of a mere seven days a year with thunder. So in short, if you like sunny but not too hot summers, mild winters but with lots of cloudy days, Seattle's the place to be. Anyway, if you visit Seattle, don't bring an umbrella. People will look at you, thinking you're funny.",
+      "audio_sha256": "63b8bdb7ef5d6458861b6ddd87626587cbbdc39ef5a97b3e0bd3644f211a514f"
+    },
+    {
+      "id": 323,
+      "source": "2019-12-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-1/",
+        "sha256": "efefbd09cfe89672c8213f5ad5fbb59b614404350f2b21e617d9552183e90efd"
+      },
+      "start": 1258.57,
+      "score": 1.0,
+      "script_prefix": "after a tough workout or a day full of physical activity it's common to find your muscles aching but where do these pains come from according",
+      "heard_prefix": "after a tough workout or a day full of physical activity it's common to find your muscles aching but where do these pains come from according",
+      "transcript": "After a tough workout or a day full of physical activity, it's common to find your muscles aching. But where do these pains come from? According to a German professor, the soreness comes from straining your muscles in an uncommon way, for example, jumping on a bicycle for a ride, because you haven't ridden in a long time. Soreness occurs since your leg muscles aren't used to that movement. When muscles perform an activity they aren't regularly exposed to, the tiny fibres that are inside them are being torn apart. As muscle soreness develops, the body has to work to repair the muscle tears. But this doesn't happen immediately. First, the body must realise the muscles are damaged. When the body realises the muscles are hurt, the response is to increase blood flow to the area and increase body heat. Damaged cells are then cleaned up and the body sends cells specially designed to break down the large muscle fibre fragments. Healing can take place after this. It takes about a day until these cells make it to your aching muscles. That's why there is most often a delay associated with muscle soreness. Repair of damaged cells takes about two days, and afterwards the soreness disappears. Unfortunately, there is little that can be done to relieve muscle soreness. Pain-relieving creams don't work, but a hot shower or warm bath can provide some relief.",
+      "audio_sha256": "63b8bdb7ef5d6458861b6ddd87626587cbbdc39ef5a97b3e0bd3644f211a514f"
+    },
+    {
+      "id": 352,
+      "source": "2020-07-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-07-1/",
+        "sha256": "58862af1621c4c62d1dd675ff8c6e65412967f861fb250aac34b1fe834fe366c"
+      },
+      "start": 38.67,
+      "score": 1.0,
+      "script_prefix": "good morning in today's headlines scotland's transport minister has warned of potentially extreme weather conditions as heavy snow is forecast across the country later this week",
+      "heard_prefix": "good morning in today's headlines scotland's transport minister has warned of potentially extreme weather conditions as heavy snow is forecast across the country later this week",
+      "transcript": "Good morning. In today's headlines, Scotland's transport minister has warned of potentially extreme weather conditions as heavy snow is forecast across the country later this week. Orange warnings are in force for many areas for Wednesday and Thursday. The transport minister advised people in parts of Scotland covered by the orange alert to avoid travel on Wednesday. This is what he said to us: \"The orange warning may be raised to red in some areas. That is a warning for snow that has never been seen since the modern system came into place in Scotland.\" The orange warning has been extended until 6 p.m. on Thursday. Trains, planes and ferries are also likely to be affected, with a wind chill that could see parts of Britain feeling as cold as minus 15 degrees Celsius. The head of road policing said, \"I would urge drivers to take extra care on the roads for their journeys. Drivers should make sure they're prepared for their journey with warm clothing, food and drink, sufficient fuel and a charged mobile phone. There could be significant traffic delays, so please start to plan your journey now and consider if you really need to travel when conditions are this poor.\"",
+      "audio_sha256": "9786aaad4ade492959caffec66281656ac58941d2b308665af4c005152503fcc"
+    },
+    {
+      "id": 355,
+      "source": "2020-07-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-07-1/",
+        "sha256": "58862af1621c4c62d1dd675ff8c6e65412967f861fb250aac34b1fe834fe366c"
+      },
+      "start": 482.47,
+      "score": 0.9615384615384616,
+      "script_prefix": "how do you like your new flexible working arrangement do you enjoy working from home yes and no i find isolation challenging at times apart from",
+      "heard_prefix": "do you like your new flexible working arrangement do you enjoy working from home yes and no i find the isolation challenging at times apart from",
+      "transcript": "M: How do you like your new flexible working arrangement? Do you enjoy working from home?\nW: Yes and no. I find isolation challenging at times. Apart from my mother, not too many people I know have time for phone chats during working hours. I tried the library, but found I wasn't really keen on working there.\nM: No, neither would I. I find the library a bit too quiet. I'd lack inspiration or stimulation, which would be counterproductive to getting a lot of work done.\nW: I find the same thing. So, lately I've been going out to cafes occasionally. I love the noise, the people, the busyness of the café, the sense of being out in the world.\nM: Coffee shops seem to have effectively become office spaces for so many people in this digital age, though I'm not sure how cafe owners feel about it—having so many people who go to their places to work rather than drink and eat.\nW: Yes, some people seem to spend a lot of time there and not order much. The most annoying ones for café owners must surely be those usually only two of them who occupy a table for six with their laptops and paperwork.\nM: They should sit at a table for two, not the table for six. Some obviously stay so long. They need to plug the laptops into a power outlet. I nearly tripped over someone's computer electrical lead the other day in my local café.\nW: It's a double-edged sword. No doubt about that for a café owner. While remote workers help to keep the cafe full in quiet times, they can take up the valuable table space in busy periods.",
+      "audio_sha256": "9786aaad4ade492959caffec66281656ac58941d2b308665af4c005152503fcc"
+    },
+    {
+      "id": 357,
+      "source": "2020-07-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-07-1/",
+        "sha256": "58862af1621c4c62d1dd675ff8c6e65412967f861fb250aac34b1fe834fe366c"
+      },
+      "start": 900.32,
+      "score": 1.0,
+      "script_prefix": "there is a saying that goes something along the lines of you must love yourself first before you can love someone else similarly i personally believe",
+      "heard_prefix": "there is a saying that goes something along the lines of you must love yourself first before you can love someone else similarly i personally believe",
+      "transcript": "There is a saying that goes something along the lines of \"You must love yourself first before you can love someone else.\" Similarly, I personally believe that you must be comfortable and happy in your own company before you can truly be yourself in the company of others. There is a massive difference between being lonely and being alone. Loneliness is a horrible feeling. However, you don't have to actually be alone to feel that way. Many times, I've felt lonely when surrounded by a big group of people. In contrast, being alone can actually be a blessing, particularly when you've actively chosen it. In my experience, being bored and alone is dangerous and can easily lead to the feeling of loneliness. The trick is to be active. Get outside, stretch your legs, do something cultural, buy yourself something tasty to eat or something pretty to wear. You don't have to take anyone else into consideration and can do whatever you please. Spending time alone also allows you to more efficiently take care of problems. And then, when it's time to be social and meet up with your friends, you will be fully there, because you won't have too much other stuff floating around in your mind. Having been alone for a bit, you will also appreciate your friends' company more, and chances are, your time spent together will be more worthwhile.",
+      "audio_sha256": "9786aaad4ade492959caffec66281656ac58941d2b308665af4c005152503fcc"
+    },
+    {
+      "id": 358,
+      "source": "2020-07-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-07-1/",
+        "sha256": "58862af1621c4c62d1dd675ff8c6e65412967f861fb250aac34b1fe834fe366c"
+      },
+      "start": 1061.61,
+      "score": 1.0,
+      "script_prefix": "when i turned i worked summers at my father's small brick cleaning business i remember the harsh acid smell of the cleaning solution and the scraping",
+      "heard_prefix": "when i turned i worked summers at my father's small brick cleaning business i remember the harsh acid smell of the cleaning solution and the scraping",
+      "transcript": "When I turned 12, I worked summers at my father's small brick cleaning business. I remember the harsh acid smell of the cleaning solution and the scraping sound of stiff iron brushes against rough brick. It was tempting to hurry a job—just finish. But anybody who worked for Thomas Kahoon had to meet his standards, and that included me. If I messed up, he made me stay late until I got it right. My father wasn't being mean. He demanded the same of himself. Every brick he cleaned on a house stood out like a red jewel in a white setting. It was his signature. In 1970, when I was 20, I got married and moved out of my parents' modest place into a housing project. Drugs and gang violence were just beginning to plague the projects. Some of my friends went to jail. Some were killed. My wife Verllen was 18 and nobody gave our marriage a chance. But we believed in each other and our faith made us strong. When we married, I worked as a stock clerk at Southwest Super Foods. It was hard, tedious work. Each Friday night a truck came, with cases of food that had to be unloaded, priced, and placed on shelves. Most of the stock clerks tried to get Friday night off. But I was always ready to work. By Saturday morning, all the cans and jars in my aisle were replaced with the labels facing smartly out, like a line of soldiers on review. That was my signature. I took pride in the job nobody wanted.",
+      "audio_sha256": "9786aaad4ade492959caffec66281656ac58941d2b308665af4c005152503fcc"
+    },
+    {
+      "id": 359,
+      "source": "2020-07-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-07-1/",
+        "sha256": "58862af1621c4c62d1dd675ff8c6e65412967f861fb250aac34b1fe834fe366c"
+      },
+      "start": 1242.88,
+      "score": 1.0,
+      "script_prefix": "watching more than three hours of television a day doubles memory loss in older people a new study of more than adults suggests scientists at university",
+      "heard_prefix": "watching more than three hours of television a day doubles memory loss in older people a new study of more than adults suggests scientists at university",
+      "transcript": "Watching more than three hours of television a day doubles memory loss in older people, a new study of more than 3,000 adults suggests. Scientists at University College London used memory and fluency tests on the same group of people six years apart. They found that those who watched on average less than three hours' television a day showed a decline of around four to five percent, while those who tended to watch more than three hours a day declined by an average of eight to ten percent. The research team say they believe the \"alert-but-passive\" nature of television watching may be creating stress on the mind which contributes to memory decline. Older people who watch more television are also less likely to undertake activities known to preserve mental functioning such as reading, or interactive screen-based pursuits such as using the Internet or playing video games. The researchers say that television viewing may be a risk factor for Alzheimer's disease, but more research is needed to establish a link. While watching television may have educational benefits and relaxation benefits, the researchers advise that adults over the age of 50 should try and ensure that television viewing is balanced with other contrasting activities. If you're concerned that the amount of television you're watching could have a negative impact on your health, you should limit the amount of TV you watch each day and undertake some healthy hobbies.",
+      "audio_sha256": "9786aaad4ade492959caffec66281656ac58941d2b308665af4c005152503fcc"
+    },
+    {
+      "id": 458,
+      "source": "2020-07-CET6-1.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-07-1/",
+        "sha256": "bc654aea137a71b1e22ec5e4c0a6ff88e231ff8d40abcf8fb3ce268df463cce9"
+      },
+      "start": 233.03,
+      "score": 1.0,
+      "script_prefix": "i've worked in international trade all my life my father did so too before me so i guess you could say it runs in the family",
+      "heard_prefix": "i've worked in international trade all my life my father did so too before me so i guess you could say it runs in the family",
+      "transcript": "W: I've worked in international trade all my life. My father did so too before me. So I guess you could say it runs in the family.\nM: What products have you worked with?\nW: All sorts, really. I've imported textiles, machinery, toys, solar panels, all kinds of things over the years. Trends and demand come and go. So one needs to be very flexible to succeed in this industry.\nM: I see. What goods are you trading now?\nW: I now import furniture from China into Italy and foods from Italy into China. I even use the same container. It's a very efficient way of conducting trade.\nM: The same container? You mean you own a 40-foot cargo container?\nW: Yeah. that's right. I have a warehouse in Genova, Italy and another in Shanghai. I source mid-century modern furniture from different factories in China. It's very good value for money. I collect it all in my warehouse and then dispatch it to my other warehouse in Italy. Over there I do the same, but with Italian foods instead of furniture, things like pasta, cheese, wine, chocolates. And I send all that to my warehouse in China in the same freight container I use for the furniture.\nM: So I presume you sell both lines of products wholesale in each respective country.\nW: Of course. I possess a network of clients and partners in both countries. That's the main benefit of having done this for so long. I've made great business contacts over time.\nM: How many times do you ship?\nW: I did 12 shipments last year, 18 this year, and I hope to grow to around 25 next year. That's both ways, there and back again. Demand for authentic Italian food in China is growing rapidly. And similarly, sales of affordable, yet stylish wooden furniture are also increasing in Italy. Furniture is marginally more profitable, mostly because it enjoys lower customs duties.",
+      "audio_sha256": "096f8208b863c9d237cf61022d7eff8ae4e685662e68fe88cf4dd72458417c75"
+    },
+    {
+      "id": 460,
+      "source": "2020-07-CET6-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-07-1/",
+        "sha256": "bc654aea137a71b1e22ec5e4c0a6ff88e231ff8d40abcf8fb3ce268df463cce9"
+      },
+      "start": 654.17,
+      "score": 1.0,
+      "script_prefix": "public interest was aroused by the latest discovery of a changed gene in obese mice the news was made known by rockefeller university geneticist jeffrey friedman",
+      "heard_prefix": "public interest was aroused by the latest discovery of a changed gene in obese mice the news was made known by rockefeller university geneticist jeffrey friedman",
+      "transcript": "Public interest was aroused by the latest discovery of a changed gene in obese mice. The news was made known by Rockefeller University geneticist Jeffrey Friedman. The researchers believe this gene influences development of a hormone that tells the organism how fat or full it is. Those with the changed gene may not sense when they have eaten enough or if they have sufficient fatty tissue, and thus can't tell when to stop eating.\nThe researchers also reported finding a gene nearly identical to the mouse obesity gene in humans. The operation of this gene in humans has not yet been demonstrated, however. Still, professionals like University of Vermont psychologist Esther Rothblum reacted enthusiastically: \"This research indicates that people really are born with a tendency to have a certain weight, just as they are to have a particular skin color or height.\"\nActually, behavioral geneticists believe that less than half of the total weight variation is programmed in the genes, while height is almost entirely genetically determined.\nWhatever role genes play, Americans are getting fatter. A survey by the Center for Disease Control found that obesity has increased greatly over the last 10 years. Such rapid change underlines the role of environmental factors, like the abundance of rich foods, in Americans' overeating.\nThe Center for Disease Control has also found that teens are far less physically active than they were even a decade ago. Accepting that weight is predetermined can relieve guilt for overweight people. But people's belief that they cannot control their weight can itself contribute to obesity.",
+      "audio_sha256": "096f8208b863c9d237cf61022d7eff8ae4e685662e68fe88cf4dd72458417c75"
+    },
+    {
+      "id": 461,
+      "source": "2020-07-CET6-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-07-1/",
+        "sha256": "bc654aea137a71b1e22ec5e4c0a6ff88e231ff8d40abcf8fb3ce268df463cce9"
+      },
+      "start": 880.26,
+      "score": 1.0,
+      "script_prefix": "qualities of a relationship such as openness compassion and mental stimulation are of concern to most of us regardless of sex but judging from the questionnaire",
+      "heard_prefix": "qualities of a relationship such as openness compassion and mental stimulation are of concern to most of us regardless of sex but judging from the questionnaire",
+      "transcript": "Qualities of a relationship, such as openness, compassion, and mental stimulation are of concern to most of us regardless of sex, but—judging from the questionnaire response—they are more important to women than to men.\nAsked to consider the ingredients of close friendship, women rated these qualities above all others. Men assigned a lower priority to them in favor of similarity in interests, selected by 77% of men, and responsiveness in a crisis, chosen by 61% male respondents. Mental stimulation, ranked third in popularity by men as well as women, was the only area of overlap. Among men, only 28% named openness as an important quality; caring was picked by just 23%.\nIt is evident by their selections that when women speak of close friendships they are referring to emotional factors, while men emphasize the pleasure they find in a friend's company. That is, when a man speaks of \"a friend\" he is likely to be talking about someone he does things with—a teammate, a fellow hobbyist, a drinking buddy. These activities are the fabric of the friendship; it is a \"doing\" relationship in which similarity in interests is the key bond. This factor was a consideration of less than 11% of women. Women opt for a warm, emotional atmosphere where communication flows freely; activity is mere background.\nLastly, men, as we have seen, have serious questions about each other's loyalty. Perhaps this is why they placed such strong emphasis on responsiveness in a crisis—\"someone I can call on for help.\" Women, as their testimonies indicate, are generally more secure with each other and consequently are more likely to treat this issue lightly. In follow-up interviews this was confirmed numerous times as woman after woman indicated that \"being there when needed was taken for granted.\"\nAs for the hazards of friendship, more than a few relationships have been shattered because of cutthroat competition and feelings of betrayal. This applies to both men and women, but unequally. In comparison, nearly twice as many men complained about these issues as women. Further, while competition and betrayal are the main thorns to female friendship, men are plagued in almost equal amounts by two additional issues: lack of frankness and a fear of appearing unmanly. Obviously, for a man, a good friendship is hard to find.",
+      "audio_sha256": "096f8208b863c9d237cf61022d7eff8ae4e685662e68fe88cf4dd72458417c75"
+    },
+    {
+      "id": 462,
+      "source": "2020-07-CET6-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-07-1/",
+        "sha256": "bc654aea137a71b1e22ec5e4c0a6ff88e231ff8d40abcf8fb3ce268df463cce9"
+      },
+      "start": 1125.42,
+      "score": 1.0,
+      "script_prefix": "the partial skeletons of more than dinosaurs and the scattered bones of about more have been discovered in utah and colorado at what is now the",
+      "heard_prefix": "the partial skeletons of more than dinosaurs and the scattered bones of about more have been discovered in utah and colorado at what is now the",
+      "transcript": "The partial skeletons of more than 20 dinosaurs and the scattered bones of about 300 more have been discovered in Utah and Colorado at what is now the Dinosaur National Monument. Many of the best specimens may be seen today at museums of natural history in the larger cities of the United States and Canada. This dinosaur pit is the largest and best preserved deposit of dinosaurs known today.\nMany people get the idea from the mass of bones in the pit wall that some disaster such as a volcanic explosion or a sudden flood killed a whole herd of dinosaurs in this area. This could have happened but it probably did not.\nThe main reasons for thinking otherwise are the scattered bones and the thickness of the deposit.\nIn other deposits where the animals were thought to have died together, the skeletons were usually complete and often all the bones were in their proper places. Rounded pieces of fossil bone have been found here. These fragments got their smooth round shape by rolling along the stream bottom.\nIn a mass killing, the bones would have been left on the stream or lake bottom together at the same level. But in this deposit, the bones occur throughout a zone of sandstone about 12 feet thick.\nThe mixture of swamp dwellers and dry-land types also seems to indicate that the deposit is a mixture from different places.\nThe pit area is a large dinosaur graveyard, not a place where they died. Most of the remains probably floated down an eastward flowing river until they were left on a shallow sandbar. Some of them may have come from far-away dry-land areas to the west. Perhaps they drowned trying to cross a small stream or were washed away during floods. Some of the swamp dwellers may have got stuck in the very sandbar that became their grave; others may have floated for miles before being stranded.\nEven today similar events take place. When floods come in the spring, sheep, cattle and deer are often trapped by rising waters and often drown. Their dead bodies float downstream until the flood recedes and leaves them stranded on a bar or shore where they lie, half buried in the sand, until they decay. Early travelers on the Missouri river reported that shores and bars were often lined with the decaying bodies of buffalo that had died during spring floods.",
+      "audio_sha256": "096f8208b863c9d237cf61022d7eff8ae4e685662e68fe88cf4dd72458417c75"
+    },
+    {
+      "id": 463,
+      "source": "2020-07-CET6-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-07-1/",
+        "sha256": "bc654aea137a71b1e22ec5e4c0a6ff88e231ff8d40abcf8fb3ce268df463cce9"
+      },
+      "start": 1365.44,
+      "score": 1.0,
+      "script_prefix": "i would like particularly to talk about the need to develop a new style of aging in our own society young people in this country have",
+      "heard_prefix": "i would like particularly to talk about the need to develop a new style of aging in our own society young people in this country have",
+      "transcript": "I would like particularly to talk about the need to develop a new style of aging in our own society.\nYoung people in this country have been accused of not caring for their parents the way they would have in the old country. And this is true. But it is also true that old people have been influenced by an American ideal of independence and autonomy. So we live alone, perhaps on the verge of starvation, in time without friends, but we are independent.\nThis standard American style has been forced on every ethnic group, although there are many groups for whom the ideal is not practical. It is a poor ideal and pursuing it does a great deal of harm. This ideal of independence also contains a tremendous amount of unselfishness.\nIn talking to today's young mothers. I have asked them what kind of grandmothers they think they are going to be. I hear devoted, loving mothers say that when they are through raising their children, they have no intention of becoming grandmothers. They are astonished to hear that in most of the world throughout most of its history, families have been three- or four-generation families, living under the same roof.\nWe have over-emphasized the small family unit—father, mother, small children. We think it is wonderful if grandma and grandpa, if they're still alive, can live alone. We have reached the point where we think the only thing we can do for our children is to stay out of their way and the only thing we can do for our daughter-in-law is to see as little of her as possible.\nOld people's nursing homes, even the best run, are filled with older people who believe the only thing they can do for their children is to look cheerful when they come to visit. So in the end, older people have to devote all their energies to \"not being a burden\".\nWe are beginning to see what a tremendous price we've paid for our emphasis on independence and autonomy. We've isolated old people and we've cut off the children from their grandparents.\nOne of the reasons we have as bad a generation gap today as we do is that grandparents have stepped out. Young people are being deprived of the thing they need most—perspective, to know why their parents behave so peculiarly and why their grandparents say the things they do.",
+      "audio_sha256": "096f8208b863c9d237cf61022d7eff8ae4e685662e68fe88cf4dd72458417c75"
+    },
+    {
+      "id": 365,
+      "source": "2020-09-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-09-1/",
+        "sha256": "1a3cf15f8d42755ffd3f460e9124e1ea3992a20a5cb69d5cad8c5fb6580b09ad"
+      },
+      "start": 157.27,
+      "score": 1.0,
+      "script_prefix": "staff at a suburban supermarket in melbourne say they feel unsafe at work after security guards were removed this came after a series of physical attacks",
+      "heard_prefix": "staff at a suburban supermarket in melbourne say they feel unsafe at work after security guards were removed this came after a series of physical attacks",
+      "transcript": "Staff at a suburban supermarket in Melbourne say they feel unsafe at work after security guards were removed. This came after a series of physical attacks and verbal abuse by customers. More than 50 workers at the store have signed a letter calling for a permanent security guard following a series of incidents, including a customer threatening to attack a supervisor with a knife. A security worker had guarded the store each night from 7 p.m. until 12 a.m., but that had stopped suddenly on Monday, employees said. One worker said an angry customer had thrown a chicken at his head after complaining about how long she had waited to be served. Another worker said the lack of protection at the store made her feel uncomfortable at work. However, the spokesman of the supermarket said the store had taken strong action in response to incidents. \"We have found very few instances of bad customer behavior at our store in the past year. In the rare cases we have seen bad behavior, we have taken strong action in response, including banning a customer from the store.\"",
+      "audio_sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c"
+    },
+    {
+      "id": 366,
+      "source": "2020-09-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-09-1/",
+        "sha256": "1a3cf15f8d42755ffd3f460e9124e1ea3992a20a5cb69d5cad8c5fb6580b09ad"
+      },
+      "start": 286.94,
+      "score": 1.0,
+      "script_prefix": "drivers on their way to the polish capital of warsaw on wednesday morning found the road blocked by an unusual obstacle tons of liquid chocolate that",
+      "heard_prefix": "drivers on their way to the polish capital of warsaw on wednesday morning found the road blocked by an unusual obstacle tons of liquid chocolate that",
+      "transcript": "Drivers on their way to the Polish capital of Warsaw on Wednesday morning found the road blocked by an unusual obstacle: tons of liquid chocolate that spilled onto the motorway. A truck carrying the sweet load hit a road barrier and overturned, blocking two lanes. The cracked tank spilled a pool of rapidly-hardening chocolate, which quickly covered the width of the road. While the driver was taken to hospital with a broken arm, firefighters struggled to remove a reported twelve tons of solid chocolate from the road. A representative for the firefighters told the local TV that removing the chocolate was worse than dealing with snow. After contacting the chocolate manufacturer, the firefighters resorted to spraying hot, pressurized water to get rid of the sticky substance. The local TV also noted that the cleanup spanned more than a mile, because drivers simply drove through the chocolate after the crash, leaving a long chocolate trail. But despite the sticky situation, firefighters and police attending to the cleanup were reportedly cheerful about the long task ahead. After all, who could be mad about twelve tons of chocolate?",
+      "audio_sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c"
+    },
+    {
+      "id": 367,
+      "source": "2020-09-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-09-1/",
+        "sha256": "1a3cf15f8d42755ffd3f460e9124e1ea3992a20a5cb69d5cad8c5fb6580b09ad"
+      },
+      "start": 472.19,
+      "score": 0.9615384615384616,
+      "script_prefix": "lisa why did you pay for your meal with cash instead of the payment apps on your phone well i've gone back to cash i'm only",
+      "heard_prefix": "why did you pay for your meal with cash instead of the payment apps on your phone well i've gone back to cash i'm only using",
+      "transcript": "M: Lisa, why did you pay for your meal with cash instead of the payment apps on your phone?\nW: Well, I've gone back to cash. I'm only using payment apps if that's the only option. I'm trying to save money for a new phone, and I find that using cash rather than payment apps helps me to save.\nM: But how? Money is money, isn't it? I don't think it matters whether you take it out to the bank and put it in your wallet or simply transfer from your bank account to the seller's bank account using an app.\nW: No, I believe it does matter. It's a psychological phenomenon. I believe we have less connection with the value of our money when we just tap the \"Approve\" buttons on our phones.\nM: You might have a point. Since I stopped carrying cash around and started using my phone apps to pay, I may have developed a tendency to buy more small or non-essential items.\nW: That's highly possible. Think about the amount of time we spend with our phones in our hands, and all the things we do with our phones. It sometimes seems that our phone is buying the product for us, not ourselves.\nM: So cashless payment affects our ability to budget?\nW: I believe so. If we spend a hundred yuan in cash, we realize that we don't have that hundred yuan to spend on something else. But if we're spending electronically, we are less likely to make that mental calculation.\nM: I stopped using my credit card because I found I was spending excessively. Perhaps I should take the same approach of paying using my phone.\nW: It's worth considering.",
+      "audio_sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c"
+    },
+    {
+      "id": 368,
+      "source": "2020-09-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-09-1/",
+        "sha256": "1a3cf15f8d42755ffd3f460e9124e1ea3992a20a5cb69d5cad8c5fb6580b09ad"
+      },
+      "start": 656.96,
+      "score": 1.0,
+      "script_prefix": "hello mr brown i was expecting your call my secretary told me you were having some problems with the wooden table is that right no no",
+      "heard_prefix": "hello mr brown i was expecting your call my secretary told me you were having some problems with the wooden table is that right no no",
+      "transcript": "W: Hello, Mr. Brown. I was expecting your call. My secretary told me you were having some problems with the wooden table. Is that right?\nM: No, no. The table is fine. The problem is the chairs.\nW: Oh, the chairs. So what exactly is the issue?\nM: Well, put simply, these are not the chairs my wife and I selected in your store last week. There must be some confusion with our order.\nW: Oh, I see. I'm looking through my files now, and I see that the delivery was this morning. Is that correct?\nM: Yes.\nW: Do you mind describing the chairs that were delivered to your apartment, Mr. Brown?\nM: Sure. These have a flat back with a rounded top and are very heavy. They are light brown and look kind of cheap. The ones we ordered were dark brown to match the table.\nW: Right, of course. It says here you purchased the Arlington table and four Milano chairs. As you said, there must have been some confusion with the order. I'm terribly sorry. We will send a van to collect those four and replace them with the Milano you purchased. Will tomorrow 9 a.m. be okay, Mr. Brown?\nM: Yes, that would be great. Thank you.\nW: Good. Did everything else you ordered from us arrive okay?\nM: Yes, I think so. Let me check. The mirror and two paintings are here. The two coffee tables are also here. And the sofa… Yes, we haven't noticed anything else wrong or missing. But if we do, we will certainly let you know.\nW: Okay, great. Once again, I'm sorry for the confusion and trouble caused.",
+      "audio_sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c"
+    },
+    {
+      "id": 370,
+      "source": "2020-09-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-09-1/",
+        "sha256": "1a3cf15f8d42755ffd3f460e9124e1ea3992a20a5cb69d5cad8c5fb6580b09ad"
+      },
+      "start": 1056.87,
+      "score": 1.0,
+      "script_prefix": "at just years old mike hannon is making a difference in his community one lunch at a time mike's lunches of love has fed more than",
+      "heard_prefix": "at just years old mike hannon is making a difference in his community one lunch at a time mike's lunches of love has fed more than",
+      "transcript": "At just 12 years old, Mike Hannon is making a difference in his community one lunch at a time. \"Mike's Lunches of Love\" has fed more than 2,000 of the town's most vulnerable residents. Mike delivers meals to the homeless. \"It's like a way to give people joy, maybe spark something in them that can change them,\" Mike told WBZ-TV. The mayor of Mike's town feels that Mike is a great community leader, especially in such times of so much negative news. While his father commented on how proud he was of his son, yet, Mike isn't looking for praise, but kindness in return. He hopes his acts of charity will influence others to spread positive actions in their own towns. Mike includes a handwritten message of joy on each bag. His message and star power have spread all over the country. To date, his online page to raise funds has brought in more than $44,000 and counting, raising more than $17,000 in just one day, with the help of many famous actors and others. People from all over the country are sending special handcrafted bags to help the young man with his mission to help those in need. Many are hoping the simple act of kindness spreads. Mike is seen as hope for the future of the town, the country and the world.",
+      "audio_sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c"
+    },
+    {
+      "id": 371,
+      "source": "2020-09-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-09-1/",
+        "sha256": "1a3cf15f8d42755ffd3f460e9124e1ea3992a20a5cb69d5cad8c5fb6580b09ad"
+      },
+      "start": 1224.85,
+      "score": 1.0,
+      "script_prefix": "in a recent study carried out by psychologists on the disruptive effects of smartphones two groups of college students were given word search puzzles the first",
+      "heard_prefix": "in a recent study carried out by psychologists on the disruptive effects of smartphones two groups of college students were given word search puzzles the first",
+      "transcript": "In a recent study carried out by psychologists on the disruptive effects of smartphones, two groups of college students were given word search puzzles. The first group was told to complete the puzzles with its participants' smartphones in their line of sight. The second group, however, was told that the phones would interfere with the equipment in the experiment, and would need to be moved away from the testing area. Midway through the second group's solving of the puzzles, the experimenter called one of the phones and let it ring for a while before hanging up. Many of the students in that group were unable to focus from then on, becoming anxious and performing more poorly than the first group.\nUse of electronics has also been known to lead to a decline in human interactions. Rather than having real-life conversations, many express emotions and engage in deep conversations through social media sites. Many students use their phones and computers during class for non-academic activities, which leads to poor grades. Perhaps the most dramatic impact is the reduction in the amount of sleep, which leads to poor health and weight gain.\nTechnology is a great tool; however, it's important to recognize its downsides. Lack of sleep, reduction of productivity and weight gain are only a few. If we're not careful about all these minor problems right now, the effect on the future generation is going to be much bigger.",
+      "audio_sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c"
+    },
+    {
+      "id": 469,
+      "source": "2020-09-CET6-1.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-09-1/",
+        "sha256": "b9396c6445b04af3c3e3a26fc86302febd5894ed030744048894dc05c9153f5b"
+      },
+      "start": 237.63,
+      "score": 1.0,
+      "script_prefix": "do you think dreams have special meanings no i don't think they do i don't either but some people do i would say people who believe",
+      "heard_prefix": "do you think dreams have special meanings no i don't think they do i don't either but some people do i would say people who believe",
+      "transcript": "M: Do you think dreams have special meanings?\nW: No, I don't think they do.\nM: I don't either. But some people do. I would say people who believe that dreams have special meanings are superstitious, especially nowadays. In the past, during the times of ancient Egypt, Greece or China, people used to believe that dreams could foresee the future. But today, with all the scientific knowledge that we have, I think it's much harder to believe in these sorts of things.\nW: My grandmother is superstitious, and she thinks dreams can predict the future. Once she dreamed that the flight she was due to take the following day crashed. Can you guess what she did? She didn't take that flight. She didn't even bother to go to the airport the following day. Instead, she took the same flight but a week later. And everything was fine, of course. No plane ever crashed.\nM: How funny! Did you know that flying is actually safer than any other mode of transport? It's been statistically proven. People can be so irrational sometimes.\nW: Yes, absolutely. But even if we think they are ridiculous, emotions can be just as powerful as rational thinking.\nM: Exactly. People do all sorts of crazy things because of their irrational feelings. But in fact, some psychologists believe that our dreams are the result of our emotions and memories from that day. I think it was Sigmund Freud who said that children's dreams were usually simple representations of their wishes, things they wished would happen. But in adults, dreams are much more complicated reflections of their more sophisticated sentiments.\nW: Isn't it interesting how psychologists try to understand using the scientific method something as bizarre as dreams? Psychology is like the rational study of irrational feelings.",
+      "audio_sha256": "13cbeaaae9aa77d4679f56a22ea6357d72de91cdd1948909f54e09f59984f161"
+    },
+    {
+      "id": 470,
+      "source": "2020-09-CET6-1.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-09-1/",
+        "sha256": "b9396c6445b04af3c3e3a26fc86302febd5894ed030744048894dc05c9153f5b"
+      },
+      "start": 461.87,
+      "score": 1.0,
+      "script_prefix": "while some scientists explore the surface of antarctica others are learning more about a giant body of water four kilometers beneath the ice pack scientists first",
+      "heard_prefix": "while some scientists explore the surface of antarctica others are learning more about a giant body of water four kilometers beneath the ice pack scientists first",
+      "transcript": "While some scientists explore the surface of Antarctica, others are learning more about a giant body of water four kilometers beneath the ice pack. Scientists first discovered Lake Vostok in the 1970s by using radio waves that penetrate the ice. Since then, they have used sound waves and even satellites to map this massive body of water.\nHow does the water in Lake Vostok remain liquid beneath an ice sheet? \"The thick glacier above acts like an insulating blanket and keeps the water from freezing,\" says Martin Siegert, a glaciologist from the University of Wales. In addition, geothermal heat from deep within the earth may warm the hidden lake. The scientists suspect that micro-organisms may be living in Lake Vostok, closed off from the outside world for more than 2 million years.\nAnything found there will be totally alien to what's on the surface of the earth, says Siegert. Scientists are trying to find a way to drill into the ice and draw water samples without causing contamination. Again, robots might be the solution. If all goes as planned, a drill-shaped robot will melt through the surface ice. When it reaches the lake, it will release another robot that can swim in the lake, take pictures, and look for signs of life.\nThe scientists hope their discoveries will shed light on life in outer space, which might exist in similar dark and airless conditions. Recently, close-up pictures of Jupiter's moon, Europa, show signs of water beneath its icy surface. Once tested in Antarctica, robots could be sent to Europa to search for life there too.",
+      "audio_sha256": "13cbeaaae9aa77d4679f56a22ea6357d72de91cdd1948909f54e09f59984f161"
+    },
+    {
+      "id": 471,
+      "source": "2020-09-CET6-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-09-1/",
+        "sha256": "b9396c6445b04af3c3e3a26fc86302febd5894ed030744048894dc05c9153f5b"
+      },
+      "start": 635.84,
+      "score": 0.9615384615384616,
+      "script_prefix": "the idea to study the american indian tribe tarahumaras came to james copeland in when he discovered that very little research had been done on their",
+      "heard_prefix": "the idea to study the american indian tribe tarahumaris came to james copeland in when he discovered that very little research had been done on their",
+      "transcript": "The idea to study the American Indian tribe Tarahumaras came to James Copeland in 1984 when he discovered that very little research had been done on their language. He contacted a tribe member through a social worker who worked with the tribesmen in Mexico. At first, the tribe member, named Gonzalez, was very reluctant to cooperate. He told Copeland that no amount of money could buy his language. But after Copeland explained to him what he intended to do with his research and how it would benefit the Tarahumaras, Gonzalez agreed to help. He took Copeland to his village and served as an intermediary. Copeland says, \"Thanks to him, the Tarahumaras understood what our mission was and started trusting us.\"\nEntering the world of the Tarahumaras has been a laborious project for Copeland. To reach their homeland he must drive two and a half days from Houston, Texas. He loads up his vehicle with goods that the tribesmen can't easily get, and gives the goods to them as a gesture of friendship. The Tarahumaras, who don't believe in accumulating wealth, take the food and share it among themselves.\nFor Copeland, the experience has not only been academically satisfying, but also has enriched his life in several ways. \"I see people rejecting technology and living a very hard, traditional life, which offers me another notion about the meaning of progress in the western tradition,\" he says. \"I experience the simplicity of living in nature that I would otherwise only be able to read about. I see a lot of beauty in their sense of sharing and concern for each other.\"",
+      "audio_sha256": "13cbeaaae9aa77d4679f56a22ea6357d72de91cdd1948909f54e09f59984f161"
+    },
+    {
+      "id": 473,
+      "source": "2020-09-CET6-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-09-1/",
+        "sha256": "b9396c6445b04af3c3e3a26fc86302febd5894ed030744048894dc05c9153f5b"
+      },
+      "start": 1092.52,
+      "score": 1.0,
+      "script_prefix": "we are very susceptible to the influence of the people around us for instance you may have known somebody who has gone overseas for a year",
+      "heard_prefix": "we are very susceptible to the influence of the people around us for instance you may have known somebody who has gone overseas for a year",
+      "transcript": "We are very susceptible to the influence of the people around us. For instance, you may have known somebody who has gone overseas for a year or so and has returned with an accent, perhaps. We become part of our immediate environment. None of us are immune to the influences of our own world, and let us not kid ourselves that we are untouched by the things and the people in our life.\nFred goes off to his new job at a factory. Fred takes his 10-minute coffee break, but the other workers take half an hour. Fred says, \"What's the matter with you guys?\" Two weeks later, Fred is taking 20-minute breaks. A month later, Fred takes his half hour. Fred is saying, \"If you can't beat them, join them. Why should I work any harder than the next guy?\"\nThe fascinating thing about being human is that generally we are unaware that there are changes taking place in our mentality. It is like returning to the city smog after some weeks in the fresh air—only then do we realize that we have become accustomed to the nasty smells. Mix with critical people and we learn to criticize; mix with happy people and we learn about happiness.\nWhat this means is that we need to decide what we want from life and then choose our company accordingly. You may well say, \"That is going to take some effort. It may not be comfortable. I may offend some of my present company.\" Right, but it is your life.\nFred may say, \"I'm always broke, frequently depressed. I'm going nowhere and I never do anything exciting.\" Then we discover that Fred's best friends are always broke, frequently depressed, going nowhere and wishing that life was more exciting. This is not a coincidence. Nor is it our business to stand in judgment of Fred. However, if Fred ever wants to improve his quality of life, the first thing he'll need to do is recognize what has been going on all these years.\nIt's no surprise that doctors as a profession suffer a lot of ill health because they spend their lives around sick people. Psychiatrists have a higher incidence of suicide in their profession for related reasons. Traditionally, 9 out of 10 children whose parents smoke, smoke themselves. Obesity is in part an environmental problem. Successful people have successful friends. And so the story goes on.",
+      "audio_sha256": "13cbeaaae9aa77d4679f56a22ea6357d72de91cdd1948909f54e09f59984f161"
+    },
+    {
+      "id": 474,
+      "source": "2020-09-CET6-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-09-1/",
+        "sha256": "b9396c6445b04af3c3e3a26fc86302febd5894ed030744048894dc05c9153f5b"
+      },
+      "start": 1315.8,
+      "score": 1.0,
+      "script_prefix": "virtually every american can recognize a dollar bill at a mere glance many can identify it by its sound or texture but few people indeed can",
+      "heard_prefix": "virtually every american can recognize a dollar bill at a mere glance many can identify it by its sound or texture but few people indeed can",
+      "transcript": "Virtually every American can recognize a dollar bill at a mere glance. Many can identify it by its sound or texture. But few people indeed can accurately describe the world's most powerful, important currency.\nThe American dollar bill is colored with black ink on one side and green on the other; the exact composition of the paper and ink is a closely guarded government secret. Despite its weighty importance, the dollar bill actually weighs little. It requires nearly 500 bills to tip the scales at a pound. Not only is the dollar bill lightweight, but it also has a brief life span. Few dollar bills survive longer than 18 months.\nThe word \"dollar\" is taken from the German word \"thaler,\" the name for the world's most important currency in the 16th century. The thaler was a silver coin first minted in 1518 under the reign of Charles V, Emperor of Germany.\nThe concept of paper money is a relatively recent innovation in the history of American currency. When the Constitution was signed, people had little regard for paper money because of its steadily decreasing value during the colonial era. Because of this lack of faith, the new American government minted only coins for common currency. Interest-bearing bank notes were issued at the same time, but their purpose was limited to providing money for urgent government crises, such as American involvement in the War of 1812.\nThe first noninterest-bearing paper currency was authorized by Congress in 1862, at the height of the Civil War. At this point, citizens' old fears of devalued paper currency had calmed, and the dollar bill was born. The new green colored paper money quickly earned the nickname \"greenback.\"\nToday, the American dollar bill is a product of the Federal Reserve, and is issued from the twelve Federal Reserve banks around the United States. The government keeps a steady supply of approximately two billion bills in circulation at all times.\nControversy continues to surround the true value of the dollar bill. American history has seen generations of politicians argue in favor of a gold standard for American currency. However, for the present, the American dollar bill holds the value that is printed on it, and little more. The only other guarantee on the bill is a Federal Reserve pledge as a confirmation in the form of government securities.",
+      "audio_sha256": "13cbeaaae9aa77d4679f56a22ea6357d72de91cdd1948909f54e09f59984f161"
+    },
+    {
+      "id": 381,
+      "source": "2020-12-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-1/",
+        "sha256": "db7c720f4503ff3ac790bd80d2272db1600fdc3f1faddb06cddda62e3f898973"
+      },
+      "start": 146.82,
+      "score": 1.0,
+      "script_prefix": "almost half the center of paris will be accessible only by foot or bicycle this sunday to mark world car free day this is in response",
+      "heard_prefix": "almost half the center of paris will be accessible only by foot or bicycle this sunday to mark world car free day this is in response",
+      "transcript": "Almost half the center of Paris will be accessible only by foot or bicycle this Sunday to mark World Car-Free Day. This is in response to rising air pollution that made Paris the most polluted city in the world for a brief time. Mayor Anne Hidalgo promoted the first World Car-Free Day last year. Hidalgo also has supported a \"Paris Breathes\" day. On the first Sunday of every month, Paris clears traffic from eight lanes of the main road. About 400 miles of streets will be closed to cars. It is expected to bring significant reduction in pollution levels. Last year's car-free day showed a 40 percent drop in pollution levels in some parts of the city, according to an independent air pollution monitor, reports The Guardian—and sound levels dropped by 50 percent in the city's center.",
+      "audio_sha256": "1453297d2f9291238657d84b60a3c198a2e9007d5f9e86c1a54e0556bc55a443"
+    },
+    {
+      "id": 382,
+      "source": "2020-12-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-1/",
+        "sha256": "db7c720f4503ff3ac790bd80d2272db1600fdc3f1faddb06cddda62e3f898973"
+      },
+      "start": 257.99,
+      "score": 0.9230769230769231,
+      "script_prefix": "a philippine fisherman was feeling down on his luck when a house fire forced him to clear out his possessions and change locations then a good",
+      "heard_prefix": "a philippine fisherman was feeling down on his luck when a housewife forced him to clear out his possessions and change locations then a good luck",
+      "transcript": "A Philippine fisherman was feeling down on his luck when a house fire forced him to clear out his possessions and change locations. Then a good luck charm that he had kept under his bed changed his life. The unidentified man had fished out a giant pearl from the ocean when his anchor got stuck on the rock while sailing off the coastal island in the Philippines ten years ago. When he was forced to sell it, the shocked tourist agent at Puerto Princesa told him that the 77-pound giant pearl that he'd kept hidden in his run-down wooden house was the biggest pearl in the world, which was valued at 76 million pounds. The pearl of Allah, which is currently on display in a New York museum only weighs 14 pounds. That is 5 times smaller than the pearl that the fisherman just handed in. The monstrous pearl measured at one foot wide and 2.2 feet long is going to be verified by local experts and international authorities before hopefully going on display to attract more tourists in the little town.",
+      "audio_sha256": "1453297d2f9291238657d84b60a3c198a2e9007d5f9e86c1a54e0556bc55a443"
+    },
+    {
+      "id": 384,
+      "source": "2020-12-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-1/",
+        "sha256": "db7c720f4503ff3ac790bd80d2272db1600fdc3f1faddb06cddda62e3f898973"
+      },
+      "start": 617.41,
+      "score": 1.0,
+      "script_prefix": "wow congratulations simon the place looks absolutely amazing really you think so of course i love it it looks like you had a professional interior designer",
+      "heard_prefix": "wow congratulations simon the place looks absolutely amazing really you think so of course i love it it looks like you had a professional interior designer",
+      "transcript": "W: Wow, congratulations, Simon! The place looks absolutely amazing!\nM: Really? You think so?\nW: Of course. I love it. It looks like you had a professional interior designer. But you didn't, did you?\nM: No. I did it all by myself with a little help from my brother Greg. He's actually in the construction business, which was really helpful.\nW: I honestly am impressed. I know I could probably repaint the walls in my house over a weekend or something, but not a full renovation. Where did you get your ideas? I wouldn't know where to start.\nM: Well, for a while now, I've been regularly buying home design magazines. Every now and then, I'd save a picture I liked. Believe it or not, I had a full notebook of magazine pages. Since my overall style was quite minimal, I thought and hoped a whole renovation wouldn't be too difficult. And sure enough, with Greg's help, it was very achievable.\nW: Was it very expensive? I've imagined a project like this could be.\nM: Actually it was surprisingly affordable. I managed to sell a lot of my old furniture and put that extra money towards the new material. Greg was also able to get some discount materials from a recent project he was working on as well.\nW: Great. If you don't mind, I'd like to pick your brains a bit more. Jonathan and I are thinking of renovating our sitting room, not the whole house, not yet anyway. And we'd love to get some inspiration from your experience. Are you free to come over for a coffee early next week?",
+      "audio_sha256": "1453297d2f9291238657d84b60a3c198a2e9007d5f9e86c1a54e0556bc55a443"
+    },
+    {
+      "id": 386,
+      "source": "2020-12-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-1/",
+        "sha256": "db7c720f4503ff3ac790bd80d2272db1600fdc3f1faddb06cddda62e3f898973"
+      },
+      "start": 1022.76,
+      "score": 0.8846153846153846,
+      "script_prefix": "good morning today i would like to talk to you about my charity rebicycle but before that let me introduce someone this is leila rahimi she",
+      "heard_prefix": "morning today i would like to talk to you about my charity re bicycle but before that let me introduce someone this is layla rahimi she",
+      "transcript": "Good morning. Today, I would like to talk to you about my charity ReBicycle. But before that, let me introduce someone. This is Leila Rahimi. She was so scared when she first moved to New Zealand that she struggled to leave the house and would spend days working up the courage to walk to the supermarket for basic supplies. After a few months of being quite down and unhappy, she was invited to join a local bike club. At this time, ReBicycle got involved and gave Leila a second-hand bicycle. Within weeks, her depression had begun to ease as she cycled. The bicycle totally changed her life, giving her hope and a true feeling of freedom. To date, ReBicycle has donated more than 200 bikes to those in need, and is now expanding bike-riding lessons as demand soars. With a bike, newcomers here can travel farther but for almost no cost. The three hours a day, they used to spend walking to and from English language lessons, have been reduced to just one hour. Our bike-riding lessons are so successful that we are urgently looking for more volunteers. Learning to ride a bike is almost always more difficult for an adult, and this can take days and weeks, rather than hours. So if any of you have some free time during the weekend, please come join us at ReBicycle and make a difference in someone's life.",
+      "audio_sha256": "1453297d2f9291238657d84b60a3c198a2e9007d5f9e86c1a54e0556bc55a443"
+    },
+    {
+      "id": 387,
+      "source": "2020-12-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-1/",
+        "sha256": "db7c720f4503ff3ac790bd80d2272db1600fdc3f1faddb06cddda62e3f898973"
+      },
+      "start": 1198.7,
+      "score": 1.0,
+      "script_prefix": "thanks to the international space station we know quite a bit about the effects of low gravity on the human body but nasa scientists want to",
+      "heard_prefix": "thanks to the international space station we know quite a bit about the effects of low gravity on the human body but nasa scientists want to",
+      "transcript": "Thanks to the International Space Station, we know quite a bit about the effects of low gravity on the human body, but NASA scientists want to learn more. To that end, they have been studying how other species deal with low gravity, specifically focusing on mice. The results are both interesting and humorous. The scientists first sent some mice in a specially designed cage to the International Space Station. The cage allowed them to study the behavior of the mice remotely from Earth via video. As you'll notice in the video, the mice definitely seem uncomfortable at the beginning of the experiment. They move around clumsily, drifting within the small confines of the cage, and do their best to figure out which way is up, but without success. However, it's not long before the mice begin to catch on. They adapt remarkably well to their new environment and even use the lack of gravity to their advantage as they push themselves around the cage. That's when things really get wild. The eleventh day of the experiment shows the mice are not just dealing with the gravity change but actually seem to be enjoying it. Several of the mice are observed running around the cage walls. The scientists wanted to see whether the mice would continue doing the same kinds of activities they were observed doing on Earth. The study showed that the mice kept much of their routines intact, including cleaning themselves and eating when hungry.",
+      "audio_sha256": "1453297d2f9291238657d84b60a3c198a2e9007d5f9e86c1a54e0556bc55a443"
+    }
+  ],
+  "unresolved": [
+    {
+      "id": 276,
+      "source": "2019-06-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 281,
+      "source": "2019-06-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-1/",
+        "sha256": "53cc04d351fa0560d0fa7537aa6e932f2ebbc3ef5aa65357882f77c8ce92a940"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 291,
+      "source": "2019-06-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-2/",
+        "sha256": "6d8d04b03baaf39ed7a4a68efefbbe5782a5caf94a38de455184d732565619a4"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 293,
+      "source": "2019-06-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-06-2/",
+        "sha256": "6d8d04b03baaf39ed7a4a68efefbbe5782a5caf94a38de455184d732565619a4"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 304,
+      "source": "2019-12-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-2/",
+        "sha256": "5a9f3076848fabda239647d6679081432ac8c0376fb76020f752cb199a8b3f55"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 316,
+      "source": "2019-12-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-1/",
+        "sha256": "efefbd09cfe89672c8213f5ad5fbb59b614404350f2b21e617d9552183e90efd"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 318,
+      "source": "2019-12-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-1/",
+        "sha256": "efefbd09cfe89672c8213f5ad5fbb59b614404350f2b21e617d9552183e90efd"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 319,
+      "source": "2019-12-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-1/",
+        "sha256": "efefbd09cfe89672c8213f5ad5fbb59b614404350f2b21e617d9552183e90efd"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 321,
+      "source": "2019-12-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2019-12-1/",
+        "sha256": "efefbd09cfe89672c8213f5ad5fbb59b614404350f2b21e617d9552183e90efd"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 353,
+      "source": "2020-07-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 354,
+      "source": "2020-07-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-07-1/",
+        "sha256": "58862af1621c4c62d1dd675ff8c6e65412967f861fb250aac34b1fe834fe366c"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 356,
+      "source": "2020-07-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 457,
+      "source": "2020-07-CET6-1.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-07-1/",
+        "sha256": "bc654aea137a71b1e22ec5e4c0a6ff88e231ff8d40abcf8fb3ce268df463cce9"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 459,
+      "source": "2020-07-CET6-1.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-07-1/",
+        "sha256": "bc654aea137a71b1e22ec5e4c0a6ff88e231ff8d40abcf8fb3ce268df463cce9"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 364,
+      "source": "2020-09-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-09-1/",
+        "sha256": "1a3cf15f8d42755ffd3f460e9124e1ea3992a20a5cb69d5cad8c5fb6580b09ad"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 369,
+      "source": "2020-09-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-09-1/",
+        "sha256": "1a3cf15f8d42755ffd3f460e9124e1ea3992a20a5cb69d5cad8c5fb6580b09ad"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 468,
+      "source": "2020-09-CET6-1.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-09-1/",
+        "sha256": "b9396c6445b04af3c3e3a26fc86302febd5894ed030744048894dc05c9153f5b"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 472,
+      "source": "2020-09-CET6-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2020-09-1/",
+        "sha256": "b9396c6445b04af3c3e3a26fc86302febd5894ed030744048894dc05c9153f5b"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 380,
+      "source": "2020-12-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-1/",
+        "sha256": "db7c720f4503ff3ac790bd80d2272db1600fdc3f1faddb06cddda62e3f898973"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 383,
+      "source": "2020-12-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-1/",
+        "sha256": "db7c720f4503ff3ac790bd80d2272db1600fdc3f1faddb06cddda62e3f898973"
+      },
+      "reason": "no_unique_alignment"
+    },
+    {
+      "id": 385,
+      "source": "2020-12-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 391,
+      "source": "2020-12-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-2/",
+        "sha256": "8abd63e72f39dfc70f4420dd5e9f83a92a9caeb9674bdcc755da8bc79f4aa0f2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 392,
+      "source": "2020-12-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-2/",
+        "sha256": "8abd63e72f39dfc70f4420dd5e9f83a92a9caeb9674bdcc755da8bc79f4aa0f2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 393,
+      "source": "2020-12-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-2/",
+        "sha256": "8abd63e72f39dfc70f4420dd5e9f83a92a9caeb9674bdcc755da8bc79f4aa0f2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 394,
+      "source": "2020-12-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-2/",
+        "sha256": "8abd63e72f39dfc70f4420dd5e9f83a92a9caeb9674bdcc755da8bc79f4aa0f2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 395,
+      "source": "2020-12-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-2/",
+        "sha256": "8abd63e72f39dfc70f4420dd5e9f83a92a9caeb9674bdcc755da8bc79f4aa0f2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 396,
+      "source": "2020-12-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-2/",
+        "sha256": "8abd63e72f39dfc70f4420dd5e9f83a92a9caeb9674bdcc755da8bc79f4aa0f2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 397,
+      "source": "2020-12-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-2/",
+        "sha256": "8abd63e72f39dfc70f4420dd5e9f83a92a9caeb9674bdcc755da8bc79f4aa0f2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 398,
+      "source": "2020-12-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2020-12-2/",
+        "sha256": "8abd63e72f39dfc70f4420dd5e9f83a92a9caeb9674bdcc755da8bc79f4aa0f2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 331,
+      "source": "2021-06-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 332,
+      "source": "2021-06-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-1/",
+        "sha256": "c2d4091cedaf5ab885f0247aa78f7677e868cb16ca4d64adffe2305017f89d9b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 333,
+      "source": "2021-06-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-1/",
+        "sha256": "c2d4091cedaf5ab885f0247aa78f7677e868cb16ca4d64adffe2305017f89d9b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 334,
+      "source": "2021-06-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-1/",
+        "sha256": "c2d4091cedaf5ab885f0247aa78f7677e868cb16ca4d64adffe2305017f89d9b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 335,
+      "source": "2021-06-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-1/",
+        "sha256": "c2d4091cedaf5ab885f0247aa78f7677e868cb16ca4d64adffe2305017f89d9b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 338,
+      "source": "2021-06-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-2/",
+        "sha256": "e94721f7cafdf74f464c00709f7553559bd74b45702bc8799758d0d51148cc0e"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 339,
+      "source": "2021-06-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-2/",
+        "sha256": "e94721f7cafdf74f464c00709f7553559bd74b45702bc8799758d0d51148cc0e"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 340,
+      "source": "2021-06-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-2/",
+        "sha256": "e94721f7cafdf74f464c00709f7553559bd74b45702bc8799758d0d51148cc0e"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 341,
+      "source": "2021-06-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-2/",
+        "sha256": "e94721f7cafdf74f464c00709f7553559bd74b45702bc8799758d0d51148cc0e"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 342,
+      "source": "2021-06-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-2/",
+        "sha256": "e94721f7cafdf74f464c00709f7553559bd74b45702bc8799758d0d51148cc0e"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 343,
+      "source": "2021-06-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-06-2/",
+        "sha256": "e94721f7cafdf74f464c00709f7553559bd74b45702bc8799758d0d51148cc0e"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 344,
+      "source": "2021-06-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 405,
+      "source": "2021-12-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-1/",
+        "sha256": "6219437a1e181d8fd30ca28ae76f590a3f07edc626cf76169af06cc51d95aaed"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 406,
+      "source": "2021-12-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-1/",
+        "sha256": "6219437a1e181d8fd30ca28ae76f590a3f07edc626cf76169af06cc51d95aaed"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 407,
+      "source": "2021-12-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-1/",
+        "sha256": "6219437a1e181d8fd30ca28ae76f590a3f07edc626cf76169af06cc51d95aaed"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 408,
+      "source": "2021-12-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-1/",
+        "sha256": "6219437a1e181d8fd30ca28ae76f590a3f07edc626cf76169af06cc51d95aaed"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 409,
+      "source": "2021-12-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-1/",
+        "sha256": "6219437a1e181d8fd30ca28ae76f590a3f07edc626cf76169af06cc51d95aaed"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 435,
+      "source": "2021-12-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-1/",
+        "sha256": "6219437a1e181d8fd30ca28ae76f590a3f07edc626cf76169af06cc51d95aaed"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 436,
+      "source": "2021-12-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-1/",
+        "sha256": "6219437a1e181d8fd30ca28ae76f590a3f07edc626cf76169af06cc51d95aaed"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 437,
+      "source": "2021-12-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-1/",
+        "sha256": "6219437a1e181d8fd30ca28ae76f590a3f07edc626cf76169af06cc51d95aaed"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 412,
+      "source": "2021-12-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-2/",
+        "sha256": "04f696052f05b37f4358d2790210eaa9967f63ef7087f0a107ba4f4d5562b13c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 413,
+      "source": "2021-12-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-2/",
+        "sha256": "04f696052f05b37f4358d2790210eaa9967f63ef7087f0a107ba4f4d5562b13c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 414,
+      "source": "2021-12-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-2/",
+        "sha256": "04f696052f05b37f4358d2790210eaa9967f63ef7087f0a107ba4f4d5562b13c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 415,
+      "source": "2021-12-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-2/",
+        "sha256": "04f696052f05b37f4358d2790210eaa9967f63ef7087f0a107ba4f4d5562b13c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 416,
+      "source": "2021-12-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-2/",
+        "sha256": "04f696052f05b37f4358d2790210eaa9967f63ef7087f0a107ba4f4d5562b13c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 439,
+      "source": "2021-12-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-2/",
+        "sha256": "04f696052f05b37f4358d2790210eaa9967f63ef7087f0a107ba4f4d5562b13c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 440,
+      "source": "2021-12-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-2/",
+        "sha256": "04f696052f05b37f4358d2790210eaa9967f63ef7087f0a107ba4f4d5562b13c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 441,
+      "source": "2021-12-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2021-12-2/",
+        "sha256": "04f696052f05b37f4358d2790210eaa9967f63ef7087f0a107ba4f4d5562b13c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 204,
+      "source": "2022-06-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-06-1/",
+        "sha256": "bd06219abc29a892631bcded580f672f0e129ebf3fbc29c8b69996b5d1e10e34"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 205,
+      "source": "2022-06-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-06-1/",
+        "sha256": "bd06219abc29a892631bcded580f672f0e129ebf3fbc29c8b69996b5d1e10e34"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 206,
+      "source": "2022-06-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-06-1/",
+        "sha256": "bd06219abc29a892631bcded580f672f0e129ebf3fbc29c8b69996b5d1e10e34"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 207,
+      "source": "2022-06-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-06-1/",
+        "sha256": "bd06219abc29a892631bcded580f672f0e129ebf3fbc29c8b69996b5d1e10e34"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 208,
+      "source": "2022-06-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-06-1/",
+        "sha256": "bd06219abc29a892631bcded580f672f0e129ebf3fbc29c8b69996b5d1e10e34"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 209,
+      "source": "2022-06-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-06-1/",
+        "sha256": "bd06219abc29a892631bcded580f672f0e129ebf3fbc29c8b69996b5d1e10e34"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 210,
+      "source": "2022-06-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-06-1/",
+        "sha256": "bd06219abc29a892631bcded580f672f0e129ebf3fbc29c8b69996b5d1e10e34"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 211,
+      "source": "2022-06-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-06-1/",
+        "sha256": "bd06219abc29a892631bcded580f672f0e129ebf3fbc29c8b69996b5d1e10e34"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 423,
+      "source": "2022-09-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-09-1/",
+        "sha256": "348544eb179a908e97fe4c8507d4002fb25a32d5e8238752b57371efbfe423ec"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 424,
+      "source": "2022-09-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-09-1/",
+        "sha256": "348544eb179a908e97fe4c8507d4002fb25a32d5e8238752b57371efbfe423ec"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 425,
+      "source": "2022-09-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-09-1/",
+        "sha256": "348544eb179a908e97fe4c8507d4002fb25a32d5e8238752b57371efbfe423ec"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 426,
+      "source": "2022-09-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-09-1/",
+        "sha256": "348544eb179a908e97fe4c8507d4002fb25a32d5e8238752b57371efbfe423ec"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 427,
+      "source": "2022-09-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-09-1/",
+        "sha256": "348544eb179a908e97fe4c8507d4002fb25a32d5e8238752b57371efbfe423ec"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 428,
+      "source": "2022-09-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-09-1/",
+        "sha256": "348544eb179a908e97fe4c8507d4002fb25a32d5e8238752b57371efbfe423ec"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 429,
+      "source": "2022-09-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-09-1/",
+        "sha256": "348544eb179a908e97fe4c8507d4002fb25a32d5e8238752b57371efbfe423ec"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 430,
+      "source": "2022-09-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 220,
+      "source": "2022-12-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-1/",
+        "sha256": "24578b67d4f3484e52061a76f7d75ba0d4a613e134bba56767556c5bb55d8a1f"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 221,
+      "source": "2022-12-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-1/",
+        "sha256": "24578b67d4f3484e52061a76f7d75ba0d4a613e134bba56767556c5bb55d8a1f"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 222,
+      "source": "2022-12-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-1/",
+        "sha256": "24578b67d4f3484e52061a76f7d75ba0d4a613e134bba56767556c5bb55d8a1f"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 223,
+      "source": "2022-12-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-1/",
+        "sha256": "24578b67d4f3484e52061a76f7d75ba0d4a613e134bba56767556c5bb55d8a1f"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 224,
+      "source": "2022-12-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-1/",
+        "sha256": "24578b67d4f3484e52061a76f7d75ba0d4a613e134bba56767556c5bb55d8a1f"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 225,
+      "source": "2022-12-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-1/",
+        "sha256": "24578b67d4f3484e52061a76f7d75ba0d4a613e134bba56767556c5bb55d8a1f"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 226,
+      "source": "2022-12-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-1/",
+        "sha256": "24578b67d4f3484e52061a76f7d75ba0d4a613e134bba56767556c5bb55d8a1f"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 227,
+      "source": "2022-12-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-1/",
+        "sha256": "24578b67d4f3484e52061a76f7d75ba0d4a613e134bba56767556c5bb55d8a1f"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 232,
+      "source": "2022-12-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-2/",
+        "sha256": "f8faac0ed3f15ba7af9dc1982035e182a35cbf9c68572da0ff89826208cdac91"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 233,
+      "source": "2022-12-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-2/",
+        "sha256": "f8faac0ed3f15ba7af9dc1982035e182a35cbf9c68572da0ff89826208cdac91"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 234,
+      "source": "2022-12-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-2/",
+        "sha256": "f8faac0ed3f15ba7af9dc1982035e182a35cbf9c68572da0ff89826208cdac91"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 235,
+      "source": "2022-12-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-2/",
+        "sha256": "f8faac0ed3f15ba7af9dc1982035e182a35cbf9c68572da0ff89826208cdac91"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 236,
+      "source": "2022-12-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-2/",
+        "sha256": "f8faac0ed3f15ba7af9dc1982035e182a35cbf9c68572da0ff89826208cdac91"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 237,
+      "source": "2022-12-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-2/",
+        "sha256": "f8faac0ed3f15ba7af9dc1982035e182a35cbf9c68572da0ff89826208cdac91"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 238,
+      "source": "2022-12-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-2/",
+        "sha256": "f8faac0ed3f15ba7af9dc1982035e182a35cbf9c68572da0ff89826208cdac91"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 239,
+      "source": "2022-12-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2022-12-2/",
+        "sha256": "f8faac0ed3f15ba7af9dc1982035e182a35cbf9c68572da0ff89826208cdac91"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 445,
+      "source": "2023-03-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-03-1/",
+        "sha256": "179c95eab7cec91623923b573349e4db6a733dedfa5c674681fef4cde0b6c84b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 446,
+      "source": "2023-03-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-03-1/",
+        "sha256": "179c95eab7cec91623923b573349e4db6a733dedfa5c674681fef4cde0b6c84b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 447,
+      "source": "2023-03-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-03-1/",
+        "sha256": "179c95eab7cec91623923b573349e4db6a733dedfa5c674681fef4cde0b6c84b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 448,
+      "source": "2023-03-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-03-1/",
+        "sha256": "179c95eab7cec91623923b573349e4db6a733dedfa5c674681fef4cde0b6c84b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 449,
+      "source": "2023-03-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-03-1/",
+        "sha256": "179c95eab7cec91623923b573349e4db6a733dedfa5c674681fef4cde0b6c84b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 450,
+      "source": "2023-03-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-03-1/",
+        "sha256": "179c95eab7cec91623923b573349e4db6a733dedfa5c674681fef4cde0b6c84b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 451,
+      "source": "2023-03-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-03-1/",
+        "sha256": "179c95eab7cec91623923b573349e4db6a733dedfa5c674681fef4cde0b6c84b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 452,
+      "source": "2023-03-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-03-1/",
+        "sha256": "179c95eab7cec91623923b573349e4db6a733dedfa5c674681fef4cde0b6c84b"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 247,
+      "source": "2023-06-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-1/",
+        "sha256": "c702e0186d5ec4df0bc14918cd529fcf19edfdc9f088a4d1e34dbdef0aa4af03"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 248,
+      "source": "2023-06-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-1/",
+        "sha256": "c702e0186d5ec4df0bc14918cd529fcf19edfdc9f088a4d1e34dbdef0aa4af03"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 249,
+      "source": "2023-06-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-1/",
+        "sha256": "c702e0186d5ec4df0bc14918cd529fcf19edfdc9f088a4d1e34dbdef0aa4af03"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 250,
+      "source": "2023-06-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-1/",
+        "sha256": "c702e0186d5ec4df0bc14918cd529fcf19edfdc9f088a4d1e34dbdef0aa4af03"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 251,
+      "source": "2023-06-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-1/",
+        "sha256": "c702e0186d5ec4df0bc14918cd529fcf19edfdc9f088a4d1e34dbdef0aa4af03"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 252,
+      "source": "2023-06-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-1/",
+        "sha256": "c702e0186d5ec4df0bc14918cd529fcf19edfdc9f088a4d1e34dbdef0aa4af03"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 253,
+      "source": "2023-06-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-1/",
+        "sha256": "c702e0186d5ec4df0bc14918cd529fcf19edfdc9f088a4d1e34dbdef0aa4af03"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 254,
+      "source": "2023-06-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-1/",
+        "sha256": "c702e0186d5ec4df0bc14918cd529fcf19edfdc9f088a4d1e34dbdef0aa4af03"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 259,
+      "source": "2023-06-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-2/",
+        "sha256": "013473785d44dde888394ec6c97c5b80ea68827b336cae1bc7dd7cd73d0277ee"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 260,
+      "source": "2023-06-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-2/",
+        "sha256": "013473785d44dde888394ec6c97c5b80ea68827b336cae1bc7dd7cd73d0277ee"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 261,
+      "source": "2023-06-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-2/",
+        "sha256": "013473785d44dde888394ec6c97c5b80ea68827b336cae1bc7dd7cd73d0277ee"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 262,
+      "source": "2023-06-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-2/",
+        "sha256": "013473785d44dde888394ec6c97c5b80ea68827b336cae1bc7dd7cd73d0277ee"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 263,
+      "source": "2023-06-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-2/",
+        "sha256": "013473785d44dde888394ec6c97c5b80ea68827b336cae1bc7dd7cd73d0277ee"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 264,
+      "source": "2023-06-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-2/",
+        "sha256": "013473785d44dde888394ec6c97c5b80ea68827b336cae1bc7dd7cd73d0277ee"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 265,
+      "source": "2023-06-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-2/",
+        "sha256": "013473785d44dde888394ec6c97c5b80ea68827b336cae1bc7dd7cd73d0277ee"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 266,
+      "source": "2023-06-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-06-2/",
+        "sha256": "013473785d44dde888394ec6c97c5b80ea68827b336cae1bc7dd7cd73d0277ee"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 5,
+      "source": "2023-12-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-1/",
+        "sha256": "0c37e53b3c50a9579fa8f3298a9b8d8b790ee3236e831b0d95317aed3c07d043"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 6,
+      "source": "2023-12-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-1/",
+        "sha256": "0c37e53b3c50a9579fa8f3298a9b8d8b790ee3236e831b0d95317aed3c07d043"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 7,
+      "source": "2023-12-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-1/",
+        "sha256": "0c37e53b3c50a9579fa8f3298a9b8d8b790ee3236e831b0d95317aed3c07d043"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 8,
+      "source": "2023-12-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-1/",
+        "sha256": "0c37e53b3c50a9579fa8f3298a9b8d8b790ee3236e831b0d95317aed3c07d043"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 9,
+      "source": "2023-12-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-1/",
+        "sha256": "0c37e53b3c50a9579fa8f3298a9b8d8b790ee3236e831b0d95317aed3c07d043"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 10,
+      "source": "2023-12-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-1/",
+        "sha256": "0c37e53b3c50a9579fa8f3298a9b8d8b790ee3236e831b0d95317aed3c07d043"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 11,
+      "source": "2023-12-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-1/",
+        "sha256": "0c37e53b3c50a9579fa8f3298a9b8d8b790ee3236e831b0d95317aed3c07d043"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 12,
+      "source": "2023-12-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-1/",
+        "sha256": "0c37e53b3c50a9579fa8f3298a9b8d8b790ee3236e831b0d95317aed3c07d043"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 17,
+      "source": "2023-12-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-2/",
+        "sha256": "c1d8dd256109ca5fb3f9940ac8d6f851bf95a0489c84b15cc35c29727efb717c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 18,
+      "source": "2023-12-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-2/",
+        "sha256": "c1d8dd256109ca5fb3f9940ac8d6f851bf95a0489c84b15cc35c29727efb717c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 19,
+      "source": "2023-12-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-2/",
+        "sha256": "c1d8dd256109ca5fb3f9940ac8d6f851bf95a0489c84b15cc35c29727efb717c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 20,
+      "source": "2023-12-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-2/",
+        "sha256": "c1d8dd256109ca5fb3f9940ac8d6f851bf95a0489c84b15cc35c29727efb717c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 21,
+      "source": "2023-12-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-2/",
+        "sha256": "c1d8dd256109ca5fb3f9940ac8d6f851bf95a0489c84b15cc35c29727efb717c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 22,
+      "source": "2023-12-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-2/",
+        "sha256": "c1d8dd256109ca5fb3f9940ac8d6f851bf95a0489c84b15cc35c29727efb717c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 23,
+      "source": "2023-12-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-2/",
+        "sha256": "c1d8dd256109ca5fb3f9940ac8d6f851bf95a0489c84b15cc35c29727efb717c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 24,
+      "source": "2023-12-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2023-12-2/",
+        "sha256": "c1d8dd256109ca5fb3f9940ac8d6f851bf95a0489c84b15cc35c29727efb717c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 33,
+      "source": "2024-06-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-1/",
+        "sha256": "4920086a9f1a291af197c4566fe5d88dabfcff0d2715a313bd2b5ffa85dfa8d2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 34,
+      "source": "2024-06-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-1/",
+        "sha256": "4920086a9f1a291af197c4566fe5d88dabfcff0d2715a313bd2b5ffa85dfa8d2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 35,
+      "source": "2024-06-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-1/",
+        "sha256": "4920086a9f1a291af197c4566fe5d88dabfcff0d2715a313bd2b5ffa85dfa8d2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 36,
+      "source": "2024-06-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-1/",
+        "sha256": "4920086a9f1a291af197c4566fe5d88dabfcff0d2715a313bd2b5ffa85dfa8d2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 37,
+      "source": "2024-06-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-1/",
+        "sha256": "4920086a9f1a291af197c4566fe5d88dabfcff0d2715a313bd2b5ffa85dfa8d2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 38,
+      "source": "2024-06-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-1/",
+        "sha256": "4920086a9f1a291af197c4566fe5d88dabfcff0d2715a313bd2b5ffa85dfa8d2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 39,
+      "source": "2024-06-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-1/",
+        "sha256": "4920086a9f1a291af197c4566fe5d88dabfcff0d2715a313bd2b5ffa85dfa8d2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 40,
+      "source": "2024-06-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-1/",
+        "sha256": "4920086a9f1a291af197c4566fe5d88dabfcff0d2715a313bd2b5ffa85dfa8d2"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 45,
+      "source": "2024-06-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-2/",
+        "sha256": "6ded866294279a9fd692da73c9e94037de471868e9a8756ec83ddaddf6bf11df"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 46,
+      "source": "2024-06-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-2/",
+        "sha256": "6ded866294279a9fd692da73c9e94037de471868e9a8756ec83ddaddf6bf11df"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 47,
+      "source": "2024-06-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-2/",
+        "sha256": "6ded866294279a9fd692da73c9e94037de471868e9a8756ec83ddaddf6bf11df"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 48,
+      "source": "2024-06-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-2/",
+        "sha256": "6ded866294279a9fd692da73c9e94037de471868e9a8756ec83ddaddf6bf11df"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 49,
+      "source": "2024-06-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-2/",
+        "sha256": "6ded866294279a9fd692da73c9e94037de471868e9a8756ec83ddaddf6bf11df"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 50,
+      "source": "2024-06-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-2/",
+        "sha256": "6ded866294279a9fd692da73c9e94037de471868e9a8756ec83ddaddf6bf11df"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 51,
+      "source": "2024-06-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-2/",
+        "sha256": "6ded866294279a9fd692da73c9e94037de471868e9a8756ec83ddaddf6bf11df"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 199,
+      "source": "2024-06-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-06-2/",
+        "sha256": "6ded866294279a9fd692da73c9e94037de471868e9a8756ec83ddaddf6bf11df"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 481,
+      "source": "2024-06-CET6-1.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-1/",
+        "sha256": "bc23a8441469f9751e6cd5c271b7d341962b0228df0e23618e6b7c8489e834b0"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 482,
+      "source": "2024-06-CET6-1.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-1/",
+        "sha256": "bc23a8441469f9751e6cd5c271b7d341962b0228df0e23618e6b7c8489e834b0"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 483,
+      "source": "2024-06-CET6-1.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-1/",
+        "sha256": "bc23a8441469f9751e6cd5c271b7d341962b0228df0e23618e6b7c8489e834b0"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 484,
+      "source": "2024-06-CET6-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-1/",
+        "sha256": "bc23a8441469f9751e6cd5c271b7d341962b0228df0e23618e6b7c8489e834b0"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 485,
+      "source": "2024-06-CET6-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-1/",
+        "sha256": "bc23a8441469f9751e6cd5c271b7d341962b0228df0e23618e6b7c8489e834b0"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 486,
+      "source": "2024-06-CET6-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-1/",
+        "sha256": "bc23a8441469f9751e6cd5c271b7d341962b0228df0e23618e6b7c8489e834b0"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 487,
+      "source": "2024-06-CET6-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-1/",
+        "sha256": "bc23a8441469f9751e6cd5c271b7d341962b0228df0e23618e6b7c8489e834b0"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 492,
+      "source": "2024-06-CET6-2.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-2/",
+        "sha256": "34b66ff3a1a6e93f3f97dbd2468d84b0d2c2c3130c7548d8178898bbe1beb8e5"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 493,
+      "source": "2024-06-CET6-2.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-2/",
+        "sha256": "34b66ff3a1a6e93f3f97dbd2468d84b0d2c2c3130c7548d8178898bbe1beb8e5"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 494,
+      "source": "2024-06-CET6-2.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-2/",
+        "sha256": "34b66ff3a1a6e93f3f97dbd2468d84b0d2c2c3130c7548d8178898bbe1beb8e5"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 495,
+      "source": "2024-06-CET6-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-2/",
+        "sha256": "34b66ff3a1a6e93f3f97dbd2468d84b0d2c2c3130c7548d8178898bbe1beb8e5"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 496,
+      "source": "2024-06-CET6-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-2/",
+        "sha256": "34b66ff3a1a6e93f3f97dbd2468d84b0d2c2c3130c7548d8178898bbe1beb8e5"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 497,
+      "source": "2024-06-CET6-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-2/",
+        "sha256": "34b66ff3a1a6e93f3f97dbd2468d84b0d2c2c3130c7548d8178898bbe1beb8e5"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 498,
+      "source": "2024-06-CET6-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-06-2/",
+        "sha256": "34b66ff3a1a6e93f3f97dbd2468d84b0d2c2c3130c7548d8178898bbe1beb8e5"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 503,
+      "source": "2024-06-CET6-3.pdf",
+      "span": [
+        46,
+        50
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 60,
+      "source": "2024-12-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-1/",
+        "sha256": "7c3a8d2f9d0adbfbcafc686a2dce474d3251ae414e2f6a29cfc383b9cf714c61"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 61,
+      "source": "2024-12-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-1/",
+        "sha256": "7c3a8d2f9d0adbfbcafc686a2dce474d3251ae414e2f6a29cfc383b9cf714c61"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 62,
+      "source": "2024-12-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-1/",
+        "sha256": "7c3a8d2f9d0adbfbcafc686a2dce474d3251ae414e2f6a29cfc383b9cf714c61"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 63,
+      "source": "2024-12-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-1/",
+        "sha256": "7c3a8d2f9d0adbfbcafc686a2dce474d3251ae414e2f6a29cfc383b9cf714c61"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 64,
+      "source": "2024-12-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-1/",
+        "sha256": "7c3a8d2f9d0adbfbcafc686a2dce474d3251ae414e2f6a29cfc383b9cf714c61"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 65,
+      "source": "2024-12-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-1/",
+        "sha256": "7c3a8d2f9d0adbfbcafc686a2dce474d3251ae414e2f6a29cfc383b9cf714c61"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 66,
+      "source": "2024-12-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-1/",
+        "sha256": "7c3a8d2f9d0adbfbcafc686a2dce474d3251ae414e2f6a29cfc383b9cf714c61"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 67,
+      "source": "2024-12-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-1/",
+        "sha256": "7c3a8d2f9d0adbfbcafc686a2dce474d3251ae414e2f6a29cfc383b9cf714c61"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 72,
+      "source": "2024-12-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-2/",
+        "sha256": "2ea56cc3a479dd50bac31e4316ce7244ac60339674f0e42993126f0d0aa9b48c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 73,
+      "source": "2024-12-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-2/",
+        "sha256": "2ea56cc3a479dd50bac31e4316ce7244ac60339674f0e42993126f0d0aa9b48c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 74,
+      "source": "2024-12-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-2/",
+        "sha256": "2ea56cc3a479dd50bac31e4316ce7244ac60339674f0e42993126f0d0aa9b48c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 75,
+      "source": "2024-12-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-2/",
+        "sha256": "2ea56cc3a479dd50bac31e4316ce7244ac60339674f0e42993126f0d0aa9b48c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 76,
+      "source": "2024-12-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-2/",
+        "sha256": "2ea56cc3a479dd50bac31e4316ce7244ac60339674f0e42993126f0d0aa9b48c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 77,
+      "source": "2024-12-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-2/",
+        "sha256": "2ea56cc3a479dd50bac31e4316ce7244ac60339674f0e42993126f0d0aa9b48c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 78,
+      "source": "2024-12-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-2/",
+        "sha256": "2ea56cc3a479dd50bac31e4316ce7244ac60339674f0e42993126f0d0aa9b48c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 79,
+      "source": "2024-12-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2024-12-2/",
+        "sha256": "2ea56cc3a479dd50bac31e4316ce7244ac60339674f0e42993126f0d0aa9b48c"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 508,
+      "source": "2024-12-CET6-1.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-1/",
+        "sha256": "e85b49a221604c5c98b07d449b96b0de9d3ba9480b3670e59812214b440af8eb"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 509,
+      "source": "2024-12-CET6-1.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-1/",
+        "sha256": "e85b49a221604c5c98b07d449b96b0de9d3ba9480b3670e59812214b440af8eb"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 510,
+      "source": "2024-12-CET6-1.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-1/",
+        "sha256": "e85b49a221604c5c98b07d449b96b0de9d3ba9480b3670e59812214b440af8eb"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 511,
+      "source": "2024-12-CET6-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-1/",
+        "sha256": "e85b49a221604c5c98b07d449b96b0de9d3ba9480b3670e59812214b440af8eb"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 512,
+      "source": "2024-12-CET6-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-1/",
+        "sha256": "e85b49a221604c5c98b07d449b96b0de9d3ba9480b3670e59812214b440af8eb"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 513,
+      "source": "2024-12-CET6-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-1/",
+        "sha256": "e85b49a221604c5c98b07d449b96b0de9d3ba9480b3670e59812214b440af8eb"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 514,
+      "source": "2024-12-CET6-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-1/",
+        "sha256": "e85b49a221604c5c98b07d449b96b0de9d3ba9480b3670e59812214b440af8eb"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 519,
+      "source": "2024-12-CET6-2.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-2/",
+        "sha256": "047e5d75fc426b6493d68db3408dce83fa75f44e33672a1685df2f3111669609"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 520,
+      "source": "2024-12-CET6-2.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-2/",
+        "sha256": "047e5d75fc426b6493d68db3408dce83fa75f44e33672a1685df2f3111669609"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 521,
+      "source": "2024-12-CET6-2.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-2/",
+        "sha256": "047e5d75fc426b6493d68db3408dce83fa75f44e33672a1685df2f3111669609"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 522,
+      "source": "2024-12-CET6-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-2/",
+        "sha256": "047e5d75fc426b6493d68db3408dce83fa75f44e33672a1685df2f3111669609"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 523,
+      "source": "2024-12-CET6-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-2/",
+        "sha256": "047e5d75fc426b6493d68db3408dce83fa75f44e33672a1685df2f3111669609"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 524,
+      "source": "2024-12-CET6-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-2/",
+        "sha256": "047e5d75fc426b6493d68db3408dce83fa75f44e33672a1685df2f3111669609"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 525,
+      "source": "2024-12-CET6-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2024-12-2/",
+        "sha256": "047e5d75fc426b6493d68db3408dce83fa75f44e33672a1685df2f3111669609"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 88,
+      "source": "2025-06-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-1/",
+        "sha256": "33ed1fc15d8e3238f230e502eb63c8a28d99f38bf589458069964650425b0bad"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 89,
+      "source": "2025-06-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-1/",
+        "sha256": "33ed1fc15d8e3238f230e502eb63c8a28d99f38bf589458069964650425b0bad"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 90,
+      "source": "2025-06-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-1/",
+        "sha256": "33ed1fc15d8e3238f230e502eb63c8a28d99f38bf589458069964650425b0bad"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 91,
+      "source": "2025-06-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-1/",
+        "sha256": "33ed1fc15d8e3238f230e502eb63c8a28d99f38bf589458069964650425b0bad"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 92,
+      "source": "2025-06-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-1/",
+        "sha256": "33ed1fc15d8e3238f230e502eb63c8a28d99f38bf589458069964650425b0bad"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 93,
+      "source": "2025-06-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-1/",
+        "sha256": "33ed1fc15d8e3238f230e502eb63c8a28d99f38bf589458069964650425b0bad"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 94,
+      "source": "2025-06-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-1/",
+        "sha256": "33ed1fc15d8e3238f230e502eb63c8a28d99f38bf589458069964650425b0bad"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 95,
+      "source": "2025-06-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-1/",
+        "sha256": "33ed1fc15d8e3238f230e502eb63c8a28d99f38bf589458069964650425b0bad"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 99,
+      "source": "2025-06-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-2/",
+        "sha256": "108d68d7cbce559dffe2499110e19cd4e0d26193f69992c925aee5b322575511"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 100,
+      "source": "2025-06-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-2/",
+        "sha256": "108d68d7cbce559dffe2499110e19cd4e0d26193f69992c925aee5b322575511"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 101,
+      "source": "2025-06-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-2/",
+        "sha256": "108d68d7cbce559dffe2499110e19cd4e0d26193f69992c925aee5b322575511"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 102,
+      "source": "2025-06-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-2/",
+        "sha256": "108d68d7cbce559dffe2499110e19cd4e0d26193f69992c925aee5b322575511"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 103,
+      "source": "2025-06-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-2/",
+        "sha256": "108d68d7cbce559dffe2499110e19cd4e0d26193f69992c925aee5b322575511"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 104,
+      "source": "2025-06-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-2/",
+        "sha256": "108d68d7cbce559dffe2499110e19cd4e0d26193f69992c925aee5b322575511"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 105,
+      "source": "2025-06-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-2/",
+        "sha256": "108d68d7cbce559dffe2499110e19cd4e0d26193f69992c925aee5b322575511"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 106,
+      "source": "2025-06-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-06-2/",
+        "sha256": "108d68d7cbce559dffe2499110e19cd4e0d26193f69992c925aee5b322575511"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 534,
+      "source": "2025-06-CET6-1.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-1/",
+        "sha256": "1b65c70d82b26c7cfad92a8e84037083fb87dca9044c63cbc0eed20dd7a75379"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 535,
+      "source": "2025-06-CET6-1.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-1/",
+        "sha256": "1b65c70d82b26c7cfad92a8e84037083fb87dca9044c63cbc0eed20dd7a75379"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 536,
+      "source": "2025-06-CET6-1.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-1/",
+        "sha256": "1b65c70d82b26c7cfad92a8e84037083fb87dca9044c63cbc0eed20dd7a75379"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 537,
+      "source": "2025-06-CET6-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-1/",
+        "sha256": "1b65c70d82b26c7cfad92a8e84037083fb87dca9044c63cbc0eed20dd7a75379"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 538,
+      "source": "2025-06-CET6-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-1/",
+        "sha256": "1b65c70d82b26c7cfad92a8e84037083fb87dca9044c63cbc0eed20dd7a75379"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 539,
+      "source": "2025-06-CET6-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-1/",
+        "sha256": "1b65c70d82b26c7cfad92a8e84037083fb87dca9044c63cbc0eed20dd7a75379"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 540,
+      "source": "2025-06-CET6-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-1/",
+        "sha256": "1b65c70d82b26c7cfad92a8e84037083fb87dca9044c63cbc0eed20dd7a75379"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 545,
+      "source": "2025-06-CET6-2.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-2/",
+        "sha256": "bbf413c057364f62ca00ad5c870414883e00af2b37c1ab1aa69a9070e3a3046d"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 546,
+      "source": "2025-06-CET6-2.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-2/",
+        "sha256": "bbf413c057364f62ca00ad5c870414883e00af2b37c1ab1aa69a9070e3a3046d"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 547,
+      "source": "2025-06-CET6-2.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-2/",
+        "sha256": "bbf413c057364f62ca00ad5c870414883e00af2b37c1ab1aa69a9070e3a3046d"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 548,
+      "source": "2025-06-CET6-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-2/",
+        "sha256": "bbf413c057364f62ca00ad5c870414883e00af2b37c1ab1aa69a9070e3a3046d"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 549,
+      "source": "2025-06-CET6-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-2/",
+        "sha256": "bbf413c057364f62ca00ad5c870414883e00af2b37c1ab1aa69a9070e3a3046d"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 550,
+      "source": "2025-06-CET6-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-2/",
+        "sha256": "bbf413c057364f62ca00ad5c870414883e00af2b37c1ab1aa69a9070e3a3046d"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 551,
+      "source": "2025-06-CET6-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-06-2/",
+        "sha256": "bbf413c057364f62ca00ad5c870414883e00af2b37c1ab1aa69a9070e3a3046d"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 115,
+      "source": "2025-12-CET4-1.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 116,
+      "source": "2025-12-CET4-1.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 117,
+      "source": "2025-12-CET4-1.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 118,
+      "source": "2025-12-CET4-1.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 119,
+      "source": "2025-12-CET4-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 120,
+      "source": "2025-12-CET4-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 121,
+      "source": "2025-12-CET4-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 122,
+      "source": "2025-12-CET4-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": null,
+      "reason": "no_script"
+    },
+    {
+      "id": 127,
+      "source": "2025-12-CET4-2.pdf",
+      "span": [
+        1,
+        2
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-12-2/",
+        "sha256": "3940e9d6b845e2a78e9e84031d344c14b1530ca4fd12d755826fb2c641b70830"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 128,
+      "source": "2025-12-CET4-2.pdf",
+      "span": [
+        3,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-12-2/",
+        "sha256": "3940e9d6b845e2a78e9e84031d344c14b1530ca4fd12d755826fb2c641b70830"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 129,
+      "source": "2025-12-CET4-2.pdf",
+      "span": [
+        5,
+        7
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-12-2/",
+        "sha256": "3940e9d6b845e2a78e9e84031d344c14b1530ca4fd12d755826fb2c641b70830"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 130,
+      "source": "2025-12-CET4-2.pdf",
+      "span": [
+        8,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-12-2/",
+        "sha256": "3940e9d6b845e2a78e9e84031d344c14b1530ca4fd12d755826fb2c641b70830"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 131,
+      "source": "2025-12-CET4-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-12-2/",
+        "sha256": "3940e9d6b845e2a78e9e84031d344c14b1530ca4fd12d755826fb2c641b70830"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 132,
+      "source": "2025-12-CET4-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-12-2/",
+        "sha256": "3940e9d6b845e2a78e9e84031d344c14b1530ca4fd12d755826fb2c641b70830"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 133,
+      "source": "2025-12-CET4-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-12-2/",
+        "sha256": "3940e9d6b845e2a78e9e84031d344c14b1530ca4fd12d755826fb2c641b70830"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 134,
+      "source": "2025-12-CET4-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/sections/listening/2025-12-2/",
+        "sha256": "3940e9d6b845e2a78e9e84031d344c14b1530ca4fd12d755826fb2c641b70830"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 560,
+      "source": "2025-12-CET6-1.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-1/",
+        "sha256": "cf13a7964087972e8f3b7a3961117323f728b4a8ed23ad20791c7e3ecc8de8c4"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 561,
+      "source": "2025-12-CET6-1.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-1/",
+        "sha256": "cf13a7964087972e8f3b7a3961117323f728b4a8ed23ad20791c7e3ecc8de8c4"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 562,
+      "source": "2025-12-CET6-1.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-1/",
+        "sha256": "cf13a7964087972e8f3b7a3961117323f728b4a8ed23ad20791c7e3ecc8de8c4"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 563,
+      "source": "2025-12-CET6-1.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-1/",
+        "sha256": "cf13a7964087972e8f3b7a3961117323f728b4a8ed23ad20791c7e3ecc8de8c4"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 564,
+      "source": "2025-12-CET6-1.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-1/",
+        "sha256": "cf13a7964087972e8f3b7a3961117323f728b4a8ed23ad20791c7e3ecc8de8c4"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 565,
+      "source": "2025-12-CET6-1.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-1/",
+        "sha256": "cf13a7964087972e8f3b7a3961117323f728b4a8ed23ad20791c7e3ecc8de8c4"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 566,
+      "source": "2025-12-CET6-1.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-1/",
+        "sha256": "cf13a7964087972e8f3b7a3961117323f728b4a8ed23ad20791c7e3ecc8de8c4"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 571,
+      "source": "2025-12-CET6-2.pdf",
+      "span": [
+        1,
+        4
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-2/",
+        "sha256": "0eb51a137a1700e5cccc3514c3d2819e764713b61dc8d4f36c46bc92af966410"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 572,
+      "source": "2025-12-CET6-2.pdf",
+      "span": [
+        5,
+        8
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-2/",
+        "sha256": "0eb51a137a1700e5cccc3514c3d2819e764713b61dc8d4f36c46bc92af966410"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 573,
+      "source": "2025-12-CET6-2.pdf",
+      "span": [
+        9,
+        11
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-2/",
+        "sha256": "0eb51a137a1700e5cccc3514c3d2819e764713b61dc8d4f36c46bc92af966410"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 574,
+      "source": "2025-12-CET6-2.pdf",
+      "span": [
+        12,
+        15
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-2/",
+        "sha256": "0eb51a137a1700e5cccc3514c3d2819e764713b61dc8d4f36c46bc92af966410"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 575,
+      "source": "2025-12-CET6-2.pdf",
+      "span": [
+        16,
+        18
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-2/",
+        "sha256": "0eb51a137a1700e5cccc3514c3d2819e764713b61dc8d4f36c46bc92af966410"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 576,
+      "source": "2025-12-CET6-2.pdf",
+      "span": [
+        19,
+        21
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-2/",
+        "sha256": "0eb51a137a1700e5cccc3514c3d2819e764713b61dc8d4f36c46bc92af966410"
+      },
+      "reason": "no_asr"
+    },
+    {
+      "id": 577,
+      "source": "2025-12-CET6-2.pdf",
+      "span": [
+        22,
+        25
+      ],
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2025-12-2/",
+        "sha256": "0eb51a137a1700e5cccc3514c3d2819e764713b61dc8d4f36c46bc92af966410"
+      },
+      "reason": "no_asr"
+    }
+  ],
+  "applied": false
+}

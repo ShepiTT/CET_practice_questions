@@ -1,0 +1,571 @@
+2024年12月四级真题解析
+Part I
+·申题··
+第三套
+Writing
+作文要求考生假设大学校报正在为其下一期内容向学生征集稿件，稿件主题是关于学生如何为绿色校园
+做出自己的贡献。考生应就这一主题写一篇文章进行投稿。关于建设绿色校园，考生可以从改变自身生活方式
+和加强环保教育两个方面提出自己的建议。
+·参考范文&点评·
+Creatingagreencampusisnotjustanenvironmental initiativebuta1紧扣主题，指出创建绿色校园不仅
+collective responsibility that every student should embrace.I As the future
+是一项环保举措，也是每个学生都
+应承担的责任。
+generation, we have a unique opportunity to foster sustainable practices
+within our university community.2
+2进一步指出，作为下一代我们有机
+会在校园践行环保。
+Students can contribute to a green campus by adopting simple yet
+3指出学生践行环保能做的第一个方
+impactful habits.3 We can minimize waste by using reusable items, such
+面：通过养成简单而有影响力的习
+as water bottles and shopping bags, and properly disposing of recyclables.
+drives can enhance our physical environment.4
+惯来为绿色校园做出贡献。
+4具体说明如何养成简单而有影响力
+的习惯来践行环保。
+Educational efforts are also crucial.5 By spreading environmental
+5指出学生践行环保的第二个方面：
+awareness through workshops, social media, and peer-to-peer discussions,
+加强环保教育。
+we can inspire others to adopt eco-friendly behaviors. Moreover,
+6具体说明如何加强环保教育来激励
+advocating for healthy green diet in cafeterias and encouraging the use of
+他人采取环保行为。
+7总结全文，重申我们的集体行动可
+In essence, our collective actions can significantly contribute to
+以为绿色校园做出贡献。
+a greener, healthier campus.7 Let us take proactive steps today for a
+sustainable tomorrow.8
+·范文译文·
+8发出倡议：为创造一个可持续的明
+天而努力。
+创建绿色校园不仅是一项环保举措，也是每个学生都应该承担的集体责任。作为下一代，我们拥有在大
+学校园内促进可持续发展实践的独特机会。
+学生可以通过养成简单而有影响力的习惯来为绿色校园做出贡献。我们可以通过使用诸如水瓶，购物袋
+之类可重复使用的物品，并妥善处理可回收物来减少废弃物。此外，参加校园清洁活动和植树活动可以改善我
+们的自然环境。
+教育方面的努力同样至关重要。通过举办研讨会、利用社交媒体以及开展同龄人之间的讨论来传播环保
+意识，我们能够激励他人采取环保行为。此外，在自助餐厅倡导健康绿色饮食，以及鼓励使用公共交通或骑自
+行车，可以进一步减少我们的碳足迹。
+从本质上讲，我们的集体行动可以为建设一个更绿色、更健康的校园做出重大贡献。让我们今天采取积
+极措施，创造一个可持续的明天。
+老师说
+本套讲解视频中，老师教你如何写好环保类话题作文的写作技巧，为你呈现长篇阅读的信息匹配的技巧，给你带来四步
+处理长定语的翻译技巧。小伙伴们，快来扫码观看吧！
+38四级2024.12第三弄
+·亮点词汇·
+environmentalinitiative环保举措
+disposeof处置，处理
+carbonfootprint碳足迹
+inessence从本质上讲
+recyclable可回收物品
+collectiveresponsibility集体责任
+sustainable可持续的 workshop研讨会
+minimize最小化
+takeproactivesteps采取积极措施
+peer-to-peerdiscussions同伴讨论
+reusable可重复使用的 advocatefor倡导
+·写作句型·
+Il. Creating... is not just... but... that every student should embrace.
+句型意为“创建.不仅是而且是每个学生都应承担的”。句中使用了notjus...but...并列结构，用在此
+处可以增加句式的丰富性，表达丰富的含义。that引导定语从句，主从句的使用增强句子的连贯性和逻辑性。
+2. We can minimize waste by using reusable items, such as...
+句型意为“我们可以通过使用诸如·…·…之类可重复使用的物品来减少废弃物是写环保类题材作文的
+常用句式。suchas表示列举，用于引出具体的例子。
+Part II
+ListeningComprehension
+特别说明：由于多题多卷，官方第三套真题的听力试题与第二套真题的一致，只是选项顺序不同，
+因此，本套试卷不再提供听力部分。
+Part Il1
+Reading Comprehension
+SectionA
+00·概览·
+本文节选自2019年11月20日发表于SciTechDaily上的一篇标题为“Hyper-RealisticMasksCanBeMore
+BelievableThanRealHumanFaces”的文章。文章主要讲述超逼真的面具可以成功模仿真实人脸，导致人们
+难以辨别真假，从而影响安全和预防犯罪。目前已有多起刑事案件犯罪分子利用此类面具误导警方调查。
+·全文翻译·
+超逼真的面具由硅胶等柔性材料制成，旨在模仿真实的人脸一一细致到每一个细节。
+在约克大学和京都大学的一项研究中，研究人员要求参与者观看成对的照片，然后判断哪些是[26]正常的
+面孔，哪些是戴着面具的人。
+令人惊的是，参与者在五分之一的情况下做出了错误的判断。
+研究中[27]观察到的20%的错误率可能低估了人们在实验室外区分[28]人造面孔和真实面孔的困难程度。
+研究人员收集了来自英国和日本的参与者的数据，以[29]确定种族差异。当实验参与者被要求在与自己不
+同的种族的人脸照片中做出选择时，反应时间变慢了，选择的[30]准确性也降低了5%。
+现在有几十起刑事案件，罪犯[31]冒充不同年龄、种族或性别的人，使警方的调查工作误人歧途。
+在最近的一个案例中，一个国际犯罪团伙用[32]极其逼真的面具冒充法国部长，[33]骗走了企业高管数
+百万英。
+预防犯罪产生重要影响，因为超逼真的面具可能会[34]让人[35]错误地识别一个人外表的关键特征。”
+四级2024.12第三客】39
+·答案详解·
+26.J）normal（adj.正常的：平常的）
+语法判断空格前面为不定冠词a，后面为名词face，故空格处应填一个形容词或分词，修饰后面的名词。
+face（...的面孔）
+语义判断此处阐述研究方法，即参与者观看成对的照片，然后判断哪些是a
+哪些是personwearingamask（戴着面具的人），二者是对比关系。normalface意为“正常的面孔”，符合
+此处语义，故答案为normal。
+27.K)observed（w观察到，注意到）
+语法判断
+inthestudy作The20%errorrate的后置定语，故空格处应填入一个分词。
+前面提到了研究方法和研究结果，可知此处提到的数据不是主观判断，也不是猜测或假设，而是
+语义判断
+通过系统的观察和研究得出的。observed符合此处语境，故为答案。
+28.C)artificial（adj.人造的；假的）
+空格前面为不定冠词an，后面为名词face，故空格处应填一个形容词或分词，修饰后面的名词。
+语法判断
+语义判断上文提到，研究人员要求参与者判断哪些是正常的面孔，哪些是戴着面具的人。此处承接上文，
+artificialface意为“人造面孔”，符合语境，即“研究中观察到的20%的错误率可能低估了人们在实验室外
+区分人造面孔和真实面孔的困难程度”故答案为artificial。
+29.F)establish（w确定：证实）
+语法判断门
+此处考查不定式，空格前面为to，后面为宾语anydifferences，故空格处应填动词原形。
+语义判断此处的不定式表示目的，研究方法是收集来自英国和日本的参与者的数据，自的是to
+any
+种族差异）。代人备选项可知，establish符合此处语境，故为答案。
+differences accordingto race（
+30.A）accurate（adi.准确的，精确的）
+语法判断空格位于句末，前面为并列的比较结构responsetimeswereslowerandselectionswere5%less..，故
+空格处应填人形容词或分词。
+语义判断上一段提到20%的错误率可能低估了人们区分真伪面孔的困难程度，此处也在说明参与者面对
+不同种族面孔时表现出的困难，即responsetimeswereslower（反应时间变慢）和selectionswere5%less
+（选择少5%…）。选择有困难时反应时间会变慢，准确率会下降，代人选项可知，accurate符合
+此处语境，故为答案。
+31.L)passed（v经过，越过：穿过）
+语法判断空格前面为助动词have，后面为themselvesoffaspeople，该从句的主语为offenders，故空格处应填
+人过去分词，与have一起构成现在完成时，充当谓语，且该词能与off构成合理搭配
+语义判断该句句意为“现在有几十起刑事案件，罪犯
+不同年龄，种族或性别的人，使警方的调查工
+作误人歧途”。警方的调查之所以误人歧途，是因为罪犯隐藏了其真实面目。passoneselfoffas为固定表
+达，意为“冒充，假冒”，符合此处语境，故答案为passed。
+32.G)extremely（ady极度，极其）
+语法判断
+空格前面为不定冠词an，后面为realisticmask，故空格处应填副词，修饰后面的形容词。
+语义判断]
+伙用 逼真的面具冒充法国部长，
+企业高管数百万英榜”。被冒充人的身份（法国部长）以
+及涉案金额（数百万英榜）体现了这起案件的特殊性和复杂性，也反映了罪犯所用面具的高度逼真性，
+extremelyrealistic意为“极其逼真”，符合此处语境，故答案为extremely。
+33.D)cheating（v欺骗，欺诈）
+语法判断分析句子结构可知，句子主语为an internationalgang，谓语为used，宾语为mask，由此可知，空格
+处应填人一个非谓语动词，且能与outof构成搭配。
+语义判断上文提到犯罪分子冒充不同年龄、种族或性别的人实施犯罪活动，误导警方，结合前面讲述的超
+逼真面具的内容可知，此处是说犯罪团伙使用超逼真面具冒充法国部长，导致企业高管损失数百万英榜。
+cheatsb.outof sth.为固定搭配，意为“骗取某人某物”，符合语境，故cheating为答案。cheating在此处为
+现在分词，引导结果状语。
+40四级2024.12第三套
+34.B）allow（使能够：允许）
+语法判断
+空格前面为助动词may，后面为名词短语thekeycharacteristicsof，故空格处应填动词原形，进一
+步分析，此处考查allowsth.tobedone的结构。
+语义判断上文提到犯罪团伙使用超逼真面具冒充法国部长骗取企业高管数百万英榜，本段承接上文，引述
+该项研究的研究者的话进一步强调这种超逼真面具可能引发的问题。由此可推断此处是说，无法识别合成
+人脸可能会对安全和预防犯罪产生重要影响，因为超逼真的面具可能会让人错误地识别一个人外表的关
+identified符合语境，故答案为
+键特征。allow thekey characteristics of a persons appearanceto be
+allow.
+35.ID）incorrectly（ady错误地，不准确地）
+语法判断
+空格前面为be动词，后面为过去分词，故空格处应填副词，修饰后面的分词。
+语义判断此处说明无法识别合成人脸会带来负面影响的原因，即超逼真的面具会影响人的判断，即让人错
+误地识别一个人外表的关键特征。incorrectly符合此处语境，故为答案。
+干扰项注释
+E)deserted（n.沙漠，荒漠抛弃，遗弃）H）immediately（adv立即，马上）M)reminding（w提醒；使
+想起）N)reparable（adj.可修复的：能补救的）O）resolve（解决n决心，决意）
+SectionB
+·概览·
+本文节选自网站www.wikihow.com上一篇题为“HowtoSetGoalsforLife”的文章。本文主要探讨了
+学习与实践之间的区别，强调了与被动学习相比，主动实践对于个人成长和目标实现的重要性。作者倡
+议减少被动学习的时间，增加主动实践的时间，停止思考，开始行动。
+停止思考，开始行动
+A）在生活中，大多数人都有一个梦想，一个关于他们未来想成为什么样的人的愿景。至少，每个人都有自己
+的兴趣和价值观，它们决定了人们想从生活中得到什么。[39]即便如此，试图设定可实现的目标，并为之
+努力多年，也可能极具挑战性。甚至很难知道从哪里开始。你希望实现的事情似乎是不可能的。但是，如
+果你做好了充分准备，你也许能够为你的人生设定目标。朝着这些自标而努力和实现目标一样令人充满
+成就感。
+B）我们在生活中都有想要实现的目标。这些目标可能包括学习一门新语言，吃得更健康和减肥，成为更好的
+交母，存更多的钱，等等。【43]我们很容易认为，你现在所处的位置和你未来想要达到的位置之间的差距
+是由知识的债乏所造成的。这就是我们购买关于如何创业、如何快速减肥或者如何在三个月内学会一门新
+语言的课程的原因。我们假设如果我们知道一个更好的策略，那么我们就会得到更好的结果。我们认为新
+的结果需要新的知识。
+C）[36]然而，我开始意识到，新的知识并不一定会带来新的结果。事实上，如果你的目标是取得进步，而不
+仅仅是获得额外的知识，那么学习新东西实际上是在浪费时间。
+D）这一切都归结为学习和实践之间的区别。托马斯·斯特纳在他的《练习心境》一书中解释了练习和学习之
+间的关键区别。[45]他说：“当我们练习某件事时，我们是在有意识地重复一个过程，目的是达到一个特
+定的目标。”在这里，“刻意”和“意图”是关键，因为它们定义了主动练习某件事和被动学习某件事之
+间的区别。
+其他的方法来思考两者的区别。假如说你的目标是变得更强壮、更健康。你可以研究关于举重技术的最佳
+指导，但增强力量的唯一方法是练习举重。假如说你的目标是发展你的创业公司。你可以了解推销的最佳
+方式，但真正获得客户的唯一方法就是练习打销售电话。假如说你的目标是写一本书。你可以和畅销书的
+作者谈论写作，但是成为一名更好的作家的唯一方法是坚持不懈地练习发表（作品）。
+四级2024.12第三套】41
+F）被动学习创造知识。积极的练习创造技能。让我们再考虑几个优先考虑主动练习而不是被动学习的理由。
+首先，被动学习可以是助长不作为的帮区。在很多情况下，学习实际上是一种逃避的方式，以此逃避对我
+们认为重要的目标和兴趣采取行动。[38】例如，假如说你想学习一门外语。读一本关于如何快速学习一门
+有在练习能让你达到预期效果的行动（说这门外语）。
+G）[42]在这类情况下，我们往往声称我们正在准备或研究最好的方法，但是这些合理化的说法让我们觉得自
+已在前进，而实际上我们只是在白费力气。我们犯了一个错误，那就是我们只是处于行动的状态却并未采
+取行动。学习是有价值的，直到它成为一种拖延形式。
+H另外需要考虑的一点是，实践就是学习，而学习不是实践。被动学习不是一种实践的形式，因为尽管你获
+得了新知识，但是你并没有发现如何应用这些知识。与此同时，积极的练习是最好的学习形式之一，因为
+你在练习过程中犯的错误揭示了重要的见解。
+D【44]更重要的是，实践是用你的知识做出有意义贡献的唯一途径。你可以观看一门关于如何创业的在线课
+程，或者阅读一篇关于一个发展中国家发生可怕灾难的文章，但是这些知识并没有什么益处，除非你真的
+开始创业或者向那些有需要的人捐款。【44|学习本身对你来说可能是有价值的，但是如果你想对别人有价
+值，那么你必须用某种方式表达你的知识。
+J）最后要考虑的重要一点是，实践将你的精力集中在过程上。托马斯·斯特纳曾经说过：“进步是专注于做
+任何事情的过程的自然结果。[37]你现在的生活状态是你每天一直实践的习惯和信念的结果。当你意识
+到这一点并开始将你的注意力集中在日复一日地养成更好的习惯上，持续的进步将是必然的结果。决定我
+们结果的不是我们学到的东西，也不是我们想象的梦想，而是我们每天所实践的习惯。爱上无聊，把精力
+集中在过程上，而不是结果上。
+K）这一切意味着什么？被动学习没有用吗？当然不是。在很多情况下，为了学习而学习可以是一件美好的事
+情。[41]更不用说吸收新信息可以帮助你在决定采取行动时做出更明智的决定。也就是说，本文的重点是
+学习本身并不能带来进步。我们经常躲在信息背后，以学习为借口，推迟做更困难，更重要的事情一一实
+际采取行动。少花点时间被动学习，多花点时间主动练习。停止思考，开始行动吧
+·答案详解·
+获得新知识可能并不能保证你想要取得的进步。
+36. 题干译文
+答案解C。由题千关键信息newknowledge和guaranteetheprogressthatyouaimtomake定位到C段。该段首
+句提到，我开始意识到，新的知识并不一定会带来新的结果。下文进一步解释，事实上，如果你的目标是
+取得进步，而不仅仅是获得额外的知识，那么学习新东西实际上是在浪费时间。由此可知，题干是对上述
+信息的概括提炼，其中newknowledge是原词复现，而maynotguaranteetheprogressthatyouaimtomake对
+应原文中的does notnecessarilydrivenewresults和if yourgoal istomakeprogress。
+37.题干译文1
+你现在的生活状况是建立在你每天都在实践的信念和习惯之上的
+答案解J。由题干关键信息currentsituationin life和thebeliefs and habitsyouhavebeenpracticingdaily定位到
+J段。该段第三句提到，你现在的生活状态是你每天一直实践的习惯和信念的结果。由此可知，题千是对该
+句内容的同义转述。其中Yourcurrent situation inlife对应原文中的The stateof yourliferightnow，而isbuilt
+on the beliefs and habits you have been practicing daily对应原文中的is a result of the habits and beliefs that you
+havebeenpracticing eachday
+题干译文知道学习一门外语的最佳方法并不能使你在没有实际练习的情况下会说这门外语
+38.
+答案解析F。由题干关键信息thebest wayto learn aforeign language和speak itwithoutactual practice定位到F
+段。该段最后三句提到，例如，假如说你想学习一门外语。读一本关于如何快速学习一门外语的书会让你
+达到预期效果的行动（说这门外语）。由此可知，题干是对原文内容的概括总结。题干中的Knowingthe
+bestway对应原文中的figuringoutthebestway，而to learnaforeignlanguage属于原词重现，will notenable
+42四级2024.12第三套
+you to speak it without actual practice对应原文中的you're not actually practicing the action that would deliver
+your desired outcome (speaking the foreign language)。
+39.题干译文人们可能会发现制定一个需要很长时间才能实现的目标是很难的。
+答案解析A：由题千关键信息demanding、createagoal和takealongtimetoachieve定位到A段。：该段第三句
+提到，即便如此，试图设定可实现的目标，并为之努力多年，也可能极具挑战性。由此可见，题干是对
+该句的同义转述，其中createagoalwhichwilltakea longtimeto achieve对应原文中的setachievablegoals
+thatyou'llwork foroverthecourseofmanyyears，而mayfind itdemanding对应原文中的canbe extremely
+challengingo
+40.题干译文学习和实践似乎非常相似，但这两个过程可能导致完全不同的结果。
+客案解析E。由题千关键信息Learningandpracticing、verymuchalike和quitedifferent outcomes定位到E段。
+该段第一句提到，学习新事物和实践新事物可能看起来非常相似，但这两种方法可能产生截然不同的结
+果。由此可知，题干是对原文内容的同义转述。题干中的Learningandpracticing对应原文中的Learning
+somethingnewand practicing somethingnew，而seemto beverymuch alike对应原文中的mayseemvery
+similar，而but thetwo processes canlead to quitedifferent outcomes对应原文中的but these twomethods can
+haveprofoundly different resultso
+41.题干译文吸收新信息有助于在行动之前做出更好的决定。
+答案解析K。由题干关键信息Absorbingnewinformation和helpful inmakingbetterdecisionspriortoaction
+定位到K段。该段第五句提到，更不用说吸收新信息可以帮助你在决定采取行动时做出更明智的决定。
+由此可知，题干是对原文内容的同义转述。题干中的Absorbingnewinformation对应原文中的soakingup
+new information，而is helpful inmakingbetterdecisionspriortoaction对应原文中的canhelpyoumakemore
+informed decisions when you do decideto takeactiono
+42.题干译文有时我们可能会觉得通过做一些研究或准备我们就在进步，但实际上我们还停留在起点上。
+答案解析G。由题千关键信息makingprogress、doingsomeresearchormakingpreparations和wearestaying
+atthe startingpoint定位到G段。该段第一句提到，在这类情况下，我们往往声称我们正在准备或研究最
+好的方法，但是这些合理化的说法让我们觉得自己在前进，而实际上我们只是在白费力气。由此可知，
+题干是对该句内容的同义转述。其中Sometimes对应原文中的Insituations likethisone，而wemayfeel like
+wearemaking progress by doing someresearch or makingpreparations对应原文中的weoften claimthat we are
+preparing or researching the best method, but these rationalizations allow us to feel like we are moving forward,
+而actually we are staying at the starting point对应原文中的we are merely spinning our wheels。
+43.题干译文我们倾向于认为知识的馈乏会阻碍我们走向更美好的未来。
+答案解析B。由题干关键信息a lackofknowledge和preventsusfromadvancingtoabetterfuture定位到B段。
+该段第三句提到，我们很容易认为，你现在所处的位置和你未来想要达到的位置之间的差距是由知识的遗
+乏所造成的。换句话说，我们倾向于认为知识的贵乏会阻碍我们走向更美好的未来。由此可知，题千是对
+原文内容的同义转述。题干中的Weareinclinedtothinkthat对应原文中的Itcanbeeasytoassumethat，而a
+lack of knowledgeprevents us from advancing to a better future是对原文the gapbetween where you are now and
+whereyou want to be in thefuture is caused bya lack ofknowledge的概括总结。
+题干译文学习本身可以使你受益，但只有实践才能将你学到的东西转化为有意义的贡献。
+44L
+答案解析I。由题于关键信息Learningcanbenefityoubyitself、practice和meaningful contributions定位到I段。
+该段首句提到，更重要的是，实践是用你的知识做出有意义贡献的唯一途径。接下来举例进行论证，最后
+一句总结到，学习本身对你来说可能是有价值的，但是如果你想对别人有价值，那么你必须用某种方式表
+达你的知识。由此可知，题干是对原文内容的概括总结。其中Learningcanbenefityoubyitself对应原文中
+的Learningby itself canbe valuableforyou，practice是原词复现；而butonlypractice can turn what youlearn
+into meaningful contributions对应原文中的practice is the only way to make a meaningful contribution with your
+knowledge
+四级2024.12第三鑫43
+练习就是有意地重复一个过程以达到一个特定的目标。
+45. 题干译文
+答案解析
+D。由题千关键信息Practice、repeatingaprocess intentionally和attainaparticularobjective定位到
+D段。该段第三句引用托马斯·斯特纳的话提到，他说：“当我们练习某件事时，我们是在有意识地重复
+一个过程，目的是达到一个特定的目标。”由此可知，题干是对托马斯·斯特纳原话的同义转述，其中
+Practice对应原文中的Whenwepracticesomething，involves对应原文中的areinvolvedin，repeatingaprocess
+intentionally对应原文中的thedeliberaterepetitionofaprocess，而toattainaparticularobjective对应原文中的
+with the intention of reaching a specific goal
+Section
+Passage One
+·概览·
+本文节选自网站stuff.co.za于2020年12月2日发布的一篇题为Who'stoblamewhenaself-drivingcar
+hasanaccident?的文章。文章指出，研究显示自动驾驶系统仍然存在误用风险，其中主要原因是驾驶者
+对自动驾驶系统的了解不足，且签署终端用户许可协议的效果并不理想。此外，“警告疲劳”和分心驾驶
+也令人担忧。因此应加强驾驶者在购买自动驾驶汽车后的培训工作。总之，自动驾驶汽车的未来仍面临
+诸多挑战。
+·全文翻译·
+?重难点单词及短语
+[46]人车交互领域的研究表明，即使是设计用于自动驾驶的系统也
+·interactionn.交互：互动
+远不能避免出错。最近有证据表明，驾驶者对这些系统能做什么和不能
+automatev使自动化
+做什么的了解有限是导致系统误用的一个因素。最近的一项研究从法律
+·misusen.误用：滥用
+角度探讨了驾驶者过度信任以及由此导致的系统误用问题。该研究着眼
+·manufacturern.制造商
+于自动驾驶汽车制造商在法律上应采取何种措施，以确保驾驶者能够了
+解如何正确使用这些车辆。
+viewpointn.角度
+研究中提出的一个解决方案是要求购买者签署终端用户许可协议
+:end-user license agreements
+（EULAs）终端用户许可协议
+（EULAs），类似于使用新软件产品时需要同意的条款和条件，但这远
+·implicationn.可能的影响；含
+远不够理想。该协议可能无法向驾驶者提供足够的信息，导致其对协议
+义；涉及
+要求的性质及其影响产生困惑。【47]此外，大多数终端用户并不会去阅
+·revieww审查：审度；评论复习
+读终端用户许可协议。2017年的一项研究表明，91%的人在没有阅读的
+情况下就同意了这些协议。在年轻人中，97%的人在未审阅条款的情况
+下就表示同意。
+.appn.应用程序（application的
+缩写）
+·consentv&n.同意
+问题在于，与使用智能手机应用程序不同，无论驾驶员是人类还是
+软件，驾驶汽车都存在严重的安全风险。而人类驾驶员需要同意对软件
+和硬件的结果负责。
+hardwaren.硬件
+·fatiguen.疲劳
+·inmotion在开动中，在运转中
+“警告疲劳”和分心驾驶也令人担忧。[48】例如，驾驶员在连续收
+givenprep.鉴于，考虑到
+到警告后会感到恼火，可能会选择直接忽视该信息。或者，如果信息是
+·distractionn.分心：分心之事物
+在车辆行驶过程中呈现的，也可能会成为一种分心因素。[49]鉴于这些局
+限性和顾虑，即使这种获取同意的模式得以推进，也可能无法充分保护
+·automakern.汽车制造商
+·liabilityn，（法律上对某事物
+汽车制造商在系统出现故障或发生事故时免于承担法律责任。
+的）责任：义务
+·capabilityn.能力；才能
+功能和局限性。这种培训需要在购买车辆之后进行。最近有证据表明，
+即使依靠卖方提供的信息也无法回答许多问题。综合考虑所有这些因
+素，自动驾驶汽车的未来之路并不会一帆风顺。
+44四级2024.12第三套
+·smoothadj.顺利的：光滑的：平
+稳的
+·答案详解·
+46.我们从人车交互的研究中了解到了什么？
+A）自动驾驶系统绝非不会出错。
+B）无人驾驶汽车很可能被一些人误用。
+C）自动驾驶汽车制造商没有意识到其中涉及的法律问题。
+D）人类能与无人驾驶汽车互动之前还有很长的路要走。
+根据题干关键词researchinhuman-vehicleinteraction可以将答案定位到第一段。
+第一段第一句指出，人车交互领域的研究表明，即使是设计用于自动驾驶的系统也远不能避免出错。由此
+可知，自动驾驶系统不能保证不会出错，故选项A正确。原文中并没有无人驾驶车辆被误用的表述，故排
+除B项。第一段提到了该研究着眼于自动驾驶汽车制造商在法律上应采取何种措施，但并未提及自动驾驶
+汽车制造商是否意识到其中涉及的法律问题，选项C与原文不符，故排除。文章的讨论是建立在人车可以
+交互的基础上，D项与此不符，故排除。
+47.要求买家签署终端用户许可协议存在什么问题？
+A）终端用户，无论老少，都觉得条款难以解释。
+B）大多数终端用户都懒得阅读条款就签署了协议。
+C)许多人常常被条款的措辞所迷惑。
+D）大多数终端用户在阅读完条款后并不理解。
+根据题干关键词signend-userlicenseagreements可以将答案定位到第二段。
+第二段最后三句指出，此外，大多数终端用户并不会去阅读终端用户许可协议。2017年的一项研究表明，
+91%的人在没有阅读的情况下就同意了这些协议。在年轻人中，97%的人在未审阅条款的情况下就表示同
+意。由此可知，大多数终端用户都懒得阅读条款就签署了协议，故选项B正确。其他三项在原文中并未提
+及，故均排除。
+48.当驾驶员遭受“警告疲劳”时，他们会怎么做？
+A）不浪费时间继续行驶。
+B）休息一会儿，避免疲劳驾驶。
+C）尽管反复收到警告，但不采取任何行动。
+D）尽管感到疲劳，但仍然留意警告信息，
+根据题干关键词“warningfatigue”可以将答案定位到第四段。
+第四段第二句提到，例如，驾驶员在连续收到警告后会感到恼火，可能会选择直接忽视该信息，即尽管他
+们反复收到警告，但不会采取任何行动，故选项C正确。其他三项在原文中并未提及，故均排除。
+49.作者对继续要求购买者签署终端用户许可协议有何看法？
+A）这很可能无法保证发生事故时驾驶员的安全。
+B）这可能无法保证自动驾驶系统的正常运行。
+C这可能无法充分保护汽车制造商免受故意欺诈的指控
+D）这很可能无法为制造商提供足够多免除法律责任的保护。
+根据题千关键词continuingtoaskbuyerstosignend-userlicenseagreements可以将答案定位到第四段最后一句。
+定位
+题千中的continuingto askbuyersto signend-user licenseagreements和原文中的thismodeofobtaining consent
+istomoveforward属于同义替换。
+第四段最后一句指出，鉴于这些局限性和顾虑，即使这种获取同意的模式得以推进，也可能无法充分保护汽
+车制造商在系统出现故障或发生事故时免于承担法律责任。由此可知，继续要求购买者签署终端用户许可协
+议可能无法为制造商提供足够多免除法律责任的保护，故选项D正确。其他三项在原文中并未提及，故均排除。
+50.应如何帮助驾驶员充分了解系统的功能和局限性？
+A）培训他们成为汽车自动化方面的专家。
+B）通过培训让他们熟悉系统。
+C)拓宽他们关于事故预防机制的知识
+D）为他们获取卖方提供的信息提供便利。
+定+根据题干关键词fullyunderstand systemcapabilitiesand limitations可以将答案定位到最后一段第一句。
+四级2024.12第三45
+该指出，自动驾驶车辆的驾驶员培训有助于确保驾驶员充分了解系统的功能和局限性，即通过培训，可
+以帮助他们更加了解系统，故选项B正确。选项A和选项C在原文中并未提及，故排除。最后一段第三句提
+到，最近有证据表明，即使依靠卖方提供的信息也无法回答许多问题，因此为驾驶员获取卖方提供的信息
+提供便利可以帮助他们充分了解系统的功能和局限性的说法是不准确的，故D项可排除。
+Passage Two
+·概览·
+本文节选自网站www.ien.com于2021年10月21日发布的一篇题为“DecadesofHypeTurnedProteinInto
+a Superfood”的文章。文章指出，数十年来，对蛋白质缺乏的宣传和炒作让蛋白质成为“超级食品”，
+倍受人们青赚。但研究表明，大多数美国人的蛋白质摄入量已经是推荐量的两倍，且高蛋白饮食可能产
+生健康风险，过度依赖蛋白质产品可能错过食物中的其他营养素。
+·全文翻译·
+重难点单词及短语
+你是否曾为早餐调配一杯蛋白质饮料，或在下午锻炼后吃一根
+蛋白质棒？如果是这样，你很可能是数百万寻求更多富含蛋白质饮
+食的人群中的一员。
+*grabv（尤指匆忙地）取，吃，喝：抓
+住：搜取，抢夺
+*proteinbar蛋白棒
+富含蛋白质的产品随处可见。但是，与每个人都需要更多蛋白
+·workoutn.锻炼：训练
+质的宣传相反，大多数美国人摄人的蛋白质是他们所需量的两倍。
+*protein-rich/protein-enriched富含蛋白
+[51]我们许多生活在最发达国家的人们都相信了一个由食品公
+质的
+司和自为健康专家的人创造的蛋白质缺乏的错误观念。2020年，
+buyinto相信，接受
+全球蛋白质补充剂产品的零售额达到了惊人的189亿美元。
+"mythn.错误想法：神话：谎言
+但我们真的需要更多蛋白质吗？[52]美国的医生从未真正检查
+*deficiencyn.缺乏，不足
+过蛋百质缺乏症患者，因为只要每天摄人足够的热量，我们就很可
+能也摄人了足够的蛋白质。
+*supplementn.补充物，增补物，补给
+品：附录：补编
+[53]事实上，美国人目前的蛋百质摄人量几乎是美国国家医学
+astonishingadj.惊人的
+科学院建议的每日蛋白质摄人量的两倍，尽管最理想的蛋白质摄人
+量可能因年龄和活动水平而有所不同。
+adequateadj.足够的：合格的：合乎
+需要的
+例如，如果你是一名专业运动员，你可能需要摄入更多的蛋白
+calorien.卡路里（热量单位）
+质。然而，通常情况下，一个体重140磅的人每天的蛋白质摄入量不
+intaken.摄取量：吸入量：接受量
+应超过120克，特别是因为高蛋白饮食可能会对肾脏和肝脏功能造成
+压力，增加患心脏病和癌症的风险。
+“dedicatedadj专用的：专门的：投人的
+*strain（使）紧张，（使）承受压
+[54]一个多世纪以来，脂肪和糖一直轮流受到攻击，而蛋白质
+却一直是我们的最爱。
+力：绷紧
+"kidneyn.肾脏
+从20世纪70年代到90年代，蛋白质产品仍然可见，但在将糖和
+*livern.肝脏
+饱和脂肪的摄人与心脏病联系起来的研究报告发表后，人们饮食的
+“takethe（a）beating挨打，受打击；被
+焦点就牢牢锁定在低热量、低脂肪、无糖零食和饮料上，蛋白质产
+品的关注度有所下降。
+损坏：受伤：遭受损失
+*inturns轮流
+不过，后来2003年的研究表明，高蛋白饮食有助于减肥，蛋白
+质很快又恢复其昔日营养素超级明星的地位。
+*red-hotadj.灸手可热的：热门的：炽
+热的
+现在，大多数生活在高收人国家的人都摄人了足够的蛋百质。
+"spotlightn.焦点
+*beveragen.饮料
+[55]当我们用蛋白棒或蛋白饮料代替正餐时，我们也有可能错过真
+正食物中丰富的抗氧化剂、维生素和许多其他有益物质
+46四级2024.12第三套
+*regain one's status重获地位
+"missouton错过
+·vitaminn.维生素
+·答案详解
+51.我们从美国对蛋百质的宣传中了解到什么？
+A）它帮助制造了蛋百质缺乏这一错误观念。
+C）它引起了公众对健康的诸多担忧。
+B）它帮助美国人寻找富含蛋白质的饮食。
+D）它得到了食品公司和健康专家的资助。
+根据题千关键词publicityoverproteininAmerica可定位到原文第二段。
+该段提到，与每个人都需要更多蛋白质的宣传相反，大多数美国人摄人的蛋白质是他们所需量的两倍。随
+后第三段进一步指出，我们许多生活在最发达国家的人们都相信了一个由食品公司和自翊为健康专家的人
+创造的蛋白质缺乏的错误观念，这表明美国对蛋白质的宣传助长了蛋白质缺乏的错误观念，故本题选A。
+原文并没有提到对蛋百质的宣传为美国人寻找富含蛋白质的饮食提供了帮助，也没有提到宣传引起了健康
+担忧优或得到了资助，故B，C、D三项可排除
+52.为什么美国医生从未真正检查过蛋百质缺乏症患者？
+A）美国人可以随处买到多种富含蛋白质的食品
+B）美国人能够摄人食品专家建议的热量。
+C）美国人只需每天吃足够的食物就能获得足够的蛋白质。
+D美国人可以依靠食物补充剂来预防蛋白质缺乏症。
+根据题千关键词physicians intheU.S.neveractuallyexamined apatientwithproteindeficiency可以定位到第四
+定位
+段第二句。
+该句指出，美国的医生从未真正检查过蛋白质缺乏症患者，因为只要每天摄人足够的热量，我们就很可能
+也摄人了足够的蛋白质。原文明确指出美国人通过正常饮食就能获得足够的蛋白质，而不是通过购买富含
+蛋白质的食品，摄人专家建议的热量或依赖食品补充剂来获取充足的蛋白质，故选项C正确，选项A，B
+D均可排除。
+53.在决定最理想的蛋白质摄入量时，人们应该考虑什么？
+C）他们的蛋白质摄人量和体重。
+A）他们的健康状况和吃的食物。
+D）他们蛋百质缺乏的严重程度以及他们采用的补救措施。
+B）他们的年龄和从事的活动。
+根据题干关键词themostpreferableproteinintake可以定位到原文第五段。题干中的preferable和该段中的
+desirable是同义替换。
+该段指出，事实上，美国人目前的蛋白质摄人量儿乎是美国国家医学科学院建议的每日蛋白质摄人量的两
+倍，尽管最理想的蛋白质摄人量可能因年龄和活动水平而有所不同。这表明年龄和活动水平是决定最理想
+蛋白质摄人量的重要因素，故选项B正确。文章没有提到健康状况，吃的食物、蛋白质摄人量，体重或蛋
+白质缺乏的严重程度及补救措施是决定蛋白质摄人量的因素，故选项A、C、D可排除。
+54.一个多世纪以来，哪些食物基本上不受人们欢迎？
+C)红肉和白肉。
+A）无糖零食。
+B）富含蛋白质的食物。
+D)含糖和高脂肪的食物。
+根据题干关键词acentury可以定位到原文第七段。题干中的beenlargelyoutoffavor表示“基本不再受欢迎
+或重视”，和原文中的havetakenthebeating是同义替换；题干中的morethan是原文中over的同义替换。
+该段指出，一个多世纪以来，脂肪和糖一直轮流受到攻击，而蛋白质却一直是我们的最爱。由此可知，含
+解析
+糖和高脂肪的食物是不受人们欢迎的，选项D正确。据此选项A、B、C均可排除。
+55.作者暗示发达国家的人们应该如何保持健康？
+C）每天摄人足够的蛋白质。
+A）享用天然食物。
+D）用蛋白质棒代替正餐
+B)吃素食。
+根据题干关键词peopleindevelopedcountries可以定位到原文最后一段第一句。题干中的developedcountries
+是原文中high-incomenations的同义替换。
+最后一段第一句指出，现在，大多数生活在高收人国家的人都摄人了足够的蛋白质，并没有提到每天摄人
+足够的蛋白质是保持健康的方法，故排除选项C。随后第二句指出，当我们用蛋白质棒或蛋白饮料代替正
+四级2024.12第三鑫47
+餐时，我们也有可能错过真正食物中丰富的抗氧化剂，维生素和许多其他有益物质。这暗示了作者认为人
+们应该更多地享用天然食品，而不是过度依赖蛋白质补充品，故本题应选A，选项D可排除。原文并未提
+到吃素食，故选项B可排除。
+Part IV
+·难词译注·
+Translation
+文化遗产culturalheritage
+了解familiarize
+数字展示中心DigitalExhibitionCenter
+妥善保护properconservation
+艺术经典artisticmasterpieces
+开放启用open
+长久利用sustainableutilization
+保护利用工程conservationandutilizationproject减轻影响minimizetheimpact
+·参考译文·
+The Digital Exhibition Center of the Dunhuang Mogao Grottoes, which opened in 2o14, serves as a crucial
+component of the Mogao Grottoes conservation and utilization project. By utilizing digital technology and multimedia
+displays, the exhibition center enables visitors to familiarize themselves with the history and culture of the Mogao
+Grottoes and appreciate its artistic masterpieces prior to entering the actual grottoes for sightseeing. This will reduce the
+number of grottoes open to visitors, shorten their stay within the grottoes, and minimize the impact of visiting, thereby
+ensuring the proper conservation and sustainable utilization of this world cultural heritage.
+·译点精析·
+1.第一句：本句由两个小句构成，主干是“敦煌莫高窟数字展示中心是莫高富保护利用工程的重要组成部
+分”翻译为The Digital Exhibition Center of the Dunhuang Mogao Grottoes serves as a crucial component of the
+MogaoGrottoesconservationandutilizationproject；“于2014年开放启用”属于次要信息，起补充说明的作
+用，可翻译为非限制性定语从句，即whichopenedin2014。
+2.第二句：本句主干为“展示中心使游客进人洞窟参观之前就能了解莫高的历史文化，鉴赏莫高富的艺术
+经典”使用了“使.能够做”这个结构，即enable...todo...故主干可翻译为theexhibitioncenter
+enables visitors to familiarize themselves with the history and culture of the Mogao Grottoes and appreciate its
+表示方式，可翻译为介词短语，即Byutilizingdigitaltechnologyandmultimediadisplays。
+3.第三句：本句主干是“这将减少开放洞富的数量，缩短游客在洞内的逗留时间，减轻参观对莫高窟造成
+的影响”，谓语部分是由三个并列的动宾结构组成，应由and连接，故主干翻译为Thiswillreducethenumber
+世界文化遗产得到妥善保护，长久利用”是上述三个动宾结构表达的动作所要达成的结果，应使用现在分
+词短语来表达，故翻译为therebyensuringtheproperconservation and sustainableutilizationofthisworldcultural
+heritage
