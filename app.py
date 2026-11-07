@@ -7,6 +7,8 @@ import re
 import math
 
 app = Flask(__name__)
+
+PAPER_RE = re.compile(r'^(\d{4})-(\d{2})-(CET[46])-([\d-]+)\.pdf$')
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('CET4_DATABASE_URI', 'sqlite:///cet4_v2.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
@@ -34,6 +36,138 @@ def audio_for(groups):
 def mmss(seconds):
     seconds = int(seconds or 0)
     return f'{seconds // 60}:{seconds % 60:02d}'
+
+def parse_paper_filename(filename):
+    """Parse '2024-12-CET4-1.pdf' into (year, month, level, set_id) or None."""
+    m = PAPER_RE.match(filename)
+    if not m:
+        return None
+    return m.group(1), m.group(2), m.group(3), m.group(4)
+
+
+def find_sibling_paper(filename, available_papers):
+    """Return the filename of a sibling paper to clone content from, or None.
+
+    Rules (same as audio reuse):
+      - For set 3, prefer set 2 if present, else set 1
+      - For merged sets like '2-3', use set 1
+      - For any other missing set, try set 1 as fallback
+    """
+    parsed = parse_paper_filename(filename)
+    if not parsed:
+        return None
+    year, month, level, set_id = parsed
+
+    def sibling(sid):
+        return f'{year}-{month}-{level}-{sid}.pdf'
+
+    if set_id == '3':
+        for candidate_id in ('2', '1'):
+            candidate = sibling(candidate_id)
+            if candidate in available_papers:
+                return candidate
+    elif '-' in set_id:
+        candidate = sibling('1')
+        if candidate in available_papers:
+            return candidate
+    else:
+        if set_id != '1':
+            candidate = sibling('1')
+            if candidate in available_papers:
+                return candidate
+    return None
+
+
+GROUP_TYPES = ('listening', 'cloze', 'matching', 'reading')
+
+
+def clone_group_from_donor(donor_group, target_filename):
+    """Clone a QuestionGroup and its Questions/Options to target_filename."""
+    new_group = QuestionGroup(
+        source_file=target_filename,
+        title=donor_group.title,
+        passage=donor_group.passage,
+        group_type=donor_group.group_type,
+        audio_start=donor_group.audio_start,
+        transcript=donor_group.transcript,
+    )
+    db.session.add(new_group)
+    db.session.flush()
+
+    for donor_q in donor_group.questions:
+        new_q = Question(
+            group_id=new_group.id,
+            source_file=target_filename,
+            section=donor_q.section,
+            q_number=donor_q.q_number,
+            content=donor_q.content,
+            correct_answer=donor_q.correct_answer,
+            explanation=donor_q.explanation,
+        )
+        db.session.add(new_q)
+        db.session.flush()
+
+        for donor_opt in donor_q.options:
+            new_opt = Option(
+                question_id=new_q.id,
+                label=donor_opt.label,
+                text=donor_opt.text,
+            )
+            db.session.add(new_opt)
+
+    return new_group
+
+
+def fill_missing_groups():
+    """Clone missing group types from sibling papers.
+
+    For papers that only print writing/translation and reference set 1 or 2 for
+    the rest, clone listening/cloze/matching/reading groups from the sibling.
+    Does not overwrite groups that already exist.
+
+    Returns list of (target_file, group_type, donor_file) tuples for what was cloned.
+    """
+    all_papers = set(
+        r[0] for r in db.session.query(Question.source_file).distinct().all()
+    )
+
+    paper_groups = {}
+    for r in db.session.query(QuestionGroup.source_file, QuestionGroup.group_type).all():
+        paper_groups.setdefault(r[0], set()).add(r[1])
+
+    cloned = []
+
+    for target_file in sorted(all_papers):
+        existing_types = paper_groups.get(target_file, set())
+        missing_types = [t for t in GROUP_TYPES if t not in existing_types]
+        if not missing_types:
+            continue
+
+        donor_file = find_sibling_paper(target_file, all_papers)
+        if not donor_file:
+            continue
+
+        donor_groups = QuestionGroup.query.filter_by(source_file=donor_file).all()
+        donor_by_type = {g.group_type: g for g in donor_groups}
+
+        for group_type in missing_types:
+            if group_type not in donor_by_type:
+                continue
+            donor_group = donor_by_type[group_type]
+            if not donor_group.questions:
+                continue
+
+            if QuestionGroup.query.filter_by(
+                source_file=target_file, group_type=group_type
+            ).first():
+                continue
+
+            clone_group_from_donor(donor_group, target_file)
+            cloned.append((target_file, group_type, donor_file))
+            paper_groups.setdefault(target_file, set()).add(group_type)
+
+    return cloned
+
 
 def import_paper(filename, groups_data):
     """Insert the groups and questions parsed from one PDF (caller commits)."""
@@ -110,15 +244,23 @@ def init_db():
                 continue
             print(f"Processing new file: {filename}...")
             try:
-                groups_data = parse_cet_pdf_v2(os.path.join(data_dir, filename))
+                groups_data = parse_cet_pdf_v2(os.path.join(data_dir, filename), allow_ocr=True)
             except Exception as e:
                 print(f"Error parsing {filename}: {e}")
                 continue
             if not groups_data:
-                print(f"  nothing found in {filename} (scanned PDF without a text layer?), skipped")
+                print(f"  nothing found in {filename} (scanned PDF without OCR cache?), skipped")
                 continue
             import_paper(filename, groups_data)
         db.session.commit()
+
+        cloned = fill_missing_groups()
+        if cloned:
+            print(f'\nFilled {len(cloned)} missing group(s) from sibling papers:')
+            for target, gtype, donor in cloned:
+                print(f'  {target} {gtype} <- {donor}')
+            db.session.commit()
+
         print("Database sync complete.")
 
 # Paper names carry their exam level: '2024-12-CET6-1.pdf'.

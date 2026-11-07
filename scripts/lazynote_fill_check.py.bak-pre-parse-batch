@@ -1,0 +1,1044 @@
+#!/usr/bin/env python3
+"""Dry-run only: propose filling empty correct_answer slots from sibling set-1
+and/or local lazynote answer-keys, with option-text identity guards.
+
+Default is dry-run (no DB writes). Apply only with --apply-from <check.json>,
+which writes exactly the proposed empty fills from that audit (status=propose).
+
+Usage:
+  .venv/bin/python scripts/lazynote_fill_check.py
+  .venv/bin/python scripts/lazynote_fill_check.py --batch keys-v2
+  .venv/bin/python scripts/lazynote_fill_check.py --out instance/lazynote-fill-check-YYYYMMDD-HHMM.md
+  .venv/bin/python scripts/lazynote_fill_check.py --apply-from instance/lazynote-fill-check-20261105-1626.json
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import re
+import sqlite3
+from collections import Counter, defaultdict
+from datetime import datetime
+from difflib import SequenceMatcher
+from pathlib import Path
+
+from lxml import html
+
+ROOT = Path(__file__).resolve().parents[1]
+DB = ROOT / "instance" / "cet4_v2.db"
+LAZY_DIRS = [
+    ROOT / "instance" / "lazynote-keys-batch",
+    ROOT / "instance" / "lazynote-priority",
+]
+
+MERGED_SIBLING = [
+    ("2022-09-CET6-2-3.pdf", "2022-09-CET6-1.pdf", "2022-09-1"),
+    ("2023-03-CET6-2-3.pdf", "2023-03-CET6-1.pdf", "2023-03-1"),
+]
+LAZYNOTE_DIRECT = [
+    ("2023-12-CET6-1.pdf", "2023-12-1"),
+    ("2023-12-CET6-2.pdf", "2023-12-2"),
+    ("2023-03-CET6-1.pdf", "2023-03-1"),
+]
+# v2 gap-list batch labeled 「懒笔记答案钥」 (17 papers). Direct identity-safe lazynote only.
+KEYS_BATCH_V2 = [
+    ("2019-12-CET6-1.pdf", "2019-12-1"),
+    ("2023-03-CET6-1.pdf", "2023-03-1"),
+    ("2020-12-CET6-2.pdf", "2020-12-2"),
+    ("2021-12-CET6-1.pdf", "2021-12-1"),
+    ("2019-06-CET6-2.pdf", "2019-06-2"),
+    ("2020-12-CET6-1.pdf", "2020-12-1"),
+    ("2021-12-CET6-2.pdf", "2021-12-2"),
+    ("2021-06-CET6-1.pdf", "2021-06-1"),
+    ("2019-12-CET6-2.pdf", "2019-12-2"),
+    ("2021-06-CET6-2.pdf", "2021-06-2"),
+    ("2022-09-CET6-1.pdf", "2022-09-1"),
+    ("2019-06-CET6-1.pdf", "2019-06-1"),
+    ("2023-06-CET6-2.pdf", "2023-06-2"),
+    ("2022-06-CET6-1.pdf", "2022-06-1"),
+    ("2021-06-CET4-3.pdf", "2021-06-3"),
+    ("2023-06-CET6-1.pdf", "2023-06-1"),
+    ("2023-12-CET6-1.pdf", "2023-12-1"),
+]
+OBJECTIVE_TYPES = {"listening", "cloze", "matching", "reading"}
+IDENTITY_MIN = 0.94
+
+
+def md5(path: Path) -> str:
+    h = hashlib.md5()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def norm(text: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+
+
+def similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, norm(a), norm(b), autojunk=False).ratio()
+
+
+def empty_answer(val) -> bool:
+    return val is None or not str(val).strip()
+
+
+def lazy_slug_dir(slug: str) -> Path | None:
+    """Prefer lazynote-keys-batch, then lazynote-priority."""
+    for base in LAZY_DIRS:
+        path = base / slug
+        if (path / "answer-keys.json").exists() or (path / "page.html").exists():
+            return path
+    return None
+
+
+def load_keys(slug: str) -> dict[int, str]:
+    d = lazy_slug_dir(slug)
+    if d is None:
+        return {}
+    path = d / "answer-keys.json"
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    return {int(k): str(v).strip().upper() for k, v in raw.items()}
+
+
+def load_root(slug: str):
+    d = lazy_slug_dir(slug)
+    if d is None:
+        return None
+    path = d / "page.html"
+    if not path.exists():
+        return None
+    return html.fromstring(path.read_bytes())
+
+
+def offered_labels(conn: sqlite3.Connection, q: sqlite3.Row) -> set[str]:
+    if q["group_type"] == "matching":
+        labels = set(re.findall(r"(?:^|\s)[\[（(]?([A-Z])\s*[)）\]]", q["passage"] or ""))
+        last = max(labels) if labels else "O"
+        return {chr(c) for c in range(ord("A"), ord(last) + 1)}
+    rows = conn.execute("SELECT label FROM option WHERE question_id=?", (q["id"],)).fetchall()
+    return {r[0] for r in rows}
+
+
+def db_options(conn: sqlite3.Connection, qid: int) -> dict[str, str]:
+    return dict(conn.execute("SELECT label,text FROM option WHERE question_id=?", (qid,)))
+
+
+def lazy_options(root, number: int) -> dict[str, str]:
+    if root is None:
+        return {}
+    el = root.xpath(f'//*[@id="qp-{number}"]')
+    if len(el) != 1:
+        return {}
+    return {
+        e.get("data-pdh-letter"): e.text_content()
+        for e in el[0].xpath(".//*[@data-pdh-letter]")
+        if e.get("data-pdh-letter")
+    }
+
+
+def remap_letter(lazy_letter: str, lazy_opts: dict[str, str], local_opts: dict[str, str]):
+    """Map a lazynote answer letter onto the local label that carries the same option text."""
+    if not lazy_letter or lazy_letter not in lazy_opts or not local_opts:
+        return None, "missing_opts"
+    target = lazy_opts[lazy_letter]
+    scored = sorted(
+        ((similarity(target, txt), lab) for lab, txt in local_opts.items()),
+        reverse=True,
+    )
+    if not scored or scored[0][0] < IDENTITY_MIN:
+        return None, f"low_sim:{scored[0][0]:.3f}" if scored else "no_local"
+    # unique best
+    best = [lab for sc, lab in scored if sc >= IDENTITY_MIN and abs(sc - scored[0][0]) < 1e-9]
+    if len(best) != 1:
+        return None, "ambiguous"
+    return best[0], f"remap:{lazy_letter}->{best[0]}:{scored[0][0]:.3f}"
+
+
+def labels_aligned(lazy_opts: dict[str, str], local_opts: dict[str, str]) -> bool:
+    if not lazy_opts or set(lazy_opts) != set(local_opts):
+        return False
+    if len(local_opts) < 2:
+        return False
+    return min(similarity(local_opts[l], lazy_opts[l]) for l in local_opts) >= IDENTITY_MIN
+
+
+def matching_lazy_ok(root, q: sqlite3.Row, key: str) -> bool:
+    """Loose identity for matching: paragraph letter text must match local passage."""
+    if root is None or not key:
+        return False
+    paragraphs = root.xpath(
+        f'//*[starts-with(@id,"p-part3-section-b-")]//*[@data-pdh-letter="{key}"]'
+    )
+    local = re.search(
+        rf"(?:^|\s)[\[（(]?{key}\s*[)）\]](.*?)(?=\s[\[（(]?[A-Z]\s*[)）\]]|$)",
+        q["passage"] or "",
+        re.S,
+    )
+    el = root.xpath(f'//*[@id="qp-{q["q_number"]}"]')
+    if not paragraphs or not local or len(el) != 1:
+        return False
+    stem = el[0].xpath(".//*[@data-pdh-stem]")
+    if not stem:
+        return False
+    return (
+        similarity(q["content"], stem[0].text_content()) >= IDENTITY_MIN
+        and similarity(local.group(1), paragraphs[0].text_content()) >= IDENTITY_MIN
+    )
+
+
+def resolve_lazynote(conn, q, root, keys: dict[int, str]):
+    """Return (letter_or_None, detail) for a lazynote-sourced proposal."""
+    key = keys.get(q["q_number"])
+    if not key:
+        return None, "no_key"
+    offered = offered_labels(conn, q)
+    if q["group_type"] == "matching":
+        if key not in offered:
+            return None, "not_offered"
+        if matching_lazy_ok(root, q, key):
+            return key, "matching_identity"
+        # Without identity, do not propose matching letters from the shared table.
+        return None, "matching_identity_fail"
+    if q["group_type"] == "cloze":
+        # Cloze needs bank-word identity; letter-only table is unsafe without HTML bank match.
+        # Conservative: only accept if key already in offered AND bank HTML matches (skipped here).
+        return None, "cloze_needs_bank_identity"
+    local_opts = db_options(conn, q["id"])
+    lazy_opts = lazy_options(root, q["q_number"])
+    if labels_aligned(lazy_opts, local_opts):
+        if key in offered:
+            return key, "labels_aligned"
+        return None, "not_offered"
+    mapped, why = remap_letter(key, lazy_opts, local_opts)
+    if mapped and mapped in offered:
+        return mapped, why
+    return None, why if lazy_opts else "no_qp_or_opts"
+
+
+def fetch_questions(conn, source: str):
+    return conn.execute(
+        "SELECT q.id, q.source_file, q.q_number, q.correct_answer, q.explanation, "
+        "g.group_type, g.passage, q.content "
+        "FROM question q JOIN question_group g ON g.id=q.group_id "
+        "WHERE q.source_file=? ORDER BY q.q_number",
+        (source,),
+    ).fetchall()
+
+
+def sibling_maps(conn, sibling: str):
+    answers, options, meta = {}, {}, {}
+    for q in fetch_questions(conn, sibling):
+        options[q["q_number"]] = db_options(conn, q["id"])
+        meta[q["q_number"]] = {
+            "content": q["content"],
+            "passage": q["passage"],
+            "group_type": q["group_type"],
+        }
+        if not empty_answer(q["correct_answer"]) and q["group_type"] in OBJECTIVE_TYPES:
+            answers[q["q_number"]] = q["correct_answer"].strip().upper()
+    return answers, options, meta
+
+
+def options_identical(a: dict[str, str], b: dict[str, str]) -> bool:
+    if not a or not b or set(a) != set(b):
+        return False
+    return min(similarity(a[l], b[l]) for l in a) >= IDENTITY_MIN
+
+
+def sibling_question_identical(q, sib_meta: dict, local_opts: dict, sib_opts: dict) -> bool:
+    """True when target question is the same item as the sibling slot.
+
+    Matching rows often have no option table — fall back to content+passage identity.
+    """
+    meta = sib_meta.get(q["q_number"])
+    if not meta or meta["group_type"] != q["group_type"]:
+        return False
+    if similarity(q["content"], meta["content"]) < IDENTITY_MIN:
+        return False
+    if q["group_type"] in {"matching", "cloze", "reading"}:
+        if similarity(q["passage"] or "", meta["passage"] or "") < IDENTITY_MIN:
+            return False
+    if local_opts or sib_opts:
+        return options_identical(local_opts, sib_opts)
+    # matching (and rare empties): passage+content already matched
+    return q["group_type"] == "matching"
+
+
+def classify_item(q, *, method, proposed, source_ref, status, **extra):
+    existing = (q["correct_answer"] or "").strip().upper() or None
+    item = {
+        "id": q["id"],
+        "source": q["source_file"],
+        "number": q["q_number"],
+        "group_type": q["group_type"],
+        "method": method,
+        "source_ref": source_ref,
+        "proposed": proposed,
+        "existing": existing,
+        "status": status,
+    }
+    item.update(extra)
+    return item
+
+
+def run_direct_lazynote(conn, source: str, slug: str):
+    """Identity-safe lazynote proposals for one paper (empty-only propose)."""
+    keys = load_keys(slug)
+    root = load_root(slug)
+    qs = fetch_questions(conn, source)
+    empty_before = sum(1 for q in qs if empty_answer(q["correct_answer"]))
+    results = []
+    for q in qs:
+        if q["group_type"] not in OBJECTIVE_TYPES:
+            continue
+        lazy_letter, lazy_why = resolve_lazynote(conn, q, root, keys)
+        if empty_answer(q["correct_answer"]):
+            if lazy_letter:
+                results.append(
+                    classify_item(
+                        q,
+                        method=f"lazynote:{slug}",
+                        proposed=lazy_letter,
+                        source_ref=slug,
+                        status="propose",
+                        detail=lazy_why,
+                    )
+                )
+            else:
+                results.append(
+                    classify_item(
+                        q,
+                        method=f"lazynote:{slug}",
+                        proposed=keys.get(q["q_number"]),
+                        source_ref=slug,
+                        status="identity_fail" if keys.get(q["q_number"]) else "no_source_key",
+                        detail=lazy_why,
+                    )
+                )
+        else:
+            existing = q["correct_answer"].strip().upper()
+            if lazy_letter is None:
+                continue
+            if lazy_letter == existing:
+                results.append(
+                    classify_item(
+                        q,
+                        method=f"lazynote:{slug}",
+                        proposed=lazy_letter,
+                        source_ref=slug,
+                        status="skip_already_filled_agree",
+                        detail=lazy_why,
+                    )
+                )
+            else:
+                results.append(
+                    classify_item(
+                        q,
+                        method=f"lazynote:{slug}",
+                        proposed=lazy_letter,
+                        source_ref=slug,
+                        status="conflict_blocked",
+                        detail=lazy_why,
+                    )
+                )
+    meta = {
+        "method": f"identity-safe lazynote({slug})",
+        "empty_before": empty_before,
+        "total_qs": len(qs),
+        "keys_available": len(keys),
+        "materials_dir": str(lazy_slug_dir(slug)) if lazy_slug_dir(slug) else None,
+        "results": results,
+    }
+    return meta, results
+
+
+def run(conn: sqlite3.Connection, batch: str = "priority") -> dict:
+    paper_meta = {}
+    all_items = []
+
+    if batch == "keys-v2":
+        for source, slug in KEYS_BATCH_V2:
+            meta, results = run_direct_lazynote(conn, source, slug)
+            paper_meta[source] = meta
+            all_items.extend(results)
+        return {"papers": paper_meta, "all": all_items, "batch": batch}
+
+    paper_meta = {}
+    all_items = []
+
+    # --- Merged papers: sibling first (when local options match sibling), else identity-safe lazynote ---
+    for target, sibling, slug in MERGED_SIBLING:
+        sib_ans, sib_opts, sib_meta = sibling_maps(conn, sibling)
+        keys = load_keys(slug)
+        root = load_root(slug)
+        qs = fetch_questions(conn, target)
+        empty_before = sum(1 for q in qs if empty_answer(q["correct_answer"]))
+        results = []
+        for q in qs:
+            if q["group_type"] not in OBJECTIVE_TYPES:
+                continue
+            local_opts = db_options(conn, q["id"])
+            n = q["q_number"]
+
+            # Already filled: audit only
+            if not empty_answer(q["correct_answer"]):
+                existing = q["correct_answer"].strip().upper()
+                lazy_letter, lazy_why = resolve_lazynote(conn, q, root, keys)
+                if lazy_letter and lazy_letter != existing:
+                    results.append(
+                        classify_item(
+                            q,
+                            method=f"audit_lazynote:{slug}",
+                            proposed=lazy_letter,
+                            source_ref=slug,
+                            status="conflict_blocked",
+                            detail=lazy_why,
+                        )
+                    )
+                elif lazy_letter and lazy_letter == existing:
+                    results.append(
+                        classify_item(
+                            q,
+                            method=f"audit_lazynote:{slug}",
+                            proposed=lazy_letter,
+                            source_ref=slug,
+                            status="skip_already_filled_agree",
+                            detail=lazy_why,
+                        )
+                    )
+                continue
+
+            # Empty: prefer sibling when options match
+            if n in sib_ans and sibling_question_identical(q, sib_meta, local_opts, sib_opts.get(n, {})):
+                proposed = sib_ans[n]
+                offered = offered_labels(conn, q)
+                if proposed not in offered:
+                    results.append(
+                        classify_item(
+                            q,
+                            method=f"sibling:{sibling}",
+                            proposed=proposed,
+                            source_ref=sibling,
+                            status="not_offered",
+                            offered="".join(sorted(offered)),
+                        )
+                    )
+                    continue
+                # Optional cross-check via remapped lazynote
+                lazy_letter, lazy_why = resolve_lazynote(conn, q, root, keys)
+                detail = "sibling_options_identical"
+                status = "propose"
+                if lazy_letter and lazy_letter != proposed:
+                    # Remap disagreed — keep sibling (local option order) but flag note
+                    detail = f"sibling_preferred; lazynote_remapped={lazy_letter} ({lazy_why})"
+                    status = "propose"  # still propose sibling; note mismatch after remap is rare
+                elif lazy_letter == proposed:
+                    detail = f"sibling+lazynote_agree ({lazy_why})"
+                results.append(
+                    classify_item(
+                        q,
+                        method=f"sibling:{sibling}",
+                        proposed=proposed,
+                        source_ref=sibling,
+                        status=status,
+                        detail=detail,
+                    )
+                )
+                continue
+
+            # Sibling missing or options differ → identity-safe lazynote
+            lazy_letter, lazy_why = resolve_lazynote(conn, q, root, keys)
+            if lazy_letter:
+                results.append(
+                    classify_item(
+                        q,
+                        method=f"lazynote_fallback:{slug}",
+                        proposed=lazy_letter,
+                        source_ref=slug,
+                        status="propose",
+                        detail=lazy_why,
+                    )
+                )
+            else:
+                results.append(
+                    classify_item(
+                        q,
+                        method=f"lazynote_fallback:{slug}",
+                        proposed=keys.get(n),
+                        source_ref=slug,
+                        status="identity_fail" if keys.get(n) else "no_source_key",
+                        detail=lazy_why,
+                    )
+                )
+        paper_meta[target] = {
+            "method": f"sibling({sibling}) then identity-safe lazynote({slug})",
+            "empty_before": empty_before,
+            "total_qs": len(qs),
+            "results": results,
+        }
+        all_items.extend(results)
+
+    # --- Direct lazynote papers ---
+    for source, slug in LAZYNOTE_DIRECT:
+        meta, results = run_direct_lazynote(conn, source, slug)
+        paper_meta[source] = meta
+        all_items.extend(results)
+
+    return {"papers": paper_meta, "all": all_items, "batch": batch}
+
+
+def summarize(report: dict, conn: sqlite3.Connection, db_stat: dict) -> str:
+    stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    batch = report.get("batch", "priority")
+    lines = []
+    if batch == "keys-v2":
+        lines.append("# Lazynote keys-batch dry-run (--check only) · 「懒笔记答案钥」 v2")
+    else:
+        lines.append("# Lazynote / sibling fill dry-run (--check only)")
+    lines.append("")
+    lines.append(f"- Generated: {stamp} Asia/Shanghai")
+    lines.append(f"- DB: `instance/cet4_v2.db` (opened **read-only**; no writes)")
+    lines.append(
+        f"- DB mtime: **{db_stat['mtime']}** Asia/Shanghai; "
+        f"md5=`{db_stat['md5']}`; size={db_stat['size']}"
+    )
+    lines.append("- Mode: dry-run / `--check` only. **No `--apply`. No DB writes.**")
+    lines.append(f"- Batch: `{batch}`")
+    if batch == "keys-v2":
+        scoped = ", ".join(f"`{s}`" for s, _ in KEYS_BATCH_V2)
+        lines.append(
+            f"- Scope: v2 gap-list 「懒笔记答案钥」 ({len(KEYS_BATCH_V2)} papers): {scoped}."
+        )
+        lines.append(
+            "- Materials: `instance/lazynote-keys-batch/` (new fetches) + "
+            "`instance/lazynote-priority/` (reuse for 2023-03-1 / 2022-09-1 / 2023-12-1)."
+        )
+        lines.append(
+            "- Skipped this run: 「解析版」 big-gap set-3 papers (out of scope)."
+        )
+    else:
+        lines.append(
+            "- Scope: `2022-09-CET6-2-3`, `2023-03-CET6-2-3` (sibling set-1 + identity-safe lazynote fallback); "
+            "`2023-12-CET6-1`, `2023-12-CET6-2`, `2023-03-CET6-1` (identity-safe lazynote)."
+        )
+    lines.append(
+        "- Guards: empty slots only; never overwrite; `not_offered` / `identity_fail` / "
+        "`conflict_blocked` never become proposals. Lazynote letters remapped via option text "
+        "when label order differs (seen on 2023-03 listening)."
+    )
+    lines.append("")
+
+    all_items = report["all"]
+    by_status = Counter(i["status"] for i in all_items)
+    proposed = [i for i in all_items if i["status"] == "propose"]
+    uniq_propose = {(i["source"], i["number"]): i for i in proposed}
+    conflicts = [i for i in all_items if i["status"] == "conflict_blocked"]
+    skips = [
+        i
+        for i in all_items
+        if i["status"] in {"skip_already_filled", "skip_already_filled_agree"}
+    ]
+    identity_fail = [i for i in all_items if i["status"] == "identity_fail"]
+    no_key = [i for i in all_items if i["status"] == "no_source_key"]
+    not_offered = [i for i in all_items if i["status"] == "not_offered"]
+
+    global_empty = conn.execute(
+        'SELECT COUNT(*) FROM question WHERE correct_answer IS NULL OR trim(correct_answer)=""'
+    ).fetchone()[0]
+    scoped_empty_before = sum(m["empty_before"] for m in report["papers"].values())
+    scoped_propose = len(uniq_propose)
+    remaining_scoped = scoped_empty_before - scoped_propose
+    remaining_global = global_empty - scoped_propose
+
+    lines.append("## Totals")
+    lines.append("")
+    lines.append("| Metric | Count |")
+    lines.append("|---|---:|")
+    lines.append(f"| Papers touched | {len(report['papers'])} |")
+    lines.append(f"| Scoped empty_ans (before) | {scoped_empty_before} |")
+    lines.append(f"| **Proposed fills** | **{scoped_propose}** |")
+    lines.append(f"| Would-skip (already filled / agree) | {len(skips)} |")
+    lines.append(f"| Conflicts blocked (existing ≠ proposed) | {len(conflicts)} |")
+    lines.append(f"| Identity-fail (blocked, empty kept) | {len(identity_fail)} |")
+    lines.append(f"| Not-offered blocked | {len(not_offered)} |")
+    lines.append(f"| No source key | {len(no_key)} |")
+    lines.append(f"| Scoped remaining empties after proposed | {remaining_scoped} |")
+    lines.append(f"| Global empty_ans now | {global_empty} |")
+    lines.append(f"| Global empty_ans if proposed applied | {remaining_global} |")
+    lines.append("")
+    lines.append("### Status histogram")
+    lines.append("")
+    lines.append("| status | count |")
+    lines.append("|---|---:|")
+    for k, v in sorted(by_status.items(), key=lambda x: (-x[1], x[0])):
+        lines.append(f"| `{k}` | {v} |")
+    lines.append("")
+
+    lines.append("## Per paper")
+    lines.append("")
+    lines.append(
+        "| Paper | Method | empty_before | proposed | skip_agree | conflicts | identity_fail | not_offered | remaining_after |"
+    )
+    lines.append("|---|---|---:|---:|---:|---:|---:|---:|---:|")
+    for source, meta in report["papers"].items():
+        rs = meta["results"]
+        prop = {i["number"]: i for i in rs if i["status"] == "propose"}
+        sk = sum(1 for i in rs if i["status"].startswith("skip_"))
+        cf = sum(1 for i in rs if i["status"] == "conflict_blocked")
+        idf = sum(1 for i in rs if i["status"] == "identity_fail")
+        no = sum(1 for i in rs if i["status"] == "not_offered")
+        rem = meta["empty_before"] - len(prop)
+        lines.append(
+            f"| `{source}` | {meta['method']} | {meta['empty_before']} | "
+            f"**{len(prop)}** | {sk} | {cf} | {idf} | {no} | {rem} |"
+        )
+    lines.append("")
+
+    lines.append("## Proposed fills by method")
+    lines.append("")
+    method_c = Counter(i["method"] for i in uniq_propose.values())
+    lines.append("| method | count |")
+    lines.append("|---|---:|")
+    for k, v in sorted(method_c.items(), key=lambda x: (-x[1], x[0])):
+        lines.append(f"| `{k}` | {v} |")
+    lines.append("")
+
+    lines.append("## Proposed fills by paper × type")
+    lines.append("")
+    for source, meta in report["papers"].items():
+        prop = [i for i in meta["results"] if i["status"] == "propose"]
+        lines.append(f"### `{source}`")
+        lines.append("")
+        lines.append(f"- Method: {meta['method']}")
+        if not prop:
+            lines.append("- Proposed: **0**")
+            idf = [i for i in meta["results"] if i["status"] == "identity_fail"]
+            if idf:
+                lines.append(
+                    f"- Identity-fail empties kept: {sorted(i['number'] for i in idf)} "
+                    f"({Counter(i.get('detail') for i in idf)})"
+                )
+            lines.append("")
+            continue
+        by_type = Counter(i["group_type"] for i in prop)
+        nums = sorted(i["number"] for i in prop)
+        lines.append(f"- Proposed: **{len(prop)}** — types {dict(by_type)}")
+        lines.append(f"- Q numbers: {nums}")
+        lines.append("- Sample (q → answer / method / detail):")
+        for i in sorted(prop, key=lambda x: x["number"])[:25]:
+            lines.append(
+                f"  - Q{i['number']} → `{i['proposed']}` via `{i['method']}`"
+                + (f" ({i.get('detail')})" if i.get("detail") else "")
+            )
+        if len(prop) > 25:
+            lines.append(f"  - … +{len(prop)-25} more")
+        idf = [i for i in meta["results"] if i["status"] == "identity_fail"]
+        if idf:
+            lines.append(
+                f"- Identity-fail empties kept ({len(idf)}): "
+                f"{sorted(i['number'] for i in idf)}"
+            )
+        lines.append("")
+
+    lines.append("## Conflicts that would be blocked (existing filled ≠ identity-safe proposal)")
+    lines.append("")
+    if not conflicts:
+        lines.append("- None.")
+    else:
+        by_src = defaultdict(list)
+        for i in conflicts:
+            by_src[i["source"]].append(i)
+        for src, items in by_src.items():
+            lines.append(f"### `{src}` ({len(items)})")
+            for i in items:
+                lines.append(
+                    f"- Q{i['number']}: existing=`{i['existing']}` proposed=`{i['proposed']}` "
+                    f"detail=`{i.get('detail')}`"
+                )
+            lines.append("")
+    lines.append("")
+
+    lines.append("## Identity-fail empties (kept empty; do not apply)")
+    lines.append("")
+    if not identity_fail:
+        lines.append("- None.")
+    else:
+        by_src = defaultdict(list)
+        for i in identity_fail:
+            by_src[i["source"]].append(i)
+        for src, items in by_src.items():
+            lines.append(
+                f"- `{src}`: {sorted(i['number'] for i in items)} "
+                f"— reasons {dict(Counter(i.get('detail') for i in items))}"
+            )
+    lines.append("")
+
+    batch = report.get("batch", "priority")
+    if batch != "keys-v2":
+        lines.append("## Optional high-priority rows (not in this dry-run)")
+        lines.append("")
+        lines.append(
+            "Gap-list priorities 6–8 (`2020-12-CET6-2`, `2021-12-CET6-1`, `2020-12-CET6-1`) "
+            "have **no** materials under `instance/lazynote-priority/`; skipped. "
+            "Other merged papers (e.g. `2022-06-CET6-2-3`) were not in the approved first batch."
+        )
+        lines.append("")
+
+    lines.append("## Blockers / notes")
+    lines.append("")
+    if batch == "keys-v2":
+        missing_mats = [
+            src for src, meta in report["papers"].items() if not meta.get("keys_available")
+        ]
+        if missing_mats:
+            lines.append(f"- Missing answer-keys materials: {missing_mats}")
+        idf_by = defaultdict(list)
+        for i in identity_fail:
+            idf_by[i["source"]].append(i)
+        for src, items in sorted(idf_by.items()):
+            reasons = dict(Counter(i.get("detail") for i in items))
+            lines.append(
+                f"- `{src}` identity_fail ×{len(items)} q={sorted(i['number'] for i in items)} "
+                f"reasons={reasons}"
+            )
+        if no_key:
+            nk = defaultdict(list)
+            for i in no_key:
+                nk[i["source"]].append(i["number"])
+            for src, nums in sorted(nk.items()):
+                lines.append(f"- `{src}` no_source_key q={sorted(nums)}")
+        if not identity_fail and not no_key and not missing_mats:
+            lines.append("- No identity_fail / no_source_key / missing materials in this batch.")
+        lines.append(
+            "- Prior-apply leftovers: `2023-03-CET6-1` / `2023-12-CET6-1` empties that were "
+            "identity_fail in lazynote-fill-check-20261105-1626 are re-checked here; "
+            "still do not propose when identity fails."
+        )
+        lines.append(
+            "- 「解析版」 big-gap set-3 papers intentionally **not** in this batch."
+        )
+    else:
+        lines.append(
+            "- **2023-03 listening option order** on lazynote HTML differs from local DB "
+            "(e.g. Q1 A/B swapped). Raw lazynote letters must be remapped by option text; "
+            "sibling copy for `2023-03-CET6-2-3` is safe because 2-3 options/passages are "
+            "byte-identical to set-1."
+        )
+        lines.append(
+            "- **2023-03 reading Q46–55** (and matching Q36–37) fail lazynote HTML identity "
+            "against local stems/options — lazynote page content does not match these local "
+            "questions. Keep empty until 解析版/OCR path; do not apply raw answer-table letters."
+        )
+    lines.append(
+        "- Writing/translation are not `question` rows (types: listening/cloze/matching/reading only)."
+    )
+    lines.append(
+        "- Explanations are **not** proposed here (`answer-keys.json` is letter-only)."
+    )
+    lines.append(
+        "- Apply later only after 文字组 signs off; UPDATE empty slots only with the same guards. "
+        "**This run did not --apply.**"
+    )
+    lines.append("")
+
+    lines.append("## DB integrity check")
+    lines.append("")
+    lines.append(f"- mtime: `{db_stat['mtime']}` Asia/Shanghai (must stay unchanged)")
+    lines.append(f"- md5: `{db_stat['md5']}`")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def apply_from_check(check_path: Path) -> dict:
+    """Apply exactly the proposed empty fills from a prior dry-run JSON.
+
+    Hard guards:
+    - only status == "propose"
+    - UPDATE ... WHERE correct_answer IS NULL OR trim=""
+    - never touch conflict_blocked / identity_fail
+    - require rowcount == 1 per item
+    """
+    data = json.loads(check_path.read_text(encoding="utf-8"))
+    proposed = [i for i in data.get("proposed", []) if i.get("status") == "propose"]
+    if not proposed:
+        raise SystemExit(f"No propose items in {check_path}")
+    # Deduplicate by (source, number); keep first
+    seen = {}
+    for item in proposed:
+        key = (item["source"], item["number"])
+        if key in seen:
+            raise SystemExit(f"Duplicate propose for {key}")
+        seen[key] = item
+        if not item.get("proposed"):
+            raise SystemExit(f"Empty proposed answer for {key}")
+        if item.get("existing"):
+            raise SystemExit(f"Propose item has existing answer (refusing): {key}")
+
+    before_mtime = datetime.fromtimestamp(DB.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
+    before_md5 = md5(DB)
+    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    backup = DB.with_name(DB.name + f".bak-{stamp}-lazynote-fill")
+
+    # Pre-count empties (read-only)
+    with sqlite3.connect(f"file:{DB.resolve()}?mode=ro", uri=True) as conn:
+        empty_ans_before = conn.execute(
+            'SELECT COUNT(*) FROM question WHERE correct_answer IS NULL OR trim(correct_answer)=""'
+        ).fetchone()[0]
+        empty_exp_before = conn.execute(
+            'SELECT COUNT(*) FROM question WHERE explanation IS NULL OR trim(explanation)=""'
+        ).fetchone()[0]
+
+    # Backup then apply
+    with sqlite3.connect(DB) as src, sqlite3.connect(backup) as dest:
+        src.backup(dest)
+
+    filled = []
+    skipped = []
+    with sqlite3.connect(DB) as conn:
+        conn.execute("BEGIN IMMEDIATE")
+        for item in proposed:
+            cur = conn.execute(
+                "UPDATE question SET correct_answer=? "
+                "WHERE id=? AND source_file=? AND q_number=? "
+                'AND (correct_answer IS NULL OR trim(correct_answer)="")',
+                (item["proposed"], item["id"], item["source"], item["number"]),
+            )
+            if cur.rowcount != 1:
+                conn.rollback()
+                raise RuntimeError(
+                    f"Apply aborted: expected 1 row for id={item['id']} "
+                    f"{item['source']} Q{item['number']}; got {cur.rowcount}. "
+                    "Transaction rolled back."
+                )
+            filled.append(item)
+        conn.commit()
+
+    after_mtime = datetime.fromtimestamp(DB.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
+    after_md5 = md5(DB)
+    with sqlite3.connect(f"file:{DB.resolve()}?mode=ro", uri=True) as conn:
+        empty_ans_after = conn.execute(
+            'SELECT COUNT(*) FROM question WHERE correct_answer IS NULL OR trim(correct_answer)=""'
+        ).fetchone()[0]
+        empty_exp_after = conn.execute(
+            'SELECT COUNT(*) FROM question WHERE explanation IS NULL OR trim(explanation)=""'
+        ).fetchone()[0]
+        # verify each filled row
+        bad = []
+        for item in filled:
+            row = conn.execute(
+                "SELECT correct_answer FROM question WHERE id=? AND source_file=? AND q_number=?",
+                (item["id"], item["source"], item["number"]),
+            ).fetchone()
+            if not row or (row[0] or "").strip().upper() != item["proposed"].strip().upper():
+                bad.append(item)
+        if bad:
+            raise RuntimeError(f"Post-verify failed for {len(bad)} items")
+
+    by_source = Counter(i["source"] for i in filled)
+    by_method = Counter(i["method"] for i in filled)
+    report = {
+        "applied": True,
+        "check_source": str(check_path),
+        "proposed_count": len(proposed),
+        "filled_count": len(filled),
+        "skipped_count": len(skipped),
+        "backup": str(backup),
+        "db_before": {"mtime": before_mtime, "md5": before_md5},
+        "db_after": {"mtime": after_mtime, "md5": after_md5},
+        "empty_ans_before": empty_ans_before,
+        "empty_ans_after": empty_ans_after,
+        "empty_exp_before": empty_exp_before,
+        "empty_exp_after": empty_exp_after,
+        "by_source": dict(by_source),
+        "by_method": dict(by_method),
+        "conflicts_not_written": data.get("conflict_count", 0),
+        "identity_fail_not_written": data.get("identity_fail_count", 0),
+        "filled": filled,
+    }
+    return report
+
+
+def write_apply_report(report: dict, out: Path) -> None:
+    lines = []
+    lines.append("# Lazynote / sibling fill APPLY report")
+    lines.append("")
+    lines.append(f"- Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} Asia/Shanghai")
+    lines.append(f"- Source check: `{report['check_source']}`")
+    lines.append(f"- Backup: `{report['backup']}`")
+    lines.append("- Mode: **--apply** of exact `status=propose` items only")
+    lines.append(
+        "- Guards: empty `correct_answer` only; conflict_blocked / identity_fail **not** written; "
+        "explanations untouched"
+    )
+    lines.append("")
+    lines.append("## Counts")
+    lines.append("")
+    lines.append("| Metric | Count |")
+    lines.append("|---|---:|")
+    lines.append(f"| Proposed in check | {report['proposed_count']} |")
+    lines.append(f"| **Filled this run** | **{report['filled_count']}** |")
+    lines.append(f"| Skipped | {report['skipped_count']} |")
+    lines.append(f"| conflict_blocked not written | {report['conflicts_not_written']} |")
+    lines.append(f"| identity_fail not written | {report['identity_fail_not_written']} |")
+    lines.append(f"| empty_ans before → after | {report['empty_ans_before']} → {report['empty_ans_after']} |")
+    lines.append(f"| empty_exp before → after | {report['empty_exp_before']} → {report['empty_exp_after']} |")
+    lines.append("")
+    lines.append("## DB integrity")
+    lines.append("")
+    lines.append(
+        f"- mtime before: `{report['db_before']['mtime']}` Asia/Shanghai; "
+        f"md5=`{report['db_before']['md5']}`"
+    )
+    lines.append(
+        f"- mtime after: `{report['db_after']['mtime']}` Asia/Shanghai; "
+        f"md5=`{report['db_after']['md5']}`"
+    )
+    lines.append(
+        f"- mtime changed: **{report['db_before']['mtime'] != report['db_after']['mtime']}**; "
+        f"md5 changed: **{report['db_before']['md5'] != report['db_after']['md5']}**"
+    )
+    lines.append("")
+    lines.append("## Filled by paper")
+    lines.append("")
+    lines.append("| Paper | filled |")
+    lines.append("|---|---:|")
+    for src, n in sorted(report["by_source"].items(), key=lambda x: (-x[1], x[0])):
+        lines.append(f"| `{src}` | {n} |")
+    lines.append("")
+    lines.append("## Filled by method")
+    lines.append("")
+    lines.append("| method | count |")
+    lines.append("|---|---:|")
+    for m, n in sorted(report["by_method"].items(), key=lambda x: (-x[1], x[0])):
+        lines.append(f"| `{m}` | {n} |")
+    lines.append("")
+    lines.append("## Notes")
+    lines.append("")
+    lines.append(
+        f"- Δ empty_ans = {report['empty_ans_before'] - report['empty_ans_after']} "
+        f"(expected {report['filled_count']})"
+    )
+    lines.append(
+        "- empty_exp unchanged expected (this apply does not set explanations)."
+    )
+    lines.append("")
+    out.write_text("\n".join(lines), encoding="utf-8")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--out", help="Output markdown path")
+    parser.add_argument(
+        "--batch",
+        choices=["priority", "keys-v2"],
+        default="priority",
+        help="Which paper set to dry-run (default: priority sibling/direct batch)",
+    )
+    parser.add_argument(
+        "--apply-from",
+        help="Path to a prior lazynote-fill-check-*.json; apply exactly its propose items",
+    )
+    args = parser.parse_args()
+    if not DB.exists():
+        raise SystemExit(f"DB missing: {DB}")
+
+    if args.apply_from:
+        check_path = Path(args.apply_from)
+        if not check_path.is_absolute():
+            check_path = ROOT / check_path
+        report = apply_from_check(check_path)
+        stamp = datetime.now().strftime("%Y%m%d-%H%M")
+        out = Path(args.out) if args.out else ROOT / "instance" / f"lazynote-fill-apply-{stamp}.md"
+        if not out.is_absolute():
+            out = ROOT / out
+        write_apply_report(report, out)
+        sidecar = out.with_suffix(".json")
+        sidecar.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"APPLY written: {out}")
+        print(f"JSON sidecar: {sidecar}")
+        print(
+            f"filled={report['filled_count']}/{report['proposed_count']} "
+            f"empty_ans {report['empty_ans_before']}->{report['empty_ans_after']} "
+            f"empty_exp {report['empty_exp_before']}->{report['empty_exp_after']} "
+            f"mtime {report['db_before']['mtime']}->{report['db_after']['mtime']}"
+        )
+        return
+
+    mtime = datetime.fromtimestamp(DB.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
+    before = {"mtime": mtime, "md5": md5(DB), "size": DB.stat().st_size}
+
+    with sqlite3.connect(f"file:{DB.resolve()}?mode=ro", uri=True) as conn:
+        conn.row_factory = sqlite3.Row
+        report = run(conn, batch=args.batch)
+        mtime2 = datetime.fromtimestamp(DB.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
+        after_md5 = md5(DB)
+        if after_md5 != before["md5"] or mtime2 != before["mtime"]:
+            raise SystemExit("DB changed during dry-run — abort")
+        text = summarize(report, conn, before)
+
+    stamp = datetime.now().strftime("%Y%m%d-%H%M")
+    default_name = (
+        f"lazynote-keys-check-{stamp}.md"
+        if args.batch == "keys-v2"
+        else f"lazynote-fill-check-{stamp}.md"
+    )
+    out = Path(args.out) if args.out else ROOT / "instance" / default_name
+    if not out.is_absolute():
+        out = ROOT / out
+    out.write_text(text, encoding="utf-8")
+
+    proposed = [i for i in report["all"] if i["status"] == "propose"]
+    conflicts = [i for i in report["all"] if i["status"] == "conflict_blocked"]
+    identity_fail = [i for i in report["all"] if i["status"] == "identity_fail"]
+    sidecar = out.with_suffix(".json")
+    sidecar.write_text(
+        json.dumps(
+            {
+                "applied": False,
+                "batch": args.batch,
+                "db_md5": before["md5"],
+                "db_mtime": before["mtime"],
+                "proposed_count": len(proposed),
+                "conflict_count": len(conflicts),
+                "identity_fail_count": len(identity_fail),
+                "proposed": proposed,
+                "conflicts": conflicts,
+                "identity_fail": identity_fail,
+                "papers": {
+                    k: {
+                        "method": v["method"],
+                        "empty_before": v["empty_before"],
+                        "proposed": [i for i in v["results"] if i["status"] == "propose"],
+                        "identity_fail": [
+                            i for i in v["results"] if i["status"] == "identity_fail"
+                        ],
+                        "conflicts": [
+                            i for i in v["results"] if i["status"] == "conflict_blocked"
+                        ],
+                    }
+                    for k, v in report["papers"].items()
+                },
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+    final_md5 = md5(DB)
+    final_mtime = datetime.fromtimestamp(DB.stat().st_mtime).strftime("%Y-%m-%d %H:%M:%S")
+    print(f"CHECK written: {out}")
+    print(f"JSON sidecar: {sidecar}")
+    print(
+        f"proposed={len(proposed)} conflicts={len(conflicts)} identity_fail={len(identity_fail)} "
+        f"db_md5={final_md5} mtime={final_mtime} unchanged={final_md5 == before['md5']}"
+    )
+
+
+if __name__ == "__main__":
+    main()

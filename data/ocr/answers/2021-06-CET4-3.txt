@@ -29,7 +29,7 @@ have good judgement and are prone to imitate the violent
 behaviours in games and regard them as being cool. [5] For
 another, many video games are full of violence to boost players'
 【6]】利用题目要求给出的论据，并进行改
-excitement, thus enhancing their appeal. [6Y A growing number of
+excitement, thus enhancing their appeal. [6y A growing number of
 写，一方面增强说服力，另一方面体现
 research proves that violent video games contribute to children's
 aggressive behaviors in their real life.
@@ -56,7 +56,7 @@ yell（尤因恐惧、愤怒或激动而)大叫，叫碱
 aggression 攻击性行为
 bullying 霸凌，恃强凌弱的行为
 四级2021年6月　53
-Part I
+Part II
 Reading Comprehension
 Section A
 【结构框图]
@@ -76,7 +76,7 @@ Section A
 行；O）wonder 想要知道；感到惊诉
 形容词：B）commonplace常见的，屡见不鲜的，D）desperate.非常需要·的；绝望的；F）·fascinated被迷住
 的，被吸弓l住的；K）shining杰出的；光亮的；O）wonder极好的，灵验的
-副词：I）roughly 大致上;粗暴地；J）routinely 例行地，惯常地
+副词：I）roughly 大致上；粗暴地；J）routinely 例行地，惯常地
 答案详解
 26.【考点】名词辨析题。
 E【语法判断】空格位于形容词性物主代词my之
@@ -162,13 +162,13 @@ C】【语法判断】空格位于主语I之后，空格所在部分
 以自身为例进行说明。因此空格处应填入含有
 “承认”意义的动词，故本题答案为C）confess。
 35.【考点】名词辨析题。
-G）【语法判断】空格位于动词click 和定冠词 the之
+G）【语法判断】空格位于动词click 和定冠词the之
 后，因此空格处需要填入名词。
 【语义判断】本句意为：在做网上调查时，我只是点
 击离我鼠标光标最近的 ，以便把这讨厌
 的东西从屏幕上弄掉。根据常识可知，做问卷调
 查就是根据实际情况选择不筒的回答。因此空格
-处应填入含有“答案，选项意义的名词，故本题答
+处应填入含有“答案，选项”意义的名词，故本题答
 案为 G)option。
 参考译文
 如今，你买任何东西都会接着被要求按五星制来为公司的表现评级。
@@ -191,7 +191,7 @@ Section B
 Setbacks Can Help Your Performiance，But Hurt Your Pay”（《职业挫折会改善工作表现，但是影响收人》的
 文章。
 【结构框图】
-A)段开门见山，通过问题弓引发人们对职场挫折影响的思考。
+A)段开门见山，通过问题引发人们对职场挫折影响的思考。
 B)一D)段讲述了勉强获得资助的科学家的职场前景好于未获得资助的科学家。
 本文主要讲述了在研究
 领域，职亚挫折对人们
@@ -201,15 +201,15 @@ K段总结全文，指出职场挫折并不具有决定性；人们可以通过�
 不同的成功。
 答案详解
 36.【定位】 由题干中的 a close loser 和 persevere in
-their research 定位到文章G)段倒数第一，二句。
+their research定位到文章G)段倒数第一，二句。
 G】【精析】细节辨认题。倒数第一句提到,作为一个
 略输者可能会给人们带来心理上的激励，或俗话
-所说的一种有激励效果的意外挫折。题干中的
+所说的一种有激励效果的意外挫折。题于中的
 motivate 对应原 文 中 的‘givepeoplea
 psychological boost, 题干中的 persevere in their
 research 对应原文中的 persevering losers,故答案
-为G)
-37.【定位】由 题干中 的researchersalready
+为G)。
+37.【定位】由 题干 中的researchersalready
 recognized 定位到文章 D)段最后一句。
 D）【精析】细节归纳题。定位句指出，巴拉巴西认为，
 对于那些掌权者来说，选择把奖项和资金交给那
@@ -229,12 +229,12 @@ people improve their job performanice 对应原文
 中的 make us better at our jobs,故答案为 K)。
 39.【定位】由题于中的contradictory findings定位到
 文章B)段倒数第四句。
-B）【精析】同义转述题。定位句指出，这一领域的研
+B) 【精析】同义转述题。定位句指出，这一领域的研
 究发现了相互矛盾的结果。题干中的 Research
 by social scientists on the effects of career
 setbacks 指的就是定位句中的 Studies in this
 area，而题干中的 contradictory findings 对应定位
-句中的 conflicting results，故答案为B)。
+句中的conflicting results，故答案为B)。
 40.【定位】由题干中的 the best interest of taxpayers
 和 narrow winners 定位到文章 I)段第二句。
 【精析】同义转述题。定位提到，如果略输者表
@@ -257,7 +257,7 @@ receiving a grant 和 made greater achievements
 performed even better, 而题干中的 those who got
 one with luck 指的就是定位句中的 the:narrow
 四级2021年.6月
-1 56
+ 56
 winners，题于中的 persisted in research 是对定
 位句中的 stayed on的同义转述，故答案为F)。
 42.【定位】由题于中的 rejected.one journal 和 get
@@ -400,7 +400,7 @@ B）【精析】推理判断题。定位句提到，事实证明，无聊
 避错】文章第五段第一句提到，如果你对无聊的
 定义是安静，专注和反省，那就坚持下去。但并未
 提到无聊意味着需要独处，由此可知，该选项过于
-片面，故排除A)。文中并未提及无聊意味着需要
+片面，故除A。文中并未提及无聊意味着需要
 解决的冲突，故排除C）。文章第三段第二提
 到，感到无聊可能表明更强烈的群体意识渴望，并
 且想要融入你周围的人之中，这与想法或情感被
@@ -461,7 +461,7 @@ D）【精析】推理判断题。定位句指出，如果你想减少
 无聊已经成为一种时尚。（46)研究指出，无聊是如何有利于创造力和创新，以及心理健康。研究发
 现，人们在完成一项粘燥乏味的任务后更有创造力。当人们感到无聊时，他们会增加“联想思维”一一即在
 思想之间建立新联系的过程，这与创新思维有关。这些研究令人印象深刻.但实际上，无聊的好处可能与
-有时间理清思路保持安静或做白日梦有关。
+有时间理清思路，保持安静或做白日梦有关。
 在我们这个充满刺激的世界里，无聊的发生似乎一点都不现实：。然而，无聊可能会让人感到痛苦，这
 是有合理的理由的。（47)事实证明，无聊可能意味着你的需求没有得到满足。
 （48）我们一直在线的社交媒体世界可能会产生更多的联系，但这些联系是肤浅的，可能会妨碍我们建
@@ -483,12 +483,12 @@ eating more than it realizes一here's how we could get thin"（《所以英国�
 第1一3段提出人们对于自已摄人卡路里的情况掌握不全，存在漏报现象。
 本文生要介绍了人们饮
 食习惯的改变对于卡路
-第4一6段具体论述了引起卡路里漏报的三个原因。
+第4一6段真体论述了弓起卡路里漏报的三个原因。
 里摄入的影响，以及应
 对方法。
 第7段得出结论，建议政府有所作为，为人们提供低脂饮食。·
 答案详解
-51.【定位】由题干中的suspect和back in 2016定位
+51.【定位由题干中的 suspect 和 back in 2016 定位
 到第二段。
 C）【精析】推理判断题。定位段指出，早在2016年他
 们就有了这种怀疑，因为国家统计数据显示，在过
@@ -498,7 +498,7 @@ C）【精析】推理判断题。定位段指出，早在2016年他
 已摄入的食物，因此作者怀疑国家统计局数据的
 真实性，故答案为C)。.
 避错】文章第二段指出·国家统计数据显示，过去
-儿千年，卡路里消耗量天幅下降，这让他们感到困
+儿千年，卡路里消耗量天蝠下降，这让他们感到困
 惑。由此可见，卡路里消耗量的下降数据令人困
 惑，这是引起怀疑的原因，并非怀疑的内容，故排
 除A）。下文中提到人们漏报数据的原因：并非不
@@ -535,8 +535,8 @@ D）精析推理判断题。定位句指出，肥胖者的漏报
 视了肥胖的潜在原因故排除B）。文章第四段最
 后一句提到，肥胖者吃更多的食物，但未提及他们
 忍不住吃得比他们应该吃的多，故排除C）。
-54.【定位】 由题干中的 unnoticed in surveys. on food
-consumption 和题文同序原则定位到第六段。
+54.【定位】 由题干中的 unnoticed in surveys on food
+consumption和题文同序原则定位到第六段。
 A】【精析】细节辩认题。第六段提到，最后一个潜在
 的原因是，近几十年来，吃零食和外出吃饭的人越
 来越多，有证据表明，在调查中，外出吃掉的食物
@@ -594,9 +594,9 @@ Part V Translation
 星火英语App
 扫码看视频
 参考译文与难点注释
-h」1．第一句介绍龙井的种类和产地。可将“龙井是一种缘茶"译作主
+11．第一句介绍龙井的种类和产地。可将“龙井是一种绿茶"译作主
 Longjing is a green tea variety which
-句,将"主要产自**·浙江省”译作 which 引导的定语从句。注
+句,将“主要产自**·浙江省”译作 which 引导的定语从句。注
 is mainly produced in Zhejiang Province
 意“主要”不要漏译，可译作副词 mainly。故本句可译为
 on the east coast of China. Winning the
@@ -614,18 +614,19 @@ attracting a growing number of consumers abroad. ".
 costly in an extreme way to fairly cheap,
 3.第三句介绍了龙井茶的价格跨度。“手工制作”可译作定语；“取
 depending on the location of cultivation,
-决于"是常见的结构，可用现在分词结构depending on.··
+决于"是常见的结构，可用现在分词结构depending on..·
 time of picking and techniques of
 译作伴随状语，也可用过去分词结构determined by.··
 processing. The tea is an excellent source
 4.第四句是一个简单句，翻译的难点在于词汇的选择。“富含”可
 of vitamin C and many other elements
 important for good health. Therefore. to health.
-5．第五句介绍了龙井茶对人体的好处，与上句暗含着因果关系，
-drinking  Longjing  tea frequently
+drinking
+5．第五句介绍了龙井茶对人体的好处，与上一句暗含着因果关系，
+ Longjing  tea frequently
 因此增译表示结果的副词 therefore。“减轻”和"延缓"各有多种
 contributes to allaying tiredness and
-表达方式，译文中选用的 allaying 和 delaying.两词有押韵的
+表达方式，译文中选用的 allaying和 delaying.两词有押韵的
 delaying aging.
 效果。
 M01
