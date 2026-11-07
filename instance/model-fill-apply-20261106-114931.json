@@ -1,0 +1,52 @@
+{
+  "source": "模型补充",
+  "filled_answers": 2,
+  "option_repair": {
+    "question_id": 3304,
+    "label": "I",
+    "text": "scale"
+  },
+  "empty_ans": 1,
+  "empty_exp": 36,
+  "backup": "instance/cet4_v2.db.bak-20261106-114931-model-reading2",
+  "records": [
+    {
+      "id": 3117,
+      "source_file": "2019-12-CET6-1.pdf",
+      "group_id": 609,
+      "q_number": 54,
+      "correct_answer": "A",
+      "explanation": "【模型补充·非官方】原文说海洋变暖使南极极锋南移，成鸟觅食距离增大，幼鸟等待喂食更久，故A最符合；导出题干的sea levels与原文讨论的海温有出入，需保留题干质量提示。",
+      "source": "模型补充",
+      "confidence": "medium",
+      "uncertainty": [
+        "已核对2019-12-CET6-1.pdf第10页：原卷题干同样写sea levels，并非本次OCR误识；正文实际讨论海水变暖。四项中只有A有正文依据，按原文推断选A，保留原卷题干疑误提示，不自动改题干。"
+      ],
+      "original_answer": null,
+      "existing_explanation_present": true,
+      "write_policy": "仅填空答案；已有解析不覆盖。若需要保留本解析，应作为附加模型解答记录。",
+      "requires_prewrite_repair": false,
+      "pdf_verified": "2019-12-CET6-1.pdf p10"
+    },
+    {
+      "id": 3304,
+      "source_file": "2020-12-CET6-2.pdf",
+      "group_id": 645,
+      "q_number": 27,
+      "correct_answer": "I",
+      "explanation": "【模型补充·非官方】on this scale表示“以如此规模”；大学尚未如此大规模尝试线上教学。导出词库漏了I，已对照2020-12-CET6-2.pdf第4页确认I为scale。",
+      "source": "模型补充",
+      "confidence": "high",
+      "uncertainty": [
+        "导出options漏I:scale。原PDF已核对；写入前需恢复此选项，不能留下答案字母无对应选项的题。"
+      ],
+      "original_answer": null,
+      "existing_explanation_present": true,
+      "write_policy": "仅填空答案；已有解析不覆盖。若需要保留本解析，应作为附加模型解答记录。",
+      "requires_prewrite_repair": true,
+      "pdf_verified": "2020-12-CET6-2.pdf p4: I. scale"
+    }
+  ],
+  "existing_answers_overwritten": 0,
+  "existing_explanations_overwritten": 0
+}
