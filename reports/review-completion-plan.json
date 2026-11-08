@@ -1,0 +1,2113 @@
+{
+  "review_date": "2026-11-08",
+  "base_commit": "5f3a276b150d81a360c9337376201d68e189eb96",
+  "base_database_sha256": "81af0a7d0daaeb5f3c180fceaecb42a4f5b0e9651ff2bca0f7d42f4182b861ce",
+  "evidence_report_sha256": {
+    "reports/listening-4912-review.json": "3a92b2118d2045a73d6e502a70c6c386f3fdeac318f33e77646f8d1a18541879",
+    "reports/missing-explanations-patch.json": "39c809283f5e6006c1abbca37ff33871772b94aa7d4e014477073f220181a537",
+    "reports/answer-conflicts-review.json": "bd317d8a512e2ecc5f570a940638295a107033f17259cdce0f307c505649f459",
+    "reports/question-content-repairs.json": "66b0020f73e223edb668c0c64b63698feb0d544875d8648767c9637e116dc981",
+    "reports/cloze-option-repairs.json": "f138c98261ab42b8f7f5e39f26b08e7f3f111f225e724ca1242935f97abd4ce4",
+    "reports/answer-conflicts-crosscheck.json": "554298e1ac852a3a690dab4d51a3f6cf7f5c3b3fdd2f6f9a3fc536931bc718c2"
+  },
+  "expected_counts": {
+    "questions": 4958,
+    "missing_answers": 0,
+    "missing_explanations": 0
+  },
+  "updates": [
+    {
+      "table": "question",
+      "id": 442,
+      "source_file": "2025-06-CET4-1.pdf",
+      "column": "content",
+      "before": "",
+      "after": "Participation of ninth graders in Design Ventura can motivate them to choose design technology as their subject.",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 87
+      }
+    },
+    {
+      "table": "question",
+      "id": 442,
+      "source_file": "2025-06-CET4-1.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 M。题干说九年级学生参加 Design Ventura，会受到激励而选修设计技术。M段指出，学生在 Year Nine 参加竞赛，可能成为促使其在普通中等教育证书阶段选择这门课的 trigger。题干中的 motivate 对应 trigger，choose design technology 对应 opt for it，年级和选课结果均吻合。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 87
+      }
+    },
+    {
+      "table": "question",
+      "id": 444,
+      "source_file": "2025-06-CET4-1.pdf",
+      "column": "content",
+      "before": "The schools don’t have to pay anything to take",
+      "after": "The schools don’t have to pay anything to take part in the Design Ventura competition.",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 42,
+        "group_id": 87
+      }
+    },
+    {
+      "table": "question",
+      "id": 444,
+      "source_file": "2025-06-CET4-1.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 K。K段开头明确说，学校参加 Design Ventura 不用花钱，专业设计师也免费提供服务。题干的 don’t have to pay anything 与原文 costs the schools nothing 同义，take part in 与 participate in 同义，因此定位到K段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 42,
+        "group_id": 87
+      }
+    },
+    {
+      "table": "question",
+      "id": 445,
+      "source_file": "2025-06-CET4-1.pdf",
+      "column": "content",
+      "before": "",
+      "after": "Participants in Design Ventura are challenged to create sustainable and marketable products.",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 87
+      }
+    },
+    {
+      "table": "question",
+      "id": 445,
+      "source_file": "2025-06-CET4-1.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 D。D段介绍竞赛面向13至16岁的学生，要求他们为设计博物馆商店开发有创意、可持续且具商业可行性的新产品。题干中的 are challenged to create 对应 challenging them to develop，marketable 对应 commercially feasible，故选D段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 87
+      }
+    },
+    {
+      "table": "question",
+      "id": 518,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "A",
+      "after": "B",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 46,
+        "group_id": 107
+      }
+    },
+    {
+      "table": "question",
+      "id": 518,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "从第一段中我们能了解到美国社会的什么情况？\nA）美国社会见证大量个人收人被浪费在美容产品上。C美国社会高度重视明星的身体健康。\nB）美国社会认为一个人的外貌非常重要。\nD）美国社会期望每个人都展现出最佳形象。\n根据关键词Americansociety和thefirstparagraph定位到第一段首句。\n定+\n第一段首句明确指出我们的社会高度重视外在美，随后列举美国人年均花费722美元在外表上，十分之一\n的人曾尝试模仿明星造型的例子加以论证，这说明美国社会认为外在美很重要。B项符合原文表述，故选\nB。文章中提及花费金钱，但重点是强调社会对美的重视，而非浪费个人收人，A项属于过度引申，应排\n除。C项和D项的内容文章中未提及，故均排除。",
+      "after": "【答案】B。\n【解析】第一段首句直接指出社会高度重视外貌美，随后用每年外貌开支和模仿明星的例子说明。本卷 B 项概括了这一点。花钱的事实不等于作者认定浪费，故排除 A，答案为 B。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 46,
+        "group_id": 107
+      }
+    },
+    {
+      "table": "question",
+      "id": 519,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "C",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 47,
+        "group_id": 107
+      }
+    },
+    {
+      "table": "question",
+      "id": 519,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "当人们竭力追求更好的外貌时，会发生什么？\nA）他们不得不为怨恨和激烈的法庭纠纷做好准备。\nB）他们会更容易获得关注、爱和人际联结。\nC他们可能忽视培养更重要的内在品质。\nD）他们觉得自己大量的宝贵时间、精力和资源被浪费了\n根据关键词strivetolookbetter定位到第二，三段。\n定位\n第二段指出，过度关注外貌会让我们忽略“美”的灵魂层面，让我们与美的真谛渐行渐远：第三段进一步\n指出，人们在追求外表时，可能会没能以一种能让自已走向更深层次的亲密关系，获得满足感和人生意\n义的方式呵护自己已，也就是说人们过度追求外在美时可能会忽视培养更重要的内在品质。C项的含义与原\n文一致，故选C。第四段提到了好莱坞新秀女演员的例子，但这只是一个具体案例，用于说明外表美不一\n定能带来真爱，而她们的爱情演变成想恨与激烈的法庭纷争也并非普遍结果，A项过于绝对和极端，故排\n除。B项与文章表达的意思相反，故排除。文章第三段提到人们耗费了过多的时间，精力和金钱，但并未\n说他们因此感觉浪费，故排除D项。",
+      "after": "【答案】C。\n【解析】定位第二、三段。过度追求外貌可能使人忽略能带来更深亲密关系、满足感和意义的内在品质，对应 C 项。原文说耗费时间精力金钱，但没有说人们主观上感到这些全被浪费，故不选 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 47,
+        "group_id": 107
+      }
+    },
+    {
+      "table": "question",
+      "id": 520,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "B",
+      "after": "D",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 48,
+        "group_id": 107
+      }
+    },
+    {
+      "table": "question",
+      "id": 520,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "作者对外在美有何看法？\nA）它可能是与生俱来或后天培养的\nB）它可能养成好习惯，也可能导致坏习惯\n定+根据关键词outerbeauty定位到第五段第一句。\nC）它可能创造联结，也可能造成隔阁。\nD）它的益处与危害可能同样多。\n第五段第一句明确指出，外在美可能福祸并存，即它既有益处也有害处，D项与原文相符，故选D。A项\n解+\n的内容文章中未提及，故排除。文章强调外在美可能导致一味追求完美外表的习惯，这属于“坏习惯”范\n，未提及“好习惯”：此外，文章的焦点是内在品质的缺失，而非习惯本身，B项偏离了文章的中心，\n故排除。第五段强调外在美无法替代内在品质维系并深化亲密关系，而非直接创造联结或造成隔阁，C项\n属于过度推断，应排除",
+      "after": "【答案】D。\n【解析】该句明确表示外貌美可能带来与好处同样多的坏处，D 项是同义概括。文中只提到一味维持完美外表的习惯，没有同时说会形成好习惯，因此 B 不成立，故选 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 48,
+        "group_id": 107
+      }
+    },
+    {
+      "table": "question",
+      "id": 521,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "A",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 49,
+        "group_id": 107
+      }
+    },
+    {
+      "table": "question",
+      "id": 521,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "什么会带来心灵相通？\nA)心灵的相遇。\nB）一见钟情。\n定根据关键词spiritualconnection定位到第六段第一句。\nC)身体化学反应\nD）频紧的互动。\n第六段第一句明确提到，真正造就我们渴望的那种持久亲密与心灵相通，是内心世界的相遇相知，A项\nMeetingofminds是对原文meetingofourinnerworlds的同义替换，故选A项。第六段第一句的前半句提到最\n初的吸引可能部分源于我们身体本能的化学反应，但由后半句可知，作者认为这无法带来心灵相通，故排\n除C项。B项和D项的内容文章中未提及，故排除。",
+      "after": "【答案】A。\n【解析】定位讨论深层连接的句子。作者说，内心世界的相遇才创造持久的亲密和心灵联系，A 项 Meeting of minds 是同义表达。D 项频繁互动并非作者此处给出的原因，故选 A。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 49,
+        "group_id": 107
+      }
+    },
+    {
+      "table": "question",
+      "id": 523,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "A",
+      "after": "C",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 51,
+        "group_id": 108
+      }
+    },
+    {
+      "table": "question",
+      "id": 523,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "关于植物肉我们可以有什么期待？\nA）人们对其分析的兴趣日益增加\n·substituten替代品y代替，取代\nC)其消费量将大幅增长\nD)其种类会显著激增\nB）人们会付出巨大努力来推广它们\n46四线2025.6\n根据关键词expect和plant-basedmeats定位到第一段最后一句。\n定位解柜\n第一段最后一句提到，分析人土认为，素食潮流短期内不会放缓：2021年的一份报告预测，到2030年该市\n场规模将飘升至740亿美元一增幅高达957%，这说明植物肉的消费量将会大幅度增长，C项与原文表述\n相符，故选C。文章仅提到分析人土认为素食潮流不会放缓，未提及分析兴趣，故排除A。B项的内容文中\n未提及，故排除。文章中提到新一代产品在外观、风味和口感上都能模仿肉类，但未提及种类增加，故\n排除D。",
+      "after": "【答案】C。\n【解析】第一段末预测植物肉市场到2030年将大幅增长至740亿美元，说明其消费量预期显著增加，对应 C 项。文章提到分析人士作出预测，并未说对分析本身的兴趣增加，因此 A 不成立，故选 C。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 51,
+        "group_id": 108
+      }
+    },
+    {
+      "table": "question",
+      "id": 524,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "A",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 52,
+        "group_id": 108
+      }
+    },
+    {
+      "table": "question",
+      "id": 524,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "A）他们大多是非素食者。\nC）他们中大多数人因健康原因不吃肉。\nD）他们中大多数人吃素肉是为了保护环境\nB）他们大多是动物权益倡导者。\n定根据关键词BeyondBurgerand ImpossibleFoods定位到第二段。\n第二段最后一句指出，购买“超越汉堡”和“不可能食品”产品的消费者中，超过九成同时也食用肉类，\n这说明他们大多不是素食者，A项符合原文，故选A。B项和D项是部分消费者减少肉类摄人的动机，但文\n中未限定大多数人具体出于哪种动机，故均应排除。文中提到有部分消费者因动物权益保护，健康或环保\n原因想减少肉类摄人，而不是不吃肉，C项与原文不符，应排除。",
+      "after": "【答案】A。\n【解析】定位第二段末句。原文指出购买两家植物肉产品的人中超过九成也吃肉，因此他们大多不是素食者，对应 A 项。健康、动物权益和环境是部分人减少肉类摄入的动机，原文未说大多数购买者都出于环保，故不选 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 52,
+        "group_id": 108
+      }
+    },
+    {
+      "table": "question",
+      "id": 525,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "C",
+      "after": "B",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 53,
+        "group_id": 108
+      }
+    },
+    {
+      "table": "question",
+      "id": 525,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "从琼·索尔斯曼的评论中，我们能就“不可能食品”的产品得出什么结论？\nC）有些产品已成为其招牌菜。\nA）它们更常吸引肉食者。\nB）它们非常像动物肉类。\nD）它们大多数作为真正的人造肉”出售\n定+根据关键词JoanSolsman'sremark定位到第三段。\n根据第三段可知，琼·索尔斯曼是长期素食者，她在尝试了“不可能食品”的一道菜后感到非常不适，甚\n至没能吃完。由此可知，该段结尾琼·索尔斯曼指出“或许不可能食品，已经掌握了制作逼真素肉的密\n码，最好的证明就是我一口都吃不下了”，即“不可能食品”的产品过于逼真，作为素食者她感到难以下\n咽，B项的表述是原文的同义转述，故选B。其他项的内容文中均未提及，故排除",
+      "after": "【答案】B。\n【解析】定位 Joan Solsman 试吃植物肉的段落。她作为长期素食者因产品过于像真肉而感到难以下咽，说明产品非常接近动物肉，对应 B 项。文中没有说它们成为公司的招牌菜，故 C 不成立，答案为 B。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 53,
+        "group_id": 108
+      }
+    },
+    {
+      "table": "question",
+      "id": 526,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "B",
+      "after": "D",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 54,
+        "group_id": 108
+      }
+    },
+    {
+      "table": "question",
+      "id": 526,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "为什么吃植物性饮食的习惯能带来更健康的身体？\nC）它括助维持正常的血压和血糖。\nA）它让人们摆脱了与癌症的任何已知联系。\nD）它降低了食用肉类带来的各种健康风险。\nB）它提供保持健康所需的所有营养素。\n根据关键词plant-baseddiet和betterhealth定位到第四、五段。\n第四段提到植物肉不含胆固醇，且是维生素，矿物质等的良好来源：第五段指出红肉与癌症相关，而不\n食用肉类的人血压，平均血糖和胆固醇水平更低。由此可知，植物性饮食能减少肉类带来的健康风险，D\n项是对原文的概括总结，故选D。原文只提及红肉与癌症有关联，未提及植物肉能完全消除癌症风险，A\n项内容过于绝对，故排除。文章说素肉富含维生素，矿物质等，但并未说它提供了所有营养素，故排除B\n项。文章只提及不食用肉类的人血压，平均血糖更低，并未提及吃植物性饮食能帮助维持正常的血压和血\n糖，故排除C。",
+      "after": "【答案】D。\n【解析】定位第四、五段。原文比较肉类摄入的健康风险：红肉与癌症相关，不吃肉者的血压、血糖等指标较低；概括起来，植物性饮食减少了肉类带来的多种健康风险，对应 D 项。原文没有说植物肉提供保持健康所需的所有营养素，因此 B 过于绝对，故选 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 54,
+        "group_id": 108
+      }
+    },
+    {
+      "table": "question",
+      "id": 537,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "O",
+      "after": "J",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 35,
+        "group_id": 109
+      }
+    },
+    {
+      "table": "question",
+      "id": 537,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "J）retained（w保留，保存）\n语法判新\n空格前面为从句主语theseindividuals，后面为宾语theabilitytosmell，空格处应填谓语动词\n语义判断\n嘎觉能力”。代人选项可知，retained“保留”符合此处语境，故为答案。\n不确定这些人如何\n王扰项注释\nB)hardly（adu几乎不）D）insist（坚称，坚决认为：坚决要求）L）strategy（n.策略，计策：战略）\nM）transformed（w改变：转换）N)underlines（w强调，突出：在.下画线）\nSectionB",
+      "after": "【答案】J。\n【解析】第35空作 these individuals 的谓语，宾语为 the ability to smell。该段说缺少嗅觉处理脑区的人仍能闻到气味，研究者尚不清楚他们如何保留这种能力；J 项 retained（保留）符合。O 项 visual 是形容词，不能作谓语，故选 J。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 35,
+        "group_id": 109
+      }
+    },
+    {
+      "table": "question",
+      "id": 539,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "I",
+      "after": "H",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 37,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 539,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【答案】H段（强锚点）\n【定位】H 段\"Under reasonable conditions today, you might get 1,800 cars per lane per hour throughput (the volume of traffic passing through),\" he added. \"But with bilateral control, you could almost double that.\"“在今天的合理条件下，每车道每小时通行量大约 1800 辆，”他补充道。“但用双边控制，你几乎能让它翻倍。”\n【锚点】通行量翻倍\n【改写】nearly double the hourly throughput per lane↔you could almost double thatnearly≈almost\n【辨邻】II 段说的是 increase the throughput on major highways, even if it's only by 50 percent——靠修路只提升 50%，并非靠双边控制翻倍，与陈述句的“几乎翻倍”不符。If we can increase the throughput on major highways, even if it's only by 50 percent",
+      "after": "【答案】H。\n【解析】定位 H 段。该段先给出每车道每小时约1800辆的通行量，再指出采用双边控制几乎可以翻倍，直接对应 nearly double the hourly throughput per lane，故选 H。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 37,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 541,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "A",
+      "after": "N",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 39,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 541,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【答案】N段（弱锚点）\n【定位】N 段But until those systems become standard, human drivers can help reduce phantom traffic jams simply by not following the car in front so closely.但在这些系统普及之前，人类司机只要不那么紧跟前车，就能帮助减少幻影堵车。\n【锚点】系统普及前别紧跟\n【改写】should not follow the car in front too closely↔not following the car in front so closelytoo closely≈so closely\n【辨邻】FF 段 it could be achieved with relatively simple modifications to the adaptive cruise control 讲的是技术如何实现，而非“普及前司机的行为建议”，答非本句所问。it could be achieved with relatively simple modifications to the adaptive cruise control",
+      "after": "【答案】N。\n【解析】定位 N 段。原文说在相关系统成为标准配置之前，司机只要不跟前车太近，就能减少幽灵堵车；题干的系统普及前、不要紧跟前车均与此句一致，故选 N。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 39,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 542,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "H",
+      "after": "F",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 542,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【答案】F段（强锚点）\n【定位】F 段it could be achieved with relatively simple modifications to the adaptive cruise control that many new cars already have.它只需对许多新车已经配备的自适应巡航控制做相对简单的改装就能实现。\n【锚点】简单改装新车设备\n【改写】the existing equipment in new vehicles↔the adaptive cruise control that many new cars already have上位概括\n【辨邻】MM 段 modifications to existing adaptive cruise control systems 的落点是“为解决人判断后方距离的弱点而加装后向传感器”（对应第 42 题），而非本句“简单改装即可实现”这一概括，重点不同。modifications to existing adaptive cruise control systems",
+      "after": "【答案】F。\n【解析】定位 F 段。Horn 说只需对许多新车已配备的自适应巡航控制进行相对简单的改装，就可实现双边控制，正对应题干 existing equipment 和 simple modifications，故选 F。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 543,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "B",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 41,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 543,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【答案】B段（强锚点）\n【定位】B 段When caught in such a traffic jam, it is common for drivers to assume that there must be an accident, or construction or something被堵在这种车流里时，司机通常会以为前面一定出了事故，或者在施工之类。\n【锚点】以为事故或施工\n【改写】think an accident has happened or some construction is going on↔assume that there must be an accident, or construction or somethingthink≈assume",
+      "after": "【答案】B。\n【解析】定位 B 段。被困于这种堵车的司机通常以为前方发生事故或正在施工，assume 对应 think，故选 B。D 段解释减速波如何向后传播，不是司机的猜测。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 41,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 544,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "F",
+      "after": "M",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 42,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 544,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【答案】M段（强锚点）\n【定位】M 段which use forward-facing sensors to judge the distance to the vehicle ahead. The bilateral control approach would include adding rear-facing sensors to determine the distance to the vehicle following a car.（这些系统）用前向传感器判断与前车的距离。双边控制方案还要加装后向传感器，以测定与后方跟随车辆的距离。\n【锚点】两组传感器\n【改写】Two sets of sensors↔adding rear-facing sensors前向已有+后向新增=两组",
+      "after": "【答案】M。\n【解析】定位 M 段。现有系统使用前向传感器测前车距离，双边控制再加后向传感器测后车距离，两者合为题干所说两组传感器，故选 M。F 段只是概述改装，未给出这两组传感器的具体职责。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 42,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 545,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "J",
+      "after": "G",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 545,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【答案】G段（强锚点）\n【定位】G 段solving phantom jams could save at least some of the estimated $121 billion per year that traffic jams are estimated to cost the U.S. economy解决幻影堵车，能省下堵车每年给美国经济造成的、估计达 1210 亿美元损失中的至少一部分。\n【锚点】每年省下数十亿\n【改写】save America billions of dollars every year↔save at least some of the estimated $121 billion per yearbillions 概括 $121 billion\n【辨邻】II 段 putting in new roads is very expensive 讲的是替代方案花钱多，与陈述句“为美国每年省钱”方向相反。putting in new roads is very expensive",
+      "after": "【答案】G。\n【解析】定位 G 段。文章估计堵车每年给美国经济带来1210亿美元损失，解决幽灵堵车可节省其中至少一部分，对应 save America billions of dollars every year，故选 G。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 546,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "B",
+      "after": "D",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 44,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 546,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【答案】D段（强锚点）\n【定位】D 段the slowing action spreads backward through the lane of traffic like a wave, getting worse the farther it spreads.减速这一动作像波浪一样沿车道向后蔓延，传得越远越严重。\n【锚点】逐车减速的波浪效应\n【改写】slow down one after another, creating a wave-like effect↔the slowing action spreads backward through the lane of traffic like a wave蔓延=逐车",
+      "after": "【答案】D。\n【解析】定位 D 段。原文说减速动作像波浪一样沿同车道向后传播，且传播越远越严重，正对应 one after another 和 wave-like effect，故选 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 44,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 547,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "G",
+      "after": "L",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 45,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 547,
+      "source_file": "2025-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【答案】L段（强锚点）\n【定位】L 段schools of fish and flocks of birds and bats use similar spacing strategies to avoid hitting each other while swimming or flying in densely packed groups.鱼群、鸟群和蝙蝠会用类似的间距策略，避免在密集群体中游动或飞行时相互碰撞。\n【锚点】动物用类似策略防撞\n【改写】use strategies similar to bilateral control to avoid hitting each other↔use similar spacing strategies to avoid hitting each other上位词替换",
+      "after": "【答案】L。\n【解析】定位 L 段。Horn 发现鱼群、鸟群和蝙蝠在密集移动时采用类似间距策略以避免相撞，与题干 certain creatures 和 similar strategies 对应，故选 L。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 45,
+        "group_id": 110
+      }
+    },
+    {
+      "table": "question",
+      "id": 650,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "A",
+      "after": "D",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 19,
+        "group_id": 133
+      }
+    },
+    {
+      "table": "question",
+      "id": 650,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "explanation",
+      "before": "WhatdowelearnaboutBranyasMorera?关于布兰亚斯·莫雷拉，我们了解到什么信息？\nA）她是世界上最知名的钢琴家之一。\nC)她年幼时移居美国。\nB）她今年4月刚庆祝了110岁生日。\nD）她是目前世界上最长寿的人。\n解文章开篇明确说明，布兰亚斯·莫雷拉如今115岁零320天，是目前在世的最长寿者。选项D与文章内容一\n致，因此为正确答案。原文只提及她有弹钢琴的习惯，但并未说她是知名钢琴家，故排除A：选项B与时\n间线矛盾，故排除；选项C混淆了“出生于美国”和“移居美国”的信息，故排除。",
+      "after": "【答案】D。\n【解析】听力问对 Branyas Morera 了解到什么。原文说她当时115岁零320天，活得比任何其他在世者都久，对应 D 项世界最长寿者。会弹琴不等于她是世界知名钢琴家，故不选 A，答案为 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 19,
+        "group_id": 133
+      }
+    },
+    {
+      "table": "question",
+      "id": 651,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "C",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 20,
+        "group_id": 133
+      }
+    },
+    {
+      "table": "question",
+      "id": 651,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "explanation",
+      "before": "WhatisoneofBranyasMorera'ssecretsto livingalonglife?布兰亚斯·莫雷拉的长寿秘决之一是什么？\nA始终活跃于社交媒体。\nC)从小弹钢琴。\nB)定期进行剧烈运动。\nD）每天遵循特定的饮食方案。\n解→文章中间部分提到，布兰亚斯·莫雷拉分享的长寿秘决包括从小弹钢琴。选项与文章内容一致，因此为\n正确答案。选项A是她的生活状态而非长寿秘决；选项B原文未提及；选项D与“从未遵循特定饮食方案”\n矛盾，故均可排除。",
+      "after": "【答案】C。\n【解析】听力问她的长寿秘诀之一。原文明确列出从年轻时就弹钢琴，对应 C 项。随后还说她从未遵循特定饮食计划，直接排除 D，故选 C。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 20,
+        "group_id": 133
+      }
+    },
+    {
+      "table": "question",
+      "id": 653,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "C",
+      "after": "D",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 22,
+        "group_id": 134
+      }
+    },
+    {
+      "table": "question",
+      "id": 653,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "explanation",
+      "before": "Whatisofgreatimportance to studentsaccordingtothespeaker?说话者认为对学生而言什么至关重要？\nC)老师对他们的看法。\nA)学习能力。\nB)开学第一天。\nD)他们在教室里的座位。\n解文章开篇通过设问强调座位选择至关重要，随后补充说明座位会影响学习能力、老师的看法和成绩，故选\n项D是正确答案。选项A，C是座位会影响的方面；选项B是引出话题的时间背景，均可排除。",
+      "after": "【答案】D。\n【解析】听力开头强调在教室坐哪里非常重要，随后列举座位对学习、教师印象及成绩的影响，因此 D 项座位位置才是被强调的事项。C 项只是座位会影响的一个方面，故选 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 22,
+        "group_id": 134
+      }
+    },
+    {
+      "table": "question",
+      "id": 654,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "B",
+      "after": "D",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 23,
+        "group_id": 134
+      }
+    },
+    {
+      "table": "question",
+      "id": 654,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "explanation",
+      "before": "What did one study find about students seated in the middle of the classroom?\n关于坐在教室中间位置的学生，一项研究发现了什么？\nA）他们经常受到老师的密切关注。\nC)他们其实希望能看清黑板。\nB)他们的平均成绩在班级里是最高的。\nD）他们的分数高于坐在他们后面的学生。\n解文章中间部分明确指出，研究发现，坐在教室中间位置的学生，分数高于坐在他们后面的学生。选项D与\n文章内容一致，为正确答案。选项A是前排学生的特点：选项B文章未提及；选项C混淆了“能清晰看到黑\n板”和“希望看清黑板”的表述，均可排除。",
+      "after": "【答案】D。\n【解析】原文说坐在教室中间的学生也比后面的学生得分高，对应 D 项。原文没有说中间位置学生的平均成绩在全班最高，B 项扩大了比较范围，故选 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 23,
+        "group_id": 134
+      }
+    },
+    {
+      "table": "question",
+      "id": 655,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "C",
+      "after": "B",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 24,
+        "group_id": 134
+      }
+    },
+    {
+      "table": "question",
+      "id": 655,
+      "source_file": "2025-12-CET4-2.pdf",
+      "column": "explanation",
+      "before": "What can eye contact, visibility and more interaction probably bring about?\n眼神交流、明显性和更多互动可能会带来什么结果？\nA)班级所有学生的平均成绩提高。\nC)对以学生为中心的教学方法更有力的支持。\nB）老师与学生之间的联系更紧密。\nD)更有利于有效课堂学习的氛围。\n解文章中间部分提到，老师们反馈与前排学生建立了更紧密的联系一一这可能是因为双方有眼神交流，学生\n在课堂上显眼，以及互动更频繁。选项B与文章内容一致，因此为正确答案。其他三个选项的说法在文中\n无依据，均可排除。\n关于坐在前排的极度害羞的学生，我们能了解到什么？\nA）他们可能会承受一些不必要的压力。\nC)他们可能会受到老师的额外关注。\nB）他们可能会努力表现出自已有准备。\nD）当被老师点名时，他们可能会感到无助。\n文章结尾部分提到，对于极度害差的学生来说，这种关注可能会带来一些不必要的压力。选项A与文章内\n容相符，因此为正确答案。选项C是产生压力的原因而非结果；选项B、D原文未提及，故均可排除。\nPart Il\nReading Comprehension\nSection",
+      "after": "【答案】B。\n【解析】原文说教师与前排学生建立更好的联系，可能原因是眼神接触、显眼的位置和更多互动，因此题干问这些因素会带来什么，应选 B 项师生联系更好。C 项学生中心教学支持未被提及，故选 B。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 24,
+        "group_id": 134
+      }
+    },
+    {
+      "table": "question",
+      "id": 1028,
+      "source_file": "2022-06-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "I",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 203
+      }
+    },
+    {
+      "table": "question",
+      "id": 1028,
+      "source_file": "2022-06-CET4-1.pdf",
+      "column": "explanation",
+      "before": "定位：由题干中的“read with a critical eye”定位到文章I段第二句：“然而，记住要对你读到的评论持保留态度——其中许多都是由被鄙视的员工写的。” 精析：本题为同义转述题。题干中的“read with a critical eye”（以批判的眼光阅读）对应定位句中的“take the reviews you read with a grain of salt”（对读到的评论持保留态度），二者语义一致，均指阅读时需谨慎判断，不可轻信。\n\n涉及知识点：细节题的同义替换（read with a critical eye = take... with a grain of salt）、固定短语理解。",
+      "after": "【答案】I。\n【解析】定位 I 段第二句。作者提醒求职者对网站评论持保留态度，因为不少评论来自愤愤不平的员工。read with a critical eye 是 take ... with a grain of salt 的同义改写，故选 I。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 203
+      }
+    },
+    {
+      "table": "question",
+      "id": 1094,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "B",
+      "after": "C",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 54,
+        "group_id": 217
+      }
+    },
+    {
+      "table": "question",
+      "id": 1094,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的anumberofstudies定位到第\n四段最后一句。\nC）【精析】细节辨认题。定位句指出，一些研究也指\n出，情商可以用来操纵他人以获得个人利益，故答\n案为 C)。\n【避错】由定位句可知，有情商的人可以操控别人，\n但并不意味着缺少它的人就容易被别人操控，故\n排除D)。A和B)在文中并未提及，故排除。",
+      "after": "【答案】C。\n【解析】定位讨论情商负面作用的段落末句。原文明确说若干研究表明，情商可被用于操纵他人以谋求个人利益，正对应 C 项。B 项谈悲观看待生活者容易抑郁，不是此处若干研究的结论，故选 C。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 54,
+        "group_id": 217
+      }
+    },
+    {
+      "table": "question",
+      "id": 1096,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "C",
+      "after": "L",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 26,
+        "group_id": 218
+      }
+    },
+    {
+      "table": "question",
+      "id": 1096,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "explanation",
+      "before": "【考点】动词辨析题。\nL】【语法判断】空格前有follow-upperiods，后面是\nfromthreeto21years，说明随访期是3-21年，因\n此本空应填入动词-ing形式作periods的后置\n定语。\n【语义判断】空格所在句的意思是，在\n年到21年的随访期间，有4.628例冠心病发作和",
+      "after": "【答案】L。\n【解析】第26空作 follow-up periods 的后置定语，并与 from three to 21 years 搭配，表达“范围从3年至21年的随访期”。L 项 ranging 与 from ... to ... 构成固定搭配。C 项 connected 不表达范围，故选 L。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 26,
+        "group_id": 218
+      }
+    },
+    {
+      "table": "question",
+      "id": 1106,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "E",
+      "after": "I",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 36,
+        "group_id": 219
+      }
+    },
+    {
+      "table": "question",
+      "id": 1106,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的financial aid，remains unchanged\n和tuitionrises定位到ID段第四句。\nI）【精析】同义转述题。定位句提到，我们并不知道\n要去询问—学校也没有打算指出——即使学费\n上涨，我的补助计划依旧保持原样。第五句接着\n用事实证明，来年学费增长了3%但经济补助还\n是和原来的一样。题干中的financial aid和\ntuitionrises在定位句中直接出现，题干中的\nremainsunchanged对应定位句中的staythesame\n和第五句中的remainedthesame，故答案为D。",
+      "after": "【答案】I。\n【解析】定位本篇 H 与 J 之间的 I 段。原文明确说即使学费上涨，资助数额仍保持不变，随后以学费上涨3%而资助不变举例；与题干完整对应，故选 I。当前正文把该段段首 I) 误识成 D，旧解析又混淆 I/D；E 段仅谈网上隐藏费用文章的目标群体，与本题无关。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 36,
+        "group_id": 219
+      }
+    },
+    {
+      "table": "question",
+      "id": 1126,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "A",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 11,
+        "group_id": 223
+      }
+    },
+    {
+      "table": "question",
+      "id": 1126,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "explanation",
+      "before": "Why is the woman unwilling to pay in advance?\nA）【精析】事实细节题。对话中，男士问女士是否愿\n意提前付款，女士表示反对，理由是她不喜欢在电\n话里提供自已的信用卡详细信息。因此，答\n案为 A)。\nQuestions 12 to 15 are based on the conversation you have just heard.\nM. Well, I think that was quite a successful trip in the end. Don't you think, Jenny?\nW: Absolutely. (12)There are lots of great potential markets here in China. So I'm sure that the head office in\nLondon will be pleased once we get back and present our research.\nM: Okay. We've got a bit of spare time now. Can we discuss the return trip to the head office?\nW: Sure. I've checked the availability of flights from Beijing to London on the 22nd and you have a choice.\n(13-1) There's a flight arriving the following morning, with a two-hour stopover in Dubai, or a flight\narriving at 1l.30 in the evening, with a five-hour stopover in Amsterdam.\nM: (13-2)Right. Well, that's obvious then, isn't it?\nW: (13-3)Okay, so that's Dubai. I've booked a room in a hotel about a mile from the office.The nearest metro\nstation is Earl's Court.\nM: Great. (14)Can you find a map that shows where the hotel is and send it to me online? I've never been to\nthe head office, you know. I want to see if I can get one of those rental bicycles and ride to the office just\nfor fun. For the presentation, I'll bring my own laptop and hook it up to their projector. Do you remember\nthe capacity of their meeting room?\nW. No, but I'll check.\nM: Just one more thing. I'll pay everything with my own card, right? And I'l submit my claims form\nafterwards.\"\nW: No problem. (15)Just remember to keep all your receipts. You remember the trouble you had last time.\nM: Oh, don't remind me.",
+      "after": "【答案】A。\n【解析】问句问女士为何不愿提前付款。她明确说不喜欢在电话里提供银行卡信息，对应 A 项。把费用加到月账单上是随后提出的处理方式，不是她拒绝提前付款时给出的理由，故选 A。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 11,
+        "group_id": 223
+      }
+    },
+    {
+      "table": "question",
+      "id": 1134,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "C",
+      "after": "B",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 19,
+        "group_id": 226
+      }
+    },
+    {
+      "table": "question",
+      "id": 1134,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "explanation",
+      "before": "What does the passage say about hot sunshine?\nB）【精析】事实细节题。短文开头提到，阳光和高温\n可能意味着享受野餐、公园游玩和海滩旅行，但它\n们会让你的身体产生一些奇怪的反应。因此，答\n案为B)。",
+      "after": "【答案】B。\n【解析】问句问短文如何描述炎热阳光。开头指出阳光和高温会使身体产生一些奇怪反应，随后举出口气变化和中暑等例子，直接对应 B 项 strange physical reactions，故选 B。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 19,
+        "group_id": 226
+      }
+    },
+    {
+      "table": "question",
+      "id": 1245,
+      "source_file": "2023-06-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "K",
+      "after": "M",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 35,
+        "group_id": 246
+      }
+    },
+    {
+      "table": "question",
+      "id": 1245,
+      "source_file": "2023-06-CET4-1.pdf",
+      "column": "explanation",
+      "before": "shrink 详解：【语法判断】空格为as引导的从句的谓语，主语是water supplies，需填入动词。【语义判断】句意为“随着水供应______”，结合上下文关于水资源紧张的描述，应填入表示“减少”的词。M) shrink（减少，收缩）符合。\n\n涉及知识点：动词辨析，主谓搭配，上下文语义",
+      "after": "【答案】M。\n【解析】第35空为 as 从句的谓语，主语 water supplies 为复数。全文讨论棉花生产消耗淡水，结尾说随着水供应减少，农民和消费者需更加关注环境影响，M 项 shrink（减少）符合。K 项 reducing 是非谓语形式，不能独立作此从句谓语，故选 M。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 35,
+        "group_id": 246
+      }
+    },
+    {
+      "table": "question",
+      "id": 1359,
+      "source_file": "2023-06-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "J",
+      "after": "D",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 39,
+        "group_id": 271
+      }
+    },
+    {
+      "table": "question",
+      "id": 1359,
+      "source_file": "2023-06-CET4-1.pdf",
+      "column": "explanation",
+      "before": "定位到D段第二、三句：“这就是非洲不识字的农民所面临的情况。他们经常对网络提供给许多其他人的关键信息无从知晓。” 题干中的don‘t have access to是对denied的同义转述。\n\n涉及知识点：同义转述",
+      "after": "【答案】D。\n【解析】定位 D 段前几句。该段提出非洲不识字农民无法阅读网上内容，经常被排除在网络关键信息之外；题干 unable to read 和 don’t have access 分别对应 illiterate 和 denied，故选 D。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 39,
+        "group_id": 271
+      }
+    },
+    {
+      "table": "question",
+      "id": 1422,
+      "source_file": "2019-06-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "B",
+      "after": "C",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 48,
+        "group_id": 284
+      }
+    },
+    {
+      "table": "question",
+      "id": 1422,
+      "source_file": "2019-06-CET4-2.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的theprimaryfactor和taking\ntopleadershippositions定位到第四段第一句。\nB）【精析】细节辨认题。定位句指出，约40%的美国\n人认为，最主要的原因是那些想要身政界或商\n界高层的女性需要面对双重标准，她们需要比男\n性做得更多来证明自己。由此可见，根据最近的\n调查，阻碍女性担任高层领导职位的主要因素是\n女性需要面对双重标准，即人们对女性有性别歧\n视，故答案为B)。\n【避错】文中未提及A】\"个性特征”和D\"没有职位\n空缺”，故排除：第三段最后一句指出，只有约五分\n之一的人认为女性肩负太多的家庭责任是她们担\n任高层领导的主要障碍，故排除C\"家庭责任”。",
+      "after": "【答案】C。\n【解析】定位到列举主要障碍的段落。原文说约四成受访者认为女性晋升时面对双重标准，必须比男性做得更多才能证明自己；这对应本题 C 项 Gender bias（性别偏见）。家庭责任仅约五分之一的人提到，并非主要因素。旧解析把“性别歧视”误记为 B，但本卷 B 实为家庭责任，应按本卷选项选 C。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 48,
+        "group_id": 284
+      }
+    },
+    {
+      "table": "question",
+      "id": 1446,
+      "source_file": "2019-06-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "I",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 42,
+        "group_id": 287
+      }
+    },
+    {
+      "table": "question",
+      "id": 1446,
+      "source_file": "2019-06-CET4-2.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的delayedmarriage定位到文章\nD段最后一句。\n【精析】同义转述题。定位句指出，对女性而\n言，推迟结婚—这在某种程度上与劳动力市\n场上男性就业不景气相关—或许能更好地\n解释为什么越来越多的女性选择在父母家居\n住。题干中的dueto对应定位句中的explain，\n故答案为D。：",
+      "after": "【答案】I。\n【解析】定位 I 段末句。该句明确说，对女性而言，推迟结婚可以解释更多年轻女性继续住在父母家中的现象，对应题干 delayed marriage 和 live with their parents。D 段讨论整体居住比例变化，没有女性晚婚这一具体因果，故选 I。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 42,
+        "group_id": 287
+      }
+    },
+    {
+      "table": "question",
+      "id": 1504,
+      "source_file": "2019-06-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "I",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 45,
+        "group_id": 299
+      }
+    },
+    {
+      "table": "question",
+      "id": 1504,
+      "source_file": "2019-06-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的make somethingmeaningless\n定位到文章I)段第二，三句。\n【精析】细节归纳题。定位句指出，你创造的东西\n对你而言没什么价值。一旦你演示完教科书中的\n概念，你就会扔掉管道清洁器，吸管和纸板管。题\n干中的nottaken seriously是对定位句中throw\naway the pipe cleaners, the straws, the\ncardboardtubes的概括，题干中的make\nsomething meaningless和定位句中的“The thing\nthat you make has no value to you.\"含义一致，故\n答案为D。",
+      "after": "【答案】I。\n【解析】定位 I 段。该段先指出学校里的某些制作活动使 making 变得无足轻重，继而说明学生做出的东西没有自身价值，演示完课本概念就丢弃。题干“制作无意义物品、未被认真对待”概括的正是此段，应选 I；旧解析末尾 D 是字母识别/录入错误。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 45,
+        "group_id": 299
+      }
+    },
+    {
+      "table": "question",
+      "id": 1533,
+      "source_file": "2019-12-CET4-1.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 C。C段描述一项持续七年、分析五万人健康数据的研究：把早餐作为一天中最大一餐的人，体重指数往往更低；研究者认为早餐有助于减少每日热量摄入，并提高饮食质量，因为早餐食物通常富含纤维和营养。题干的 lower calorie 和 higher nutritional intake 正是对这两点的概括。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 44,
+        "group_id": 303
+      }
+    },
+    {
+      "table": "question",
+      "id": 1581,
+      "source_file": "2019-12-CET4-2.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 I。I段引用美国邮政局官员 Mike Swigart 的话：作为联邦机构，USPS的独特之处在于它几乎存在于美国的每一个社区，并且有义务每天投递。题干的 more direct reach to communities 是对 we’re in literally every community 的概括，人物身份、机构和独特优势均对应I段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 37,
+        "group_id": 315
+      }
+    },
+    {
+      "table": "question",
+      "id": 1665,
+      "source_file": "2021-06-CET4-1.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 E。E段最后引用世界卫生组织的报告：就治疗总费用和生产力损失而言，抑郁症在全球造成的疾病负担最大。题干的 enormous economic losses 概括了治疗支出与生产力损失，worldwide 是原文中的同一范围，所以应定位到E段，而不能只依据其他段落出现的 depression 选段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 41,
+        "group_id": 330
+      }
+    },
+    {
+      "table": "question",
+      "id": 1703,
+      "source_file": "2021-06-CET4-2.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 D。D段以“这一实验和许多其他实验得出了一个简单结论”开头，随后指出，没有数词的人很难作出数量区分。题干的 a conclusion、many experiments、anumeric people 和 distinguishing quantities，分别对应该段的 conclusion、many other experiments、people do not have number words 和 quantitative distinctions，故选D段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 41,
+        "group_id": 337
+      }
+    },
+    {
+      "table": "question",
+      "id": 1876,
+      "source_file": "2020-09-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "I",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 30,
+        "group_id": 374
+      }
+    },
+    {
+      "table": "question",
+      "id": 1876,
+      "source_file": "2020-09-CET4-2.pdf",
+      "column": "explanation",
+      "before": "【考点】动词辨析题。\nI【语法判断】分析句子结构可知，空格所在部分是\n定语从句.that指代先行词aninterior，作从句的\n主语，而该从句中没有请语动词。文因为主语是\n第三人称单数，因此本空应填人动词的第三人称\n单数形式。\n【语义判断】由空格后面的tocreateapleasant\nenvironment(以创造令人愉悦的环境）可知，飞机\n的内饰应该让人感到十分舒适。因此，本空应填\n人含有“产生，制造”意义的动词，结合所给选项，\nD）maximizes“使增加到最大限度”最符合句意，故\n为正确答案。在备选的动词第三人称单数形式\n中，O）symbolizes不符合句意，因此排除",
+      "after": "【答案】I。\n【解析】第30空位于 that 引导的定语从句中，主语是单数 an interior，需填第三人称单数谓语。句意为设计一种能最大限度提高舒适度的内饰，I 项 maximizes 可与 comfort 搭配。D 项 drastically 是副词，不能作该从句谓语，故选 I。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 30,
+        "group_id": 374
+      }
+    },
+    {
+      "table": "question",
+      "id": 1884,
+      "source_file": "2020-09-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "F",
+      "after": "J",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 38,
+        "group_id": 375
+      }
+    },
+    {
+      "table": "question",
+      "id": 1884,
+      "source_file": "2020-09-CET4-2.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的Amiddleschoolteacher、\ncontributions 和 Chinese immigrants to America\n定位到J）段倒数第三句。\n【精析】同义转述题。定位句提到，身为一名中学\n教师的王老师希望他能让学生们了解华裔美国人\n是如何为美国做出贡献的这是他曾经还是旧金\n山港湾区的学生的时候并未得到的。题干中的\nhelp students learnabout对应定位句中的he's\nexposing the students to，题干中的Chinese\nimmigrantstoAmerica对应定位句中的Chinese\nAmericans，故答案为J）。\n39【定位】由题干中的NoAsianAmericans和\nrecommendedforstudy定位到F）段最后两句\nF】【精析】细节归纳题。定位句提到.在受到推荐接\n受研究的近100名美国人中，77%是白人，18%是\n非美国人，4%是印第安人，1%是拉丁美洲人。\n没有一个是亚裔美国人。由此可知，用于K-12课\n堂研究，受到推荐的历史人物名单中，不包含亚裔\n美国人，故答案为F）。",
+      "after": "【答案】J。\n【解析】定位 J 段。该段介绍中学教师 Wilson Wong 在夏令营里通过修铁路模型等活动，让学生了解华裔对美国的贡献，直接对应题干的教师、学生和华裔贡献。F 段是课程人物构成统计，属于下一道题的信息，故本题选 J。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 38,
+        "group_id": 375
+      }
+    },
+    {
+      "table": "question",
+      "id": 1891,
+      "source_file": "2020-09-CET4-2.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "I",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 45,
+        "group_id": 375
+      }
+    },
+    {
+      "table": "question",
+      "id": 1891,
+      "source_file": "2020-09-CET4-2.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的AnAsian-Americanstudies\nprofessorteacher rtraining teachers\nbackground定位到D段第一，二句。\n【精析】同义转述题。定位句提到.旧金山州立大学\n的亚裔美国人研究教授阿里森·廷天科-库贝尔斯\n说，如何教授种族和民族问题至关重要。她补充\n说：这与老师的背景没多大关系，但是与培训有\n关。题干中的placedgreateremphasisonteacher\ntrainingthanon teachers background对应定位\n句中的not somuchabouttheteachers\nbackground，butabouttraining，故答案为D。\n四级2020年58",
+      "after": "【答案】I。\n【解析】定位 I 段第二句。亚裔研究教授强调，关键不在教师背景而在培训；题干把这一对比改写为更重视 teacher training，故选 I。D 段讨论多元文化课程对学生的益处，没有教授比较教师背景与培训的观点。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 45,
+        "group_id": 375
+      }
+    },
+    {
+      "table": "question",
+      "id": 2021,
+      "source_file": "2020-12-CET4-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 L。L段解释“计划性淘汰”：产品被设计得很快过时，从而让消费者更换。紧接着举例说，即使旧午餐盒还完全能用，孩子们仍会每年央求买新午餐盒，以追上最新的角色形象。题干的 every year 和 stay in fashion 对应这段中的每年换新及 keep up with the newest characters。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 41,
+        "group_id": 402
+      }
+    },
+    {
+      "table": "question",
+      "id": 2098,
+      "source_file": "2021-12-CET4-3.pdf",
+      "column": "correct_answer",
+      "before": "F",
+      "after": "O",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 31,
+        "group_id": 417
+      }
+    },
+    {
+      "table": "question",
+      "id": 2098,
+      "source_file": "2021-12-CET4-3.pdf",
+      "column": "explanation",
+      "before": "【考点】副词辨析题。\nO】【语法判断】空格后面是谓语动词don't consider，\n因此空格处应填入副词。\n语义判断本句意为：医生 不认为偶尔\n做疆梦是个问题。前一句提到，疆梦是人类经历\n的一部分，后一句提到，它们可能只是睡眠障碍的\n症状。由此可知，在医生看来，疆梦是比较正常\n的，通常不会是大问题。因此空格处应填入含有\n“通常”意义的副词，由此确定答案为○)\ntypically。另外一个备选副词F）drastically\"急剧\n地”不符合句意，因此排除。",
+      "after": "【答案】O。\n【解析】第31空修饰谓语 don’t consider，应填副词。上下文说噩梦是人类经历的一部分，医生通常不把偶尔做噩梦看成问题，O 项 typically（通常）符合。F 项 drastically（急剧地）与语义不符，故选 O。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 31,
+        "group_id": 417
+      }
+    },
+    {
+      "table": "question",
+      "id": 2135,
+      "source_file": "2022-09-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "I",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 38,
+        "group_id": 422
+      }
+    },
+    {
+      "table": "question",
+      "id": 2135,
+      "source_file": "2022-09-CET4-1.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的differsfrom和quickand\nsimplesolutions定位到文章I)段第一句。\n【精析】细节归纳题。定位句提到，在关于奥巴马\n医改、医疗保险、医疗补助、健康保险和强取豪夺\n的医药公司的政治喧嚣中，凯莉·哈丁与呼吁快\n速解决问题、越简单越好的群体不同。题干中的\ndiffers from those seeking quick and simple\nsolutions是对定位句中stands apartfrom the\ncrowd calling for quick fixes, the simpler the\nbetter的同义转述，题干中的America'smedical\nproblems是对定位句中thepolitical noise about\nObamacare, Medicare, Medicaid, health insurance\nandthievingpharmaceutical companies的归纳总\n结，故答案为D。",
+      "after": "【答案】I。\n【解析】定位 I 段首句。原文说 Harding 不同于那些要求快速、越简单越好解决方案的人。题干 differs from 和 quick and simple solutions 正是 stands apart 与 quick fixes, the simpler the better 的改写，故选 I。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 38,
+        "group_id": 422
+      }
+    },
+    {
+      "table": "question",
+      "id": 2137,
+      "source_file": "2022-09-CET4-1.pdf",
+      "column": "correct_answer",
+      "before": "D",
+      "after": "F",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 422
+      }
+    },
+    {
+      "table": "question",
+      "id": 2137,
+      "source_file": "2022-09-CET4-1.pdf",
+      "column": "explanation",
+      "before": "【定位】由题干中的KelliHarding、scientific\n2022.9/17\nadvances,not made Americans healthier 和 nor\nprolongedtheirlife定位到文章F)段第二，三句。\n【精析】细节归纳题。定位句提到，她（凯莉·哈\n丁）写道：“尽管我们取得了科学进步，但美国人的\n健康状况非常糟糕。2016年，美国的预期寿命在\n世界上排名第43位。”题干中的scientific\nadvances对应定位句中的scientificprogress，题\n干中的havenotmadeAmericanshealthier是对\n定位句中Americansareremarkablyunhealthy\n的同义转述，题干中的norprolongedtheirlife是\n对定位句中In2016，theUnitedStatesranked\nforty-third inthe world forlife expectancy的归\n纳总结，故答案为F）。\n4l.【定位】由题干中的deeplymoved，KelliHarding\n和hercurrentlife定位到文章D)段第一句。\nD) 【精析】细节归纳题。定位句提到，凯莉的这封信\n是她个人生活和职业生涯的最新写照，触动了\n“我”的内心。题干中的Theauthorwasdeeply\nmoved对应定位句中的touchedmyheart，题干\n中的 what Kelli Harding wrote about her current\nlife是对定位句中aliterateupdateonbothher\npersonalandprofessionallife的概括归纳，故答\n案为 D)。\n42：【定位】由题千中的GeorgeEngel、notonly和but\nalso定位到文章L）段第二句。\n【精析】细节归纳题。定位句提到，凯莉举例赞扬\n了她的医学院教授乔治·恩格尔，他不仅总是关\n注患者的身体状况，也会关注患者的生活小细节，\n比如她是否在病房里挂着家庭照片，是否收到别\n人送的鲜花。题干中的notonlylooksintotheir\nsymptoms but also into things like the emotional\nsupporttheyreceive是对定位句中noticednot\njust a patient's physical condition but little details\nabout her life, such as if she had family pictures\nup in herhospital room orflowers delivered 的归\n纳总结，故答案为L）。",
+      "after": "【答案】F。\n【解析】定位 F 段引用 Harding 的话。她指出，尽管科学进步，美国人仍极不健康，且2016年预期寿命世界排名第43；对应题干科学进步未能改善健康和延长寿命的概括。D 段是作者被来信打动的经历，故本题选 F。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 422
+      }
+    },
+    {
+      "table": "question",
+      "id": 2355,
+      "source_file": "2020-09-CET6-1.pdf",
+      "column": "correct_answer",
+      "before": "O",
+      "after": "J",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 31,
+        "group_id": 466
+      }
+    },
+    {
+      "table": "question",
+      "id": 2355,
+      "source_file": "2020-09-CET6-1.pdf",
+      "column": "explanation",
+      "before": "【 考点】语义推断 题。\n度，由 此 确 定 答 案微为 C)。 另 一 备 选 副 词 J) 【语法判断】空格所在 旬 旬子结构完整， those在 旬\n0) viciously\"凶残地，恶毒地“不能与invested搭\n中作表语， with success作后置定语修饰\n配，故排除。\nthose, 可以填入形容词或动词的分词形式。",
+      "after": "【答案】J。\n【解析】第31空修饰 those，并与 with success 构成搭配，需用形容词或分词。J 项 obsessed 与 with 搭配，意为“对成功着迷的人”，承接下文因害怕被贴上失败标签而制造借口。O 项 viciously 为副词，无法构成 those viciously with success，故选 J。",
+      "evidence_report": "answer-conflicts-review.json",
+      "identity": {
+        "q_number": 31,
+        "group_id": 466
+      }
+    },
+    {
+      "table": "question",
+      "id": 2503,
+      "source_file": "2024-06-CET6-2.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 D。问题考查“836号动议”通过后的结果。男士说，这项提案要协调全村房屋的外观，让房屋具有共同的设计特征，从而使整个村庄更美观。D项“所有房屋在外观上相似”概括了这一结果。A、B项把外观上的 harmonize 误解成人际关系和谐；C项的居住舒适度没有在这部分对话中提到。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 7,
+        "group_id": 493
+      }
+    },
+    {
+      "table": "question",
+      "id": 2906,
+      "source_file": "2025-12-CET6-2.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 O，vanish（消失）。空格位于 cause more jobs to 后，需用动词原形，构成 cause ... to do。前文讨论机器替代人类工作，后文说拥有专属技能的创意工作者会更少，因此这里表示人工智能进步会使更多工作岗位消失。vanish 同时满足语法和语义要求。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 35,
+        "group_id": 569
+      }
+    },
+    {
+      "table": "question",
+      "id": 2914,
+      "source_file": "2025-12-CET6-2.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 C。C段说，最明智的领导者会学着分辨：究竟是过早放弃，还是抓住本来就不该坚持的事不放。题干的 distinguish between 对应 discern the difference between，giving up too soon 对应 quitting too soon，sticking with something irrationally 概括 holding onto something that they shouldn’t，故选C段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 570
+      }
+    },
+    {
+      "table": "question",
+      "id": 3447,
+      "source_file": "2021-06-CET6-2.pdf",
+      "column": "content",
+      "before": "A",
+      "after": "Apart from the fire, the water used to extinguish it also caused a lot of damage to Notre Dame Cathedral.",
+      "evidence_report": "question-content-repairs.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 671
+      }
+    },
+    {
+      "table": "question",
+      "id": 3589,
+      "source_file": "2021-12-CET6-2.pdf",
+      "column": "content",
+      "before": "Question 11",
+      "after": "Why do some species of bats use their sense of hearing more than their eyes?",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 11,
+        "group_id": 700
+      }
+    },
+    {
+      "table": "question",
+      "id": 3589,
+      "source_file": "2021-12-CET6-2.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 B。问题问为什么某些蝙蝠比起眼睛更依赖听觉。短文结尾明确说，这是适应某种特定生活方式的结果，而且它们的眼睛依然具备完整功能。B项是对 adaptation to a particular lifestyle 的同义转述。A项“天生失明”与原文相反；C项长途飞行依靠视觉，不能解释更依赖听觉；D项天气变化不是文中给出的原因。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 11,
+        "group_id": 700
+      }
+    },
+    {
+      "table": "question",
+      "id": 3653,
+      "source_file": "2022-06-CET6-1.pdf",
+      "column": "content",
+      "before": "Question 1",
+      "after": "What do we learn about David Jackson from the conversation?",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 1,
+        "group_id": 712
+      }
+    },
+    {
+      "table": "question",
+      "id": 3653,
+      "source_file": "2022-06-CET6-1.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 A。女士开场介绍 David Jackson 是《纽约客》的 staff writer，即职业撰稿人，所以A项与原文直接一致。对话说他以冒险类非虚构作品闻名，并未说他本人是冒险家，也不是虚构小说作家；随后介绍的是他有两个分别11岁和14岁的孩子，不能据此选D项“四个孩子的父亲”。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 1,
+        "group_id": 712
+      }
+    },
+    {
+      "table": "question",
+      "id": 3712,
+      "source_file": "2022-09-CET6-1.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 D。文章直接指出，当旅游业的收益没有在当地体现时，居民往往会感到沮丧；随后解释，跨国连锁酒店未必公平分配收益，游客在大型度假村或邮轮内消费，留给当地社区的受益机会很少。因此D项“他们认为自己没有得到应得的收益”最贴近原因。A项属于文章提到的其他负面影响，B、C项并不是这里给出的原因。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 53,
+        "group_id": 724
+      }
+    },
+    {
+      "table": "question",
+      "id": 3788,
+      "source_file": "2022-12-CET6-1.pdf",
+      "column": "content",
+      "before": "To",
+      "after": "To participate in the seven-day marathon series, Wardian had to raise a lot of money and have his wife's support.",
+      "evidence_report": "question-content-repairs.json",
+      "identity": {
+        "q_number": 45,
+        "group_id": 737
+      }
+    },
+    {
+      "table": "question",
+      "id": 3962,
+      "source_file": "2023-06-CET6-1.pdf",
+      "column": "content",
+      "before": "The",
+      "after": "The participants in a recent study repeatedly underestimated the positive effect on those who received thank-you notes.",
+      "evidence_report": "question-content-repairs.json",
+      "identity": {
+        "q_number": 38,
+        "group_id": 773
+      }
+    },
+    {
+      "table": "question",
+      "id": 4089,
+      "source_file": "2023-12-CET6-1.pdf",
+      "column": "content",
+      "before": "",
+      "after": "Parts of Africa are getting warmer much faster than the average, with southern Africa witnessing roughly twice the global warming rate over the last half century.",
+      "evidence_report": "question-content-repairs.json",
+      "identity": {
+        "q_number": 38,
+        "group_id": 798
+      }
+    },
+    {
+      "table": "question",
+      "id": 4270,
+      "source_file": "2020-09-CET6-3.pdf",
+      "column": "content",
+      "before": "Unlike employers and health plans, insurers have been rather reluctant to pay for some telemedicine services. 4l. Some supporters of telemedicine hope states will accept each other's medical practice licenses as valid.",
+      "after": "Unlike employers and health plans, insurers have been rather reluctant to pay for some telemedicine services.",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 835
+      }
+    },
+    {
+      "table": "question",
+      "id": 4270,
+      "source_file": "2020-09-CET6-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 K。K段比较了不同付款方的态度：雇主和医疗保障计划积极为虚拟急诊付费，而保险公司对医生通过电话、邮件或视频为已有患者持续随访的远程医疗服务，付费意愿低得多。题干的 Unlike employers and health plans 及 reluctant to pay 正对应这种比较。紧随其后的执照互认内容属于下一题，不是本题的定位依据。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 835
+      }
+    },
+    {
+      "table": "question",
+      "id": 4435,
+      "source_file": "2022-09-CET6-2-3.pdf",
+      "column": "content",
+      "before": "Employers attach more importance to applicants' computer skills than their language competence. or computer coding.",
+      "after": "Employers attach more importance to applicants' computer skills than their language competence.",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 36,
+        "group_id": 871
+      }
+    },
+    {
+      "table": "question",
+      "id": 4435,
+      "source_file": "2022-09-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 L。L段开头明确说，虽然外语能带来许多益处和技能，但招聘人员和雇主更看重计算机技能。题干的 attach more importance to 对应 value ... more，applicants’ computer skills 与 language competence 概括了该段的比较，故选L段。其他段落主要讨论课程设置，不能替代本段对雇主偏好的直接说明。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 36,
+        "group_id": 871
+      }
+    },
+    {
+      "table": "question",
+      "id": 4530,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 K，scenario（情形、设想）。空格位于 the more likely 后，且后面是同位性的说明 that we humans will destroy ourselves，因此需要名词表示“更可能出现的情形”。上文说人类可能被小行星或超级火山毁灭，这里转为另一种情形——人类毁灭自己。scenario 符合语法与上下文。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 26,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4531,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 G，extinction（灭绝）。空格位于 human 与 risks 之间，表示哪一种风险；human extinction risks 即“人类灭绝的风险”。上文谈人类从地球上消失，下文又用 existential risks 指生存风险，均与 extinction 呼应。evaporation 是“蒸发”，不符合人类存亡的语境。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 27,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4532,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 L，severely（严重地）。空格在 underestimated 前，需要副词修饰这个过去分词。worse still 表示“更糟糕的是”，说明社会不但不了解这些风险，还严重低估它们，故选 severely。shrewdly 表示“精明地”，不能表达作者批评低估风险的语气。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 28,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4533,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 H，obscure（鲜为人知的、不清楚的）。前一句说某些生存风险 fairly well known（相当为人所知），But others 引出相反情况；空格与后面的 exotic 共同作表语，需用形容词。obscure 与 well known 形成对照，表示另一些风险不为人知，甚至十分奇异。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 29,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4534,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 B，arise（产生）。关系从句 that ___ from human technology 修饰 risks，空格需要谓语动词；risks 为复数，使用动词原形 arise。arise from 是“由……引起、产生于”，这里说最让Bostrom担心的是源于人类技术的那部分生存风险。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 30,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4535,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 J，posed（造成、构成）。risks 后的短语作后置定语，完整含义是 risks which are posed to humans by technological progress，即“技术进步对人类造成的风险”。风险与 pose 之间是被动关系，所以用过去分词 posed；pose risks to ... 是“对……构成风险”。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 31,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4536,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 A，advocate（倡导者、支持者）。空格位于 a longtime 后、of transhumanism 前，需要表示人物身份的可数名词。前句说他并不是反对科技进步的人，后文把技术视为通向更好存在方式的桥梁，因此这里说他是超人类主义的长期倡导者，advocate 符合。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 32,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4537,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 I，particular。in particular 是固定短语，表示“尤其、特别是”。前面先说运用哲学和数学的工具，后面特别点出 probability theory（概率论）这一种数学工具，因此应填 particular，不能把它理解成泛指多种工具的 variety。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 33,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4538,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 N，species（物种）。空格前是 as a，后面的 might achieve ... 说明“我们作为一个……如何安全渡过”。全文讨论的是全人类共同面临的生存风险，因此这里把人类作为一个物种来谈，species 语义最合适。species 单复数同形，可用于 a species。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 34,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4539,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 D，encounter（遭遇）。空格在情态动词 might 后，需要动词原形；其宾语是前面的 existential risks。这里说接下来的对话会讨论未来几十年乃至几百年人类可能遭遇的生存风险，以及如何活着挺过这些风险，encounter 与 risks、outlast them 的语境相合。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 35,
+        "group_id": 893
+      }
+    },
+    {
+      "table": "question",
+      "id": 4542,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 C。C段开头说，最近一项研究发现，旧金山在加利福尼亚州的经济差异排名第一；接着用最高收入家庭与其他家庭的收入差距说明这一点。题干的 biggest income gap 对应 ranks first ... for economic difference，地域 California 也完全一致，故选C段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 38,
+        "group_id": 894
+      }
+    },
+    {
+      "table": "question",
+      "id": 4543,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 E。E段明确指出，近期就业强劲增长，加上长期限制住房开发的政策，并没有缓解住房可负担性危机；还举例说，2015年湾区新增64,000个工作岗位，却只新建5,000套住房。题干把这两项原因概括为更高就业率和有限住房供给，结果均为购房没有变容易。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 39,
+        "group_id": 894
+      }
+    },
+    {
+      "table": "question",
+      "id": 4544,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 H。H段说，人们对自身保障状况与邻居相比如何的判断，比客观生活水平更影响幸福感。题干的 compare ... with others 对应 in comparison to their neighbors，sense of contentment 对应 happiness，强调的都是相对比较的影响，故选H段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 40,
+        "group_id": 894
+      }
+    },
+    {
+      "table": "question",
+      "id": 4545,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 K。K段指出，单靠房地产措施不能解决问题，还需升级交通、扩展基础设施，把遥远地区与硅谷及旧金山连接起来，让房价较低地区处于可接受的通勤范围。题干的 improved transport networks 和 distant outlying areas 正是对这些措施的概括，因此定位K段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 41,
+        "group_id": 894
+      }
+    },
+    {
+      "table": "question",
+      "id": 4546,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 F。F段把购房所需的最低收入254,000美元与当地家庭约80,000美元的平均收入作比较，随后明确说，多数租房者已经难以实现购房梦。题干的 average incomes、tenant families 和 virtually impossible to buy a home 对应该段的收入差距、租房者和 beyond the grasp，故选F段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 42,
+        "group_id": 894
+      }
+    },
+    {
+      "table": "question",
+      "id": 4547,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 M。M段呼吁必须现在就落实解决方案，赶在人群的愤怒变成严重问题之前行动；并认为湾区应证明自己不仅能创新技术，也能在承担社会责任的同时解决复杂的社会和经济问题。题干中的 innovative solutions 和 before it is too late 概括了该段的创新与紧迫性。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 43,
+        "group_id": 894
+      }
+    },
+    {
+      "table": "question",
+      "id": 4548,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 B。B段指出，旧金山湾区严重的市场扭曲造成了居民对科技产业强烈而不断积聚的怨恨，并警告经济和住房繁荣带来的后果可能扩大社会经济差距。题干的 strongly resent 对应 boiling resentment，tech industry 为原词重现，故选B段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 44,
+        "group_id": 894
+      }
+    },
+    {
+      "table": "question",
+      "id": 4549,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 J。J段分析住房危机成因，并提出地方政府应支持开发、提高住房密度，同时 streamlining the approval process（简化审批程序）。题干的 simplify the approval procedures 是该短语的同义转述，因此选J段。原文J段跨试卷第5、6页，不能把第5页末尾遗漏段落标记后的内容误并入I段。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 45,
+        "group_id": 894
+      }
+    },
+    {
+      "table": "question",
+      "id": 4685,
+      "source_file": "2019-12-CET6-3.pdf",
+      "column": "content",
+      "before": "Question 14",
+      "after": "How does daydreaming benefit people according to some researchers?",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 14,
+        "group_id": 935
+      }
+    },
+    {
+      "table": "question",
+      "id": 4685,
+      "source_file": "2019-12-CET6-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 C。问题问根据一些研究人员的发现，做白日梦对人有什么益处。原文说，它让人有机会思考自己的目标，而且似乎还能 increase creativity（提高创造力）；C项 contributes to their creativity 正是同义转述。D项“有助于深入思考”扩大了“思考目标”的意思；A、B项没有在原文中作为益处提出。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 14,
+        "group_id": 935
+      }
+    },
+    {
+      "table": "question",
+      "id": 4912,
+      "source_file": "2022-06-CET6-2-3.pdf",
+      "column": "content",
+      "before": "Question 24",
+      "after": "How do millionaires react when they fail in their investment?",
+      "evidence_report": "listening-4912-review.json",
+      "identity": {
+        "q_number": 24,
+        "group_id": 1005
+      }
+    },
+    {
+      "table": "question",
+      "id": 4912,
+      "source_file": "2022-06-CET6-2-3.pdf",
+      "column": "correct_answer",
+      "before": null,
+      "after": "D",
+      "evidence_report": "listening-4912-review.json",
+      "identity": {
+        "q_number": 24,
+        "group_id": 1005
+      }
+    },
+    {
+      "table": "question",
+      "id": 4912,
+      "source_file": "2022-06-CET6-2-3.pdf",
+      "column": "explanation",
+      "before": "【答案】C（细节题）They think they themselves are to blame.\n【定位】P3Millionaires don't count on anyone else to make them rich, and they don't blame anyone else if they fall short.百万富翁不指望别人让自己变富，达不到目标时也不怪罪任何人。\n【信号】两个 don't…anyone else 否定推责。答案句连用 don't count on anyone else 和 don't blame anyone else 两重否定，把责任牢牢落回自己身上——否定\"怪别人\"等于肯定\"怪自己\"，这是答案落点。\n【替换】they don't blame anyone else if they fall short↔They think they themselves are to blame否定他人=肯定自身（肯否转换）\n【排除】A)与原文相反A 说他们 count on others to take the responsibility，盗用了原文的 count on anyone else 和 responsibility，但原文明明是\"don't count on anyone else\"——加了否定。A 把原文的否定句正过来用，与原文相反。 借用原文：don't count on anyone elseB)未提及B 说他们 change their investment strategy in time（及时改投资策略），原文谈的是\"失利时不怪别人/担责\"，从没说他们会\"改策略\"，属凭常识脑补的未提及项。D)答非所问D 的 persist rather than get discouraged（坚持不气馁）说的是\"态度上是否泄气\"，原文这句讲的是\"责任归谁\"，D 答的是另一个维度，与本题问的\"react when they fail\"对不上。\n【翻译】百万富翁在投资失败时如何应对?A) 他们指望别人承担责任。B) 他们及时改变投资策略。C) 他们认为自己应该受到责备。D) 他们坚持下去而不是气馁。",
+      "after": "【答案】D。题目问：百万富翁在投资失败时如何应对？听力先说他们未达目标时不怪罪别人，随后说明他们专注于可控制的事情，使日常习惯与目标一致，并努力将长期计划贯彻到底。因此 D“他们坚持下去而不气馁”与整段反应相符。C“他们认为自己应受责备”增加了原文没有说出的自责判断；“不责怪别人”不能直接等同于“责怪自己”。A 与不依靠他人的原意相反；B 的及时改变投资策略未被提及。复核采用原音内容及本地答案 PDF 第 7 页（印刷页 29）的 D 解析；部分网络参考答案仍标 C，此处保留来源分歧，不称为官方标准答案认证。",
+      "evidence_report": "listening-4912-review.json",
+      "identity": {
+        "q_number": 24,
+        "group_id": 1005
+      }
+    },
+    {
+      "table": "question",
+      "id": 5123,
+      "source_file": "2024-06-CET6-3.pdf",
+      "column": "explanation",
+      "before": null,
+      "after": "答案为 D。问题考查“836号动议”通过后的结果。男士说，这项提案要协调全村房屋的外观，让房屋具有共同的设计特征，从而使整个村庄更美观。D项“所有房屋在外观上相似”概括了这一结果。A、B项把外观上的 harmonize 误解成人际关系和谐；C项的居住舒适度没有在这部分对话中提到。",
+      "evidence_report": "missing-explanations-patch.json",
+      "identity": {
+        "q_number": 7,
+        "group_id": 1063
+      }
+    },
+    {
+      "table": "question_group",
+      "id": 219,
+      "source_file": "2022-12-CET4-1.pdf",
+      "column": "passage",
+      "before": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the letter. Answer the questions by marking the corresponding letter on Answer Sheet 2. The hidden costs colleges don't want you to know about A) This fall, thousands of college students from across the country will begin their undergraduate studies at colleges around the nation. They will inevitably pack too much to fit in their tiny dorm rooms. They will also carry with them a huge student loan debt, in addition to countless \"hidden\" out-of-pocket costs paid for by their bank accounts and the bank accounts of their families. B) At my well-respected, private, four-year university in Washington, D.C., which boasts a yearly tuition of s 44,046 not including room and board, I receive over $ 57,000 yearly in financial aid. As a student from a family that is struggling to make ends meet, my financial aid package is a combination of federal grants and federal work study, university merit scholarships and financial aid awards, and about s8,o00 yearly in federally subsidized （有补贴的） and unsubsidized loans.On paper，my expenses and my financial aid just about even out. Off paper, they don't. C) Universities today are in the business of making money, and mine is no exception. They hit me right out of gate with a s 160 fee to attend my freshman orientation,a price which does not include the cost of travel to and from the District. Almost every class has an associated fee not included in the cost of tuition, most between $ 40 and $ 1o0.Fees for lab science classes are the highest, and all students at my university are required to take at least one lab before they graduate. Buying a laptop proved a necessity and, thankfully. a relative bought me one as a gift. Renting a mini-fridge for my dorm room costs my roommates and me about $ 140 a year. D) Schools will charge you whatever they can. The costs of any damage to the dorm, including elevators, bathrooms, and common areas, are billed to every person on a dorm floor, or even the entire building if they do not know who caused the damage. After I fell out of my bed twice during my freshman year, the university installed a railingfor s 2o, billed to my student account. My financial aid did not anticipate any of these costs, and so it did not cover them. E) An Internet search of \"hidden costs\" of college turns up a host of articles on parent-centered websites on the college application process.These articles are almost always geared towards upper-and middle class families. For students already struggling to pay tuition, these costs may be the least of their worries. F) So what hidden costs should low-income students really be paying attention to? My college experience offersa few examples. G) If you are a low-income student who will be attending school out-of-state, make sure you know if you can use your state benefits, such as the Supplemental Nutrition Assistance Program, or SNAP. It wasn't until after I had accepted admission to an out-of-state school that I learned that I could not use my Ohio Medicaid on campus for anything other than emergency care. My benefits became invalid the second I moved out of Ohio. After my freshman year, I had to opt for the school's insurance plan, which costs around s 2,ooo a year. Even if your school offers a flat-rate fee for a doctor's appointment at the student health center (mine is s 20 a visit), these fees often do not include extra fees for lab tests or prescriptionmedications（药物）. H) If you plan on paying off bills in your student account with a credit card, be aware of any additional costs. My school charges an additional fee for the use of a credit card to settle outstanding charges, which can add upwards of 3% of the balance to your bill. D There is another depressing reality hidden within even the largest financial aid packages: Colleges family was careful to ask about the chances of financial aid being taken away after my freshman year. We were assured that, except for low grades or a raise in family income, no money would be taken away.We did not know to askand the school did not readily point outthat even if tuition rises, my financial aid package will stay the same. So when my university voted to raise tuition costs 3% at the end of my freshman year, my financial aid package remained the same and I was suddenly responsible for an additional s 1,2oo for the next year. The university administration will likely vote to raise costs at least once more before my graduation. J) Yes, I chose to attend an expensive university far from my hometown. Yes, there were cheaper options. But there are promising students from struggling families across the nation who should not rule out their dream schools entirely. All things considered, I am paying significantly less than the ticket price of my university, and having an educational experience in Washington, D.C., that I would not have had anywhere else. As a low-income student from a down-and-out Rust Belt community, these educational experiences have enormous potential to brighten my futureand my family's future. K) The key is to make sure that students and their families understand that hidden costs exist, and that they may prove problematic. Fill out a more comprehensive checklist, and be wary of listed prices that seem too low. Understand just how complicated the financial aid process is. L) Students and families must also understand their ability to self-advocate. They should not pay student bills or excess fees blindly. If something does not look right, ask about it. If it still doesn't look right, negotiate it. In cases where parents are working multiple jobs, are less knowledgeable about college bureaucracies, have limited English language skills, or are not contributing financially to their child's education, the burden of self-advocacy will fall on the student. I understand the difficulty, and the embarrassment.But it is necessary. M In the grand scheme of things, however, colleges also must come to understand that the hidden fees they ask for may prove unmanageable for the very kinds of low-income or first-generation students they are tryingdesperatelyto attract.",
+      "after": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the letter. Answer the questions by marking the corresponding letter on Answer Sheet 2. The hidden costs colleges don't want you to know about A) This fall, thousands of college students from across the country will begin their undergraduate studies at colleges around the nation. They will inevitably pack too much to fit in their tiny dorm rooms. They will also carry with them a huge student loan debt, in addition to countless \"hidden\" out-of-pocket costs paid for by their bank accounts and the bank accounts of their families. B) At my well-respected, private, four-year university in Washington, D.C., which boasts a yearly tuition of s 44,046 not including room and board, I receive over $ 57,000 yearly in financial aid. As a student from a family that is struggling to make ends meet, my financial aid package is a combination of federal grants and federal work study, university merit scholarships and financial aid awards, and about s8,o00 yearly in federally subsidized （有补贴的） and unsubsidized loans.On paper，my expenses and my financial aid just about even out. Off paper, they don't. C) Universities today are in the business of making money, and mine is no exception. They hit me right out of gate with a s 160 fee to attend my freshman orientation,a price which does not include the cost of travel to and from the District. Almost every class has an associated fee not included in the cost of tuition, most between $ 40 and $ 1o0.Fees for lab science classes are the highest, and all students at my university are required to take at least one lab before they graduate. Buying a laptop proved a necessity and, thankfully. a relative bought me one as a gift. Renting a mini-fridge for my dorm room costs my roommates and me about $ 140 a year. D) Schools will charge you whatever they can. The costs of any damage to the dorm, including elevators, bathrooms, and common areas, are billed to every person on a dorm floor, or even the entire building if they do not know who caused the damage. After I fell out of my bed twice during my freshman year, the university installed a railingfor s 2o, billed to my student account. My financial aid did not anticipate any of these costs, and so it did not cover them. E) An Internet search of \"hidden costs\" of college turns up a host of articles on parent-centered websites on the college application process.These articles are almost always geared towards upper-and middle class families. For students already struggling to pay tuition, these costs may be the least of their worries. F) So what hidden costs should low-income students really be paying attention to? My college experience offersa few examples. G) If you are a low-income student who will be attending school out-of-state, make sure you know if you can use your state benefits, such as the Supplemental Nutrition Assistance Program, or SNAP. It wasn't until after I had accepted admission to an out-of-state school that I learned that I could not use my Ohio Medicaid on campus for anything other than emergency care. My benefits became invalid the second I moved out of Ohio. After my freshman year, I had to opt for the school's insurance plan, which costs around s 2,ooo a year. Even if your school offers a flat-rate fee for a doctor's appointment at the student health center (mine is s 20 a visit), these fees often do not include extra fees for lab tests or prescriptionmedications（药物）. H) If you plan on paying off bills in your student account with a credit card, be aware of any additional costs. My school charges an additional fee for the use of a credit card to settle outstanding charges, which can add upwards of 3% of the balance to your bill. I) There is another depressing reality hidden within even the largest financial aid packages: Colleges family was careful to ask about the chances of financial aid being taken away after my freshman year. We were assured that, except for low grades or a raise in family income, no money would be taken away.We did not know to askand the school did not readily point outthat even if tuition rises, my financial aid package will stay the same. So when my university voted to raise tuition costs 3% at the end of my freshman year, my financial aid package remained the same and I was suddenly responsible for an additional s 1,2oo for the next year. The university administration will likely vote to raise costs at least once more before my graduation. J) Yes, I chose to attend an expensive university far from my hometown. Yes, there were cheaper options. But there are promising students from struggling families across the nation who should not rule out their dream schools entirely. All things considered, I am paying significantly less than the ticket price of my university, and having an educational experience in Washington, D.C., that I would not have had anywhere else. As a low-income student from a down-and-out Rust Belt community, these educational experiences have enormous potential to brighten my futureand my family's future. K) The key is to make sure that students and their families understand that hidden costs exist, and that they may prove problematic. Fill out a more comprehensive checklist, and be wary of listed prices that seem too low. Understand just how complicated the financial aid process is. L) Students and families must also understand their ability to self-advocate. They should not pay student bills or excess fees blindly. If something does not look right, ask about it. If it still doesn't look right, negotiate it. In cases where parents are working multiple jobs, are less knowledgeable about college bureaucracies, have limited English language skills, or are not contributing financially to their child's education, the burden of self-advocacy will fall on the student. I understand the difficulty, and the embarrassment.But it is necessary. M In the grand scheme of things, however, colleges also must come to understand that the hidden fees they ask for may prove unmanageable for the very kinds of low-income or first-generation students they are tryingdesperatelyto attract.",
+      "evidence_report": "answer-conflicts-review.json"
+    },
+    {
+      "table": "question_group",
+      "id": 476,
+      "source_file": "2020-09-CET6-2.pdf",
+      "column": "passage",
+      "before": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2. How Telemedicine Is Transforming Healthcare A) After years of big promises, telemedicine is finally living up to its potential. Driven by faster internet connections， ubiquitous （无处不在 的） smartphones and changing insurance standards，more health providers are turning to electronic communications to do their jobsand it's dramatically changing the delivery of healthcare. B) Doctors are linking up with patients by phone， email and webcam （网 络 摄像 头）. They're also consulting with each other electronicallysometimes to make split-second decisions on heart attacks and strokes. Patients, meanwhile, are using new devices to relay their blood pressure, heart rate and other vital signs to their doctors so they can manage chronic conditions at home. Telemedicine also allows for better care in places where medical expertise is hard to come by. Five to 1O times a day. Doctors Without Borders relays questions about tough cases from its physicians in Niger, South Sudan and elsewhere to its network of 280 experts around the world, and back again via the internet. C) As a measure of how rapidly telemedicine is spreading, consider: More than 15 million Americans received some kind of medical care remotely last year, according to the American Telemedicine Association, a trade group, which expects those numbers to grow by 30% this year. D) None of this is to say that telemedicine has found its way into all corners of medicine. A recent survey of 500 tech-savvy (精通技术的） consumers found that 39% hadn't heard of telemedicine， and of those who haven't used it, 42% said they preferred in-person doctor visits. In a poll of 1, 500 family physicians, only 15% had used it in their practices-but 90% said they would if it were appropriately reimbursed(补偿）. E) What's more, for all the rapid growth, significant questions and challenges remain. Rules defining and regulating telemedicine differ widely from state to state. Physicians groups are issuing different guidelines about what care they consider appropriate to deliver and in what form. F) Some critics also question whether the quality of care is keeping up with the rapid expansion of telemedicine. And there's the question of what services physicians should be paid for: Insurance coverage varies from health plan to health plan, and a big federal plan covers only a narrow range of services. Telemedicine's future will depend on howand whetherregulators, providers, payers and patients can address these challenges. Here's a closer look at some of these issues: consumers with clinicians they've never met for a phone, video or email visit-on-demand, 24/7. Typically, these are for nonemergency issues such as colds, flu, ear-aches and skin rashes, and they cost around $45, compared with approximately $100 at a doctor's office, $160 at an urgent-care clinic or $750 and up at an emergency room. H) Many health plans and employers have rushed to offer the services and promote them as a convenient way for plan members to get medical care without leaving home or work. Nearly three-quarters of large employers will offer virtual doctor visits as a benefit to employees this year, up from 48% last year. Web companies such as Teladoc and American Well are expected to host some 1. 2 million such virtual doctor visits this year, up 20% from last year, according to the American Telemedicine Association. I) But critics worry that such services may be sacrificing quality for convenience. Consulting a random doctor patients will never meet, they say, further fragments the health-care system, and even minor issues such as upper respiratory （上呼吸道 的） infections can't be thoroughly evaluated by a doctor who can't listen to your heart or feel your swollen glands. In a recent study, researchers posing as patients with skin problems sought help from 16 telemedicine siteswith unsettling results. In 62 encounters. fewer than one-third disclosed clinicians' credential or let patients choose; only 32% discussed potential side effects of prescribed medications. Several sites misdiagnosed serious conditions, largely because they failed to ask basic follow-up questions, the researchers said. \" Telemedicine holds enormous promise, but these sites are just not ready for prime time,\" says Jack Resneck, the study's lead author. J) The American Telemedicine Association and other organizations have started accreditation （鉴 定) programs to identify top-quality telemedicine sites. The American Medical Association this month approved new ethical guidelines for telemedicine, calling for participating doctors to recognize the limitations of such services and ensure that they have sufficient information to make clinical recommendations. K) Who pays for the services? While employers and health plans have been eager to cover virtual urgent- care visits, insurers have been far less willing to pay for telemedicine when doctors use phone, email or video to consult with existing patients about continuing issues. \"It's very hard to get paid unless you physically see the patient,\" says Peter Rasmussen, medical director of distance health at the Cleveland Clinic. Some 32 states have passed “ parity” （等 同 的） laws requiring private insurers to reimburse doctors for services delivered remotely if the same service would be covered in person, though not necessarily at the same rate or frequency. Medicare lags further behind. The federal health plan for the elderly covers a small number of telemedicine services-only for beneficiaries in rural areas and only when the services are received in a hospital, doctor's office or clinic. L) Bills to expand Medicare coverage of telemedicine have bipartisan （两 党 的） support in Congress. Opponents worry that such expansion would be costly for taxpayers, but advocates say it would save money in the long run. M) Experts say more hospitals are likely to invest in telemedicine systems as they move away from fee-for- N) Is the state-by-state regulatory system outdated? Historically, regulation of medicine has been left to individual states. But some industry members contend that having 50 different sets of rules, licensing fees and even definitions of \"medical practice\" makes less sense in the era of telemedicine and is hampering its growth. Currently, doctors must have a valid license in the state where the patient is located to provide medical care, which means virtual-visit companies can match users only with locally licensed clinicians. It also causes administrative hassies （麻 烦) for world-class medical centers that attract patients from across the country. At the Mayo Clinic, doctors who treat out-of-state patients can follow up with them via phone, email or web chats when they return home, but they can only discuss the conditions they treated in person. \"If the patient wants to talk about a new problem, the doctor has to be licensed in that state to discuss it. If not, the patient should talk to his primary-care physician about it,\" says Steve Ommen, who runs Mayo's Connected Care program. quickly obtain a license in another. While welcoming the move, some telemedicine advocates would prefer states to automatically honor one another's licenses, as they do with drivers' licenses. But states aren't likely to surrender control of medical practice, and most are considering new regulations. This year, more than 200 telemedicine-related bills have been introduced in 42 states, many regarding what services Medicaid will cover and whether payers should reimburse for remote patient monitoring. \" A lot of states are still trying to define telemedicine,\" says Lisa Robbin, chief advocacy officer for the Federation of State Medical Boards.",
+      "after": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2. How Telemedicine Is Transforming Healthcare A) After years of big promises, telemedicine is finally living up to its potential. Driven by faster internet connections， ubiquitous （无处不在 的） smartphones and changing insurance standards，more health providers are turning to electronic communications to do their jobsand it's dramatically changing the delivery of healthcare. B) Doctors are linking up with patients by phone， email and webcam （网 络 摄像 头）. They're also consulting with each other electronicallysometimes to make split-second decisions on heart attacks and strokes. Patients, meanwhile, are using new devices to relay their blood pressure, heart rate and other vital signs to their doctors so they can manage chronic conditions at home. Telemedicine also allows for better care in places where medical expertise is hard to come by. Five to 1O times a day. Doctors Without Borders relays questions about tough cases from its physicians in Niger, South Sudan and elsewhere to its network of 280 experts around the world, and back again via the internet. C) As a measure of how rapidly telemedicine is spreading, consider: More than 15 million Americans received some kind of medical care remotely last year, according to the American Telemedicine Association, a trade group, which expects those numbers to grow by 30% this year. D) None of this is to say that telemedicine has found its way into all corners of medicine. A recent survey of 500 tech-savvy (精通技术的） consumers found that 39% hadn't heard of telemedicine， and of those who haven't used it, 42% said they preferred in-person doctor visits. In a poll of 1, 500 family physicians, only 15% had used it in their practices-but 90% said they would if it were appropriately reimbursed(补偿）. E) What's more, for all the rapid growth, significant questions and challenges remain. Rules defining and regulating telemedicine differ widely from state to state. Physicians groups are issuing different guidelines about what care they consider appropriate to deliver and in what form. F) Some critics also question whether the quality of care is keeping up with the rapid expansion of telemedicine. And there's the question of what services physicians should be paid for: Insurance coverage varies from health plan to health plan, and a big federal plan covers only a narrow range of services. Telemedicine's future will depend on howand whetherregulators, providers, payers and patients can address these challenges. Here's a closer look at some of these issues: G) Do patients trade quality for convenience? The fastest-growing services in telemedicine connect consumers with clinicians they've never met for a phone, video or email visit-on-demand, 24/7. Typically, these are for nonemergency issues such as colds, flu, ear-aches and skin rashes, and they cost around $45, compared with approximately $100 at a doctor's office, $160 at an urgent-care clinic or $750 and up at an emergency room. H) Many health plans and employers have rushed to offer the services and promote them as a convenient way for plan members to get medical care without leaving home or work. Nearly three-quarters of large employers will offer virtual doctor visits as a benefit to employees this year, up from 48% last year. Web companies such as Teladoc and American Well are expected to host some 1. 2 million such virtual doctor visits this year, up 20% from last year, according to the American Telemedicine Association. I) But critics worry that such services may be sacrificing quality for convenience. Consulting a random doctor patients will never meet, they say, further fragments the health-care system, and even minor issues such as upper respiratory （上呼吸道 的） infections can't be thoroughly evaluated by a doctor who can't listen to your heart or feel your swollen glands. In a recent study, researchers posing as patients with skin problems sought help from 16 telemedicine siteswith unsettling results. In 62 encounters. fewer than one-third disclosed clinicians' credential or let patients choose; only 32% discussed potential side effects of prescribed medications. Several sites misdiagnosed serious conditions, largely because they failed to ask basic follow-up questions, the researchers said. \" Telemedicine holds enormous promise, but these sites are just not ready for prime time,\" says Jack Resneck, the study's lead author. J) The American Telemedicine Association and other organizations have started accreditation （鉴 定) programs to identify top-quality telemedicine sites. The American Medical Association this month approved new ethical guidelines for telemedicine, calling for participating doctors to recognize the limitations of such services and ensure that they have sufficient information to make clinical recommendations. K) Who pays for the services? While employers and health plans have been eager to cover virtual urgent- care visits, insurers have been far less willing to pay for telemedicine when doctors use phone, email or video to consult with existing patients about continuing issues. \"It's very hard to get paid unless you physically see the patient,\" says Peter Rasmussen, medical director of distance health at the Cleveland Clinic. Some 32 states have passed “ parity” （等 同 的） laws requiring private insurers to reimburse doctors for services delivered remotely if the same service would be covered in person, though not necessarily at the same rate or frequency. Medicare lags further behind. The federal health plan for the elderly covers a small number of telemedicine services-only for beneficiaries in rural areas and only when the services are received in a hospital, doctor's office or clinic. L) Bills to expand Medicare coverage of telemedicine have bipartisan （两 党 的） support in Congress. Opponents worry that such expansion would be costly for taxpayers, but advocates say it would save money in the long run. M) Experts say more hospitals are likely to invest in telemedicine systems as they move away from fee-for-service payments and into managed-care-type contracts that give them a set fee to provide care for patients and allow them to keep any savings they achieve. N) Is the state-by-state regulatory system outdated? Historically, regulation of medicine has been left to individual states. But some industry members contend that having 50 different sets of rules, licensing fees and even definitions of \"medical practice\" makes less sense in the era of telemedicine and is hampering its growth. Currently, doctors must have a valid license in the state where the patient is located to provide medical care, which means virtual-visit companies can match users only with locally licensed clinicians. It also causes administrative hassies （麻 烦) for world-class medical centers that attract patients from across the country. At the Mayo Clinic, doctors who treat out-of-state patients can follow up with them via phone, email or web chats when they return home, but they can only discuss the conditions they treated in person. \"If the patient wants to talk about a new problem, the doctor has to be licensed in that state to discuss it. If not, the patient should talk to his primary-care physician about it,\" says Steve Ommen, who runs Mayo's Connected Care program. O) To date, 17 states have joined a compact that will allow a doctor licensed in one member state to quickly obtain a license in another. While welcoming the move, some telemedicine advocates would prefer states to automatically honor one another's licenses, as they do with drivers' licenses. But states aren't likely to surrender control of medical practice, and most are considering new regulations. This year, more than 200 telemedicine-related bills have been introduced in 42 states, many regarding what services Medicaid will cover and whether payers should reimburse for remote patient monitoring. \" A lot of states are still trying to define telemedicine,\" says Lisa Robbin, chief advocacy officer for the Federation of State Medical Boards.",
+      "evidence_report": "question-content-repairs.json"
+    },
+    {
+      "table": "question_group",
+      "id": 711,
+      "source_file": "2022-06-CET6-1.pdf",
+      "column": "passage",
+      "before": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the question by marking the corresponding letter onAnswer Sheet 2. The Doctor Will Skype You Now A)Fazila is a young woman that has been dealing with eczema (湿疹), a common skin condition,for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it--until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion-which may be getting worse because of climate change-and a range of health risks, including poor nutrition, malaria (疾) and other water-borne diseases. B) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants-some of Bangladesh's poorest-paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer reviewed journal Global HealthAction. C) On the islands, there's even a colloquial (头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\"in Bengali, which roughly translates to \"'stockpiling their diseases\"waiting to seek medical attention until a condition becomes extremely 2022-06-CET6(第1套)-4 serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure. blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift （临时台的）medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session. D) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid TD's head physician, live-streamed （网络直播） from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa-\"older sister* in Bengali-by her patients, she is one of three volunteer doctors at TD. E) “\"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources. F) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the 2,000 people, instead of one doctor per 1,oo0 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems. G) For most TD patients on the islands, Dr. Mustahid is the first big city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailmentsincluding digestive issues, joint pain, skin diseases, fever and the common coldand refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal (产 后 的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense. H) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing 2022-06-CET6(第1套)-5 worked for Fazila until she started seeing Dr. Apa. Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information. TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that. returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. “\"Dr. Apa is patient,\"' he says, “\"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "after": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the question by marking the corresponding letter onAnswer Sheet 2. The Doctor Will Skype You Now A)Fazila is a young woman that has been dealing with eczema (湿疹), a common skin condition,for the past five years, but never got it treated. The nearest hospital is an hour away, by boat and bus, and her skin condition didn't seem serious enough to make the trek, so she ignored it--until a new technology brought the doctor to her. Fazila lives on one of the remote river islands in northern Bangladesh. These islands are low-lying, temporary sand islands that are continuously formed and destroyed through sand buildup and erosion. They are home to over six million people, who face repeated displacement from flooding and erosion-which may be getting worse because of climate change-and a range of health risks, including poor nutrition, malaria (疾) and other water-borne diseases. B) The most dangerous thing for these remote island dwellers is land erosion. The second is lack of access to medical supplies and doctors. There are no doctors within miles, and while child mortality and maternal death have gone down in the rest of the country, this is not the case for the islands. The medical situation is so bad that it really takes away from the quality of their life. Yet for many island inhabitants-some of Bangladesh's poorest-paying for health care is a costly ordeal. Victims of erosion lose their houses, agricultural land and jobs as farmers, fishermen and day laborers. Though government hospitals are free, many people hesitate to go, citing long commutes, endless lines and questionable diagnoses. For convenience's sake, one-third of rural households visit unqualified village doctors, who rely on unscientific methods of treatment, according to a 2016 study in the peer reviewed journal Global HealthAction. C) On the islands, there's even a colloquial (头的) expression for the idea of making medical care your lowest priority: It's known as \"rog pushai rakha\"in Bengali, which roughly translates to \"'stockpiling their diseases\"waiting to seek medical attention until a condition becomes extremely 2022-06-CET6(第1套)-4 serious. Now, a new virtual medical service called Teledaktar (TD) is trying to make health care more easily accessible. Every week, TD's medical operators travel to the islands by boat, carrying a laptop, a portable printer for prescriptions and tools to run basic medical screenings such as blood pressure. blood sugar, body temperature and weight. They choose an area of the island with the best Internet reception and set up a makeshift （临时台的）medical center which consists of plastic stools and small tables borrowed from the locals' homes, a tent in case of rain and a sheet that is strung up to give the patients privacy during their session. D) Launched in October 2018, TD has eight centers in towns and villages across rural Bangladesh and on three islands. It is funded by a nonprofit organization founded by Bangladeshi entrepreneurs, finance and technology professionals. Inside the center, the laptop screen lights up to reveal Dr. Tina Mustahid TD's head physician, live-streamed （网络直播） from the capital city of Dhaka for free remote medical consultations. Affectionately called Doctor Apa-\"older sister* in Bengali-by her patients, she is one of three volunteer doctors at TD. E) “\"I diagnose them through conversation,\" says Dr. Mustahid. \"Sometimes it's really obvious things that local doctors don't have the patience to talk through with their patients. For example, a common complaint mothers come in with is that their children refuse to eat their meals. The mothers are concerned they are dealing with indigestion, but it's because they are feeding the children packaged chips which are cheap and convenient. I tell them it is ruining their appetite and ask them to cut back on unhealthy snacks Dr. Mustahid says building awareness about health and nutrition is important for island patients who are cut off from mainland resources. F) Even off the islands, Bangladesh faces a critical deficit of health services. The country has half the doctors-per-person ratio recommended by the World Health Organization: roughly one doctor per 2,000 people, instead of one doctor per 1,oo0 people. And of those physicians, many are concentrated in cities: 70% of the country's population live in rural areas, yet less than 20% of health workers practice there. Over 70% of TD's 3,000 patients are female, in part because many are not comfortable speaking with local doctors who tend to be male. The rural women are mostly not literate or confident enough to travel on their own to the nearest town to visit medical facilities. Many have spent their entire lives rebuilding their homes when the islands flood. Early marriage and young motherhood, which are prevalent in these parts of Bangladesh, also contribute to the early onset of health problems. G) For most TD patients on the islands, Dr. Mustahid is the first big city doctor that they've ever consulted. TD doctors are not meant to treat serious illnesses or conditions that require a doctor to be physically present, such as pregnancy. But they can write prescriptions, diagnose common ailmentsincluding digestive issues, joint pain, skin diseases, fever and the common coldand refer patients to doctors at local hospitals. The visit is also an opportunity for the patients, especially women, to air their concerns about aging, motherhood and reproductive health according to Dr. Mustahid. The doctors also offer health, dietary and lifestyle advice where necessary, including insight on everything from recognizing postnatal (产 后 的) depression to daily exercise. Dr. Mustahid regularly recommends her patients to take a daily thirty-minute morning walk before the sun gets too intense. H) After a few sessions about general health issues Fazila finally opened up about something else that was bothering her: her persistent skin condition. It can get expensive to travel to the doctor, so usually the women living on the islands describe their illness to their husbands. The husbands then go to the pharmacy, try to describe the issue and return home with some random medicines. Nothing 2022-06-CET6(第1套)-5 worked for Fazila until she started seeing Dr. Apa. I) Other nonprofits are also starting to provide health services on the islands. A local non-governmental organization called Friendship operates floating boat hospitals that provide health services to islands all over Bangladesh, docking at each for two months at a time. Friendship also runs satellite clinics in which one doctor and one clinic aide who are residents of the community disperse health and hygiene information. J) TD still has a few major challenges. Many residents complain the medicines they are prescribed are sometimes unaffordable, but the government isn't doing enough for them. Patients often ask why the medicine isn't free along with the consultation from the doctors. The organizations are linked to local pharmacies and offer discounts to the patients and make sure to prescribe the most cost-effective brands, but still many residents can't afford even that. K) Nevertheless, TD's remote consultations seem to be popular: Of 3,000 patients, at least 200 have returned for follow-ups, according to TD. The reason, explains one resident, might be the simple gesture of treating the island inhabitants with respect. “\"Dr. Apa is patient,\"' he says, “\"At government hospitals, the doctors treat us very badly, but here they listen to us, I can repeat myself many times and no one gets annoyed.\"",
+      "evidence_report": "question-content-repairs.json"
+    },
+    {
+      "table": "question_group",
+      "id": 835,
+      "source_file": "2020-09-CET6-3.pdf",
+      "column": "passage",
+      "before": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2. How Telemedicine Is Transforming Healthcare A) After years of big promises, telemedicine is finally living up to its potential. Driven by faster internet connections， ubiquitous （无处不在 的） smartphones and changing insurance standards，more health providers are turning to electronic communications to do their jobsand it's dramatically changing the delivery of healthcare. B) Doctors are linking up with patients by phone， email and webcam （网 络 摄像 头）. They're also consulting with each other electronicallysometimes to make split-second decisions on heart attacks and strokes. Patients, meanwhile, are using new devices to relay their blood pressure, heart rate and other vital signs to their doctors so they can manage chronic conditions at home. Telemedicine also allows for better care in places where medical expertise is hard to come by. Five to 1O times a day. Doctors Without Borders relays questions about tough cases from its physicians in Niger, South Sudan and elsewhere to its network of 280 experts around the world, and back again via the internet. C) As a measure of how rapidly telemedicine is spreading, consider: More than 15 million Americans received some kind of medical care remotely last year, according to the American Telemedicine Association, a trade group, which expects those numbers to grow by 30% this year. D) None of this is to say that telemedicine has found its way into all corners of medicine. A recent survey of 500 tech-savvy (精通技术的） consumers found that 39% hadn't heard of telemedicine， and of those who haven't used it, 42% said they preferred in-person doctor visits. In a poll of 1, 500 family physicians, only 15% had used it in their practices-but 90% said they would if it were appropriately reimbursed(补偿）. E) What's more, for all the rapid growth, significant questions and challenges remain. Rules defining and regulating telemedicine differ widely from state to state. Physicians groups are issuing different guidelines about what care they consider appropriate to deliver and in what form. F) Some critics also question whether the quality of care is keeping up with the rapid expansion of telemedicine. And there's the question of what services physicians should be paid for: Insurance coverage varies from health plan to health plan, and a big federal plan covers only a narrow range of services. Telemedicine's future will depend on howand whetherregulators, providers, payers and patients can address these challenges. Here's a closer look at some of these issues: consumers with clinicians they've never met for a phone, video or email visit-on-demand, 24/7. Typically, these are for nonemergency issues such as colds, flu, ear-aches and skin rashes, and they cost around $45, compared with approximately $100 at a doctor's office, $160 at an urgent-care clinic or $750 and up at an emergency room. H) Many health plans and employers have rushed to offer the services and promote them as a convenient way for plan members to get medical care without leaving home or work. Nearly three-quarters of large employers will offer virtual doctor visits as a benefit to employees this year, up from 48% last year. Web companies such as Teladoc and American Well are expected to host some 1. 2 million such virtual doctor visits this year, up 20% from last year, according to the American Telemedicine Association. I) But critics worry that such services may be sacrificing quality for convenience. Consulting a random doctor patients will never meet, they say, further fragments the health-care system, and even minor issues such as upper respiratory （上呼吸道 的） infections can't be thoroughly evaluated by a doctor who can't listen to your heart or feel your swollen glands. In a recent study, researchers posing as patients with skin problems sought help from 16 telemedicine siteswith unsettling results. In 62 encounters. fewer than one-third disclosed clinicians' credential or let patients choose; only 32% discussed potential side effects of prescribed medications. Several sites misdiagnosed serious conditions, largely because they failed to ask basic follow-up questions, the researchers said. \" Telemedicine holds enormous promise, but these sites are just not ready for prime time,\" says Jack Resneck, the study's lead author. J) The American Telemedicine Association and other organizations have started accreditation （鉴 定) programs to identify top-quality telemedicine sites. The American Medical Association this month approved new ethical guidelines for telemedicine, calling for participating doctors to recognize the limitations of such services and ensure that they have sufficient information to make clinical recommendations. K) Who pays for the services? While employers and health plans have been eager to cover virtual urgent- care visits, insurers have been far less willing to pay for telemedicine when doctors use phone, email or video to consult with existing patients about continuing issues. \"It's very hard to get paid unless you physically see the patient,\" says Peter Rasmussen, medical director of distance health at the Cleveland Clinic. Some 32 states have passed “ parity” （等 同 的） laws requiring private insurers to reimburse doctors for services delivered remotely if the same service would be covered in person, though not necessarily at the same rate or frequency. Medicare lags further behind. The federal health plan for the elderly covers a small number of telemedicine services-only for beneficiaries in rural areas and only when the services are received in a hospital, doctor's office or clinic. L) Bills to expand Medicare coverage of telemedicine have bipartisan （两 党 的） support in Congress. Opponents worry that such expansion would be costly for taxpayers, but advocates say it would save money in the long run. M) Experts say more hospitals are likely to invest in telemedicine systems as they move away from fee-for- N) Is the state-by-state regulatory system outdated? Historically, regulation of medicine has been left to individual states. But some industry members contend that having 50 different sets of rules, licensing fees and even definitions of \"medical practice\" makes less sense in the era of telemedicine and is hampering its growth. Currently, doctors must have a valid license in the state where the patient is located to provide medical care, which means virtual-visit companies can match users only with locally licensed clinicians. It also causes administrative hassies （麻 烦) for world-class medical centers that attract patients from across the country. At the Mayo Clinic, doctors who treat out-of-state patients can follow up with them via phone, email or web chats when they return home, but they can only discuss the conditions they treated in person. \"If the patient wants to talk about a new problem, the doctor has to be licensed in that state to discuss it. If not, the patient should talk to his primary-care physician about it,\" says Steve Ommen, who runs Mayo's Connected Care program. quickly obtain a license in another. While welcoming the move, some telemedicine advocates would prefer states to automatically honor one another's licenses, as they do with drivers' licenses. But states aren't likely to surrender control of medical practice, and most are considering new regulations. This year, more than 200 telemedicine-related bills have been introduced in 42 states, many regarding what services Medicaid will cover and whether payers should reimburse for remote patient monitoring. \" A lot of states are still trying to define telemedicine,\" says Lisa Robbin, chief advocacy officer for the Federation of State Medical Boards.",
+      "after": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter. Answer the questions by marking the corresponding letter on Answer Sheet 2. How Telemedicine Is Transforming Healthcare A) After years of big promises, telemedicine is finally living up to its potential. Driven by faster internet connections， ubiquitous （无处不在 的） smartphones and changing insurance standards，more health providers are turning to electronic communications to do their jobsand it's dramatically changing the delivery of healthcare. B) Doctors are linking up with patients by phone， email and webcam （网 络 摄像 头）. They're also consulting with each other electronicallysometimes to make split-second decisions on heart attacks and strokes. Patients, meanwhile, are using new devices to relay their blood pressure, heart rate and other vital signs to their doctors so they can manage chronic conditions at home. Telemedicine also allows for better care in places where medical expertise is hard to come by. Five to 1O times a day. Doctors Without Borders relays questions about tough cases from its physicians in Niger, South Sudan and elsewhere to its network of 280 experts around the world, and back again via the internet. C) As a measure of how rapidly telemedicine is spreading, consider: More than 15 million Americans received some kind of medical care remotely last year, according to the American Telemedicine Association, a trade group, which expects those numbers to grow by 30% this year. D) None of this is to say that telemedicine has found its way into all corners of medicine. A recent survey of 500 tech-savvy (精通技术的） consumers found that 39% hadn't heard of telemedicine， and of those who haven't used it, 42% said they preferred in-person doctor visits. In a poll of 1, 500 family physicians, only 15% had used it in their practices-but 90% said they would if it were appropriately reimbursed(补偿）. E) What's more, for all the rapid growth, significant questions and challenges remain. Rules defining and regulating telemedicine differ widely from state to state. Physicians groups are issuing different guidelines about what care they consider appropriate to deliver and in what form. F) Some critics also question whether the quality of care is keeping up with the rapid expansion of telemedicine. And there's the question of what services physicians should be paid for: Insurance coverage varies from health plan to health plan, and a big federal plan covers only a narrow range of services. Telemedicine's future will depend on howand whetherregulators, providers, payers and patients can address these challenges. Here's a closer look at some of these issues: G) Do patients trade quality for convenience? The fastest-growing services in telemedicine connect consumers with clinicians they've never met for a phone, video or email visit-on-demand, 24/7. Typically, these are for nonemergency issues such as colds, flu, ear-aches and skin rashes, and they cost around $45, compared with approximately $100 at a doctor's office, $160 at an urgent-care clinic or $750 and up at an emergency room. H) Many health plans and employers have rushed to offer the services and promote them as a convenient way for plan members to get medical care without leaving home or work. Nearly three-quarters of large employers will offer virtual doctor visits as a benefit to employees this year, up from 48% last year. Web companies such as Teladoc and American Well are expected to host some 1. 2 million such virtual doctor visits this year, up 20% from last year, according to the American Telemedicine Association. I) But critics worry that such services may be sacrificing quality for convenience. Consulting a random doctor patients will never meet, they say, further fragments the health-care system, and even minor issues such as upper respiratory （上呼吸道 的） infections can't be thoroughly evaluated by a doctor who can't listen to your heart or feel your swollen glands. In a recent study, researchers posing as patients with skin problems sought help from 16 telemedicine siteswith unsettling results. In 62 encounters. fewer than one-third disclosed clinicians' credential or let patients choose; only 32% discussed potential side effects of prescribed medications. Several sites misdiagnosed serious conditions, largely because they failed to ask basic follow-up questions, the researchers said. \" Telemedicine holds enormous promise, but these sites are just not ready for prime time,\" says Jack Resneck, the study's lead author. J) The American Telemedicine Association and other organizations have started accreditation （鉴 定) programs to identify top-quality telemedicine sites. The American Medical Association this month approved new ethical guidelines for telemedicine, calling for participating doctors to recognize the limitations of such services and ensure that they have sufficient information to make clinical recommendations. K) Who pays for the services? While employers and health plans have been eager to cover virtual urgent- care visits, insurers have been far less willing to pay for telemedicine when doctors use phone, email or video to consult with existing patients about continuing issues. \"It's very hard to get paid unless you physically see the patient,\" says Peter Rasmussen, medical director of distance health at the Cleveland Clinic. Some 32 states have passed “ parity” （等 同 的） laws requiring private insurers to reimburse doctors for services delivered remotely if the same service would be covered in person, though not necessarily at the same rate or frequency. Medicare lags further behind. The federal health plan for the elderly covers a small number of telemedicine services-only for beneficiaries in rural areas and only when the services are received in a hospital, doctor's office or clinic. L) Bills to expand Medicare coverage of telemedicine have bipartisan （两 党 的） support in Congress. Opponents worry that such expansion would be costly for taxpayers, but advocates say it would save money in the long run. M) Experts say more hospitals are likely to invest in telemedicine systems as they move away from fee-for-service payments and into managed-care-type contracts that give them a set fee to provide care for patients and allow them to keep any savings they achieve. N) Is the state-by-state regulatory system outdated? Historically, regulation of medicine has been left to individual states. But some industry members contend that having 50 different sets of rules, licensing fees and even definitions of \"medical practice\" makes less sense in the era of telemedicine and is hampering its growth. Currently, doctors must have a valid license in the state where the patient is located to provide medical care, which means virtual-visit companies can match users only with locally licensed clinicians. It also causes administrative hassies （麻 烦) for world-class medical centers that attract patients from across the country. At the Mayo Clinic, doctors who treat out-of-state patients can follow up with them via phone, email or web chats when they return home, but they can only discuss the conditions they treated in person. \"If the patient wants to talk about a new problem, the doctor has to be licensed in that state to discuss it. If not, the patient should talk to his primary-care physician about it,\" says Steve Ommen, who runs Mayo's Connected Care program. O) To date, 17 states have joined a compact that will allow a doctor licensed in one member state to quickly obtain a license in another. While welcoming the move, some telemedicine advocates would prefer states to automatically honor one another's licenses, as they do with drivers' licenses. But states aren't likely to surrender control of medical practice, and most are considering new regulations. This year, more than 200 telemedicine-related bills have been introduced in 42 states, many regarding what services Medicaid will cover and whether payers should reimburse for remote patient monitoring. \" A lot of states are still trying to define telemedicine,\" says Lisa Robbin, chief advocacy officer for the Federation of State Medical Boards.",
+      "evidence_report": "question-content-repairs.json"
+    },
+    {
+      "table": "question_group",
+      "id": 894,
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "column": "passage",
+      "before": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter: Answer the question by marking the corresponding letter onAnswerSheet2. San Francisco Has Become One Huge Metaphor for Economic Inequality in America A) The fog still chills the morning air and the cable cars still climb halfway to the stars. Yet on the ground, the Bay Area has changed greatly since Tony Bennett left his heart here. Silicon Valley and the tech industry have led the region into a period of unprecedented wealth and innovation. But existing political and land limits have caused an alarming housing crisis and astronomical rise in social and economic difference. B) While the residents of most cities display pride and support for their home industries, drastic market distortions in the San Francisco Bay Area have created a boiling resentment in the region towards the tech industry. A vocal minority is even calling on officials to punish those who are benefitting from the economic and housing boom. If this boom and its consequences are not resolved, a drastic increase in social and economic difference may have a profound impact on the region for generations. A history and analysis of this transformation may hold invaluable insights about the opportunities. Perils of tech cities are currently being cultivated across the US, and indeed around the world. C) According to a recent study, San Francisco ranks first in California for economic difference. The 2023-03-CET6(第1套)-4 average income of the top 1% of households in the city averages s3.6 million. This is 44 times the average income of those at the bottom, which stands at $81,o94. The top 1% of the San Francisco peninsula's share of total income now extends to 30.8% of the region's income. This was a dramatic jump from 1989, where it stood at 15.8%. D) The region's economy has been fundamentally transformed by the technology industry springing from Silicon Valley. Policies pushed by Mayor Ed Lee provided tax breaks for tech companies to set up shop along the city's long-neglected Mid-Market area. The city is now home to Twitter, Uber, Airbnb, Pinterest, Dropbox and others. In short, the Bay Area has become a global magnet for those with specialized skills, which has in turn helped fuel economic enthusiasm, and this economic growth has reduced unemployment to 3.4%, an admirable feat. E) In spite of all that, the strength of recent job growth, combined with policies that have traditionally limited housing development in the city and throughout the peninsula, did not help ease the affordability crisis. In 2015 alone, the Bay Area added 64,000 in jobs. In the same year, only 5,000 new homes were built. F) With the average house in the city costing over $1.25 million and average flat prices over $1.1l million, the minimum qualifying income to purchase a house has increased to $254,000. Considering that the average household income in the city currently stands at around s8o,o0o, it is not an exaggeration to say that the dream of home ownership is now beyond the grasp of the vast majority of today's people who rent. G) For generations, the stability and prosperity of the American middle class has been anchored by home ownership. Studies have consistently shown that the value of land has overtaken overall income growth, thus providing a huge advantage to property owners as a vehicle of wealth building. When home prices soar above the reach of most households, the gap between the rich and the poor dramatically increases. H) If contributing factors leading to housing becoming less than affordable are not resolved over multiple generations, a small elite control a vast share of the country's total wealth. The result? A society where the threat of class warfare would loom large. A society's level of happiness is tied less to measures of quantitative wealth and more to measures of qualitative wealth. This means that how a person judges their security in comparison to their neighbors' has more of an impact on their happiness than their objective standard of living. At the same time, when a system no longer provides opportunities for the majority to participate in wealth building, it not only robs those who are excluded from opportunities, but also deprives them of their dignity. I) San Francisco and the Bay Area have long been committed to values which embrace inclusion and rejection of mainstream culture. To see these values coming apart so publicly adds insult to injury for a region once defined by its progressive social fabric. In the face of resentment, it is human to want revenge. But deteriorating policies such as heavily taxing technology companies or real estate developers are not likely to shift the balance. The housing crisis is caused by two primary factors: the growing desirability of the Bay Area as a place to live due to its excellent economy, and our limited housing stock. Although the city is experiencing an unprecedented boom in new housing, more units are sorely needed. Protection policies were originally designed to suppress bad development and boost historic preservation in our urban areas. Now too many developers are experiencing excessive delays. Meanwhile, there are the land limitations of the Bay Area to consider. The region is surrounded by water and mountains. Local governments need to aid development as well. This means increasing housing density throughout the 2023-03-CET6(第1套)-5 region and building upwards while streamlining the approval process. K) I Real estate alone will not solve the problem, of course. Transportation, too, needs to be updated and infrastructure extended to link distant regions to Silicon Valley and the city. We need to build an effective high-speed commuting system linking the high-priced and crowed Bay Area with the low-priced and low-density Central Valley. This would dramatically reduce travel times. And based on the operating speeds of hovering trains used in countries such as Japan or Spain, high-speed rail could shorten the time to travel between San Francisco and California's capitol, Sacramento, or from Stockton to San Jose, to under 3 minutes. This system would bring once distant regions within reasonable commute to heavy job centers. The city also needs to update existing transportation routes combined with smart home-building policies that dramatically increase housing density in areas surrounding high-speed rail stations. By doing so, we will be able to build affordable housing within acceptable commuting distances for a significant bulk of the workforce. L) Our threatening housing crisis forces the difficult question of what type of society we would like to be. Will it be one where elites command the vast bulk of wealth and regional culture is defined by a aggressive business world? We were recently treated to a taste of the latter, when local tech employee Justin Keller wrote an open letter to the city complaining about having to see homeless people on his way to work. M) It doesn't have to be this way. But solutions need to be implemented now, before angry crowds grow from a nuisance to serious concern. It may take less than you might think. And in fact, the solutions to our housing crisis are already fairly clear. We need to increase the density of housing units. We need to use existing technology to shorten travel times and break the land limits. There is a way to solve complex social and economic problems without abandoning social responsibility. This is the Bay Area's opportunity to prove that it can innovate more than just technology.",
+      "after": "Directions: In this section, you are going to read a passage with ten statements attached to it. Each statement contains information given in one of the paragraphs. Identify the paragraph from which the information is derived. You may choose a paragraph more than once. Each paragraph is marked with a letter: Answer the question by marking the corresponding letter onAnswerSheet2. San Francisco Has Become One Huge Metaphor for Economic Inequality in America A) The fog still chills the morning air and the cable cars still climb halfway to the stars. Yet on the ground, the Bay Area has changed greatly since Tony Bennett left his heart here. Silicon Valley and the tech industry have led the region into a period of unprecedented wealth and innovation. But existing political and land limits have caused an alarming housing crisis and astronomical rise in social and economic difference. B) While the residents of most cities display pride and support for their home industries, drastic market distortions in the San Francisco Bay Area have created a boiling resentment in the region towards the tech industry. A vocal minority is even calling on officials to punish those who are benefitting from the economic and housing boom. If this boom and its consequences are not resolved, a drastic increase in social and economic difference may have a profound impact on the region for generations. A history and analysis of this transformation may hold invaluable insights about the opportunities. Perils of tech cities are currently being cultivated across the US, and indeed around the world. C) According to a recent study, San Francisco ranks first in California for economic difference. The 2023-03-CET6(第1套)-4 average income of the top 1% of households in the city averages s3.6 million. This is 44 times the average income of those at the bottom, which stands at $81,o94. The top 1% of the San Francisco peninsula's share of total income now extends to 30.8% of the region's income. This was a dramatic jump from 1989, where it stood at 15.8%. D) The region's economy has been fundamentally transformed by the technology industry springing from Silicon Valley. Policies pushed by Mayor Ed Lee provided tax breaks for tech companies to set up shop along the city's long-neglected Mid-Market area. The city is now home to Twitter, Uber, Airbnb, Pinterest, Dropbox and others. In short, the Bay Area has become a global magnet for those with specialized skills, which has in turn helped fuel economic enthusiasm, and this economic growth has reduced unemployment to 3.4%, an admirable feat. E) In spite of all that, the strength of recent job growth, combined with policies that have traditionally limited housing development in the city and throughout the peninsula, did not help ease the affordability crisis. In 2015 alone, the Bay Area added 64,000 in jobs. In the same year, only 5,000 new homes were built. F) With the average house in the city costing over $1.25 million and average flat prices over $1.1l million, the minimum qualifying income to purchase a house has increased to $254,000. Considering that the average household income in the city currently stands at around s8o,o0o, it is not an exaggeration to say that the dream of home ownership is now beyond the grasp of the vast majority of today's people who rent. G) For generations, the stability and prosperity of the American middle class has been anchored by home ownership. Studies have consistently shown that the value of land has overtaken overall income growth, thus providing a huge advantage to property owners as a vehicle of wealth building. When home prices soar above the reach of most households, the gap between the rich and the poor dramatically increases. H) If contributing factors leading to housing becoming less than affordable are not resolved over multiple generations, a small elite control a vast share of the country's total wealth. The result? A society where the threat of class warfare would loom large. A society's level of happiness is tied less to measures of quantitative wealth and more to measures of qualitative wealth. This means that how a person judges their security in comparison to their neighbors' has more of an impact on their happiness than their objective standard of living. At the same time, when a system no longer provides opportunities for the majority to participate in wealth building, it not only robs those who are excluded from opportunities, but also deprives them of their dignity. I) San Francisco and the Bay Area have long been committed to values which embrace inclusion and rejection of mainstream culture. To see these values coming apart so publicly adds insult to injury for a region once defined by its progressive social fabric. In the face of resentment, it is human to want revenge. But deteriorating policies such as heavily taxing technology companies or real estate developers are not likely to shift the balance. J) The housing crisis is caused by two primary factors: the growing desirability of the Bay Area as a place to live due to its excellent economy, and our limited housing stock. Although the city is experiencing an unprecedented boom in new housing, more units are sorely needed. Protection policies were originally designed to suppress bad development and boost historic preservation in our urban areas. Now too many developers are experiencing excessive delays. Meanwhile, there are the land limitations of the Bay Area to consider. The region is surrounded by water and mountains. Local governments need to aid development as well. This means increasing housing density throughout the 2023-03-CET6(第1套)-5 region and building upwards while streamlining the approval process. K) I Real estate alone will not solve the problem, of course. Transportation, too, needs to be updated and infrastructure extended to link distant regions to Silicon Valley and the city. We need to build an effective high-speed commuting system linking the high-priced and crowed Bay Area with the low-priced and low-density Central Valley. This would dramatically reduce travel times. And based on the operating speeds of hovering trains used in countries such as Japan or Spain, high-speed rail could shorten the time to travel between San Francisco and California's capitol, Sacramento, or from Stockton to San Jose, to under 3 minutes. This system would bring once distant regions within reasonable commute to heavy job centers. The city also needs to update existing transportation routes combined with smart home-building policies that dramatically increase housing density in areas surrounding high-speed rail stations. By doing so, we will be able to build affordable housing within acceptable commuting distances for a significant bulk of the workforce. L) Our threatening housing crisis forces the difficult question of what type of society we would like to be. Will it be one where elites command the vast bulk of wealth and regional culture is defined by a aggressive business world? We were recently treated to a taste of the latter, when local tech employee Justin Keller wrote an open letter to the city complaining about having to see homeless people on his way to work. M) It doesn't have to be this way. But solutions need to be implemented now, before angry crowds grow from a nuisance to serious concern. It may take less than you might think. And in fact, the solutions to our housing crisis are already fairly clear. We need to increase the density of housing units. We need to use existing technology to shorten travel times and break the land limits. There is a way to solve complex social and economic problems without abandoning social responsibility. This is the Bay Area's opportunity to prove that it can innovate more than just technology.",
+      "evidence_report": "missing-explanations-patch.json"
+    }
+  ],
+  "option_insertions": [
+    {
+      "question_id": 3173,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3174,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3175,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3176,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3177,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3178,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3179,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3180,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3181,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 3182,
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling"
+    },
+    {
+      "question_id": 2395,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2396,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2397,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2398,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2399,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2400,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2401,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2402,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2403,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 2404,
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4256,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4257,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4258,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4259,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4260,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4261,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4262,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4263,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4264,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 4265,
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes"
+    },
+    {
+      "question_id": 3303,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 3305,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 3306,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 3307,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 3308,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 3309,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 3310,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 3311,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 3312,
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale"
+    },
+    {
+      "question_id": 1688,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1689,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1690,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1691,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1692,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1693,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1694,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1695,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1696,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    },
+    {
+      "question_id": 1697,
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences"
+    }
+  ]
+}

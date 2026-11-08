@@ -106,3 +106,18 @@ python align_listening.py
 `transcribe_listening.py` 生成本地录音的逐词时间戳，`align_listening.py` 将原文开头与这些时间戳匹配，不直接套用网页音频的时间。`refine_listening.py <审计文件>` 可复查漏识别的开头；不确定的定位保持为空。ASR 模型目录为 `.cache/models/base.en/`（`Systran/faster-whisper-base.en`）。
 
 本机数据任务使用明确的 CPU 亲和性和低优先级，至少保留 4 个完整物理核心。其他机器须按其实际拓扑选择 CPU 编号；无法确认保留核心时拒绝启动。
+
+### 2026-11-08 题库复核
+
+当前数据库有 4958 题，空答案和空解析均为 0。id4912 采用参考答案 D，并同步修正原先偏向 C 的解析；网络参考来源的分歧保留在 `reports/listening-4912-review.json`。本次另外更正 40 个已有答案及相应解析，确认保留 7 个冲突项；2020 年 7 月四级、六级的全部 20 道匹配题逐题复核后保留。
+
+补丁同时恢复 13 处题干、5 组匹配正文和 49 个缺失词库选项。186 个媒体文件（93 个 MP3、93 份答案 PDF）均与原 PR 的 Git 对象校验一致。验证包括 141 项测试、93 套试卷页面、93 个音频分段请求、浏览器答案展示与实际播放；判分测试使用数据库副本，分发数据库不含练习记录。
+
+来源与逐项变更在 `reports/review-completion-plan.json`，执行结果在 `reports/review-completion-applied.json`，最终检查在 `reports/final-validation.json`。复用补丁时先预览，再应用：
+
+```bash
+python scripts/apply_review_completion.py
+python scripts/apply_review_completion.py --apply
+```
+
+脚本检查题目身份、字段原值和证据报告哈希，应用前备份并在事务内写入；重复应用不会重复插入选项。全库仍有 44 套试卷相对 1–55 的 157 个题号缺口，需继续逐卷核对来源。上述验证只覆盖现有记录与本次修订，不代表所有试卷已完整或所有答案已逐题人工验收。本地预览也不代表公网部署完成。

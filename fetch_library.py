@@ -14,6 +14,9 @@ then copied into place under data/ using this project's naming:
 Existing files are never overwritten (the papers already in data/ come from another
 source and the parser is tuned to them).
 
+After the normal sync, papers with PDFs but no listening MP3 are filled by copying audio
+from same-session siblings (set 3 reuses set 2 or 1; merged sets like 2-3 reuse set 1).
+
     python fetch_library.py              # CET-4 (default)
     python fetch_library.py --level 6    # CET-6
     python fetch_library.py --level all  # both
@@ -35,6 +38,8 @@ TARGETS = {
     'answer.pdf': (os.path.join(DATA, 'answers'), '.pdf'),
     'listening.mp3': (os.path.join(DATA, 'audio'), '.mp3'),
 }
+
+PAPER_RE = re.compile(r'^(\d{4})-(\d{2})-(CET[46])-([\d-]+)$')
 
 
 def git(*args):
@@ -65,6 +70,84 @@ def paper_name(set_id, level):
     if not m:
         return None
     return f'{m.group(1)}-{m.group(2)}-CET{level}-{m.group(3)}'
+
+
+def parse_paper_stem(stem):
+    """Parse '2024-12-CET4-1' into (year, month, level, set_id) or None."""
+    m = PAPER_RE.match(stem)
+    if not m:
+        return None
+    return m.group(1), m.group(2), m.group(3), m.group(4)
+
+
+def find_audio_donor(stem, available_mp3s):
+    """Return the stem of a sibling paper whose MP3 can fill in for `stem`, or None.
+
+    Rules:
+      - For set 3, prefer set 2 if present, else set 1
+      - For merged sets like '2-3', use set 1
+      - For any other missing set without its own audio, try set 1 as fallback
+    """
+    parsed = parse_paper_stem(stem)
+    if not parsed:
+        return None
+    year, month, level, set_id = parsed
+
+    def sibling(sid):
+        return f'{year}-{month}-{level}-{sid}'
+
+    if set_id == '3':
+        for candidate_id in ('2', '1'):
+            candidate = sibling(candidate_id)
+            if candidate in available_mp3s:
+                return candidate
+    elif '-' in set_id:
+        candidate = sibling('1')
+        if candidate in available_mp3s:
+            return candidate
+    else:
+        if set_id != '1':
+            candidate = sibling('1')
+            if candidate in available_mp3s:
+                return candidate
+    return None
+
+
+def fill_missing_audio(dry_run=False):
+    """Copy missing listening MP3s from same-session siblings.
+
+    Returns list of (dest_stem, source_stem) pairs that were copied (or would be if dry_run).
+    """
+    audio_dir = os.path.join(DATA, 'audio')
+    if not os.path.isdir(audio_dir):
+        os.makedirs(audio_dir, exist_ok=True)
+
+    pdf_stems = set()
+    for f in os.listdir(DATA):
+        if f.endswith('.pdf'):
+            pdf_stems.add(f[:-4])
+
+    mp3_stems = set()
+    for f in os.listdir(audio_dir):
+        if f.endswith('.mp3'):
+            mp3_stems.add(f[:-4])
+
+    missing = pdf_stems - mp3_stems
+    reused = []
+
+    for stem in sorted(missing):
+        donor = find_audio_donor(stem, mp3_stems)
+        if donor:
+            src = os.path.join(audio_dir, donor + '.mp3')
+            dest = os.path.join(audio_dir, stem + '.mp3')
+            if os.path.exists(dest):
+                continue
+            if not dry_run:
+                shutil.copy2(src, dest)
+            reused.append((stem, donor))
+            mp3_stems.add(stem)
+
+    return reused
 
 
 def place_files(level):
@@ -110,8 +193,15 @@ def main(argv):
     for path in total_copied:
         print(f'  + {path}')
     print(f'\n{len(total_copied)} files added, {total_kept} already present.')
-    if total_copied:
-        print('Run `python app.py` (or import_answers.py) to import any new papers.')
+
+    reused = fill_missing_audio()
+    if reused:
+        print(f'\nFilled {len(reused)} missing listening MP3(s) by reuse:')
+        for dest, src in reused:
+            print(f'  {dest}.mp3 <- {src}.mp3')
+
+    if total_copied or reused:
+        print('\nRun `python app.py` (or import_answers.py) to import any new papers.')
 
 
 if __name__ == '__main__':

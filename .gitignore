@@ -3,5 +3,3 @@ __pycache__/
 .pytest_cache/
 instance/*.bak-*
 .cache/
-data/audio/
-data/answers/

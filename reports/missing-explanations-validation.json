@@ -1,0 +1,358 @@
+{
+  "snapshot_url": "https://raw.githubusercontent.com/ShepiTT/CET_practice_questions/5f3a276b150d81a360c9337376201d68e189eb96/instance/cet4_v2.db",
+  "snapshot_sha256": "81af0a7d0daaeb5f3c180fceaecb42a4f5b0e9651ff2bca0f7d42f4182b861ce",
+  "patch_sha256": "39c809283f5e6006c1abbca37ff33871772b94aa7d4e014477073f220181a537",
+  "patch_count": 36,
+  "by_type": {
+    "matching": 19,
+    "listening": 5,
+    "cloze": 11,
+    "reading": 1
+  },
+  "question_content_repairs": [
+    442,
+    444,
+    445,
+    3589,
+    3653,
+    4270,
+    4435,
+    4685
+  ],
+  "group_marker_repairs": [
+    {
+      "group_id": 894,
+      "old": "The housing crisis is caused by two primary factors:",
+      "new": "J) The housing crisis is caused by two primary factors:",
+      "reason": "第1套原试卷第5页清楚显示该句是J段首句；数据库OCR丢失J)标记。只应在该group中唯一匹配时替换一次。"
+    }
+  ],
+  "id4912_excluded": true,
+  "database_mutated": false,
+  "checks": [
+    {
+      "id": 442,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 444,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 445,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 1533,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 1581,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 1665,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 1703,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 2021,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 2503,
+      "type": "listening",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 2906,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 2914,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 3589,
+      "type": "listening",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 3653,
+      "type": "listening",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 3712,
+      "type": "reading",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4270,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4435,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4530,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4531,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4532,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4533,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4534,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4535,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4536,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4537,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4538,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4539,
+      "type": "cloze",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4542,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4543,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4544,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4545,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4546,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4547,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4548,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4549,
+      "type": "matching",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 4685,
+      "type": "listening",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    },
+    {
+      "id": 5123,
+      "type": "listening",
+      "precondition_empty_explanation": true,
+      "original_answer_matches": true,
+      "has_specific_explanation": true,
+      "has_evidence": true,
+      "answer_concern": null
+    }
+  ]
+}

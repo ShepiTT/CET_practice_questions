@@ -1,0 +1,959 @@
+[
+  {
+    "id": 442,
+    "source_file": "2025-06-CET4-1.pdf",
+    "q_number": 40,
+    "original_answer": "M",
+    "explanation": "答案为 M。题干说九年级学生参加 Design Ventura，会受到激励而选修设计技术。M段指出，学生在 Year Nine 参加竞赛，可能成为促使其在普通中等教育证书阶段选择这门课的 trigger。题干中的 motivate 对应 trigger，choose design technology 对应 opt for it，年级和选课结果均吻合。",
+    "evidence": [
+      {
+        "source": "data/2025-06-CET4-1.pdf",
+        "page": 6,
+        "location": "Q40 and paragraph M",
+        "quote": "Participation of ninth graders in Design Ventura can motivate them to choose design technology as their subject."
+      },
+      {
+        "source": "data/ocr/answers/2025-06-CET4-1.txt",
+        "location": "Q40 explanation after printed page 13",
+        "quote": "答案解M；pupils take part in Design Ventura in Year Nine ... trigger ... opt for it"
+      }
+    ],
+    "answer_concern": null,
+    "original_content": "",
+    "suggested_content": "Participation of ninth graders in Design Ventura can motivate them to choose design technology as their subject.",
+    "content_issue": "原题干为空；依据试卷第6页恢复。"
+  },
+  {
+    "id": 444,
+    "source_file": "2025-06-CET4-1.pdf",
+    "q_number": 42,
+    "original_answer": "K",
+    "explanation": "答案为 K。K段开头明确说，学校参加 Design Ventura 不用花钱，专业设计师也免费提供服务。题干的 don’t have to pay anything 与原文 costs the schools nothing 同义，take part in 与 participate in 同义，因此定位到K段。",
+    "evidence": [
+      {
+        "source": "data/2025-06-CET4-1.pdf",
+        "page": 6,
+        "location": "Q42 and paragraph K",
+        "quote": "It costs the schools nothing to participate in Design Ventura; the professional designers provide their services for free."
+      }
+    ],
+    "answer_concern": null,
+    "original_content": "The schools don’t have to pay anything to take",
+    "suggested_content": "The schools don’t have to pay anything to take part in the Design Ventura competition.",
+    "content_issue": "原题干在 take 后截断；依据试卷第6页恢复。"
+  },
+  {
+    "id": 445,
+    "source_file": "2025-06-CET4-1.pdf",
+    "q_number": 43,
+    "original_answer": "D",
+    "explanation": "答案为 D。D段介绍竞赛面向13至16岁的学生，要求他们为设计博物馆商店开发有创意、可持续且具商业可行性的新产品。题干中的 are challenged to create 对应 challenging them to develop，marketable 对应 commercially feasible，故选D段。",
+    "evidence": [
+      {
+        "source": "data/2025-06-CET4-1.pdf",
+        "page": 6,
+        "location": "Q43"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 87,
+        "location": "paragraph D",
+        "quote": "challenging them to develop a new creative, sustainable and commercially feasible product"
+      }
+    ],
+    "answer_concern": null,
+    "original_content": "",
+    "suggested_content": "Participants in Design Ventura are challenged to create sustainable and marketable products.",
+    "content_issue": "原题干为空；依据试卷第6页恢复。"
+  },
+  {
+    "id": 1533,
+    "source_file": "2019-12-CET4-1.pdf",
+    "q_number": 44,
+    "original_answer": "C",
+    "explanation": "答案为 C。C段描述一项持续七年、分析五万人健康数据的研究：把早餐作为一天中最大一餐的人，体重指数往往更低；研究者认为早餐有助于减少每日热量摄入，并提高饮食质量，因为早餐食物通常富含纤维和营养。题干的 lower calorie 和 higher nutritional intake 正是对这两点的概括。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 303,
+        "location": "[C]",
+        "quote": "breakfast helps reduce daily calorie intake and improve the quality of our diet"
+      },
+      {
+        "source": "data/ocr/answers/2019-12-CET4-1.txt",
+        "location": "44. and 【答案】C",
+        "quote": "prioritise breakfasts ... have lower calorie ... higher nutritional intake"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 1581,
+    "source_file": "2019-12-CET4-2.pdf",
+    "q_number": 37,
+    "original_answer": "I",
+    "explanation": "答案为 I。I段引用美国邮政局官员 Mike Swigart 的话：作为联邦机构，USPS的独特之处在于它几乎存在于美国的每一个社区，并且有义务每天投递。题干的 more direct reach to communities 是对 we’re in literally every community 的概括，人物身份、机构和独特优势均对应I段。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 315,
+        "location": "[I]",
+        "quote": "we’re unique as a federal agency ... we’re in literally every community in this country"
+      },
+      {
+        "source": "data/ocr/answers/2019-12-CET4-2.txt",
+        "location": "37. USPS explanation",
+        "quote": "ithasmore directreachtocommunities对应原文中的we’reinliterallyeverycommunity"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 1665,
+    "source_file": "2021-06-CET4-1.pdf",
+    "q_number": 41,
+    "original_answer": "E",
+    "explanation": "答案为 E。E段最后引用世界卫生组织的报告：就治疗总费用和生产力损失而言，抑郁症在全球造成的疾病负担最大。题干的 enormous economic losses 概括了治疗支出与生产力损失，worldwide 是原文中的同一范围，所以应定位到E段，而不能只依据其他段落出现的 depression 选段。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 330,
+        "location": "paragraph E, final sentence",
+        "quote": "depression has the greatest burden of disease worldwide, in terms of the total cost of treatment and the loss of productivity"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 1703,
+    "source_file": "2021-06-CET4-2.pdf",
+    "q_number": 41,
+    "original_answer": "D",
+    "explanation": "答案为 D。D段以“这一实验和许多其他实验得出了一个简单结论”开头，随后指出，没有数词的人很难作出数量区分。题干的 a conclusion、many experiments、anumeric people 和 distinguishing quantities，分别对应该段的 conclusion、many other experiments、people do not have number words 和 quantitative distinctions，故选D段。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 337,
+        "location": "paragraph D",
+        "quote": "When people do not have number words, they struggle to make quantitative distinctions"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 2021,
+    "source_file": "2020-12-CET4-3.pdf",
+    "q_number": 41,
+    "original_answer": "L",
+    "explanation": "答案为 L。L段解释“计划性淘汰”：产品被设计得很快过时，从而让消费者更换。紧接着举例说，即使旧午餐盒还完全能用，孩子们仍会每年央求买新午餐盒，以追上最新的角色形象。题干的 every year 和 stay in fashion 对应这段中的每年换新及 keep up with the newest characters。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 402,
+        "location": "paragraph L",
+        "quote": "Kids would beg for a new lunch box every year to keep up with the newest characters, even if their old lunch box was perfectly usable."
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 2503,
+    "source_file": "2024-06-CET6-2.pdf",
+    "q_number": 7,
+    "original_answer": "D",
+    "explanation": "答案为 D。问题考查“836号动议”通过后的结果。男士说，这项提案要协调全村房屋的外观，让房屋具有共同的设计特征，从而使整个村庄更美观。D项“所有房屋在外观上相似”概括了这一结果。A、B项把外观上的 harmonize 误解成人际关系和谐；C项的居住舒适度没有在这部分对话中提到。",
+    "evidence": [
+      {
+        "source": "question_group.transcript",
+        "group_id": 493,
+        "location": "Motion 836",
+        "quote": "harmonize the aesthetic appearance of all the houses in Berkton ... shared design features"
+      },
+      {
+        "source": "data/ocr/answers/2024-06-CET6-2.txt",
+        "location": "Q7 explanation",
+        "quote": "这项立法提案的主要目的是协调伯克顿所有房屋的外观美感。由此可知，D项正确。"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 2906,
+    "source_file": "2025-12-CET6-2.pdf",
+    "q_number": 35,
+    "original_answer": "O",
+    "explanation": "答案为 O，vanish（消失）。空格位于 cause more jobs to 后，需用动词原形，构成 cause ... to do。前文讨论机器替代人类工作，后文说拥有专属技能的创意工作者会更少，因此这里表示人工智能进步会使更多工作岗位消失。vanish 同时满足语法和语义要求。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 569,
+        "location": "last sentence, blank 35",
+        "quote": "advances in AI will cause more jobs to ___35___ ... creative workers ... fewer in number"
+      },
+      {
+        "source": "option",
+        "question_id": 2906,
+        "label": "O",
+        "quote": "vanish"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 2914,
+    "source_file": "2025-12-CET6-2.pdf",
+    "q_number": 43,
+    "original_answer": "C",
+    "explanation": "答案为 C。C段说，最明智的领导者会学着分辨：究竟是过早放弃，还是抓住本来就不该坚持的事不放。题干的 distinguish between 对应 discern the difference between，giving up too soon 对应 quitting too soon，sticking with something irrationally 概括 holding onto something that they shouldn’t，故选C段。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 570,
+        "location": "paragraph C",
+        "quote": "the smartest leaders learn to discern the difference between quitting too soon and holding onto something that they shouldn’t"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 3589,
+    "source_file": "2021-12-CET6-2.pdf",
+    "q_number": 11,
+    "original_answer": "B",
+    "explanation": "答案为 B。问题问为什么某些蝙蝠比起眼睛更依赖听觉。短文结尾明确说，这是适应某种特定生活方式的结果，而且它们的眼睛依然具备完整功能。B项是对 adaptation to a particular lifestyle 的同义转述。A项“天生失明”与原文相反；C项长途飞行依靠视觉，不能解释更依赖听觉；D项天气变化不是文中给出的原因。",
+    "evidence": [
+      {
+        "source": "data/answers/2021-12-CET6-2.pdf",
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "printed_pages": [
+          40,
+          41
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Passage Q9-11 ending and Q11 answer B",
+        "quote": "Some species use their sense of hearing more than their eyes as a matter of adaptation to a particular lifestyle, but their eyes are still functional."
+      }
+    ],
+    "answer_concern": null,
+    "original_content": "Question 11",
+    "suggested_content": "Why do some species of bats use their sense of hearing more than their eyes?",
+    "content_issue": "用答案PDF中已视觉核对的完整问句替换 Question 11。"
+  },
+  {
+    "id": 3653,
+    "source_file": "2022-06-CET6-1.pdf",
+    "q_number": 1,
+    "original_answer": "A",
+    "explanation": "答案为 A。女士开场介绍 David Jackson 是《纽约客》的 staff writer，即职业撰稿人，所以A项与原文直接一致。对话说他以冒险类非虚构作品闻名，并未说他本人是冒险家，也不是虚构小说作家；随后介绍的是他有两个分别11岁和14岁的孩子，不能据此选D项“四个孩子的父亲”。",
+    "evidence": [
+      {
+        "source": "data/answers/2022-06-CET6-1.pdf",
+        "pdf_page": 2,
+        "printed_page": 24,
+        "method": "visual inspection of rendered page",
+        "location": "conversation opening and Q1 answer A",
+        "quote": "Mr. David Jackson, a staff writer at the New Yorker, is known for his non-fiction books of adventure."
+      }
+    ],
+    "answer_concern": null,
+    "original_content": "Question 1",
+    "suggested_content": "What do we learn about David Jackson from the conversation?",
+    "content_issue": "用答案PDF中已视觉核对的完整问句替换 Question 1。"
+  },
+  {
+    "id": 3712,
+    "source_file": "2022-09-CET6-1.pdf",
+    "q_number": 53,
+    "original_answer": "D",
+    "explanation": "答案为 D。文章直接指出，当旅游业的收益没有在当地体现时，居民往往会感到沮丧；随后解释，跨国连锁酒店未必公平分配收益，游客在大型度假村或邮轮内消费，留给当地社区的受益机会很少。因此D项“他们认为自己没有得到应得的收益”最贴近原因。A项属于文章提到的其他负面影响，B、C项并不是这里给出的原因。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 724,
+        "location": "paragraph beginning Protests in heavily visited destinations",
+        "quote": "Residents often become frustrated when the benefits of tourism are not felt locally ... leaving local communities little opportunity to benefit from tourist spending."
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4270,
+    "source_file": "2020-09-CET6-3.pdf",
+    "q_number": 40,
+    "original_answer": "K",
+    "explanation": "答案为 K。K段比较了不同付款方的态度：雇主和医疗保障计划积极为虚拟急诊付费，而保险公司对医生通过电话、邮件或视频为已有患者持续随访的远程医疗服务，付费意愿低得多。题干的 Unlike employers and health plans 及 reluctant to pay 正对应这种比较。紧随其后的执照互认内容属于下一题，不是本题的定位依据。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 835,
+        "location": "paragraph K opening",
+        "quote": "While employers and health plans have been eager to cover virtual urgent-care visits, insurers have been far less willing to pay for telemedicine ... continuing issues."
+      }
+    ],
+    "answer_concern": null,
+    "original_content": "Unlike employers and health plans, insurers have been rather reluctant to pay for some telemedicine services. 4l. Some supporters of telemedicine hope states will accept each other's medical practice licenses as valid.",
+    "suggested_content": "Unlike employers and health plans, insurers have been rather reluctant to pay for some telemedicine services.",
+    "content_issue": "原字段粘入了下一题41的题干；删除41题起的内容，保留完整40题。"
+  },
+  {
+    "id": 4435,
+    "source_file": "2022-09-CET6-2-3.pdf",
+    "q_number": 36,
+    "original_answer": "L",
+    "explanation": "答案为 L。L段开头明确说，虽然外语能带来许多益处和技能，但招聘人员和雇主更看重计算机技能。题干的 attach more importance to 对应 value ... more，applicants’ computer skills 与 language competence 概括了该段的比较，故选L段。其他段落主要讨论课程设置，不能替代本段对雇主偏好的直接说明。",
+    "evidence": [
+      {
+        "source": "question_group.passage",
+        "group_id": 871,
+        "location": "paragraph L opening",
+        "quote": "Even with the benefits and skill sets languages provide, recruiters and employers value computer skills more."
+      }
+    ],
+    "answer_concern": null,
+    "original_content": "Employers attach more importance to applicants' computer skills than their language competence. or computer coding.",
+    "suggested_content": "Employers attach more importance to applicants' computer skills than their language competence.",
+    "content_issue": "删除句号后误拼入的 or computer coding.；原完整陈述及其L段定位不受影响。"
+  },
+  {
+    "id": 4530,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 26,
+    "original_answer": "K",
+    "explanation": "答案为 K，scenario（情形、设想）。空格位于 the more likely 后，且后面是同位性的说明 that we humans will destroy ourselves，因此需要名词表示“更可能出现的情形”。上文说人类可能被小行星或超级火山毁灭，这里转为另一种情形——人类毁灭自己。scenario 符合语法与上下文。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4531,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 27,
+    "original_answer": "G",
+    "explanation": "答案为 G，extinction（灭绝）。空格位于 human 与 risks 之间，表示哪一种风险；human extinction risks 即“人类灭绝的风险”。上文谈人类从地球上消失，下文又用 existential risks 指生存风险，均与 extinction 呼应。evaporation 是“蒸发”，不符合人类存亡的语境。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4532,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 28,
+    "original_answer": "L",
+    "explanation": "答案为 L，severely（严重地）。空格在 underestimated 前，需要副词修饰这个过去分词。worse still 表示“更糟糕的是”，说明社会不但不了解这些风险，还严重低估它们，故选 severely。shrewdly 表示“精明地”，不能表达作者批评低估风险的语气。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4533,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 29,
+    "original_answer": "H",
+    "explanation": "答案为 H，obscure（鲜为人知的、不清楚的）。前一句说某些生存风险 fairly well known（相当为人所知），But others 引出相反情况；空格与后面的 exotic 共同作表语，需用形容词。obscure 与 well known 形成对照，表示另一些风险不为人知，甚至十分奇异。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4534,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 30,
+    "original_answer": "B",
+    "explanation": "答案为 B，arise（产生）。关系从句 that ___ from human technology 修饰 risks，空格需要谓语动词；risks 为复数，使用动词原形 arise。arise from 是“由……引起、产生于”，这里说最让Bostrom担心的是源于人类技术的那部分生存风险。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4535,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 31,
+    "original_answer": "J",
+    "explanation": "答案为 J，posed（造成、构成）。risks 后的短语作后置定语，完整含义是 risks which are posed to humans by technological progress，即“技术进步对人类造成的风险”。风险与 pose 之间是被动关系，所以用过去分词 posed；pose risks to ... 是“对……构成风险”。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4536,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 32,
+    "original_answer": "A",
+    "explanation": "答案为 A，advocate（倡导者、支持者）。空格位于 a longtime 后、of transhumanism 前，需要表示人物身份的可数名词。前句说他并不是反对科技进步的人，后文把技术视为通向更好存在方式的桥梁，因此这里说他是超人类主义的长期倡导者，advocate 符合。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4537,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 33,
+    "original_answer": "I",
+    "explanation": "答案为 I，particular。in particular 是固定短语，表示“尤其、特别是”。前面先说运用哲学和数学的工具，后面特别点出 probability theory（概率论）这一种数学工具，因此应填 particular，不能把它理解成泛指多种工具的 variety。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4538,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 34,
+    "original_answer": "N",
+    "explanation": "答案为 N，species（物种）。空格前是 as a，后面的 might achieve ... 说明“我们作为一个……如何安全渡过”。全文讨论的是全人类共同面临的生存风险，因此这里把人类作为一个物种来谈，species 语义最合适。species 单复数同形，可用于 a species。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4539,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 35,
+    "original_answer": "D",
+    "explanation": "答案为 D，encounter（遭遇）。空格在情态动词 might 后，需要动词原形；其宾语是前面的 existential risks。这里说接下来的对话会讨论未来几十年乃至几百年人类可能遭遇的生存风险，以及如何活着挺过这些风险，encounter 与 risks、outlast them 的语境相合。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          3,
+          4,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section A passage and printed KEYS row Q26-35"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "说明：本套真题阅读与第一套内容完全一样，只是顺序不一样。"
+      },
+      {
+        "source": "question_group.passage",
+        "group_id": 893,
+        "location": "identical Bostrom passage; option bank checked against first-set PDF"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4542,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 38,
+    "original_answer": "C",
+    "explanation": "答案为 C。C段开头说，最近一项研究发现，旧金山在加利福尼亚州的经济差异排名第一；接着用最高收入家庭与其他家庭的收入差距说明这一点。题干的 biggest income gap 对应 ranks first ... for economic difference，地域 California 也完全一致，故选C段。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section B passage, statements, and printed KEYS row"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "reading content is the same as first set; DB statement identity checked"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4543,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 39,
+    "original_answer": "E",
+    "explanation": "答案为 E。E段明确指出，近期就业强劲增长，加上长期限制住房开发的政策，并没有缓解住房可负担性危机；还举例说，2015年湾区新增64,000个工作岗位，却只新建5,000套住房。题干把这两项原因概括为更高就业率和有限住房供给，结果均为购房没有变容易。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section B passage, statements, and printed KEYS row"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "reading content is the same as first set; DB statement identity checked"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4544,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 40,
+    "original_answer": "H",
+    "explanation": "答案为 H。H段说，人们对自身保障状况与邻居相比如何的判断，比客观生活水平更影响幸福感。题干的 compare ... with others 对应 in comparison to their neighbors，sense of contentment 对应 happiness，强调的都是相对比较的影响，故选H段。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section B passage, statements, and printed KEYS row"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "reading content is the same as first set; DB statement identity checked"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4545,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 41,
+    "original_answer": "K",
+    "explanation": "答案为 K。K段指出，单靠房地产措施不能解决问题，还需升级交通、扩展基础设施，把遥远地区与硅谷及旧金山连接起来，让房价较低地区处于可接受的通勤范围。题干的 improved transport networks 和 distant outlying areas 正是对这些措施的概括，因此定位K段。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section B passage, statements, and printed KEYS row"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "reading content is the same as first set; DB statement identity checked"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4546,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 42,
+    "original_answer": "F",
+    "explanation": "答案为 F。F段把购房所需的最低收入254,000美元与当地家庭约80,000美元的平均收入作比较，随后明确说，多数租房者已经难以实现购房梦。题干的 average incomes、tenant families 和 virtually impossible to buy a home 对应该段的收入差距、租房者和 beyond the grasp，故选F段。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section B passage, statements, and printed KEYS row"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "reading content is the same as first set; DB statement identity checked"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4547,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 43,
+    "original_answer": "M",
+    "explanation": "答案为 M。M段呼吁必须现在就落实解决方案，赶在人群的愤怒变成严重问题之前行动；并认为湾区应证明自己不仅能创新技术，也能在承担社会责任的同时解决复杂的社会和经济问题。题干中的 innovative solutions 和 before it is too late 概括了该段的创新与紧迫性。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section B passage, statements, and printed KEYS row"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "reading content is the same as first set; DB statement identity checked"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4548,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 44,
+    "original_answer": "B",
+    "explanation": "答案为 B。B段指出，旧金山湾区严重的市场扭曲造成了居民对科技产业强烈而不断积聚的怨恨，并警告经济和住房繁荣带来的后果可能扩大社会经济差距。题干的 strongly resent 对应 boiling resentment，tech industry 为原词重现，故选B段。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section B passage, statements, and printed KEYS row"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "reading content is the same as first set; DB statement identity checked"
+      }
+    ],
+    "answer_concern": null
+  },
+  {
+    "id": 4549,
+    "source_file": "2023-03-CET6-2-3.pdf",
+    "q_number": 45,
+    "original_answer": "J",
+    "explanation": "答案为 J。J段分析住房危机成因，并提出地方政府应支持开发、提高住房密度，同时 streamlining the approval process（简化审批程序）。题干的 simplify the approval procedures 是该短语的同义转述，因此选J段。原文J段跨试卷第5、6页，不能把第5页末尾遗漏段落标记后的内容误并入I段。",
+    "evidence": [
+      {
+        "source": "data/2023-03-CET6-1.pdf",
+        "pdf_pages": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Section B passage, statements, and printed KEYS row"
+      },
+      {
+        "source": "data/2023-03-CET6-2-3.pdf",
+        "pdf_pages": [
+          1,
+          3
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "reading content is the same as first set; DB statement identity checked"
+      }
+    ],
+    "answer_concern": null,
+    "group_passage_repair": {
+      "group_id": 894,
+      "old": "The housing crisis is caused by two primary factors:",
+      "new": "J) The housing crisis is caused by two primary factors:",
+      "reason": "第1套原试卷第5页清楚显示该句是J段首句；数据库OCR丢失J)标记。只应在该group中唯一匹配时替换一次。"
+    }
+  },
+  {
+    "id": 4685,
+    "source_file": "2019-12-CET6-3.pdf",
+    "q_number": 14,
+    "original_answer": "C",
+    "explanation": "答案为 C。问题问根据一些研究人员的发现，做白日梦对人有什么益处。原文说，它让人有机会思考自己的目标，而且似乎还能 increase creativity（提高创造力）；C项 contributes to their creativity 正是同义转述。D项“有助于深入思考”扩大了“思考目标”的意思；A、B项没有在原文中作为益处提出。",
+    "evidence": [
+      {
+        "source": "data/answers/2019-12-CET6-2.pdf",
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "printed_pages": [
+          18,
+          19
+        ],
+        "method": "visual inspection of rendered pages",
+        "location": "Passage Two and Q14 answer C; DB CET6-3 Q14 option texts identical to CET6-2 Q14",
+        "quote": "it gives us a chance to think about our goals, and it also seems to increase creativity"
+      },
+      {
+        "source": "question and option tables",
+        "location": "ids 3206 and 4685 Q14",
+        "note": "The same daydreaming question and all four options were checked; the first-set Q14 is a different cricket-food question and was not reused."
+      }
+    ],
+    "answer_concern": null,
+    "original_content": "Question 14",
+    "suggested_content": "How does daydreaming benefit people according to some researchers?",
+    "content_issue": "用相同题干和选项的第2套答案PDF中已视觉核对的完整问句替换 Question 14。"
+  },
+  {
+    "id": 5123,
+    "source_file": "2024-06-CET6-3.pdf",
+    "q_number": 7,
+    "original_answer": "D",
+    "explanation": "答案为 D。问题考查“836号动议”通过后的结果。男士说，这项提案要协调全村房屋的外观，让房屋具有共同的设计特征，从而使整个村庄更美观。D项“所有房屋在外观上相似”概括了这一结果。A、B项把外观上的 harmonize 误解成人际关系和谐；C项的居住舒适度没有在这部分对话中提到。",
+    "evidence": [
+      {
+        "source": "question_group.transcript",
+        "group_id": 1063,
+        "location": "Motion 836",
+        "quote": "harmonize the aesthetic appearance of all the houses in Berkton ... shared design features"
+      },
+      {
+        "source": "data/ocr/answers/2024-06-CET6-2.txt",
+        "location": "Q7 explanation",
+        "quote": "这项立法提案的主要目的是协调伯克顿所有房屋的外观美感。由此可知，D项正确。"
+      }
+    ],
+    "answer_concern": null
+  }
+]

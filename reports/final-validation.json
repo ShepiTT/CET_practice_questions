@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-08",
+  "database_sha256": "a51119f83a8663166685fd263aae31ba0f866fd17f22e9a361015ce125157817",
+  "questions": 4958,
+  "missing_answers": 0,
+  "missing_explanations": 0,
+  "id4912_answer": "D",
+  "http_papers_passed": 93,
+  "mp3_range_requests_passed": 93,
+  "isolated_submit_correct_ids": [
+    4912,
+    2401,
+    2410,
+    4262,
+    4271,
+    1692,
+    3646,
+    3648
+  ],
+  "isolated_incorrect_C_vs_D_passed": true,
+  "isolated_normal_startup_kept_question_count": true,
+  "real_database_unchanged_during_smoke": true,
+  "random_levels_passed": [
+    "4",
+    "6"
+  ],
+  "remaining_number_gaps": {
+    "papers": 44,
+    "numbers": 157,
+    "status": "requires_source_check; outside this reviewed completion plan"
+  },
+  "not_a_global_semantic_or_manual_acceptance": true,
+  "browser_checks": {
+    "q4912_answer_visible": "D",
+    "q4912_explanation_visible": true,
+    "audio_playing": true,
+    "audio_current_time_seconds": 4.877833,
+    "audio_duration_seconds": 1708.988662,
+    "audio_ready_state": 4,
+    "audio_error": null,
+    "browser_console_errors": [],
+    "screenshot": "reports/preview-q4912.jpg"
+  },
+  "real_practice_history_after_browser_checks": 0
+}

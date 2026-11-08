@@ -1,0 +1,2 @@
+# Review evidence hashes cover the exact bytes; preserve them across platforms.
+reports/*.json -text whitespace=cr-at-eol

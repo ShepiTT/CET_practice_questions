@@ -1,0 +1,125 @@
+{
+  "review_date": "2026-11-08",
+  "records": [
+    {
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "label": "I",
+      "text": "excelling",
+      "question_ids": [
+        3173,
+        3174,
+        3175,
+        3176,
+        3177,
+        3178,
+        3179,
+        3180,
+        3181,
+        3182
+      ],
+      "evidence": {
+        "pdf": "data/2019-12-CET6-2.pdf",
+        "page": 5,
+        "sha256": "7033450232d3b7655321d6146fb5f7815bef343bec6cf2c1deb8c21d4524bf68",
+        "verification": "Rendered original PDF and visually checked the option letter and word"
+      }
+    },
+    {
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "label": "J",
+      "text": "outcomes",
+      "question_ids": [
+        2395,
+        2396,
+        2397,
+        2398,
+        2399,
+        2400,
+        2401,
+        2402,
+        2403,
+        2404
+      ],
+      "evidence": {
+        "pdf": "data/2020-09-CET6-2.pdf",
+        "page": 1,
+        "sha256": "53695a81d184bf81fd9724300c59b98d1f787f09ce3eb86a5d0e792305ede82a",
+        "verification": "Rendered original PDF and visually checked the option letter and word"
+      }
+    },
+    {
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "label": "J",
+      "text": "outcomes",
+      "question_ids": [
+        4256,
+        4257,
+        4258,
+        4259,
+        4260,
+        4261,
+        4262,
+        4263,
+        4264,
+        4265
+      ],
+      "evidence": {
+        "pdf": "data/2020-09-CET6-2.pdf",
+        "page": 1,
+        "sha256": "53695a81d184bf81fd9724300c59b98d1f787f09ce3eb86a5d0e792305ede82a",
+        "verification": "Rendered original PDF and visually checked the option letter and word"
+      }
+    },
+    {
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "label": "I",
+      "text": "scale",
+      "question_ids": [
+        3303,
+        3305,
+        3306,
+        3307,
+        3308,
+        3309,
+        3310,
+        3311,
+        3312
+      ],
+      "evidence": {
+        "pdf": "data/2020-12-CET6-2.pdf",
+        "page": 4,
+        "sha256": "60f42b0bb2dfd498dc32c8b409b8e7b4f686543825b48a8142f9f9674507b118",
+        "verification": "Rendered original PDF and visually checked the option letter and word"
+      }
+    },
+    {
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "label": "C",
+      "text": "consequences",
+      "question_ids": [
+        1688,
+        1689,
+        1690,
+        1691,
+        1692,
+        1693,
+        1694,
+        1695,
+        1696,
+        1697
+      ],
+      "evidence": {
+        "pdf": "data/2021-06-CET4-2.pdf",
+        "page": 4,
+        "sha256": "8d5d51042b01b12574f6bbc1880b16c74b45a3ffd3b205db06630ecf0a3195be",
+        "verification": "Rendered original PDF and visually checked the option letter and word"
+      }
+    }
+  ],
+  "scope": "Restore missing word-bank options from visually verified original PDFs; do not change answers"
+}

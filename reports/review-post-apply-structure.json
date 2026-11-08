@@ -1,0 +1,1355 @@
+{
+  "review_date": "2026-11-08",
+  "scope": "Independent read-only post-apply structure review and static application-script review. No database writes, HTTP POSTs, code edits, or scope expansion.",
+  "database": {
+    "path": ".cache/pr2-review/review-test.db",
+    "sha256": "a51119f83a8663166685fd263aae31ba0f866fd17f22e9a361015ce125157817",
+    "expected_sha256": "a51119f83a8663166685fd263aae31ba0f866fd17f22e9a361015ce125157817",
+    "sha256_matches_expected": true,
+    "base_sha256": "81af0a7d0daaeb5f3c180fceaecb42a4f5b0e9651ff2bca0f7d42f4182b861ce",
+    "plan_base_sha256_matches": true
+  },
+  "counts": {
+    "questions": 4958,
+    "missing_answers": 0,
+    "missing_explanations": 0
+  },
+  "all_answer_outside_allowed_choices": [],
+  "original_seven_answer_checks": [
+    {
+      "id": 2401,
+      "source_file": "2020-09-CET6-2.pdf",
+      "q_number": 32,
+      "answer": "J",
+      "allowed": true
+    },
+    {
+      "id": 2410,
+      "source_file": "2020-09-CET6-2.pdf",
+      "q_number": 41,
+      "answer": "O",
+      "allowed": true
+    },
+    {
+      "id": 4262,
+      "source_file": "2020-09-CET6-3.pdf",
+      "q_number": 32,
+      "answer": "J",
+      "allowed": true
+    },
+    {
+      "id": 4271,
+      "source_file": "2020-09-CET6-3.pdf",
+      "q_number": 41,
+      "answer": "O",
+      "allowed": true
+    },
+    {
+      "id": 1692,
+      "source_file": "2021-06-CET4-2.pdf",
+      "q_number": 30,
+      "answer": "C",
+      "allowed": true
+    },
+    {
+      "id": 3646,
+      "source_file": "2022-06-CET6-1.pdf",
+      "q_number": 38,
+      "answer": "J",
+      "allowed": true
+    },
+    {
+      "id": 3648,
+      "source_file": "2022-06-CET6-1.pdf",
+      "q_number": 40,
+      "answer": "K",
+      "allowed": true
+    }
+  ],
+  "cloze_bank_checks": [
+    {
+      "group_id": 621,
+      "source_file": "2019-12-CET6-2.pdf",
+      "question_count": 10,
+      "passed": true,
+      "per_question": [
+        {
+          "question_id": 3173,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3174,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3175,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3176,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3177,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3178,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3179,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3180,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3181,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3182,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "group_id": 475,
+      "source_file": "2020-09-CET6-2.pdf",
+      "question_count": 10,
+      "passed": true,
+      "per_question": [
+        {
+          "question_id": 2395,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2396,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2397,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2398,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2399,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2400,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2401,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2402,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2403,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 2404,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "group_id": 834,
+      "source_file": "2020-09-CET6-3.pdf",
+      "question_count": 10,
+      "passed": true,
+      "per_question": [
+        {
+          "question_id": 4256,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4257,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4258,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4259,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4260,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4261,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4262,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4263,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4264,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 4265,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "group_id": 645,
+      "source_file": "2020-12-CET6-2.pdf",
+      "question_count": 10,
+      "passed": true,
+      "per_question": [
+        {
+          "question_id": 3303,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3304,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3305,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3306,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3307,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3308,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3309,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3310,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3311,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 3312,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        }
+      ]
+    },
+    {
+      "group_id": 336,
+      "source_file": "2021-06-CET4-2.pdf",
+      "question_count": 10,
+      "passed": true,
+      "per_question": [
+        {
+          "question_id": 1688,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1689,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1690,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1691,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1692,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1693,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1694,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1695,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1696,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        },
+        {
+          "question_id": 1697,
+          "option_count": 15,
+          "label_set": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O"
+          ],
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "six_content_checks": [
+    {
+      "id": 442,
+      "source_file": "2025-06-CET4-1.pdf",
+      "q_number": 40,
+      "content": "Participation of ninth graders in Design Ventura can motivate them to choose design technology as their subject.",
+      "passed": true
+    },
+    {
+      "id": 445,
+      "source_file": "2025-06-CET4-1.pdf",
+      "q_number": 43,
+      "content": "Participants in Design Ventura are challenged to create sustainable and marketable products.",
+      "passed": true
+    },
+    {
+      "id": 3447,
+      "source_file": "2021-06-CET6-2.pdf",
+      "q_number": 43,
+      "content": "Apart from the fire, the water used to extinguish it also caused a lot of damage to Notre Dame Cathedral.",
+      "passed": true
+    },
+    {
+      "id": 3788,
+      "source_file": "2022-12-CET6-1.pdf",
+      "q_number": 45,
+      "content": "To participate in the seven-day marathon series, Wardian had to raise a lot of money and have his wife's support.",
+      "passed": true
+    },
+    {
+      "id": 3962,
+      "source_file": "2023-06-CET6-1.pdf",
+      "q_number": 38,
+      "content": "The participants in a recent study repeatedly underestimated the positive effect on those who received thank-you notes.",
+      "passed": true
+    },
+    {
+      "id": 4089,
+      "source_file": "2023-12-CET6-1.pdf",
+      "q_number": 38,
+      "content": "Parts of Africa are getting warmer much faster than the average, with southern Africa witnessing roughly twice the global warming rate over the last half century.",
+      "passed": true
+    }
+  ],
+  "remaining_empty_question_content_ids": [],
+  "remaining_truncated_question_content_ids": [],
+  "integrity_check": "ok",
+  "foreign_key_errors": [],
+  "plan_vs_actual": {
+    "updated_field_count": 136,
+    "inserted_options": 49,
+    "unexpected_changes": [],
+    "all_planned_update_values_present": true,
+    "all_planned_option_values_present": true,
+    "learner_history": {
+      "user_history": {
+        "base_rows": 0,
+        "test_rows": 0,
+        "all_fields_unchanged": true
+      },
+      "wrong_question": {
+        "base_rows": 0,
+        "test_rows": 0,
+        "all_fields_unchanged": true
+      }
+    }
+  },
+  "script_review": {
+    "path": "scripts/apply_review_completion.py",
+    "sha256": "51e3d60342b81eaac541262a0aa8db88caa813f10433c3d6751c1b639bdaa3e9",
+    "strict_old_values": "PASS: rejects updates unless existing field equals before or already equals after.",
+    "identity_checks": "PASS for current verified snapshot: question updates check id and source_file; option insertions also check group_id. q_number and group type are not separately validated in update records.",
+    "transaction_and_rollback": "PASS: BEGIN IMMEDIATE protects writes, all validation runs before commit, and connection.close rolls back an uncommitted transaction on exceptions.",
+    "backup": "PASS by inspection: SQLite backup from a second read-only connection occurs before any mutation and while the primary connection holds the write reservation.",
+    "idempotency": "PASS: actual read-only dry-run on the already-applied test database completed successfully with updated_fields=0, inserted_options=0, unchanged database SHA256, integrity_check=ok, and unchanged learner history.",
+    "cautions": [
+      {
+        "severity": "low",
+        "detail": "base_database_sha256 is recorded but not enforced inside the script. The current base and reviewed test hashes were verified independently; future reuse should retain this external check or enforce a compatible base/already-applied state."
+      }
+    ],
+    "evidence_report_hash_checks": [
+      {
+        "path": "reports/listening-4912-review.json",
+        "expected_sha256": "3a92b2118d2045a73d6e502a70c6c386f3fdeac318f33e77646f8d1a18541879",
+        "actual_sha256": "3a92b2118d2045a73d6e502a70c6c386f3fdeac318f33e77646f8d1a18541879",
+        "passed": true
+      },
+      {
+        "path": "reports/missing-explanations-patch.json",
+        "expected_sha256": "39c809283f5e6006c1abbca37ff33871772b94aa7d4e014477073f220181a537",
+        "actual_sha256": "39c809283f5e6006c1abbca37ff33871772b94aa7d4e014477073f220181a537",
+        "passed": true
+      },
+      {
+        "path": "reports/answer-conflicts-review.json",
+        "expected_sha256": "bd317d8a512e2ecc5f570a940638295a107033f17259cdce0f307c505649f459",
+        "actual_sha256": "bd317d8a512e2ecc5f570a940638295a107033f17259cdce0f307c505649f459",
+        "passed": true
+      },
+      {
+        "path": "reports/question-content-repairs.json",
+        "expected_sha256": "66b0020f73e223edb668c0c64b63698feb0d544875d8648767c9637e116dc981",
+        "actual_sha256": "66b0020f73e223edb668c0c64b63698feb0d544875d8648767c9637e116dc981",
+        "passed": true
+      },
+      {
+        "path": "reports/cloze-option-repairs.json",
+        "expected_sha256": "f138c98261ab42b8f7f5e39f26b08e7f3f111f225e724ca1242935f97abd4ce4",
+        "actual_sha256": "f138c98261ab42b8f7f5e39f26b08e7f3f111f225e724ca1242935f97abd4ce4",
+        "passed": true
+      },
+      {
+        "path": "reports/answer-conflicts-crosscheck.json",
+        "expected_sha256": "554298e1ac852a3a690dab4d51a3f6cf7f5c3b3fdd2f6f9a3fc536931bc718c2",
+        "actual_sha256": "554298e1ac852a3a690dab4d51a3f6cf7f5c3b3fdd2f6f9a3fc536931bc718c2",
+        "passed": true
+      }
+    ],
+    "hash_guard_recovery": "The first attempt detected a stale answer-conflicts-review.json hash and aborted as designed. The root agent refreshed the plan; all evidence hashes now match and the second actual dry-run passed.",
+    "successful_post_apply_dry_run": {
+      "plan_sha256": "1e4b95cbc7ad7d39e6b3f4972c60939bb3397d5886b5821d0e994b32dbc1ef05",
+      "updated_fields": 0,
+      "inserted_options": 0,
+      "database_sha256_before": "a51119f83a8663166685fd263aae31ba0f866fd17f22e9a361015ce125157817",
+      "database_sha256_after": "a51119f83a8663166685fd263aae31ba0f866fd17f22e9a361015ce125157817",
+      "integrity_check": "ok",
+      "foreign_key_errors": [],
+      "history_unchanged": true
+    }
+  },
+  "remaining_risks": [
+    "157 numbering gaps remain unchanged by this plan and require separate source checking; they are outside this review scope.",
+    "27 preexisting content/explanation fields contain replacement characters. They are unchanged from the base database and are not introduced by this plan.",
+    "Static transaction review is not an injected-failure rollback experiment."
+  ],
+  "replacement_character_check": {
+    "base_affected_fields": 27,
+    "test_affected_fields": 27,
+    "unchanged_set": true,
+    "newly_affected_fields": []
+  },
+  "structural_pass": true,
+  "evidence_hash_guard_currently_passes": true
+}
