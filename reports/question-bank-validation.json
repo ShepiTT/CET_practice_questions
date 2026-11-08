@@ -1,0 +1,5278 @@
+{
+  "reviewed_at": "2026-11-08 Asia/Shanghai",
+  "scope": "Read-only database structure checks and real HTTP GET checks; no full semantic review of all answers. Media sync is still in progress and is excluded from final missing-file conclusions.",
+  "base_url": "http://127.0.0.1:5000",
+  "database": {
+    "path": "instance/cet4_v2.db",
+    "sha256_before": "81af0a7d0daaeb5f3c180fceaecb42a4f5b0e9651ff2bca0f7d42f4182b861ce",
+    "sha256_after": "81af0a7d0daaeb5f3c180fceaecb42a4f5b0e9651ff2bca0f7d42f4182b861ce",
+    "unchanged_during_review": true,
+    "history_before": {
+      "history": 0,
+      "wrong": 0
+    },
+    "history_after": {
+      "history": 0,
+      "wrong": 0
+    }
+  },
+  "summary": {
+    "papers": 93,
+    "questions": 4958,
+    "groups": 1054,
+    "options": 26325,
+    "http_pages_passed": 93,
+    "http_pages_checked": 93,
+    "answer_api_samples_checked": 100,
+    "answer_api_samples_passed": 100,
+    "issue_counts": {
+      "matching_answer_marker_not_explicit": 58,
+      "missing_explanations": 36,
+      "incomplete_cloze_bank": 49,
+      "answer_outside_allowed_choices": 7,
+      "truncated_question_content": 3,
+      "missing_answers": 1,
+      "empty_question_content": 3,
+      "paper_numbering_gaps": 44,
+      "empty_question_groups": 1
+    },
+    "incomplete_cloze_bank_groups": {
+      "2019-12-CET6-2.pdf": {
+        "group_id": 621,
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      "2020-09-CET6-2.pdf": {
+        "group_id": 475,
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      "2020-09-CET6-3.pdf": {
+        "group_id": 834,
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      "2020-12-CET6-2.pdf": {
+        "group_id": 645,
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      "2021-06-CET4-2.pdf": {
+        "group_id": 336,
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      }
+    },
+    "paper_numbering_gap_count": 44,
+    "total_missing_q_numbers_against_1_to_55": 157
+  },
+  "issues": {
+    "matching_answer_marker_not_explicit": [
+      {
+        "id": 3052,
+        "source_file": "2019-06-CET6-2.pdf",
+        "q_number": 42,
+        "group_id": 596,
+        "group_type": "matching",
+        "answer": "F",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ]
+      },
+      {
+        "id": 3129,
+        "source_file": "2019-12-CET6-1.pdf",
+        "q_number": 36,
+        "group_id": 611,
+        "group_type": "matching",
+        "answer": "F",
+        "explicit_markers": [
+          "D",
+          "E",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3130,
+        "source_file": "2019-12-CET6-1.pdf",
+        "q_number": 37,
+        "group_id": 611,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "D",
+          "E",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3133,
+        "source_file": "2019-12-CET6-1.pdf",
+        "q_number": 40,
+        "group_id": 611,
+        "group_type": "matching",
+        "answer": "G",
+        "explicit_markers": [
+          "D",
+          "E",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3134,
+        "source_file": "2019-12-CET6-1.pdf",
+        "q_number": 41,
+        "group_id": 611,
+        "group_type": "matching",
+        "answer": "A",
+        "explicit_markers": [
+          "D",
+          "E",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3135,
+        "source_file": "2019-12-CET6-1.pdf",
+        "q_number": 42,
+        "group_id": 611,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "D",
+          "E",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3137,
+        "source_file": "2019-12-CET6-1.pdf",
+        "q_number": 44,
+        "group_id": 611,
+        "group_type": "matching",
+        "answer": "B",
+        "explicit_markers": [
+          "D",
+          "E",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3183,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 36,
+        "group_id": 622,
+        "group_type": "matching",
+        "answer": "G",
+        "explicit_markers": [
+          "C",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "id": 3185,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 38,
+        "group_id": 622,
+        "group_type": "matching",
+        "answer": "H",
+        "explicit_markers": [
+          "C",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "id": 3186,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 39,
+        "group_id": 622,
+        "group_type": "matching",
+        "answer": "D",
+        "explicit_markers": [
+          "C",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "id": 3187,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 40,
+        "group_id": 622,
+        "group_type": "matching",
+        "answer": "B",
+        "explicit_markers": [
+          "C",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "id": 3188,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 41,
+        "group_id": 622,
+        "group_type": "matching",
+        "answer": "E",
+        "explicit_markers": [
+          "C",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "id": 3190,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 43,
+        "group_id": 622,
+        "group_type": "matching",
+        "answer": "F",
+        "explicit_markers": [
+          "C",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "id": 3192,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 45,
+        "group_id": 622,
+        "group_type": "matching",
+        "answer": "A",
+        "explicit_markers": [
+          "C",
+          "I",
+          "J"
+        ]
+      },
+      {
+        "id": 3238,
+        "source_file": "2019-12-CET6-3.pdf",
+        "q_number": 41,
+        "group_id": 632,
+        "group_type": "matching",
+        "answer": "G",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 2411,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 42,
+        "group_id": 476,
+        "group_type": "matching",
+        "answer": "G",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 4272,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 42,
+        "group_id": 835,
+        "group_type": "matching",
+        "answer": "G",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 1968,
+        "source_file": "2020-12-CET4-2.pdf",
+        "q_number": 42,
+        "group_id": 390,
+        "group_type": "matching",
+        "answer": "N",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "O",
+          "P"
+        ]
+      },
+      {
+        "id": 2022,
+        "source_file": "2020-12-CET4-3.pdf",
+        "q_number": 42,
+        "group_id": 402,
+        "group_type": "matching",
+        "answer": "D",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P"
+        ]
+      },
+      {
+        "id": 3269,
+        "source_file": "2020-12-CET6-1.pdf",
+        "q_number": 42,
+        "group_id": 636,
+        "group_type": "matching",
+        "answer": "H",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R"
+        ]
+      },
+      {
+        "id": 3271,
+        "source_file": "2020-12-CET6-1.pdf",
+        "q_number": 44,
+        "group_id": 636,
+        "group_type": "matching",
+        "answer": "K",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "L",
+          "M",
+          "N",
+          "P",
+          "R"
+        ]
+      },
+      {
+        "id": 3314,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 37,
+        "group_id": 646,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K"
+        ]
+      },
+      {
+        "id": 3321,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 44,
+        "group_id": 646,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K"
+        ]
+      },
+      {
+        "id": 3369,
+        "source_file": "2020-12-CET6-3.pdf",
+        "q_number": 40,
+        "group_id": 657,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P"
+        ]
+      },
+      {
+        "id": 3370,
+        "source_file": "2020-12-CET6-3.pdf",
+        "q_number": 41,
+        "group_id": 657,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P"
+        ]
+      },
+      {
+        "id": 3440,
+        "source_file": "2021-06-CET6-2.pdf",
+        "q_number": 36,
+        "group_id": 671,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3578,
+        "source_file": "2021-12-CET6-2.pdf",
+        "q_number": 44,
+        "group_id": 697,
+        "group_type": "matching",
+        "answer": "F",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 3579,
+        "source_file": "2021-12-CET6-2.pdf",
+        "q_number": 45,
+        "group_id": 697,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 3620,
+        "source_file": "2021-12-CET6-3.pdf",
+        "q_number": 42,
+        "group_id": 707,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "M",
+          "N",
+          "O",
+          "P"
+        ]
+      },
+      {
+        "id": 3621,
+        "source_file": "2021-12-CET6-3.pdf",
+        "q_number": 43,
+        "group_id": 707,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "M",
+          "N",
+          "O",
+          "P"
+        ]
+      },
+      {
+        "id": 3696,
+        "source_file": "2022-06-CET6-2-3.pdf",
+        "q_number": 36,
+        "group_id": 722,
+        "group_type": "matching",
+        "answer": "F",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3732,
+        "source_file": "2022-09-CET6-1.pdf",
+        "q_number": 44,
+        "group_id": 726,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ]
+      },
+      {
+        "id": 4442,
+        "source_file": "2022-09-CET6-2-3.pdf",
+        "q_number": 44,
+        "group_id": 871,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ]
+      },
+      {
+        "id": 1221,
+        "source_file": "2022-12-CET4-3.pdf",
+        "q_number": 41,
+        "group_id": 243,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K"
+        ]
+      },
+      {
+        "id": 3787,
+        "source_file": "2022-12-CET6-1.pdf",
+        "q_number": 44,
+        "group_id": 737,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L"
+        ]
+      },
+      {
+        "id": 3836,
+        "source_file": "2022-12-CET6-2.pdf",
+        "q_number": 38,
+        "group_id": 748,
+        "group_type": "matching",
+        "answer": "J",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P"
+        ]
+      },
+      {
+        "id": 3837,
+        "source_file": "2022-12-CET6-2.pdf",
+        "q_number": 39,
+        "group_id": 748,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L",
+          "M",
+          "N",
+          "P"
+        ]
+      },
+      {
+        "id": 3879,
+        "source_file": "2022-12-CET6-3.pdf",
+        "q_number": 36,
+        "group_id": 758,
+        "group_type": "matching",
+        "answer": "E",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P"
+        ]
+      },
+      {
+        "id": 3883,
+        "source_file": "2022-12-CET6-3.pdf",
+        "q_number": 40,
+        "group_id": 758,
+        "group_type": "matching",
+        "answer": "D",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O",
+          "P"
+        ]
+      },
+      {
+        "id": 2180,
+        "source_file": "2023-03-CET4-1.pdf",
+        "q_number": 38,
+        "group_id": 432,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L"
+        ]
+      },
+      {
+        "id": 2182,
+        "source_file": "2023-03-CET4-1.pdf",
+        "q_number": 40,
+        "group_id": 432,
+        "group_type": "matching",
+        "answer": "J",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L"
+        ]
+      },
+      {
+        "id": 4481,
+        "source_file": "2023-03-CET4-2-3.pdf",
+        "q_number": 38,
+        "group_id": 880,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L"
+        ]
+      },
+      {
+        "id": 4483,
+        "source_file": "2023-03-CET4-2-3.pdf",
+        "q_number": 40,
+        "group_id": 880,
+        "group_type": "matching",
+        "answer": "J",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L"
+        ]
+      },
+      {
+        "id": 3917,
+        "source_file": "2023-03-CET6-1.pdf",
+        "q_number": 45,
+        "group_id": 762,
+        "group_type": "matching",
+        "answer": "J",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M"
+        ]
+      },
+      {
+        "id": 4549,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 45,
+        "group_id": 894,
+        "group_type": "matching",
+        "answer": "J",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M"
+        ]
+      },
+      {
+        "id": 3960,
+        "source_file": "2023-06-CET6-1.pdf",
+        "q_number": 36,
+        "group_id": 773,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M"
+        ]
+      },
+      {
+        "id": 4061,
+        "source_file": "2023-06-CET6-3.pdf",
+        "q_number": 40,
+        "group_id": 794,
+        "group_type": "matching",
+        "answer": "B",
+        "explicit_markers": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 4062,
+        "source_file": "2023-06-CET6-3.pdf",
+        "q_number": 41,
+        "group_id": 794,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 4063,
+        "source_file": "2023-06-CET6-3.pdf",
+        "q_number": 42,
+        "group_id": 794,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 4091,
+        "source_file": "2023-12-CET6-1.pdf",
+        "q_number": 40,
+        "group_id": 798,
+        "group_type": "matching",
+        "answer": "C",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K"
+        ]
+      },
+      {
+        "id": 4096,
+        "source_file": "2023-12-CET6-1.pdf",
+        "q_number": 45,
+        "group_id": 798,
+        "group_type": "matching",
+        "answer": "J",
+        "explicit_markers": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K"
+        ]
+      },
+      {
+        "id": 4142,
+        "source_file": "2023-12-CET6-2.pdf",
+        "q_number": 36,
+        "group_id": 809,
+        "group_type": "matching",
+        "answer": "F",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "K",
+          "M"
+        ]
+      },
+      {
+        "id": 4144,
+        "source_file": "2023-12-CET6-2.pdf",
+        "q_number": 38,
+        "group_id": 809,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "K",
+          "M"
+        ]
+      },
+      {
+        "id": 4147,
+        "source_file": "2023-12-CET6-2.pdf",
+        "q_number": 41,
+        "group_id": 809,
+        "group_type": "matching",
+        "answer": "L",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "K",
+          "M"
+        ]
+      },
+      {
+        "id": 4149,
+        "source_file": "2023-12-CET6-2.pdf",
+        "q_number": 43,
+        "group_id": 809,
+        "group_type": "matching",
+        "answer": "J",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "G",
+          "H",
+          "K",
+          "M"
+        ]
+      },
+      {
+        "id": 4187,
+        "source_file": "2023-12-CET6-3.pdf",
+        "q_number": 41,
+        "group_id": 819,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L"
+        ]
+      },
+      {
+        "id": 361,
+        "source_file": "2024-12-CET4-2.pdf",
+        "q_number": 44,
+        "group_id": 71,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L"
+        ]
+      },
+      {
+        "id": 416,
+        "source_file": "2024-12-CET4-3.pdf",
+        "q_number": 44,
+        "group_id": 83,
+        "group_type": "matching",
+        "answer": "I",
+        "explicit_markers": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K"
+        ]
+      }
+    ],
+    "missing_explanations": [
+      {
+        "id": 1533,
+        "source_file": "2019-12-CET4-1.pdf",
+        "q_number": 44,
+        "group_id": 303,
+        "group_type": "matching"
+      },
+      {
+        "id": 1581,
+        "source_file": "2019-12-CET4-2.pdf",
+        "q_number": 37,
+        "group_id": 315,
+        "group_type": "matching"
+      },
+      {
+        "id": 4685,
+        "source_file": "2019-12-CET6-3.pdf",
+        "q_number": 14,
+        "group_id": 935,
+        "group_type": "listening"
+      },
+      {
+        "id": 4270,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 40,
+        "group_id": 835,
+        "group_type": "matching"
+      },
+      {
+        "id": 2021,
+        "source_file": "2020-12-CET4-3.pdf",
+        "q_number": 41,
+        "group_id": 402,
+        "group_type": "matching"
+      },
+      {
+        "id": 1665,
+        "source_file": "2021-06-CET4-1.pdf",
+        "q_number": 41,
+        "group_id": 330,
+        "group_type": "matching"
+      },
+      {
+        "id": 1703,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 41,
+        "group_id": 337,
+        "group_type": "matching"
+      },
+      {
+        "id": 3589,
+        "source_file": "2021-12-CET6-2.pdf",
+        "q_number": 11,
+        "group_id": 700,
+        "group_type": "listening"
+      },
+      {
+        "id": 3653,
+        "source_file": "2022-06-CET6-1.pdf",
+        "q_number": 1,
+        "group_id": 712,
+        "group_type": "listening"
+      },
+      {
+        "id": 3712,
+        "source_file": "2022-09-CET6-1.pdf",
+        "q_number": 53,
+        "group_id": 724,
+        "group_type": "reading"
+      },
+      {
+        "id": 4435,
+        "source_file": "2022-09-CET6-2-3.pdf",
+        "q_number": 36,
+        "group_id": 871,
+        "group_type": "matching"
+      },
+      {
+        "id": 4530,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 26,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4531,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 27,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4532,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 28,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4533,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 29,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4534,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 30,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4535,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 31,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4536,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 32,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4537,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 33,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4538,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 34,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4539,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 35,
+        "group_id": 893,
+        "group_type": "cloze"
+      },
+      {
+        "id": 4542,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 38,
+        "group_id": 894,
+        "group_type": "matching"
+      },
+      {
+        "id": 4543,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 39,
+        "group_id": 894,
+        "group_type": "matching"
+      },
+      {
+        "id": 4544,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 40,
+        "group_id": 894,
+        "group_type": "matching"
+      },
+      {
+        "id": 4545,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 41,
+        "group_id": 894,
+        "group_type": "matching"
+      },
+      {
+        "id": 4546,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 42,
+        "group_id": 894,
+        "group_type": "matching"
+      },
+      {
+        "id": 4547,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 43,
+        "group_id": 894,
+        "group_type": "matching"
+      },
+      {
+        "id": 4548,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 44,
+        "group_id": 894,
+        "group_type": "matching"
+      },
+      {
+        "id": 4549,
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "q_number": 45,
+        "group_id": 894,
+        "group_type": "matching"
+      },
+      {
+        "id": 2503,
+        "source_file": "2024-06-CET6-2.pdf",
+        "q_number": 7,
+        "group_id": 493,
+        "group_type": "listening"
+      },
+      {
+        "id": 5123,
+        "source_file": "2024-06-CET6-3.pdf",
+        "q_number": 7,
+        "group_id": 1063,
+        "group_type": "listening"
+      },
+      {
+        "id": 442,
+        "source_file": "2025-06-CET4-1.pdf",
+        "q_number": 40,
+        "group_id": 87,
+        "group_type": "matching"
+      },
+      {
+        "id": 444,
+        "source_file": "2025-06-CET4-1.pdf",
+        "q_number": 42,
+        "group_id": 87,
+        "group_type": "matching"
+      },
+      {
+        "id": 445,
+        "source_file": "2025-06-CET4-1.pdf",
+        "q_number": 43,
+        "group_id": 87,
+        "group_type": "matching"
+      },
+      {
+        "id": 2906,
+        "source_file": "2025-12-CET6-2.pdf",
+        "q_number": 35,
+        "group_id": 569,
+        "group_type": "cloze"
+      },
+      {
+        "id": 2914,
+        "source_file": "2025-12-CET6-2.pdf",
+        "q_number": 43,
+        "group_id": 570,
+        "group_type": "matching"
+      }
+    ],
+    "incomplete_cloze_bank": [
+      {
+        "id": 3173,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 26,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3174,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 27,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3175,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 28,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3176,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 29,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3177,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 30,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3178,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 31,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3179,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 32,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3180,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 33,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3181,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 34,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3182,
+        "source_file": "2019-12-CET6-2.pdf",
+        "q_number": 35,
+        "group_id": 621,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 2395,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 26,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2396,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 27,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2397,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 28,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2398,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 29,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2399,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 30,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2400,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 31,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2401,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 32,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2402,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 33,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2403,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 34,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 2404,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 35,
+        "group_id": 475,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4256,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 26,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4257,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 27,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4258,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 28,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4259,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 29,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4260,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 30,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4261,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 31,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4262,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 32,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4263,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 33,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4264,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 34,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 4265,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 35,
+        "group_id": 834,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "J"
+        ]
+      },
+      {
+        "id": 3303,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 26,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3305,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 28,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3306,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 29,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3307,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 30,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3308,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 31,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3309,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 32,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3310,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 33,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3311,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 34,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 3312,
+        "source_file": "2020-12-CET6-2.pdf",
+        "q_number": 35,
+        "group_id": 645,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "I"
+        ]
+      },
+      {
+        "id": 1688,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 26,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1689,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 27,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1690,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 28,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1691,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 29,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1692,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 30,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1693,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 31,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1694,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 32,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1695,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 33,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1696,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 34,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      },
+      {
+        "id": 1697,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 35,
+        "group_id": 336,
+        "group_type": "cloze",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ],
+        "missing_labels": [
+          "C"
+        ]
+      }
+    ],
+    "answer_outside_allowed_choices": [
+      {
+        "id": 2401,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 32,
+        "group_id": 475,
+        "group_type": "cloze",
+        "answer": "J",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ]
+      },
+      {
+        "id": 2410,
+        "source_file": "2020-09-CET6-2.pdf",
+        "q_number": 41,
+        "group_id": 476,
+        "group_type": "matching",
+        "answer": "O",
+        "allowed": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 4262,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 32,
+        "group_id": 834,
+        "group_type": "cloze",
+        "answer": "J",
+        "labels": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ]
+      },
+      {
+        "id": 4271,
+        "source_file": "2020-09-CET6-3.pdf",
+        "q_number": 41,
+        "group_id": 835,
+        "group_type": "matching",
+        "answer": "O",
+        "allowed": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N"
+        ]
+      },
+      {
+        "id": 1692,
+        "source_file": "2021-06-CET4-2.pdf",
+        "q_number": 30,
+        "group_id": 336,
+        "group_type": "cloze",
+        "answer": "C",
+        "labels": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M",
+          "N",
+          "O"
+        ]
+      },
+      {
+        "id": 3646,
+        "source_file": "2022-06-CET6-1.pdf",
+        "q_number": 38,
+        "group_id": 711,
+        "group_type": "matching",
+        "answer": "J",
+        "allowed": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H"
+        ]
+      },
+      {
+        "id": 3648,
+        "source_file": "2022-06-CET6-1.pdf",
+        "q_number": 40,
+        "group_id": 711,
+        "group_type": "matching",
+        "answer": "K",
+        "allowed": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H"
+        ]
+      }
+    ],
+    "truncated_question_content": [
+      {
+        "id": 3447,
+        "source_file": "2021-06-CET6-2.pdf",
+        "q_number": 43,
+        "group_id": 671,
+        "group_type": "matching",
+        "content": "A"
+      },
+      {
+        "id": 3788,
+        "source_file": "2022-12-CET6-1.pdf",
+        "q_number": 45,
+        "group_id": 737,
+        "group_type": "matching",
+        "content": "To"
+      },
+      {
+        "id": 3962,
+        "source_file": "2023-06-CET6-1.pdf",
+        "q_number": 38,
+        "group_id": 773,
+        "group_type": "matching",
+        "content": "The"
+      }
+    ],
+    "missing_answers": [
+      {
+        "id": 4912,
+        "source_file": "2022-06-CET6-2-3.pdf",
+        "q_number": 24,
+        "group_id": 1005,
+        "group_type": "listening"
+      }
+    ],
+    "empty_question_content": [
+      {
+        "id": 4089,
+        "source_file": "2023-12-CET6-1.pdf",
+        "q_number": 38,
+        "group_id": 798,
+        "group_type": "matching",
+        "content": ""
+      },
+      {
+        "id": 442,
+        "source_file": "2025-06-CET4-1.pdf",
+        "q_number": 40,
+        "group_id": 87,
+        "group_type": "matching",
+        "content": ""
+      },
+      {
+        "id": 445,
+        "source_file": "2025-06-CET4-1.pdf",
+        "q_number": 43,
+        "group_id": 87,
+        "group_type": "matching",
+        "content": ""
+      }
+    ],
+    "paper_numbering_gaps": [
+      {
+        "source_file": "2019-06-CET4-1.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          50
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2019-06-CET6-2.pdf",
+        "question_count": 52,
+        "missing_q_numbers": [
+          5,
+          9,
+          54
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2019-06-CET6-3.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          5,
+          9
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2019-12-CET6-1.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          5
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2019-12-CET6-2.pdf",
+        "question_count": 52,
+        "missing_q_numbers": [
+          16,
+          17,
+          18
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2019-12-CET6-3.pdf",
+        "question_count": 50,
+        "missing_q_numbers": [
+          16,
+          17,
+          18,
+          48,
+          52
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-07-CET4-1.pdf",
+        "question_count": 49,
+        "missing_q_numbers": [
+          15,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-07-CET6-1.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          6,
+          24
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-09-CET4-2.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          51
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-09-CET4-3.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          51
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-09-CET6-2.pdf",
+        "question_count": 50,
+        "missing_q_numbers": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-09-CET6-3.pdf",
+        "question_count": 50,
+        "missing_q_numbers": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-12-CET4-2.pdf",
+        "question_count": 50,
+        "missing_q_numbers": [
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-12-CET4-3.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          38
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-12-CET6-1.pdf",
+        "question_count": 50,
+        "missing_q_numbers": [
+          5,
+          6,
+          7,
+          8,
+          19
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-12-CET6-2.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          11,
+          13
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2020-12-CET6-3.pdf",
+        "question_count": 52,
+        "missing_q_numbers": [
+          11,
+          13,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-06-CET4-1.pdf",
+        "question_count": 42,
+        "missing_q_numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          11,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-06-CET4-2.pdf",
+        "question_count": 44,
+        "missing_q_numbers": [
+          12,
+          13,
+          14,
+          15,
+          24,
+          47,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-06-CET4-3.pdf",
+        "question_count": 50,
+        "missing_q_numbers": [
+          12,
+          13,
+          14,
+          15,
+          24
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-06-CET6-1.pdf",
+        "question_count": 46,
+        "missing_q_numbers": [
+          9,
+          10,
+          11,
+          19,
+          23,
+          44,
+          45,
+          49,
+          54
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-06-CET6-2.pdf",
+        "question_count": 47,
+        "missing_q_numbers": [
+          3,
+          6,
+          11,
+          15,
+          21,
+          24,
+          25,
+          49
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-06-CET6-3.pdf",
+        "question_count": 46,
+        "missing_q_numbers": [
+          3,
+          6,
+          11,
+          15,
+          21,
+          24,
+          25,
+          47,
+          54
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-12-CET4-1.pdf",
+        "question_count": 51,
+        "missing_q_numbers": [
+          7,
+          19,
+          24,
+          51
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-12-CET4-2.pdf",
+        "question_count": 49,
+        "missing_q_numbers": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-12-CET4-3.pdf",
+        "question_count": 50,
+        "missing_q_numbers": [
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-12-CET6-1.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          16
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-12-CET6-2.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          1
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2021-12-CET6-3.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          1
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2022-06-CET6-1.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          42
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2022-06-CET6-2-3.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          49,
+          50
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2022-09-CET6-1.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          37,
+          47
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2022-09-CET6-2-3.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          37,
+          47
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2023-03-CET4-1.pdf",
+        "question_count": 52,
+        "missing_q_numbers": [
+          1,
+          20,
+          52
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2023-03-CET4-2-3.pdf",
+        "question_count": 52,
+        "missing_q_numbers": [
+          1,
+          20,
+          52
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2023-03-CET6-1.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          10,
+          50
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2023-03-CET6-2-3.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          10,
+          50
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2023-06-CET6-1.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          49,
+          54
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2023-06-CET6-2.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          12,
+          13
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2023-06-CET6-3.pdf",
+        "question_count": 52,
+        "missing_q_numbers": [
+          12,
+          13,
+          53
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2023-12-CET6-3.pdf",
+        "question_count": 50,
+        "missing_q_numbers": [
+          37,
+          49,
+          50,
+          51,
+          53
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2024-06-CET6-1.pdf",
+        "question_count": 53,
+        "missing_q_numbers": [
+          54,
+          55
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2024-06-CET6-2.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          43
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      },
+      {
+        "source_file": "2025-12-CET4-1.pdf",
+        "question_count": 54,
+        "missing_q_numbers": [
+          48
+        ],
+        "status": "structural_gap_requires_source_check",
+        "note": "Screened against standard numbers 1 to 55; each missing number still requires source-PDF checking before classification."
+      }
+    ],
+    "empty_question_groups": [
+      {
+        "group_id": 499,
+        "source_file": "2024-06-CET6-3.pdf",
+        "group_type": "reading"
+      }
+    ]
+  },
+  "http_paper_results": [
+    {
+      "source_file": "2019-06-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-06-CET4-1.pdf",
+      "status": 200,
+      "bytes": 208527,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-06-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-06-CET4-2.pdf",
+      "status": 200,
+      "bytes": 211354,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-06-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-06-CET4-3.pdf",
+      "status": 200,
+      "bytes": 209251,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-06-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-06-CET6-1.pdf",
+      "status": 200,
+      "bytes": 232860,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-06-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-06-CET6-2.pdf",
+      "status": 200,
+      "bytes": 224248,
+      "rendered_question_count": 52,
+      "expected_question_count": 52,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-06-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-06-CET6-3.pdf",
+      "status": 200,
+      "bytes": 193847,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-12-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-12-CET4-1.pdf",
+      "status": 200,
+      "bytes": 217054,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-12-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-12-CET4-2.pdf",
+      "status": 200,
+      "bytes": 222874,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-12-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-12-CET4-3.pdf",
+      "status": 200,
+      "bytes": 219459,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-12-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-12-CET6-1.pdf",
+      "status": 200,
+      "bytes": 230756,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-12-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-12-CET6-2.pdf",
+      "status": 200,
+      "bytes": 190474,
+      "rendered_question_count": 52,
+      "expected_question_count": 52,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2019-12-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2019-12-CET6-3.pdf",
+      "status": 200,
+      "bytes": 184425,
+      "rendered_question_count": 50,
+      "expected_question_count": 50,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-07-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-07-CET4-1.pdf",
+      "status": 200,
+      "bytes": 190433,
+      "rendered_question_count": 49,
+      "expected_question_count": 49,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-07-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-07-CET6-1.pdf",
+      "status": 200,
+      "bytes": 212809,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-09-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-09-CET4-1.pdf",
+      "status": 200,
+      "bytes": 212910,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-09-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-09-CET4-2.pdf",
+      "status": 200,
+      "bytes": 205337,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-09-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-09-CET4-3.pdf",
+      "status": 200,
+      "bytes": 205337,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-09-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-09-CET6-1.pdf",
+      "status": 200,
+      "bytes": 219691,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-09-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-09-CET6-2.pdf",
+      "status": 200,
+      "bytes": 196261,
+      "rendered_question_count": 50,
+      "expected_question_count": 50,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-09-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-09-CET6-3.pdf",
+      "status": 200,
+      "bytes": 196261,
+      "rendered_question_count": 50,
+      "expected_question_count": 50,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-12-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-12-CET4-1.pdf",
+      "status": 200,
+      "bytes": 212530,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-12-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-12-CET4-2.pdf",
+      "status": 200,
+      "bytes": 194223,
+      "rendered_question_count": 50,
+      "expected_question_count": 50,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-12-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-12-CET4-3.pdf",
+      "status": 200,
+      "bytes": 207178,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-12-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-12-CET6-1.pdf",
+      "status": 200,
+      "bytes": 199002,
+      "rendered_question_count": 50,
+      "expected_question_count": 50,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-12-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-12-CET6-2.pdf",
+      "status": 200,
+      "bytes": 209438,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2020-12-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2020-12-CET6-3.pdf",
+      "status": 200,
+      "bytes": 192558,
+      "rendered_question_count": 52,
+      "expected_question_count": 52,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-06-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-06-CET4-1.pdf",
+      "status": 200,
+      "bytes": 163430,
+      "rendered_question_count": 42,
+      "expected_question_count": 42,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-06-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-06-CET4-2.pdf",
+      "status": 200,
+      "bytes": 173786,
+      "rendered_question_count": 44,
+      "expected_question_count": 44,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-06-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-06-CET4-3.pdf",
+      "status": 200,
+      "bytes": 193862,
+      "rendered_question_count": 50,
+      "expected_question_count": 50,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-06-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-06-CET6-1.pdf",
+      "status": 200,
+      "bytes": 196897,
+      "rendered_question_count": 46,
+      "expected_question_count": 46,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-06-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-06-CET6-2.pdf",
+      "status": 200,
+      "bytes": 192605,
+      "rendered_question_count": 47,
+      "expected_question_count": 47,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-06-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-06-CET6-3.pdf",
+      "status": 200,
+      "bytes": 172112,
+      "rendered_question_count": 46,
+      "expected_question_count": 46,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-12-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-12-CET4-1.pdf",
+      "status": 200,
+      "bytes": 200553,
+      "rendered_question_count": 51,
+      "expected_question_count": 51,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-12-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-12-CET4-2.pdf",
+      "status": 200,
+      "bytes": 190946,
+      "rendered_question_count": 49,
+      "expected_question_count": 49,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-12-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-12-CET4-3.pdf",
+      "status": 200,
+      "bytes": 191381,
+      "rendered_question_count": 50,
+      "expected_question_count": 50,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-12-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-12-CET6-1.pdf",
+      "status": 200,
+      "bytes": 214515,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-12-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-12-CET6-2.pdf",
+      "status": 200,
+      "bytes": 214607,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2021-12-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2021-12-CET6-3.pdf",
+      "status": 200,
+      "bytes": 196691,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-06-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-06-CET4-1.pdf",
+      "status": 200,
+      "bytes": 214196,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-06-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-06-CET4-2.pdf",
+      "status": 200,
+      "bytes": 212076,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-06-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-06-CET4-3.pdf",
+      "status": 200,
+      "bytes": 212076,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-06-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-06-CET6-1.pdf",
+      "status": 200,
+      "bytes": 212537,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-06-CET6-2-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-06-CET6-2-3.pdf",
+      "status": 200,
+      "bytes": 194187,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-09-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-09-CET4-1.pdf",
+      "status": 200,
+      "bytes": 214130,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-09-CET4-2-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-09-CET4-2-3.pdf",
+      "status": 200,
+      "bytes": 211544,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-09-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-09-CET6-1.pdf",
+      "status": 200,
+      "bytes": 213730,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-09-CET6-2-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-09-CET6-2-3.pdf",
+      "status": 200,
+      "bytes": 195371,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-12-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-12-CET4-1.pdf",
+      "status": 200,
+      "bytes": 213134,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-12-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-12-CET4-2.pdf",
+      "status": 200,
+      "bytes": 212633,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-12-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-12-CET4-3.pdf",
+      "status": 200,
+      "bytes": 210480,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-12-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-12-CET6-1.pdf",
+      "status": 200,
+      "bytes": 216637,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-12-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-12-CET6-2.pdf",
+      "status": 200,
+      "bytes": 216795,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2022-12-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2022-12-CET6-3.pdf",
+      "status": 200,
+      "bytes": 200717,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-03-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-03-CET4-1.pdf",
+      "status": 200,
+      "bytes": 203045,
+      "rendered_question_count": 52,
+      "expected_question_count": 52,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-03-CET4-2-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-03-CET4-2-3.pdf",
+      "status": 200,
+      "bytes": 200459,
+      "rendered_question_count": 52,
+      "expected_question_count": 52,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-03-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-03-CET6-1.pdf",
+      "status": 200,
+      "bytes": 212260,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-03-CET6-2-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-03-CET6-2-3.pdf",
+      "status": 200,
+      "bytes": 193785,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-06-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-06-CET4-1.pdf",
+      "status": 200,
+      "bytes": 213477,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-06-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-06-CET4-2.pdf",
+      "status": 200,
+      "bytes": 213165,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-06-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-06-CET4-3.pdf",
+      "status": 200,
+      "bytes": 210901,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-06-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-06-CET6-1.pdf",
+      "status": 200,
+      "bytes": 213680,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-06-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-06-CET6-2.pdf",
+      "status": 200,
+      "bytes": 213294,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-06-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-06-CET6-3.pdf",
+      "status": 200,
+      "bytes": 191528,
+      "rendered_question_count": 52,
+      "expected_question_count": 52,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-12-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-12-CET4-1.pdf",
+      "status": 200,
+      "bytes": 213873,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-12-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-12-CET4-2.pdf",
+      "status": 200,
+      "bytes": 212677,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-12-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-12-CET4-3.pdf",
+      "status": 200,
+      "bytes": 209783,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-12-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-12-CET6-1.pdf",
+      "status": 200,
+      "bytes": 219643,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-12-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-12-CET6-2.pdf",
+      "status": 200,
+      "bytes": 219950,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2023-12-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2023-12-CET6-3.pdf",
+      "status": 200,
+      "bytes": 187939,
+      "rendered_question_count": 50,
+      "expected_question_count": 50,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-06-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-06-CET4-1.pdf",
+      "status": 200,
+      "bytes": 212373,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-06-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-06-CET4-2.pdf",
+      "status": 200,
+      "bytes": 212469,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-06-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-06-CET4-3.pdf",
+      "status": 200,
+      "bytes": 210528,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-06-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-06-CET6-1.pdf",
+      "status": 200,
+      "bytes": 213054,
+      "rendered_question_count": 53,
+      "expected_question_count": 53,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-06-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-06-CET6-2.pdf",
+      "status": 200,
+      "bytes": 217424,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-06-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-06-CET6-3.pdf",
+      "status": 200,
+      "bytes": 221277,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-12-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-12-CET4-1.pdf",
+      "status": 200,
+      "bytes": 213753,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-12-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-12-CET4-2.pdf",
+      "status": 200,
+      "bytes": 213704,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-12-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-12-CET4-3.pdf",
+      "status": 200,
+      "bytes": 211197,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-12-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-12-CET6-1.pdf",
+      "status": 200,
+      "bytes": 219676,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-12-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-12-CET6-2.pdf",
+      "status": 200,
+      "bytes": 218747,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2024-12-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2024-12-CET6-3.pdf",
+      "status": 200,
+      "bytes": 217497,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-06-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-06-CET4-1.pdf",
+      "status": 200,
+      "bytes": 213115,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-06-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-06-CET4-2.pdf",
+      "status": 200,
+      "bytes": 212007,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-06-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-06-CET4-3.pdf",
+      "status": 200,
+      "bytes": 210112,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-06-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-06-CET6-1.pdf",
+      "status": 200,
+      "bytes": 220580,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-06-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-06-CET6-2.pdf",
+      "status": 200,
+      "bytes": 219032,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-06-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-06-CET6-3.pdf",
+      "status": 200,
+      "bytes": 217290,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-12-CET4-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-12-CET4-1.pdf",
+      "status": 200,
+      "bytes": 212351,
+      "rendered_question_count": 54,
+      "expected_question_count": 54,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-12-CET4-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-12-CET4-2.pdf",
+      "status": 200,
+      "bytes": 213579,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-12-CET4-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-12-CET4-3.pdf",
+      "status": 200,
+      "bytes": 211097,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-12-CET6-1.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-12-CET6-1.pdf",
+      "status": 200,
+      "bytes": 218413,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-12-CET6-2.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-12-CET6-2.pdf",
+      "status": 200,
+      "bytes": 218730,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    },
+    {
+      "source_file": "2025-12-CET6-3.pdf",
+      "url": "http://127.0.0.1:5000/practice/2025-12-CET6-3.pdf",
+      "status": 200,
+      "bytes": 217029,
+      "rendered_question_count": 55,
+      "expected_question_count": 55,
+      "missing_rendered_ids": [],
+      "unexpected_rendered_ids": [],
+      "duplicate_rendered_ids": [],
+      "rendered_control_mismatches": [],
+      "passed": true
+    }
+  ],
+  "answer_api_results": [
+    {
+      "question_id": 31,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 86,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 171,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 226,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 308,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 363,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 442,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 445,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 448,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 493,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 577,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 632,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1031,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1116,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1171,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1246,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1301,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1395,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1450,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1535,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1590,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1670,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1708,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1783,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1837,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1922,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 1972,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2143,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2198,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2224,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2263,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2317,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2370,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2443,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2497,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2582,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2637,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2722,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2777,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2862,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 2917,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3002,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3056,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3139,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3193,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3273,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3323,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3401,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3447,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3450,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3526,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3580,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3653,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3734,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3788,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3789,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3844,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3918,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3962,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 3970,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4025,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4089,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4097,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4152,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4231,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4281,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4306,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4391,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4444,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4498,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4550,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4574,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4599,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4624,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4647,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4672,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4694,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4719,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4744,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4767,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4787,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4805,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4840,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4864,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4889,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4912,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4914,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4949,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 4974,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5009,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5032,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5067,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5092,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5117,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5142,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5167,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5192,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5217,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5242,
+      "status": 200,
+      "passed": true
+    },
+    {
+      "question_id": 5267,
+      "status": 200,
+      "passed": true
+    }
+  ],
+  "verification_limits": [
+    "Page pass means HTTP 200, all database question IDs rendered, and controls match database options; this is not browser visual acceptance.",
+    "Numbering gaps are structural risks awaiting per-PDF confirmation, not a proven count of omitted source questions.",
+    "Nonempty values and allowed-letter checks do not establish semantic correctness of all 4958 questions.",
+    "The root agent may apply repairs after this snapshot; rerun the affected checks after changes."
+  ],
+  "elapsed_seconds": 2.82,
+  "http_writes_performed": false,
+  "database_writes_performed": false
+}

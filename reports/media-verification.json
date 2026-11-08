@@ -1,0 +1,1496 @@
+{
+  "base_commit": "5f3a276b150d81a360c9337376201d68e189eb96",
+  "mp3": 93,
+  "answer_pdf": 93,
+  "all_match": true,
+  "files": [
+    {
+      "path": "data/answers/2019-06-CET4-1.pdf",
+      "bytes": 3444186,
+      "sha256": "9ac26dfa2f4fd8460e1da5d1daae52b1551830e846e65c11043fcea99394e177",
+      "git_blob": "270863934239b10ae1afc5558907b1a1b2053f22",
+      "expected_git_blob": "270863934239b10ae1afc5558907b1a1b2053f22",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-06-CET4-2.pdf",
+      "bytes": 3346350,
+      "sha256": "94c17f0417aae3986f95c086463946dbfa0a611ca0b0e61e04eabe776a8664da",
+      "git_blob": "56b82c55dedc5cef713abacc66d7c2fc22eb00c7",
+      "expected_git_blob": "56b82c55dedc5cef713abacc66d7c2fc22eb00c7",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-06-CET4-3.pdf",
+      "bytes": 2282340,
+      "sha256": "e08d421c70fde5a3e1f9f18c2c21604a8becc41ce561fce177f847fb7f7a9ec0",
+      "git_blob": "9e21d66a42ae681d679f6474ca490f6d58dbc49a",
+      "expected_git_blob": "9e21d66a42ae681d679f6474ca490f6d58dbc49a",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-06-CET6-1.pdf",
+      "bytes": 5831134,
+      "sha256": "c8be81bd1f993af16b153ff56529b0cd3454236617c68ab63271f95ff80d623a",
+      "git_blob": "fc1a866fdb1705410142c05030ae7189b0ed8eb5",
+      "expected_git_blob": "fc1a866fdb1705410142c05030ae7189b0ed8eb5",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-06-CET6-2.pdf",
+      "bytes": 5879383,
+      "sha256": "860829fd4fef27ebe51b683e224126acaac6f324ca3970aaef68e96f4777a578",
+      "git_blob": "4cd6e74407a8a803406fe4a7882e328d90b05c88",
+      "expected_git_blob": "4cd6e74407a8a803406fe4a7882e328d90b05c88",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-06-CET6-3.pdf",
+      "bytes": 2726270,
+      "sha256": "6019a6a512dd0d08fc5df4919d85600fd127d303f8fc2abd50f0f86078edf3ba",
+      "git_blob": "fd2ff5c6b8a8b1a3477b29ed71cc7e531e884312",
+      "expected_git_blob": "fd2ff5c6b8a8b1a3477b29ed71cc7e531e884312",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-12-CET4-1.pdf",
+      "bytes": 4071417,
+      "sha256": "10802c1e11a6403760d2d53ce433a197cc3f17cbd758365d4c2f2a62f720b8cc",
+      "git_blob": "da30fbed124f1b8ce618336ca18cf8a757351a15",
+      "expected_git_blob": "da30fbed124f1b8ce618336ca18cf8a757351a15",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-12-CET4-2.pdf",
+      "bytes": 3749748,
+      "sha256": "676780759b54613f10433b60e88402ccf26aabf67593d21df4fe386e38988a50",
+      "git_blob": "eed4f820e1cf9194166d73ae437d22c8734de6b1",
+      "expected_git_blob": "eed4f820e1cf9194166d73ae437d22c8734de6b1",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-12-CET4-3.pdf",
+      "bytes": 1951692,
+      "sha256": "41dd80f3c9bc85f8bc0fc09703f78a9ebca889aa0f557f4b4f6138b3e3299b59",
+      "git_blob": "2b0339aae2cebda9ec7f79b1cca3b557654defa5",
+      "expected_git_blob": "2b0339aae2cebda9ec7f79b1cca3b557654defa5",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-12-CET6-1.pdf",
+      "bytes": 6002969,
+      "sha256": "6aedac6f3278eecb80a91a0bab38e28d03cd019123ec62371b34c9aed776b90e",
+      "git_blob": "3ab04a06c89163a5b08b1b2badb1042bfd04e4b6",
+      "expected_git_blob": "3ab04a06c89163a5b08b1b2badb1042bfd04e4b6",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-12-CET6-2.pdf",
+      "bytes": 6110836,
+      "sha256": "d20ad8a12223feb2157ef0e5236d975c932adcc7ca05fa3d76ec669ab8f8e51f",
+      "git_blob": "fdb6995b0603003d5a187df7fc2fe14f899e60b9",
+      "expected_git_blob": "fdb6995b0603003d5a187df7fc2fe14f899e60b9",
+      "match": true
+    },
+    {
+      "path": "data/answers/2019-12-CET6-3.pdf",
+      "bytes": 2963264,
+      "sha256": "4937c15362e6c0065e7e8ce4d7c0a674fecf74507bc1b5aa6a5a85307cdb3f29",
+      "git_blob": "031b79fac69de8c2a65626c76bb4825875edb607",
+      "expected_git_blob": "031b79fac69de8c2a65626c76bb4825875edb607",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-07-CET4-1.pdf",
+      "bytes": 2515829,
+      "sha256": "36458b6e22b3f7bccc8aed5e4ec1d4fd7117c6053cdfc516b8e13efb443d908a",
+      "git_blob": "7fd215bb0d998b89c25a40da3b3052fecc107e4a",
+      "expected_git_blob": "7fd215bb0d998b89c25a40da3b3052fecc107e4a",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-07-CET6-1.pdf",
+      "bytes": 8915563,
+      "sha256": "6233ef3ffe93a0351049bbe34bb0b92d9aaf5d11f970e03cdd4cabb97b7b9bfb",
+      "git_blob": "360c7ab4daa9944022421932e3a8f85509688637",
+      "expected_git_blob": "360c7ab4daa9944022421932e3a8f85509688637",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-09-CET4-1.pdf",
+      "bytes": 3385193,
+      "sha256": "2a67bf2ae70f094596e0680770fa66b733cdb76c85e5843ffc569b6068467324",
+      "git_blob": "24f0a70091448366702e45da59a2a0a49ae1a72a",
+      "expected_git_blob": "24f0a70091448366702e45da59a2a0a49ae1a72a",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-09-CET4-2.pdf",
+      "bytes": 2476934,
+      "sha256": "273530c4ab88ffe81821ac1dfb8ff6695ddb867f2079209985032af87e2fef54",
+      "git_blob": "a1e47fb2b63d5f3f4965d902bb582e565a062d25",
+      "expected_git_blob": "a1e47fb2b63d5f3f4965d902bb582e565a062d25",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-09-CET4-3.pdf",
+      "bytes": 1933265,
+      "sha256": "067d2a6f9c21d76d766916aec317f6bb45a2779d7dc3ed0d17c8aa1aca8dd46a",
+      "git_blob": "4cd57a16a8248c1953afcdb87d253546f42db91b",
+      "expected_git_blob": "4cd57a16a8248c1953afcdb87d253546f42db91b",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-09-CET6-1.pdf",
+      "bytes": 2818275,
+      "sha256": "8f294956a163f3c7574e2ecaa9345b796e383e60b0e97d2585ccbafc97c89e60",
+      "git_blob": "ab4dd36d9056fec77c1d9ff22a98dcfda2cbc8ad",
+      "expected_git_blob": "ab4dd36d9056fec77c1d9ff22a98dcfda2cbc8ad",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-09-CET6-2.pdf",
+      "bytes": 2146908,
+      "sha256": "122363aee09a07f3aaeb23f8d85b48d34ba3f6cff28d833baf99036417893f75",
+      "git_blob": "0c26ddf4380e6586b7cb4725eb124b918c08a59c",
+      "expected_git_blob": "0c26ddf4380e6586b7cb4725eb124b918c08a59c",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-09-CET6-3.pdf",
+      "bytes": 1838826,
+      "sha256": "7d2a627c754a5c2b8678bef16cbd08e9595ee49ce2d3be285eb833d035f016fa",
+      "git_blob": "29349d46326fccdb120ad6ddac9a0040fc7d9c31",
+      "expected_git_blob": "29349d46326fccdb120ad6ddac9a0040fc7d9c31",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-12-CET4-1.pdf",
+      "bytes": 5310285,
+      "sha256": "6e676e3d919d9b9a46d601da5405a31f81f7f724ebb4bb5645bdbd93dd2c8b65",
+      "git_blob": "11f6f8214b5075b2c5f6477522fa39e7b5e559d2",
+      "expected_git_blob": "11f6f8214b5075b2c5f6477522fa39e7b5e559d2",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-12-CET4-2.pdf",
+      "bytes": 5094189,
+      "sha256": "490cd2d1c9d4b583a73b531c5ada39aeb1f6e90c3eaa4531d2d33eb0a160413d",
+      "git_blob": "5931384f44de3af51cbcaecc04066e2e963e075a",
+      "expected_git_blob": "5931384f44de3af51cbcaecc04066e2e963e075a",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-12-CET4-3.pdf",
+      "bytes": 3677432,
+      "sha256": "4c2e3047800b9067b184d85fa791224ce4309be59d373fe82292a490df285316",
+      "git_blob": "0185f31fdffbeec5cfb60b39bb7c1bdc27a6ff88",
+      "expected_git_blob": "0185f31fdffbeec5cfb60b39bb7c1bdc27a6ff88",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-12-CET6-1.pdf",
+      "bytes": 4051857,
+      "sha256": "7b6603b90f820fbb90ce20b8d7f5edd8f16cec0eb8d2ccc767a0d62f5d72895f",
+      "git_blob": "f0fa1bfac4e746941e04546f64deb0979e35caab",
+      "expected_git_blob": "f0fa1bfac4e746941e04546f64deb0979e35caab",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-12-CET6-2.pdf",
+      "bytes": 4124016,
+      "sha256": "c0e68b7ceb6d1d910fc57fa241e457b1eda03787483dcf5fb161ca2206332660",
+      "git_blob": "5bc2ccbc850a1537d94a32506c862671fc3f580f",
+      "expected_git_blob": "5bc2ccbc850a1537d94a32506c862671fc3f580f",
+      "match": true
+    },
+    {
+      "path": "data/answers/2020-12-CET6-3.pdf",
+      "bytes": 2940996,
+      "sha256": "fb1658fb2fd03aa0c2688c8696c185a0b981a0ffd2c323b0d2d01f2601773091",
+      "git_blob": "808ee2ac36e7a35ba8c9fcc5541a4593cbb9bccd",
+      "expected_git_blob": "808ee2ac36e7a35ba8c9fcc5541a4593cbb9bccd",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-06-CET4-1.pdf",
+      "bytes": 2762566,
+      "sha256": "97ed5bc4add7ec5fc4cc4ed80f3cb48dbb15058fce29bf50f84f3e809fb4c9cd",
+      "git_blob": "b59bf6dd2fc9c007e20f7f561634a3864f411cc0",
+      "expected_git_blob": "b59bf6dd2fc9c007e20f7f561634a3864f411cc0",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-06-CET4-2.pdf",
+      "bytes": 2857811,
+      "sha256": "81d74542cafcd18e5b5349d65a28d9415d25d6b347410a97ebcb24018fc64ce4",
+      "git_blob": "cc26e9afc4e29739da84e77be9bfc5d6bfcb6ed1",
+      "expected_git_blob": "cc26e9afc4e29739da84e77be9bfc5d6bfcb6ed1",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-06-CET4-3.pdf",
+      "bytes": 1918667,
+      "sha256": "b99eb54739de06a48d5fb55c7189b7e0f0341f3a62f31c1bb44517ca582508cd",
+      "git_blob": "01aaf99034d43b71f60359ca765595209eea746a",
+      "expected_git_blob": "01aaf99034d43b71f60359ca765595209eea746a",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-06-CET6-1.pdf",
+      "bytes": 4191039,
+      "sha256": "f9d69e746f0ee5e876fe9cd84c469abf7eb9df5dd8d437eeccc2696b73158e93",
+      "git_blob": "e8b1256145427c0cca18cc98210646a9bfa9009c",
+      "expected_git_blob": "e8b1256145427c0cca18cc98210646a9bfa9009c",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-06-CET6-2.pdf",
+      "bytes": 4181713,
+      "sha256": "4c7c6732f171756bb7abfc0a18876a774e1cb507e0fd5de540956c5bcaf7e90e",
+      "git_blob": "b5e8412744896ea57f9b29445747a975ad4ee3cf",
+      "expected_git_blob": "b5e8412744896ea57f9b29445747a975ad4ee3cf",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-06-CET6-3.pdf",
+      "bytes": 2689142,
+      "sha256": "b511acd6ce485fea97a21b754930c39f621c42d3b0b5b925b03f0cf47e4dde9d",
+      "git_blob": "4534f87cc42a67eeffb6ed63994fbf84d0cdb787",
+      "expected_git_blob": "4534f87cc42a67eeffb6ed63994fbf84d0cdb787",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-12-CET4-1.pdf",
+      "bytes": 12333740,
+      "sha256": "4ace0dc07e0881c7aefd87dee6b44e84349d40b64d76451eca8f5999881f20b7",
+      "git_blob": "749c88d3ade96b700347474138515fd76372ec97",
+      "expected_git_blob": "749c88d3ade96b700347474138515fd76372ec97",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-12-CET4-2.pdf",
+      "bytes": 13268868,
+      "sha256": "8e8daf5ae69358d4b3cab7376ef21ee5c7be10a2c4499d96b3d0cc69176a5a8f",
+      "git_blob": "d0bec31043273f2dde47f52e4afa578497476539",
+      "expected_git_blob": "d0bec31043273f2dde47f52e4afa578497476539",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-12-CET4-3.pdf",
+      "bytes": 10073380,
+      "sha256": "4f03c54dfda1a837452e30d2990db59c6681402451c327c7c8ef6c332ddebd05",
+      "git_blob": "8a3742906f2dbdd792b5d5a118e8c99eff1e5b28",
+      "expected_git_blob": "8a3742906f2dbdd792b5d5a118e8c99eff1e5b28",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-12-CET6-1.pdf",
+      "bytes": 4571770,
+      "sha256": "1c3fc46c15de690ae23323711a18332e25bf1fff1266a2b3989b08728649d728",
+      "git_blob": "2c3bd811d11caea5214634c4c006af2922a8c3de",
+      "expected_git_blob": "2c3bd811d11caea5214634c4c006af2922a8c3de",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-12-CET6-2.pdf",
+      "bytes": 4380187,
+      "sha256": "226d22fc9df10f701d513c98123ff1c34fbfca06b5f3548572ce376f6f4b0aa5",
+      "git_blob": "9e84b8fdb516ca95f6372b93e917610e8f9a9cc0",
+      "expected_git_blob": "9e84b8fdb516ca95f6372b93e917610e8f9a9cc0",
+      "match": true
+    },
+    {
+      "path": "data/answers/2021-12-CET6-3.pdf",
+      "bytes": 2352055,
+      "sha256": "208db6b0ac539472bc8907f5fc108044627bdd672feb6799d456253c576e4267",
+      "git_blob": "653959884447170fb5be453bb56947c616cb42b5",
+      "expected_git_blob": "653959884447170fb5be453bb56947c616cb42b5",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-06-CET4-1.pdf",
+      "bytes": 3692216,
+      "sha256": "8ee468ef7d12fe2950441aa8e2414c7550b8ae9dc8b9bcbf4a0d7dc09071ac3f",
+      "git_blob": "ba46d8224990acd0800f8912705e148bf2ae81a2",
+      "expected_git_blob": "ba46d8224990acd0800f8912705e148bf2ae81a2",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-06-CET4-2.pdf",
+      "bytes": 2629698,
+      "sha256": "5babad090dc67db1d648bce2d13abc1c064a08aed57b0e45ee421190e279bad1",
+      "git_blob": "bcdd481ba25555cfd9858b2c7d75cbaeb42a2ceb",
+      "expected_git_blob": "bcdd481ba25555cfd9858b2c7d75cbaeb42a2ceb",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-06-CET4-3.pdf",
+      "bytes": 381793,
+      "sha256": "e819e47f2bcfb3d2e95e14904ed21c7356eaa677354dbbcf2be1b4a0ee33e2c3",
+      "git_blob": "e6c01af69be101702480b5da34d3e5597acb0e60",
+      "expected_git_blob": "e6c01af69be101702480b5da34d3e5597acb0e60",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-06-CET6-1.pdf",
+      "bytes": 4292503,
+      "sha256": "2818b589a4d403654e5c9d9eab784fc5755a521b3c8a40e56c712b4dc5a38d1e",
+      "git_blob": "a24de78654c8c4a1726fe35ee3715dc0ce89b12d",
+      "expected_git_blob": "a24de78654c8c4a1726fe35ee3715dc0ce89b12d",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-06-CET6-2-3.pdf",
+      "bytes": 3175781,
+      "sha256": "f1fbbb704b6a3eeb958a2a97d1ba602bc3dca2b69a7de1ccb450dd038bb0d81d",
+      "git_blob": "ea3c5e07681c0e83bbba3449c7c2d80822afdcf8",
+      "expected_git_blob": "ea3c5e07681c0e83bbba3449c7c2d80822afdcf8",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-09-CET4-1.pdf",
+      "bytes": 3321580,
+      "sha256": "f9b34d1819b4bc802438d49e569ed5403710e8c17e71e5c200d7552eb3fb1192",
+      "git_blob": "9a0461029321df93b93331339fb829fdd5084118",
+      "expected_git_blob": "9a0461029321df93b93331339fb829fdd5084118",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-09-CET4-2-3.pdf",
+      "bytes": 556687,
+      "sha256": "f3e6b74b5c6aa0e56c9da7d8d740bdf987a2f5234111e5eda43a8dc7db8e5d0d",
+      "git_blob": "371bfffa511567a1f9883cec4eb9bf2ca45803e7",
+      "expected_git_blob": "371bfffa511567a1f9883cec4eb9bf2ca45803e7",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-09-CET6-1.pdf",
+      "bytes": 3818207,
+      "sha256": "b642906ad801e9cbbf54e50889d3aaf5d33ec8ded3dd7ad1df16aa73814333a0",
+      "git_blob": "c9829940c4ad98af0ee1e99ab8ff1427f91a40dc",
+      "expected_git_blob": "c9829940c4ad98af0ee1e99ab8ff1427f91a40dc",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-09-CET6-2-3.pdf",
+      "bytes": 442058,
+      "sha256": "ff0e1c8772dbfa52780377bc0f24d47194e8625a13ef965a9aa68c3bcb9d0406",
+      "git_blob": "6e5f3e8966686baabaec2dd83ca19e3305b4fc57",
+      "expected_git_blob": "6e5f3e8966686baabaec2dd83ca19e3305b4fc57",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-12-CET4-1.pdf",
+      "bytes": 3467422,
+      "sha256": "50823f391b353322c5cb0a5e1c2fa9a52322168e521953bf1a23cefd747be553",
+      "git_blob": "874aa97fdaadf9b1173cdfc9df6c179ba0c7b65b",
+      "expected_git_blob": "874aa97fdaadf9b1173cdfc9df6c179ba0c7b65b",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-12-CET4-2.pdf",
+      "bytes": 3402816,
+      "sha256": "b6cfc2bfab7380c699db00c6d6774500c95417f303f29d8aaa97d6e7a7b5bea2",
+      "git_blob": "da35a553ebba1fd49301cc8816857c3933eab909",
+      "expected_git_blob": "da35a553ebba1fd49301cc8816857c3933eab909",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-12-CET4-3.pdf",
+      "bytes": 2610477,
+      "sha256": "e3b7e0f036be624888d6bbc7e44453006bcd498153416aeec369045a870c79ec",
+      "git_blob": "36e8a8f48d17604c4ac880d8211ddd9a3d3080e6",
+      "expected_git_blob": "36e8a8f48d17604c4ac880d8211ddd9a3d3080e6",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-12-CET6-1.pdf",
+      "bytes": 4311441,
+      "sha256": "a6d828b1861e8a5c4f38790fd79ceacd282a04336f35c6cf7c1592facbfba663",
+      "git_blob": "49a856aad9ba0f99c94815d4becd9c6d10eb1b0f",
+      "expected_git_blob": "49a856aad9ba0f99c94815d4becd9c6d10eb1b0f",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-12-CET6-2.pdf",
+      "bytes": 4326216,
+      "sha256": "c342f9415627b0143c951707055234a102354ce9ce9b97b73e2360db94683c58",
+      "git_blob": "3920b87da140a241b855f6ff5b3d23840f78ad25",
+      "expected_git_blob": "3920b87da140a241b855f6ff5b3d23840f78ad25",
+      "match": true
+    },
+    {
+      "path": "data/answers/2022-12-CET6-3.pdf",
+      "bytes": 2856991,
+      "sha256": "b9f3285855aa6b20c915a237f7f3ad4bea35fec2579244c5331c9ea24871e79a",
+      "git_blob": "c72d14d731f398709090982e94f0cbb53aea4f84",
+      "expected_git_blob": "c72d14d731f398709090982e94f0cbb53aea4f84",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-03-CET4-1.pdf",
+      "bytes": 3183811,
+      "sha256": "718331b486783211eedd360f4d40ef23e08282ab80f0a53b5d41481b51ac714b",
+      "git_blob": "058cbeb8079f0d20091f74c9a4d03bbb65d25348",
+      "expected_git_blob": "058cbeb8079f0d20091f74c9a4d03bbb65d25348",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-03-CET4-2-3.pdf",
+      "bytes": 801950,
+      "sha256": "e45928bfa29792f57a09370dcbec30da3293b4aabfd545905b84a70e2a2378e6",
+      "git_blob": "97b40751fb5834b26b07cdca958f117e7d42795a",
+      "expected_git_blob": "97b40751fb5834b26b07cdca958f117e7d42795a",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-03-CET6-1.pdf",
+      "bytes": 3952607,
+      "sha256": "bf81c167a635f8120495d77393642b2c8c54ef040bc0239e65a6953a2979b0ec",
+      "git_blob": "82bfe9821339c59a0d4b087d7973328d9ee3346e",
+      "expected_git_blob": "82bfe9821339c59a0d4b087d7973328d9ee3346e",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-03-CET6-2-3.pdf",
+      "bytes": 788629,
+      "sha256": "67cb0dbd2001fc8c9f6d73177c8f9509aa9652b294e017e1f06280cd71aac053",
+      "git_blob": "bde8025638806b0dd3f588ba5cbfe7e41c26c134",
+      "expected_git_blob": "bde8025638806b0dd3f588ba5cbfe7e41c26c134",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-06-CET4-1.pdf",
+      "bytes": 3478846,
+      "sha256": "937d1b450b5d26b8f5c563624ae5c18b030b2315949eef65d70dfbbc0c03e3e7",
+      "git_blob": "863255942cda8c28da6746d34bd6a8b0c28acd98",
+      "expected_git_blob": "863255942cda8c28da6746d34bd6a8b0c28acd98",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-06-CET4-2.pdf",
+      "bytes": 3609535,
+      "sha256": "b9bf0d70815d828a282f18e424400bed1e13d8fc69a6adc3ec6f567d44908480",
+      "git_blob": "f8e8f70ca2512355a8e89f64cf1937adbf1450b7",
+      "expected_git_blob": "f8e8f70ca2512355a8e89f64cf1937adbf1450b7",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-06-CET4-3.pdf",
+      "bytes": 2268493,
+      "sha256": "c8ef963c9eb6096e3393c197a661d17accd83e4e0d368fbde23b519727decc70",
+      "git_blob": "5025e789eaaf1df1b3d58aa8822ccc03e25e250b",
+      "expected_git_blob": "5025e789eaaf1df1b3d58aa8822ccc03e25e250b",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-06-CET6-1.pdf",
+      "bytes": 3998977,
+      "sha256": "10eb0d5fabd474de7a7fa4662b652b7ed346dff955e43639f9ce35d34be12f4b",
+      "git_blob": "c92963939529421a753936d7e87868764909f653",
+      "expected_git_blob": "c92963939529421a753936d7e87868764909f653",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-06-CET6-2.pdf",
+      "bytes": 4095971,
+      "sha256": "cad4430dd1077d4fa67ec65b82ab4fe703d16b6e0ba3931469fbb325d8cef201",
+      "git_blob": "8987eae4346879bdc7992ad099ebe3e4305e71ef",
+      "expected_git_blob": "8987eae4346879bdc7992ad099ebe3e4305e71ef",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-06-CET6-3.pdf",
+      "bytes": 2480122,
+      "sha256": "ba703aec961b4fb6f32a9352cd446bf9161a194f73f5d7081b8f82ce1aa54e44",
+      "git_blob": "30cd7450ab8a2fcc4b6b93c3d4d80699242184a3",
+      "expected_git_blob": "30cd7450ab8a2fcc4b6b93c3d4d80699242184a3",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-12-CET4-1.pdf",
+      "bytes": 4121808,
+      "sha256": "fc3f8ef70ff883b8fecc665c1616738e0689657cb1ad200e22c836b397cc00c3",
+      "git_blob": "19b89fe8a356f5c3789aa66853bf7dc2c7d24806",
+      "expected_git_blob": "19b89fe8a356f5c3789aa66853bf7dc2c7d24806",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-12-CET4-2.pdf",
+      "bytes": 4020950,
+      "sha256": "51d6b097ca28cbf09aeca9c18913bd4ab44d4abab979b42be07974950022bb32",
+      "git_blob": "d33df0a73a6903c1e8fd0999285ca78296bf3476",
+      "expected_git_blob": "d33df0a73a6903c1e8fd0999285ca78296bf3476",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-12-CET4-3.pdf",
+      "bytes": 2391544,
+      "sha256": "ef53a867d57ca03656c32e67bd1bd0f04226edd372be4c576bf7dedc74be0642",
+      "git_blob": "5f16dbb1c5c05bedb43700154a065514e6517077",
+      "expected_git_blob": "5f16dbb1c5c05bedb43700154a065514e6517077",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-12-CET6-1.pdf",
+      "bytes": 4337532,
+      "sha256": "ad69525f548d6cf1d331a50e8e6ede4ae9e7eff98e0fb264ceaba05789b408da",
+      "git_blob": "5394a8ad5f1929740c31ed3a5c1e859942973b1f",
+      "expected_git_blob": "5394a8ad5f1929740c31ed3a5c1e859942973b1f",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-12-CET6-2.pdf",
+      "bytes": 4275436,
+      "sha256": "14fdc572b79c8e05529653653d03c3229c42338d95a79caf4e3f9620397d4262",
+      "git_blob": "569117307a1f437137c2badaa339e5ba5fc9cc36",
+      "expected_git_blob": "569117307a1f437137c2badaa339e5ba5fc9cc36",
+      "match": true
+    },
+    {
+      "path": "data/answers/2023-12-CET6-3.pdf",
+      "bytes": 2580492,
+      "sha256": "06d37c126560c340ae2a65728a5bdd8305f621a8a04fc9a52254b96dfae8c158",
+      "git_blob": "e230fd6601ccd19c8cbf9ac9dbd01ebc3e7da396",
+      "expected_git_blob": "e230fd6601ccd19c8cbf9ac9dbd01ebc3e7da396",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-06-CET4-1.pdf",
+      "bytes": 3213851,
+      "sha256": "f0013c91edf1a2e2280601a3fc944b51e17259802ae7d4394c3d2fcb45357117",
+      "git_blob": "9536d630f5074a786d580b796e592364bb2d0b36",
+      "expected_git_blob": "9536d630f5074a786d580b796e592364bb2d0b36",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-06-CET4-2.pdf",
+      "bytes": 3042257,
+      "sha256": "8e1ab6ee16f90d47e624d45ac5fc233feeaa415244c2263e39b54f4cb54165f4",
+      "git_blob": "d3f382256c05ada386d1505440f255794f2d9217",
+      "expected_git_blob": "d3f382256c05ada386d1505440f255794f2d9217",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-06-CET4-3.pdf",
+      "bytes": 2041911,
+      "sha256": "bd043efd7477d716d1731a19d71970ab32d4bcc2a2e83f371faeb51bf6fb94ea",
+      "git_blob": "0b35cfd6cf1c8b392ced1e3e08e4c4766d948d4a",
+      "expected_git_blob": "0b35cfd6cf1c8b392ced1e3e08e4c4766d948d4a",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-06-CET6-1.pdf",
+      "bytes": 4052285,
+      "sha256": "42f6e5da3395b3dccdb2669e7bc3321f30b7d45f93d862cb3ca30569a31b0425",
+      "git_blob": "18a21c8b4c97f0e8efdb2524de3e1d145343ada2",
+      "expected_git_blob": "18a21c8b4c97f0e8efdb2524de3e1d145343ada2",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-06-CET6-2.pdf",
+      "bytes": 4012164,
+      "sha256": "0a21dd50e50577134303fd0e15dece6f16a2ef1d89fb57d1dcda20acc383ef83",
+      "git_blob": "2eecee2d110cc29167d440fc025b7aaf474f69a3",
+      "expected_git_blob": "2eecee2d110cc29167d440fc025b7aaf474f69a3",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-06-CET6-3.pdf",
+      "bytes": 2267958,
+      "sha256": "389494605c21e439c776bace09a376274fb7ffe798909cd129ccaf7e3fbb6558",
+      "git_blob": "b5e324cccb06545806895ace85eff4b1d0822d1c",
+      "expected_git_blob": "b5e324cccb06545806895ace85eff4b1d0822d1c",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-12-CET4-1.pdf",
+      "bytes": 4333246,
+      "sha256": "f7bb689ec7f373f756a0ff86eea577bf427ee755794c7d0fa9a86a10b3e990e9",
+      "git_blob": "61361e8e4634a104431471d94ccf218fc06f8d38",
+      "expected_git_blob": "61361e8e4634a104431471d94ccf218fc06f8d38",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-12-CET4-2.pdf",
+      "bytes": 4598420,
+      "sha256": "de0abe924fc05550bb9259391abaf0a122621380951f28f3a6e46e816a3c672e",
+      "git_blob": "bcd7f946932eed4c3c1884a1c540ffeec282890b",
+      "expected_git_blob": "bcd7f946932eed4c3c1884a1c540ffeec282890b",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-12-CET4-3.pdf",
+      "bytes": 2634305,
+      "sha256": "3743e6c4052aeb1cf797578d2cebff7b51c6582c73f18d48dd7faa387dfdc6b4",
+      "git_blob": "0530d6bfee93cd48323dc8dde60e1baf5297f83b",
+      "expected_git_blob": "0530d6bfee93cd48323dc8dde60e1baf5297f83b",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-12-CET6-1.pdf",
+      "bytes": 4147614,
+      "sha256": "d38117a060c24d64d4155ed94d1d6d53ed359387ce4b42e3fa4c314bbe5be11e",
+      "git_blob": "91b102e938803568cddefed6f29ef9f3ba9d594d",
+      "expected_git_blob": "91b102e938803568cddefed6f29ef9f3ba9d594d",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-12-CET6-2.pdf",
+      "bytes": 4138091,
+      "sha256": "ba1adaa0c37803dd04a105410cd22c8ca39df1694f8022195bbe69621736b6bd",
+      "git_blob": "f8f7acac631fdd08df5668d52b9dcc54bbc63b54",
+      "expected_git_blob": "f8f7acac631fdd08df5668d52b9dcc54bbc63b54",
+      "match": true
+    },
+    {
+      "path": "data/answers/2024-12-CET6-3.pdf",
+      "bytes": 2652407,
+      "sha256": "f6469f9b62d2a3e84f20abc697eeb40d89fd1c1a7b5584588e840a30c09036d8",
+      "git_blob": "c8468ab1912ce2f67c65856dd6d649d66dd2f160",
+      "expected_git_blob": "c8468ab1912ce2f67c65856dd6d649d66dd2f160",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-06-CET4-1.pdf",
+      "bytes": 4459701,
+      "sha256": "1021d97c5326909346907c137e98d9a3ed7538b614117bcfb03c8b2d0db232f4",
+      "git_blob": "d8a12b763cf503e69dd524749bd748833090263d",
+      "expected_git_blob": "d8a12b763cf503e69dd524749bd748833090263d",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-06-CET4-2.pdf",
+      "bytes": 3800243,
+      "sha256": "d86be3691514de7808d5fd65dfef0b4866e281d777c9ee47fedb82a02751210b",
+      "git_blob": "cdf8866253dcc633029574f67943837c4c00b29b",
+      "expected_git_blob": "cdf8866253dcc633029574f67943837c4c00b29b",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-06-CET4-3.pdf",
+      "bytes": 2364225,
+      "sha256": "2f297907b9cf88738954bd80390f9512978efe8e7e89e80f7fdb16f879c4197b",
+      "git_blob": "cbad1e989c956dfe957dfff24285ef0fbfee967e",
+      "expected_git_blob": "cbad1e989c956dfe957dfff24285ef0fbfee967e",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-06-CET6-1.pdf",
+      "bytes": 4745121,
+      "sha256": "19f33693d4e9b6f0d4b709c035bfc37b7a9efedb1c430dd81c383330a7eaabbe",
+      "git_blob": "3bf948ed9a4122d34b012264d4b6a5cd6d845e25",
+      "expected_git_blob": "3bf948ed9a4122d34b012264d4b6a5cd6d845e25",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-06-CET6-2.pdf",
+      "bytes": 4586614,
+      "sha256": "572a48d26cc248013f24e8eb456f463cced743877a6f9907f4a7e51ed94a96ac",
+      "git_blob": "2e9e8e7eff86976056c240f7fa8c8fe8af6ed9bd",
+      "expected_git_blob": "2e9e8e7eff86976056c240f7fa8c8fe8af6ed9bd",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-06-CET6-3.pdf",
+      "bytes": 2879353,
+      "sha256": "7998dce6589556e93193d7b73b0c4502fb1b8da58bfb3d9daeb394934ae085fe",
+      "git_blob": "49be963c316cbef766bcd4e6c26b9ecb35920d21",
+      "expected_git_blob": "49be963c316cbef766bcd4e6c26b9ecb35920d21",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-12-CET4-1.pdf",
+      "bytes": 4391938,
+      "sha256": "1cb2a30c8101296622a31939e9f124cfdfb6141f8edcb66372689cfc2acee9b0",
+      "git_blob": "122620f5aaf143836a45351c31e422a9c3bbe8a2",
+      "expected_git_blob": "122620f5aaf143836a45351c31e422a9c3bbe8a2",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-12-CET4-2.pdf",
+      "bytes": 4428826,
+      "sha256": "4ad3428466d59bea69e2412fa0fc0ad62c28a907d2b4b593d3f2e7f23de9aaa7",
+      "git_blob": "b141e2cfc0ed3a8f0e70ad00395f5f16b9d6d970",
+      "expected_git_blob": "b141e2cfc0ed3a8f0e70ad00395f5f16b9d6d970",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-12-CET4-3.pdf",
+      "bytes": 2745027,
+      "sha256": "b39d9eb289d7ef5ea1a82fb478b8190425b03a52eec73e71dd6b4413c70fe788",
+      "git_blob": "f8b7d16d303ae89728b8189ae83c58d6cfc9fd9c",
+      "expected_git_blob": "f8b7d16d303ae89728b8189ae83c58d6cfc9fd9c",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-12-CET6-1.pdf",
+      "bytes": 4262874,
+      "sha256": "62476a894db0d68e6ff94688a7b9fab88479992dc67d53714a17b2a6c14b9fe5",
+      "git_blob": "feeac120ac2c217de30dbb00cf0a8b81a0f9f946",
+      "expected_git_blob": "feeac120ac2c217de30dbb00cf0a8b81a0f9f946",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-12-CET6-2.pdf",
+      "bytes": 4402707,
+      "sha256": "12c8f46be673a6aefc2b34ec8d093187a3b91ec8f91f65cd45bf5cec8d241b80",
+      "git_blob": "a7ba5c136653fbf1a0cc4e1a7e2ecedd9a03dc8d",
+      "expected_git_blob": "a7ba5c136653fbf1a0cc4e1a7e2ecedd9a03dc8d",
+      "match": true
+    },
+    {
+      "path": "data/answers/2025-12-CET6-3.pdf",
+      "bytes": 2465967,
+      "sha256": "0678793832a086d7949e66a6301e453f9f678bf6bd34d990d2f415e1b64b7d05",
+      "git_blob": "eea6e9071ac99a1e4cfbac9552f30cdb2bef5fee",
+      "expected_git_blob": "eea6e9071ac99a1e4cfbac9552f30cdb2bef5fee",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-06-CET4-1.mp3",
+      "bytes": 4144107,
+      "sha256": "512b56a8d2d311c6282a8ad459097205c73bfe857c5c5a904c8716081223ffbe",
+      "git_blob": "1faa19ddf859b87f435ee99e8bdd8ef48694b504",
+      "expected_git_blob": "1faa19ddf859b87f435ee99e8bdd8ef48694b504",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-06-CET4-2.mp3",
+      "bytes": 4163906,
+      "sha256": "79197a604a5130218c257da0cf14dce931083b1a4b7a2e7772629e1e0c1a10d8",
+      "git_blob": "a8a72ba9367b9da87d62fc985733d31034d82b61",
+      "expected_git_blob": "a8a72ba9367b9da87d62fc985733d31034d82b61",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-06-CET4-3.mp3",
+      "bytes": 4163906,
+      "sha256": "79197a604a5130218c257da0cf14dce931083b1a4b7a2e7772629e1e0c1a10d8",
+      "git_blob": "a8a72ba9367b9da87d62fc985733d31034d82b61",
+      "expected_git_blob": "a8a72ba9367b9da87d62fc985733d31034d82b61",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-06-CET6-1.mp3",
+      "bytes": 4868831,
+      "sha256": "051c53fd6b7f16a2264c086fa4965d71ab09a51b479bbff809148f527be48a13",
+      "git_blob": "bea8030f51147edbab9cfeb45229b214e6ddbc85",
+      "expected_git_blob": "bea8030f51147edbab9cfeb45229b214e6ddbc85",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-06-CET6-2.mp3",
+      "bytes": 4923500,
+      "sha256": "e8c2b57fe5d623d11e4452402c40f5273c86d20b8bc38d2bee00861b9257f21a",
+      "git_blob": "6be77f5345fbd99b61025afdcf456f8048723cf7",
+      "expected_git_blob": "6be77f5345fbd99b61025afdcf456f8048723cf7",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-06-CET6-3.mp3",
+      "bytes": 4923500,
+      "sha256": "e8c2b57fe5d623d11e4452402c40f5273c86d20b8bc38d2bee00861b9257f21a",
+      "git_blob": "6be77f5345fbd99b61025afdcf456f8048723cf7",
+      "expected_git_blob": "6be77f5345fbd99b61025afdcf456f8048723cf7",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-12-CET4-1.mp3",
+      "bytes": 4188925,
+      "sha256": "f0f3a8c4b60bbd8c5978557d771ff29fbb1775d616c8b9d68fd900f6305e50ff",
+      "git_blob": "f36a5bfe58ac6c4d3edd483bd4955dd43b386ebc",
+      "expected_git_blob": "f36a5bfe58ac6c4d3edd483bd4955dd43b386ebc",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-12-CET4-2.mp3",
+      "bytes": 4273160,
+      "sha256": "63b8bdb7ef5d6458861b6ddd87626587cbbdc39ef5a97b3e0bd3644f211a514f",
+      "git_blob": "bfadec7c17ec88ef4ef4d5c590eb4c039dacae04",
+      "expected_git_blob": "bfadec7c17ec88ef4ef4d5c590eb4c039dacae04",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-12-CET4-3.mp3",
+      "bytes": 4273160,
+      "sha256": "63b8bdb7ef5d6458861b6ddd87626587cbbdc39ef5a97b3e0bd3644f211a514f",
+      "git_blob": "bfadec7c17ec88ef4ef4d5c590eb4c039dacae04",
+      "expected_git_blob": "bfadec7c17ec88ef4ef4d5c590eb4c039dacae04",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-12-CET6-1.mp3",
+      "bytes": 4950317,
+      "sha256": "4a391715b63cc0ade7c256780710adfd02c53caa254c62335fb26aec9028e8c5",
+      "git_blob": "0d22d729a640c013507924eeff56d294c4bfa876",
+      "expected_git_blob": "0d22d729a640c013507924eeff56d294c4bfa876",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-12-CET6-2.mp3",
+      "bytes": 4968142,
+      "sha256": "bdca10888aa7f4c69ccc9326a29c28c4961d81a0ba36a00764582d46097f8c6e",
+      "git_blob": "53cf0ed42aa8c7f74c5928039f791107265d7ef4",
+      "expected_git_blob": "53cf0ed42aa8c7f74c5928039f791107265d7ef4",
+      "match": true
+    },
+    {
+      "path": "data/audio/2019-12-CET6-3.mp3",
+      "bytes": 4968142,
+      "sha256": "bdca10888aa7f4c69ccc9326a29c28c4961d81a0ba36a00764582d46097f8c6e",
+      "git_blob": "53cf0ed42aa8c7f74c5928039f791107265d7ef4",
+      "expected_git_blob": "53cf0ed42aa8c7f74c5928039f791107265d7ef4",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-07-CET4-1.mp3",
+      "bytes": 4243085,
+      "sha256": "9786aaad4ade492959caffec66281656ac58941d2b308665af4c005152503fcc",
+      "git_blob": "f4db5fcd4a4775f2edc7a132f7515ce66207b15b",
+      "expected_git_blob": "f4db5fcd4a4775f2edc7a132f7515ce66207b15b",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-07-CET6-1.mp3",
+      "bytes": 4743873,
+      "sha256": "096f8208b863c9d237cf61022d7eff8ae4e685662e68fe88cf4dd72458417c75",
+      "git_blob": "78062d93e3ef527923c26470aba43819ae6620e6",
+      "expected_git_blob": "78062d93e3ef527923c26470aba43819ae6620e6",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-09-CET4-1.mp3",
+      "bytes": 4202320,
+      "sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c",
+      "git_blob": "41ba4db2aa76f87b00fec1604514269fc5081f70",
+      "expected_git_blob": "41ba4db2aa76f87b00fec1604514269fc5081f70",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-09-CET4-2.mp3",
+      "bytes": 4202320,
+      "sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c",
+      "git_blob": "41ba4db2aa76f87b00fec1604514269fc5081f70",
+      "expected_git_blob": "41ba4db2aa76f87b00fec1604514269fc5081f70",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-09-CET4-3.mp3",
+      "bytes": 4202320,
+      "sha256": "1ae847fa2225867c0ead259aba817cbc2739002e1a682f2f79b61d792268924c",
+      "git_blob": "41ba4db2aa76f87b00fec1604514269fc5081f70",
+      "expected_git_blob": "41ba4db2aa76f87b00fec1604514269fc5081f70",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-09-CET6-1.mp3",
+      "bytes": 4635324,
+      "sha256": "13cbeaaae9aa77d4679f56a22ea6357d72de91cdd1948909f54e09f59984f161",
+      "git_blob": "28d83d8493c09ed9e54c12ea5a073dee29d7e229",
+      "expected_git_blob": "28d83d8493c09ed9e54c12ea5a073dee29d7e229",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-09-CET6-2.mp3",
+      "bytes": 4635324,
+      "sha256": "13cbeaaae9aa77d4679f56a22ea6357d72de91cdd1948909f54e09f59984f161",
+      "git_blob": "28d83d8493c09ed9e54c12ea5a073dee29d7e229",
+      "expected_git_blob": "28d83d8493c09ed9e54c12ea5a073dee29d7e229",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-09-CET6-3.mp3",
+      "bytes": 4635324,
+      "sha256": "13cbeaaae9aa77d4679f56a22ea6357d72de91cdd1948909f54e09f59984f161",
+      "git_blob": "28d83d8493c09ed9e54c12ea5a073dee29d7e229",
+      "expected_git_blob": "28d83d8493c09ed9e54c12ea5a073dee29d7e229",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-12-CET4-1.mp3",
+      "bytes": 4099371,
+      "sha256": "1453297d2f9291238657d84b60a3c198a2e9007d5f9e86c1a54e0556bc55a443",
+      "git_blob": "6f786c95777f310e82bab0457bfebfda533273d7",
+      "expected_git_blob": "6f786c95777f310e82bab0457bfebfda533273d7",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-12-CET4-2.mp3",
+      "bytes": 4058979,
+      "sha256": "73c5d36abe113eeb7bb2c73b3307fe2d64c1bf10adb056b907d9ef21a29a30f0",
+      "git_blob": "6ff1fd132f40440ece13360af0ec63ae30aae7fd",
+      "expected_git_blob": "6ff1fd132f40440ece13360af0ec63ae30aae7fd",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-12-CET4-3.mp3",
+      "bytes": 4058979,
+      "sha256": "73c5d36abe113eeb7bb2c73b3307fe2d64c1bf10adb056b907d9ef21a29a30f0",
+      "git_blob": "6ff1fd132f40440ece13360af0ec63ae30aae7fd",
+      "expected_git_blob": "6ff1fd132f40440ece13360af0ec63ae30aae7fd",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-12-CET6-1.mp3",
+      "bytes": 4541798,
+      "sha256": "a85a14f81cec04910d0efa46f13a3a48f679429588b11fb7bdfa05abbfbb9027",
+      "git_blob": "db8d328810c7a991f421f123346342ef898926e1",
+      "expected_git_blob": "db8d328810c7a991f421f123346342ef898926e1",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-12-CET6-2.mp3",
+      "bytes": 4703863,
+      "sha256": "cf2f30ada0c1009f1143522c1f1846a7d240512f47c2f11cdcc59a3289bf2c96",
+      "git_blob": "27845191c3522ffcfafcf3991f57acc719f4efbc",
+      "expected_git_blob": "27845191c3522ffcfafcf3991f57acc719f4efbc",
+      "match": true
+    },
+    {
+      "path": "data/audio/2020-12-CET6-3.mp3",
+      "bytes": 4703863,
+      "sha256": "cf2f30ada0c1009f1143522c1f1846a7d240512f47c2f11cdcc59a3289bf2c96",
+      "git_blob": "27845191c3522ffcfafcf3991f57acc719f4efbc",
+      "expected_git_blob": "27845191c3522ffcfafcf3991f57acc719f4efbc",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-06-CET4-1.mp3",
+      "bytes": 4069020,
+      "sha256": "04168266c74ea1a2dac797a58f929b0482e41b4b34e0f6fa64fa023384992174",
+      "git_blob": "5707ed3880b8e89ad7b52321702bd97aa11d3c61",
+      "expected_git_blob": "5707ed3880b8e89ad7b52321702bd97aa11d3c61",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-06-CET4-2.mp3",
+      "bytes": 4194117,
+      "sha256": "6f2866eefe8dd030f2416cf2e8535f7d2360f70d3c54ee7c04cb1d2b1963f8df",
+      "git_blob": "62eab835a4772140c55a0dfa454b0bd0840b6fd9",
+      "expected_git_blob": "62eab835a4772140c55a0dfa454b0bd0840b6fd9",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-06-CET4-3.mp3",
+      "bytes": 4194117,
+      "sha256": "6f2866eefe8dd030f2416cf2e8535f7d2360f70d3c54ee7c04cb1d2b1963f8df",
+      "git_blob": "62eab835a4772140c55a0dfa454b0bd0840b6fd9",
+      "expected_git_blob": "62eab835a4772140c55a0dfa454b0bd0840b6fd9",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-06-CET6-1.mp3",
+      "bytes": 4968899,
+      "sha256": "bc5a89f888d2e79397492a4d000733011d97a0f3373e859666c764bb3d459025",
+      "git_blob": "84faa1b83934714dca0eb2b300f8564bb62fa9ee",
+      "expected_git_blob": "84faa1b83934714dca0eb2b300f8564bb62fa9ee",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-06-CET6-2.mp3",
+      "bytes": 5015802,
+      "sha256": "ce1871be7c0745b7210967d130bd1cfaeee903638f12e7f4798ab74887f76180",
+      "git_blob": "31c15c43da8de8b87992ed95966889ebdbfe23f4",
+      "expected_git_blob": "31c15c43da8de8b87992ed95966889ebdbfe23f4",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-06-CET6-3.mp3",
+      "bytes": 5015802,
+      "sha256": "ce1871be7c0745b7210967d130bd1cfaeee903638f12e7f4798ab74887f76180",
+      "git_blob": "31c15c43da8de8b87992ed95966889ebdbfe23f4",
+      "expected_git_blob": "31c15c43da8de8b87992ed95966889ebdbfe23f4",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-12-CET4-1.mp3",
+      "bytes": 4170915,
+      "sha256": "56fffe7a60fd96d3b43fff9e2c0c6156dc48090ce77a96cc2d79a249ee1ab197",
+      "git_blob": "9bafa35e33d7ec42120bf81c2a3654893c32edbc",
+      "expected_git_blob": "9bafa35e33d7ec42120bf81c2a3654893c32edbc",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-12-CET4-2.mp3",
+      "bytes": 4173100,
+      "sha256": "d5dc664b7f166914661a31505fd57f80764e3d081665a1c6ad8af753468f3386",
+      "git_blob": "1696e2953813bc76971217b277c5978d35d76597",
+      "expected_git_blob": "1696e2953813bc76971217b277c5978d35d76597",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-12-CET4-3.mp3",
+      "bytes": 4173100,
+      "sha256": "d5dc664b7f166914661a31505fd57f80764e3d081665a1c6ad8af753468f3386",
+      "git_blob": "1696e2953813bc76971217b277c5978d35d76597",
+      "expected_git_blob": "1696e2953813bc76971217b277c5978d35d76597",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-12-CET6-1.mp3",
+      "bytes": 4634218,
+      "sha256": "f317a352374c42fd2c00a4ad84562f0f8290d612838ebd8187d363f0746726cb",
+      "git_blob": "2554764ca08777472c4b06bffdb6305eaea7a98e",
+      "expected_git_blob": "2554764ca08777472c4b06bffdb6305eaea7a98e",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-12-CET6-2.mp3",
+      "bytes": 4758224,
+      "sha256": "8e2bc2032336acd339e916fa862836721f776c6f4d68688c513dde02139789ab",
+      "git_blob": "da8f2092641c10c5359b680b82a7f50547cfc7f8",
+      "expected_git_blob": "da8f2092641c10c5359b680b82a7f50547cfc7f8",
+      "match": true
+    },
+    {
+      "path": "data/audio/2021-12-CET6-3.mp3",
+      "bytes": 4758224,
+      "sha256": "8e2bc2032336acd339e916fa862836721f776c6f4d68688c513dde02139789ab",
+      "git_blob": "da8f2092641c10c5359b680b82a7f50547cfc7f8",
+      "expected_git_blob": "da8f2092641c10c5359b680b82a7f50547cfc7f8",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-06-CET4-1.mp3",
+      "bytes": 4534826,
+      "sha256": "c1481f0a77c37f601e57ea1c46c5149d7111ad7b54c339322d3557de9a6ef303",
+      "git_blob": "66b8b234abe16ea3232e0a068dc8afaf774943c8",
+      "expected_git_blob": "66b8b234abe16ea3232e0a068dc8afaf774943c8",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-06-CET4-2.mp3",
+      "bytes": 4534826,
+      "sha256": "c1481f0a77c37f601e57ea1c46c5149d7111ad7b54c339322d3557de9a6ef303",
+      "git_blob": "66b8b234abe16ea3232e0a068dc8afaf774943c8",
+      "expected_git_blob": "66b8b234abe16ea3232e0a068dc8afaf774943c8",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-06-CET4-3.mp3",
+      "bytes": 4534826,
+      "sha256": "c1481f0a77c37f601e57ea1c46c5149d7111ad7b54c339322d3557de9a6ef303",
+      "git_blob": "66b8b234abe16ea3232e0a068dc8afaf774943c8",
+      "expected_git_blob": "66b8b234abe16ea3232e0a068dc8afaf774943c8",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-06-CET6-1.mp3",
+      "bytes": 5032072,
+      "sha256": "ea480c968b83583b9832eafa06ad5f607fdac6f11ccdff9746a77832d5eec4dd",
+      "git_blob": "f2ca391266b1ceb9ea3758daa954d6634e503902",
+      "expected_git_blob": "f2ca391266b1ceb9ea3758daa954d6634e503902",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-06-CET6-2-3.mp3",
+      "bytes": 5032072,
+      "sha256": "ea480c968b83583b9832eafa06ad5f607fdac6f11ccdff9746a77832d5eec4dd",
+      "git_blob": "f2ca391266b1ceb9ea3758daa954d6634e503902",
+      "expected_git_blob": "f2ca391266b1ceb9ea3758daa954d6634e503902",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-09-CET4-1.mp3",
+      "bytes": 4409698,
+      "sha256": "a13f65fcdfadad4db5cacd7cb779b08886bba15ae192dda217d3218ab13a6564",
+      "git_blob": "17c60649cb556de340abf15ccfb8b97c2f477cd2",
+      "expected_git_blob": "17c60649cb556de340abf15ccfb8b97c2f477cd2",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-09-CET4-2-3.mp3",
+      "bytes": 4409698,
+      "sha256": "a13f65fcdfadad4db5cacd7cb779b08886bba15ae192dda217d3218ab13a6564",
+      "git_blob": "17c60649cb556de340abf15ccfb8b97c2f477cd2",
+      "expected_git_blob": "17c60649cb556de340abf15ccfb8b97c2f477cd2",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-09-CET6-1.mp3",
+      "bytes": 4836220,
+      "sha256": "abeb24db02d8b325504de83750636b9f8775e0a27a4fc3da7e85b2710d9fe29c",
+      "git_blob": "2bdb1284bc4dd9dbe9e853261d4cc2f84415c156",
+      "expected_git_blob": "2bdb1284bc4dd9dbe9e853261d4cc2f84415c156",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-09-CET6-2-3.mp3",
+      "bytes": 4836220,
+      "sha256": "abeb24db02d8b325504de83750636b9f8775e0a27a4fc3da7e85b2710d9fe29c",
+      "git_blob": "2bdb1284bc4dd9dbe9e853261d4cc2f84415c156",
+      "expected_git_blob": "2bdb1284bc4dd9dbe9e853261d4cc2f84415c156",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-12-CET4-1.mp3",
+      "bytes": 4156734,
+      "sha256": "7f57175662d0dc9e2b0f2ed80dbaf462adfa86be9b18d6ab6e74856bd97d45bb",
+      "git_blob": "b819f8f3afb75e8c449057d9cffa0551e5f5229d",
+      "expected_git_blob": "b819f8f3afb75e8c449057d9cffa0551e5f5229d",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-12-CET4-2.mp3",
+      "bytes": 4018434,
+      "sha256": "d97e1e85d9a9cdc19b4da9795c1535d9d17cf34d079ec106db4cda5db496f7f0",
+      "git_blob": "059608635d8cbb31cf22bbd799b8f6f601e9ae2c",
+      "expected_git_blob": "059608635d8cbb31cf22bbd799b8f6f601e9ae2c",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-12-CET4-3.mp3",
+      "bytes": 4018434,
+      "sha256": "d97e1e85d9a9cdc19b4da9795c1535d9d17cf34d079ec106db4cda5db496f7f0",
+      "git_blob": "059608635d8cbb31cf22bbd799b8f6f601e9ae2c",
+      "expected_git_blob": "059608635d8cbb31cf22bbd799b8f6f601e9ae2c",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-12-CET6-1.mp3",
+      "bytes": 4816770,
+      "sha256": "65cc4ccd5c55a0e1d6fb43df47980597e5e7da01005d29702534c5332b652de3",
+      "git_blob": "c2f2484c57eeb44d7649944d8b5a0267c26b5ba5",
+      "expected_git_blob": "c2f2484c57eeb44d7649944d8b5a0267c26b5ba5",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-12-CET6-2.mp3",
+      "bytes": 4670587,
+      "sha256": "b026cf64f3145d3d03ff2c4a08482cbb1c682e20bfc328bedda41e0141700e18",
+      "git_blob": "7c8631b61b893cdebb4cdba0a469eb39c67d2bac",
+      "expected_git_blob": "7c8631b61b893cdebb4cdba0a469eb39c67d2bac",
+      "match": true
+    },
+    {
+      "path": "data/audio/2022-12-CET6-3.mp3",
+      "bytes": 4670587,
+      "sha256": "b026cf64f3145d3d03ff2c4a08482cbb1c682e20bfc328bedda41e0141700e18",
+      "git_blob": "7c8631b61b893cdebb4cdba0a469eb39c67d2bac",
+      "expected_git_blob": "7c8631b61b893cdebb4cdba0a469eb39c67d2bac",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-03-CET4-1.mp3",
+      "bytes": 4090623,
+      "sha256": "1d6a0e841aa7d37954b64d93e0a07518e476817dae3ddee15095a30ba5840585",
+      "git_blob": "4603225f3b20d06cf49758bc318358c651c0ede7",
+      "expected_git_blob": "4603225f3b20d06cf49758bc318358c651c0ede7",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-03-CET4-2-3.mp3",
+      "bytes": 4090623,
+      "sha256": "1d6a0e841aa7d37954b64d93e0a07518e476817dae3ddee15095a30ba5840585",
+      "git_blob": "4603225f3b20d06cf49758bc318358c651c0ede7",
+      "expected_git_blob": "4603225f3b20d06cf49758bc318358c651c0ede7",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-03-CET6-1.mp3",
+      "bytes": 4638320,
+      "sha256": "62263b74538dbcaf296ce18a9c262d51e342f18f80324a64ace107cf1dddf6e7",
+      "git_blob": "cc7d82a0bd075d1cf8166e134f510a567b0e1c1b",
+      "expected_git_blob": "cc7d82a0bd075d1cf8166e134f510a567b0e1c1b",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-03-CET6-2-3.mp3",
+      "bytes": 4638320,
+      "sha256": "62263b74538dbcaf296ce18a9c262d51e342f18f80324a64ace107cf1dddf6e7",
+      "git_blob": "cc7d82a0bd075d1cf8166e134f510a567b0e1c1b",
+      "expected_git_blob": "cc7d82a0bd075d1cf8166e134f510a567b0e1c1b",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-06-CET4-1.mp3",
+      "bytes": 4217697,
+      "sha256": "57eff43868138a819cc6d200f22de45f7c9ea6494c777709c654f9ea6481feb4",
+      "git_blob": "e07bb415bd790f13fd355edd0328da0737c04f47",
+      "expected_git_blob": "e07bb415bd790f13fd355edd0328da0737c04f47",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-06-CET4-2.mp3",
+      "bytes": 4201366,
+      "sha256": "4ba7455506aca4c3bed162e985507cf2d9cf1fa66deceb235ac3620dee10d4ba",
+      "git_blob": "bc67a45c29f2c61f7a79be2f97fbcc53c6849e26",
+      "expected_git_blob": "bc67a45c29f2c61f7a79be2f97fbcc53c6849e26",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-06-CET4-3.mp3",
+      "bytes": 4201366,
+      "sha256": "4ba7455506aca4c3bed162e985507cf2d9cf1fa66deceb235ac3620dee10d4ba",
+      "git_blob": "bc67a45c29f2c61f7a79be2f97fbcc53c6849e26",
+      "expected_git_blob": "bc67a45c29f2c61f7a79be2f97fbcc53c6849e26",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-06-CET6-1.mp3",
+      "bytes": 4867096,
+      "sha256": "26b738bcfd8064454d207788f225cd5d9efec6007ccb7ab32997992dab1a2583",
+      "git_blob": "9eb639fcacf82c7e263ceef8e7e19a549081b291",
+      "expected_git_blob": "9eb639fcacf82c7e263ceef8e7e19a549081b291",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-06-CET6-2.mp3",
+      "bytes": 4867191,
+      "sha256": "01589e03c9d336ff2de10491d6e5c52e4cf3dc015dc4bab24bea0b1f113d932f",
+      "git_blob": "cb52b2a191b54d989239d0649368a101b087d5e1",
+      "expected_git_blob": "cb52b2a191b54d989239d0649368a101b087d5e1",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-06-CET6-3.mp3",
+      "bytes": 4867191,
+      "sha256": "01589e03c9d336ff2de10491d6e5c52e4cf3dc015dc4bab24bea0b1f113d932f",
+      "git_blob": "cb52b2a191b54d989239d0649368a101b087d5e1",
+      "expected_git_blob": "cb52b2a191b54d989239d0649368a101b087d5e1",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-12-CET4-1.mp3",
+      "bytes": 4161717,
+      "sha256": "a9a68e6857a3814d0ac583a123c6774fa9a028ea996607de4db690208738b453",
+      "git_blob": "b6864f122f2abc7979fb4321e2adb2986e9c1edd",
+      "expected_git_blob": "b6864f122f2abc7979fb4321e2adb2986e9c1edd",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-12-CET4-2.mp3",
+      "bytes": 4173342,
+      "sha256": "ae7d6da51a3b8bcda74e3f22cccf20c0342a7baf52a56c5df3f9927a75c5061b",
+      "git_blob": "525fe86d640c8baeca367a42742e9760f3248875",
+      "expected_git_blob": "525fe86d640c8baeca367a42742e9760f3248875",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-12-CET4-3.mp3",
+      "bytes": 4173342,
+      "sha256": "ae7d6da51a3b8bcda74e3f22cccf20c0342a7baf52a56c5df3f9927a75c5061b",
+      "git_blob": "525fe86d640c8baeca367a42742e9760f3248875",
+      "expected_git_blob": "525fe86d640c8baeca367a42742e9760f3248875",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-12-CET6-1.mp3",
+      "bytes": 4614123,
+      "sha256": "e022f8e815a39bb302fd91669d3a79f674703da61ee0e2589a6af0db48f3eff5",
+      "git_blob": "5238288a22488a2741891db44b77a86ccbb26167",
+      "expected_git_blob": "5238288a22488a2741891db44b77a86ccbb26167",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-12-CET6-2.mp3",
+      "bytes": 4605643,
+      "sha256": "39b8be4ef5e62c70ec3f56bc3143f93ab5de26cba35b7606f234701f87cfaa7d",
+      "git_blob": "3d3ccdd6cba13f977a7700067b4f3e4667446ef5",
+      "expected_git_blob": "3d3ccdd6cba13f977a7700067b4f3e4667446ef5",
+      "match": true
+    },
+    {
+      "path": "data/audio/2023-12-CET6-3.mp3",
+      "bytes": 4605643,
+      "sha256": "39b8be4ef5e62c70ec3f56bc3143f93ab5de26cba35b7606f234701f87cfaa7d",
+      "git_blob": "3d3ccdd6cba13f977a7700067b4f3e4667446ef5",
+      "expected_git_blob": "3d3ccdd6cba13f977a7700067b4f3e4667446ef5",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-06-CET4-1.mp3",
+      "bytes": 4152010,
+      "sha256": "ff058173825e2b713e0601c9a352c8157a0146dec7f95e6c27329750734126e0",
+      "git_blob": "8b9807f2d0632e13ff555c8f77bbe9898679421f",
+      "expected_git_blob": "8b9807f2d0632e13ff555c8f77bbe9898679421f",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-06-CET4-2.mp3",
+      "bytes": 4118785,
+      "sha256": "9329cce82e3149c74f35c75e65f6628f398796cd6c388a6a9b1e2a8432ea7e1b",
+      "git_blob": "a223e4f68d3acfc20d9343d3ffadce8950d53675",
+      "expected_git_blob": "a223e4f68d3acfc20d9343d3ffadce8950d53675",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-06-CET4-3.mp3",
+      "bytes": 4118785,
+      "sha256": "9329cce82e3149c74f35c75e65f6628f398796cd6c388a6a9b1e2a8432ea7e1b",
+      "git_blob": "a223e4f68d3acfc20d9343d3ffadce8950d53675",
+      "expected_git_blob": "a223e4f68d3acfc20d9343d3ffadce8950d53675",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-06-CET6-1.mp3",
+      "bytes": 4771487,
+      "sha256": "98f87cce756cf13824d13b3014b9d62294327d7d3d2784f01b8ba83483b73517",
+      "git_blob": "50fcb8e7381f5b4e7e45a064c5490eeaafbb1978",
+      "expected_git_blob": "50fcb8e7381f5b4e7e45a064c5490eeaafbb1978",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-06-CET6-2.mp3",
+      "bytes": 4561348,
+      "sha256": "fac9987f4ecb6ba750134dcb05e6553b8b8afb6d9da8febd3c31cdf0a435b74c",
+      "git_blob": "e85067c462424ae075268e98a656ae75ff2dd20d",
+      "expected_git_blob": "e85067c462424ae075268e98a656ae75ff2dd20d",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-06-CET6-3.mp3",
+      "bytes": 4561348,
+      "sha256": "fac9987f4ecb6ba750134dcb05e6553b8b8afb6d9da8febd3c31cdf0a435b74c",
+      "git_blob": "e85067c462424ae075268e98a656ae75ff2dd20d",
+      "expected_git_blob": "e85067c462424ae075268e98a656ae75ff2dd20d",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-12-CET4-1.mp3",
+      "bytes": 4199862,
+      "sha256": "5a7ea2c48b082f61c1b248c4b9462694eb931a7f8fba784f64b331888bcfe9a1",
+      "git_blob": "b799deb6ced35e86d2690e8a0f922630b5f2496b",
+      "expected_git_blob": "b799deb6ced35e86d2690e8a0f922630b5f2496b",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-12-CET4-2.mp3",
+      "bytes": 4190015,
+      "sha256": "43a895f49edc7c9ab81f9ef79fa08fc42df0331d5a0a7168b8be365ef9036779",
+      "git_blob": "d84823ed4e4fa567ec1d83da1c87e48b2b342e3d",
+      "expected_git_blob": "d84823ed4e4fa567ec1d83da1c87e48b2b342e3d",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-12-CET4-3.mp3",
+      "bytes": 4190015,
+      "sha256": "43a895f49edc7c9ab81f9ef79fa08fc42df0331d5a0a7168b8be365ef9036779",
+      "git_blob": "d84823ed4e4fa567ec1d83da1c87e48b2b342e3d",
+      "expected_git_blob": "d84823ed4e4fa567ec1d83da1c87e48b2b342e3d",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-12-CET6-1.mp3",
+      "bytes": 4906476,
+      "sha256": "c2b4564130553a8856aff78bef55a0a26449ce40dbdcc3638114771bccac6e36",
+      "git_blob": "c0fd5b75ebaad4342e7913e4b9f3f87d431ea7e7",
+      "expected_git_blob": "c0fd5b75ebaad4342e7913e4b9f3f87d431ea7e7",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-12-CET6-2.mp3",
+      "bytes": 4830413,
+      "sha256": "404b8a20d3881ad478e88c62cd9434989182c8c3e45cc8277aab3a3f07a0431b",
+      "git_blob": "9b873cf6646c1402a27e3d9e660ad06e8fda6bc5",
+      "expected_git_blob": "9b873cf6646c1402a27e3d9e660ad06e8fda6bc5",
+      "match": true
+    },
+    {
+      "path": "data/audio/2024-12-CET6-3.mp3",
+      "bytes": 4830413,
+      "sha256": "404b8a20d3881ad478e88c62cd9434989182c8c3e45cc8277aab3a3f07a0431b",
+      "git_blob": "9b873cf6646c1402a27e3d9e660ad06e8fda6bc5",
+      "expected_git_blob": "9b873cf6646c1402a27e3d9e660ad06e8fda6bc5",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-06-CET4-1.mp3",
+      "bytes": 4169648,
+      "sha256": "a23dc74f40f8b9806f52e6f8f0468423df5069afea5730c5f9ca3a8c2684864c",
+      "git_blob": "c8e2fb02fe0e423ef6ec1d86d95d5f683b10c288",
+      "expected_git_blob": "c8e2fb02fe0e423ef6ec1d86d95d5f683b10c288",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-06-CET4-2.mp3",
+      "bytes": 4198495,
+      "sha256": "b6ef913d459432822082ef979e49ff8e047172a9f44f775ad5238a551f9c8b9c",
+      "git_blob": "cf0915293bdc4a58c9cf2010b8f73bc38cbeabab",
+      "expected_git_blob": "cf0915293bdc4a58c9cf2010b8f73bc38cbeabab",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-06-CET4-3.mp3",
+      "bytes": 4198495,
+      "sha256": "b6ef913d459432822082ef979e49ff8e047172a9f44f775ad5238a551f9c8b9c",
+      "git_blob": "cf0915293bdc4a58c9cf2010b8f73bc38cbeabab",
+      "expected_git_blob": "cf0915293bdc4a58c9cf2010b8f73bc38cbeabab",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-06-CET6-1.mp3",
+      "bytes": 4587324,
+      "sha256": "90906779576f8a32d14030d3d394a7bea33322c276c9701728173aff36912703",
+      "git_blob": "7fab9884fb24a170b96e14e2dcee7756f0eaadcb",
+      "expected_git_blob": "7fab9884fb24a170b96e14e2dcee7756f0eaadcb",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-06-CET6-2.mp3",
+      "bytes": 4616581,
+      "sha256": "eb99adfdf23c1b7f8ad93d7c30be8d354f104801760c318b9d352ff984fe4196",
+      "git_blob": "b7792379d5556bd002975189f2686daa812d572d",
+      "expected_git_blob": "b7792379d5556bd002975189f2686daa812d572d",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-06-CET6-3.mp3",
+      "bytes": 4616581,
+      "sha256": "eb99adfdf23c1b7f8ad93d7c30be8d354f104801760c318b9d352ff984fe4196",
+      "git_blob": "b7792379d5556bd002975189f2686daa812d572d",
+      "expected_git_blob": "b7792379d5556bd002975189f2686daa812d572d",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-12-CET4-1.mp3",
+      "bytes": 4037575,
+      "sha256": "a0a932f333cfde810843ff74ffd762f1b7331704a168c4f8e4f8ec4f5ac497ac",
+      "git_blob": "567baa411d7350013ecac30c0cc24a4f4020c5be",
+      "expected_git_blob": "567baa411d7350013ecac30c0cc24a4f4020c5be",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-12-CET4-2.mp3",
+      "bytes": 4140660,
+      "sha256": "93c82d3cb2da5ac5c0b0db0fce6b9a4efc63fac3deb8641187244dd27ec4e9b6",
+      "git_blob": "a2db632ee784c7c1a2ab848b3630ef9e54009efd",
+      "expected_git_blob": "a2db632ee784c7c1a2ab848b3630ef9e54009efd",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-12-CET4-3.mp3",
+      "bytes": 4140660,
+      "sha256": "93c82d3cb2da5ac5c0b0db0fce6b9a4efc63fac3deb8641187244dd27ec4e9b6",
+      "git_blob": "a2db632ee784c7c1a2ab848b3630ef9e54009efd",
+      "expected_git_blob": "a2db632ee784c7c1a2ab848b3630ef9e54009efd",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-12-CET6-1.mp3",
+      "bytes": 4546308,
+      "sha256": "71db45f76bb1ca6f037986b248f6a31341318e66d93950d52cd8fb3dcc09838c",
+      "git_blob": "ede4c6e2737900701dac4f4ff6850e57a78cc26f",
+      "expected_git_blob": "ede4c6e2737900701dac4f4ff6850e57a78cc26f",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-12-CET6-2.mp3",
+      "bytes": 4579121,
+      "sha256": "a3b51d42450edaee5d85d6e997251f4c1300b645d0f71529bd103c8c1a5fc2d7",
+      "git_blob": "60bf9394fe4958e2b69757462a3d1359e30d705d",
+      "expected_git_blob": "60bf9394fe4958e2b69757462a3d1359e30d705d",
+      "match": true
+    },
+    {
+      "path": "data/audio/2025-12-CET6-3.mp3",
+      "bytes": 4579121,
+      "sha256": "a3b51d42450edaee5d85d6e997251f4c1300b645d0f71529bd103c8c1a5fc2d7",
+      "git_blob": "60bf9394fe4958e2b69757462a3d1359e30d705d",
+      "expected_git_blob": "60bf9394fe4958e2b69757462a3d1359e30d705d",
+      "match": true
+    }
+  ]
+}

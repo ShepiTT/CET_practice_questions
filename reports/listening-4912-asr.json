@@ -1,0 +1,184 @@
+{
+  "source": "data/audio/2022-06-CET6-1.mp3",
+  "sha256": "ea480c968b83583b9832eafa06ad5f607fdac6f11ccdff9746a77832d5eec4dd",
+  "model": "Systran/faster-whisper-base.en",
+  "clip_start": 1380,
+  "duration": 1708.9886875,
+  "segments": [
+    {
+      "start": 1380.0,
+      "end": 1391.08,
+      "text": " Question 19 to 21 are based on the recording you have just heard."
+    },
+    {
+      "start": 1391.08,
+      "end": 1393.16,
+      "text": " Question 19."
+    },
+    {
+      "start": 1393.16,
+      "end": 1409.96,
+      "text": " What does the speaker say about a team with vitality?"
+    },
+    {
+      "start": 1409.96,
+      "end": 1411.96,
+      "text": " Question 20."
+    },
+    {
+      "start": 1411.96,
+      "end": 1428.96,
+      "text": " What do the researchers find out about members of a team?"
+    },
+    {
+      "start": 1428.96,
+      "end": 1430.96,
+      "text": " Question 21."
+    },
+    {
+      "start": 1430.96,
+      "end": 1448.96,
+      "text": " What do we learn about the team the speaker is currently working in?"
+    },
+    {
+      "start": 1448.96,
+      "end": 1451.96,
+      "text": " Question 23."
+    },
+    {
+      "start": 1451.96,
+      "end": 1460.96,
+      "text": " An American researcher who studied 600 millionaires found how rich you can get comes down to six wealth factors."
+    },
+    {
+      "start": 1460.96,
+      "end": 1468.96,
+      "text": " She found that six behaviors are related to net worth potential regardless of age or income."
+    },
+    {
+      "start": 1468.96,
+      "end": 1477.96,
+      "text": " These were thriftiness, confidence, responsibility, planning, focus, and social indifference."
+    },
+    {
+      "start": 1477.96,
+      "end": 1480.96,
+      "text": " Being thrifty comes as no great surprise."
+    },
+    {
+      "start": 1480.96,
+      "end": 1491.96,
+      "text": " Spending above your means, spending instead of saving for retirement, spending and anticipation of becoming wealthy makes you a slave to the paycheck."
+    },
+    {
+      "start": 1491.96,
+      "end": 1496.96,
+      "text": " Even with an astronomical level of income, she wrote,"
+    },
+    {
+      "start": 1496.96,
+      "end": 1504.96,
+      "text": " To properly build wealth, experts recommend saving 20% of your income and living off the remaining 80%."
+    },
+    {
+      "start": 1504.96,
+      "end": 1511.96,
+      "text": " Having confidence is another key characteristic, as it helps people to be thrifty."
+    },
+    {
+      "start": 1511.96,
+      "end": 1514.96,
+      "text": " It takes confidence to live within your means."
+    },
+    {
+      "start": 1514.96,
+      "end": 1517.96,
+      "text": " It also takes confidence to invest properly."
+    },
+    {
+      "start": 1517.96,
+      "end": 1530.96,
+      "text": " Instead of making investing decisions with your emotions, financial planners advise that you should leave your investments alone and focus on a long-term investment plan."
+    },
+    {
+      "start": 1530.96,
+      "end": 1538.96,
+      "text": " But people can't invest or manage their own money without accepting responsibility for the outcomes."
+    },
+    {
+      "start": 1538.96,
+      "end": 1550.96,
+      "text": " Many millionaires take on personal responsibility, and most also happen to be self-made, meaning they didn't acquire their wealth through luck."
+    },
+    {
+      "start": 1550.96,
+      "end": 1558.96,
+      "text": " Millionaires don't count on anyone else to make them rich, and they don't blame anyone else if they fall short."
+    },
+    {
+      "start": 1558.96,
+      "end": 1566.96,
+      "text": " They focus on things they can control and align their daily habits to the goals they have set for themselves."
+    },
+    {
+      "start": 1566.96,
+      "end": 1576.96,
+      "text": " They tend to be goal-oriented and hard workers, which enables them to plan financially and focus on seeing those plans through."
+    },
+    {
+      "start": 1577.96,
+      "end": 1589.96,
+      "text": " 92% of the millionaire surveyed developed a long-term plan for their money, and 97% almost always achieved the goals they set for themselves."
+    },
+    {
+      "start": 1589.96,
+      "end": 1595.96,
+      "text": " And it is these behaviors that make it easy for them to be socially indifferent."
+    },
+    {
+      "start": 1595.96,
+      "end": 1601.96,
+      "text": " They resist lifestyle creep, the tendency to spend more whenever one earns more."
+    },
+    {
+      "start": 1601.96,
+      "end": 1609.96,
+      "text": " Essentially, they don't yield to pressure to buy the latest thing or to keep up with others or what they have acquired."
+    },
+    {
+      "start": 1609.96,
+      "end": 1619.96,
+      "text": " Instead of being focused on what might make them happy today, they're focused on their long-term wealth-building plan."
+    },
+    {
+      "start": 1619.96,
+      "end": 1626.96,
+      "text": " Questions 22-25 are based on the recording you have just heard."
+    },
+    {
+      "start": 1626.96,
+      "end": 1632.96,
+      "text": " Question 22-What do experts recommend concerning being thrifty?"
+    },
+    {
+      "start": 1645.96,
+      "end": 1651.96,
+      "text": " Question 23-How does confidence help people to be thrifty?"
+    },
+    {
+      "start": 1656.96,
+      "end": 1677.96,
+      "text": " Question 24-How do millionaires react when they fail in their investment?"
+    },
+    {
+      "start": 1677.96,
+      "end": 1703.96,
+      "text": " Question 25-Why does the speaker say millionaires are socially indifferent?"
+    },
+    {
+      "start": 1703.96,
+      "end": 1708.96,
+      "text": " That's the end of listening comprehension."
+    }
+  ]
+}

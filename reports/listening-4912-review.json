@@ -1,0 +1,115 @@
+{
+  "question_id": 4912,
+  "review_date": "2026-11-08",
+  "status": "resolved_as_project_reference",
+  "original_answer": null,
+  "proposed_answer": "D",
+  "source_file": "2022-06-CET6-2-3.pdf",
+  "q_number": 24,
+  "question_text": "How do millionaires react when they fail in their investment?",
+  "options": {
+    "A": "They count on others to take the responsibility",
+    "B": "They change their investment strategy in time.",
+    "C": "They think they themselves are to blame.",
+    "D": "They persist rather than get discouraged."
+  },
+  "explanation": "The answer is D. The question asks how millionaires react when their investment fails. The recording says they do not blame others, focus on things under their control, align daily habits with their goals, and work to see their long-term plans through. This supports D, persistence despite setbacks. C adds a self-blame claim that does not logically follow from not blaming others. A reverses the statement about not relying on others; B is not stated. The local answer PDF explicitly selects D. Some published online reference keys still select C; this is a documented reference-key review, not certification of an official examination key.",
+  "reasoning": [
+    "The spoken question asks about reactions to investment failure; it does not restrict the answer to attribution of blame.",
+    "The continuous context describes not blaming others, focusing on controllable actions, aligning habits with goals, and working to see plans through. D summarizes this behavior.",
+    "Not blaming another person does not logically imply thinking oneself blameworthy. The existing C explanation asserts this invalid equivalence and should be replaced.",
+    "The shared-listening counterpart id3676 already has D. This review independently checked the source PDF visually and actually transcribed the original MP3."
+  ],
+  "evidence": [
+    {
+      "kind": "read_only_database_snapshot",
+      "path": "reports/pr2-review-readonly.db",
+      "sha256": "81af0a7d0daaeb5f3c180fceaecb42a4f5b0e9651ff2bca0f7d42f4182b861ce",
+      "github_pr": "https://github.com/ShepiTT/CET_practice_questions/pull/2",
+      "commit": "5f3a276b150d81a360c9337376201d68e189eb96",
+      "finding": "id4912 has correct_answer=null but an explanation claiming C; the shared-listening counterpart id3676 has D. This agent did not write the database."
+    },
+    {
+      "kind": "local_answer_pdf_visually_verified",
+      "path": "data/answers/2022-06-CET6-1.pdf",
+      "sha256": "2818b589a4d403654e5c9d9eab784fc5755a521b3c8a40e56c712b4dc5a38d1e",
+      "pdf_page": 7,
+      "printed_page": 29,
+      "finding": "The question and option meanings match; the Q24 explanation explicitly selects D, describing continued focus on goals and effort.",
+      "rendered_evidence": ".cache/review/listening4912/answer-page-7.png"
+    },
+    {
+      "kind": "local_transcript_pdf_visually_verified",
+      "path": "data/answers/2022-06-CET6-1.pdf",
+      "pdf_page": 6,
+      "printed_page": 28,
+      "finding": "The context following marker (24) continues with controllable actions, goal orientation, and seeing plans through.",
+      "rendered_evidence": ".cache/review/listening4912/answer-page-6.png"
+    },
+    {
+      "kind": "local_audio_asr_cross_check",
+      "path": "data/audio/2022-06-CET6-1.mp3",
+      "sha256": "ea480c968b83583b9832eafa06ad5f607fdac6f11ccdff9746a77832d5eec4dd",
+      "asr_path": "reports/listening-4912-asr.json",
+      "model": "Systran/faster-whisper-base.en",
+      "evidence_times_seconds": [
+        {
+          "start": 1550.96,
+          "end": 1558.96,
+          "text": "Millionaires don't count on anyone else to make them rich, and they don't blame anyone else if they fall short."
+        },
+        {
+          "start": 1558.96,
+          "end": 1566.96,
+          "text": "They focus on things they can control and align their daily habits to the goals they have set for themselves."
+        },
+        {
+          "start": 1566.96,
+          "end": 1576.96,
+          "text": "They tend to be goal-oriented and hard workers, which enables them to plan financially and focus on seeing those plans through."
+        },
+        {
+          "start": 1656.96,
+          "end": 1677.96,
+          "text": "Question 24: How do millionaires react when they fail in their investment?"
+        }
+      ],
+      "finding": "Actually ran base.en ASR on the end of the local MP3. The spoken question and context agree with the PDF. Timestamps are model segment boundaries, not manually aligned word timestamps."
+    },
+    {
+      "kind": "conflicting_web_reference",
+      "url": "https://cet4-6.xdf.cn/202206/11958877.html",
+      "title": "New Oriental: June 2022 CET6 paper and reference answers (first paper)",
+      "published_at": "2022-06-27 17:10",
+      "accessed_at": "2026-11-08",
+      "quoted_excerpt": "24 C They think they themselves are to blame.",
+      "finding": "This reference key gives C but contains no item-specific Q24 reasoning; retained as an explicit conflicting source."
+    },
+    {
+      "kind": "corroborating_web_reference",
+      "url": "https://www.10100.com/article/36128717",
+      "title": "First-half 2022 CET6 reference answers (Spark English edition)",
+      "published_at": "2022-06-12",
+      "accessed_at": "2026-11-08",
+      "quoted_excerpt": "24.D) They persist rather than get discouraged.",
+      "finding": "The page states authorized republication from Spark English CET4/6 and gives D. It is a republished reference key, not an examination-authority official key."
+    }
+  ],
+  "confidence": {
+    "level": "high",
+    "scope": "Choose D as the project reference answer; this does not certify an official examination-authority answer."
+  },
+  "limitations": [
+    "No examination-authority official Q24 scoring key was obtained; disagreement among public reference keys remains documented.",
+    "Audio was checked with locally executed base.en ASR, not a complete manual listening session; question and relevant context were also visually checked in the PDF.",
+    "id4912 is in the combined 2-3 paper. It shares the same listening material with paper 1; option identity was checked.",
+    "The C web key is retained with URL, publication date, and a short excerpt."
+  ],
+  "recommended_changes": {
+    "correct_answer": "D",
+    "explanation": "【答案】D。题目问：百万富翁在投资失败时如何应对？听力先说他们未达目标时不怪罪别人，随后说明他们专注于可控制的事情，使日常习惯与目标一致，并努力将长期计划贯彻到底。因此 D“他们坚持下去而不气馁”与整段反应相符。C“他们认为自己应受责备”增加了原文没有说出的自责判断；“不责怪别人”不能直接等同于“责怪自己”。A 与不依靠他人的原意相反；B 的及时改变投资策略未被提及。复核采用原音内容及本地答案 PDF 第 7 页（印刷页 29）的 D 解析；部分网络参考答案仍标 C，此处保留来源分歧，不称为官方标准答案认证。",
+    "content": "How do millionaires react when they fail in their investment?"
+  },
+  "database_write_performed": false,
+  "existing_modification_check": "The PR #2 snapshot leaves id4912 unanswered while its explanation claims C. Fill D and replace the contradictory explanation together."
+}

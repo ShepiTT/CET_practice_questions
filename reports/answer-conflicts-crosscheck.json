@@ -1,0 +1,1229 @@
+{
+  "generated_at": "2026-11-08 Asia/Shanghai",
+  "reviewed_report": "reports\\answer-conflicts-review.json",
+  "reviewed_report_sha256": "bd317d8a512e2ecc5f570a940638295a107033f17259cdce0f307c505649f459",
+  "database_snapshot": "reports\\pr2-review-readonly.db",
+  "database_snapshot_sha256": "81af0a7d0daaeb5f3c180fceaecb42a4f5b0e9651ff2bca0f7d42f4182b861ce",
+  "review_scope": "Only the 40 status=correct proposals; no global semantic audit and no database mutation.",
+  "summary": {
+    "reviewed": 40,
+    "agree": 40,
+    "concern": 0,
+    "2025_06_cet4_3_reviewed": 17,
+    "2025_06_cet4_3_wrong_paper_mapping_found": false
+  },
+  "method": [
+    "Each question stem, all local labelled options or paragraph choices, existing/proposed answer, and exact local evidence sentence were read and independently assessed.",
+    "For all 17 2025-06 CET4-3 corrections, independently extracted the original local paper PDF text and checked matching paragraph labels, reading option labels and texts, or complete cloze word-bank labels.",
+    "For id1106, independently rendered original local paper PDF page5 and visually confirmed the I) paragraph label and tuition/aid sentence.",
+    "For listening items, checked full question wording from the frozen database explanation against the transcript and options. No new MP3 listening was performed in this cross-check."
+  ],
+  "source_pdf_sha256": {
+    "data/2025-06-CET4-3.pdf": "2237031754ed3075f34257723a94d3f93877ccaa22040b39670b1dfcb8e2f993",
+    "data/2022-12-CET4-1.pdf": "c29d9111253133135fe2fe40cdc6e0b18667f2251d05c48ebcae6ae528e88c17"
+  },
+  "database_mutated": false,
+  "decisions": [
+    {
+      "id": 518,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 46,
+      "group_type": "reading",
+      "question": "What do we learn about American society from the first paragraph?",
+      "existing": "A",
+      "proposed": "B",
+      "old_choice": "It sees lots of personal income wasted on beauty products.",
+      "proposed_choice": "It considers one’s physical appearance very important.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第4页首句明说社会高度重视外貌，B准确概括；A的wasted为无依据评价。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "Our society places a high value on physical beauty. Americans spend an average of over $722 each year on their appearance. One in ten Americans has tried to loo"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            4,
+            5,
+            6
+          ],
+          "note": "Question stem and all four labelled options checked against PDF text layer, together with the quoted passage sentence."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 519,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 47,
+      "group_type": "reading",
+      "question": "What happens when people strive to look better?",
+      "existing": "D",
+      "proposed": "C",
+      "old_choice": "They feel much of their precious time, energy and resources is wasted.",
+      "proposed_choice": "They may neglect to cultivate the inner qualities that matter more.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第4页指出追求外表可能忽略内在品质，C对应；D把作者观察改为追求者自己的感受。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": " attention, love, and connection. In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. It may sound trite (老生常谈的), but beauty is only "
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            4,
+            5,
+            6
+          ],
+          "note": "Question stem and all four labelled options checked against PDF text layer, together with the quoted passage sentence."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 520,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 48,
+      "group_type": "reading",
+      "question": "What does the author say about outer beauty?",
+      "existing": "B",
+      "proposed": "D",
+      "old_choice": "It may lead to bad as well as good habits.",
+      "proposed_choice": "It may do as much harm as good.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第4页curse/blessing对应D的harm/good；B的好坏习惯并非原文的对比。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "e turns into resentment and bitter court battles. Outer beauty can be as much of a curse as a blessing. We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            4,
+            5,
+            6
+          ],
+          "note": "Question stem and all four labelled options checked against PDF text layer, together with the quoted passage sentence."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 521,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 49,
+      "group_type": "reading",
+      "question": "What brings about spiritual connection?",
+      "existing": "D",
+      "proposed": "A",
+      "old_choice": "Frequent interaction.",
+      "proposed_choice": "Meeting of minds.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第4页meeting of our inner worlds对应第5页A项Meeting of minds，D频繁互动没有依据。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "y be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. If we redirect our attention toward cultivating in"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            4,
+            5,
+            6
+          ],
+          "note": "Question stem and all four labelled options checked against PDF text layer, together with the quoted passage sentence."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 523,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 51,
+      "group_type": "reading",
+      "question": "What can we expect of plant-based meats?",
+      "existing": "A",
+      "proposed": "C",
+      "old_choice": "An increasing interest in their analyses.",
+      "proposed_choice": "A huge boost in their consumption.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第5页预测植物肉市场大幅增长，第6页C为消费增长；A对分析兴趣不是预测对象。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "2021 report predicts the market will skyrocket to $74 billion by 2030—a 957 percent surge. Plant-based meats are no longer just for vegetarians. Companies such as Impossible Foods and Beyond Meat—the current su"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            4,
+            5,
+            6
+          ],
+          "note": "Question stem and all four labelled options checked against PDF text layer, together with the quoted passage sentence."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 524,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 52,
+      "group_type": "reading",
+      "question": "What do we learn about consumers buying Beyond Burger and Impossible Foods products?",
+      "existing": "D",
+      "proposed": "A",
+      "old_choice": "Most of them eat meatless meat to protect the environment.",
+      "proposed_choice": "They are mostly non-vegetarians.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第5页九成以上购买者也吃肉，第6页A非素食者正确；D多数为环保无依据。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "More than nine out of ten consumers who buy Beyond Burger and Impossible Foods products also eat meat. Many vegetarians don’t actually care f"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            4,
+            5,
+            6
+          ],
+          "note": "Question stem and all four labelled options checked against PDF text layer, together with the quoted passage sentence."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 525,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 53,
+      "group_type": "reading",
+      "question": "What can we conclude about Impossible Foods’ products from Joan Solsman’s remark?",
+      "existing": "C",
+      "proposed": "B",
+      "old_choice": "Some have become its signature dishes.",
+      "proposed_choice": "They very much resemble animal meat.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第5页素食记者因逼真而难以下咽，第6页B像动物肉正确；C招牌菜未提及。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": " from Impossible Foods, she felt so sick that she couldn’t finish it. “Maybe the best sign that Impossible Foods has cracked the code to realistic fake meat is that I couldn’t stand to take another bite,” she w"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            4,
+            5,
+            6
+          ],
+          "note": "Question stem and all four labelled options checked against PDF text layer, together with the quoted passage sentence."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 526,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 54,
+      "group_type": "reading",
+      "question": "Why can the habit of eating a plant-based diet lead to better health?",
+      "existing": "B",
+      "proposed": "D",
+      "old_choice": "It provides all the nutrients for staying healthy.",
+      "proposed_choice": "It reduces various health risks posed by meat consumption.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第5页列出肉类相关癌症和血压血糖胆固醇风险，第6页D概括完整；B全部营养为过度断言。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "in itself can lead to better health. Not only has red meat been linked to cancer, but studies show that people who ditch meat have lower blood pressure, lower average blood sugar, and lower cholesterol levels. "
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            4,
+            5,
+            6
+          ],
+          "note": "Question stem and all four labelled options checked against PDF text layer, together with the quoted passage sentence."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 537,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 35,
+      "group_type": "cloze",
+      "question": "Blank 35",
+      "existing": "O",
+      "proposed": "J",
+      "old_choice": "visual",
+      "proposed_choice": "retained",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第1页35空在individuals之后，需要谓语；J retained the ability成立，O visual为形容词不成立。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "mation about smells. Though they are not sure how these individuals 35 the ability to smell, scientists believe it is possible that another part of the brain took on that task."
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            1
+          ],
+          "quote": "how these individuals 35 the ability to smell; J) retained; O) visual"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 539,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 37,
+      "group_type": "matching",
+      "question": "It is possible to nearly double the hourly throughput per lane by adopting bilateral control.",
+      "existing": "I",
+      "proposed": "H",
+      "old_choice": "The main alternative to increasing traffic throughput per lane has been to build more lanes and more highways, and putting in new roads is very expensive, he said. “If we can increase the throughput on major highways, even if it’s only by 50 percent, that would be a big deal,” Horn said.",
+      "proposed_choice": "New research by Horn and MIT postdoctoral associate Liang Wang, published in the journal IEEE Transactions on Intelligent Transportation Systems, shows how bilateral control can fight the problem. The researchers made computer models of real-world traffic conditions, showing how a typical U.S. freeway could benefit from cars using bilateral control. That would be in place when human drivers fail to slow down, thus avoiding tailgating (紧跟) the car in front, Horn said. “Under reasonable conditions today, you might get 1,800 cars per lane per hour throughput (the volume of traffic passing through),” he added. “But with bilateral control, you could almost double that.”",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷H段跨第2-3页，1800辆每小时后明确说bilateral control可almost double；I段只谈修路及50%。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "through),” he added. “But with bilateral control, you could almost double that.” I) The main alternative to increasing traffic throughput per lane has been to build more lanes and more highways, and putting in "
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "paragraph": "H",
+          "quote": "New research by Horn and MIT postdoctoral associate Liang Wang, published in the\njournal IEEE Transactions on Intelligent Transportation Systems, shows how bilateral control can\npastpapers.cn\n\nfight the problem. The researchers made computer models of real-world traffic conditions, showing\nhow a typical U.S. freeway could benefit from cars using bilateral control. That would be in place\nwhen human drivers fail to slow down, thus avoiding tailgating (紧跟) the car in front, Horn said.\n“Under reasonable conditions today, you might get 1,800 cars per lane per hour throughput (the\nvolume of traffic passing through),” he added. “But with bilateral control, you could almost double\nthat.”"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 541,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 39,
+      "group_type": "matching",
+      "question": "Before systems for bilateral control are installed, drivers should not follow the car in front too closely so as to reduce phantom traffic jams.",
+      "existing": "A",
+      "proposed": "N",
+      "old_choice": "Traffic jams are a common problem of most big cities, either in developed or in developing countries, but one kind of traffic jams in particular can be especially frustrating. These are generally known as “phantom” traffic jams, in which dense traffic crawls to a halt for no apparent reason at all.",
+      "proposed_choice": "But until those systems become standard, human drivers can help reduce phantom traffic jams simply by not following the car in front so closely. As Horn argues, “There’s absolutely no advantage of tailgating the car in front of you.”",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第3页N段开头until systems become standard，随后not following closely，完整覆盖题干。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": " car. N) But until those systems become standard, human drivers can help reduce phantom traffic jams simply by not following the car in front so closely. As Horn argues, “There’s absolutely no advantage of tail"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "paragraph": "N",
+          "quote": "But until those systems become standard, human drivers can help reduce phantom traffic jams\nsimply by not following the car in front so closely. As Horn argues, “There’s absolutely no\nadvantage of tailgating the car in front of you.”\n36. The age-long mystery has now been resolved as to how phantom traffic jams are caused.\n37. It is possible to nearly double the hourly throughput per lane by adopting bilateral control.\n38. According to Horn, drivers making constant adjustments for equal spacing between cars in a\nflow of traffic can help reduce phantom traffic jams.\n39. Before systems for bilateral control are installed, drivers should not follow the car in front too\nclosely so as to reduce phantom traffic jams.\n40. Horn said with some simple modifications to the existing equipment in new vehicles, their\nspacing bilateral control could be accomplished.\n41. Drivers caught up in phantom traffic jams are likely to think an accident has happened or some\nconstruction is going on.\n42. Two sets of sensors would be used to help drivers determine the distances between cars.\n43. Solving the problem of phantom jams could save America billions of dollars every year.\npastpapers.cn\n\n44. In a phantom traffic jam, the cars in the same lane slow down one after another, creating a\nwave-like effect.\n45. Horn has found that certain creatures use strategies similar to bilateral control to avoid hitting\neach other while moving in dense crowds."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 542,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 40,
+      "group_type": "matching",
+      "question": "Horn said with some simple modifications to the existing equipment in new vehicles, their spacing bilateral control could be accomplished.",
+      "existing": "H",
+      "proposed": "F",
+      "old_choice": "New research by Horn and MIT postdoctoral associate Liang Wang, published in the journal IEEE Transactions on Intelligent Transportation Systems, shows how bilateral control can fight the problem. The researchers made computer models of real-world traffic conditions, showing how a typical U.S. freeway could benefit from cars using bilateral control. That would be in place when human drivers fail to slow down, thus avoiding tailgating (紧跟) the car in front, Horn said. “Under reasonable conditions today, you might get 1,800 cars per lane per hour throughput (the volume of traffic passing through),” he added. “But with bilateral control, you could almost double that.”",
+      "proposed_choice": "Horn calls this method of vehicle spacing bilateral (双边的) control, and he said it could be achieved with relatively simple modifications to the adaptive cruise control that many new cars already have. Adaptive cruise control is a driver assistance technology that sets a maximum speed for vehicles and automatically slows the speed of the car when traffic is sensed in front of the vehicle. The technology is also known as autonomous cruise control. Such modifications, Horn said, could help fight phantom jams within a few years, maybe decades before an alternative solution, such as networked self-driving cars, becomes a reality on the roads.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第2页F段明确simple modifications to adaptive cruise control；H段为计算机模型和流量。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "的) control, and he said it could be achieved with relatively simple modifications to the adaptive cruise control that many new cars already have. Adaptive cruise control is a driver assistance technology that s"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "paragraph": "F",
+          "quote": "Horn calls this method of vehicle spacing bilateral (双边的) control, and he said it could be\nachieved with relatively simple modifications to the adaptive cruise control that many new cars\nalready have. Adaptive cruise control is a driver assistance technology that sets a maximum speed\nfor vehicles and automatically slows the speed of the car when traffic is sensed in front of the\nvehicle. The technology is also known as autonomous cruise control. Such modifications, Horn said,\ncould help fight phantom jams within a few years, maybe decades before an alternative solution,\nsuch as networked self-driving cars, becomes a reality on the roads."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 543,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 41,
+      "group_type": "matching",
+      "question": "Drivers caught up in phantom traffic jams are likely to think an accident has happened or some construction is going on.",
+      "existing": "D",
+      "proposed": "B",
+      "old_choice": "Horn said phantom traffic jams are an emergent property of the flow of vehicles down a highway. A phantom jam begins when a car in dense traffic slows down even slightly, which causes the car behind that vehicle to slow even more—and the slowing action spreads backward through the lane of traffic like a wave, getting worse the farther it spreads. Eventually, the cars far behind are forced to stop completely or risk hitting the slower vehicles ahead—and so the traffic grinds to a halt over nothing, Horn said.",
+      "proposed_choice": "“When caught in such a traffic jam, it is common for drivers to assume that there must be an accident, or construction or something,” said Massachusetts Institute of Technology (MIT) computer science professor Berthold Horn. “And then you drive and drive and drive… and there isn’t anything there.”",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第2页B段列明司机以为事故或施工；D段为减速波形成机制。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "ffic jam, it is common for drivers to assume that there must be an accident, or construction or something,” said Massachusetts Institute of Technology (MIT) computer science professor Berthold Horn. “And then y"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "paragraph": "B",
+          "quote": "“When caught in such a traffic jam, it is common for drivers to assume that there must be an\naccident, or construction or something,” said Massachusetts Institute of Technology (MIT)\ncomputer science professor Berthold Horn. “And then you drive and drive and drive… and there\nisn’t anything there.”"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 544,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 42,
+      "group_type": "matching",
+      "question": "Two sets of sensors would be used to help drivers determine the distances between cars.",
+      "existing": "F",
+      "proposed": "M",
+      "old_choice": "Horn calls this method of vehicle spacing bilateral (双边的) control, and he said it could be achieved with relatively simple modifications to the adaptive cruise control that many new cars already have. Adaptive cruise control is a driver assistance technology that sets a maximum speed for vehicles and automatically slows the speed of the car when traffic is sensed in front of the vehicle. The technology is also known as autonomous cruise control. Such modifications, Horn said, could help fight phantom jams within a few years, maybe decades before an alternative solution, such as networked self-driving cars, becomes a reality on the roads.",
+      "proposed_choice": "Unlike bats, birds and fish, however, humans have difficulty judging distances behind them. To address that weakness, Horn is now working with the car company Toyota to enable a form of bilateral control via modifications to existing adaptive cruise control systems, which use forward-facing sensors to judge the distance to the vehicle ahead. The bilateral control approach would include adding rear-facing sensors to determine the distance to the vehicle following a car.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第3页M段先说前向传感器再加后向传感器，符合两组；F段未说明两组距离传感器。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "ead. The bilateral control approach would include adding rear-facing sensors to determine the distance to the vehicle following a car. N) But until those systems become standard, human drivers can help reduce p"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "paragraph": "M",
+          "quote": "Unlike bats, birds and fish, however, humans have difficulty judging distances behind them. To\naddress that weakness, Horn is now working with the car company Toyota to enable a form of\nbilateral control via modifications to existing adaptive cruise control systems, which use\nforward-facing sensors to judge the distance to the vehicle ahead. The bilateral control approach\nwould include adding rear-facing sensors to determine the distance to the vehicle following a car."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 545,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 43,
+      "group_type": "matching",
+      "question": "Solving the problem of phantom jams could save America billions of dollars every year.",
+      "existing": "J",
+      "proposed": "G",
+      "old_choice": "With the help of engineering students at high schools in Maine, Horn and Wang have also built a robot simulation ( 模 拟 ) that shows how bilateral control can suppress phantom traffic jams. Increasing the spacing of vehicles dampens the effect of slowdowns by cars in front of a given car, so that the slowing is not worsened until it becomes a phantom jam, the researchers said.",
+      "proposed_choice": "Traffic jams are caused by a number of factors, such as roads that are poorly designed or over-capacity, localized factors like city traffic-lighting patterns, and events like accidents and construction. But phantom traffic jams can make all those problems worse, Horn said. And the researchers in the new study have calculated that solving phantom jams could save at least some of the estimated $121 billion per year that traffic jams are estimated to cost the U.S. economy, Horn told Live Science.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第2页G段明确每年1210亿美元成本及部分可节省；J段为机器人模拟。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "om jams could save at least some of the estimated $121 billion per year that traffic jams are estimated to cost the U.S. economy, Horn told Live Science. H) New research by Horn and MIT postdoctoral associate L"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "paragraph": "G",
+          "quote": "Traffic jams are caused by a number of factors, such as roads that are poorly designed or\nover-capacity, localized factors like city traffic-lighting patterns, and events like accidents and\nconstruction. But phantom traffic jams can make all those problems worse, Horn said. And the\nresearchers in the new study have calculated that solving phantom jams could save at least some of\nthe estimated $121 billion per year that traffic jams are estimated to cost the U.S. economy, Horn\ntold Live Science."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 546,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 44,
+      "group_type": "matching",
+      "question": "In a phantom traffic jam, the cars in the same lane slow down one after another, creating a wave-like effect.",
+      "existing": "B",
+      "proposed": "D",
+      "old_choice": "“When caught in such a traffic jam, it is common for drivers to assume that there must be an accident, or construction or something,” said Massachusetts Institute of Technology (MIT) computer science professor Berthold Horn. “And then you drive and drive and drive… and there isn’t anything there.”",
+      "proposed_choice": "Horn said phantom traffic jams are an emergent property of the flow of vehicles down a highway. A phantom jam begins when a car in dense traffic slows down even slightly, which causes the car behind that vehicle to slow even more—and the slowing action spreads backward through the lane of traffic like a wave, getting worse the farther it spreads. Eventually, the cars far behind are forced to stop completely or risk hitting the slower vehicles ahead—and so the traffic grinds to a halt over nothing, Horn said.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第2页D段明确减速向后沿车道像波传播；B段讲司机猜测事故。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "the car behind that vehicle to slow even more—and the slowing action spreads backward through the lane of traffic like a wave, getting worse the farther it spreads. Eventually, the cars far behind are forced to"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "paragraph": "D",
+          "quote": "Horn said phantom traffic jams are an emergent property of the flow of vehicles down a\nhighway. A phantom jam begins when a car in dense traffic slows down even slightly, which causes\nthe car behind that vehicle to slow even more—and the slowing action spreads backward through\nthe lane of traffic like a wave, getting worse the farther it spreads. Eventually, the cars far behind\nare forced to stop completely or risk hitting the slower vehicles ahead—and so the traffic grinds to a\nhalt over nothing, Horn said."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 547,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 45,
+      "group_type": "matching",
+      "question": "Horn has found that certain creatures use strategies similar to bilateral control to avoid hitting each other while moving in dense crowds.",
+      "existing": "G",
+      "proposed": "L",
+      "old_choice": "Traffic jams are caused by a number of factors, such as roads that are poorly designed or over-capacity, localized factors like city traffic-lighting patterns, and events like accidents and construction. But phantom traffic jams can make all those problems worse, Horn said. And the researchers in the new study have calculated that solving phantom jams could save at least some of the estimated $121 billion per year that traffic jams are estimated to cost the U.S. economy, Horn told Live Science.",
+      "proposed_choice": "Since starting his research on phantom traffic jams, Horn has learned that schools of fish and flocks of birds and bats use similar spacing strategies to avoid hitting each other while swimming or flying in densely packed groups. In particular, studies of millions of bats emerging at dusk from caves in Southeast Asia showed that each bat used a form of bilateral control to reduce the likelihood of collisions with other bats in the densely packed swarm (一大群), Horn said.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": true,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原试卷第3页L段明确鱼、鸟、蝙蝠采取类似间距策略；G段为成本。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "ch on phantom traffic jams, Horn has learned that schools of fish and flocks of birds and bats use similar spacing strategies to avoid hitting each other while swimming or flying in densely packed groups. In pa"
+        },
+        {
+          "source": "data/2025-06-CET4-3.pdf",
+          "pages": [
+            2,
+            3,
+            4
+          ],
+          "paragraph": "L",
+          "quote": "Since starting his research on phantom traffic jams, Horn has learned that schools of fish and\nflocks of birds and bats use similar spacing strategies to avoid hitting each other while swimming or\nflying in densely packed groups. In particular, studies of millions of bats emerging at dusk from\ncaves in Southeast Asia showed that each bat used a form of bilateral control to reduce the\nlikelihood of collisions with other bats in the densely packed swarm (一大群), Horn said."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 650,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 19,
+      "group_type": "listening",
+      "question": "What do we learn about Branyas Morera?",
+      "existing": "A",
+      "proposed": "D",
+      "old_choice": "She is one of the world's best-known pianists.",
+      "proposed_choice": "She is the world's oldest individual.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "问句问对Morera的了解；原文115岁320天且longer than any other living individual支持D，弹琴习惯不等于知名钢琴家A。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "transcript",
+          "quote": "ars and 320 days old. That means she's been alive\nlonger than any other living individual. Branyas was born in the United States on April 4, 1907, but her family moved\nto Spain, where they were originally from "
+        },
+        {
+          "source": "question.explanation in frozen PR database",
+          "note": "Full question wording checked independently from answer choice selection; source text matches the quoted transcript and actual options.",
+          "question": "What do we learn about Branyas Morera?"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 651,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 20,
+      "group_type": "listening",
+      "question": "What is one of Branyas Morera's secrets to living a long life?",
+      "existing": "D",
+      "proposed": "C",
+      "old_choice": "Following a specific diet every day.",
+      "proposed_choice": "Playing the piano from a young age.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "问句问长寿秘诀；原文明确playing the piano from a young age，并否定特定饮食，故C而非D。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "transcript",
+          "quote": "e of her secrets to living so\nlong. These include playing the piano from a young age. Unfortunately, she had to give up the practice seven years ago\nat 108. Her other secrets for living a long life? She led an "
+        },
+        {
+          "source": "question.explanation in frozen PR database",
+          "note": "Full question wording checked independently from answer choice selection; source text matches the quoted transcript and actual options.",
+          "question": "What is one of Branyas Morera's secrets to living a long life?"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 653,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 22,
+      "group_type": "listening",
+      "question": "What is of great importance to students according to the speaker?",
+      "existing": "C",
+      "proposed": "D",
+      "old_choice": "How teachers perceive them.",
+      "proposed_choice": "Where they sit in the classroom.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "问句问对学生何事重要；开篇主旨为座位D，教师印象C只是座位影响的一种。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "transcript",
+          "quote": "room. Where do you sit? Does it\nmatter? Yes! [22] It does matter where you sit in your classroom, so choose and choose carefully! Studies report that\nwhere you sit in the classroom can impact your ability to le"
+        },
+        {
+          "source": "question.explanation in frozen PR database",
+          "note": "Full question wording checked independently from answer choice selection; source text matches the quoted transcript and actual options.",
+          "question": "What is of great importance to students according to the speaker?"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 654,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 23,
+      "group_type": "listening",
+      "question": "What did one study find about students seated in the middle of the classroom?",
+      "existing": "B",
+      "proposed": "D",
+      "old_choice": "They obtained the highest grade average in their class.",
+      "proposed_choice": "They scored higher than students sitting behind them.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "问句针对教室中间学生；原文只比较与后排的得分，D准确，B全班最高扩大范围。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "transcript",
+          "quote": "towards the back of the\nclassroom. Get this! [23] Students sitting in the middle of the classroom also outscored students sitting behind them.\nThis study gathered that students had a clearer vision of the black"
+        },
+        {
+          "source": "question.explanation in frozen PR database",
+          "note": "Full question wording checked independently from answer choice selection; source text matches the quoted transcript and actual options.",
+          "question": "What did one study find about students seated in the middle of the classroom?"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 655,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 24,
+      "group_type": "listening",
+      "question": "What can eye contact, visibility and more interaction probably bring about?",
+      "existing": "C",
+      "proposed": "B",
+      "old_choice": "A stronger support for a student-centered teaching approach.",
+      "proposed_choice": "A better connection between instructors and students.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "问句针对eye contact/visibility/interaction的结果；原文明确师生联系B，C学生中心教学未出现。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "transcript",
+          "quote": "ter too. [24] The instructors said that they also\nformed a better connection with the students who sat in front. Perhaps the connection is made because of eye contact\n26四级2025.12（地二套】\nand visibility and more in"
+        },
+        {
+          "source": "question.explanation in frozen PR database",
+          "note": "Full question wording checked independently from answer choice selection; source text matches the quoted transcript and actual options.",
+          "question": "What can eye contact, visibility and more interaction probably bring about?"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1028,
+      "source": "2022-06-CET4-1.pdf",
+      "number": 43,
+      "group_type": "matching",
+      "question": "Job applicants should read with a critical eye what is written about a company on the website.",
+      "existing": "D",
+      "proposed": "I",
+      "old_choice": "However, figuring out what a company is like before you actually work there can be a bit of a challenge. Luckily, there are a few things you can do to determine whether or not a company is a good fit for you- before you ever sign your name on that dotted line.",
+      "proposed_choice": "An industry review website like Glassdoor is another spot to check in order to find some insider information about what you can expect about a company. However, remember to take the reviews you read with a grain of salt-many of them are written by scorned (被鄙视的)employees.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "I段take reviews with a grain of salt对应批判阅读；D段只讲入职前了解公司难度。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": " can expect about a company. However, remember to take the reviews you read with a grain of salt-many of them are written by scorned (被鄙视的)employees. J) Finally, you can never fail with personal connections. Se"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1094,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 54,
+      "group_type": "reading",
+      "question": "What do we learn about emotional intelligence from a number of studies?",
+      "existing": "B",
+      "proposed": "C",
+      "old_choice": "People who look at the dark side of life often feel depressed.",
+      "proposed_choice": "Some people may take advantage of it and benefit themselves.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "原文several studies直接连到情商可操纵他人获个人利益，C吻合；B悲观抑郁非该研究结论。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "s. Furthermore, several studies have implied that emotional intelligence can be used to maninulate others for personal gains. More research is needed to see how exactly the relation between emotional intelligen"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1096,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 26,
+      "group_type": "cloze",
+      "question": "Blank 26",
+      "existing": "C",
+      "proposed": "L",
+      "old_choice": "connected",
+      "proposed_choice": "ranging",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "follow-up periods后接from three to 21 years，ranging from...to...正确；connected不表达范围。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "here were 4,628 coronary events and 3,002 strokes in follow-up periods26from three to 21 years.Three of the papers27 loneliness, 18 looked at social isolation and two included both.Social isolation and loneline"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1106,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 36,
+      "group_type": "matching",
+      "question": "Students' financial aid remains unchanged even when tuition rises.",
+      "existing": "E",
+      "proposed": "I",
+      "old_choice": "An Internet search of \"hidden costs\" of college turns up a host of articles on parent-centered websites on the college application process.These articles are almost always geared towards upper-and middle class families. For students already struggling to pay tuition, these costs may be the least of their worries.",
+      "proposed_choice": "There is another depressing reality hidden within even the largest financial aid packages: Colleges family was careful to ask about the chances of financial aid being taken away after my freshman year. We were assured that, except for low grades or a raise in family income, no money would be taken away.We did not know to askand the school did not readily point outthat even if tuition rises, my financial aid package will stay the same. So when my university voted to raise tuition costs 3% at the end of my freshman year, my financial aid package remained the same and I was suddenly responsible for an additional s 1,2oo for the next year. The university administration will likely vote to raise costs at least once more before my graduation.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "独立渲染原试卷第5页确认I)段：tuition rises而financial aid stays same；E段针对网上隐形成本文章读者。须同步恢复I)段标。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "o askand the school did not readily point outthat even if tuition rises, my financial aid package will stay the same. So when my university voted to raise tuition costs 3% at the end of my freshman year, my fin"
+        },
+        {
+          "source": "data/2022-12-CET4-1.pdf",
+          "pdf_page": 5,
+          "render": "reports/crosscheck-evidence/2022-12-CET4-1-p5.png",
+          "method": "independently rendered and visually inspected original paper",
+          "quote": "I) There is another depressing reality ... even if tuition rises, my financial aid package will stay the same."
+        }
+      ],
+      "application_dependency": "Restore the I) paragraph marker in group 219 before publishing this answer."
+    },
+    {
+      "id": 1126,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 11,
+      "group_type": "listening",
+      "question": "Why is the woman unwilling to pay in advance?",
+      "existing": "D",
+      "proposed": "A",
+      "old_choice": "She prefers to have the fee added to her monthly bill.",
+      "proposed_choice": "She doesn't want to reveal her card details over the phone.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "问句为女士为何不提前付款；她明确不愿电话透露银行卡资料A，月账单D是之后解决方式。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "transcript",
+          "quote": " Sure. Would you prefer to pay in advance?\nW: No, I don't like giving my card details over the phone anyway.\nM: Okay, then. As you are already a member, the fee of the class will just be added to your monthly b"
+        },
+        {
+          "source": "question.explanation in frozen PR database",
+          "note": "Full question wording checked independently from answer choice selection; source text matches the quoted transcript and actual options.",
+          "question": "Why is the woman unwilling to pay in advance?"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1134,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 19,
+      "group_type": "listening",
+      "question": "What does the passage say about hot sunshine?",
+      "existing": "C",
+      "proposed": "B",
+      "old_choice": "It turns parks into picnic sites.",
+      "proposed_choice": "It may cause strange physical reactions.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "问句问炎热阳光的影响；原文首句make your body react in strange ways对应B，公园野餐C仅背景。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "transcript",
+          "quote": " mean picnics and parks and trips to beaches, but they can make your body react in some strange ways.\nFirst, sunshine can actually affect your breath. You may think that summer is the perfect time to go on a da"
+        },
+        {
+          "source": "question.explanation in frozen PR database",
+          "note": "Full question wording checked independently from answer choice selection; source text matches the quoted transcript and actual options.",
+          "question": "What does the passage say about hot sunshine?"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1245,
+      "source": "2023-06-CET4-1.pdf",
+      "number": 35,
+      "group_type": "cloze",
+      "question": "Blank 35",
+      "existing": "K",
+      "proposed": "M",
+      "old_choice": "reducing",
+      "proposed_choice": "shrink",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "as water supplies后的从句需要谓语；M shrink满足复数主语和水资源减少语义，K reducing不能单独作谓语。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "most useful cash crops across the globe. However, as water supplies ___35___, farmers and consumers need to be more conscious of the effect that these products have on the environment as a whole."
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1359,
+      "source": "2023-06-CET4-1.pdf",
+      "number": 39,
+      "group_type": "matching",
+      "question": "African farmers unable to read often don't have access to important information conveyed online.",
+      "existing": "J",
+      "proposed": "D",
+      "old_choice": "Using voice interaction feels far more intimate than surfing the net the old-fashioned way. This is intentional as the informal tone of the assistant helps create an emotional attachment. But if something speaks, it must also listen. Our phones are always near us and they are collecting data about us all the time. This has already raised privacy concerns. The American Civil Liberties Union has stated that digital assistants create a threat to privacy from hackers. Some people have other concerns. They worry assistants will one day be used to deliver advertising directly to us.",
+      "proposed_choice": "What use is written online content if you can't read? That is the situation facing illiterate (不识字的) African farmers. They are often denied crucial information the web offers many others. With a literacy rate in some parts of Africa at only 22.6%, farmers are often \"underpaid for their produce because they might be unaware of the prevailing prices,\" says Francis Dittoh, a researcher behind Mr Meteo, a speech-based weather information service.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "D段明确不识字的非洲农民无法获取网络关键信息；J段为语音助手隐私风险。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "tuation facing illiterate (不识字的) African farmers. They are often denied crucial information the web offers many others. With a literacy rate in some parts of Africa at only 22.6%, farmers are often \"underpaid f"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1422,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 48,
+      "group_type": "reading",
+      "question": "What is the primary factor keeping women from taking top leadership positions according to the recent survey?",
+      "existing": "B",
+      "proposed": "C",
+      "old_choice": "Family responsibilities.",
+      "proposed_choice": "Gender bias.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "实际C为Gender bias，原文约四成提及双重标准；B家庭责任仅五分之一且非主要因素。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": " of reasons, about four-in-ten Americans point to a double standard for women seeking to climb to the highest levels of either politics or business, where they have to do more than their male counterparts to pr"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1446,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 42,
+      "group_type": "matching",
+      "question": "More young adult women live with their parents than before due to delayed marriage.",
+      "existing": "D",
+      "proposed": "I",
+      "old_choice": "It's worth noting that the overall share of young adults living with their parents was not at a record high in 2014. This arrangement peaked around 1940, when about 35% of the nation's 18- to 34-year-olds lived with mom and/or dad (compared with 32% in 2014). What has changed, instead, is the relative share adopting different ways of living in early adulthood, with the decline of romantic coupling pushing living at home to the top of a much less uniform list of living arrangements.",
+      "proposed_choice": "Economic factors seem to explain less of why young adult women are increasingly likely to live at home. Generally, young women have had growing success in the paid labor market since 1960 and hence might increasingly be expected to be able to afford to live independently of their parents. For women, delayed marriage—which is related, in part, to labor market outcomes for men—may explain more of the increase in their living in the family home.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "I段明确For women, delayed marriage解释更多住父母家；D段只比较历史总体居住比例。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "to afford to live independently of their parents. For women, delayed marriage—which is related, in part, to labor market outcomes for men—may explain more of the increase in their living in the family home.\n\nJ)"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1504,
+      "source": "2019-06-CET4-3.pdf",
+      "number": 45,
+      "group_type": "matching",
+      "question": "Making is not taken seriously in school when students are asked to make something meaningless to them based on textbooks.",
+      "existing": "D",
+      "proposed": "I",
+      "old_choice": "So it’s no surprise that the Maker Movement today is thriving in communities and some schools across America. Making is available to ordinary people who aren’t tied to big companies, big defense labs or research universities. The maker philosophy echoes old ideas advocated by John Dewey, Montessori, and even ancient Greek philosophers, as we pointed out recently.",
+      "proposed_choice": "In some ways, a lot of forms of making in school trivialize (使变得无足轻重) making. The thing that you make has no value to you. Once you are done demonstrating whatever concept was in the textbook, you throw away the pipe cleaners, the cardboard tubes.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "[I]段明确作品仅用于演示课本概念、无自身价值且被丢弃；[D]段为Maker Movement兴起。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": " of making in school trivialize (使变得无足轻重) making. The thing that you make has no value to you. Once you are done demonstrating whatever concept was in the textbook, you throw away the pipe cleaners, the cardboa"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1876,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 30,
+      "group_type": "cloze",
+      "question": "Blank 30",
+      "existing": "D",
+      "proposed": "I",
+      "old_choice": "drastically",
+      "proposed_choice": "maximizes",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "that从句主语interior单数，I maximizes可作谓语并搭配comfort，D drastically副词不能作谓语。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "rimary concern is to deliver an interior that t30 comfort to create a pleasant environment.\" \"It's all about making the traveling experience less 31 and blue is said to induce a feeling of calm. While some of t"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1884,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 38,
+      "group_type": "matching",
+      "question": "A middle school teacher is making a great effort to help students learn about the contributions made by Chinese immigrants to America.",
+      "existing": "F",
+      "proposed": "J",
+      "old_choice": "Research into what students learn in school has found just how much is missing in their studies. In an analysis, Christine Sleeter, a professor in the College of Professional Studies at California State University, Monterey Bay, reviewed California's history and social studies framework, the curriculum determined by state educators that influences what is taught in K-12 classrooms. Of the nearly 100 Americans recommended to be studied, 77% were white, 18% were African American, 4% were Native American, and 1% were Latino. None were Asian American.",
+      "proposed_choice": "Some teachers are finding ways to expose students to Asian-American issues — if not during school hours, then outside of them. This summer, Wilson Wong will lead a class of rising fifth-graders at a day camp dedicated to Chinese culture and the Chinese-American community in Oakland, California. His students, for instance, will learn about how Chinese immigrants built the railroads in California, and even have a chance to \"experience\" it themselves: They will race each other to build a railroad model on the playground, with some students being forced to \"work\" longer and faster and at cheaper wages. Wong, a middle school teacher during the school year, hopes he's exposing the students to how Chinese Americans contributed to the U.S., something that he didn't get as a student growing up in the San Francisco Bay Area. \"I planted the seeds early,\" he says. \"That's what I'm hoping for.\"",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "J段具体介绍中学教师Wong课外让学生了解华裔修铁路贡献；F段统计课程人物构成。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "to \"work\" longer and faster and at cheaper wages. Wong, a middle school teacher during the school year, hopes he's exposing the students to how Chinese Americans contributed to the U.S., something that he didn'"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 1891,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 45,
+      "group_type": "matching",
+      "question": "An Asian-American studies professor placed greater emphasis on teacher training than on teachers background. 四级2020年51",
+      "existing": "D",
+      "proposed": "I",
+      "old_choice": "Our students—Asian, Latino, African American, Native American, and, yes, white—stand to gain from a multicultural curriculum. Students of color are more engaged and earn better grades when they see themselves in their studies. Research has also found that white students benefit by being challenged and exposed to new perspectives.",
+      "proposed_choice": "How race and ethnicity is taught is crucial, says Allyson Tintiangco-Cubales, an Asian-American studies professor at San Francisco State University. She added that it's not so much about the teacher's background, but about training. \"You can have a great curriculum but if you don't have teachers dedicated(专注于) to teaching it well,\" she says, \"it won't work as well as you want it to.\"",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "I段亚裔研究教授明确not so much background, but training；D段谈多元课程对学生好处。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "n Francisco State University. She added that it's not so much about the teacher's background, but about training. \"You can have a great curriculum but if you don't have teachers dedicated(专注于) to teaching it we"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 2098,
+      "source": "2021-12-CET4-3.pdf",
+      "number": 31,
+      "group_type": "cloze",
+      "question": "Blank 31",
+      "existing": "F",
+      "proposed": "O",
+      "old_choice": "drastically",
+      "proposed_choice": "typically",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "医生通常不把偶发噩梦当问题对应O typically；F drastically急剧地不符合语义。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "art of the human experience, especially for kids. Doctors 3l don't consider occasional nightmares a problem. They can just be symptoms of a sleep disorder that can 32_ from an unpleasant experience, stress, or "
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 2135,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 38,
+      "group_type": "matching",
+      "question": "Kelli Harding differs from those seeking quick and simple solutions to America's medical problems.",
+      "existing": "D",
+      "proposed": "I",
+      "old_choice": "Kelli's letter, a literate update on both her personal and professional life, touched my heart, and especially so when saying that two decades later she still has the course text, \"Solutions to Violence,\" and that \"it remains one of my favorite possessions.\" She lives in Lower Manhattan with her husband, Padraic, whom she met on a flight to London, and their three boys.",
+      "proposed_choice": "Amid the political noise about Obamacare, Medicare, Medicaid, health insurance and thieving pharmaceutical(医药的) companies, Kelli Harding stands apart from the crowd calling for quick fixes, the simpler the better. She has walked too many miles in the halls of hospitals visiting too many far-gone patients and seeing too many medical mistakes to go along with conventional thinking.",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "I段stands apart from crowd calling for quick fixes直接对应Harding不同于寻求速成者；D段为来信。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "rance and thieving pharmaceutical(医药的) companies, Kelli Harding stands apart from the crowd calling for quick fixes, the simpler the better. She has walked too many miles in the halls of hospitals visiting too "
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 2137,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 40,
+      "group_type": "matching",
+      "question": "According to Kelli Harding, scientific advances have not made Americans healthier, nor prolonged their life.",
+      "existing": "D",
+      "proposed": "F",
+      "old_choice": "Kelli's letter, a literate update on both her personal and professional life, touched my heart, and especially so when saying that two decades later she still has the course text, \"Solutions to Violence,\" and that \"it remains one of my favorite possessions.\" She lives in Lower Manhattan with her husband, Padraic, whom she met on a flight to London, and their three boys.",
+      "proposed_choice": "With a blending of free-flowing confessional prose and scholarly research found in 461 notes, Kelli met my expectations that her ideas and ideals would be sound and singular. \"Despite our scientific progress,\" she writes, \"Americans are remarkably unhealthy. In 2016, the United States ranked forty-third in the world for life expectancy. It is also by far the world's most expensive place to get sick.\"",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "F段引述Despite scientific progress, unhealthy及寿命排名43；D段来信不涉及健康或寿命。该题为概括性表述，F为唯一匹配。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "er ideas and ideals would be sound and singular. \"Despite our scientific progress,\" she writes, \"Americans are remarkably unhealthy. In 2016, the United States ranked forty-third in the world for life expectanc"
+        }
+      ],
+      "application_dependency": null
+    },
+    {
+      "id": 2355,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 31,
+      "group_type": "cloze",
+      "question": "Blank 31",
+      "existing": "O",
+      "proposed": "J",
+      "old_choice": "viciously",
+      "proposed_choice": "obsessed",
+      "local_identity_verified": true,
+      "quoted_needle_found": true,
+      "original_pdf_identity_verified": null,
+      "result": "agree",
+      "concern": null,
+      "review_reason": "those obsessed with success为对成功着迷的人，J可与with搭配；O viciously副词不构成该结构。",
+      "evidence": [
+        {
+          "source": "reports\\pr2-review-readonly.db",
+          "field": "passage",
+          "quote": "e most likely to become chronic excuse makers are those 31 with success. Such people are so afraid of being 32 a failure at anything that they constantly develop one handicap or another in order to explain away"
+        }
+      ],
+      "application_dependency": null
+    }
+  ]
+}

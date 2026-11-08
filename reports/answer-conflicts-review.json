@@ -1,0 +1,2690 @@
+{
+  "generated_at": "2026-11-08 Asia/Shanghai",
+  "pr_head": "5f3a276b150d81a360c9337376201d68e189eb96",
+  "database_snapshot": {
+    "path": "reports\\pr2-review-readonly.db",
+    "sha256": "81af0a7d0daaeb5f3c180fceaecb42a4f5b0e9651ff2bca0f7d42f4182b861ce",
+    "question_count": 4958,
+    "read_only": true,
+    "database_modified": false
+  },
+  "summary": {
+    "observed_conflict_ids": 47,
+    "proposed_answer_corrections": 40,
+    "retain_confirmed": 7,
+    "july_2020_matching_reviewed": 20,
+    "july_2020_answers_changed": 0
+  },
+  "coverage": {
+    "cached_reference_papers": 65,
+    "reference_rows_compared_or_attempted": 3277,
+    "reference_existing_agree": 2338,
+    "reference_identity_passed_conflicts": 40,
+    "reference_identity_unchecked": 899,
+    "ocr_conflicts": 26,
+    "unique_union": 47,
+    "note": "Reviewed every existing-answer conflict found in the available local reference HTML and answer OCR caches. This is not a full manual review of all 4958 questions. Papers without cached reference HTML are outside that reference comparison."
+  },
+  "july_four_issue_resolution": "The handoff did not identify the four question IDs or their conflicting source. Reviewed all 20 matching questions in the 2020-07 CET4 and CET6 papers instead. Each current answer is supported by its English paragraph and the matching paper reference table. Early online provisional keys differ for CET6 Q38/Q40/Q44, but do not match the local paragraph meanings and were rejected.",
+  "decisions": [
+    {
+      "id": 518,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 46,
+      "group_id": 107,
+      "group_type": "reading",
+      "existing": "A",
+      "answer": "B",
+      "status": "correct",
+      "reason": "第一段首句直接指出社会高度重视外貌美，随后用每年外貌开支和模仿明星的例子说明。本卷 B 项概括了这一点。花钱的事实不等于作者认定浪费，故排除 A，答案为 B。",
+      "new_explanation": "【答案】B。\n【解析】第一段首句直接指出社会高度重视外貌美，随后用每年外貌开支和模仿明星的例子说明。本卷 B 项概括了这一点。花钱的事实不等于作者认定浪费，故排除 A，答案为 B。",
+      "question_identity": {
+        "local_content_sha256": "79e18601c3cfe1c7b7d394f116836d70705312997343e3e9ee7d38306e85f59d",
+        "local_options": {
+          "A": "It sees lots of personal income wasted on beauty products.",
+          "B": "It considers one’s physical appearance very important.",
+          "C": "It places a high value on the physical fitness of stars.",
+          "D": "It expects every individual to look their very best."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "Our society places a high value on physical beauty",
+        "found": true,
+        "quote": "Our society places a high value on physical beauty. Americans spend an average of over $722 each year on their appearance. One in ten Americans has tried to loo"
+      },
+      "reference_conflict": {
+        "id": 518,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 46,
+        "existing": "A",
+        "answer": "B",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 518,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 46,
+        "existing": "A",
+        "answer": "B",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "fdd820ff1cf8045dd7ae1c153edfe1f390217637e14e976688707579646bf693"
+    },
+    {
+      "id": 519,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 47,
+      "group_id": 107,
+      "group_type": "reading",
+      "existing": "D",
+      "answer": "C",
+      "status": "correct",
+      "reason": "定位第二、三段。过度追求外貌可能使人忽略能带来更深亲密关系、满足感和意义的内在品质，对应 C 项。原文说耗费时间精力金钱，但没有说人们主观上感到这些全被浪费，故不选 D。",
+      "new_explanation": "【答案】C。\n【解析】定位第二、三段。过度追求外貌可能使人忽略能带来更深亲密关系、满足感和意义的内在品质，对应 C 项。原文说耗费时间精力金钱，但没有说人们主观上感到这些全被浪费，故不选 D。",
+      "question_identity": {
+        "local_content_sha256": "51e06d5f1891d3aaf3caa50bfd21e2878be8a9f0cadcb9ba3d3bdddf7b81d1aa",
+        "local_options": {
+          "A": "They have to get prepared for resentment and bitter court battles.",
+          "B": "They are better able to gain attention, love, and personal connection.",
+          "C": "They may neglect to cultivate the inner qualities that matter more.",
+          "D": "They feel much of their precious time, energy and resources is wasted."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "we may fail to attend to ourselves",
+        "found": true,
+        "quote": " attention, love, and connection. In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy, fulfillment, and meaning. It may sound trite (老生常谈的), but beauty is only "
+      },
+      "reference_conflict": {
+        "id": 519,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 47,
+        "existing": "D",
+        "answer": "C",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 519,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 47,
+        "existing": "D",
+        "answer": "C",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "8234bbf6bfe23c3369e9528adbf7f0c257b186b725ffcab2625927c04c177a27"
+    },
+    {
+      "id": 520,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 48,
+      "group_id": 107,
+      "group_type": "reading",
+      "existing": "B",
+      "answer": "D",
+      "status": "correct",
+      "reason": "该句明确表示外貌美可能带来与好处同样多的坏处，D 项是同义概括。文中只提到一味维持完美外表的习惯，没有同时说会形成好习惯，因此 B 不成立，故选 D。",
+      "new_explanation": "【答案】D。\n【解析】该句明确表示外貌美可能带来与好处同样多的坏处，D 项是同义概括。文中只提到一味维持完美外表的习惯，没有同时说会形成好习惯，因此 B 不成立，故选 D。",
+      "question_identity": {
+        "local_content_sha256": "df17298a4b563fe0f0eb8ecaec280f324497e7c88036f77e349ce7b7238f8ba4",
+        "local_options": {
+          "A": "It may be inherited or cultivated.",
+          "B": "It may lead to bad as well as good habits.",
+          "C": "It may create connection or isolation.",
+          "D": "It may do as much harm as good."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "Outer beauty can be as much of a curse as a blessing",
+        "found": true,
+        "quote": "e turns into resentment and bitter court battles. Outer beauty can be as much of a curse as a blessing. We may develop a habit of being so focused on maintaining a perfect appearance that we never cultivate the"
+      },
+      "reference_conflict": {
+        "id": 520,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 48,
+        "existing": "B",
+        "answer": "D",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 520,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 48,
+        "existing": "B",
+        "answer": "D",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "973afce9bbd7d07316aa79ce796a0f6c5ea984a55b2e7d4c712c555f52842399"
+    },
+    {
+      "id": 521,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 49,
+      "group_id": 107,
+      "group_type": "reading",
+      "existing": "D",
+      "answer": "A",
+      "status": "correct",
+      "reason": "定位讨论深层连接的句子。作者说，内心世界的相遇才创造持久的亲密和心灵联系，A 项 Meeting of minds 是同义表达。D 项频繁互动并非作者此处给出的原因，故选 A。",
+      "new_explanation": "【答案】A。\n【解析】定位讨论深层连接的句子。作者说，内心世界的相遇才创造持久的亲密和心灵联系，A 项 Meeting of minds 是同义表达。D 项频繁互动并非作者此处给出的原因，故选 A。",
+      "question_identity": {
+        "local_content_sha256": "4ab9c58eacaa926bd775a1ed4dfe4b9c2b8418251a343e40e109f637fcc6a279",
+        "local_options": {
+          "A": "Meeting of minds.",
+          "B": "Attraction at first sight.",
+          "C": "Physical chemistry.",
+          "D": "Frequent interaction."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "the meeting of our inner worlds",
+        "found": true,
+        "quote": "y be based, in part, on physical chemistry, it is the meeting of our inner worlds that creates the lasting intimacy and spiritual connection for which we long. If we redirect our attention toward cultivating in"
+      },
+      "reference_conflict": {
+        "id": 521,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 49,
+        "existing": "D",
+        "answer": "A",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 521,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 49,
+        "existing": "D",
+        "answer": "A",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "dd088d4983164e61e1785e2060cf1678ec7ae588ab1efa36ffd700358133352c"
+    },
+    {
+      "id": 523,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 51,
+      "group_id": 108,
+      "group_type": "reading",
+      "existing": "A",
+      "answer": "C",
+      "status": "correct",
+      "reason": "第一段末预测植物肉市场到2030年将大幅增长至740亿美元，说明其消费量预期显著增加，对应 C 项。文章提到分析人士作出预测，并未说对分析本身的兴趣增加，因此 A 不成立，故选 C。",
+      "new_explanation": "【答案】C。\n【解析】第一段末预测植物肉市场到2030年将大幅增长至740亿美元，说明其消费量预期显著增加，对应 C 项。文章提到分析人士作出预测，并未说对分析本身的兴趣增加，因此 A 不成立，故选 C。",
+      "question_identity": {
+        "local_content_sha256": "4937180a870c9c6807bf075524bce0bf4528cdd1a138b8eb86990305df40e1a3",
+        "local_options": {
+          "A": "An increasing interest in their analyses.",
+          "B": "An enormous effort in their promotion.",
+          "C": "A huge boost in their consumption.",
+          "D": "A noticeable surge in their varieties."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "$74 billion",
+        "found": true,
+        "quote": "2021 report predicts the market will skyrocket to $74 billion by 2030—a 957 percent surge. Plant-based meats are no longer just for vegetarians. Companies such as Impossible Foods and Beyond Meat—the current su"
+      },
+      "reference_conflict": {
+        "id": 523,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 51,
+        "existing": "A",
+        "answer": "C",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 523,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 51,
+        "existing": "A",
+        "answer": "C",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "1c1e2766f6f8ad93a28b9f239c5b18a80bb6d138a661628d971a0d86f7baa57b"
+    },
+    {
+      "id": 524,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 52,
+      "group_id": 108,
+      "group_type": "reading",
+      "existing": "D",
+      "answer": "A",
+      "status": "correct",
+      "reason": "定位第二段末句。原文指出购买两家植物肉产品的人中超过九成也吃肉，因此他们大多不是素食者，对应 A 项。健康、动物权益和环境是部分人减少肉类摄入的动机，原文未说大多数购买者都出于环保，故不选 D。",
+      "new_explanation": "【答案】A。\n【解析】定位第二段末句。原文指出购买两家植物肉产品的人中超过九成也吃肉，因此他们大多不是素食者，对应 A 项。健康、动物权益和环境是部分人减少肉类摄入的动机，原文未说大多数购买者都出于环保，故不选 D。",
+      "question_identity": {
+        "local_content_sha256": "1d3c8c724b314171090b6892b01007cd9b6fc413e42b0e1767e30cc01347a3ed",
+        "local_options": {
+          "A": "They are mostly non-vegetarians.",
+          "B": "They are mostly animal-rights advocates.",
+          "C": "Most of them refrain from eating meat for health reasons.",
+          "D": "Most of them eat meatless meat to protect the environment."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "More than nine out of ten consumers",
+        "found": true,
+        "quote": "More than nine out of ten consumers who buy Beyond Burger and Impossible Foods products also eat meat. Many vegetarians don’t actually care f"
+      },
+      "reference_conflict": {
+        "id": 524,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 52,
+        "existing": "D",
+        "answer": "A",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 524,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 52,
+        "existing": "D",
+        "answer": "A",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "d778600d46a0a547cd0b1abbe963e70776a2c35ec83a904b1cd4293020ff6754"
+    },
+    {
+      "id": 525,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 53,
+      "group_id": 108,
+      "group_type": "reading",
+      "existing": "C",
+      "answer": "B",
+      "status": "correct",
+      "reason": "定位 Joan Solsman 试吃植物肉的段落。她作为长期素食者因产品过于像真肉而感到难以下咽，说明产品非常接近动物肉，对应 B 项。文中没有说它们成为公司的招牌菜，故 C 不成立，答案为 B。",
+      "new_explanation": "【答案】B。\n【解析】定位 Joan Solsman 试吃植物肉的段落。她作为长期素食者因产品过于像真肉而感到难以下咽，说明产品非常接近动物肉，对应 B 项。文中没有说它们成为公司的招牌菜，故 C 不成立，答案为 B。",
+      "question_identity": {
+        "local_content_sha256": "fa69b88afe669405dcd628fd910f85c9287afd4f1b6d0192bbf0fb6f819c4523",
+        "local_options": {
+          "A": "They more often appeal to meat-eaters.",
+          "B": "They very much resemble animal meat.",
+          "C": "Some have become its signature dishes.",
+          "D": "Most of them are sold as true fake meat."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "couldn’t finish",
+        "found": true,
+        "quote": " from Impossible Foods, she felt so sick that she couldn’t finish it. “Maybe the best sign that Impossible Foods has cracked the code to realistic fake meat is that I couldn’t stand to take another bite,” she w"
+      },
+      "reference_conflict": {
+        "id": 525,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 53,
+        "existing": "C",
+        "answer": "B",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 525,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 53,
+        "existing": "C",
+        "answer": "B",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "037195b336cc1e06af8493c000549395b95e9502fd4b1f16753024161b7ed7fe"
+    },
+    {
+      "id": 526,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 54,
+      "group_id": 108,
+      "group_type": "reading",
+      "existing": "B",
+      "answer": "D",
+      "status": "correct",
+      "reason": "定位第四、五段。原文比较肉类摄入的健康风险：红肉与癌症相关，不吃肉者的血压、血糖等指标较低；概括起来，植物性饮食减少了肉类带来的多种健康风险，对应 D 项。原文没有说植物肉提供保持健康所需的所有营养素，因此 B 过于绝对，故选 D。",
+      "new_explanation": "【答案】D。\n【解析】定位第四、五段。原文比较肉类摄入的健康风险：红肉与癌症相关，不吃肉者的血压、血糖等指标较低；概括起来，植物性饮食减少了肉类带来的多种健康风险，对应 D 项。原文没有说植物肉提供保持健康所需的所有营养素，因此 B 过于绝对，故选 D。",
+      "question_identity": {
+        "local_content_sha256": "23ba6b03400a46c8c2e814b71515aa5bdfa30edd54f376cef0d1d46aad3df954",
+        "local_options": {
+          "A": "It frees people from any known link to cancer.",
+          "B": "It provides all the nutrients for staying healthy.",
+          "C": "It helps maintain normal blood pressure and blood sugar.",
+          "D": "It reduces various health risks posed by meat consumption."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "red meat",
+        "found": true,
+        "quote": "in itself can lead to better health. Not only has red meat been linked to cancer, but studies show that people who ditch meat have lower blood pressure, lower average blood sugar, and lower cholesterol levels. "
+      },
+      "reference_conflict": {
+        "id": 526,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 54,
+        "existing": "B",
+        "answer": "D",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 526,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 54,
+        "existing": "B",
+        "answer": "D",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "6087d9ed3c5d28b04a00c42db532d7491c2da43e915529acfae4b41ca15fccc6"
+    },
+    {
+      "id": 537,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 35,
+      "group_id": 109,
+      "group_type": "cloze",
+      "existing": "O",
+      "answer": "J",
+      "status": "correct",
+      "reason": "第35空作 these individuals 的谓语，宾语为 the ability to smell。该段说缺少嗅觉处理脑区的人仍能闻到气味，研究者尚不清楚他们如何保留这种能力；J 项 retained（保留）符合。O 项 visual 是形容词，不能作谓语，故选 J。",
+      "new_explanation": "【答案】J。\n【解析】第35空作 these individuals 的谓语，宾语为 the ability to smell。该段说缺少嗅觉处理脑区的人仍能闻到气味，研究者尚不清楚他们如何保留这种能力；J 项 retained（保留）符合。O 项 visual 是形容词，不能作谓语，故选 J。",
+      "question_identity": {
+        "local_content_sha256": "fa2bafce484a03e0ec1779b377056198e1eb19d6e6e480a7cd1831cdccf91c55",
+        "local_options": {
+          "A": "adapt",
+          "B": "hardly",
+          "C": "indicates",
+          "D": "insist",
+          "E": "literature",
+          "F": "organ",
+          "G": "particularly",
+          "H": "remaining",
+          "I": "responsible",
+          "J": "retained",
+          "K": "still",
+          "L": "strategy",
+          "M": "transformed",
+          "N": "underlines",
+          "O": "visual"
+        },
+        "same_label_reference_score": 0.94,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "these individuals 35 the ability to smell",
+        "found": true,
+        "quote": "mation about smells. Though they are not sure how these individuals 35 the ability to smell, scientists believe it is possible that another part of the brain took on that task."
+      },
+      "reference_conflict": {
+        "id": 537,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 35,
+        "existing": "O",
+        "answer": "J",
+        "identity_score": 0.94,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": {
+        "id": 537,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 35,
+        "existing": "O",
+        "answer": "J",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "6e678c56846ec2e6a8c409d34d3cc2a01d86be1ce81442b273d3f5fa42115374"
+    },
+    {
+      "id": 539,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 37,
+      "group_id": 110,
+      "group_type": "matching",
+      "existing": "I",
+      "answer": "H",
+      "status": "correct",
+      "reason": "定位 H 段。该段先给出每车道每小时约1800辆的通行量，再指出采用双边控制几乎可以翻倍，直接对应 nearly double the hourly throughput per lane，故选 H。",
+      "new_explanation": "【答案】H。\n【解析】定位 H 段。该段先给出每车道每小时约1800辆的通行量，再指出采用双边控制几乎可以翻倍，直接对应 nearly double the hourly throughput per lane，故选 H。",
+      "question_identity": {
+        "local_content_sha256": "4c5bd5d8635b5c75afa5fd42566a659efd52e994d647fb156962d0f481226a3d",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "you could almost double that",
+        "found": true,
+        "quote": "through),” he added. “But with bilateral control, you could almost double that.” I) The main alternative to increasing traffic throughput per lane has been to build more lanes and more highways, and putting in "
+      },
+      "reference_conflict": {
+        "id": 539,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 37,
+        "existing": "I",
+        "answer": "H",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "998f206adb563b5f186a7ed1c9235a5e71e968c481a27bfb898e3f33c5e0db91"
+    },
+    {
+      "id": 541,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 39,
+      "group_id": 110,
+      "group_type": "matching",
+      "existing": "A",
+      "answer": "N",
+      "status": "correct",
+      "reason": "定位 N 段。原文说在相关系统成为标准配置之前，司机只要不跟前车太近，就能减少幽灵堵车；题干的系统普及前、不要紧跟前车均与此句一致，故选 N。",
+      "new_explanation": "【答案】N。\n【解析】定位 N 段。原文说在相关系统成为标准配置之前，司机只要不跟前车太近，就能减少幽灵堵车；题干的系统普及前、不要紧跟前车均与此句一致，故选 N。",
+      "question_identity": {
+        "local_content_sha256": "f77f75bd704d2781d75cc8b3e36db51f7656103f71d4f9dbb44eb07b0316018a",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "human drivers can help reduce phantom traffic jams",
+        "found": true,
+        "quote": " car. N) But until those systems become standard, human drivers can help reduce phantom traffic jams simply by not following the car in front so closely. As Horn argues, “There’s absolutely no advantage of tail"
+      },
+      "reference_conflict": {
+        "id": 541,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 39,
+        "existing": "A",
+        "answer": "N",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "a65f39920ef857de15449fae647e5a190c67049c4fa2249165e3a3a08817538e"
+    },
+    {
+      "id": 542,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 40,
+      "group_id": 110,
+      "group_type": "matching",
+      "existing": "H",
+      "answer": "F",
+      "status": "correct",
+      "reason": "定位 F 段。Horn 说只需对许多新车已配备的自适应巡航控制进行相对简单的改装，就可实现双边控制，正对应题干 existing equipment 和 simple modifications，故选 F。",
+      "new_explanation": "【答案】F。\n【解析】定位 F 段。Horn 说只需对许多新车已配备的自适应巡航控制进行相对简单的改装，就可实现双边控制，正对应题干 existing equipment 和 simple modifications，故选 F。",
+      "question_identity": {
+        "local_content_sha256": "002dee50e67fbd7a142377ced3d33e2fd51afad067d1a3cd5478239206e01a89",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "relatively simple modifications to the adaptive cruise control",
+        "found": true,
+        "quote": "的) control, and he said it could be achieved with relatively simple modifications to the adaptive cruise control that many new cars already have. Adaptive cruise control is a driver assistance technology that s"
+      },
+      "reference_conflict": {
+        "id": 542,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 40,
+        "existing": "H",
+        "answer": "F",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "6dd54dd7b273d29ed843fb4476dc3f902a75d9eed03fcaad14d522e52bcd2827"
+    },
+    {
+      "id": 543,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 41,
+      "group_id": 110,
+      "group_type": "matching",
+      "existing": "D",
+      "answer": "B",
+      "status": "correct",
+      "reason": "定位 B 段。被困于这种堵车的司机通常以为前方发生事故或正在施工，assume 对应 think，故选 B。D 段解释减速波如何向后传播，不是司机的猜测。",
+      "new_explanation": "【答案】B。\n【解析】定位 B 段。被困于这种堵车的司机通常以为前方发生事故或正在施工，assume 对应 think，故选 B。D 段解释减速波如何向后传播，不是司机的猜测。",
+      "question_identity": {
+        "local_content_sha256": "3c620a226660f191485d18575ab674ccf8046f97fe642bcf0baf2d892ca701f8",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "there must be an accident, or construction",
+        "found": true,
+        "quote": "ffic jam, it is common for drivers to assume that there must be an accident, or construction or something,” said Massachusetts Institute of Technology (MIT) computer science professor Berthold Horn. “And then y"
+      },
+      "reference_conflict": {
+        "id": 543,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 41,
+        "existing": "D",
+        "answer": "B",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "fe5f80bf4d2a8542b3a3bc9a6b635be75ee935490c9a7c79e7acbb4ea4099d7b"
+    },
+    {
+      "id": 544,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 42,
+      "group_id": 110,
+      "group_type": "matching",
+      "existing": "F",
+      "answer": "M",
+      "status": "correct",
+      "reason": "定位 M 段。现有系统使用前向传感器测前车距离，双边控制再加后向传感器测后车距离，两者合为题干所说两组传感器，故选 M。F 段只是概述改装，未给出这两组传感器的具体职责。",
+      "new_explanation": "【答案】M。\n【解析】定位 M 段。现有系统使用前向传感器测前车距离，双边控制再加后向传感器测后车距离，两者合为题干所说两组传感器，故选 M。F 段只是概述改装，未给出这两组传感器的具体职责。",
+      "question_identity": {
+        "local_content_sha256": "894269d5ddc1a863784d6bb35abf5d5ded201dde41fe6058f87ce55a77b151f2",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "adding rear-facing sensors",
+        "found": true,
+        "quote": "ead. The bilateral control approach would include adding rear-facing sensors to determine the distance to the vehicle following a car. N) But until those systems become standard, human drivers can help reduce p"
+      },
+      "reference_conflict": {
+        "id": 544,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 42,
+        "existing": "F",
+        "answer": "M",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "6d53a4eb09c6a317c988b761d56de05bc1dd4f8741246e86a97e5ac615cfd818"
+    },
+    {
+      "id": 545,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 43,
+      "group_id": 110,
+      "group_type": "matching",
+      "existing": "J",
+      "answer": "G",
+      "status": "correct",
+      "reason": "定位 G 段。文章估计堵车每年给美国经济带来1210亿美元损失，解决幽灵堵车可节省其中至少一部分，对应 save America billions of dollars every year，故选 G。",
+      "new_explanation": "【答案】G。\n【解析】定位 G 段。文章估计堵车每年给美国经济带来1210亿美元损失，解决幽灵堵车可节省其中至少一部分，对应 save America billions of dollars every year，故选 G。",
+      "question_identity": {
+        "local_content_sha256": "7fae1c8434702a8a3a64b5b17254b05ce2de4d9a4a99b6a36136b5aa111eb97d",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "$121 billion",
+        "found": true,
+        "quote": "om jams could save at least some of the estimated $121 billion per year that traffic jams are estimated to cost the U.S. economy, Horn told Live Science. H) New research by Horn and MIT postdoctoral associate L"
+      },
+      "reference_conflict": {
+        "id": 545,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 43,
+        "existing": "J",
+        "answer": "G",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "3f7ffab1fb0b4ec7a2f91ec4ad98814db848d31ce72d63500c69b613acbbfdda"
+    },
+    {
+      "id": 546,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 44,
+      "group_id": 110,
+      "group_type": "matching",
+      "existing": "B",
+      "answer": "D",
+      "status": "correct",
+      "reason": "定位 D 段。原文说减速动作像波浪一样沿同车道向后传播，且传播越远越严重，正对应 one after another 和 wave-like effect，故选 D。",
+      "new_explanation": "【答案】D。\n【解析】定位 D 段。原文说减速动作像波浪一样沿同车道向后传播，且传播越远越严重，正对应 one after another 和 wave-like effect，故选 D。",
+      "question_identity": {
+        "local_content_sha256": "77e9abbb739117d00ae31781a4b84f6303cec4a055fbc441a386ae2e04f8b000",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "the slowing action spreads backward",
+        "found": true,
+        "quote": "the car behind that vehicle to slow even more—and the slowing action spreads backward through the lane of traffic like a wave, getting worse the farther it spreads. Eventually, the cars far behind are forced to"
+      },
+      "reference_conflict": {
+        "id": 546,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 44,
+        "existing": "B",
+        "answer": "D",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "b7a9a8031962e1a31857c5394a5f8aa1a3bb45daa695b1436de419af26589058"
+    },
+    {
+      "id": 547,
+      "source": "2025-06-CET4-3.pdf",
+      "number": 45,
+      "group_id": 110,
+      "group_type": "matching",
+      "existing": "G",
+      "answer": "L",
+      "status": "correct",
+      "reason": "定位 L 段。Horn 发现鱼群、鸟群和蝙蝠在密集移动时采用类似间距策略以避免相撞，与题干 certain creatures 和 similar strategies 对应，故选 L。",
+      "new_explanation": "【答案】L。\n【解析】定位 L 段。Horn 发现鱼群、鸟群和蝙蝠在密集移动时采用类似间距策略以避免相撞，与题干 certain creatures 和 similar strategies 对应，故选 L。",
+      "question_identity": {
+        "local_content_sha256": "79f042c234bd684ecfd320be80a7673ba86399653afc172558449957002a70ee",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "schools of fish and flocks of birds and bats",
+        "found": true,
+        "quote": "ch on phantom traffic jams, Horn has learned that schools of fish and flocks of birds and bats use similar spacing strategies to avoid hitting each other while swimming or flying in densely packed groups. In pa"
+      },
+      "reference_conflict": {
+        "id": 547,
+        "source": "2025-06-CET4-3.pdf",
+        "number": 45,
+        "existing": "G",
+        "answer": "L",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-06-3/",
+          "sha256": "5d331925caf31c3fbf72485c044f833cc40d945544de3f8fbcbb29ca10f30211"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "fb3e3dad9503e140a30edc7d437d89d04f26078ccdff4a2486f129352420c679"
+    },
+    {
+      "id": 650,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 19,
+      "group_id": 133,
+      "group_type": "listening",
+      "existing": "A",
+      "answer": "D",
+      "status": "correct",
+      "reason": "听力问对 Branyas Morera 了解到什么。原文说她当时115岁零320天，活得比任何其他在世者都久，对应 D 项世界最长寿者。会弹琴不等于她是世界知名钢琴家，故不选 A，答案为 D。",
+      "new_explanation": "【答案】D。\n【解析】听力问对 Branyas Morera 了解到什么。原文说她当时115岁零320天，活得比任何其他在世者都久，对应 D 项世界最长寿者。会弹琴不等于她是世界知名钢琴家，故不选 A，答案为 D。",
+      "question_identity": {
+        "local_content_sha256": "4d5f5f0cb4463091dedaf73a076ad9e3ddfc4d8a02207a7c89024e315247f563",
+        "local_options": {
+          "A": "She is one of the world's best-known pianists.",
+          "B": "She celebrated her 110th birthday this April.",
+          "C": "She moved to the U.S.at a young age.",
+          "D": "She is the world's oldest individual."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "longer than any other living individual",
+        "found": true,
+        "quote": "ars and 320 days old. That means she's been alive\nlonger than any other living individual. Branyas was born in the United States on April 4, 1907, but her family moved\nto Spain, where they were originally from "
+      },
+      "reference_conflict": {
+        "id": 650,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 19,
+        "existing": "A",
+        "answer": "D",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-12-2/",
+          "sha256": "16cf741c3ff917bc2f3c1b1eda24f578a6a2a38c91d56826872e853000813f3c"
+        }
+      },
+      "ocr_conflict": {
+        "id": 650,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 19,
+        "existing": "A",
+        "answer": "D",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "10e356bd9085e34e64ef58cda9bc156eddca480d06d3e28729698b1f92412fec"
+    },
+    {
+      "id": 651,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 20,
+      "group_id": 133,
+      "group_type": "listening",
+      "existing": "D",
+      "answer": "C",
+      "status": "correct",
+      "reason": "听力问她的长寿秘诀之一。原文明确列出从年轻时就弹钢琴，对应 C 项。随后还说她从未遵循特定饮食计划，直接排除 D，故选 C。",
+      "new_explanation": "【答案】C。\n【解析】听力问她的长寿秘诀之一。原文明确列出从年轻时就弹钢琴，对应 C 项。随后还说她从未遵循特定饮食计划，直接排除 D，故选 C。",
+      "question_identity": {
+        "local_content_sha256": "ebfa8de97a22c4c2401a4c8f1ac8c04f2852bfd31de3905e5cc619228924c123",
+        "local_options": {
+          "A": "Being always active on social media.",
+          "B": "Doing regular and vigorous exercise.",
+          "C": "Playing the piano from a young age.",
+          "D": "Following a specific diet every day."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "playing the piano from a young age",
+        "found": true,
+        "quote": "e of her secrets to living so\nlong. These include playing the piano from a young age. Unfortunately, she had to give up the practice seven years ago\nat 108. Her other secrets for living a long life? She led an "
+      },
+      "reference_conflict": {
+        "id": 651,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 20,
+        "existing": "D",
+        "answer": "C",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-12-2/",
+          "sha256": "16cf741c3ff917bc2f3c1b1eda24f578a6a2a38c91d56826872e853000813f3c"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "6e401ceae44ace917b9a2e1ba52c8761c3d6a83dcfddc89b97a4aa5fa4327231"
+    },
+    {
+      "id": 653,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 22,
+      "group_id": 134,
+      "group_type": "listening",
+      "existing": "C",
+      "answer": "D",
+      "status": "correct",
+      "reason": "听力开头强调在教室坐哪里非常重要，随后列举座位对学习、教师印象及成绩的影响，因此 D 项座位位置才是被强调的事项。C 项只是座位会影响的一个方面，故选 D。",
+      "new_explanation": "【答案】D。\n【解析】听力开头强调在教室坐哪里非常重要，随后列举座位对学习、教师印象及成绩的影响，因此 D 项座位位置才是被强调的事项。C 项只是座位会影响的一个方面，故选 D。",
+      "question_identity": {
+        "local_content_sha256": "fae2e590a484ecdef8b32a9a9c35e6ff4b20b2a961a73f3ff589d9fbead8eb1e",
+        "local_options": {
+          "A": "The ability to learn.",
+          "B": "The first day of school.",
+          "C": "How teachers perceive them.",
+          "D": "Where they sit in the classroom."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "It does matter where you sit in your classroom",
+        "found": true,
+        "quote": "room. Where do you sit? Does it\nmatter? Yes! [22] It does matter where you sit in your classroom, so choose and choose carefully! Studies report that\nwhere you sit in the classroom can impact your ability to le"
+      },
+      "reference_conflict": {
+        "id": 653,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 22,
+        "existing": "C",
+        "answer": "D",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-12-2/",
+          "sha256": "16cf741c3ff917bc2f3c1b1eda24f578a6a2a38c91d56826872e853000813f3c"
+        }
+      },
+      "ocr_conflict": {
+        "id": 653,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 22,
+        "existing": "C",
+        "answer": "D",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "2656fdf93b594d79b4d1dc20a34676e0d578fb5b13764adf28c4f0b85cd91b39"
+    },
+    {
+      "id": 654,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 23,
+      "group_id": 134,
+      "group_type": "listening",
+      "existing": "B",
+      "answer": "D",
+      "status": "correct",
+      "reason": "原文说坐在教室中间的学生也比后面的学生得分高，对应 D 项。原文没有说中间位置学生的平均成绩在全班最高，B 项扩大了比较范围，故选 D。",
+      "new_explanation": "【答案】D。\n【解析】原文说坐在教室中间的学生也比后面的学生得分高，对应 D 项。原文没有说中间位置学生的平均成绩在全班最高，B 项扩大了比较范围，故选 D。",
+      "question_identity": {
+        "local_content_sha256": "1a197b103e5f4a2bd0bb2db59735cada7c69466f0b193c7081f9d91c4d171323",
+        "local_options": {
+          "A": "They often received close attention from the instructors.",
+          "B": "They obtained the highest grade average in their class.",
+          "C": "They actually wanted a clear vision ofthe blackboard.",
+          "D": "They scored higher than students sitting behind them."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "Students sitting in the middle of the classroom also outscored",
+        "found": true,
+        "quote": "towards the back of the\nclassroom. Get this! [23] Students sitting in the middle of the classroom also outscored students sitting behind them.\nThis study gathered that students had a clearer vision of the black"
+      },
+      "reference_conflict": {
+        "id": 654,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 23,
+        "existing": "B",
+        "answer": "D",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-12-2/",
+          "sha256": "16cf741c3ff917bc2f3c1b1eda24f578a6a2a38c91d56826872e853000813f3c"
+        }
+      },
+      "ocr_conflict": {
+        "id": 654,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 23,
+        "existing": "B",
+        "answer": "D",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "2e66d476e87f7be0a41afad44051b89c7916f4411b813dcff4d1d7c88bff9c3e"
+    },
+    {
+      "id": 655,
+      "source": "2025-12-CET4-2.pdf",
+      "number": 24,
+      "group_id": 134,
+      "group_type": "listening",
+      "existing": "C",
+      "answer": "B",
+      "status": "correct",
+      "reason": "原文说教师与前排学生建立更好的联系，可能原因是眼神接触、显眼的位置和更多互动，因此题干问这些因素会带来什么，应选 B 项师生联系更好。C 项学生中心教学支持未被提及，故选 B。",
+      "new_explanation": "【答案】B。\n【解析】原文说教师与前排学生建立更好的联系，可能原因是眼神接触、显眼的位置和更多互动，因此题干问这些因素会带来什么，应选 B 项师生联系更好。C 项学生中心教学支持未被提及，故选 B。",
+      "question_identity": {
+        "local_content_sha256": "398584da9f5f13424f1964832fc74ed63230af91c8fb1f33fdfe480ad1098d30",
+        "local_options": {
+          "A": "Ahigher grade average among all students of a class.",
+          "B": "A better connection between instructors and students.",
+          "C": "A stronger support for a student-centered teaching approach.",
+          "D": "A more favorable atmosphere for effective classroom learning."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "formed a better connection with the students",
+        "found": true,
+        "quote": "ter too. [24] The instructors said that they also\nformed a better connection with the students who sat in front. Perhaps the connection is made because of eye contact\n26四级2025.12（地二套】\nand visibility and more in"
+      },
+      "reference_conflict": {
+        "id": 655,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 24,
+        "existing": "C",
+        "answer": "B",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2025-12-2/",
+          "sha256": "16cf741c3ff917bc2f3c1b1eda24f578a6a2a38c91d56826872e853000813f3c"
+        }
+      },
+      "ocr_conflict": {
+        "id": 655,
+        "source": "2025-12-CET4-2.pdf",
+        "number": 24,
+        "existing": "C",
+        "answer": "B",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "6cb1cea443b9e59444ac17a2aae427234e1b6e6973575c88dd40f7ae5f1ee096"
+    },
+    {
+      "id": 1028,
+      "source": "2022-06-CET4-1.pdf",
+      "number": 43,
+      "group_id": 203,
+      "group_type": "matching",
+      "existing": "D",
+      "answer": "I",
+      "status": "correct",
+      "reason": "定位 I 段第二句。作者提醒求职者对网站评论持保留态度，因为不少评论来自愤愤不平的员工。read with a critical eye 是 take ... with a grain of salt 的同义改写，故选 I。",
+      "new_explanation": "【答案】I。\n【解析】定位 I 段第二句。作者提醒求职者对网站评论持保留态度，因为不少评论来自愤愤不平的员工。read with a critical eye 是 take ... with a grain of salt 的同义改写，故选 I。",
+      "question_identity": {
+        "local_content_sha256": "ebdcf9f3bb6d8e37e7051a80b3976c45de31c468e0862bf47deb2ed2dec26896",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "take the reviews you read with a grain of salt",
+        "found": true,
+        "quote": " can expect about a company. However, remember to take the reviews you read with a grain of salt-many of them are written by scorned (被鄙视的)employees. J) Finally, you can never fail with personal connections. Se"
+      },
+      "reference_conflict": {
+        "id": 1028,
+        "source": "2022-06-CET4-1.pdf",
+        "number": 43,
+        "existing": "D",
+        "answer": "I",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-06-1/",
+          "sha256": "0f3302286113acb88095170af3d408a0c35894b461a30e649bc5c14c318f2006"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "ded797b490e61a4eb8bfdb3b7dc4f7046db3d2737178bb6ee7acc9ec120f8425"
+    },
+    {
+      "id": 1094,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 54,
+      "group_id": 217,
+      "group_type": "reading",
+      "existing": "B",
+      "answer": "C",
+      "status": "correct",
+      "reason": "定位讨论情商负面作用的段落末句。原文明确说若干研究表明，情商可被用于操纵他人以谋求个人利益，正对应 C 项。B 项谈悲观看待生活者容易抑郁，不是此处若干研究的结论，故选 C。",
+      "new_explanation": "【答案】C。\n【解析】定位讨论情商负面作用的段落末句。原文明确说若干研究表明，情商可被用于操纵他人以谋求个人利益，正对应 C 项。B 项谈悲观看待生活者容易抑郁，不是此处若干研究的结论，故选 C。",
+      "question_identity": {
+        "local_content_sha256": "151b5e6ac1c443e0e6cceab50de30bb8a44247fd1bc91a22489b4fc3c5aee756",
+        "local_options": {
+          "A": "People suffering from depression are emotionally immature.",
+          "B": "People who look at the dark side of life often feel depressed.",
+          "C": "Some people may take advantage of it and benefit themselves.",
+          "D": "Some people may lack it and are easily manipulated by others."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "emotional intelligence can be used to maninulate others for personal gains",
+        "found": true,
+        "quote": "s. Furthermore, several studies have implied that emotional intelligence can be used to maninulate others for personal gains. More research is needed to see how exactly the relation between emotional intelligen"
+      },
+      "reference_conflict": {
+        "id": 1094,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 54,
+        "existing": "B",
+        "answer": "C",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-12-1/",
+          "sha256": "522e712ea2352300c7296cca76c505df7bb8e075738be817f6316b929f626327"
+        }
+      },
+      "ocr_conflict": {
+        "id": 1094,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 54,
+        "existing": "B",
+        "answer": "C",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "449f6f39e7a72b04e7aa7d7d296de9a3cb388e8b41987f33249f2ccacc18820d"
+    },
+    {
+      "id": 1096,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 26,
+      "group_id": 218,
+      "group_type": "cloze",
+      "existing": "C",
+      "answer": "L",
+      "status": "correct",
+      "reason": "第26空作 follow-up periods 的后置定语，并与 from three to 21 years 搭配，表达“范围从3年至21年的随访期”。L 项 ranging 与 from ... to ... 构成固定搭配。C 项 connected 不表达范围，故选 L。",
+      "new_explanation": "【答案】L。\n【解析】第26空作 follow-up periods 的后置定语，并与 from three to 21 years 搭配，表达“范围从3年至21年的随访期”。L 项 ranging 与 from ... to ... 构成固定搭配。C 项 connected 不表达范围，故选 L。",
+      "question_identity": {
+        "local_content_sha256": "85e96969462f106f87c9fcf17fb9d121ad4399e176dee5dae487f9c523afa042",
+        "local_options": {
+          "A": "acknowledge",
+          "B": "certificates",
+          "C": "connected",
+          "D": "demonstrates",
+          "E": "differences",
+          "F": "establish",
+          "G": "formats",
+          "H": "measured",
+          "I": "narrow",
+          "J": "permanent",
+          "K": "produces",
+          "L": "ranging",
+          "M": "relative",
+          "N": "submitting",
+          "O": "targeting"
+        },
+        "same_label_reference_score": 0.94,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "in follow-up periods26from three to 21 years",
+        "found": true,
+        "quote": "here were 4,628 coronary events and 3,002 strokes in follow-up periods26from three to 21 years.Three of the papers27 loneliness, 18 looked at social isolation and two included both.Social isolation and loneline"
+      },
+      "reference_conflict": {
+        "id": 1096,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 26,
+        "existing": "C",
+        "answer": "L",
+        "identity_score": 0.94,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-12-1/",
+          "sha256": "522e712ea2352300c7296cca76c505df7bb8e075738be817f6316b929f626327"
+        }
+      },
+      "ocr_conflict": {
+        "id": 1096,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 26,
+        "existing": "C",
+        "answer": "L",
+        "basis": "bank_word"
+      },
+      "old_explanation_sha256": "28a74c47cb5059f8dd4e0f04b3b4cecf3f0d81e3a4a7248f6fa4c940bd4e686a"
+    },
+    {
+      "id": 1106,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 36,
+      "group_id": 219,
+      "group_type": "matching",
+      "existing": "E",
+      "answer": "I",
+      "status": "correct",
+      "reason": "定位本篇 H 与 J 之间的 I 段。原文明确说即使学费上涨，资助数额仍保持不变，随后以学费上涨3%而资助不变举例；与题干完整对应，故选 I。当前正文把该段段首 I) 误识成 D，旧解析又混淆 I/D；E 段仅谈网上隐藏费用文章的目标群体，与本题无关。",
+      "new_explanation": "【答案】I。\n【解析】定位本篇 H 与 J 之间的 I 段。原文明确说即使学费上涨，资助数额仍保持不变，随后以学费上涨3%而资助不变举例；与题干完整对应，故选 I。当前正文把该段段首 I) 误识成 D，旧解析又混淆 I/D；E 段仅谈网上隐藏费用文章的目标群体，与本题无关。",
+      "question_identity": {
+        "local_content_sha256": "c5d816cca203b42fe066bd394d21b6abc21f9c61bf03244cd9d75030473f9452",
+        "local_options": {},
+        "same_label_reference_score": null,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "even if tuition rises, my financial aid package will stay the same",
+        "found": true,
+        "quote": "o askand the school did not readily point outthat even if tuition rises, my financial aid package will stay the same. So when my university voted to raise tuition costs 3% at the end of my freshman year, my fin"
+      },
+      "reference_conflict": null,
+      "ocr_conflict": {
+        "id": 1106,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 36,
+        "existing": "E",
+        "answer": "I",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "b9be5a233cc7c0ef52456f7cdc3f0b6d988825877adfdb66796d6988c8268102",
+      "reference_evidence": {
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-12-1/",
+          "sha256": "522e712ea2352300c7296cca76c505df7bb8e075738be817f6316b929f626327"
+        },
+        "answer": "I",
+        "paragraph_label": "I",
+        "quote": "ask—and the school did not readily point out—that even if tuition rises, my financial aid package will stay the same. So when my university voted to raise tuition costs 3% at the end of my freshman year, my fin"
+      },
+      "passage_repair_required": {
+        "old_marker": "D There is another depressing reality",
+        "new_marker": "I) There is another depressing reality",
+        "note": "Correct paragraph marker as well, so learners can locate I."
+      },
+      "group_passage_repair": {
+        "group_id": 219,
+        "source_file": "2022-12-CET4-1.pdf",
+        "field": "passage",
+        "old": "D There is another depressing reality",
+        "new": "I) There is another depressing reality",
+        "expected_occurrences": 1
+      },
+      "original_pdf_visual_evidence": {
+        "path": "D:/lxx/cet-4-6/data/2022-12-CET4-1.pdf",
+        "page_number": 5,
+        "rendered_page": "D:/lxx/cet-4-6/.cache/2022-12-CET4-1-page-5.png",
+        "verified": true,
+        "observation": "The original page visibly labels this paragraph I). The same paragraph explicitly states that the financial aid package stays the same even if tuition rises. E) discusses online hidden-cost articles aimed at upper- and middle-class families."
+      }
+    },
+    {
+      "id": 1124,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 9,
+      "group_id": 223,
+      "group_type": "listening",
+      "existing": "D",
+      "answer": "D",
+      "status": "retain_confirmed",
+      "reason": "原文说健身中心为现有会员的两门新课提供折扣，直接对应 D。OCR 把下一题 Q10 的 B 解析并入 Q9，造成假冲突，保留 D。",
+      "new_explanation": "【答案】D。\n【解析】原文说健身中心为现有会员的两门新课提供折扣，直接对应 D。OCR 把下一题 Q10 的 B 解析并入 Q9，造成假冲突，保留 D。",
+      "question_identity": {
+        "local_content_sha256": "45443b937f9c648b18b58c05e8dc3ec4cbf809b18f0f7e2f6b1f7023f5ee44f2",
+        "local_options": {
+          "A": "Considering the promotion of its regular classes.",
+          "B": "Taking measures to expand its exercise programs.",
+          "C": "Recruiting coaches for hot yoga and advanced spinning.",
+          "D": "Offering existing members a discount off two new classes."
+        },
+        "same_label_reference_score": null,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "offering existing members discounts off two of our brand new classes",
+        "found": true,
+        "quote": "nd you signed up two months ago. Currently we are offering existing members discounts off two of our brand new classes, hot yoga, and advanced spinning, but the discount doesn't apply to any of our regular clas"
+      },
+      "reference_conflict": null,
+      "ocr_conflict": {
+        "id": 1124,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 9,
+        "existing": "D",
+        "answer": "B",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "39a233ced27f5a3b3f70bbd2a470fcef11adb3d9cb39ba960b79234ec3edca09"
+    },
+    {
+      "id": 1126,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 11,
+      "group_id": 223,
+      "group_type": "listening",
+      "existing": "D",
+      "answer": "A",
+      "status": "correct",
+      "reason": "问句问女士为何不愿提前付款。她明确说不喜欢在电话里提供银行卡信息，对应 A 项。把费用加到月账单上是随后提出的处理方式，不是她拒绝提前付款时给出的理由，故选 A。",
+      "new_explanation": "【答案】A。\n【解析】问句问女士为何不愿提前付款。她明确说不喜欢在电话里提供银行卡信息，对应 A 项。把费用加到月账单上是随后提出的处理方式，不是她拒绝提前付款时给出的理由，故选 A。",
+      "question_identity": {
+        "local_content_sha256": "468c39c2471166cacd8967171b9ddc95fd9fc7e64c8185d4b36f69bac0704508",
+        "local_options": {
+          "A": "She doesn't want to reveal her card details over the phone.",
+          "B": "She doesn't think it wise to pay before attending any class.",
+          "C": "She might have to cancel her registration any minute.",
+          "D": "She prefers to have the fee added to her monthly bill."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "I don't like giving my card details over the phone",
+        "found": true,
+        "quote": " Sure. Would you prefer to pay in advance?\nW: No, I don't like giving my card details over the phone anyway.\nM: Okay, then. As you are already a member, the fee of the class will just be added to your monthly b"
+      },
+      "reference_conflict": {
+        "id": 1126,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 11,
+        "existing": "D",
+        "answer": "A",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-12-1/",
+          "sha256": "522e712ea2352300c7296cca76c505df7bb8e075738be817f6316b929f626327"
+        }
+      },
+      "ocr_conflict": {
+        "id": 1126,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 11,
+        "existing": "D",
+        "answer": "A",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "1ab608758444727aae18fc5ec0b7f28ddc674c885ceee7535a93e1132abe1716"
+    },
+    {
+      "id": 1134,
+      "source": "2022-12-CET4-1.pdf",
+      "number": 19,
+      "group_id": 226,
+      "group_type": "listening",
+      "existing": "C",
+      "answer": "B",
+      "status": "correct",
+      "reason": "问句问短文如何描述炎热阳光。开头指出阳光和高温会使身体产生一些奇怪反应，随后举出口气变化和中暑等例子，直接对应 B 项 strange physical reactions，故选 B。",
+      "new_explanation": "【答案】B。\n【解析】问句问短文如何描述炎热阳光。开头指出阳光和高温会使身体产生一些奇怪反应，随后举出口气变化和中暑等例子，直接对应 B 项 strange physical reactions，故选 B。",
+      "question_identity": {
+        "local_content_sha256": "4d5f5f0cb4463091dedaf73a076ad9e3ddfc4d8a02207a7c89024e315247f563",
+        "local_options": {
+          "A": "It creates a wonderful setting for dating.",
+          "B": "It may cause strange physical reactions.",
+          "C": "It turns parks into picnic sites.",
+          "D": "It may result in a crowded beach."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "they can make your body react in some strange ways",
+        "found": true,
+        "quote": " mean picnics and parks and trips to beaches, but they can make your body react in some strange ways.\nFirst, sunshine can actually affect your breath. You may think that summer is the perfect time to go on a da"
+      },
+      "reference_conflict": {
+        "id": 1134,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 19,
+        "existing": "C",
+        "answer": "B",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-12-1/",
+          "sha256": "522e712ea2352300c7296cca76c505df7bb8e075738be817f6316b929f626327"
+        }
+      },
+      "ocr_conflict": {
+        "id": 1134,
+        "source": "2022-12-CET4-1.pdf",
+        "number": 19,
+        "existing": "C",
+        "answer": "B",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "5ecd12ebe916998540b6593f76a9f5a13b27bb02797f1feb9d935f7ebaa194cf"
+    },
+    {
+      "id": 1243,
+      "source": "2023-06-CET4-1.pdf",
+      "number": 33,
+      "group_id": 246,
+      "group_type": "cloze",
+      "existing": "I",
+      "answer": "I",
+      "status": "retain_confirmed",
+      "reason": "by 与40%之间需副词 nearly，且本卷 I 项就是 nearly。OCR 的 D 与 I 混淆，D 项 conscience 是名词，不合语法，保留 I。",
+      "new_explanation": "【答案】I。\n【解析】by 与40%之间需副词 nearly，且本卷 I 项就是 nearly。OCR 的 D 与 I 混淆，D 项 conscience 是名词，不合语法，保留 I。",
+      "question_identity": {
+        "local_content_sha256": "d6964468144184be05235d5f1c3f6c3a610197d676d0d713730491496de52055",
+        "local_options": {
+          "A": "abstracts",
+          "B": "abundant",
+          "C": "awareness",
+          "D": "conscience",
+          "E": "exact",
+          "F": "increasingly",
+          "G": "intense",
+          "H": "mend",
+          "I": "nearly",
+          "J": "reckoning",
+          "K": "reducing",
+          "L": "sew",
+          "M": "shrink",
+          "N": "statistics",
+          "O": "textile"
+        },
+        "same_label_reference_score": null,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "by ___33___ 40 percent",
+        "found": true,
+        "quote": " water usage in cotton production can be cut down by ___33___ 40 percent. Called \"Better Cotton\", this environmentally conscious product will save millions of liters of water a year simply from ___34___ the dem"
+      },
+      "reference_conflict": null,
+      "ocr_conflict": {
+        "id": 1243,
+        "source": "2023-06-CET4-1.pdf",
+        "number": 33,
+        "existing": "I",
+        "answer": "D",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "f73b3174a59f5a61138676abc83ef1cf0ef82bb7e494f93b7c8a2427ff3b5c51"
+    },
+    {
+      "id": 1245,
+      "source": "2023-06-CET4-1.pdf",
+      "number": 35,
+      "group_id": 246,
+      "group_type": "cloze",
+      "existing": "K",
+      "answer": "M",
+      "status": "correct",
+      "reason": "第35空为 as 从句的谓语，主语 water supplies 为复数。全文讨论棉花生产消耗淡水，结尾说随着水供应减少，农民和消费者需更加关注环境影响，M 项 shrink（减少）符合。K 项 reducing 是非谓语形式，不能独立作此从句谓语，故选 M。",
+      "new_explanation": "【答案】M。\n【解析】第35空为 as 从句的谓语，主语 water supplies 为复数。全文讨论棉花生产消耗淡水，结尾说随着水供应减少，农民和消费者需更加关注环境影响，M 项 shrink（减少）符合。K 项 reducing 是非谓语形式，不能独立作此从句谓语，故选 M。",
+      "question_identity": {
+        "local_content_sha256": "fa2bafce484a03e0ec1779b377056198e1eb19d6e6e480a7cd1831cdccf91c55",
+        "local_options": {
+          "A": "abstracts",
+          "B": "abundant",
+          "C": "awareness",
+          "D": "conscience",
+          "E": "exact",
+          "F": "increasingly",
+          "G": "intense",
+          "H": "mend",
+          "I": "nearly",
+          "J": "reckoning",
+          "K": "reducing",
+          "L": "sew",
+          "M": "shrink",
+          "N": "statistics",
+          "O": "textile"
+        },
+        "same_label_reference_score": 0.94,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "as water supplies ___35___",
+        "found": true,
+        "quote": "most useful cash crops across the globe. However, as water supplies ___35___, farmers and consumers need to be more conscious of the effect that these products have on the environment as a whole."
+      },
+      "reference_conflict": {
+        "id": 1245,
+        "source": "2023-06-CET4-1.pdf",
+        "number": 35,
+        "existing": "K",
+        "answer": "M",
+        "identity_score": 0.94,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2023-06-1/",
+          "sha256": "b9a4fd8d67c5d3f83e601d54c4f4f8a09cccf47bbf1557a51c8f0038d093c627"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "bba713d027387dc148468aa610a5df5ed35095db9c985b918207047b586b7084"
+    },
+    {
+      "id": 1295,
+      "source": "2023-06-CET4-2.pdf",
+      "number": 40,
+      "group_id": 258,
+      "group_type": "matching",
+      "existing": "M",
+      "answer": "M",
+      "status": "retain_confirmed",
+      "reason": "M 段末句说 Carey 认为自己的敬畏感可以传达给观众，对应题干 share his feeling，保留 M。OCR 串入下一题 Q41 的 J 答案，不能据此更改。",
+      "new_explanation": "【答案】M。\n【解析】M 段末句说 Carey 认为自己的敬畏感可以传达给观众，对应题干 share his feeling，保留 M。OCR 串入下一题 Q41 的 J 答案，不能据此更改。",
+      "question_identity": {
+        "local_content_sha256": "b6fb8ab9f0aabf42e1b5fa4ef623402ca726f18d865c4eb52b7b5a79b7f4ae9e",
+        "local_options": {},
+        "same_label_reference_score": null,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "that feeling can be translated to the viewer",
+        "found": true,
+        "quote": "ou can't help but be awed,\" he said, \"and I think that feeling can be translated to the viewer.\" N) He added: \"The broader sport is a little too inward-looking, and we need to be more open. In some ways, I'm gl"
+      },
+      "reference_conflict": null,
+      "ocr_conflict": {
+        "id": 1295,
+        "source": "2023-06-CET4-2.pdf",
+        "number": 40,
+        "existing": "M",
+        "answer": "J",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "722fd9dc4f06cb985aabde47ac3fafe1330918b9d95ee8020a58ee9cc234e63e"
+    },
+    {
+      "id": 1350,
+      "source": "2023-06-CET4-3.pdf",
+      "number": 40,
+      "group_id": 270,
+      "group_type": "matching",
+      "existing": "B",
+      "answer": "B",
+      "status": "retain_confirmed",
+      "reason": "B 段明确说青少年约占舞狮团一半，对应题干50%，保留 B。OCR 把下一题 Q41 讨论文化自豪感的 L 段解析并入，属于串题假冲突。",
+      "new_explanation": "【答案】B。\n【解析】B 段明确说青少年约占舞狮团一半，对应题干50%，保留 B。OCR 把下一题 Q41 讨论文化自豪感的 L 段解析并入，属于串题假冲突。",
+      "question_identity": {
+        "local_content_sha256": "8d6918e487efc05f2c2fc0392edb4f6557abf907f3be0c8fb1c7212e54f45d75",
+        "local_options": {},
+        "same_label_reference_score": null,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "Teenagers comprise about half of the group",
+        "found": true,
+        "quote": "ll begin on Saturday and conclude on February 15. Teenagers comprise about half of the group, many of whom began lion dancing at the age of 14. About 100 current and past members of the dance group—which has be"
+      },
+      "reference_conflict": null,
+      "ocr_conflict": {
+        "id": 1350,
+        "source": "2023-06-CET4-3.pdf",
+        "number": 40,
+        "existing": "B",
+        "answer": "L",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "fb376b1e520204f2bfa36855f0b9ecbfed5171c1db6bfe0b25c6f93a93dd9aff"
+    },
+    {
+      "id": 1359,
+      "source": "2023-06-CET4-1.pdf",
+      "number": 39,
+      "group_id": 271,
+      "group_type": "matching",
+      "existing": "J",
+      "answer": "D",
+      "status": "correct",
+      "reason": "定位 D 段前几句。该段提出非洲不识字农民无法阅读网上内容，经常被排除在网络关键信息之外；题干 unable to read 和 don’t have access 分别对应 illiterate 和 denied，故选 D。",
+      "new_explanation": "【答案】D。\n【解析】定位 D 段前几句。该段提出非洲不识字农民无法阅读网上内容，经常被排除在网络关键信息之外；题干 unable to read 和 don’t have access 分别对应 illiterate 和 denied，故选 D。",
+      "question_identity": {
+        "local_content_sha256": "db47268f0efb134b90347203135ac9039eef8c303548f2634ff2ced6b7e6539f",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "They are often denied crucial information the web offers many others",
+        "found": true,
+        "quote": "tuation facing illiterate (不识字的) African farmers. They are often denied crucial information the web offers many others. With a literacy rate in some parts of Africa at only 22.6%, farmers are often \"underpaid f"
+      },
+      "reference_conflict": {
+        "id": 1359,
+        "source": "2023-06-CET4-1.pdf",
+        "number": 39,
+        "existing": "J",
+        "answer": "D",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2023-06-1/",
+          "sha256": "b9a4fd8d67c5d3f83e601d54c4f4f8a09cccf47bbf1557a51c8f0038d093c627"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "30a7bacee70ab6c619998350368c6edf5a4410b047f3177a7b6c49b9b6f938a5"
+    },
+    {
+      "id": 1422,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 48,
+      "group_id": 284,
+      "group_type": "reading",
+      "existing": "B",
+      "answer": "C",
+      "status": "correct",
+      "reason": "定位到列举主要障碍的段落。原文说约四成受访者认为女性晋升时面对双重标准，必须比男性做得更多才能证明自己；这对应本题 C 项 Gender bias（性别偏见）。家庭责任仅约五分之一的人提到，并非主要因素。旧解析把“性别歧视”误记为 B，但本卷 B 实为家庭责任，应按本卷选项选 C。",
+      "new_explanation": "【答案】C。\n【解析】定位到列举主要障碍的段落。原文说约四成受访者认为女性晋升时面对双重标准，必须比男性做得更多才能证明自己；这对应本题 C 项 Gender bias（性别偏见）。家庭责任仅约五分之一的人提到，并非主要因素。旧解析把“性别歧视”误记为 B，但本卷 B 实为家庭责任，应按本卷选项选 C。",
+      "question_identity": {
+        "local_content_sha256": "eb0eaf81fabd162ef3a303ce8ddfcae789daa7e997c4d5ae6027b2582b4e02cf",
+        "local_options": {
+          "A": "Personality traits.",
+          "B": "Family responsibilities.",
+          "C": "Gender bias.",
+          "D": "Lack of vacancies."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "a double standard for women",
+        "found": true,
+        "quote": " of reasons, about four-in-ten Americans point to a double standard for women seeking to climb to the highest levels of either politics or business, where they have to do more than their male counterparts to pr"
+      },
+      "reference_conflict": {
+        "id": 1422,
+        "source": "2019-06-CET4-2.pdf",
+        "number": 48,
+        "existing": "B",
+        "answer": "C",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2019-06-2/",
+          "sha256": "3ab52d0f2e0360dcefd812e2bc5d1c8755aa044054de800f0a86f77cf75fe562"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "712f065dfc8cc9342c6702bc257b8081f2f4e79a4715c272e0df8a03d8c0e37e"
+    },
+    {
+      "id": 1446,
+      "source": "2019-06-CET4-2.pdf",
+      "number": 42,
+      "group_id": 287,
+      "group_type": "matching",
+      "existing": "D",
+      "answer": "I",
+      "status": "correct",
+      "reason": "定位 I 段末句。该句明确说，对女性而言，推迟结婚可以解释更多年轻女性继续住在父母家中的现象，对应题干 delayed marriage 和 live with their parents。D 段讨论整体居住比例变化，没有女性晚婚这一具体因果，故选 I。",
+      "new_explanation": "【答案】I。\n【解析】定位 I 段末句。该句明确说，对女性而言，推迟结婚可以解释更多年轻女性继续住在父母家中的现象，对应题干 delayed marriage 和 live with their parents。D 段讨论整体居住比例变化，没有女性晚婚这一具体因果，故选 I。",
+      "question_identity": {
+        "local_content_sha256": "19aa0b962abf54794d9bde5a2ef342eb287f7e46cc7de5c555573de970a18a58",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "For women, delayed marriage",
+        "found": true,
+        "quote": "to afford to live independently of their parents. For women, delayed marriage—which is related, in part, to labor market outcomes for men—may explain more of the increase in their living in the family home.\n\nJ)"
+      },
+      "reference_conflict": {
+        "id": 1446,
+        "source": "2019-06-CET4-2.pdf",
+        "number": 42,
+        "existing": "D",
+        "answer": "I",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2019-06-2/",
+          "sha256": "3ab52d0f2e0360dcefd812e2bc5d1c8755aa044054de800f0a86f77cf75fe562"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "de7cfbddf7c3a391c73e08877994f40d7bff4bc95f6d3b9746f1564264e202f8"
+    },
+    {
+      "id": 1504,
+      "source": "2019-06-CET4-3.pdf",
+      "number": 45,
+      "group_id": 299,
+      "group_type": "matching",
+      "existing": "D",
+      "answer": "I",
+      "status": "correct",
+      "reason": "定位 I 段。该段先指出学校里的某些制作活动使 making 变得无足轻重，继而说明学生做出的东西没有自身价值，演示完课本概念就丢弃。题干“制作无意义物品、未被认真对待”概括的正是此段，应选 I；旧解析末尾 D 是字母识别/录入错误。",
+      "new_explanation": "【答案】I。\n【解析】定位 I 段。该段先指出学校里的某些制作活动使 making 变得无足轻重，继而说明学生做出的东西没有自身价值，演示完课本概念就丢弃。题干“制作无意义物品、未被认真对待”概括的正是此段，应选 I；旧解析末尾 D 是字母识别/录入错误。",
+      "question_identity": {
+        "local_content_sha256": "d1efb6b9316769da0423094b6b4541b9ffee62e29c5a6c3a84aee9a68d2ef77a",
+        "local_options": {},
+        "same_label_reference_score": 0.9767441860465116,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "The thing that you make has no value to you",
+        "found": true,
+        "quote": " of making in school trivialize (使变得无足轻重) making. The thing that you make has no value to you. Once you are done demonstrating whatever concept was in the textbook, you throw away the pipe cleaners, the cardboa"
+      },
+      "reference_conflict": {
+        "id": 1504,
+        "source": "2019-06-CET4-3.pdf",
+        "number": 45,
+        "existing": "D",
+        "answer": "I",
+        "identity_score": 0.9767441860465116,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2019-06-3/",
+          "sha256": "31a6bff3e2202a9c51ffcaab0c4207e6c57b6edcac21221ea82f39b4d1b9e214"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "28b32d1f789552c99a7fc204d655344a0d25a910244902abec460e73d289c03c"
+    },
+    {
+      "id": 1876,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 30,
+      "group_id": 374,
+      "group_type": "cloze",
+      "existing": "D",
+      "answer": "I",
+      "status": "correct",
+      "reason": "第30空位于 that 引导的定语从句中，主语是单数 an interior，需填第三人称单数谓语。句意为设计一种能最大限度提高舒适度的内饰，I 项 maximizes 可与 comfort 搭配。D 项 drastically 是副词，不能作该从句谓语，故选 I。",
+      "new_explanation": "【答案】I。\n【解析】第30空位于 that 引导的定语从句中，主语是单数 an interior，需填第三人称单数谓语。句意为设计一种能最大限度提高舒适度的内饰，I 项 maximizes 可与 comfort 搭配。D 项 drastically 是副词，不能作该从句谓语，故选 I。",
+      "question_identity": {
+        "local_content_sha256": "342012fe46ca43fd4d3dc8a93ed52f21af2fa673a1833c15dbe17071b2789853",
+        "local_options": {
+          "A": "associated",
+          "B": "coincidence",
+          "C": "determined",
+          "D": "drastically",
+          "E": "enormous",
+          "F": "imitate",
+          "G": "indication",
+          "H": "integrate",
+          "I": "maximizes",
+          "J": "natural",
+          "K": "principal",
+          "L": "recognizable",
+          "M": "simply",
+          "N": "stressful",
+          "O": "symbolizes"
+        },
+        "same_label_reference_score": 0.94,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "comfort to create a pleasant environment",
+        "found": true,
+        "quote": "rimary concern is to deliver an interior that t30 comfort to create a pleasant environment.\" \"It's all about making the traveling experience less 31 and blue is said to induce a feeling of calm. While some of t"
+      },
+      "reference_conflict": {
+        "id": 1876,
+        "source": "2020-09-CET4-2.pdf",
+        "number": 30,
+        "existing": "D",
+        "answer": "I",
+        "identity_score": 0.94,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2020-09-2/",
+          "sha256": "ba899e8c217d9d28a445ae5419575075ad972d6bb9ea52a85239e741391ee0c5"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "a622400e2bfd8865e44bf9c825228b38e245d7c9dbe0df9fe598b92829fac7ee"
+    },
+    {
+      "id": 1884,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 38,
+      "group_id": 375,
+      "group_type": "matching",
+      "existing": "F",
+      "answer": "J",
+      "status": "correct",
+      "reason": "定位 J 段。该段介绍中学教师 Wilson Wong 在夏令营里通过修铁路模型等活动，让学生了解华裔对美国的贡献，直接对应题干的教师、学生和华裔贡献。F 段是课程人物构成统计，属于下一道题的信息，故本题选 J。",
+      "new_explanation": "【答案】J。\n【解析】定位 J 段。该段介绍中学教师 Wilson Wong 在夏令营里通过修铁路模型等活动，让学生了解华裔对美国的贡献，直接对应题干的教师、学生和华裔贡献。F 段是课程人物构成统计，属于下一道题的信息，故本题选 J。",
+      "question_identity": {
+        "local_content_sha256": "99e3518747a273e33526eb6e97df2543f4122f6dbcd111f5b7c01e8a20a1a0ad",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "Wong, a middle school teacher",
+        "found": true,
+        "quote": "to \"work\" longer and faster and at cheaper wages. Wong, a middle school teacher during the school year, hopes he's exposing the students to how Chinese Americans contributed to the U.S., something that he didn'"
+      },
+      "reference_conflict": {
+        "id": 1884,
+        "source": "2020-09-CET4-2.pdf",
+        "number": 38,
+        "existing": "F",
+        "answer": "J",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2020-09-2/",
+          "sha256": "ba899e8c217d9d28a445ae5419575075ad972d6bb9ea52a85239e741391ee0c5"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "58f1b9dcbdcb1300553cfdc12e41808d47cd0d245bb36cda984bd82705d4361e"
+    },
+    {
+      "id": 1891,
+      "source": "2020-09-CET4-2.pdf",
+      "number": 45,
+      "group_id": 375,
+      "group_type": "matching",
+      "existing": "D",
+      "answer": "I",
+      "status": "correct",
+      "reason": "定位 I 段第二句。亚裔研究教授强调，关键不在教师背景而在培训；题干把这一对比改写为更重视 teacher training，故选 I。D 段讨论多元文化课程对学生的益处，没有教授比较教师背景与培训的观点。",
+      "new_explanation": "【答案】I。\n【解析】定位 I 段第二句。亚裔研究教授强调，关键不在教师背景而在培训；题干把这一对比改写为更重视 teacher training，故选 I。D 段讨论多元文化课程对学生的益处，没有教授比较教师背景与培训的观点。",
+      "question_identity": {
+        "local_content_sha256": "c11914014f1345ef370f8d8096df9a48e57339c7931219e6159f70115edef4cc",
+        "local_options": {},
+        "same_label_reference_score": 0.96875,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "not so much about the teacher's background, but about training",
+        "found": true,
+        "quote": "n Francisco State University. She added that it's not so much about the teacher's background, but about training. \"You can have a great curriculum but if you don't have teachers dedicated(专注于) to teaching it we"
+      },
+      "reference_conflict": {
+        "id": 1891,
+        "source": "2020-09-CET4-2.pdf",
+        "number": 45,
+        "existing": "D",
+        "answer": "I",
+        "identity_score": 0.96875,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2020-09-2/",
+          "sha256": "ba899e8c217d9d28a445ae5419575075ad972d6bb9ea52a85239e741391ee0c5"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "4962a80852d0255bee5662ba4ce5731c7c6a005b05408b9533e37207c22fdc69"
+    },
+    {
+      "id": 1999,
+      "source": "2020-12-CET4-3.pdf",
+      "number": 48,
+      "group_id": 399,
+      "group_type": "reading",
+      "existing": "D",
+      "answer": "D",
+      "status": "retain_confirmed",
+      "reason": "本地答案解析明确选择 D，解释为从普通脚踏车向电动车的长期转变会改变人们日常生活。懒笔记给 B，但奇速英语原题讲解、过级鸭同题解析以及 ACL 2025 论文的该题示例 ground truth 均给 D。参考来源存在实质分歧，不能仅按懒笔记覆盖；本次维持有多源支持的 D，并记录冲突。",
+      "new_explanation": "【答案】D。\n【解析】本地答案解析明确选择 D，解释为从普通脚踏车向电动车的长期转变会改变人们日常生活。懒笔记给 B，但奇速英语原题讲解、过级鸭同题解析以及 ACL 2025 论文的该题示例 ground truth 均给 D。参考来源存在实质分歧，不能仅按懒笔记覆盖；本次维持有多源支持的 D，并记录冲突。",
+      "question_identity": {
+        "local_content_sha256": "2a5cdadf74a139b4d52af47aaf479b585b5b33e4b904af28eafcb2a107292dfb",
+        "local_options": {
+          "A": "More will be invested in bike battery research.",
+          "B": "The sales of ebikes will increase.",
+          "C": "It will profit from ebike sharing.",
+          "D": "It will make a difference in people's daily lives."
+        },
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "The system works like existing dockless bikeshare systems",
+        "found": true,
+        "quote": "rancisco Thursday. Rides cost $ 2 for 30 minutes. The system works like existing dockless bikeshare systems, where riders unlock bikes through a It's exciting and joyful in a way that you don't get from a regul"
+      },
+      "reference_conflict": {
+        "id": 1999,
+        "source": "2020-12-CET4-3.pdf",
+        "number": 48,
+        "existing": "D",
+        "answer": "B",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2020-12-3/",
+          "sha256": "f418b0af3a24ba21b2c5416b38793ae0bf44039251d308172b9a178d538661fe"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "655853046050860b650ea0ea836229b33b4c24d2a89fb0d24d9571c1488857bd",
+      "external_sources": [
+        {
+          "url": "https://www.qisuen.cn/app/teacher/reading/readingDetail?id=54832",
+          "verdict": "D",
+          "note": "Original teaching platform same stem and same four option texts, explanation for item3 gives D."
+        },
+        {
+          "url": "https://www.guojiya.cn/exam/cet4_2020_12_3/reading-passage-1",
+          "verdict": "D",
+          "note": "Same paper and Q48 explanation gives D."
+        },
+        {
+          "url": "https://aclanthology.org/2025.acl-long.1286.pdf",
+          "verdict": "D",
+          "note": "CET119 Question4 has reordered options but identical D meaning; example lists ground truth D."
+        }
+      ],
+      "limitation": "懒笔记同题给B，其余所核对解析/数据示例给D。本次保留D为有证据的编辑裁定，并不声称存在官方标准答案。当前本地 passage 丢失了包含 Rzepecki 姓名的句子，可另行按原卷修复。",
+      "reference_evidence": {
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2020-12-3/",
+          "sha256": "f418b0af3a24ba21b2c5416b38793ae0bf44039251d308172b9a178d538661fe"
+        },
+        "quote": "This is the beginning of a long-term shift away from regular pedal to electric bikes",
+        "locator": "cached paper paragraph p-part3-section-c-1-5",
+        "note": "本地group passage缺失了这句及Rzepecki署名；完整原句可从原卷/对应HTML恢复。"
+      }
+    },
+    {
+      "id": 2098,
+      "source": "2021-12-CET4-3.pdf",
+      "number": 31,
+      "group_id": 417,
+      "group_type": "cloze",
+      "existing": "F",
+      "answer": "O",
+      "status": "correct",
+      "reason": "第31空修饰谓语 don’t consider，应填副词。上下文说噩梦是人类经历的一部分，医生通常不把偶尔做噩梦看成问题，O 项 typically（通常）符合。F 项 drastically（急剧地）与语义不符，故选 O。",
+      "new_explanation": "【答案】O。\n【解析】第31空修饰谓语 don’t consider，应填副词。上下文说噩梦是人类经历的一部分，医生通常不把偶尔做噩梦看成问题，O 项 typically（通常）符合。F 项 drastically（急剧地）与语义不符，故选 O。",
+      "question_identity": {
+        "local_content_sha256": "610aa32c644d5d028cd7375390178ef7f7ec6a58b952cb33c1eab9b8bb336ae9",
+        "local_options": {
+          "A": "amount",
+          "B": "answer",
+          "C": "avoid",
+          "D": "aware",
+          "E": "depart",
+          "F": "drastically",
+          "G": "fear",
+          "H": "limited",
+          "I": "mechanical",
+          "J": "result",
+          "K": "review",
+          "L": "rigorous",
+          "M": "tend",
+          "N": "timidity",
+          "O": "typically"
+        },
+        "same_label_reference_score": 0.94,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "Doctors 3l don't consider occasional nightmares a problem",
+        "found": true,
+        "quote": "art of the human experience, especially for kids. Doctors 3l don't consider occasional nightmares a problem. They can just be symptoms of a sleep disorder that can 32_ from an unpleasant experience, stress, or "
+      },
+      "reference_conflict": {
+        "id": 2098,
+        "source": "2021-12-CET4-3.pdf",
+        "number": 31,
+        "existing": "F",
+        "answer": "O",
+        "identity_score": 0.94,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2021-12-3/",
+          "sha256": "cc4e3275ff7fd76a69f99cc2ad513ba138783609021e9e6eef263dbdbe25736c"
+        }
+      },
+      "ocr_conflict": {
+        "id": 2098,
+        "source": "2021-12-CET4-3.pdf",
+        "number": 31,
+        "existing": "F",
+        "answer": "O",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "05131f0046b7f98af578126beb3d3ffd11e18563994de4df30e628ef1cae3ec0"
+    },
+    {
+      "id": 2135,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 38,
+      "group_id": 422,
+      "group_type": "matching",
+      "existing": "D",
+      "answer": "I",
+      "status": "correct",
+      "reason": "定位 I 段首句。原文说 Harding 不同于那些要求快速、越简单越好解决方案的人。题干 differs from 和 quick and simple solutions 正是 stands apart 与 quick fixes, the simpler the better 的改写，故选 I。",
+      "new_explanation": "【答案】I。\n【解析】定位 I 段首句。原文说 Harding 不同于那些要求快速、越简单越好解决方案的人。题干 differs from 和 quick and simple solutions 正是 stands apart 与 quick fixes, the simpler the better 的改写，故选 I。",
+      "question_identity": {
+        "local_content_sha256": "c4eb4719a13798776a0346a1c9db2241e2029411ff36adecea3518665a522951",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "Kelli Harding stands apart from the crowd calling for quick fixes",
+        "found": true,
+        "quote": "rance and thieving pharmaceutical(医药的) companies, Kelli Harding stands apart from the crowd calling for quick fixes, the simpler the better. She has walked too many miles in the halls of hospitals visiting too "
+      },
+      "reference_conflict": {
+        "id": 2135,
+        "source": "2022-09-CET4-1.pdf",
+        "number": 38,
+        "existing": "D",
+        "answer": "I",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-09-1/",
+          "sha256": "95af8e5e6ff9f2b2d712360bbcfa9f57103792538301beb01ca0ef27f418ffca"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "16e01323559c8d9848f632a7b35dd7435ce6b29c403b12da5a108d7a07d7d4ac"
+    },
+    {
+      "id": 2137,
+      "source": "2022-09-CET4-1.pdf",
+      "number": 40,
+      "group_id": 422,
+      "group_type": "matching",
+      "existing": "D",
+      "answer": "F",
+      "status": "correct",
+      "reason": "定位 F 段引用 Harding 的话。她指出，尽管科学进步，美国人仍极不健康，且2016年预期寿命世界排名第43；对应题干科学进步未能改善健康和延长寿命的概括。D 段是作者被来信打动的经历，故本题选 F。",
+      "new_explanation": "【答案】F。\n【解析】定位 F 段引用 Harding 的话。她指出，尽管科学进步，美国人仍极不健康，且2016年预期寿命世界排名第43；对应题干科学进步未能改善健康和延长寿命的概括。D 段是作者被来信打动的经历，故本题选 F。",
+      "question_identity": {
+        "local_content_sha256": "5b5a2b87cde3782ad7f1c82b99b36183f9a6ffa4a06b5b7037bf7622e15b475f",
+        "local_options": {},
+        "same_label_reference_score": 1.0,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "Despite our scientific progress",
+        "found": true,
+        "quote": "er ideas and ideals would be sound and singular. \"Despite our scientific progress,\" she writes, \"Americans are remarkably unhealthy. In 2016, the United States ranked forty-third in the world for life expectanc"
+      },
+      "reference_conflict": {
+        "id": 2137,
+        "source": "2022-09-CET4-1.pdf",
+        "number": 40,
+        "existing": "D",
+        "answer": "F",
+        "identity_score": 1.0,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet4/paper/2022-09-1/",
+          "sha256": "95af8e5e6ff9f2b2d712360bbcfa9f57103792538301beb01ca0ef27f418ffca"
+        }
+      },
+      "ocr_conflict": null,
+      "old_explanation_sha256": "473f63601b5c2822c6beeb42ae293d4555908b7026c558c38dfa90139eb50079"
+    },
+    {
+      "id": 2355,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 31,
+      "group_id": 466,
+      "group_type": "cloze",
+      "existing": "O",
+      "answer": "J",
+      "status": "correct",
+      "reason": "第31空修饰 those，并与 with success 构成搭配，需用形容词或分词。J 项 obsessed 与 with 搭配，意为“对成功着迷的人”，承接下文因害怕被贴上失败标签而制造借口。O 项 viciously 为副词，无法构成 those viciously with success，故选 J。",
+      "new_explanation": "【答案】J。\n【解析】第31空修饰 those，并与 with success 构成搭配，需用形容词或分词。J 项 obsessed 与 with 搭配，意为“对成功着迷的人”，承接下文因害怕被贴上失败标签而制造借口。O 项 viciously 为副词，无法构成 those viciously with success，故选 J。",
+      "question_identity": {
+        "local_content_sha256": "610aa32c644d5d028cd7375390178ef7f7ec6a58b952cb33c1eab9b8bb336ae9",
+        "local_options": {
+          "A": "contrary",
+          "B": "fatigue",
+          "C": "heavily",
+          "D": "heaving",
+          "E": "hospitalized",
+          "F": "labeled",
+          "G": "legacies",
+          "H": "mastering",
+          "I": "momentum",
+          "J": "obsessed",
+          "K": "potential",
+          "L": "realms",
+          "M": "reciprocal",
+          "N": "ruin",
+          "O": "viciously"
+        },
+        "same_label_reference_score": 0.94,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "those 31 with success",
+        "found": true,
+        "quote": "e most likely to become chronic excuse makers are those 31 with success. Such people are so afraid of being 32 a failure at anything that they constantly develop one handicap or another in order to explain away"
+      },
+      "reference_conflict": {
+        "id": 2355,
+        "source": "2020-09-CET6-1.pdf",
+        "number": 31,
+        "existing": "O",
+        "answer": "J",
+        "identity_score": 0.94,
+        "reference": {
+          "url": "https://english-exam.lazynote.cn/cet6/paper/2020-09-1/",
+          "sha256": "b22df27f183c937e148924af0461be460aa9e468d4647d89abe87fdf45588e42"
+        }
+      },
+      "ocr_conflict": {
+        "id": 2355,
+        "source": "2020-09-CET6-1.pdf",
+        "number": 31,
+        "existing": "O",
+        "answer": "J",
+        "basis": "bank_word"
+      },
+      "old_explanation_sha256": "7395da33467d45d0cc746cf84bc73763817e198774fdb6cfc18ecf5ad99fedf8"
+    },
+    {
+      "id": 2382,
+      "source": "2020-09-CET6-1.pdf",
+      "number": 13,
+      "group_id": 471,
+      "group_type": "listening",
+      "existing": "D",
+      "answer": "D",
+      "status": "retain_confirmed",
+      "reason": "原文直接说 Gonzalez 带 Copeland 去村里并充当中间人，对应 D。OCR 中 C 讲的是下一题去村庄的旅程，属于串题，保留 D。",
+      "new_explanation": "【答案】D。\n【解析】原文直接说 Gonzalez 带 Copeland 去村里并充当中间人，对应 D。OCR 中 C 讲的是下一题去村庄的旅程，属于串题，保留 D。",
+      "question_identity": {
+        "local_content_sha256": "220952b7a52b78bde0ca615cc232d55a4838bb51d60a13cdf05d8b81ac19a5e7",
+        "local_options": {
+          "A": "He taught Copeland to speak the Tarahumaras language.\nM",
+          "B": "He persuaded the Tarahumaras to accept Copeland's gifts.",
+          "C": "He recommended one of his best friends as an interpreter.\nA",
+          "D": "He acted as an intermediary between Copeland and the villagers.\n："
+        },
+        "same_label_reference_score": null,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "transcript",
+        "needle": "served as an intermediary",
+        "found": true,
+        "quote": "reed to help. He took Copeland to his village and served as an intermediary. Copeland says, \"Thanks to him, the Tarahumaras understood what our mission was and started trusting us.\"\nEntering the world of the Ta"
+      },
+      "reference_conflict": null,
+      "ocr_conflict": {
+        "id": 2382,
+        "source": "2020-09-CET6-1.pdf",
+        "number": 13,
+        "existing": "D",
+        "answer": "C",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "38e182c6ae5849fe21244a90149eacdf67827b80dc1866232414140041a96cd8"
+    },
+    {
+      "id": 2529,
+      "source": "2024-06-CET6-3.pdf",
+      "number": 53,
+      "group_id": 500,
+      "group_type": "reading",
+      "existing": "B",
+      "answer": "B",
+      "status": "retain_confirmed",
+      "reason": "第三种理论说可变训练迫使学习者主动重建记忆，与 B 项 compelled to reorganise their memories 同义。OCR 把解释段中的 A 选项文本误当答案，保留 B。",
+      "new_explanation": "【答案】B。\n【解析】第三种理论说可变训练迫使学习者主动重建记忆，与 B 项 compelled to reorganise their memories 同义。OCR 把解释段中的 A 选项文本误当答案，保留 B。",
+      "question_identity": {
+        "local_content_sha256": "db966bd8dfaf330d3863afb007d6f0280ad0724405021bf2cac463e703a0a48b",
+        "local_options": {
+          "A": "Learners regard variable training as typical of what happens in the real world.",
+          "B": "Learners receiving variable training are compelled to reorganise their memories.",
+          "C": "Learners pay attention to the relevant aspects of a task and ignore those irrelevant.",
+          "D": "Learners focus on related skills instead of wasting time and effort on unrelated ones."
+        },
+        "same_label_reference_score": null,
+        "method": "same question stem plus all option labels / cloze bank words and passage; matching includes labelled destination paragraph"
+      },
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_field": "passage",
+        "needle": "learners are forced to actively reconstruct their memories",
+        "found": true,
+        "quote": " the way memory works: when training is variable, learners are forced to actively reconstruct their memories. “Understanding the impact of variability is important for literally every aspect of our daily life. "
+      },
+      "reference_conflict": null,
+      "ocr_conflict": {
+        "id": 2529,
+        "source": "2024-06-CET6-3.pdf",
+        "number": 53,
+        "existing": "B",
+        "answer": "A",
+        "basis": "ocr_letter"
+      },
+      "old_explanation_sha256": "4780bdbd937f52d13569fab6db12275b1997f95eeb392ec47d0566cdfe237b26"
+    }
+  ],
+  "july_2020_matching_review": [
+    {
+      "id": 1773,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 36,
+      "existing": "D",
+      "answer": "D",
+      "status": "retain_confirmed",
+      "reason": "D段说准备和享用食物带来多方面益处，并把人与他人联系起来，对应题干全部信息。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "connects us to other humans",
+        "found": true,
+        "quote": "ll-being, relaxation, sociability? Something that connects us to other humans? Why would we want to outsource(外包) this basic task, especially when outsourcing it is so harmful?\n\nE) When I talk about cooking, I'"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "D"
+    },
+    {
+      "id": 1774,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 37,
+      "existing": "B",
+      "answer": "B",
+      "status": "retain_confirmed",
+      "reason": "B段列举食谱、教学视频和烹饪课程可通过电脑、手机或电视获取，对应在线或电视有丰富信息。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "computer, smartphone or television",
+        "found": true,
+        "quote": "and cooking classes available to anyone who has a computer, smartphone or television. If anything, the information is overwhelming.\n\nC) And yet we aren't cooking. If you eat three meals a day and behave like mo"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "B"
+    },
+    {
+      "id": 1775,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 38,
+      "existing": "F",
+      "answer": "F",
+      "status": "retain_confirmed",
+      "reason": "F段比较65岁以上者52%与年轻人三分之一的做饭频率，对应年轻人比老人更少在家烹饪。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "52% of those 65 or older",
+        "found": true,
+        "quote": " result of this survey shouldn't surprise anyone: 52% of those 65 or older cook at home five or more times per week; only a third of young people do.\n\nG) Back in the 1950s most of us grew up in households where"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "F"
+    },
+    {
+      "id": 1776,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 39,
+      "existing": "O",
+      "answer": "O",
+      "status": "retain_confirmed",
+      "reason": "O段把练习作为克服做饭信心不足的方法，并说明每次烹饪都会提高技能，故为O。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "every time you cook, you advance your level of skills",
+        "found": true,
+        "quote": "any skill, cooking gets easier as you do it more: every time you cook, you advance your level of skills. Someday you won't even need recipes. My advice is that you not pay attention to the number of steps and i"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "O"
+    },
+    {
+      "id": 1777,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 40,
+      "existing": "G",
+      "answer": "G",
+      "status": "retain_confirmed",
+      "reason": "G段说20世纪50年代母亲几乎每晚做饭，多数家庭也无力选择其他方式，对应20世纪中期通常在家吃饭。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "Back in the 1950s",
+        "found": true,
+        "quote": "es per week; only a third of young people do.\n\nG) Back in the 1950s most of us grew up in households where Mom cooked virtually every night. The intention to put a home-cooked meal on the table was pretty much "
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "G"
+    },
+    {
+      "id": 1778,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 41,
+      "existing": "E",
+      "answer": "E",
+      "status": "retain_confirmed",
+      "reason": "E段直接鼓励新手及缺时间者自给自足，并与家人朋友分享食物。memory/money是原文或题干的细小措辞差异，核心鼓励对象及家庭烹饪仍在E；M只给购物建议、P只讲找时间。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "encourage green hands and those lacking time or memory",
+        "found": true,
+        "quote": "ut simple, easy, everyday meals. My mission is to encourage green hands and those lacking time or memory to feed themselves. That means we need modest, realistic expectations, and we need to teach people to coo"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "E"
+    },
+    {
+      "id": 1779,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 42,
+      "existing": "J",
+      "answer": "J",
+      "status": "retain_confirmed",
+      "reason": "J段明确说不在家做饭导致吃得不合适，后果严重到难以过分强调，正对应严重后果。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "the consequences are hard to overstate",
+        "found": true,
+        "quote": "g at home, we're not eating the right things, and the consequences are hard to overstate.\n\nK) To help quantify(量化) the costs of a poor diet, I recently tried to estimate this impact in terms of a most famous fo"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "J"
+    },
+    {
+      "id": 1780,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 43,
+      "existing": "M",
+      "answer": "M",
+      "status": "retain_confirmed",
+      "reason": "M段给经济困难者买得起的真实食材并自己做饭的建议，直接含节省且吃好的组合信息。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "to save money and still eat well",
+        "found": true,
+        "quote": "esh produce, meat and seafood, and dairy are. And to save money and still eat well you don't need local, organic ingredients; all you need is real food. I'm not saying local food isn't better; it is. But there "
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "M"
+    },
+    {
+      "id": 1781,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 44,
+      "existing": "C",
+      "answer": "C",
+      "status": "retain_confirmed",
+      "reason": "C段列出快餐频率及零食提供近25%日常热量，对应快餐零食贡献相当多卡路里。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "25% of our daily calories from snacks",
+        "found": true,
+        "quote": " us grab fast food once a week, and we get almost 25% of our daily calories from snacks. So we're eating out or taking in, and we don't sit down—or we do, but we hurry.\n\nD) Shouldn't preparing—and consuming—foo"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "C"
+    },
+    {
+      "id": 1782,
+      "source": "2020-07-CET4-1.pdf",
+      "number": 45,
+      "existing": "H",
+      "answer": "H",
+      "status": "retain_confirmed",
+      "reason": "H段首句把冷冻晚餐流行与电视普及直接联系，故为H。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 351,
+        "group_field": "passage",
+        "needle": "their popularity didn't boom until televisions became popular",
+        "found": true,
+        "quote": "lthough frozen dinners were invented in the '40s, their popularity didn't boom until televisions became popular a decade or so later. Since then, packaged, pre-prepared meals have been what's for dinner. The mi"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet4/paper/2020-07-1/",
+        "sha256": "7b4cfceae90fd79dc75eae87f697f9500383b176a8939bf05a2e47bb153a26e1"
+      },
+      "reference_answer": "H"
+    },
+    {
+      "id": 2307,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 36,
+      "existing": "C",
+      "answer": "C",
+      "status": "retain_confirmed",
+      "reason": "C段引述Piaget关于儿童只各玩各的、不能合作的看法，与题干collaborate while playing对应。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "instead of playing cooperatively and truly together",
+        "found": true,
+        "quote": "ildren literally cannot get their act together\" : instead of playing cooperatively and truly together , they play side by side, with little regard for others. And when speaking with others , a young child suppo"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "C"
+    },
+    {
+      "id": 2308,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 37,
+      "existing": "J",
+      "answer": "J",
+      "status": "retain_confirmed",
+      "reason": "J段是作者和南加州大学同事的木偶实验，结论明确为两岁儿童可预见他人失望等情绪，对应题干。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "by the tender age of two",
+        "found": true,
+        "quote": " thus knew what to expect. Our study reveals that by the tender age of two, kids not only track what others believe or expect ; they can even foresee how others will feel when they discover reality. [K] Studies"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "J"
+    },
+    {
+      "id": 2309,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 38,
+      "existing": "F",
+      "answer": "F",
+      "status": "retain_confirmed",
+      "reason": "F段说20世纪后半叶，认为世界的基本知识完全来自经验的观点越来越不流行，正对应wholly empirical。B段不讲这一认识论转变。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "second half of the 20th century",
+        "found": true,
+        "quote": "he origin of human knowledge that occurred in the second half of the 20th century. It became increasingly unpopular to assume that a basic understanding of the world can be built entirely from experience. This "
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "F"
+    },
+    {
+      "id": 2310,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 39,
+      "existing": "A",
+      "answer": "A",
+      "status": "retain_confirmed",
+      "reason": "A段介绍Piaget上世纪的访谈实验，认为学龄前儿童无法想象他人的思想和感受，故为A。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "in the middle of the 20th century",
+        "found": true,
+        "quote": "interviews and experiments he conducted with kids in the middle of the 20th century suggested that they were trapped in their subjective viewpoints, incapable of imagining what others think, feel or believe. [B"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "A"
+    },
+    {
+      "id": 2311,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 40,
+      "existing": "G",
+      "answer": "G",
+      "status": "retain_confirmed",
+      "reason": "G段把今天能认识更多婴儿智力归因于更灵敏的研究工具，直接对应题干better research tools。K段是实验发现和认识总结，非该因果定位。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "more sensitive research tools than Piaget had",
+        "found": true,
+        "quote": "ntellectual capacities is the development of much more sensitive research tools than Piaget had at his disposal. [H] Instead of engaging babies in dialog or having them execute complex motor tasks , the newer m"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "G"
+    },
+    {
+      "id": 2312,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 41,
+      "existing": "E",
+      "answer": "E",
+      "status": "retain_confirmed",
+      "reason": "E段明确说近期研究发现，即使婴儿也能敏感地感知他人视角和信念，对应题干。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "even infants are sensitive",
+        "found": true,
+        "quote": "nding of other minds. Recent studies suggest that even infants are sensitive to others' perspectives and beliefs. [F] Part of the motivation to revise some of Piaget’s conclusions stemmed from an ideological sh"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "E"
+    },
+    {
+      "id": 2313,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 42,
+      "existing": "M",
+      "answer": "M",
+      "status": "retain_confirmed",
+      "reason": "M段说科学界对于能从儿童目光、表情和手势推断多少信息尚无共识，直接对应still debating。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "There's no consensus",
+        "found": true,
+        "quote": "en think that the new methods cannot uncover. [M] There's no consensus in today's science community about how much we can infer from a look, a facial expression or a hand gesture. These behaviors clearly indica"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "M"
+    },
+    {
+      "id": 2314,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 43,
+      "existing": "H",
+      "answer": "H",
+      "status": "retain_confirmed",
+      "reason": "H段比较新旧方法：不用问答或复杂动作，而观察注视、聆听、吸吮、表情等简单自然行为，正对应题干。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "looking , listening , sucking",
+        "found": true,
+        "quote": "rm place in infants' natural behavior repertoire: looking , listening , sucking , making facial expressions , gestures and simple manual actions. The idea of focusing on these “small behaviors” is that they giv"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "H"
+    },
+    {
+      "id": 2315,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 44,
+      "existing": "B",
+      "answer": "B",
+      "status": "retain_confirmed",
+      "reason": "B段说随着更巧妙的研究方法出现，关于儿童自我中心和智力薄弱的旧观点越来越不受认可，对应题干less influential。D段是在陈述旧理论本身。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "the old view of children",
+        "found": true,
+        "quote": "abilities shows subtle variations. Consequently , the old view of children’s egocentric ( 自 我 中 心 的 ) nature and intellectual weaknesses has increasingly fallen out of favor and become replaced by a more genero"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "B"
+    },
+    {
+      "id": 2316,
+      "source": "2020-07-CET6-1.pdf",
+      "number": 45,
+      "existing": "L",
+      "answer": "L",
+      "status": "retain_confirmed",
+      "reason": "L段明确说即使研究进步，也不能摒弃Piaget等人的系统分析，因为旧方法揭示新方法无法揭示的事实，正对应题干。",
+      "evidence": {
+        "local_db": "reports\\pr2-review-readonly.db",
+        "group_id": 456,
+        "group_field": "passage",
+        "needle": "a grave mistake to dismiss",
+        "found": true,
+        "quote": "e study of young children's thinking, it would be a grave mistake to dismiss the careful and systematic analyses compiled by Piaget and others before the new tests dominated the scene because the original metho"
+      },
+      "reference": {
+        "url": "https://english-exam.lazynote.cn/cet6/paper/2020-07-1/",
+        "sha256": "79492ede5d5807b2ee2e38b5b7f9c759630949f39214974a87cd156958307829"
+      },
+      "reference_answer": "L"
+    }
+  ],
+  "limitations": [
+    "Reference publishers can disagree. These are editorial decisions based on the original English text, question identity, local option labels, and cited references; they are not an official examination answer release.",
+    "ID 1999 retains D with supporting sources; the conflicting Lazynote B remains recorded.",
+    "This report excludes ID 4912, empty-explanation filling, and actual database writes."
+  ],
+  "application_contract": "Apply only the 40 decisions whose status is correct. Recheck id/source/number/existing, write answer, and replace explanation with new_explanation. Preserve all other answers. Apply the structured group_passage_repair for ID 1106 in the same transaction."
+}
