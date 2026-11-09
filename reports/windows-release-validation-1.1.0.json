@@ -1,0 +1,169 @@
+{
+  "version": "1.1.0",
+  "created_at_utc": "2026-11-09T09:32:21.147594+00:00",
+  "platform": "Windows 10/11 x64",
+  "automated_tests": {
+    "passed": 353,
+    "warnings": 28
+  },
+  "archives": {
+    "cet-practice-1.1.0-windows-desktop-x64.zip": {
+      "size": 881803970,
+      "sha256": "bcc43635ca9a3316c3b1483cebcff2095529324dcb6e5e33511f8fdcd8b7c36a"
+    },
+    "cet-practice-1.1.0-windows-web-launcher-x64.zip": {
+      "size": 881818495,
+      "sha256": "52dec068ef0131636be3f0502937336d933a6782b8b99fb09d8b887f6bbe2711"
+    }
+  },
+  "source_git_blobs": {
+    "desktop_launcher.py": "c6ddb819b6444c08722b2c198dd86b8de71214ca",
+    "app.py": "bcc5fdcf4668b1bc495d0fb763c6960dd6f39ede",
+    "models.py": "053bd881b84b9b97fe812b164a5c98b0b8efe6ba",
+    "parser.py": "1978b9497f63fad0d358474d83143295241c4f58",
+    "ocr.py": "09b8683f54e9d73fc4cdcfec2c98ad3db2b2db88",
+    "shared_listening.py": "1190a83bd8779907d16980e052dcd8aa1069db3c"
+  },
+  "source_working_tree_sha256": {
+    "desktop_launcher.py": "588f4859a194417d0e89e7e6827145ab98328d2fc9e2bfb01e53ee9e0c1e485b",
+    "app.py": "a546d4f0c8f23497aa11e49e457b543c7007a18e3dacdce7d4a9ab9f3e4bc2bd",
+    "models.py": "ea04b8125022313eed0ee7745800aff4c59eed5b0339d7ab19e4aee6866b762a",
+    "parser.py": "390ae5a733b9bffc53eb484ddebdaa0474efd6bfea7f125f7f3e446e578c2cec",
+    "ocr.py": "decd7770afec415c6ae7f8ed7b3bc5eca67d71b41242ea90a8707bf1f0fe7d8e",
+    "shared_listening.py": "5e072a989311be3f54e8cb0fae652e324ae9efb9f32a32a80cd129a508181b15"
+  },
+  "source_database_commit": "162199e9efbef4c546b5622926a78bc259085606",
+  "seed_database": {
+    "question_group": {
+      "rows": 1072,
+      "sha256": "b4479c9eb2505b41c343e0bb554b4f20ef08fefefc734799352ce99863228884"
+    },
+    "question": {
+      "rows": 5064,
+      "sha256": "2e47db4fa3b47899160503d6a782948d749586a473ba93200c5d5a28f7b8030d"
+    },
+    "option": {
+      "rows": 26868,
+      "sha256": "975b4da55ab1bcd50f6d756e89a6e334182afcd5352cc696860acaecf4d4cfc2"
+    },
+    "user_history": {
+      "rows": 0,
+      "sha256": "3d7f0fda5f3e96401e4d110302a8093dea3bc83416d24067def3e9a56e66f5d6"
+    },
+    "wrong_question": {
+      "rows": 0,
+      "sha256": "2c8c2794b755c4905e2300e5c929f7d78e69252f7da82921f9b0fc9755cde442"
+    }
+  },
+  "seed_personal_records_included": false,
+  "asset_counts": {
+    "question_pdfs": 94,
+    "answer_pdfs": 94,
+    "audio_mp3s": 94
+  },
+  "actual_frozen_ui_validation": {
+    "results": [
+      {
+        "mode": "desktop",
+        "frozen": true,
+        "ui": "desktop-window",
+        "version": "1.1.0",
+        "desktop_dom": {
+          "title": "英语四六级刷题系统",
+          "ready_state": "complete",
+          "body_present": true,
+          "question_links": 94
+        },
+        "control_window_mapped": null,
+        "paper_pages": 94,
+        "audio_range_responses_206": 94,
+        "shared_listening": {
+          "omitted_papers_resolved_for_practice": 9,
+          "displayed_listening_positions": 225,
+          "previous_missing_display_positions_covered": 25,
+          "remaining_display_listening_gaps": 0,
+          "source_group_count": 65,
+          "original_variant_option_orders_restored": 0,
+          "database_unchanged_by_readback": true,
+          "learner_records_unchanged": true
+        },
+        "reused_single_instance": true,
+        "practice_history_preserved_between_modes": true,
+        "upgraded_from_previous_5009_question_database": true,
+        "old_education_and_personal_rows_preserved": true,
+        "new_paper_questions": 55
+      },
+      {
+        "mode": "browser",
+        "frozen": true,
+        "ui": "browser-control",
+        "version": "1.1.0",
+        "desktop_dom": null,
+        "control_window_mapped": true,
+        "paper_pages": 94,
+        "audio_range_responses_206": 94,
+        "shared_listening": {
+          "omitted_papers_resolved_for_practice": 9,
+          "displayed_listening_positions": 225,
+          "previous_missing_display_positions_covered": 25,
+          "remaining_display_listening_gaps": 0,
+          "source_group_count": 65,
+          "original_variant_option_orders_restored": 0,
+          "database_unchanged_by_readback": true,
+          "learner_records_unchanged": true
+        },
+        "reused_single_instance": true,
+        "practice_history_preserved_between_modes": true,
+        "upgraded_from_previous_5009_question_database": true,
+        "old_education_and_personal_rows_preserved": true,
+        "new_paper_questions": 55
+      }
+    ],
+    "all_passed": true
+  },
+  "actual_archive_extraction_and_start": {
+    "all_passed": true,
+    "archives": [
+      {
+        "archive": "cet-practice-1.1.0-windows-desktop-x64.zip",
+        "variant": "desktop",
+        "default_mode": "desktop",
+        "all_manifest_files_verified": true,
+        "frozen_program_started": true,
+        "seed_personal_tables_empty": true
+      },
+      {
+        "archive": "cet-practice-1.1.0-windows-web-launcher-x64.zip",
+        "variant": "web-launcher",
+        "default_mode": "browser",
+        "all_manifest_files_verified": true,
+        "frozen_program_started": true,
+        "seed_personal_tables_empty": true
+      }
+    ]
+  },
+  "new_paper": {
+    "source_file": "2026-06-CET6-1.pdf",
+    "questions": 55,
+    "groups": 11,
+    "options": 290,
+    "answers_and_explanations_complete": true,
+    "new_listening_transcripts": 7,
+    "real_listening_question_stems": 25,
+    "source_review_report": "cet-202606-import-content-review.json",
+    "formal_import_report": "cet-202606-import-applied.json"
+  },
+  "upgrade_from_1_0_0": {
+    "existing_question_rows": 5009,
+    "updated_question_rows": 5064,
+    "old_education_rows_and_personal_records_preserved": true,
+    "backup_created": true,
+    "new_question_submission_and_history_persistence_verified": true,
+    "repeat_launch_idempotent": true
+  },
+  "source_snapshot_screenshot": "docs/images/cet2026-practice.jpg",
+  "limitations": [
+    "This validates source consistency and actual program behavior, not official answer certification or a word-by-word review of all recordings.",
+    "Desktop window requires system Edge WebView2 and .NET; browser launcher remains available."
+  ]
+}
