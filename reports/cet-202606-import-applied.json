@@ -1,0 +1,122 @@
+{
+  "source_file": "2026-06-CET6-1.pdf",
+  "source_url": "https://english-exam.lazynote.cn/cet6/paper/2026-06-1/",
+  "candidate_content_sha256": "b0ec003f3f37c27da5b69e1e72e8f364008c55c7fb997376d3f82e537fb6aeef",
+  "added": {
+    "questions": 55,
+    "groups": 11,
+    "options": 290,
+    "listening_questions": 25,
+    "cloze_questions": 10,
+    "matching_questions": 10,
+    "reading_questions": 10,
+    "all_answers_and_explanations_present": true
+  },
+  "source_evidence": [
+    {
+      "kind": "whole-paper-html",
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2026-06-1/",
+      "sha256": "8ac873818371190678fbb49d3a003bd6337594755e455d73cb9ee21beb81f793"
+    },
+    {
+      "kind": "answer-pdf",
+      "url": null,
+      "sha256": "c6092fe72575206a2fdffc8c3abaf546d4ff1dbb1af24b813de5019b32a55dec"
+    },
+    {
+      "kind": "listening-analysis-html",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2026-06-1/",
+      "sha256": "826c76f8bb244a8b46aa02ffbb9b72a5e80c5fd815c3a26d4140b91d038d6f3f"
+    },
+    {
+      "kind": "cloze-analysis-html",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-a/",
+      "sha256": "abdd7bd2974225fbd66433977b261460f9e9b4bf308859033c1c616a87c8e8cc"
+    },
+    {
+      "kind": "matching-analysis-html",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-b/",
+      "sha256": "2bfea3dc355a29bb20850a7da3d3ab8fb06c9f605d9103ab40a68c94ed685e49"
+    },
+    {
+      "kind": "reading1-analysis-html",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-c/",
+      "sha256": "ab9aa155433903d133be886c4ab011ab4ff00d3cae2ffe6bafa148e51ad31d42"
+    },
+    {
+      "kind": "reading2-analysis-html",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-c-2/",
+      "sha256": "e67b3a6496fcbf9798f37839618ed9a4e798f231d2de6328d764280dcda7d8ca"
+    }
+  ],
+  "resources": {
+    "data/2026-06-CET6-1.pdf": {
+      "bytes": 345396,
+      "sha256": "0df76248c652e977c6289e80d3aa42b0757e28060c603c901a5a654004f300a0"
+    },
+    "data/answers/2026-06-CET6-1.pdf": {
+      "bytes": 7730489,
+      "sha256": "c6092fe72575206a2fdffc8c3abaf546d4ff1dbb1af24b813de5019b32a55dec"
+    },
+    "data/audio/2026-06-CET6-1.mp3": {
+      "bytes": 23934058,
+      "sha256": "b66f7052b1b54953a26f21847f6969b657382a6f7ee27dd7a7005983b28646a5"
+    }
+  },
+  "source_audio": {
+    "source": "https://listening.lazynote.cn/cet6/234/index.m3u8",
+    "file": "2026-06-CET6-1.mp3",
+    "bytes": 23934058,
+    "sha256": "b66f7052b1b54953a26f21847f6969b657382a6f7ee27dd7a7005983b28646a5",
+    "codec": "mp3float",
+    "sample_rate": 44100,
+    "channels": 2,
+    "samples_per_channel": 65965056,
+    "decoded_seconds": 1495.8062585034013,
+    "bit_rate": 128000,
+    "all_frames_decoded": true,
+    "elapsed_seconds": 61.954
+  },
+  "formal_import": {
+    "applied": true,
+    "backup_created": true,
+    "existing_education_rows_unchanged": true,
+    "personal_records_preserved": true,
+    "idempotent_repeat_verified": true,
+    "integrity_check": "ok",
+    "foreign_key_errors": 0
+  },
+  "public_seed": {
+    "sha256": "4056546e81e4e55141cbedfb6ca2429e81fde1ea643f04b1ae76b0cc66045154",
+    "tables": {
+      "question_group": {
+        "rows": 1072,
+        "sha256": "b4479c9eb2505b41c343e0bb554b4f20ef08fefefc734799352ce99863228884"
+      },
+      "question": {
+        "rows": 5064,
+        "sha256": "2e47db4fa3b47899160503d6a782948d749586a473ba93200c5d5a28f7b8030d"
+      },
+      "option": {
+        "rows": 26868,
+        "sha256": "975b4da55ab1bcd50f6d756e89a6e334182afcd5352cc696860acaecf4d4cfc2"
+      },
+      "user_history": {
+        "rows": 0,
+        "sha256": "3d7f0fda5f3e96401e4d110302a8093dea3bc83416d24067def3e9a56e66f5d6"
+      },
+      "wrong_question": {
+        "rows": 0,
+        "sha256": "2c8c2794b755c4905e2300e5c929f7d78e69252f7da82921f9b0fc9755cde442"
+      }
+    },
+    "educational_rows_match_formal_database": true,
+    "personal_records_included": false
+  },
+  "asset_counts": {
+    "question_pdfs": 94,
+    "answer_pdfs": 94,
+    "audio_mp3s": 94
+  },
+  "independent_content_review": "cet-202606-import-content-review.json"
+}

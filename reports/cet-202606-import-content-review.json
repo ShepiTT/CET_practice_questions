@@ -1,0 +1,2408 @@
+{
+  "schema": 1,
+  "source_file": "2026-06-CET6-1.pdf",
+  "source_url": "https://english-exam.lazynote.cn/cet6/paper/2026-06-1/",
+  "status": "passed_for_same_source_structured_import",
+  "review_scope": "Independent read-only content review of the 55 objective questions, 11 groups and their reference explanations; database import and release packaging are outside this report.",
+  "candidate": {
+    "content_sha256": "b0ec003f3f37c27da5b69e1e72e8f364008c55c7fb997376d3f82e537fb6aeef",
+    "file_sha256": "878843e8b00a5e66389e98716e93dc6195e660a54ff2b27d7dc3210118e5f8dd"
+  },
+  "source_artifacts": [
+    {
+      "kind": "question-pdf",
+      "sha256": "0df76248c652e977c6289e80d3aa42b0757e28060c603c901a5a654004f300a0",
+      "bytes": 345396,
+      "pages": 11,
+      "url": "https://downloads.lazynote.cn/cet6/2026-06-1/%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A72026%E5%B9%B46%E6%9C%88%E7%AC%AC1%E5%A5%97%E7%9C%9F%E9%A2%98%EF%BC%88%E6%95%B4%E5%8D%B7%EF%BC%89.pdf"
+    },
+    {
+      "kind": "answer-analysis-pdf",
+      "sha256": "c6092fe72575206a2fdffc8c3abaf546d4ff1dbb1af24b813de5019b32a55dec",
+      "bytes": 7730489,
+      "pages": 133,
+      "url": "https://downloads.lazynote.cn/cet6/2026-06-1/%E8%8B%B1%E8%AF%AD%E5%85%AD%E7%BA%A72026%E5%B9%B46%E6%9C%88%E7%AC%AC1%E5%A5%97%E7%9C%9F%E9%A2%98%E5%8F%8A%E7%AD%94%E6%A1%88%E8%A7%A3%E6%9E%90%EF%BC%88%E6%95%B4%E5%8D%B7%EF%BC%89.pdf"
+    },
+    {
+      "kind": "whole-paper-html",
+      "sha256": "8ac873818371190678fbb49d3a003bd6337594755e455d73cb9ee21beb81f793",
+      "url": "https://english-exam.lazynote.cn/cet6/paper/2026-06-1/"
+    },
+    {
+      "kind": "complete-listening-m4a",
+      "sha256": "4f8bcdaf3084d2f54fa6275e330fc7a0a840b37001bdeb595888256d9de6f673",
+      "bytes": 12642031,
+      "playlist_url": "https://listening.lazynote.cn/cet6/234/index.m3u8"
+    },
+    {
+      "kind": "listening-analysis-html",
+      "sha256": "826c76f8bb244a8b46aa02ffbb9b72a5e80c5fd815c3a26d4140b91d038d6f3f",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/listening/2026-06-1/"
+    },
+    {
+      "kind": "cloze-analysis-html",
+      "sha256": "abdd7bd2974225fbd66433977b261460f9e9b4bf308859033c1c616a87c8e8cc",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-a/"
+    },
+    {
+      "kind": "matching-analysis-html",
+      "sha256": "2bfea3dc355a29bb20850a7da3d3ab8fb06c9f605d9103ab40a68c94ed685e49",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-b/"
+    },
+    {
+      "kind": "reading1-analysis-html",
+      "sha256": "ab9aa155433903d133be886c4ab011ab4ff00d3cae2ffe6bafa148e51ad31d42",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-c/"
+    },
+    {
+      "kind": "reading2-analysis-html",
+      "sha256": "e67b3a6496fcbf9798f37839618ed9a4e798f231d2de6328d764280dcda7d8ca",
+      "url": "https://english-exam.lazynote.cn/cet6/sections/2026-06-1/part3-section-c-2/"
+    }
+  ],
+  "summary": {
+    "questions_reviewed": 55,
+    "groups_reviewed": 11,
+    "stored_option_rows": 290,
+    "multiple_choice_questions": 35,
+    "multiple_choice_options_cross_checked_with_corresponding_pdf_question": 140,
+    "all_mcq_option_letters_and_order_preserved": true,
+    "all_55_reference_answers_match_html_and_pdf": true,
+    "all_55_stems_and_explanations_match_own_source_question": true,
+    "listening_transcript_paragraphs_cross_checked_with_pdf": 43,
+    "all_43_listening_paragraphs_match_pdf": true,
+    "audio_opening_topics_sampled": 7,
+    "all_7_audio_openings_match_expected_topic": true,
+    "word_bank_entries": 15,
+    "matching_paragraphs": 13,
+    "reading_paragraphs": [
+      5,
+      9
+    ],
+    "import_blocking_issues": 0
+  },
+  "multiple_choice_pdf_check": [
+    {
+      "q_number": 1,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "e033e3173aa3d87ee24d0609545b81ff746b17aa42059ec02d6646c0840b91b5",
+        "B": "62c6ab94cbb8495d09bf44f2b2b4ae9375e304c2106acb4e5184071a400696e5",
+        "C": "71e0cd992ae4d694d8eafeb5de7256327b84c7fa70e7cde2452b67e010a054ac",
+        "D": "3ad13f4705058273aee670182b73170b20f875c546ac594d1bafa247aa568d74"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "q_number": 2,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "6d3a01a2e913ac0f78d6578ef93a32bedc991c63f2d3cbabd28cbc367f00529a",
+        "B": "65462002161b121643fe48ca28900e560bd0c81ca32316d7576307b0e9a38199",
+        "C": "2d14398eb0e5594ee8ea7543690393395e0d63ed2574892426de9610e5b2027c",
+        "D": "83f2683e129761157de158401ca649334fc400837c34c941c02ef877f3ed906b"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "q_number": 3,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "abc10109ec403b14047982089216f39deae7a7f47ae765bbf24f69c267fcf24e",
+        "B": "b71b1709042e6e47bb14306e6775667f46d50da683074ccbd11f66d855821f33",
+        "C": "d05cd8281c5f3b6faae7fec7f9349058309dcb8a3a2b01662060948fc26e1f33",
+        "D": "614ca0a5d89df5eab09421200b18fe5e935e1fae9455bda9484d17b104cfc5a0"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "q_number": 4,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "24f2a36f61ff3615d8643b92aea63f80ad5b9e47f66b1876a38441480171d32a",
+        "B": "016e3cf0ac023fe69fcce50a5571273a0e08fb45cd7aefca4ad1f8232e8d9662",
+        "C": "6407325d697f327db30d9fdea80e551738663334b683640a401404b328672842",
+        "D": "df8467c0afb9497fc7380c0c05246e2d1f942d017aa8540d8dc6a9c08fbb392b"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        1
+      ]
+    },
+    {
+      "q_number": 5,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "be4023f3e6e58e2b7031c57ef0894944c004a4517e10bfa31913b170c2e23e25",
+        "B": "f5373b9ce5fbd2183fdf55e20ff84ed14834e1c2a2c710952f469ef41b848926",
+        "C": "f792f50c7212d0bb407e7684998081ab1f351f1a7845ff1811e47cb41ed8019c",
+        "D": "f7c9df3887e56ac011fb498ff10eee6a7f3cb024370003ffd920ff8631e86571"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "q_number": 6,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "537a43b67a8c7288f0de447183062cc6c9eae6a59b4a7250afd9a948bdb9939e",
+        "B": "42a3453591e61fc91bd02d49aad7780ebba816f26c1ef67793529a21096498d1",
+        "C": "279afe3d9f0af8f6b6e5fc77cac2ca2ebbe342e54656246a21d67fa3b638f2cf",
+        "D": "2e0af2b7faa3ba305ebe71beaf119dff7923141770bfd6e6d0acc2e1ebf45112"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "q_number": 7,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "0d13dcddb741c02b4bc99325d4e59611e7f4ec73ee08d8f3ea99ee4c2839c542",
+        "B": "398816b246943d562be45295ecc208b810e7479df30d208ab9b803c1656bf038",
+        "C": "8c0dc2c74fbfc31dd26561ed45e30d912a2013280c5503a8b2ce204383b99919",
+        "D": "07e42900375db739eb0051e130ea93e89d3426ac533b59a91bf009d98b8fb978"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "q_number": 8,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "2fbb812fedf51629ce080353d7630b66625a0a39f05e92554885f5bee83ad24f",
+        "B": "28b80803b2f492494ee6ce89b6177f18880c572c91e25f28d26ec4d711cc4017",
+        "C": "ed13a54707237fba20dac3a53ef12f31f625ef1c562d8d933807fd67dc2634f9",
+        "D": "abe04f565c00ef0c08639cfbb238670edd54d9093e91a4ccd316fc8f7e55c0ef"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "q_number": 9,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "4631226fd2aaf84ab15422cc8358a75a34309f8e85e5612b5699572a1e77ec82",
+        "B": "7aba7cf7beef12df2cf81d5c9c05423edcc2391fa5356ff53e884da9eba53330",
+        "C": "68dc32df57d7808f87db2f72a31c4219c606ed9992ab3fe5576cc2b358aa1d00",
+        "D": "c3667c4ea5789e4121887db6a8dcd58ef9f26ef9675d49221517e61a8873c65b"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "q_number": 10,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "205ca43c6b7076bd715bbe05a48016ebaf78028426e5bb6088b47fa5b1b9c060",
+        "B": "a1c0a695b2e4a75d91757ee5eee87e5c818a4540fb6116c8c27ee143f275a8bf",
+        "C": "4ca187c6a67eccba5bec3aeb480ee5fa26f1e1e10df6efad8027d4fbc5fd9a11",
+        "D": "c3d29d9349bac5ffdd42505b6f13aeef8f7686469ca8d6227319979f208f8539"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "q_number": 11,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "abe28f69859f9197f94af65c6d6830229368dce064a4819e2aa2e760edbc4abf",
+        "B": "c8696b0139b7e0bdb72289c93cda57d9d61d30ebd06f13a14b0ab8c33d5fa9e6",
+        "C": "f1d8010397db2e33c05d6dbc2f5a91a5a0ccde4968f1ce9cceb4ea5cb4fb82c6",
+        "D": "c0c07615f994fbc2241e5edc95620f1bdf98bf8743c6efd301a0cb731fad2cdb"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        2
+      ]
+    },
+    {
+      "q_number": 12,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "7c00e838cd20f902c1b0866fd18b276883581faeedc09ac1109488b2bc11bc0b",
+        "B": "fc6cf733e6b350889c359da2155eb3c1623f9b2f3115ad5ae8f8d2da9df02b37",
+        "C": "7518bfbbefa5794977b18fcc75ace86c501e0dd29d7fa610942ec9ee69b306f7",
+        "D": "370126c522d60044b479be466df7eba708d0cf1ea91226a085e8fc456c94982b"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "q_number": 13,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "7af8099b56272dcbcd5e87baf4cad0cf0dfbefc6355c88d1e96b3ec0e628a7e9",
+        "B": "cff66bcc39ec6258f3592eb677d5df5a3350f0640f1130130175e3482e408fd2",
+        "C": "ab9461511da75d2f53dcbd99f6d21a0e56769343d19dbafaf7cb10fd63d14022",
+        "D": "9a5eea92adbd0a6f7f7f0a0a7bf10692a1e47a4707707ed081062351295bb2bc"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "q_number": 14,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "30653ec3d646965c747bee628468cc45db418a60a149ffa350dfbedf2a58b08b",
+        "B": "d1c8798c0c6eec172de17a05a8fb0c776bf124c08f95d71f5d4c530ab3b8a905",
+        "C": "460dc1e593cb2c0da68150128dff569dc312037c43975a6871e6d7f1b9f70b62",
+        "D": "eb6eb8a2a5661a141e1cc78501285ca1b7cc0b9acc33fdcb80813b200019efb1"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "q_number": 15,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "155aa1b3a2e9befd0349ca659e8e27a1ee201e2be9fa50216d9d69e93d93075e",
+        "B": "8f1fc4207658abe23507b63b08311f98bb2bd34d954ab2a19a5ef2c69ef737ca",
+        "C": "69cb78c06785480bf60a30d85033b0e66eb8e34d8e452d1868d1cebb50c07c58",
+        "D": "1fb359bb07d391c2e72af40da1b0fad458e20b0706873b4835b44a6ac29dea8e"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "q_number": 16,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "631991e1288c6af937be0661e305e4d0cbd74770971e1c3b91a11bc5b3d94ffe",
+        "B": "6bbed8ff49fd2288fbb3ef987df075ff381aec0e45635d02f7e0d834f29133ea",
+        "C": "442f52a9a1dec31a6845f35c6c3867a2a9da1cf9b46cdf8ceaf60a99102aeeed",
+        "D": "aa071b9006ba4cee7c1c4be643f40b2c94b925e04646b5b7b082eb304be6c4c2"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "q_number": 17,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "51b180079d8c55080f980a57e60a48e9b4018222d6744c1aed72a5a16616b5df",
+        "B": "8d0d5ab9da1731b68b4fe3646939acb7be825133005bfd5b46ee4e5e05509112",
+        "C": "389f3d46f1f5c943ff336ca633f87caa8c2baf98df8f7ca776b343dba962d145",
+        "D": "b8e69b9fa4d001346a8e9e8ea7c7a79dc14f8a9a0826f64c68aa0fd4af60a3b7"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "q_number": 18,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "7aa06804c8f3be8a80e777e508d760399d30e6fafe05f13b380214e9670b82cb",
+        "B": "aacff5c13a1189965a290968a510e1f8ef992e4e88243c208a6f6c7b853a7ddb",
+        "C": "da193a109f6fea5d2ec5518e7961d104d3b575fffaf02af5c77502bdf87937cb",
+        "D": "f7ac9ef0b4b114018f35f33ee5691178a1859b5fa36bdb22f049b4ef522e67a4"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        3
+      ]
+    },
+    {
+      "q_number": 19,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "c2bdbb7b31c260b30ce233c650b0de3a2ee19c03f9ac6fb5c9514c4841f23e9e",
+        "B": "17012b94ef39d00f26e3f6b85e3b999236074d106fa93c40515817e6ffdd0295",
+        "C": "f196b1685d74e15236895e3bcd6376189bf50567eb4a24a32394166555e39c6d",
+        "D": "a9a290a55f57ea44783b4df81c4776e099cfe7d3ca04a507a234dfe7e02c0292"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "q_number": 20,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "dc04a9074fe96b6b826e513b0af5dedef0b2b0e0ab4d7c7750d31086e719cedf",
+        "B": "0ab73e088aa50fe754456eaad9137c26f9138d0ae246ec7daf289f2097eb8208",
+        "C": "33d34cf057ff626b14ddc7df4f2c853b332ea48aa4baa3d0cf0f494c3dfc9af9",
+        "D": "59dd14843892271e955b8ef935e10dcfab3a4e564ed17877c4234ddce8e5bc07"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "q_number": 21,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "4bf156ac24bdf79155a3e4a8a47ac619b3fec2aeb3b420aeca251a5bbcfca1fd",
+        "B": "c7a6d6a17e4437bf4f150d288fdfd2a8a0be40dd43817328146bd1fe78769d84",
+        "C": "8919b3c90f0753d7dddc7b74bca5a2862c4d5a0cff0c5a30477fcc04ed4184e3",
+        "D": "b68259ec7f1ce47c0281baed161e496aa48d565efe48efe098e4563d4a20300b"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "q_number": 22,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "31b41f5f4c3ac53cefe7f97887c4cf6ccd3534a0b4716fb83ba2aceec8cbc113",
+        "B": "5afd7d5974bfbcb07072b68a9ce17f4786139266ab5f7228620e80a751cb19a3",
+        "C": "73231874fb0084c066f113bad4aeb9a1b09711424dda47cbbf4564b67a8d005d",
+        "D": "be3fa91624920baa49475e5be3a22e50fbc4bee8a05b616a388f607f666a2b2c"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "q_number": 23,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "197d6bc72a04d3509f034425f8f2a138f69f5b298946a738e6c2cd5e870b2645",
+        "B": "2e22df0f7c716fa1c50892d5614af98e6dffe62b466b224edf55195b8f2d00a6",
+        "C": "3c674c9687998ea307564d86c5a6aa835f6722985dfd7eb2e27c8efba043fa18",
+        "D": "07cec0004037cd942788b0d3770e7ed44686227b1fb7bfb57b90d7db3e57cabb"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "q_number": 24,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "419785ba4c11370e8d63c077c65e587dbabf6e5f4ca3f237d516fc6a932ba6bd",
+        "B": "9a99a53bafe3f87468ce28e20e94bf44d18a267461a16a9991d7fea819315797",
+        "C": "a66d46667ecd01110d11f767091f159422e65a828e737fd9a73f16cb2c36854a",
+        "D": "fc58ef18287caaea2e4a312ec0012bf9ae30b5ab87f24de02d7ccf468ef76168"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "q_number": 25,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "dd5ca881154c799e667c012eed91771737b89d57c9ab9f294856839eafd34b89",
+        "B": "22deb352fa3c048d60082c90eb5c6e6a65cb26c1921ce3b28f766d8bb3e821fe",
+        "C": "f2feddfa0584cdf17a404119ba38b97689e2e2b8ad0fcd1341351344e65343ea",
+        "D": "b16c1b78802d623a6a21d0d0a4b8424ebc935b1e084c79752ebed4bff25f3994"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        4
+      ]
+    },
+    {
+      "q_number": 46,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "00c21e430f63925cae2e8b735fd579db27eafc9f64a10431da23440fe95fe893",
+        "B": "bc2d621c91fa81e3d2cd6aa6814d4532a6fb631d2a52ee39fe9abd8eddf72106",
+        "C": "b5d05134d34e128fa6957cf21e9331019152ed75cbbe05c365b18f6b92015294",
+        "D": "04f6b465b9a14a80c798607859e08242ae0ebbe33e3668a2027e38b850988c9e"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "q_number": 47,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "217476dc13ec8290294ce051350865a5f2081ffc0379ca7657e208f9d56626e9",
+        "B": "f8343b9a5b509507a5fca86bd8c4de947bfeda66d77619e735f390634cb237e8",
+        "C": "d462db0412dda28b74fbf4dc6d2b96afeb932292ec1933537748db7a89f38b71",
+        "D": "a0c81861568916c44bb72f107579ed2a3a0476f58a490a9bba9af5b989653ee7"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "q_number": 48,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "371d541ae9cbb6e66522cc6a4a3eb522a848065dca0fbe99f73e82d639ab5c83",
+        "B": "94068a436209271658727d1ecbc853fa5cad18e4de8504c359df541169481747",
+        "C": "33e9b16d3b1dfe6ac6361bf49afe49494c38c646b84213e788966c36bb0b6439",
+        "D": "f74c8ed1e6a8cef74c45e49565be65d77e2c7e32b1da14e860e4b41a450a1815"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "q_number": 49,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "482cbd956361afb23fa9c7b7013e89d2ae4ad649a638b73b6826a0bc3796a05f",
+        "B": "cd1866cd4cd8bd295942c831c28189263e2650f5ba38f819cddd52578e9b1bff",
+        "C": "d5cd846befd4abcd0dda787955fa0c4e550bad28da0134a53c44563522a5bf4d",
+        "D": "4a61aac27cc18a9812f48bba2f69e56edd5f6eaa5b9378e3d76381b47a5a0df6"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "q_number": 50,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "782aa1d01e9068d3e37dd7ed9c876179cd91df832d8bdc6e5f07ac69b0cdbf27",
+        "B": "9be456ee68d819a227bd22b6a9e529476a40b17ddd9e0fb9b33f83a882f7f064",
+        "C": "d90267b05b66ac33022d60d46d5003f6bfb47daac419f4ee782bf7613ac47f22",
+        "D": "bc1eeda0aa420280dfa4aa71862eb3af535b1adaa19674b07c8b697683a06a58"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        9
+      ]
+    },
+    {
+      "q_number": 51,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "40f248641399c3807bd0a919cfb5e5302fcee331cabaab67d30a5fd2c4a2827a",
+        "B": "dab844fd7135276185dc0e09e0e1cffb88d2db694b05ce851a064f4c731af94c",
+        "C": "078845f85cfd865f4c6968c953251dd0fa1f2ce6ee52ee36b04048b12fff97dc",
+        "D": "71ac7c7c1bff8a21d5bad79d8e7884a816842083ad9f06d34e676466b8ee0e82"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "q_number": 52,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "559cf9aa67fd45c10495fdaae7d7b4bbea4e73ec6de5cba12df353a4c32fd286",
+        "B": "31cf1fdd22fedcd2900b1a54805d37059f3e6cce307420103c25f62ec901988f",
+        "C": "efd3c089543fcb26d46e4b946f5f36b69e1af0332115099c5cc59c9098b6d429",
+        "D": "63d3c2ef271067c4f5e7737b61dfc1476794509e4b4d33ac7e03fc84a420430b"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "q_number": 53,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "1d3c3fe089af108c4460556001752a85f84b6db185365886fe716b4d08a0bfff",
+        "B": "79856b2f6cba1da7c51c874c10f1a912ce2219d977e731ed5dc4e23f31a81064",
+        "C": "0304b106771f03d11fb98088ab76ffd874b182166a818250785650c62a1bd1fe",
+        "D": "9633f87aca5cfee28f4b84f4f72032e24803079bb3bc557f1bf09752de178954"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        10
+      ]
+    },
+    {
+      "q_number": 54,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "6527c3a5761a3efe370829c9844bced9c8bea76c808ec503a74b819ab9301f58",
+        "B": "4cbb631dbd4fabb8b95b5e00c55c61d3befbc90333aa4762109cb184c3e0ebd2",
+        "C": "41a16bf0ac0839f3b4bffc0f020e6d2e81d146452e26d66785bfbcb60384ec4c",
+        "D": "8ad21861a4152c9bb31ef0fec615ca213603d70f443a954e8673bde33617456e"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        11
+      ]
+    },
+    {
+      "q_number": 55,
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "option_count": 4,
+      "option_hashes": {
+        "A": "611cf925242fe77a82a0431e9384399d9e5d0a887ccb40b97ba9a1236742f51e",
+        "B": "e943576bda43ade60d4af825e2b9c086ef0f7e2ad21f9846c67fef4a640e3a41",
+        "C": "2b89d0b6af2cf12fdd877ea135ebc552e404fbac1bcc1a47e6d83c43d4eaf0f2",
+        "D": "a61283c8311800c13b875f72a09c9ab3ff24ea72ced25dbfa38a74081c2ed030"
+      },
+      "all_four_option_texts_in_corresponding_pdf_question": true,
+      "letter_text_sequence_preserved": true,
+      "question_pdf_pages": [
+        11
+      ]
+    }
+  ],
+  "answer_pdf_check": [
+    {
+      "q_number": 1,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 21,
+      "match": true
+    },
+    {
+      "q_number": 2,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 22,
+      "match": true
+    },
+    {
+      "q_number": 3,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 23,
+      "match": true
+    },
+    {
+      "q_number": 4,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 23,
+      "match": true
+    },
+    {
+      "q_number": 5,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 25,
+      "match": true
+    },
+    {
+      "q_number": 6,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 26,
+      "match": true
+    },
+    {
+      "q_number": 7,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 27,
+      "match": true
+    },
+    {
+      "q_number": 8,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 28,
+      "match": true
+    },
+    {
+      "q_number": 9,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 30,
+      "match": true
+    },
+    {
+      "q_number": 10,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 31,
+      "match": true
+    },
+    {
+      "q_number": 11,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 32,
+      "match": true
+    },
+    {
+      "q_number": 12,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 33,
+      "match": true
+    },
+    {
+      "q_number": 13,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 34,
+      "match": true
+    },
+    {
+      "q_number": 14,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 35,
+      "match": true
+    },
+    {
+      "q_number": 15,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 36,
+      "match": true
+    },
+    {
+      "q_number": 16,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 38,
+      "match": true
+    },
+    {
+      "q_number": 17,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 39,
+      "match": true
+    },
+    {
+      "q_number": 18,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 41,
+      "match": true
+    },
+    {
+      "q_number": 19,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 43,
+      "match": true
+    },
+    {
+      "q_number": 20,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 44,
+      "match": true
+    },
+    {
+      "q_number": 21,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 44,
+      "match": true
+    },
+    {
+      "q_number": 22,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 47,
+      "match": true
+    },
+    {
+      "q_number": 23,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 48,
+      "match": true
+    },
+    {
+      "q_number": 24,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 49,
+      "match": true
+    },
+    {
+      "q_number": 25,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 50,
+      "match": true
+    },
+    {
+      "q_number": 26,
+      "html_letter": "J",
+      "pdf_letter": "J",
+      "pdf_page": 70,
+      "match": true
+    },
+    {
+      "q_number": 27,
+      "html_letter": "I",
+      "pdf_letter": "I",
+      "pdf_page": 70,
+      "match": true
+    },
+    {
+      "q_number": 28,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 71,
+      "match": true
+    },
+    {
+      "q_number": 29,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 71,
+      "match": true
+    },
+    {
+      "q_number": 30,
+      "html_letter": "F",
+      "pdf_letter": "F",
+      "pdf_page": 72,
+      "match": true
+    },
+    {
+      "q_number": 31,
+      "html_letter": "K",
+      "pdf_letter": "K",
+      "pdf_page": 72,
+      "match": true
+    },
+    {
+      "q_number": 32,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 72,
+      "match": true
+    },
+    {
+      "q_number": 33,
+      "html_letter": "G",
+      "pdf_letter": "G",
+      "pdf_page": 73,
+      "match": true
+    },
+    {
+      "q_number": 34,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 73,
+      "match": true
+    },
+    {
+      "q_number": 35,
+      "html_letter": "E",
+      "pdf_letter": "E",
+      "pdf_page": 74,
+      "match": true
+    },
+    {
+      "q_number": 36,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 85,
+      "match": true
+    },
+    {
+      "q_number": 37,
+      "html_letter": "I",
+      "pdf_letter": "I",
+      "pdf_page": 85,
+      "match": true
+    },
+    {
+      "q_number": 38,
+      "html_letter": "F",
+      "pdf_letter": "F",
+      "pdf_page": 86,
+      "match": true
+    },
+    {
+      "q_number": 39,
+      "html_letter": "K",
+      "pdf_letter": "K",
+      "pdf_page": 87,
+      "match": true
+    },
+    {
+      "q_number": 40,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 87,
+      "match": true
+    },
+    {
+      "q_number": 41,
+      "html_letter": "H",
+      "pdf_letter": "H",
+      "pdf_page": 88,
+      "match": true
+    },
+    {
+      "q_number": 42,
+      "html_letter": "L",
+      "pdf_letter": "L",
+      "pdf_page": 89,
+      "match": true
+    },
+    {
+      "q_number": 43,
+      "html_letter": "E",
+      "pdf_letter": "E",
+      "pdf_page": 89,
+      "match": true
+    },
+    {
+      "q_number": 44,
+      "html_letter": "M",
+      "pdf_letter": "M",
+      "pdf_page": 90,
+      "match": true
+    },
+    {
+      "q_number": 45,
+      "html_letter": "J",
+      "pdf_letter": "J",
+      "pdf_page": 91,
+      "match": true
+    },
+    {
+      "q_number": 46,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 104,
+      "match": true
+    },
+    {
+      "q_number": 47,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 105,
+      "match": true
+    },
+    {
+      "q_number": 48,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 106,
+      "match": true
+    },
+    {
+      "q_number": 49,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 107,
+      "match": true
+    },
+    {
+      "q_number": 50,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 108,
+      "match": true
+    },
+    {
+      "q_number": 51,
+      "html_letter": "C",
+      "pdf_letter": "C",
+      "pdf_page": 117,
+      "match": true
+    },
+    {
+      "q_number": 52,
+      "html_letter": "B",
+      "pdf_letter": "B",
+      "pdf_page": 118,
+      "match": true
+    },
+    {
+      "q_number": 53,
+      "html_letter": "A",
+      "pdf_letter": "A",
+      "pdf_page": 119,
+      "match": true
+    },
+    {
+      "q_number": 54,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 120,
+      "match": true
+    },
+    {
+      "q_number": 55,
+      "html_letter": "D",
+      "pdf_letter": "D",
+      "pdf_page": 121,
+      "match": true
+    }
+  ],
+  "candidate_question_checks": [
+    {
+      "q_number": 1,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "7043879ab3ef768c70de128437ae55eb3ad675addafa8e271af16895e59af182",
+      "analysis_characters": 1300
+    },
+    {
+      "q_number": 2,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "9443bb2e57e323d68c2d02d1276f0b4d0602159806b8f77b6e8d9e158ecd1532",
+      "analysis_characters": 1359
+    },
+    {
+      "q_number": 3,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "37a7503647266aaabaaf48c5627279b772f87aaba17e51ee66522ff3b55f626c",
+      "analysis_characters": 1213
+    },
+    {
+      "q_number": 4,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "54c3ddc66acfcc9f93ec9128dd9a7c1285e0b87fa018ccf56051b42a00caa4cd",
+      "analysis_characters": 1006
+    },
+    {
+      "q_number": 5,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "08569cfc0ae6f5adbc14acfd8eebdec6bc5f0ce4bd8badccad805c5c2f7f3161",
+      "analysis_characters": 827
+    },
+    {
+      "q_number": 6,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "73c3627afc64f4a566385adeb96d3a2c36f0a0668ad306384b9eca4f9065c59b",
+      "analysis_characters": 974
+    },
+    {
+      "q_number": 7,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "ec976780b5349cedb02dedfaa8e2a444447708394f3347ca7505cb7f43d206c6",
+      "analysis_characters": 544
+    },
+    {
+      "q_number": 8,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "87d4cfc3849c4b6dd1ffbd498fcbbf1aa5ab2bb85de289d325429a9f4ae4d2ed",
+      "analysis_characters": 860
+    },
+    {
+      "q_number": 9,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "be550e849ed5dbcc36dfe02038facb902fe512026a2e92b49b8520c9b7c45433",
+      "analysis_characters": 1578
+    },
+    {
+      "q_number": 10,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "d3d70f8a592008aca0864ef4a1546aef7125718e79e109750b9ae2760ca38e33",
+      "analysis_characters": 1201
+    },
+    {
+      "q_number": 11,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "79a539fa1b1b3beee0a884db38a1bcd942d23024bebc7a4672b8ec2cb18a2cfb",
+      "analysis_characters": 1315
+    },
+    {
+      "q_number": 12,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "9476a7ba8cb2aca5a629e0b3ff7b3966e2946c6400f7211711a8258c0b50f8a1",
+      "analysis_characters": 1038
+    },
+    {
+      "q_number": 13,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "217d1805d39b646b7cd76832aa7e4fcccb1d7914eb3f839340da2a60f3740031",
+      "analysis_characters": 1282
+    },
+    {
+      "q_number": 14,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "98688d46643cdcb5b5c38d14ec5dd27e0dea6b2f5f7386891488df6168a67c0e",
+      "analysis_characters": 1276
+    },
+    {
+      "q_number": 15,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "2157bef4588d26529a2ca8ec9097853b1fefb0a7540860cc0518dcb438ceb1b3",
+      "analysis_characters": 1031
+    },
+    {
+      "q_number": 16,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "f9e6df00300ffd341f521c9626834aa818fecf19d28194752337dffa91d1f991",
+      "analysis_characters": 1258
+    },
+    {
+      "q_number": 17,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "20adf3eea855df939e8e03061e57fd071d5cb2d65cce4040ceb3e94589b7b597",
+      "analysis_characters": 1786
+    },
+    {
+      "q_number": 18,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "643ef0237d97ef938198c09c079a87022f01f1cb97e28043945dd6097892e941",
+      "analysis_characters": 1156
+    },
+    {
+      "q_number": 19,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "a1f0e2fcd74f6c87b57fc4cd0686874c63ae6d41a1b8a45e41f5f3580d0e1034",
+      "analysis_characters": 1324
+    },
+    {
+      "q_number": 20,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "6ab71c16b965c3b7a119e1ec98b266cd4d19ee9c0e32be0b8bc8a04b7e2dce9d",
+      "analysis_characters": 1288
+    },
+    {
+      "q_number": 21,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "6b8e69002bca69166dec9e63d18dae332291748581dc1232657b2528c62322f9",
+      "analysis_characters": 1680
+    },
+    {
+      "q_number": 22,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "d5b67aaf73db88f045d8ca4ccd9148e31f78a36e82e034938cf4bf7d04f35374",
+      "analysis_characters": 1405
+    },
+    {
+      "q_number": 23,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "1d84ceb9210fc21dff3bf4e7f7ec9ea5f6732d389232b212445108f79878a12f",
+      "analysis_characters": 1657
+    },
+    {
+      "q_number": 24,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "c2b4f9f6b658e3ac673eb5810cb8e2744ecf8bbcec85b9e2fd3270e9ab8eb8d2",
+      "analysis_characters": 1019
+    },
+    {
+      "q_number": 25,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "cc7a4eb672eb9033508ba1b90e172cf581d2c654a3302ea97f47f46070bff75a",
+      "analysis_characters": 1362
+    },
+    {
+      "q_number": 26,
+      "correct_answer": "J",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "ff82d9a084adfb5ca947fb4f032432e8ceb1071b78317eea39c0e698c87ef585",
+      "analysis_characters": 830
+    },
+    {
+      "q_number": 27,
+      "correct_answer": "I",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "68dc35317f1ad8e5e13bec283abbac1055ea3f0eabb8689536187e9adb7f4f55",
+      "analysis_characters": 639
+    },
+    {
+      "q_number": 28,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "2144b17d0bd52ae41fc11be7b28d560cc5fdab95302d25f780c1494a9b507aaa",
+      "analysis_characters": 599
+    },
+    {
+      "q_number": 29,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "a2231d5a76da8a2482b53a234c68805de1557995f07aebf7d82e2aa5f0c1b390",
+      "analysis_characters": 616
+    },
+    {
+      "q_number": 30,
+      "correct_answer": "F",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "5a1ab7464fffd1be06a0211a5c0552c2e3909a136be0b32e5dd1bbae9194d78e",
+      "analysis_characters": 478
+    },
+    {
+      "q_number": 31,
+      "correct_answer": "K",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "09122a91b2f6a04da049195d387a70c891e1f140b2264b066e09633de8e31981",
+      "analysis_characters": 303
+    },
+    {
+      "q_number": 32,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "afee397d335450ca1c6a1e39429cb5d5324a503438faa2b95c6193b376050b4b",
+      "analysis_characters": 770
+    },
+    {
+      "q_number": 33,
+      "correct_answer": "G",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "cd4bc9cb485ae8bb5068ee31e3bb84cfc6a8266b662c56d3b8b22533c130db90",
+      "analysis_characters": 383
+    },
+    {
+      "q_number": 34,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "1da86e34d7ce508caa2837d433df8600b014b4841177d6957a9594577aefaf93",
+      "analysis_characters": 532
+    },
+    {
+      "q_number": 35,
+      "correct_answer": "E",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "404581ec9bcef326744aaec974aa7a93226514f274ae1c59eebee2240dc831b3",
+      "analysis_characters": 560
+    },
+    {
+      "q_number": 36,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "19010bd6d34073cc1f3591c8c102c52250e1313a1cb7d21e9d5961dbdf6618b1",
+      "analysis_characters": 1480
+    },
+    {
+      "q_number": 37,
+      "correct_answer": "I",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "cfbd1a254f21d20af0d5240040397fc7617058da8e15c618dca803749ae0fb05",
+      "analysis_characters": 856
+    },
+    {
+      "q_number": 38,
+      "correct_answer": "F",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "bdaaff7a0202e8213f25ec4de183a69ddbf39951668a814854a2702d064761a8",
+      "analysis_characters": 1107
+    },
+    {
+      "q_number": 39,
+      "correct_answer": "K",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "c9c8abb3f2e925e403aa7365267ea4a1a3a428b04d24d814bb84249faa89db36",
+      "analysis_characters": 938
+    },
+    {
+      "q_number": 40,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "aa161850f7659fc48a645aa70381ac821c11db31d1abd25f21e35a1d33d4e207",
+      "analysis_characters": 1077
+    },
+    {
+      "q_number": 41,
+      "correct_answer": "H",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "3e69b3977be7ed423e4fdd8c6e98840ea97dbb1ba222da999a91dac77ceb4b45",
+      "analysis_characters": 996
+    },
+    {
+      "q_number": 42,
+      "correct_answer": "L",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "915c780eabeb16a5871260640d6ae0b264c7c4760ca55ee8a991c80124e9552f",
+      "analysis_characters": 949
+    },
+    {
+      "q_number": 43,
+      "correct_answer": "E",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "d0b3826226931c630f828b6a8e4d060992b101b08bd0ceeeb19b92aba16315ec",
+      "analysis_characters": 1101
+    },
+    {
+      "q_number": 44,
+      "correct_answer": "M",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "dc1b8e1eda083f12ed672b48c970529dce2f61d63158740c07a33a52d5487d70",
+      "analysis_characters": 977
+    },
+    {
+      "q_number": 45,
+      "correct_answer": "J",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "7c4e1e9ee4ca4e3a4ee4f58c03a5426c28e7481c8a7ea07cf18c810f2439ebb4",
+      "analysis_characters": 1509
+    },
+    {
+      "q_number": 46,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "8c5044bf42071706838588dfbf2d0df740bd627e0dbf74ebb401b00da9c8eb94",
+      "analysis_characters": 1459
+    },
+    {
+      "q_number": 47,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "391b7cf3094dcf95e631e8f35d2e96db5336ee0da030d7ad635f8d79d10a68fe",
+      "analysis_characters": 1623
+    },
+    {
+      "q_number": 48,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "a94519dcaa6638abeb874695beb65ce4a10a372e35522e6740e9aedca15f7415",
+      "analysis_characters": 1525
+    },
+    {
+      "q_number": 49,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "ab3bafd4e32390b5b5da2252131297c55e50a4e74853b47802a10c7d7dff023c",
+      "analysis_characters": 1494
+    },
+    {
+      "q_number": 50,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "f7ab15b26eef9cb97bb74f4b799a2b7ad6d49eaa0d3ba967b608689c10269e08",
+      "analysis_characters": 1563
+    },
+    {
+      "q_number": 51,
+      "correct_answer": "C",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "0af09793bb767a9dc038f3718bba5723f11ef11b608c0c9f9db8170e28ee0153",
+      "analysis_characters": 1490
+    },
+    {
+      "q_number": 52,
+      "correct_answer": "B",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "d355410779bcdb81832d401883d7d2bf50ff1a88e669e24c4277ae782b0ac704",
+      "analysis_characters": 1203
+    },
+    {
+      "q_number": 53,
+      "correct_answer": "A",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "d0120fe7cf5f19ffd09ce5784d118750df776892ab26ed76ba6a893e4e75f3f4",
+      "analysis_characters": 1046
+    },
+    {
+      "q_number": 54,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "fa2c6def7105b3b49695f834e841a88b3823e64949a5540d23d9e5d88b283515",
+      "analysis_characters": 1225
+    },
+    {
+      "q_number": 55,
+      "correct_answer": "D",
+      "content_matches_own_source": true,
+      "all_option_text_and_letters_match_own_source": true,
+      "answer_matches_html_pdf_and_module": true,
+      "complete_analysis_preserved_in_own_question_boundary": true,
+      "translation_prefix_matches_own_source": true,
+      "analysis_sha256": "e3d5cfa6dff7b64fb602e27039a66526f5e5a443ecb42594b3bf64e12a04a22d",
+      "analysis_characters": 1630
+    }
+  ],
+  "candidate_group_checks": [
+    {
+      "range": [
+        1,
+        4
+      ],
+      "kind": "listening",
+      "paragraph_count": 12,
+      "transcript_matches_own_html_group": true,
+      "audio_start_matches_published_cue": true,
+      "group_content_sha256": "017359042df60b02a00054c0005299766372a2e0f653929e77354d1eb4d90459"
+    },
+    {
+      "range": [
+        5,
+        8
+      ],
+      "kind": "listening",
+      "paragraph_count": 8,
+      "transcript_matches_own_html_group": true,
+      "audio_start_matches_published_cue": true,
+      "group_content_sha256": "912041062a7dd1754e3f931341fc705df9ed5545643f3368eb1b5aa0cbd1eb59"
+    },
+    {
+      "range": [
+        9,
+        11
+      ],
+      "kind": "listening",
+      "paragraph_count": 4,
+      "transcript_matches_own_html_group": true,
+      "audio_start_matches_published_cue": true,
+      "group_content_sha256": "c3ecea65ebe19aebfcc1a9a36940d7cd2112fa4a96d4e73f94c9461972ae213e"
+    },
+    {
+      "range": [
+        12,
+        15
+      ],
+      "kind": "listening",
+      "paragraph_count": 5,
+      "transcript_matches_own_html_group": true,
+      "audio_start_matches_published_cue": true,
+      "group_content_sha256": "e0cb4d52d6d6e33abc7412137140411f4dc0cd2520b28624ca3d49d1b6825a16"
+    },
+    {
+      "range": [
+        16,
+        18
+      ],
+      "kind": "listening",
+      "paragraph_count": 5,
+      "transcript_matches_own_html_group": true,
+      "audio_start_matches_published_cue": true,
+      "group_content_sha256": "ab2867d3dd8fd2a2e0e46277dbefb17ec693725840b9d7841cb447f7b832c3e3"
+    },
+    {
+      "range": [
+        19,
+        21
+      ],
+      "kind": "listening",
+      "paragraph_count": 5,
+      "transcript_matches_own_html_group": true,
+      "audio_start_matches_published_cue": true,
+      "group_content_sha256": "f0ff29ac366cd8b2e0b38abe52aafe6905765ae80d1623d16bd22fb7f0236493"
+    },
+    {
+      "range": [
+        22,
+        25
+      ],
+      "kind": "listening",
+      "paragraph_count": 4,
+      "transcript_matches_own_html_group": true,
+      "audio_start_matches_published_cue": true,
+      "group_content_sha256": "74648a48bbb4f72d8ca1ac762412785a33ab086e1a3e383cd59a878406a1c5c9"
+    },
+    {
+      "range": [
+        26,
+        35
+      ],
+      "kind": "cloze",
+      "paragraph_count": 7,
+      "passage_matches_whole_paper_html": true,
+      "group_content_sha256": "111b12ce41fda36ce48248a88aeb716c3cf31c34b6c664382d569f06df996b98"
+    },
+    {
+      "range": [
+        36,
+        45
+      ],
+      "kind": "matching",
+      "paragraph_count": 13,
+      "passage_matches_whole_paper_html": true,
+      "group_content_sha256": "05090925b7b7adfd46126b149c405e5147176bf808dd18027e216fb9f940aa4d"
+    },
+    {
+      "range": [
+        46,
+        50
+      ],
+      "kind": "reading",
+      "paragraph_count": 5,
+      "passage_matches_whole_paper_html": true,
+      "group_content_sha256": "82e26715cace1e4f3ed3d7d76ceee6861aa4f1a8826722480fcdb7ad46141980"
+    },
+    {
+      "range": [
+        51,
+        55
+      ],
+      "kind": "reading",
+      "paragraph_count": 9,
+      "passage_matches_whole_paper_html": true,
+      "group_content_sha256": "d5c94aa6a3ac4e9dc5855c82f87fb670e25b17809a28b54a4d8e10aa56087c73"
+    }
+  ],
+  "word_bank": {
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O"
+    ],
+    "count": 15,
+    "words": {
+      "A": "anywhere",
+      "B": "asserts",
+      "C": "constituent",
+      "D": "correlated",
+      "E": "determining",
+      "F": "devastating",
+      "G": "enacted",
+      "H": "entails",
+      "I": "exemption",
+      "J": "impose",
+      "K": "notified",
+      "L": "notwithstanding",
+      "M": "presume",
+      "N": "rehabilitation",
+      "O": "reproaching"
+    },
+    "all_letter_word_pairs_found_in_pdf": true
+  },
+  "matching": {
+    "paragraph_labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M"
+    ],
+    "paragraph_count": 13,
+    "all_paragraphs_match_question_pdf": true,
+    "question_numbers": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "all_ten_statements_match_own_source": true,
+    "storage_note": "Matching paragraph labels A-M are represented in the group passage; matching questions intentionally have no duplicated option rows."
+  },
+  "listening_transcript_pdf_check": {
+    "paragraphs": [
+      {
+        "anchor": "p-1-1",
+        "chars": 230,
+        "sha256": "b3fc2e96d31201c0050c266677a08b9cab47532632069a12b0ae591a8db0df19",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-2",
+        "chars": 141,
+        "sha256": "26ca2e87b4f91a32162ad26d241f7fd7d6fb4e98cfb5a690bb7025a7b9916f54",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-3",
+        "chars": 97,
+        "sha256": "d0e29e03d1da1339cad04c94d8821e1ed5ee6f7889fbea3e61ab8ff3b476c4a8",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-4",
+        "chars": 136,
+        "sha256": "780d92ae551bb5003c02a511b26aee9996ed14ba5415d4ecd95226d8de909ff0",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-5",
+        "chars": 103,
+        "sha256": "e1bb78c4350631982eb98527a01c27f7e9d56a4b075a7030652c14fa78514995",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-6",
+        "chars": 130,
+        "sha256": "72d179b242f3a963ab5d2cbace7cc8bb9f569dcf4ad5cae37d5055fd26e1ad17",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-7",
+        "chars": 107,
+        "sha256": "eba4e5a67336e23cceab8dc6a5bff39e00cbccd87f27107bb425273aa20f2d0b",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-8",
+        "chars": 179,
+        "sha256": "927ebe9c2fcf4522d961526fa171ab05323f951caeb0f76e4afc750af078025e",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-9",
+        "chars": 141,
+        "sha256": "2676ad8328f6ca00508600eda7746da63a497b0c571def769e19076e33682527",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-10",
+        "chars": 207,
+        "sha256": "ce9128116e969096ccf80cce6ffc35072617c108a2568024d31f8e73d7f111bf",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-11",
+        "chars": 106,
+        "sha256": "4ee418800d0a322ad48a75393ce922a62fb10c7b2783276003660ca79a8556b6",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-1-12",
+        "chars": 84,
+        "sha256": "2e2754a3a1b93cb6a95269b843065fc70298b55e107c2e0252e569391d205155",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-5-1",
+        "chars": 277,
+        "sha256": "3d795b3c18e171ae770534e3186adf5ec2475468bcfc4c11ea7deb3f68887b9c",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-5-2",
+        "chars": 250,
+        "sha256": "28b74f1d327dcd29f84ab88860521520365ab1a5f5a92e501025486d93c8c56f",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-5-3",
+        "chars": 147,
+        "sha256": "f36f5ae98c865d09dfa455d7c14773e884755c086792f8d3476fdb62f6b4f0e4",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-5-4",
+        "chars": 188,
+        "sha256": "ef20cff2c77417a1fdb7b29bbd46da60e4f422fc1cb00b4af3ffe48e508bdfa7",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-5-5",
+        "chars": 211,
+        "sha256": "70202e8c1778e2589678790b651af2a9ca6dfa926ebedc433b5903d75ebfedb9",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-5-6",
+        "chars": 347,
+        "sha256": "09085e974ebcb9e1471c79c5e567ef0e371046c2befc813c773b7933b37f29fa",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-5-7",
+        "chars": 175,
+        "sha256": "d54cebd93a4d15322ebace4393b7c9506524aae51b141e7dd4568bfd1eb3adc0",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-5-8",
+        "chars": 194,
+        "sha256": "c7d00ffdb40412c684746f86863f4ac8217001c2aefe6a7021c0b0790980b489",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-9-1",
+        "chars": 426,
+        "sha256": "e23da4e6cd2338a7b4e2d1260016394d3670e456eba799feae125486c252181d",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-9-2",
+        "chars": 223,
+        "sha256": "c7d39f8247e03eee198a28d05dd2ab6a6dcf1308b77de51a0f220ea79bd263a8",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-9-3",
+        "chars": 352,
+        "sha256": "2918d606384351e451ae60422f346e00f59c393cb6bbadc8fee31f71f8340161",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-9-4",
+        "chars": 572,
+        "sha256": "931af09040775ffa9fb5278904c3f1b684028a140fae47e099c1287a965d1d37",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-12-1",
+        "chars": 479,
+        "sha256": "8c3fb3fe6abd41f8da771bcc289c2bc5cc846100379248da1ec445bbfcd956a8",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-12-2",
+        "chars": 337,
+        "sha256": "60e2ed7191fc23bed08c85ad5c8a9fef62176274b3d93f516ec6efc280af8ace",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-12-3",
+        "chars": 158,
+        "sha256": "e5b74962c4f9ca733dbebf31c805543aceceba07bdb6be13b873d8ec3edbae3c",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-12-4",
+        "chars": 209,
+        "sha256": "b762bbd347d6f9fe7d9078510c95d5bec4be072efa451e56bcc37ad4dd319274",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-12-5",
+        "chars": 304,
+        "sha256": "b90ad06694172eca136363fa2cec37282b0808361eddd26bd966cf8413b05ce1",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-16-1",
+        "chars": 606,
+        "sha256": "8ac752ba1c1982a7cf6fa0e051c59366428714a996bb49d9252137ace6646fe7",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-16-2",
+        "chars": 451,
+        "sha256": "26fe990786425cb237b771442c764259030119fcb6a2ec53524eb597f73bb0e0",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-16-3",
+        "chars": 522,
+        "sha256": "abc4c4b6623b2db68c29475f44adc136a0ee43bdb7cc3435addd27de53ea9f19",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-16-4",
+        "chars": 483,
+        "sha256": "e94e4996b58c198d29a80523beefe69daac6d36b5c78639b271691f21f706c76",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-16-5",
+        "chars": 352,
+        "sha256": "04d94f7a5942a2395fcf701a96f1b848250ddf00b294020ca6f1239bd9f2247d",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-19-1",
+        "chars": 428,
+        "sha256": "8edbd9ed1698f665851ea01ebf4adeef937102275ab57808102cde183e637b30",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-19-2",
+        "chars": 267,
+        "sha256": "638835b6f5d60161828beaa411b11f9250e520831c3224204015c14321ed67a6",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-19-3",
+        "chars": 579,
+        "sha256": "fbc89abe8e93f2279b49b2f98a6d55b2abd158a1c5785c5d9ca6124e6b675531",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-19-4",
+        "chars": 430,
+        "sha256": "bbb0f1ce90a1ecc17d2d359b820c11b1540aac736f6a8f65f7a3bf1f18517979",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-19-5",
+        "chars": 551,
+        "sha256": "e4418b72f220bfa971646494bafa9f03107cacf78d5577e963f9632a42a774a2",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-22-1",
+        "chars": 971,
+        "sha256": "108b7ea318272003c8119257544fb5a4a02ec4fb929fc531e532b7496ad84ae9",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-22-2",
+        "chars": 623,
+        "sha256": "4afdeb904dc5a735559c67e15bdc41955eba6d5ad6a6700586fd719304b5020e",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-22-3",
+        "chars": 247,
+        "sha256": "a7312772536882d3b2989f1aff96a10b57cb7e47ca6aca408798703a89dccae4",
+        "whole_paragraph_in_answers_pdf": true
+      },
+      {
+        "anchor": "p-22-4",
+        "chars": 420,
+        "sha256": "78ccfe78c4fe84a0687d1c337a367ada9630b44d57e92293bab56e0da1f05a33",
+        "whole_paragraph_in_answers_pdf": true
+      }
+    ],
+    "all_43_match_after_removing_print_headings_and_footers": true,
+    "normalization_notes": [
+      "PDF extracted group heading appears inside p-22-1; skipped the known group-heading line for this comparison.",
+      "Paragraph numbers and print footer are not transcript content."
+    ]
+  },
+  "audio_validation": {
+    "segments_downloaded_and_validated": 150,
+    "full_recording_decoded": true,
+    "codec": "aac",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 1495.8062585034013,
+    "remux_without_reencoding": true,
+    "source_and_m4a_decoded_pcm_identical": true,
+    "topic_sample_method": "The preexisting local base.en model independently recognized the first 22 seconds at each of the seven published group starts; recognized themes were compared with source group bodies. No new model or remote server was used.",
+    "topic_samples": [
+      {
+        "question_range": [
+          1,
+          4
+        ],
+        "start_seconds": 38.066,
+        "end_seconds": 60.066,
+        "topic": "Career development and promotion",
+        "opening_topic_matches_group_transcript": true
+      },
+      {
+        "question_range": [
+          5,
+          8
+        ],
+        "start_seconds": 218.933,
+        "end_seconds": 240.933,
+        "topic": "Dividing a presentation between two students",
+        "opening_topic_matches_group_transcript": true
+      },
+      {
+        "question_range": [
+          9,
+          11
+        ],
+        "start_seconds": 437.266,
+        "end_seconds": 459.266,
+        "topic": "Makeup and perceptions of attractiveness or status",
+        "opening_topic_matches_group_transcript": true
+      },
+      {
+        "question_range": [
+          12,
+          15
+        ],
+        "start_seconds": 612.333,
+        "end_seconds": 634.333,
+        "topic": "Habit change and willpower",
+        "opening_topic_matches_group_transcript": true
+      },
+      {
+        "question_range": [
+          16,
+          18
+        ],
+        "start_seconds": 825.133,
+        "end_seconds": 847.133,
+        "topic": "Seafood advice for pregnant women",
+        "opening_topic_matches_group_transcript": true
+      },
+      {
+        "question_range": [
+          19,
+          21
+        ],
+        "start_seconds": 1067.466,
+        "end_seconds": 1089.466,
+        "topic": "Vacation frequency and well-being",
+        "opening_topic_matches_group_transcript": true
+      },
+      {
+        "question_range": [
+          22,
+          25
+        ],
+        "start_seconds": 1283.1,
+        "end_seconds": 1305.1,
+        "topic": "Driver-state sensors and autonomous vehicles in Sweden",
+        "opening_topic_matches_group_transcript": true
+      }
+    ]
+  },
+  "visual_review": {
+    "question_pdf_pages_inspected_completely": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answer_pdf_pages_sampled_completely": [
+      19,
+      29,
+      70,
+      85,
+      104,
+      117
+    ],
+    "page_numbering": "physical PDF pages, 1-based",
+    "checks": [
+      "All 35 A-D option blocks, 15-word bank and blank numbering 26-35",
+      "Matching paragraphs A-M and statements 36-45",
+      "Separate boundaries for the two reading passages",
+      "Listening transcript and answer-analysis source layout samples"
+    ]
+  },
+  "text_boundaries_and_cleanliness": {
+    "all_55_explanations_preserve_own_analysis_body": true,
+    "no_print_footer_or_cross_question_text_imported": true,
+    "no_replacement_control_or_private_use_characters_found": true,
+    "normalization_notes": [
+      "Whitespace was ignored for source comparisons; cloze __(N)__ display was normalized to __N__.",
+      "The English listening question stem is moved from the analysis source into the question content field.",
+      "Matching and reading Chinese translations are kept before the explanation body, sourced from the same question.",
+      "Paragraph counters, drawer controls and position-pill labels are UI elements and are excluded.",
+      "Question 31 genuinely has only answer, grammar-slot and evidence sections in the source; all three are retained without inventing rival-word analysis.",
+      "Question-PDF blank numbers are extracted separately from paragraph text; physical page 5 was visually checked for all numbers 26-35.",
+      "The PDF extraction order inserts the Questions 22 to 25 group heading inside transcript paragraph p-22-1; the known heading line was excluded when comparing that paragraph."
+    ]
+  },
+  "issues": [],
+  "limitations": [
+    "The source is publisher-provided reference material; official authorship and official reference-answer certification are not established by this review.",
+    "Audio checks establish complete decoding, seven topic matches and sensible group starts. They do not certify every spoken word or every listening answer semantically.",
+    "PDF and HTML matching demonstrates consistent import from this source, not independent proof that all publisher explanations are flawless.",
+    "The structured objective-question scope is 1-55; writing and translation remain available in the full source PDF rather than being treated as automatically graded objective questions."
+  ],
+  "database_modified_by_this_review": false,
+  "public_report_contains_absolute_host_paths_or_personal_records": false
+}

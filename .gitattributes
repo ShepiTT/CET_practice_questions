@@ -4,3 +4,8 @@ reports/*.json -text whitespace=cr-at-eol
 # Preserve vendored releases and upstream notices byte for byte.
 static/vendor/** -text -whitespace
 docs/licenses/** -text -whitespace
+
+# Exam media and SQLite seeds must retain their original binary bytes.
+*.pdf binary
+*.mp3 binary
+*.db binary
