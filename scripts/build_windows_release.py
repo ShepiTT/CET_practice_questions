@@ -2,7 +2,7 @@
 
 Run with the isolated environment from requirements-build.txt.  The first stage
 can build only the onedir runtime; after testing it, --reuse-runtime creates the
-two ZIPs without rebuilding Python or copying the 93 recordings twice.
+two ZIPs without rebuilding Python or copying the recordings twice.
 """
 
 from __future__ import annotations
@@ -121,8 +121,8 @@ def educational_assets(root: Path = ROOT) -> list[Path]:
     question_pdfs = sorted((root / "data").glob("*.pdf"))
     answer_pdfs = sorted((root / "data/answers").glob("*.pdf"))
     audio = sorted((root / "data/audio").glob("*.mp3"))
-    if tuple(map(len, (question_pdfs, answer_pdfs, audio))) != (93, 93, 93):
-        raise ValueError("Expected exactly 93 question PDFs, 93 answer PDFs, and 93 MP3s")
+    if not question_pdfs or not answer_pdfs or not audio:
+        raise ValueError("Question PDFs, answer PDFs, and MP3s must all be present")
     names = {path.stem for path in question_pdfs}
     if names != {path.stem for path in answer_pdfs} or names != {path.stem for path in audio}:
         raise ValueError("Question, answer, and audio filenames do not match")
@@ -235,15 +235,16 @@ Build environment packages:
 
 桌面程序版：双击 CETPractice.exe，在独立窗口中练习。
 网页启动器版：双击 CETPractice-Web.exe，随后在默认浏览器中练习。
-两版均自带 Python 运行环境、题库、93 份试卷 PDF、93 份答案 PDF 和
-93 个 MP3，不需要另装 Python，也不需要注册账号。
+两版均自带 Python 运行环境、题库及全部配套试卷 PDF、答案 PDF 和
+MP3，不需要另装 Python，也不需要注册账号。
 
 桌面版需要系统 Microsoft Edge WebView2 Runtime；Windows 10/11 通常已具备。
 如缺少运行环境，可使用网页启动器版，或从微软官网下载 WebView2 Runtime：
 https://developer.microsoft.com/microsoft-edge/webview2/
 
 练习记录由程序保存到当前 Windows 用户的数据目录，两种启动模式共用记录。
-更新时解压新版本到新文件夹即可。关闭网页不会立即停止后台服务，
+更新前关闭旧程序，再将新版本解压到新文件夹。启动时会备份并追加新增试卷，
+保留已有题目修订和个人练习记录。关闭网页不会立即停止后台服务，
 请使用启动器提供的退出入口停止服务。
 
 项目与使用说明：https://github.com/ShepiTT/CET_practice_questions
@@ -315,7 +316,10 @@ def build_runtime(work: Path, version: str, public_database: Path | None, git_re
                 "variant": "desktop", "default_mode": "desktop",
                 "runtime_executable": {"filename": "CETPractice.exe", "size": (runtime / "CETPractice.exe").stat().st_size,
                                        "sha256": sha256(runtime / "CETPractice.exe")},
-                "asset_counts": {"question_pdfs": 93, "answer_pdfs": 93, "audio_mp3s": 93},
+                "asset_counts": {
+                    "question_pdfs": sum(name.startswith("data/") and name.count("/") == 1 and name.endswith(".pdf") for name in assets),
+                    "answer_pdfs": sum(name.startswith("data/answers/") and name.endswith(".pdf") for name in assets),
+                    "audio_mp3s": sum(name.startswith("data/audio/") and name.endswith(".mp3") for name in assets)},
                 "python_version": sys.version, "personal_records_included": False,
                 "external_runtime": "Microsoft Edge WebView2 (desktop window only)"}
     json_write(runtime / "RELEASE-MANIFEST.json", manifest)
@@ -422,7 +426,7 @@ def create_archives(runtime: Path, output: Path, compression_level: int = 6) -> 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--version", default="1.0.0")
+    parser.add_argument("--version", default=(ROOT / "VERSION").read_text(encoding="utf-8-sig").strip())
     parser.add_argument("--public-database", type=Path, help="Explicit already-public database instead of the committed Git seed")
     parser.add_argument("--git-ref", default="HEAD", help="Commit containing the public instance/cet4_v2.db seed")
     parser.add_argument("--work-dir", type=Path, help="New staging directory inside .cache (must not already exist)")

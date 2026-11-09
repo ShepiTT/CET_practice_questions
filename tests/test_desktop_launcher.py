@@ -23,9 +23,14 @@ def seed_database(resources):
     directory.mkdir(parents=True)
     database = directory / "cet4_v2.db"
     with sqlite3.connect(database) as connection:
-        connection.execute("CREATE TABLE question(id INTEGER PRIMARY KEY, content TEXT)")
-        connection.execute("INSERT INTO question VALUES(1, 'Bundled question')")
+        connection.execute("CREATE TABLE question_group(id INTEGER PRIMARY KEY, source_file TEXT, audio_start REAL)")
+        connection.execute("INSERT INTO question_group VALUES(1, '2025-06-CET4-1.pdf', 10)")
+        connection.execute("CREATE TABLE question(id INTEGER PRIMARY KEY, source_file TEXT, group_id INTEGER REFERENCES question_group(id), q_number INTEGER, content TEXT)")
+        connection.execute("INSERT INTO question VALUES(1, '2025-06-CET4-1.pdf', 1, 1, 'Bundled question')")
+        connection.execute("CREATE TABLE option(id INTEGER PRIMARY KEY, question_id INTEGER REFERENCES question(id), label TEXT, text TEXT)")
+        connection.execute("INSERT INTO option VALUES(1, 1, 'A', 'Original option')")
         connection.execute("CREATE TABLE user_history(id INTEGER PRIMARY KEY, answer TEXT)")
+        connection.execute("CREATE TABLE wrong_question(id INTEGER PRIMARY KEY, question_id INTEGER)")
     return database
 
 
@@ -58,6 +63,160 @@ def test_existing_user_database_does_not_require_seed(tmp_path):
     existing.write_bytes(b"preserved bytes")
     assert launcher.prepare_database(tmp_path / "missing", user) == existing
     assert existing.read_bytes() == b"preserved bytes"
+
+
+def database_rows(path):
+    with sqlite3.connect(path) as connection:
+        return {table: connection.execute(f'SELECT * FROM "{table}" ORDER BY id').fetchall()
+                for table in launcher._EDUCATIONAL + launcher._PERSONAL}
+
+
+def add_new_seed_paper(path, count=55):
+    """Synthetic test questions exercise the real append path, not exam content."""
+    paper = "2026-06-CET6-1.pdf"
+    with sqlite3.connect(path) as connection:
+        next_ids = {table: connection.execute(f'SELECT COALESCE(MAX(id), 0)+1 FROM "{table}"').fetchone()[0]
+                    for table in launcher._EDUCATIONAL}
+        added = {table: [] for table in launcher._EDUCATIONAL}
+
+        def insert(table, values):
+            columns = {row[1] for row in connection.execute(f'PRAGMA table_info("{table}")')}
+            values = {name: value for name, value in values.items() if name in columns}
+            names = ",".join(f'"{name}"' for name in values)
+            placeholders = ",".join("?" for _ in values)
+            connection.execute(f'INSERT INTO "{table}" ({names}) VALUES ({placeholders})', tuple(values.values()))
+            added[table].append(values["id"])
+
+        group_id = next_ids["question_group"]
+        insert("question_group", {"id": group_id, "source_file": paper, "title": f"Test questions 1 to {count}",
+                                  "group_type": "reading", "passage": "Synthetic upgrade test passage.", "audio_start": 0})
+        for index in range(count):
+            question_id = next_ids["question"] + index
+            insert("question", {"id": question_id, "source_file": paper, "group_id": group_id, "q_number": index + 1,
+                                "content": f"Upgrade test question {index + 1}", "correct_answer": "C",
+                                "explanation": "Synthetic test explanation."})
+            for offset, label in enumerate("ABCD"):
+                insert("option", {"id": next_ids["option"] + index * 4 + offset,
+                                  "question_id": question_id, "label": label, "text": f"Synthetic {label}"})
+    return paper, added
+
+
+def test_changed_seed_appends_new_paper_and_cache_makes_repeat_a_noop(tmp_path, monkeypatch):
+    resources, user = tmp_path / "resources", tmp_path / "user"
+    seed = seed_database(resources)
+    database = launcher.prepare_database(resources, user)
+    with sqlite3.connect(database) as connection:
+        connection.execute("UPDATE question SET content='My corrected question' WHERE id=1")
+        connection.execute("UPDATE option SET text='My corrected option' WHERE id=1")
+        connection.execute("UPDATE question_group SET audio_start=42 WHERE id=1")
+        connection.execute("INSERT INTO user_history VALUES(31, 'D')")
+        connection.execute("INSERT INTO wrong_question VALUES(32, 1)")
+    original = database_rows(database)
+    paper, _ = add_new_seed_paper(seed)
+    assert launcher.prepare_database(resources, user) == database
+    updated = database_rows(database)
+    for table in launcher._EDUCATIONAL + launcher._PERSONAL:
+        assert updated[table][:len(original[table])] == original[table]
+    with sqlite3.connect(database) as connection:
+        assert connection.execute("SELECT COUNT(*) FROM question WHERE source_file=?", (paper,)).fetchone() == (55,)
+    backups = list(user.glob("*.bak-seed-*"))
+    assert len(backups) == 1
+    assert database_rows(backups[0]) == original
+    before_repeat = database.read_bytes()
+    monkeypatch.setattr(launcher, "_seed_digest", lambda _path: pytest.fail("Unchanged seed should use the cached fingerprint"))
+    assert launcher.prepare_database(resources, user) == database
+    assert database.read_bytes() == before_repeat
+    assert list(user.glob("*.bak-seed-*")) == backups
+
+
+@pytest.mark.parametrize("conflict", ["question_group", "question", "option", "same_paper", "partial_options"])
+def test_seed_upgrade_conflicts_leave_all_user_rows_unchanged(tmp_path, conflict):
+    resources, user = tmp_path / "resources", tmp_path / "user"
+    seed = seed_database(resources)
+    database = launcher.prepare_database(resources, user)
+    paper, added = add_new_seed_paper(seed)
+    with sqlite3.connect(database) as connection:
+        if conflict == "question_group":
+            connection.execute("INSERT INTO question_group VALUES(?, 'my-custom-paper.pdf', 1)", (added[conflict][0],))
+        elif conflict == "question":
+            connection.execute("INSERT INTO question VALUES(?, 'my-custom-paper.pdf', 1, 2, 'My own question')", (added[conflict][0],))
+        elif conflict == "option":
+            connection.execute("INSERT INTO option VALUES(?, 1, 'B', 'My own option')", (added[conflict][0],))
+        elif conflict == "same_paper":
+            connection.execute("INSERT INTO question_group VALUES(999, ?, 1)", (paper,))
+        else:
+            connection.execute("DELETE FROM option WHERE id=1")
+        connection.execute("INSERT INTO user_history VALUES(33, 'A')")
+        connection.execute("INSERT INTO wrong_question VALUES(34, 1)")
+    original = database_rows(database)
+    before = database.read_bytes()
+    with pytest.raises(RuntimeError, match="备份") as caught:
+        launcher.prepare_database(resources, user)
+    assert "SELECT" not in str(caught.value) and "INSERT" not in str(caught.value)
+    assert database_rows(database) == original
+    assert database.read_bytes() == before
+    backups = list(user.glob("*.bak-seed-*"))
+    assert len(backups) == 1 and database_rows(backups[0]) == original
+
+
+@pytest.mark.parametrize("trigger", ["AFTER INSERT ON question", "AFTER UPDATE ON _cet_seed_state"])
+def test_upgrade_rolls_back_all_inserts_if_a_trigger_touches_old_rows(tmp_path, trigger):
+    resources, user = tmp_path / "resources", tmp_path / "user"
+    seed = seed_database(resources)
+    database = launcher.prepare_database(resources, user)
+    add_new_seed_paper(seed)
+    with sqlite3.connect(database) as connection:
+        connection.execute(f"""CREATE TRIGGER bad_upgrade {trigger}
+                               BEGIN UPDATE question SET content='unwanted' WHERE id=1; END""")
+    before = database_rows(database)
+    with pytest.raises(RuntimeError, match="备份") as caught:
+        launcher.prepare_database(resources, user)
+    assert "not authorized" not in str(caught.value)
+    assert database_rows(database) == before
+    with sqlite3.connect(database) as connection:
+        assert connection.execute("SELECT COUNT(*) FROM question_group").fetchone() == (1,)
+
+
+def test_v100_public_database_gains_55_questions_without_changing_any_old_row(tmp_path):
+    resources, user = tmp_path / "resources", tmp_path / "user"
+    seed = resources / "instance/cet4_v2.db"
+    seed.parent.mkdir(parents=True)
+    repository = Path(__file__).resolve().parents[1]
+    # Read the released Git object, never the workspace's personal database.
+    result = subprocess.run(["git", "show", "v1.0.0:instance/cet4_v2.db"], cwd=repository,
+                            stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if result.returncode:
+        pytest.skip("The v1.0.0 public seed Git object is not available in this checkout")
+    seed.write_bytes(result.stdout)
+    original_release = database_rows(seed)
+    assert len(original_release["question"]) == 5009
+    assert original_release["user_history"] == original_release["wrong_question"] == []
+    user.mkdir()
+    database = user / "cet4_v2.db"
+    shutil.copyfile(seed, database)  # An actual v1.0.0 install has no seed marker.
+    with sqlite3.connect(database) as connection:
+        first_id = connection.execute("SELECT MIN(id) FROM question").fetchone()[0]
+        connection.execute("INSERT INTO user_history VALUES(701, ?, 'D', 0, '2026-11-09 12:34:56.123456')", (first_id,))
+        connection.execute("INSERT INTO wrong_question VALUES(702, ?, '2026-11-09 12:34:57.654321')", (first_id,))
+        connection.execute("UPDATE question SET explanation='My retained explanation' WHERE id=?", (first_id,))
+        connection.execute("UPDATE option SET text='My retained option' WHERE id=(SELECT MIN(id) FROM option)")
+        connection.execute("UPDATE question_group SET audio_start=42.125 WHERE id=(SELECT MIN(id) FROM question_group)")
+    old_rows = database_rows(database)
+    paper, added = add_new_seed_paper(seed)
+    launcher.prepare_database(resources, user)
+    after = database_rows(database)
+    for table in launcher._EDUCATIONAL:
+        assert after[table][:len(old_rows[table])] == old_rows[table]
+        assert len(after[table]) == len(old_rows[table]) + len(added[table])
+    for table in launcher._PERSONAL:
+        assert after[table] == old_rows[table]
+    env = {**os.environ, "CET4_DATABASE_URI": "sqlite:///" + database.as_posix(), "CET4_RESOURCE_DIR": str(repository)}
+    check = subprocess.run([sys.executable, "-c", "import app; r=app.app.test_client().get('/practice/2026-06-CET6-1.pdf'); "
+                            "assert r.status_code == 200; print(r.get_data(as_text=True).count('data-q-id='))"],
+                           cwd=repository, env=env, text=True, capture_output=True)
+    assert check.returncode == 0, check.stderr
+    assert check.stdout.strip() == "55"
+    assert database_rows(database) == after
 
 
 def test_explicit_database_uri_is_kept_and_does_not_copy_seed(tmp_path, monkeypatch):

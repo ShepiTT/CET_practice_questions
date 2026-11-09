@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import argparse
 from contextlib import closing
+from datetime import datetime, timezone
+import hashlib
 import importlib
 import json
 import logging
@@ -29,6 +31,12 @@ TITLE = "四六级真题练习"
 HEALTH_PATH = "/_launcher/health"
 SHUTDOWN_PATH = "/_launcher/shutdown"
 _HTTP = build_opener(ProxyHandler({}))
+_SEED_STATE = "_cet_seed_state"
+_EDUCATIONAL = ("question_group", "question", "option")
+_PERSONAL = ("user_history", "wrong_question")
+_IDENTITY = {"question_group": ("source_file",),
+             "question": ("source_file", "group_id", "q_number"),
+             "option": ("question_id", "label")}
 
 
 def resource_directory() -> Path:
@@ -111,26 +119,201 @@ class InstanceLock:
             self.stream = None
 
 
+def _seed_stat(seed: Path) -> tuple[str, int, int, int]:
+    stat = seed.stat()
+    return str(seed.resolve()), stat.st_size, stat.st_mtime_ns, stat.st_ctime_ns
+
+
+def _seed_digest(seed: Path) -> str:
+    digest = hashlib.sha256()
+    with seed.open("rb") as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
+
+
+def _seed_state(connection) -> tuple | None:
+    exists = connection.execute("SELECT 1 FROM sqlite_master WHERE type='table' AND name=?", (_SEED_STATE,)).fetchone()
+    if exists:
+        return connection.execute(f'SELECT seed_sha256, seed_path, seed_size, seed_mtime_ns, seed_ctime_ns FROM "{_SEED_STATE}" WHERE id=1').fetchone()
+    return None
+
+
+def _record_seed(connection, digest: str, signature: tuple) -> None:
+    connection.execute(f'''CREATE TABLE IF NOT EXISTS "{_SEED_STATE}" (
+        id INTEGER PRIMARY KEY CHECK(id=1), seed_sha256 TEXT NOT NULL,
+        seed_path TEXT NOT NULL, seed_size INTEGER NOT NULL,
+        seed_mtime_ns INTEGER NOT NULL, seed_ctime_ns INTEGER NOT NULL)''')
+    def authorize(action, table, _column, _database, _trigger):
+        if action in (sqlite3.SQLITE_INSERT, sqlite3.SQLITE_UPDATE, sqlite3.SQLITE_DELETE):
+            return sqlite3.SQLITE_OK if table == _SEED_STATE else sqlite3.SQLITE_DENY
+        return sqlite3.SQLITE_OK
+    connection.set_authorizer(authorize)
+    try:
+        connection.execute(f'''INSERT INTO "{_SEED_STATE}" VALUES(1, ?, ?, ?, ?, ?)
+            ON CONFLICT(id) DO UPDATE SET seed_sha256=excluded.seed_sha256,
+            seed_path=excluded.seed_path, seed_size=excluded.seed_size,
+            seed_mtime_ns=excluded.seed_mtime_ns, seed_ctime_ns=excluded.seed_ctime_ns''', (digest, *signature))
+    finally:
+        connection.set_authorizer(None)
+
+
+def _table_rows(connection, table: str) -> tuple[list[str], dict[int, tuple]]:
+    # All callers use the fixed educational/personal table whitelist above.
+    columns = [row[1] for row in connection.execute(f'PRAGMA table_info("{table}")')]
+    if "id" not in columns:
+        raise ValueError("题库表结构不完整，无法安全追加新试卷。")
+    index = columns.index("id")
+    return columns, {row[index]: tuple(row) for row in connection.execute(f'SELECT * FROM "{table}" ORDER BY id')}
+
+
+def _append_new_papers(connection, source) -> None:
+    before = {table: _table_rows(connection, table) for table in _EDUCATIONAL + _PERSONAL}
+    bundled = {table: _table_rows(source, table) for table in _EDUCATIONAL}
+    for table in _EDUCATIONAL:
+        columns, existing = before[table]
+        seed_columns, seed_rows = bundled[table]
+        if columns != seed_columns or any(field not in columns for field in _IDENTITY[table]):
+            raise ValueError("题库表结构与新版不一致，无法安全追加新试卷。")
+        identity = [columns.index(field) for field in _IDENTITY[table]]
+        for row_id in existing.keys() & seed_rows.keys():
+            if tuple(existing[row_id][i] for i in identity) != tuple(seed_rows[row_id][i] for i in identity):
+                raise ValueError("新版试卷编号与本机题目冲突，已取消追加；旧题和练习记录未被覆盖。")
+
+    def paper_ids(tables):
+        result = {}
+        for table in ("question_group", "question"):
+            columns, rows = tables[table]
+            index = columns.index("source_file")
+            for row_id, row in rows.items():
+                result.setdefault(row[index], {}).setdefault(table, set()).add(row_id)
+        return result
+
+    installed, available = paper_ids(before), paper_ids(bundled)
+    for paper in installed.keys() & available.keys():
+        for table in ("question_group", "question"):
+            if not available[paper].get(table, set()).issubset(installed[paper].get(table, set())):
+                raise ValueError(f"本机已存在同名试卷 {paper}，但题目编号不一致，已取消追加。")
+    new_papers = available.keys() - installed.keys()
+    additions = {}
+    for table in ("question_group", "question"):
+        columns, rows = bundled[table]
+        index = columns.index("source_file")
+        additions[table] = {row_id: row for row_id, row in rows.items() if row[index] in new_papers}
+    option_columns, options = bundled["option"]
+    question_index = option_columns.index("question_id")
+    additions["option"] = {row_id: row for row_id, row in options.items()
+                           if row[question_index] in additions["question"]}
+    # An existing paper must also retain all source option identities. A partial
+    # manual import is not silently treated as an already installed new paper.
+    for row_id, row in options.items():
+        if row_id not in before["option"][1] and row_id not in additions["option"]:
+            raise ValueError("本机已有同名试卷的选项不完整，已取消追加，请先核对该卷。")
+
+    def authorize(action, table, _column, _database, _trigger):
+        if action in (sqlite3.SQLITE_INSERT, sqlite3.SQLITE_UPDATE, sqlite3.SQLITE_DELETE):
+            if action == sqlite3.SQLITE_INSERT and table in _EDUCATIONAL:
+                return sqlite3.SQLITE_OK
+            return sqlite3.SQLITE_DENY
+        return sqlite3.SQLITE_OK
+
+    connection.set_authorizer(authorize)
+    try:
+        for table in _EDUCATIONAL:
+            columns, existing = before[table]
+            if existing.keys() & additions[table].keys():
+                raise ValueError("新增试卷的编号已被本机题目占用，已取消追加。")
+            names = ", ".join(f'"{name}"' for name in columns)
+            placeholders = ", ".join("?" for _ in columns)
+            connection.executemany(f'INSERT INTO "{table}" ({names}) VALUES ({placeholders})', additions[table].values())
+        for table in _EDUCATIONAL + _PERSONAL:
+            expected = {**before[table][1], **additions.get(table, {})}
+            if _table_rows(connection, table) != (before[table][0], expected):
+                raise ValueError("追加后检测到旧题或练习记录变化，已取消本次更新。")
+    finally:
+        connection.set_authorizer(None)
+
+
+def _upgrade_database(seed: Path, destination: Path) -> None:
+    signature = _seed_stat(seed)
+    backup = None
+    try:
+        with closing(sqlite3.connect(destination, timeout=30, isolation_level=None)) as connection:
+            state = _seed_state(connection)
+            if state and tuple(state[1:]) == signature:
+                return
+            digest = _seed_digest(seed)
+            if _seed_stat(seed) != signature:
+                raise ValueError("安装包题库正在变化，请重新解压完整程序后启动。")
+            connection.execute("PRAGMA foreign_keys=ON")
+            connection.execute("BEGIN IMMEDIATE")
+            try:
+                # File metadata changes after moving an unchanged installation
+                # only refresh the cache; they do not trigger another upgrade.
+                if state and state[0] == digest:
+                    _record_seed(connection, digest, signature)
+                    connection.commit()
+                    return
+                stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+                backup = destination.with_name(destination.name + ".bak-seed-" + stamp)
+                # A separate read connection backs up the committed snapshot;
+                # backup() on the connection owning BEGIN IMMEDIATE can hang.
+                with closing(sqlite3.connect(destination.resolve().as_uri() + "?mode=ro", uri=True)) as original:
+                    with closing(sqlite3.connect(backup)) as saved:
+                        original.backup(saved)
+                        if saved.execute("PRAGMA quick_check").fetchone() != ("ok",):
+                            raise ValueError("个人题库备份校验失败，已取消更新。")
+                with closing(sqlite3.connect(seed.resolve().as_uri() + "?mode=ro", uri=True)) as source:
+                    if source.execute("PRAGMA integrity_check").fetchone() != ("ok",) or source.execute("PRAGMA foreign_key_check").fetchall():
+                        raise ValueError("安装包题库校验失败，已取消更新。")
+                    _append_new_papers(connection, source)
+                if connection.execute("PRAGMA integrity_check").fetchone() != ("ok",) or connection.execute("PRAGMA foreign_key_check").fetchall():
+                    raise ValueError("更新后题库校验失败，已取消更新。")
+                if _seed_stat(seed) != signature:
+                    raise ValueError("安装包题库正在变化，已取消更新。")
+                _record_seed(connection, digest, signature)
+                connection.commit()
+            except Exception:
+                connection.rollback()
+                raise
+    except Exception as error:
+        # Do not put raw SQL or row contents in the user-facing error dialog.
+        logging.exception("Bundled seed upgrade failed")
+        reason = str(error) if isinstance(error, ValueError) else "题库更新未完成，请查看启动日志。"
+        recovery = f"\n更新前备份：{backup}" if backup and backup.is_file() else "\n原题库和练习记录已保留。"
+        raise RuntimeError(reason + recovery) from error
+
+
 def prepare_database(resources: Path, data_directory: Path) -> Path:
-    """Install the bundled seed once, never overwrite an existing user's file."""
+    """Install once, then append newly bundled papers without replacing old rows."""
     destination = data_directory / "cet4_v2.db"
+    seed = resources / "instance" / "cet4_v2.db"
     if destination.exists():
         if not destination.is_file():
             raise RuntimeError(f"练习数据库路径不是文件：{destination}")
+        if seed.is_file():
+            _upgrade_database(seed, destination)
         return destination
-    seed = resources / "instance" / "cet4_v2.db"
     if not seed.is_file():
         raise FileNotFoundError(f"安装包缺少题库：{seed}")
     data_directory.mkdir(parents=True, exist_ok=True)
     fd, temporary = tempfile.mkstemp(prefix="cet4-seed-", suffix=".db", dir=data_directory)
     os.close(fd)
     try:
+        signature = _seed_stat(seed)
+        digest = _seed_digest(seed)
+        if _seed_stat(seed) != signature:
+            raise RuntimeError("安装包题库正在变化，请重新启动。")
         with closing(sqlite3.connect(seed.as_uri() + "?mode=ro", uri=True)) as source:
             with closing(sqlite3.connect(temporary)) as target:
                 source.backup(target)
                 result = target.execute("PRAGMA quick_check").fetchone()
                 if result != ("ok",):
                     raise RuntimeError("安装包题库校验失败。")
+                if _seed_stat(seed) != signature:
+                    raise RuntimeError("安装包题库正在变化，请重新启动。")
+                _record_seed(target, digest, signature)
+                target.commit()
         # The caller owns InstanceLock.  This extra guard also protects direct use.
         if destination.exists():
             return destination

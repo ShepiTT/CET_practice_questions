@@ -60,18 +60,19 @@ def test_packager_refuses_live_database_as_explicit_seed(tmp_path, monkeypatch):
         builder.prepare_database(tmp_path / "stage.db", live)
 
 
-def test_educational_assets_are_exact_narrow_whitelist(tmp_path):
+@pytest.mark.parametrize("paper_count", [1, 94])
+def test_educational_assets_are_exact_narrow_whitelist(tmp_path, paper_count):
     for folder, extension in (("data", ".pdf"), ("data/answers", ".pdf"), ("data/audio", ".mp3")):
         (tmp_path / folder).mkdir(parents=True, exist_ok=True)
-        for index in range(93):
+        for index in range(paper_count):
             (tmp_path / folder / f"paper-{index}{extension}").touch()
     (tmp_path / "data/shared_listening.json").write_text("{}")
     (tmp_path / "data/ocr").mkdir()
     (tmp_path / "data/ocr/private-cache.txt").write_text("not for distribution")
     files = builder.educational_assets(tmp_path)
-    assert len(files) == 280
+    assert len(files) == paper_count * 3 + 1
     assert all("ocr" not in path.parts for path in files)
-    (tmp_path / "data/audio/paper-92.mp3").rename(tmp_path / "data/audio/wrong-name.mp3")
+    (tmp_path / "data/audio/paper-0.mp3").rename(tmp_path / "data/audio/wrong-name.mp3")
     with pytest.raises(ValueError, match="filenames do not match"):
         builder.educational_assets(tmp_path)
 
