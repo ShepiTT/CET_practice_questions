@@ -12,7 +12,8 @@ class QuestionGroup(db.Model):
     group_type = db.Column(db.String(50)) # listening, cloze, matching, reading
     audio_start = db.Column(db.Float) # listening only: seconds into the paper's MP3 where this group starts
     transcript = db.Column(db.Text) # listening only: the recording's script, from the answer key
-    questions = db.relationship('Question', backref='group', lazy=True, cascade="all, delete-orphan")
+    questions = db.relationship('Question', backref='group', lazy=True, cascade="all, delete-orphan",
+                                order_by=lambda: (Question.q_number, Question.id))
 
 class Question(db.Model):
     id = db.Column(db.Integer, primary_key=True)

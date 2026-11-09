@@ -1,22 +1,57 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="d-flex justify-content-between align-items-center mb-4">
-    <h2>{{ filename }}</h2>
-    <div>
+<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 practice-toolbar">
+    <h2 class="practice-title mb-0">{{ filename }}</h2>
+    <div class="d-flex flex-wrap gap-2">
+        {% if groups %}
         <button id="show-all-answers" class="btn btn-outline-warning me-2">显示所有答案</button>
+        {% endif %}
         {% if mode == 'random' %}
         <a href="{{ url_for('random_practice', level=level) if level else url_for('random_practice') }}" class="btn btn-success me-2">换一批题目</a>
+        {% endif %}
+        {% if mode == 'special' %}
+        <a href="{{ url_for('special_practice', type=special_type, level=level, count=count) }}" class="btn btn-success">换一批题目</a>
+        <a href="{{ url_for('special_practice', level=level, count=count) }}" class="btn btn-outline-primary">调整专项</a>
         {% endif %}
         <a href="/" class="btn btn-outline-secondary">返回列表</a>
     </div>
 </div>
 
+{% if shared_reference %}
+<section class="alert {{ 'alert-info' if shared_reference.enabled else 'alert-warning' }} mb-4 shared-listening-notice"
+         aria-label="共享听力来源" data-shared-listening-source="{{ shared_reference.source_file or '' }}">
+    <h3 class="h6 fw-bold mb-2">{{ '共享听力 · 25 题' if shared_reference.enabled else '共享听力暂不可用' }}</h3>
+    {% if shared_reference.enabled %}
+    <p class="mb-1">本卷原 PDF 省略听力，本页采用 <a href="{{ url_for('practice', filename=shared_reference.source_file) }}">{{ shared_reference.source_file }}</a> 的完整听力。</p>
+    <p class="mb-0">选项顺序、答案和解析均按上述来源卷，做题进度与来源卷共用；本页其他题型继续使用当前试卷。</p>
+    {% else %}
+    <p class="mb-0">{{ shared_reference.error }}</p>
+    {% endif %}
+</section>
+{% endif %}
+
+{% if mode == 'special' %}
+<div class="rounded border bg-white px-3 py-3 mb-4" aria-label="本次专项范围">
+    <span class="badge bg-primary me-2">{{ level_label }}</span>
+    本次 {{ groups|length }} 组 · {{ question_count }} 题
+    {% if groups and available_groups < count %}<span class="text-muted small ms-2">当前共有 {{ available_groups }} 组可练，本次已全部抽取。</span>{% endif %}
+</div>
+{% if not groups %}
+<div class="card text-center p-4 p-md-5">
+    <h3 class="h5">暂无可用的{{ special_types[special_type].label }}题组</h3>
+    <p class="text-muted mb-3">试试其他考试等级或题型。{% if special_type == 'listening' %}听力专项需要题目配有录音。{% endif %}</p>
+    <a class="btn btn-primary align-self-center" href="{{ url_for('special_practice', level=level, count=count) }}">重新选择专项</a>
+</div>
+{% endif %}
+{% endif %}
+
 <div id="groups-container">
     {% for group in groups %}
     <div class="card group-card mb-5 shadow-sm">
         <div class="card-header bg-light">
-            <h5 class="mb-0 text-primary">{{ group.title }}</h5>
+            <h3 class="mb-0 text-primary">{{ group.title }}</h3>
+            {% if mode == 'special' or (shared_reference and shared_reference.enabled and group.group_type == 'listening') %}<div class="small text-muted mt-1">来源：{{ group.source_file }}</div>{% endif %}
         </div>
         <div class="card-body">
             {% if group.group_type == 'cloze' %}
@@ -35,7 +70,7 @@
             {% endif %}
 
             {% if group.passage and group.passage != "Audio context required." %}
-            <div class="passage-box p-3 bg-white border rounded mb-4" style="max-height: 400px; overflow-y: auto; white-space: pre-wrap;">{{ group.passage|clean_exam_text }}</div>
+            <div class="passage-box passage-panel"><div class="reading-content" data-reading-kind="passage">{{ group.passage|clean_exam_text }}</div></div>
             {% endif %}
 
             {% if group.group_type == 'listening' %}{% include '_audio_controls.html' %}{% endif %}
@@ -43,22 +78,24 @@
             <div class="questions-list">
                 {% for q in group.questions %}
                 <div class="question-item mb-4 pb-3 border-bottom" data-q-id="{{ q.id }}">
-                    <div class="d-flex">
-                        <span class="badge bg-secondary me-2 h-100">Q{{ q.q_number }}</span>
-                        <div class="flex-grow-1">
-                            <p class="mb-2">{{ q.content|clean_exam_text }}</p>
+                    <div class="question-header">
+                        <span class="question-number">Q{{ q.q_number }}</span>
+                        {% set prompt = q.content|clean_exam_text %}
+                        <p class="question-stem">{% if prompt == 'Question ' ~ q.q_number %}选择正确答案{% elif prompt == 'Blank ' ~ q.q_number %}选择合适的单词{% else %}{{ prompt }}{% endif %}</p>
+                    </div>
+                        <div class="question-body">
                             {% if not q.correct_answer %}<p class="small text-warning-emphasis">本题暂无标准答案，可练习但不判分。</p>{% endif %}
                             
                             <div class="options-container">
                                 {% if group.group_type == 'matching' %}
-                                    <div class="input-group mb-2" style="max-width: 200px;">
+                                    <div class="input-group answer-input mb-2">
                                         <span class="input-group-text">对应段落字母</span>
-                                        <input type="text" class="form-control matching-input" placeholder="如: A" maxlength="2">
+                                        <input type="text" class="form-control matching-input" placeholder="如: A" maxlength="2" aria-label="第{{ q.q_number }}题答案">
                                         <button class="btn btn-primary submit-btn">提交</button>
                                     </div>
                                 {% elif group.group_type == 'cloze' %}
-                                    <div class="input-group mb-2" style="max-width: 200px;">
-                                        <select class="form-select cloze-select">
+                                    <div class="input-group answer-input mb-2">
+                                        <select class="form-select cloze-select" aria-label="第{{ q.q_number }}题答案">
                                             <option value="">选择选项...</option>
                                             {% for opt in q.options %}
                                             <option value="{{ opt.label }}">{{ opt.label }}</option>
@@ -72,7 +109,7 @@
                                         {% for opt in q.options %}
                                         <div class="col">
                                             <button class="btn btn-outline-primary w-100 text-start mcq-btn" data-label="{{ opt.label }}">
-                                                <strong>{{ opt.label }}.</strong> {{ opt.text|clean_exam_text }}
+                                                <strong>{{ opt.label }}.</strong><span>{{ opt.text|clean_exam_text }}</span>
                                             </button>
                                         </div>
                                         {% endfor %}
@@ -80,15 +117,14 @@
                                 {% endif %}
                             </div>
 
-                            <div class="feedback mt-2 d-none">
+                            <div class="feedback mt-2 d-none" aria-live="polite">
                                 <div class="alert py-2 mb-2"></div>
-                                <div class="explanation-box p-3 bg-light border rounded small d-none" style="white-space: pre-wrap;">
-                                    <strong>题目详解：</strong><br>
-                                    <span class="explanation-text"></span>
+                                <div class="explanation-box d-none">
+                                    <h4 class="explanation-title">题目解析</h4>
+                                    <div class="explanation-text"></div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
                 {% endfor %}
             </div>
@@ -134,7 +170,7 @@ document.addEventListener('click', function(e) {
 let allAnswersShown = false;
 const REVEAL = "REVEAL"; // client-side marker for renderFeedback, never sent to the server
 
-document.getElementById('show-all-answers').addEventListener('click', function() {
+document.getElementById('show-all-answers')?.addEventListener('click', function() {
     allAnswersShown = !allAnswersShown;
     this.textContent = allAnswersShown ? '隐藏所有答案' : '显示所有答案';
     this.classList.toggle('btn-warning', allAnswersShown);
@@ -228,17 +264,15 @@ function renderFeedback(qItem, user_answer, data) {
     if (data.explanation) {
         const explBox = qItem.querySelector('.explanation-box');
         const explText = qItem.querySelector('.explanation-text');
-        explText.textContent = data.explanation;
+        CETText.render(explText, data.explanation, { kind: 'explanation' });
         explBox.classList.remove('d-none');
     }
 }
 </script>
 <style>
-    .passage-box { line-height: 1.6; font-size: 1.05rem; }
     .question-item.answered .mcq-btn { pointer-events: none; }
     .btn-success { color: white !important; }
     .btn-danger { color: white !important; }
-    .vocabulary-bank { font-family: 'Times New Roman', serif; }
     .vocabulary-bank .border { transition: all 0.2s; }
     .vocabulary-bank .border:hover { background-color: #f8f9fa; border-color: #0d6efd !important; }
 </style>

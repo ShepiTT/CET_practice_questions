@@ -1,0 +1,77 @@
+{
+  "created_at_utc": "2026-11-09T02:12:23.290878+00:00",
+  "scope": "GitHub distribution source, reviewed question bank, and actual interface screenshots; local preview does not imply public web hosting.",
+  "repository": "https://github.com/ShepiTT/CET_practice_questions",
+  "automated_tests": {
+    "passed": 295,
+    "warnings": 28
+  },
+  "database": {
+    "path": "instance/cet4_v2.db",
+    "sha256": "7374b32efe4bdd56d150d8d79d77a28703b9c2f4281636d5da49e1e6cf4b747c",
+    "questions": 5009,
+    "options": 26578,
+    "groups": 1061,
+    "listening_groups": 696,
+    "learner_history_rows": 0,
+    "wrong_question_rows": 0,
+    "education_rows_identical_to_local_database": true,
+    "integrity_check": "ok",
+    "foreign_key_violations": 0,
+    "local_learner_records_preserved": true
+  },
+  "shared_listening_readback": {
+    "papers": 9,
+    "displayed_question_positions": 225,
+    "groups": 65,
+    "actual_source_options_and_answers_match": true,
+    "audio_range_status": 206,
+    "database_unchanged_by_readback": true
+  },
+  "screenshots": [
+    {
+      "path": "docs/images/home.jpg",
+      "sha256": "fd9eeb0f0c9a36610766ee34e39913ba5aeaf81d588e5536608b800d8e51add2",
+      "captured_from_running_distribution_copy": true
+    },
+    {
+      "path": "docs/images/special-practice.jpg",
+      "sha256": "c896f7cde38ee893025b984e84f53d2b905ff3305127ad909e2922677767abdd",
+      "captured_from_running_distribution_copy": true
+    },
+    {
+      "path": "docs/images/listening-practice.jpg",
+      "sha256": "01e807a2a74b544804d12d623c98a0b7c8a7ccac17f79c4516232b3bae2cb820",
+      "captured_from_running_distribution_copy": true
+    }
+  ],
+  "materials": {
+    "question_pdf_files": 93,
+    "answer_pdf_files": 93,
+    "mp3_files": 93,
+    "unique_recordings": 58
+  },
+  "limits": [
+    "Shared practice uses complete source-paper question IDs, displayed choices and corresponding keys; it does not reconstruct the omitted variant order.",
+    "Some word-level listening disagreements and historical reading/cloze content issues remain pending review.",
+    "Test success and complete listening ranges do not certify every answer and transcript word."
+  ],
+  "excluded_from_distribution": [
+    "Personal learner records",
+    "Local model files and caches",
+    "Temporary review databases",
+    "GPU build logs and server cleanup logs",
+    "Intermediate full-audio ASR artifacts"
+  ],
+  "clean_index_export": {
+    "fresh_index_export_startup": "passed",
+    "startup_database_unchanged": true,
+    "paper_pages_http_200": 93,
+    "audio_range_206": 93,
+    "special_type_level_combinations_http_200": 12,
+    "runtime_assets_http_200": true,
+    "readme_relative_links_valid": true,
+    "database_unchanged_by_requests": true,
+    "automated_tests_passed": 295
+  }
+}

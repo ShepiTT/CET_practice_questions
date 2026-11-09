@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="d-flex justify-content-between align-items-center mb-4">
-    <h2>错题集</h2>
-    <div class="btn-group">
+<div class="d-flex flex-wrap gap-3 justify-content-between align-items-center mb-4">
+    <h2 class="mb-0">错题集</h2>
+    <div class="d-flex flex-wrap gap-2">
         <button id="toggle-all-answers" class="btn btn-outline-warning">显示所有答案</button>
         <button id="retry-all-wrong" class="btn btn-outline-primary">一键重练错题</button>
         <span class="btn btn-danger disabled">{{ wrong_q_ids|length }} 道错题</span>
@@ -14,7 +14,7 @@
     {% for group in groups %}
     <div class="card group-card mb-5 shadow-sm">
         <div class="card-header bg-light d-flex justify-content-between align-items-center">
-            <h5 class="mb-0 text-primary">{{ group.source_file }} - {{ group.title }}</h5>
+            <h3 class="mb-0 text-primary">{{ group.source_file }} - {{ group.title }}</h3>
         </div>
         <div class="card-body">
             {% if group.group_type == 'cloze' %}
@@ -33,7 +33,7 @@
             {% endif %}
 
             {% if group.passage and group.passage != "Audio context required." %}
-            <div class="passage-box p-3 bg-white border rounded mb-4" style="max-height: 400px; overflow-y: auto; white-space: pre-wrap;">{{ group.passage|clean_exam_text }}</div>
+            <div class="passage-box passage-panel"><div class="reading-content" data-reading-kind="passage">{{ group.passage|clean_exam_text }}</div></div>
             {% endif %}
 
             {% if group.group_type == 'listening' %}{% include '_audio_controls.html' %}{% endif %}
@@ -51,19 +51,20 @@
                         </div>
                     </div>
                     
-                    <div class="ms-4">
-                        <p class="mb-2">{{ q.content|clean_exam_text }}</p>
+                    <div class="question-body">
+                        {% set prompt = q.content|clean_exam_text %}
+                        <p class="question-stem mb-3">{% if prompt == 'Question ' ~ q.q_number %}选择正确答案{% elif prompt == 'Blank ' ~ q.q_number %}选择合适的单词{% else %}{{ prompt }}{% endif %}</p>
                             {% if not q.correct_answer %}<p class="small text-warning-emphasis">本题暂无标准答案，可练习但不判分。</p>{% endif %}
                         
                         <div class="options-container mb-3">
                             {% if group.group_type == 'matching' %}
-                                <div class="input-group mb-2" style="max-width: 200px;">
-                                    <input type="text" class="form-control matching-input" placeholder="字母">
+                                <div class="input-group answer-input mb-2">
+                                    <input type="text" class="form-control matching-input" placeholder="字母" aria-label="第{{ q.q_number }}题答案">
                                     <button class="btn btn-primary submit-btn">提交</button>
                                 </div>
                             {% elif group.group_type == 'cloze' %}
-                                <div class="input-group mb-2" style="max-width: 200px;">
-                                    <select class="form-select cloze-select">
+                                <div class="input-group answer-input mb-2">
+                                    <select class="form-select cloze-select" aria-label="第{{ q.q_number }}题答案">
                                         <option value="">选择...</option>
                                         {% for opt in q.options %}
                                         <option value="{{ opt.label }}">{{ opt.label }}</option>
@@ -76,7 +77,7 @@
                                     {% for opt in q.options %}
                                     <div class="col">
                                         <button class="btn btn-outline-primary w-100 text-start mcq-btn" data-label="{{ opt.label }}">
-                                            <strong>{{ opt.label }}.</strong> {{ opt.text|clean_exam_text }}
+                                            <strong>{{ opt.label }}.</strong><span>{{ opt.text|clean_exam_text }}</span>
                                         </button>
                                     </div>
                                     {% endfor %}
@@ -84,12 +85,12 @@
                             {% endif %}
                         </div>
 
-                        <div class="feedback mt-2 d-none">
+                        <div class="feedback mt-2 d-none" aria-live="polite">
                             <div class="alert py-2 mb-2"></div>
                             {% if q.explanation %}
-                            <div class="explanation-box p-3 bg-white border rounded small" style="white-space: pre-wrap;">
-                                <strong>题目详解：</strong><br>
-                                {{ q.explanation }}
+                            <div class="explanation-box">
+                                <h4 class="explanation-title">题目解析</h4>
+                                <div class="explanation-text" data-reading-kind="explanation">{{ q.explanation }}</div>
                             </div>
                             {% endif %}
                         </div>
@@ -268,9 +269,7 @@ document.querySelectorAll('.remove-btn').forEach(btn => {
 });
 </script>
 <style>
-    .passage-box { line-height: 1.6; font-size: 1.05rem; }
     .bg-danger-subtle { background-color: rgba(220, 53, 69, 0.05) !important; }
-    .vocabulary-bank { font-family: 'Times New Roman', serif; }
     .question-item.answered .mcq-btn { pointer-events: none; }
     .question-item.answered .submit-btn { display: none; }
 </style>

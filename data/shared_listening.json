@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "description": "Explicit shared listening practice; actual source-paper IDs, options and answer order. Unprinted target option order is not reconstructed.",
+  "evidence_report": "reports/shared-listening-source-review-final-20261109.json",
+  "evidence_report_sha256": "a00d54dfc4c91854ccbb33493b911aba68ff8522667d0a24d9fec4ab7c035a3a",
+  "references": {
+    "2019-06-CET6-3.pdf": {
+      "source_file": "2019-06-CET6-2.pdf",
+      "audio_sha256": "e8c2b57fe5d623d11e4452402c40f5273c86d20b8bc38d2bee00861b9257f21a",
+      "omission_pdf_sha256": "008e44c0c3e619d2f1dcf26b57559e0fae1e93b4ce336849a53d76401a414fe4",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "127994b327ef7d0355a2cde311ce6b5bbb1e19581088e723c04c2093afc3f314",
+      "option_rows_sha256": "edec5f947e256fb9ccc0f270399a1e84ad2bc02cbb4e44246486429df7ee19d4"
+    },
+    "2019-12-CET6-3.pdf": {
+      "source_file": "2019-12-CET6-2.pdf",
+      "audio_sha256": "bdca10888aa7f4c69ccc9326a29c28c4961d81a0ba36a00764582d46097f8c6e",
+      "omission_pdf_sha256": "34cb897c6089d33a2a78f34170cf8b31acc98866e4ace119db4e244e804b3355",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "4f6b0048d6f08ce3292e422fce63f58ac35bbf891b5cb55117475a6e632d7475",
+      "option_rows_sha256": "9a14763764bf8cb013c90af2a9c19e933b97ea009010880ceec04936f3c15d0a"
+    },
+    "2020-12-CET6-3.pdf": {
+      "source_file": "2020-12-CET6-2.pdf",
+      "audio_sha256": "cf2f30ada0c1009f1143522c1f1846a7d240512f47c2f11cdcc59a3289bf2c96",
+      "omission_pdf_sha256": "f00fbbd4f10a2dab79deeb8ec64cda8f04f350ff0a9865ae2ac6b09cbeb2b0d7",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "18c147a1951e587cb046253e7aee12f52884b088e01d0a7973b60b7de11db329",
+      "option_rows_sha256": "428d95d91ba16456f7aa6fdcbbd926d0403f360defe95bf31968199406665ee1"
+    },
+    "2021-06-CET4-3.pdf": {
+      "source_file": "2021-06-CET4-2.pdf",
+      "audio_sha256": "6f2866eefe8dd030f2416cf2e8535f7d2360f70d3c54ee7c04cb1d2b1963f8df",
+      "omission_pdf_sha256": "a0d57af51bce87f7193cf3e2e4c34a01ff2d76eed7f603ccb3f3635ae2122fc7",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "e84528e79933e7110837a36ac5b8db8fd6471a117078b578e253b0bfa178df02",
+      "option_rows_sha256": "384ea312f2b99bed720b79084a14d3e99170764465d4f5e0d47eec4e801e0ed9"
+    },
+    "2021-06-CET6-3.pdf": {
+      "source_file": "2021-06-CET6-2.pdf",
+      "audio_sha256": "ce1871be7c0745b7210967d130bd1cfaeee903638f12e7f4798ab74887f76180",
+      "omission_pdf_sha256": "1bb51699ea16bd7abf5ebc1210d1308f86b21a0846e234d8364e6641c15acebf",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "1c9f393b2b69805c85ae38d1ea1d50602b25892f094d73a12d379c23f8d6b7b2",
+      "option_rows_sha256": "fa67516870fb0041717d925f06ff289841c742f1c9d134bdeab9187ce9eb43ce"
+    },
+    "2021-12-CET6-3.pdf": {
+      "source_file": "2021-12-CET6-2.pdf",
+      "audio_sha256": "8e2bc2032336acd339e916fa862836721f776c6f4d68688c513dde02139789ab",
+      "omission_pdf_sha256": "b7e84a4eacbe847964174cdc7b0d5dc179a7e9a359f9aad348acb9d66efa350d",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "ed154de220ebccd4345bda9a22a1ae6bcbeda7bf90b35f59d18d3e53bb61db4c",
+      "option_rows_sha256": "0a365cb6dd44f48485b236233f804c2bd08082e0419808da4ef3e50f3a8ed479"
+    },
+    "2023-03-CET4-2-3.pdf": {
+      "source_file": "2023-03-CET4-1.pdf",
+      "audio_sha256": "1d6a0e841aa7d37954b64d93e0a07518e476817dae3ddee15095a30ba5840585",
+      "omission_pdf_sha256": "0d695e4d6d568aadcaf9420fd1396107bf4fd05041b12423609dc37d3581a1d9",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "7a42882ce6830b328a5ac197ff58ec037c7d1a11a30a3f7d1d2995aa340d19d5",
+      "option_rows_sha256": "2a835f7121e37984cd7088f381e2a2f3a32f77323666e053cd408905303f18ab"
+    },
+    "2023-03-CET6-2-3.pdf": {
+      "source_file": "2023-03-CET6-1.pdf",
+      "audio_sha256": "62263b74538dbcaf296ce18a9c262d51e342f18f80324a64ace107cf1dddf6e7",
+      "omission_pdf_sha256": "2570952cd5781945f79b1e98a48266fb04f8ab815226d504941c14110683b8ea",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "680dcb4a5814a359eab062629bf2adc17cb4dae96f821fc9e08840489fa5f4a4",
+      "option_rows_sha256": "073c9cd0b8ca1d54658850b58160586bdf8f00b69029c8a8b33f6a9ec213d560"
+    },
+    "2023-06-CET6-3.pdf": {
+      "source_file": "2023-06-CET6-2.pdf",
+      "audio_sha256": "01589e03c9d336ff2de10491d6e5c52e4cf3dc015dc4bab24bea0b1f113d932f",
+      "omission_pdf_sha256": "12c74cd2a8ce94dc3efa2a178af99c36df6d03fe1611f178c89a9392c4e26ca2",
+      "omission_pages": [
+        1
+      ],
+      "question_rows_sha256": "0dabf2c264d3c69faf8f300c3636d5b84e03dea659496a5cba00e4ab4b6f4430",
+      "option_rows_sha256": "e3d431ce3c83b0566bbc6b7db9d85d2452c47fa1af5541bfb050b7ed197c1126"
+    }
+  }
+}

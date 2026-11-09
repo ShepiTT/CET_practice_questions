@@ -17,11 +17,14 @@
     {% endif %}
     {% if group.transcript %}
     <button type="button" class="btn btn-sm btn-outline-info ms-auto" data-bs-toggle="collapse"
-            data-bs-target="#transcript-{{ group.id }}" title="做完再看">📄 听力原文</button>
+            data-bs-target="#transcript-{{ group.id }}" aria-controls="transcript-{{ group.id }}" aria-expanded="false" title="做完再看">📄 听力原文</button>
     {% endif %}
 </div>
 {% if group.transcript %}
 <div class="collapse mb-3" id="transcript-{{ group.id }}">
-    <div class="p-3 bg-light border rounded small" style="white-space: pre-wrap;">{{ group.transcript }}</div>
+    <div class="transcript-panel">
+        <h4 class="reading-panel-title">听力原文</h4>
+        <div class="reading-content" data-reading-kind="transcript">{{ group.transcript }}</div>
+    </div>
 </div>
 {% endif %}

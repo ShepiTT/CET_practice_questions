@@ -2,9 +2,11 @@ from flask import Flask, render_template, request, jsonify, redirect, url_for, s
 from models import db, QuestionGroup, Question, Option, UserHistory, WrongQuestion
 from parser import parse_cet_pdf_v2, clean_noise
 from sqlalchemy import func, text
+from sqlalchemy.orm import selectinload
 import os
 import re
 import math
+from shared_listening import load_references, reference_for
 
 app = Flask(__name__)
 
@@ -15,6 +17,27 @@ db.init_app(app)
 app.jinja_env.filters['clean_exam_text'] = clean_noise
 
 AUDIO_DIR = os.path.join(app.root_path, 'data', 'audio')
+app.config['SHARED_LISTENING_REFERENCES'] = load_references(
+    os.path.join(app.root_path, 'data', 'shared_listening.json'))
+
+
+def shared_listening_reference(filename):
+    return reference_for(filename, app.config.get('SHARED_LISTENING_REFERENCES', {}), AUDIO_DIR)
+
+
+def effective_practice_groups(filename):
+    """Use a complete named listening source while retaining this paper's reading."""
+    reference = shared_listening_reference(filename)
+    query = QuestionGroup.query.filter_by(source_file=filename).options(
+        selectinload(QuestionGroup.questions).selectinload(Question.options))
+    if reference is not None:
+        # A configured omitted paper never falls back to its old partial copies.
+        query = query.filter(QuestionGroup.group_type != 'listening')
+    groups = query.all()
+    if reference and reference['enabled']:
+        groups.extend(reference['groups'])
+    groups.sort(key=lambda g: min((q.q_number for q in g.questions), default=999))
+    return groups, reference
 
 def ensure_column(table, column, ddl):
     """create_all() never alters existing tables; add a column that older databases lack."""
@@ -151,6 +174,8 @@ def fill_missing_groups():
         donor_by_type = {g.group_type: g for g in donor_groups}
 
         for group_type in missing_types:
+            if group_type == 'listening' and target_file in app.config.get('SHARED_LISTENING_REFERENCES', {}):
+                continue
             if group_type not in donor_by_type:
                 continue
             donor_group = donor_by_type[group_type]
@@ -266,6 +291,42 @@ def init_db():
 # Paper names carry their exam level: '2024-12-CET6-1.pdf'.
 LEVEL_RE = re.compile(r'-CET(\d)-')
 LEVEL_NAMES = {'4': '英语四级 CET-4', '6': '英语六级 CET-6'}
+SPECIAL_TYPES = {
+    'listening': {'label': '听力', 'description': '听录音，按同一段材料集中作答。'},
+    'cloze': {'label': '选词填空', 'description': '结合上下文，从词库中选出合适的单词。'},
+    'matching': {'label': '段落匹配', 'description': '定位关键信息，练习长篇阅读与同义替换。'},
+    'reading': {'label': '仔细阅读', 'description': '围绕一篇文章，练习细节、推断与主旨题。'},
+}
+
+
+def special_inventory():
+    """Nonempty groups with the same audio eligibility used by sampling."""
+    rows = (db.session.query(QuestionGroup.id, QuestionGroup.source_file,
+                             QuestionGroup.group_type, func.count(Question.id).label('question_count'))
+            .join(Question, Question.group_id == QuestionGroup.id)
+            .filter(QuestionGroup.group_type.in_(SPECIAL_TYPES))
+            .group_by(QuestionGroup.id, QuestionGroup.source_file, QuestionGroup.group_type)
+            .order_by(QuestionGroup.id).all())
+    audio_files = audio_for([row for row in rows if row.group_type == 'listening'])
+    aliases = app.config.get('SHARED_LISTENING_REFERENCES', {})
+    return [row for row in rows if row.group_type != 'listening'
+            or (row.source_file not in aliases and audio_files.get(row.source_file))]
+
+
+def special_context(pool=None, level='', count=3):
+    if pool is None:
+        pool = special_inventory()
+    counts = {scope: {kind: {'groups': 0, 'questions': 0} for kind in SPECIAL_TYPES}
+              for scope in ('all', '4', '6')}
+    for row in pool:
+        scopes = ['all']
+        if level_of(row.source_file) in LEVEL_NAMES:
+            scopes.append(level_of(row.source_file))
+        for scope in scopes:
+            counts[scope][row.group_type]['groups'] += 1
+            counts[scope][row.group_type]['questions'] += row.question_count
+    return {'special_types': SPECIAL_TYPES, 'special_counts': counts,
+            'special_level': level, 'special_count': count}
 
 
 def level_of(source_file):
@@ -303,19 +364,15 @@ def index():
         'unanswered': unanswered_q_count
     }
 
-    return render_template('index.html', levels=levels, stats=stats)
+    return render_template('index.html', levels=levels, stats=stats,
+                           shared_listening_sources=app.config.get('SHARED_LISTENING_REFERENCES', {}),
+                           **special_context())
 
 @app.route('/practice/<filename>')
 def practice(filename):
-    # Get all groups for this file
-    groups = QuestionGroup.query.filter_by(source_file=filename).all()
-    
-    # Sort groups by the minimum question number in each group
-    # This ensures Section A (26-35) comes before Section B (36-45), etc.
-    groups.sort(key=lambda g: min([q.q_number for q in g.questions]) if g.questions else 999)
-    
+    groups, shared_reference = effective_practice_groups(filename)
     return render_template('practice.html', groups=groups, filename=filename, mode='normal',
-                           audio_files=audio_for(groups))
+                           audio_files=audio_for(groups), shared_reference=shared_reference)
 
 @app.route('/random_practice')
 def random_practice():
@@ -327,7 +384,9 @@ def random_practice():
         all_groups = [g for g in all_groups if level_of(g.source_file) == level]
     # Listening without its recording is guesswork; keep those groups out of the random pool.
     has_audio = audio_for(all_groups)
-    all_groups = [g for g in all_groups if g.group_type != 'listening' or has_audio[g.source_file]]
+    aliases = app.config.get('SHARED_LISTENING_REFERENCES', {})
+    all_groups = [g for g in all_groups if g.group_type != 'listening'
+                  or (g.source_file not in aliases and has_audio[g.source_file])]
     if not all_groups:
         return redirect(url_for('index'))
     
@@ -336,6 +395,41 @@ def random_practice():
     
     return render_template('practice.html', groups=random_groups, filename="随机刷题模式", mode='random',
                            audio_files=has_audio, level=level)
+
+
+@app.route('/special_practice')
+def special_practice():
+    import random
+    kind = request.args.get('type', '')
+    level = request.args.get('level', '')
+    raw_count = request.args.get('count', '3')
+    valid_count = bool(re.fullmatch(r'[1-9]|10', raw_count))
+    error = None
+    if kind and kind not in SPECIAL_TYPES:
+        error = '请选择有效的专项题型。'
+    elif level not in ('', '4', '6'):
+        error = '请选择全部、英语四级或英语六级。'
+    elif not valid_count:
+        error = '每次练习的题组数应为 1 到 10 的整数。'
+    count = int(raw_count) if valid_count else 3
+    pool = special_inventory()
+    context = special_context(pool, level if level in ('', '4', '6') else '', count)
+    if error or not kind:
+        return render_template('special_practice.html', error=error, **context), 400 if error else 200
+
+    eligible = [row for row in pool if row.group_type == kind
+                and (not level or level_of(row.source_file) == level)]
+    chosen = random.sample(eligible, min(count, len(eligible)))
+    by_id = {group.id: group for group in QuestionGroup.query.filter(
+        QuestionGroup.id.in_([row.id for row in chosen])).options(
+            selectinload(QuestionGroup.questions).selectinload(Question.options)).all()} if chosen else {}
+    groups = [by_id[row.id] for row in chosen]
+    return render_template(
+        'practice.html', groups=groups, filename=SPECIAL_TYPES[kind]['label'] + '专项练习',
+        mode='special', level=level, special_type=kind, count=count,
+        level_label=LEVEL_NAMES.get(level, '全部等级'), available_groups=len(eligible),
+        question_count=sum(len(group.questions) for group in groups),
+        audio_files=audio_for(groups), **context)
 
 @app.route('/audio/<path:filename>')
 def audio(filename):

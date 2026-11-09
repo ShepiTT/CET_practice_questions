@@ -1,123 +1,154 @@
-# CET-4 英语刷题系统 (CET-4 English Practice System)
+# CET-4 / CET-6 英语真题刷题系统
 
-这是一个基于 Python Flask 框架开发的英语四级（CET-4）真题刷题系统。它能够自动从 PDF 格式的真题卷子中提取题目，并提供一个现代化的 Web 界面供用户进行练习、查看解析以及管理错题。
+在浏览器里练习大学英语四、六级真题：按卷做题、集中练专项、播放听力、查看解析，并把做错的题留到下次复习。基于 Python Flask 与 SQLite，可在本地运行。
 
-## 🌟 核心功能
+## 界面展示
 
-- **自动化 PDF 解析**: 利用 `pdfplumber` 和强大的正则表达式，自动从 `data` 文件夹下的 PDF 真题中提取听力、选词填空、段落匹配和仔细阅读题目。
-- **智能题目分组**: 按照考试原有的逻辑对题目进行分组（如：Questions 16-18 基于同一篇听力原文），确保练习时的上下文连贯性。
-- **多种刷题模式**:
-  - **按卷刷题**: 完整体验某一年份的真题。
-  - **随机模式**: 从所有题库中随机抽取题目组，适合碎片化练习。
-- **后台管理系统**:
-  - **一键导入答案**: 支持直接粘贴包含“详解”、“涉及知识点”等复杂格式的答案文本，系统会自动识别并匹配题号。
-  - **手动校对**: 可以在后台手动设置每一题的标准答案。
-- **错题集管理**:
-  - **按组展示**: 错题不仅仅显示单题，还会带上完整的原文和同组的其他题目，方便复习。
-  - **二刷功能**: 支持在错题集中一键重练，实时反馈对错。
-- **听力音频**:
-  - 每套卷子的 MP3 放在 `data/audio/` 下即自动识别，页面底部一个播放器，每组听力题一个"播放本组"按钮。
-  - 第一遍听的时候点"标记本组起点"，之后直接从该组开始播放。
-  - 没有音频的卷子，听力题不会进入随机模式（避免靠猜污染统计）。
-- **交互优化**:
-  - **显示/隐藏答案**: 支持在练习过程中随时切换答案和详解的可见性。
-  - **词汇库展示**: 选词填空（Section A）上方独立显示 Vocabulary Bank，模拟真实考试体验。
+### 首页 · 选择等级与试卷
 
-## 🛠️ 技术栈
+按四级、六级和考试场次找到试卷，也可以直接进入专项练习或错题集。
 
-- **后端**: [Flask](https://flask.palletsprojects.com/) (Python Web 框架)
-- **数据库**: [SQLite](https://www.sqlite.org/) + [SQLAlchemy](https://www.sqlalchemy.org/) (ORM)
-- **PDF 处理**: [pdfplumber](https://github.com/jsvine/pdfplumber) + Regex
-- **前端**: [Bootstrap 5](https://getbootstrap.com/) (响应式布局) + Jinja2 (模板引擎)
+![四、六级刷题系统首页](docs/images/home.jpg)
 
-## 🚀 快速开始
+### 专项刷题 · 按题型集中练习
 
-### 1. 环境准备
+选择听力、选词填空、段落匹配或仔细阅读，筛选等级与题组数量；同一篇材料的题目会一起呈现。
 
-确保你的电脑上已安装 Python 3.8+。
+![专项刷题的题型、等级与题组数量选择](docs/images/special-practice.jpg)
 
-### 2. 安装依赖
+### 听力练习 · 播放、原文与题目同页
+
+从题组起点播放录音，按需展开听力原文和解析。共享听力会明确标注实际来源，选项与判分始终对应同一套题。
+
+![听力练习的播放控件、选项与答案解析](docs/images/listening-practice.jpg)
+
+以上为本地运行截图；GitHub 仓库提供代码与资料，不等同于已部署的公网网站。
+
+## 主要功能
+
+| 功能 | 使用方式 |
+| --- | --- |
+| 按卷练习 | 选择考试场次，按题组浏览现有听力和阅读题目。 |
+| 专项刷题 | 按四级、六级或全部等级筛选，每次抽取 1–10 个题组，默认 3 组；换一批保留筛选条件。 |
+| 随机练习 | 从可用题组中抽取练习，保留原文、词库、音频与解析。 |
+| 听力播放 | 每组有播放按钮和起点定位，支持显示、隐藏听力原文。 |
+| 作答与解析 | 提交后即时判分，可展开答案和详细解析。 |
+| 错题复习 | 按完整题组回看错题，并支持再次作答。 |
+| 题库维护 | 从 PDF 导入题目，在后台手动校对或批量导入答案、解析。 |
+
+### 省略卷如何练听力
+
+9 份省略听力的第三套或合卷使用同场次、同等级且录音 SHA256 一致的完整来源卷。听力部分整套使用来源卷的题目、选项、答案、解析和练习记录，页面展示来源；其他题型仍使用所选试卷。
+
+AB 卷的选项顺序可能不同，判分必须对应页面实际显示的选项。本项目的共享练习保持这两者一致，不将另一卷的答案字母套到当前选项上。该功能提供完整的听力练习，不宣称复刻省略卷未印出的独立选项顺序。
+
+## 快速开始
+
+仓库已包含校对后的题库及 93 套试卷对应的资料、答案 PDF 和 MP3，克隆后即可安装依赖启动，无需先重新下载或解析全部资料。分发数据库不包含个人练习历史与错题记录。
+
+准备 Python（建议 3.10 或更新版本）和 Git，在终端执行：
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/ShepiTT/CET_practice_questions.git
+cd CET_practice_questions
+python -m venv .venv
 ```
 
-### 3. 准备数据
+激活虚拟环境：
 
-一条命令拉取全部真题、答案解析和听力音频（来源：[CET通](https://www.cettong.cn) 的公开仓库，免费、仅供个人学习）：
-
-```bash
-python fetch_library.py
+```powershell
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
 ```
 
-文件会按项目命名放好：试卷 `data/YYYY-MM-CET4-X.pdf`、答案 `data/answers/`、听力 `data/audio/YYYY-MM-CET4-X.mp3`。以后网站更新了再跑一次即可，已有文件不会被覆盖。也可以手动把 PDF 放进 `data/`、MP3 放进 `data/audio/`，文件名对上就能识别。
+```bash
+# macOS / Linux
+source .venv/bin/activate
+```
 
-### 4. 运行系统
+安装依赖并启动：
 
 ```bash
+python -m pip install -r requirements.txt
 python app.py
 ```
 
-启动后，访问浏览器：`http://127.0.0.1:5000` 即可开始使用。
+在浏览器打开 [http://127.0.0.1:5000](http://127.0.0.1:5000)。启动时会初始化 SQLite，并尝试导入尚未入库的 PDF；已有题目不会重新解析。解析扫描版 PDF 还需要相应 OCR 缓存或维护工具，不保证仅重新解析 PDF 就能重建全部人工校对结果。
 
-## 📂 项目结构
+### 补充或同步资料
 
-```text
-英语刷题系统/
-├── data/               # 存放 PDF 真题文件
-│   ├── audio/          # 听力 MP3（fetch_library.py 拉取）
-│   └── answers/        # 答案解析 PDF（fetch_library.py 拉取）
-├── instance/           # 自动生成的 SQLite 数据库文件
-├── templates/          # HTML 模板文件 (Bootstrap 5)
-├── tests/              # pytest 测试（python -m pytest tests）
-├── app.py              # Flask 主程序与路由逻辑
-├── models.py           # 数据库模型定义
-├── parser.py           # PDF 解析核心逻辑
-├── fetch_library.py    # 同步真题 / 答案 / 音频
-├── repair_db.py        # 修复旧数据库（去重选项、清理假记录），可重复运行
-├── requirements.txt    # 项目依赖清单
-└── README.md           # 项目介绍文档
+需要补充四级、六级试卷、答案 PDF 和音频时运行：
+
+```bash
+python fetch_library.py --level all
 ```
 
-## 📝 导入答案说明
+来源为 [CET通](https://www.cettong.cn) 的公开仓库 [whoamiARC/cet-website](https://github.com/whoamiARC/cet-website)。工具保留已有文件，可重复运行。也可手动放入文件，并保持同名对应：
 
-在后台管理页面的“一键导入”功能中，系统支持多种识别模式，包括：
+```text
+data/2025-06-CET4-1.pdf
+data/answers/2025-06-CET4-1.pdf
+data/audio/2025-06-CET4-1.mp3
+```
+
+## 项目结构
+
+```text
+CET_practice_questions/
+├── data/                 # 真题 PDF、共享听力映射
+│   ├── audio/            # 听力 MP3
+│   └── answers/          # 答案解析 PDF
+├── docs/images/          # README 界面截图
+├── instance/             # SQLite 数据库与本地运行记录
+├── templates/            # 页面模板
+├── scripts/              # 有证据和备份保护的数据修复工具
+├── reports/              # 数据核对与验证记录
+├── tests/                # 自动化测试
+├── app.py                # Flask 程序与路由
+├── models.py             # 数据库模型
+├── parser.py             # PDF 题目提取
+├── shared_listening.py   # 共享听力来源与完整性检查
+├── fetch_library.py      # 同步真题、答案和音频
+└── requirements.txt      # 运行依赖
+```
+
+技术栈：Flask、SQLAlchemy、SQLite、pdfplumber、Jinja2、Bootstrap 5。
+
+## 数据状态与使用范围
+
+截至 2026-11-09 的本地复核记录：5009 道题、696 个听力组；93 个 MP3 文件按音频哈希去重为 58 份独立录音。听力原文和播放起点均已填入，9 份省略卷可练完整 25 道共享听力题。本轮 295 项自动化测试通过。
+
+仍有部分听力逐词分歧，以及其他题型的历史缺题、排版或解析问题需要继续核对。题目数量完整、页面能打开或自动化测试通过，都不代表全库每一题已人工确认正确。
+
+本仓库程序采用 [Apache-2.0](LICENSE) 许可证。试卷、答案和音频为第三方学习资料，权利归相应权利人；来源声明为免费、仅供个人学习使用，请遵守原始来源的使用范围。
+
+## 导入答案
+
+后台“一键导入”支持以下文本格式：
+
 - `题号：第 1 题 答案：D 详解：...`
 - `26 Blank 26... 答案：N (unique) ...`
 - `Q1 - 第1页 ... 正确答案: B ...`
 
-系统会自动忽略干扰文字，精准提取答案字母并将后续内容存入详解。
+导入后应核对题号、选项与解析是否对应，特别注意不同卷的选项顺序。
 
----
+## 验证与维护
 
-## 数据核对与听力定位
-
-维护工具依赖单独列在 `requirements-data.txt`。以下命令默认只生成审计报告；加 `--apply` 才会备份数据库并写入。答案补全仅填空缺，已有答案冲突保留在报告中，不自动覆盖。
+运行自动化测试：
 
 ```bash
-python fetch_reference_keys.py --all
-python repair_reference_text.py
-python complete_answer_keys.py
-python align_listening.py
+python -m pip install pytest lxml numpy beautifulsoup4 PyMuPDF
+python -m pytest tests -q
 ```
 
-参考答案和原文来自懒笔记公开试卷页，先核对题干、选项和段落身份。原始页面快照保存在 `.cache/reference/`，来源 URL、哈希及变更记录保存在 `instance/*-*.json`。`repair_reference_text.py` 的文本变更需先检查报告，确认试卷一致后再应用。
+文本排版的 JavaScript 测试还会使用本机 Node.js；未安装时对应测试会跳过。
 
-`transcribe_listening.py` 生成本地录音的逐词时间戳，`align_listening.py` 将原文开头与这些时间戳匹配，不直接套用网页音频的时间。`refine_listening.py <审计文件>` 可复查漏识别的开头；不确定的定位保持为空。ASR 模型目录为 `.cache/models/base.en/`（`Systran/faster-whisper-base.en`）。
-
-本机数据任务使用明确的 CPU 亲和性和低优先级，至少保留 4 个完整物理核心。其他机器须按其实际拓扑选择 CPU 编号；无法确认保留核心时拒绝启动。
-
-### 2026-11-08 题库复核
-
-当前数据库有 4958 题，空答案和空解析均为 0。id4912 采用参考答案 D，并同步修正原先偏向 C 的解析；网络参考来源的分歧保留在 `reports/listening-4912-review.json`。本次另外更正 40 个已有答案及相应解析，确认保留 7 个冲突项；2020 年 7 月四级、六级的全部 20 道匹配题逐题复核后保留。
-
-补丁同时恢复 13 处题干、5 组匹配正文和 49 个缺失词库选项。186 个媒体文件（93 个 MP3、93 份答案 PDF）均与原 PR 的 Git 对象校验一致。验证包括 141 项测试、93 套试卷页面、93 个音频分段请求、浏览器答案展示与实际播放；判分测试使用数据库副本，分发数据库不含练习记录。
-
-来源与逐项变更在 `reports/review-completion-plan.json`，执行结果在 `reports/review-completion-applied.json`，最终检查在 `reports/final-validation.json`。复用补丁时先预览，再应用：
+启动本地网站后，可只读验证 9 份共享听力的 225 个题位、实际选项与答案来源，以及音频分段请求：
 
 ```bash
-python scripts/apply_review_completion.py
-python scripts/apply_review_completion.py --apply
+python scripts/validate_shared_listening.py
 ```
 
-脚本检查题目身份、字段原值和证据报告哈希，应用前备份并在事务内写入；重复应用不会重复插入选项。全库仍有 44 套试卷相对 1–55 的 157 个题号缺口，需继续逐卷核对来源。上述验证只覆盖现有记录与本次修订，不代表所有试卷已完整或所有答案已逐题人工验收。本地预览也不代表公网部署完成。
+共享映射在 [data/shared_listening.json](data/shared_listening.json)，来源核对见 [共享听力来源复核](reports/shared-listening-source-review-final-20261109.json)，本次分发数据库、媒体与运行检查见 [发布验收记录](reports/github-publication-validation-20261109.json)。共享页面会检查同场次同等级、录音哈希、来源 1–25 题、四个选项及题目指纹；检查失败时显示提示并停用该共享来源。
+
+历史答案冲突和题库修订保留在 [id4912 复核](reports/listening-4912-review.json) 与 [前期题库修订记录](reports/review-completion-applied.json)。这些是对应阶段的证据，不代表后续全库逐词、逐题验收结论。日常使用直接运行仓库中的题库即可。

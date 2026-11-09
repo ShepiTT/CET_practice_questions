@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="mb-4">
+    <h1 class="h2">专项刷题</h1>
+    <p class="text-muted">选好等级和练习量，开始今天的专项训练。</p>
+</div>
+{% if error %}<div class="alert alert-warning" role="alert">{{ error }}</div>{% endif %}
+{% include '_special_picker.html' %}
+<a href="{{ url_for('index') }}" class="btn btn-link mt-4 px-0">返回首页</a>
+{% endblock %}

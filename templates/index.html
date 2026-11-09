@@ -9,6 +9,7 @@
             <a href="/random_practice" class="btn btn-lg btn-success shadow-sm px-5 py-3">
                 <i class="bi bi-shuffle"></i> 开启随机刷题模式
             </a>
+            <a href="#special-practice" class="btn btn-lg btn-outline-primary px-5 py-3 ms-sm-2 mt-2 mt-sm-0">专项刷题</a>
         </div>
 
         <div class="row mt-5 justify-content-center">
@@ -35,6 +36,12 @@
         </div>
     </div>
 </div>
+
+<section id="special-practice" class="mb-5" aria-labelledby="special-heading">
+    <h3 id="special-heading" class="section-header">专项刷题</h3>
+    <p class="text-muted">选择要突破的题型，围绕同一篇原文按组练习。</p>
+    {% include '_special_picker.html' %}
+</section>
 
 <div class="row mb-3">
     <div class="col">
@@ -72,7 +79,7 @@
                 <div class="card h-100">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">{{ file }}</h5>
-                        <p class="card-text text-muted">选择题练习</p>
+                        <p class="card-text text-muted">选择题练习{% if file in shared_listening_sources %} · 共享听力 25 题{% endif %}</p>
                         <a href="/practice/{{ file }}" class="btn btn-primary mt-auto">开始刷题</a>
                     </div>
                 </div>
