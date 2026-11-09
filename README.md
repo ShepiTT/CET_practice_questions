@@ -18,6 +18,8 @@
 
 版本说明和附件见 [Release 页面](https://github.com/ShepiTT/CET_practice_questions/releases/tag/v1.0.0)，下载后可使用 [SHA-256 校验文件](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.0.0/SHA256SUMS.txt) 核对文件。程序运行和自动化检查不代表全库逐题人工验收；内容核验范围见下方“数据状态与使用范围”。
 
+打包与启动检查见 [Windows 版验证记录](reports/windows-release-validation-1.0.0.json)，公开附件大小、SHA-256 和匿名访问核验见 [下载校验记录](reports/windows-release-publication-1.0.0.json)。
+
 ## 界面展示
 
 ### 首页 · 选择等级与试卷

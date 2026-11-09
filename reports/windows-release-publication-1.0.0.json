@@ -1,0 +1,38 @@
+{
+  "repository": "https://github.com/ShepiTT/CET_practice_questions",
+  "release_url": "https://github.com/ShepiTT/CET_practice_questions/releases/tag/v1.0.0",
+  "tag": "v1.0.0",
+  "source_commit": "65870da5d29f1a809c8bcccba7d0686af919fffd",
+  "isDraft": false,
+  "isPrerelease": false,
+  "latest_release_verified": true,
+  "assets": [
+    {
+      "name": "cet-practice-1.0.0-windows-desktop-x64.zip",
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.0.0/cet-practice-1.0.0-windows-desktop-x64.zip",
+      "size": 844757842,
+      "sha256": "5de8654e8afad5e9631e02b2263818e980a086ccb10990453e8c54009a863b6a",
+      "github_digest_matches": true,
+      "anonymous_http_status": 200
+    },
+    {
+      "name": "cet-practice-1.0.0-windows-web-launcher-x64.zip",
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.0.0/cet-practice-1.0.0-windows-web-launcher-x64.zip",
+      "size": 844772337,
+      "sha256": "667864f4fc50ad71cabd235d56c9d3ab73b9ae93cb461d2bc405ebc0c1ef356e",
+      "github_digest_matches": true,
+      "anonymous_http_status": 200
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.0.0/SHA256SUMS.txt",
+      "size": 225,
+      "sha256": "26261c0dc152a06e46aa89861966fdb3b1e4f30c62532b9eb28fd6a4d0d63cc1",
+      "github_digest_matches": true,
+      "anonymous_http_status": 200
+    }
+  ],
+  "verification_method": "GitHub-computed SHA-256 and size match local archives; anonymous public HEAD checks and checksum file read-back.",
+  "frozen_validation": "Both native UI modes and extracted archive default modes passed before publication.",
+  "automated_tests_passed": 317
+}
