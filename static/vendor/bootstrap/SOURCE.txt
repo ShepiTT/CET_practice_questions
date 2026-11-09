@@ -1,0 +1,14 @@
+Bootstrap 5.3.0
+Upstream: https://github.com/twbs/bootstrap/tree/v5.3.0
+License: MIT (see LICENSE in this directory)
+
+The following files are unmodified copies from the official v5.3.0 tag:
+bootstrap.min.css
+  https://raw.githubusercontent.com/twbs/bootstrap/v5.3.0/dist/css/bootstrap.min.css
+  SHA-256: 7f1d37f0d90b6385354c2ac10e2bb91563c46bd7a266ed351222ebcac8496c2a
+bootstrap.bundle.min.js
+  https://raw.githubusercontent.com/twbs/bootstrap/v5.3.0/dist/js/bootstrap.bundle.min.js
+  SHA-256: aa53d582f97eb594c2a5cc5824574707f9ba9837bce3046bfa5f3556860f4e04
+LICENSE
+  https://raw.githubusercontent.com/twbs/bootstrap/v5.3.0/LICENSE
+  SHA-256: 3d0b0c88216e4752b9afd3d24e36faaf27873b5a45a61458bb3c83e794c26832

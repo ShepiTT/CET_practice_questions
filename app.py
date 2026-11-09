@@ -8,7 +8,7 @@ import re
 import math
 from shared_listening import load_references, reference_for
 
-app = Flask(__name__)
+app = Flask(__name__, root_path=os.environ.get('CET4_RESOURCE_DIR') or None)
 
 PAPER_RE = re.compile(r'^(\d{4})-(\d{2})-(CET[46])-([\d-]+)\.pdf$')
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('CET4_DATABASE_URI', 'sqlite:///cet4_v2.db')

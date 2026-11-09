@@ -2,6 +2,22 @@
 
 在浏览器里练习大学英语四、六级真题：按卷做题、集中练专项、播放听力、查看解析，并把做错的题留到下次复习。基于 Python Flask 与 SQLite，可在本地运行。
 
+## 下载与使用
+
+当前版本：**1.0.0**。两个程序包适用于 Windows 10/11 x64，均为未签名便携版，解压后使用，无需安装 Python。
+
+| 版本 | 下载 | 使用方式 |
+| --- | --- | --- |
+| Windows 桌面程序 | [桌面版 ZIP](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.0.0/cet-practice-1.0.0-windows-desktop-x64.zip)（844.8 MB） | 解压完整目录，双击 `CETPractice.exe`，在独立窗口中刷题；需要系统 Edge WebView2 和 .NET 运行环境。 |
+| Windows 网页启动器 | [网页启动器 ZIP](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.0.0/cet-practice-1.0.0-windows-web-launcher-x64.zip)（844.8 MB） | 解压完整目录，双击 `CETPractice-Web.exe`，使用默认浏览器刷题；附带控制窗，可重新打开页面或退出服务。 |
+| 源码 | [下载 1.0.0 源码](https://github.com/ShepiTT/CET_practice_questions/archive/refs/tags/v1.0.0.zip) | 按下方“快速开始”安装 Python 依赖并启动。 |
+
+两个程序包都包含题库、93 个 MP3 及对应试卷、答案 PDF，页面样式和脚本也随包提供，可以离线练习。请保留解压后的完整目录，**不要只拷贝 EXE**。
+
+两版本共用 `%LOCALAPPDATA%\CETPractice` 中的个人数据库，练习记录仅保存在本机，更新程序时保留；下载包不包含发布者的个人练习记录。关闭网页浏览器不会停止本地服务，用完请在网页启动器控制窗中点击“关闭服务”。桌面版缺少 WebView2 时，可从[微软官网下载运行环境](https://developer.microsoft.com/microsoft-edge/webview2/)，或使用网页启动器版。
+
+版本说明和附件见 [Release 页面](https://github.com/ShepiTT/CET_practice_questions/releases/tag/v1.0.0)，下载后可使用 [SHA-256 校验文件](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.0.0/SHA256SUMS.txt) 核对文件。程序运行和自动化检查不代表全库逐题人工验收；内容核验范围见下方“数据状态与使用范围”。
+
 ## 界面展示
 
 ### 首页 · 选择等级与试卷
@@ -116,7 +132,7 @@ CET_practice_questions/
 
 ## 数据状态与使用范围
 
-截至 2026-11-09 的本地复核记录：5009 道题、696 个听力组；93 个 MP3 文件按音频哈希去重为 58 份独立录音。听力原文和播放起点均已填入，9 份省略卷可练完整 25 道共享听力题。本轮 295 项自动化测试通过。
+截至 2026-11-09 的本地复核记录：5009 道题、696 个听力组；93 个 MP3 文件按音频哈希去重为 58 份独立录音。听力原文和播放起点均已填入，9 份省略卷可练完整 25 道共享听力题。本轮 317 项自动化测试通过，两个打包程序均已验证实际启动、题库读取、判分、重启保留记录及退出后停止服务。
 
 仍有部分听力逐词分歧，以及其他题型的历史缺题、排版或解析问题需要继续核对。题目数量完整、页面能打开或自动化测试通过，都不代表全库每一题已人工确认正确。
 

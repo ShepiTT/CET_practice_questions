@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "created_at_utc": "2026-11-09T08:31:39.780499+00:00",
+  "platform": "Windows 10/11 x64",
+  "automated_tests": {
+    "passed": 317,
+    "warnings": 28
+  },
+  "archives": {
+    "cet-practice-1.0.0-windows-desktop-x64.zip": {
+      "size": 844757842,
+      "sha256": "5de8654e8afad5e9631e02b2263818e980a086ccb10990453e8c54009a863b6a"
+    },
+    "cet-practice-1.0.0-windows-web-launcher-x64.zip": {
+      "size": 844772337,
+      "sha256": "667864f4fc50ad71cabd235d56c9d3ab73b9ae93cb461d2bc405ebc0c1ef356e"
+    }
+  },
+  "source_git_blobs": {
+    "desktop_launcher.py": "47806c5851c8ab25bfcd5f12f002df03fff03c79",
+    "app.py": "bcc5fdcf4668b1bc495d0fb763c6960dd6f39ede",
+    "models.py": "053bd881b84b9b97fe812b164a5c98b0b8efe6ba",
+    "parser.py": "1978b9497f63fad0d358474d83143295241c4f58",
+    "ocr.py": "09b8683f54e9d73fc4cdcfec2c98ad3db2b2db88",
+    "shared_listening.py": "1190a83bd8779907d16980e052dcd8aa1069db3c"
+  },
+  "source_working_tree_sha256": {
+    "desktop_launcher.py": "24818214090d1f1491cd101a2ae6ca77c195ae78afa7c78b7ec7d1768dfbbfb8",
+    "app.py": "a546d4f0c8f23497aa11e49e457b543c7007a18e3dacdce7d4a9ab9f3e4bc2bd",
+    "models.py": "ea04b8125022313eed0ee7745800aff4c59eed5b0339d7ab19e4aee6866b762a",
+    "parser.py": "390ae5a733b9bffc53eb484ddebdaa0474efd6bfea7f125f7f3e446e578c2cec",
+    "ocr.py": "decd7770afec415c6ae7f8ed7b3bc5eca67d71b41242ea90a8707bf1f0fe7d8e",
+    "shared_listening.py": "5e072a989311be3f54e8cb0fae652e324ae9efb9f32a32a80cd129a508181b15"
+  },
+  "source_database_commit": "5d1c5bf130bf5df7933b9c69576b4284d6ca67b0",
+  "seed_database": {
+    "question_group": {
+      "rows": 1061,
+      "sha256": "49c2e36ccf6d587c74986decedf9fb1c9cfaaa89e772fa6499d1d7531165d786"
+    },
+    "question": {
+      "rows": 5009,
+      "sha256": "ab1841f68f3db14933ed19deb0548c1ec1218b851d6bdb05c84b4d2fe5735ccf"
+    },
+    "option": {
+      "rows": 26578,
+      "sha256": "ab3341c9619f6e70c1fbf711d1d471debd6455ae0cae081319f2f5893491c04a"
+    },
+    "user_history": {
+      "rows": 0,
+      "sha256": "3d7f0fda5f3e96401e4d110302a8093dea3bc83416d24067def3e9a56e66f5d6"
+    },
+    "wrong_question": {
+      "rows": 0,
+      "sha256": "2c8c2794b755c4905e2300e5c929f7d78e69252f7da82921f9b0fc9755cde442"
+    }
+  },
+  "seed_personal_records_included": false,
+  "actual_frozen_ui_validation": {
+    "results": [
+      {
+        "mode": "desktop",
+        "frozen": true,
+        "ui": "desktop-window",
+        "version": "1.0.0",
+        "desktop_dom": {
+          "title": "英语四六级刷题系统",
+          "ready_state": "complete",
+          "body_present": true,
+          "question_links": 93
+        },
+        "control_window_mapped": null,
+        "paper_pages": 93,
+        "audio_range_responses_206": 93,
+        "shared_listening": {
+          "omitted_papers_resolved_for_practice": 9,
+          "displayed_listening_positions": 225,
+          "previous_missing_display_positions_covered": 25,
+          "remaining_display_listening_gaps": 0,
+          "source_group_count": 65,
+          "original_variant_option_orders_restored": 0,
+          "database_unchanged_by_readback": true,
+          "learner_records_unchanged": true
+        },
+        "reused_single_instance": true,
+        "practice_history_preserved_between_modes": true
+      },
+      {
+        "mode": "browser",
+        "frozen": true,
+        "ui": "browser-control",
+        "version": "1.0.0",
+        "desktop_dom": null,
+        "control_window_mapped": true,
+        "paper_pages": 93,
+        "audio_range_responses_206": 93,
+        "shared_listening": {
+          "omitted_papers_resolved_for_practice": 9,
+          "displayed_listening_positions": 225,
+          "previous_missing_display_positions_covered": 25,
+          "remaining_display_listening_gaps": 0,
+          "source_group_count": 65,
+          "original_variant_option_orders_restored": 0,
+          "database_unchanged_by_readback": true,
+          "learner_records_unchanged": true
+        },
+        "reused_single_instance": true,
+        "practice_history_preserved_between_modes": true
+      }
+    ],
+    "all_passed": true
+  },
+  "extracted_archive_validation": {
+    "all_passed": true,
+    "archives": [
+      {
+        "archive": "cet-practice-1.0.0-windows-desktop-x64.zip",
+        "variant": "desktop",
+        "default_mode": "desktop",
+        "all_manifest_files_verified": true,
+        "frozen_program_started": true,
+        "seed_personal_tables_empty": true
+      },
+      {
+        "archive": "cet-practice-1.0.0-windows-web-launcher-x64.zip",
+        "variant": "web-launcher",
+        "default_mode": "browser",
+        "all_manifest_files_verified": true,
+        "frozen_program_started": true,
+        "seed_personal_tables_empty": true
+      }
+    ]
+  },
+  "offline_styles_and_scripts": true,
+  "bundled_materials": {
+    "question_pdfs": 93,
+    "answer_pdfs": 93,
+    "audio_mp3": 93
+  },
+  "user_database_update_policy": "Copy the seed only on first launch; preserve an existing user database; both modes share the same user data directory.",
+  "host_workspace_database_unchanged": true,
+  "desktop_requirements": [
+    "Microsoft Edge WebView2 Runtime",
+    "Windows .NET Framework"
+  ],
+  "limits": [
+    "The portable Windows executables are unsigned.",
+    "Some listening word-level disagreements and historical reading/cloze content issues still require review.",
+    "Frozen UI and automated checks are not a complete manual verification of every question."
+  ]
+}
