@@ -1,0 +1,59 @@
+{
+  "version": "1.1.0",
+  "verified_at_utc": "2026-11-09T10:07:25.930227+00:00",
+  "release_url": "https://github.com/ShepiTT/CET_practice_questions/releases/tag/v1.1.0",
+  "tag": "v1.1.0",
+  "tag_commit": "845b7b24e740645c6af06ca5c2501aa949dc7747",
+  "is_draft": false,
+  "is_prerelease": false,
+  "latest_release_tag": "v1.1.0",
+  "assets": {
+    "cet-practice-1.1.0-windows-desktop-x64.zip": {
+      "size": 881803970,
+      "sha256": "bcc43635ca9a3316c3b1483cebcff2095529324dcb6e5e33511f8fdcd8b7c36a",
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.1.0/cet-practice-1.1.0-windows-desktop-x64.zip",
+      "github_digest": "sha256:bcc43635ca9a3316c3b1483cebcff2095529324dcb6e5e33511f8fdcd8b7c36a",
+      "anonymous_head_status": 200,
+      "anonymous_content_length": 881803970
+    },
+    "cet-practice-1.1.0-windows-web-launcher-x64.zip": {
+      "size": 881818495,
+      "sha256": "52dec068ef0131636be3f0502937336d933a6782b8b99fb09d8b887f6bbe2711",
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.1.0/cet-practice-1.1.0-windows-web-launcher-x64.zip",
+      "github_digest": "sha256:52dec068ef0131636be3f0502937336d933a6782b8b99fb09d8b887f6bbe2711",
+      "anonymous_head_status": 200,
+      "anonymous_content_length": 881818495
+    },
+    "SHA256SUMS.txt": {
+      "size": 225,
+      "sha256": "39908bd044a1ebe640314a7a5ee37a97b346676161082c23ff35ff5ea0e957bf",
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.1.0/SHA256SUMS.txt",
+      "github_digest": "sha256:39908bd044a1ebe640314a7a5ee37a97b346676161082c23ff35ff5ea0e957bf",
+      "anonymous_head_status": 200,
+      "anonymous_content_length": 225,
+      "anonymous_body_matches_local": true
+    }
+  },
+  "anonymous_source_verification": {
+    "reports/cet-202606-import-applied.json": {
+      "anonymous_status": 200,
+      "bytes": 4351,
+      "sha256": "7698ba9932f6a0d6321ae8659529de6ad16e88f44b56f6393f567c03eb21e57b",
+      "matches_committed_file": true
+    },
+    "reports/windows-release-validation-1.1.0.json": {
+      "anonymous_status": 200,
+      "bytes": 6385,
+      "sha256": "b28bad70343018b65bf8cfb0da648078e279db874b3f6fef8f59790191df4cd3",
+      "matches_committed_file": true
+    },
+    "docs/images/cet2026-practice.jpg": {
+      "anonymous_status": 200,
+      "bytes": 72858,
+      "sha256": "be8778eb0f66b1327d8efddbada18196e5d10c0e31485fd118dde5ccad7b3b7f",
+      "matches_committed_file": true
+    }
+  },
+  "local_validation_report": "windows-release-validation-1.1.0.json",
+  "personal_records_in_downloads": false
+}
