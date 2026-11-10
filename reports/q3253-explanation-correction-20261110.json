@@ -1,0 +1,36 @@
+{
+  "version": "1.2.1",
+  "source_seed_commit": "0f6cd9e7a0ae7e2f8f948dac9af822e815b6300b",
+  "question_id": 3253,
+  "source_file": "2020-12-CET6-1.pdf",
+  "question_number": 26,
+  "evidence": {
+    "answer_pdf": "data/answers/2020-12-CET6-1.pdf",
+    "sha256": "7b6603b90f820fbb90ce20b8d7f5edd8f16cec0eb8d2ccc767a0d62f5d72895f",
+    "pdf_page_1_based": 7,
+    "printed_page": 15,
+    "region": "left column Q26"
+  },
+  "old_explanation_sha256": "e5923d26ef15b8dcaf239af3dba00598b3c4ce4fa509c0efe61711f4d012a748",
+  "new_explanation_sha256": "1e28c954c5cd6d2835343654bdcd2c902e608c2158a88714570f945da0324ea4",
+  "recovered_sentence": "A) discouraging“设法劝阻，阻止”符合句意。",
+  "correct_answer": "A",
+  "answer_and_options_unchanged": true,
+  "changed_fields": [
+    "question[3253].explanation"
+  ],
+  "all_other_rows_and_schema_equal": true,
+  "row_counts": {
+    "option": 26868,
+    "question": 5064,
+    "question_group": 1072,
+    "user_history": 0,
+    "wrong_question": 0
+  },
+  "integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "public_seed_sha256": "6cd3f7f95c9adb92fb458f2cffc4bed84ab1ffeadf9a0f2c456b5fae0f5c0ebc",
+  "personal_history_rows": 0,
+  "personal_wrong_question_rows": 0,
+  "scope": "One PDF-verified explanation correction; not a whole-bank manual audit."
+}
