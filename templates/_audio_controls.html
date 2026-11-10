@@ -1,30 +1,29 @@
-{# Per-group controls for a listening group. Expects `group` and `audio_files` (source_file -> mp3 or None). #}
+{# Per-group listening controls. Expects `group` and `audio_files` (source_file -> mp3 or None). #}
+{% from '_ui.html' import icon, paper_title %}
 {% set mp3 = audio_files.get(group.source_file) if audio_files else none %}
-<div class="audio-controls d-flex flex-wrap align-items-center gap-2 mb-3"
+<div class="audio-controls"
      data-group-id="{{ group.id }}"
      data-audio-start="{{ group.audio_start if group.audio_start is not none else '' }}">
     {% if mp3 %}
-    <button type="button" class="btn btn-sm btn-success audio-play"
-            data-src="/audio/{{ mp3 }}" data-title="{{ group.source_file[:-4] }}">
-        ▶ 播放本组{% if group.audio_start is not none %} <span class="audio-start-label">({{ group.audio_start|mmss }})</span>{% endif %}
+    <button type="button" class="audio-play play-button"
+            data-src="/audio/{{ mp3 }}" data-title="{{ group.source_file[:-4] }}"
+            data-paper="{{ paper_title(group.source_file) }}" data-group-title="{{ group.title }}">
+        <span class="play-button__icon">{{ icon('play') }}<span class="play-button__bars" aria-hidden="true"><i></i><i></i><i></i></span></span>
+        <span class="play-button__label">播放本组</span>
+        {% if group.audio_start is not none %}<span class="audio-start-label">({{ group.audio_start|mmss }})</span>{% endif %}
     </button>
-    <button type="button" class="btn btn-sm btn-outline-secondary audio-mark"
-            title="听到这组题开始时点一下，下次直接从这里播">⏺ 标记本组起点</button>
-    <small class="text-muted audio-hint">{% if group.audio_start is none %}还没标记起点，会从头播放{% endif %}</small>
     {% else %}
-    <span class="badge bg-secondary">无音频</span>
-    <small class="text-muted">把 {{ group.source_file[:-4] }}.mp3 放进 data/audio/ 就能播放</small>
+    <span class="tag tag--muted">无音频</span>
+    <small class="audio-note">把 {{ group.source_file[:-4] }}.mp3 放进 data/audio/ 就能播放</small>
     {% endif %}
     {% if group.transcript %}
-    <button type="button" class="btn btn-sm btn-outline-info ms-auto" data-bs-toggle="collapse"
-            data-bs-target="#transcript-{{ group.id }}" aria-controls="transcript-{{ group.id }}" aria-expanded="false" title="做完再看">📄 听力原文</button>
+    <button type="button" class="ghost-button" data-bs-toggle="collapse"
+            data-bs-target="#transcript-{{ group.id }}" aria-controls="transcript-{{ group.id }}"
+            aria-expanded="false" title="做完再看">{{ icon('doc') }}听力原文{{ icon('chevron-down', 'ghost-button__caret') }}</button>
+    {% endif %}
+    {% if mp3 %}
+    <button type="button" class="audio-mark ghost-button ghost-button--quiet"
+            title="听到这组题开始时点一下，下次直接从这里播">{{ icon('flag') }}<span data-label>标记起点</span></button>
+    <small class="audio-hint" role="status">{% if group.audio_start is none %}还没标记起点，会从头播放{% endif %}</small>
     {% endif %}
 </div>
-{% if group.transcript %}
-<div class="collapse mb-3" id="transcript-{{ group.id }}">
-    <div class="transcript-panel">
-        <h4 class="reading-panel-title">听力原文</h4>
-        <div class="reading-content" data-reading-kind="transcript">{{ group.transcript }}</div>
-    </div>
-</div>
-{% endif %}

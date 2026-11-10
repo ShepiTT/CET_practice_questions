@@ -1,10 +1,23 @@
 {% extends "base.html" %}
+{% from '_ui.html' import icon %}
+{% block title %}专项刷题 · {% endblock %}
 {% block content %}
-<div class="mb-4">
-    <h1 class="h2">专项刷题</h1>
-    <p class="text-muted">选好等级和练习量，开始今天的专项训练。</p>
+<header class="page-head">
+    <p class="eyebrow">专项刷题</p>
+    <h1 class="page-head__title">挑一种题型，<span class="mark">练到熟</span>。</h1>
+    <p class="page-head__lead">选好等级和练习量，开始今天的专项训练。</p>
+</header>
+
+{% if error %}
+<div class="notice notice--warn" role="alert">
+    {{ icon('alert') }}
+    <p>{{ error }}</p>
 </div>
-{% if error %}<div class="alert alert-warning" role="alert">{{ error }}</div>{% endif %}
-{% include '_special_picker.html' %}
-<a href="{{ url_for('index') }}" class="btn btn-link mt-4 px-0">返回首页</a>
+{% endif %}
+
+<section class="section section--flush" aria-label="专项选择">
+    {% include '_special_picker.html' %}
+</section>
+
+<p class="page-foot-link"><a class="text-link" href="{{ url_for('index') }}">{{ icon('arrow-left') }}返回首页</a></p>
 {% endblock %}

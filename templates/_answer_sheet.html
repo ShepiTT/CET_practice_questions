@@ -1,0 +1,28 @@
+{# The answer sheet: one box per question, laid out the way the paper is.
+   Expects `groups`; `merge_types` joins consecutive groups of the same type into one block. #}
+{% from '_ui.html' import TYPE_META %}
+<div class="sheet" id="answer-sheet" role="dialog" aria-label="答题卡" hidden>
+    <div class="sheet__body">
+        {% set ns = namespace(previous=none, open=false, index=0) %}
+        {% for group in groups if group.questions %}
+            {% set meta = TYPE_META.get(group.group_type, {'label': '题组'}) %}
+            {% if not (merge_types and ns.open and group.group_type == ns.previous) %}
+                {% if ns.open %}</div></section>{% endif %}
+                {% set ns.index = ns.index + 1 %}
+                {% set ns.open = true %}
+                {% set ns.previous = group.group_type %}
+                <section class="sheet__section">
+                    <h3 class="sheet__label">{% if merge_types %}{{ meta.label }}{% else %}第 {{ ns.index }} 组 · {{ meta.label }}{% endif %}</h3>
+                    <div class="sheet__grid">
+            {% endif %}
+            {% for q in group.questions %}<a class="sheet__cell" href="#q-{{ q.id }}" data-state="todo">{{ q.q_number }}</a>{% endfor %}
+        {% endfor %}
+        {% if ns.open %}</div></section>{% endif %}
+    </div>
+    <p class="sheet__legend" aria-hidden="true">
+        <span><i data-state="todo"></i>未答</span>
+        <span><i data-state="right"></i>答对</span>
+        <span><i data-state="miss"></i>答错</span>
+        <span><i data-state="seen"></i>看了答案</span>
+    </p>
+</div>

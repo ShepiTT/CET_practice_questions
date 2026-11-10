@@ -1,0 +1,32 @@
+{# Presentation helpers shared by every page. Nothing here reads or changes question data. #}
+
+{# How each question type is named on a real CET paper. #}
+{% set TYPE_META = {
+    'listening': {'label': '听力', 'long': '听力理解', 'en': 'Listening Comprehension', 'part': 'Part II'},
+    'cloze': {'label': '选词填空', 'long': '选词填空', 'en': 'Banked Cloze', 'part': 'Part III · Section A'},
+    'matching': {'label': '段落匹配', 'long': '段落匹配', 'en': 'Matching', 'part': 'Part III · Section B'},
+    'reading': {'label': '仔细阅读', 'long': '仔细阅读', 'en': 'Careful Reading', 'part': 'Part III · Section C'},
+} %}
+
+{% macro icon(name, cls='') -%}
+<svg class="icon{% if cls %} {{ cls }}{% endif %}" aria-hidden="true" focusable="false"><use href="#i-{{ name }}"></use></svg>
+{%- endmacro %}
+
+{# True for names shaped like 2025-06-CET4-1.pdf; anything else is shown as written. #}
+{% macro is_paper(file) -%}
+{%- if file and file[:4].isdigit() and file[4:5] == '-' and file[5:7].isdigit() and file[7:11] == '-CET' and file[11:12] in ('4', '6') and file[12:13] == '-' and file.endswith('.pdf') and file|length > 17 -%}1{%- endif -%}
+{%- endmacro %}
+
+{# "2025 年 6 月 · 四级 · 第 1 套" #}
+{% macro paper_title(file, level=true) -%}
+{%- if is_paper(file) -%}
+{{ file[:4] }} 年 {{ file[5:7]|int }} 月{% if level %} · {{ '四级' if file[11:12] == '4' else '六级' }}{% endif %} · 第 {{ file[13:-4] }} 套
+{%- else -%}
+{{ file }}
+{%- endif -%}
+{%- endmacro %}
+
+{# "英语四级 CET-4", or nothing when the name does not say. #}
+{% macro paper_level(file) -%}
+{%- if is_paper(file) -%}{{ '英语四级 CET-4' if file[11:12] == '4' else '英语六级 CET-6' }}{%- endif -%}
+{%- endmacro %}

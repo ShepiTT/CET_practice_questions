@@ -1,92 +1,140 @@
 {% extends "base.html" %}
+{% from '_ui.html' import icon, is_paper %}
 
-{% block content %}
-<div class="row">
-    <div class="col-12 text-center mb-5">
-        <h1 class="display-4">欢迎来到英语四六级刷题系统</h1>
-        <p class="lead">提升英语水平，从现在开始</p>
-        <div class="mt-4">
-            <a href="/random_practice" class="btn btn-lg btn-success shadow-sm px-5 py-3">
-                <i class="bi bi-shuffle"></i> 开启随机刷题模式
-            </a>
-            <a href="#special-practice" class="btn btn-lg btn-outline-primary px-5 py-3 ms-sm-2 mt-2 mt-sm-0">专项刷题</a>
-        </div>
-
-        <div class="row mt-5 justify-content-center">
-            <div class="col-md-8">
-                <div class="card border-0 shadow-sm bg-light">
-                    <div class="card-body p-4">
-                        <div class="row text-center">
-                            <div class="col">
-                                <div class="h4 mb-0 text-primary">{{ stats.total }}</div>
-                                <div class="small text-muted text-uppercase fw-bold">总题目数</div>
-                            </div>
-                            <div class="col border-start border-end">
-                                <div class="h4 mb-0 text-success">{{ stats.answered }}</div>
-                                <div class="small text-muted text-uppercase fw-bold">已刷题</div>
-                            </div>
-                            <div class="col">
-                                <div class="h4 mb-0 text-warning">{{ stats.unanswered }}</div>
-                                <div class="small text-muted text-uppercase fw-bold">未刷题</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<section id="special-practice" class="mb-5" aria-labelledby="special-heading">
-    <h3 id="special-heading" class="section-header">专项刷题</h3>
-    <p class="text-muted">选择要突破的题型，围绕同一篇原文按组练习。</p>
-    {% include '_special_picker.html' %}
-</section>
-
-<div class="row mb-3">
-    <div class="col">
-        <h3 class="section-header">按试卷练习</h3>
-    </div>
-</div>
-
-{% if levels|length > 1 %}
-<ul class="nav nav-tabs mb-4" id="level-tabs" role="tablist">
-    {% for level in levels %}
-    <li class="nav-item" role="presentation">
-        <button class="nav-link {% if loop.first %}active{% endif %}" data-bs-toggle="tab"
-                data-bs-target="#level-{{ level.key }}" type="button" role="tab">
-            {{ level.label }}
-            <span class="badge bg-secondary ms-1">{{ level.papers|length }} 套 / {{ level.questions }} 题</span>
-        </button>
-    </li>
-    {% endfor %}
-</ul>
-{% endif %}
-
-<div class="tab-content">
-    {% for level in levels %}
-    <div class="tab-pane fade {% if loop.first %}show active{% endif %}" id="level-{{ level.key }}" role="tabpanel">
-        {% if levels|length > 1 %}
-        <div class="mb-3">
-            <a href="/random_practice?level={{ level.key }}" class="btn btn-outline-success btn-sm">
-                只随机刷 {{ level.label }}
-            </a>
-        </div>
+{# One exam level's papers as a year-by-year index. Names that are not dated papers fall back to a plain list. #}
+{% macro paper_archive(papers, shared) %}
+    {% set ns = namespace(valid=[], plain=[], years=[], flagged=false) %}
+    {% for file in papers %}
+        {% if is_paper(file) %}
+            {% set ns.valid = ns.valid + [file] %}
+            {% if file[:4] not in ns.years %}{% set ns.years = ns.years + [file[:4]] %}{% endif %}
+        {% else %}
+            {% set ns.plain = ns.plain + [file] %}
         {% endif %}
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            {% for file in level.papers %}
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">{{ file }}</h5>
-                        <p class="card-text text-muted">选择题练习{% if file in shared_listening_sources %} · 共享听力 25 题{% endif %}</p>
-                        <a href="/practice/{{ file }}" class="btn btn-primary mt-auto">开始刷题</a>
-                    </div>
+    {% endfor %}
+    {% if ns.years %}
+    <div class="archive">
+        {% for year in ns.years %}
+        {% set months = namespace(list=[], total=0) %}
+        {% for file in ns.valid if file[:4] == year %}
+            {% set months.total = months.total + 1 %}
+            {% if file[5:7] not in months.list %}{% set months.list = months.list + [file[5:7]] %}{% endif %}
+        {% endfor %}
+        <section class="year" aria-label="{{ year }} 年">
+            <header class="year__head">
+                <h3 class="year__num">{{ year }}</h3>
+                <span class="year__count">{{ months.total }} 套</span>
+            </header>
+            {% for month in months.list %}
+            <div class="session">
+                <span class="session__month">{{ month|int }} 月</span>
+                <div class="session__sets">
+                    {% for file in ns.valid|sort if file[:7] == year ~ '-' ~ month %}
+                    {% set is_shared = file in shared %}
+                    {% if is_shared %}{% set ns.flagged = true %}{% endif %}
+                    <a class="set" href="/practice/{{ file }}" title="{{ file }}{% if is_shared %} · 共享听力 25 题{% endif %}">第 {{ file[13:-4] }} 套{% if is_shared %}<sup class="set__flag" aria-label="共享听力">※</sup>{% endif %}</a>
+                    {% endfor %}
                 </div>
             </div>
             {% endfor %}
+        </section>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if ns.plain %}
+    <ul class="plain-papers">
+        {% for file in ns.plain %}
+        <li><a class="set set--plain" href="/practice/{{ file }}">{{ file }}{% if file in shared %}<sup class="set__flag" aria-label="共享听力">※</sup>{% endif %}</a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% if ns.flagged %}
+    <p class="archive__legend"><span class="set__flag">※</span> 原卷未印听力，练习时采用同场另一套的共享听力 25 题。</p>
+    {% endif %}
+{% endmacro %}
+
+{% block content %}
+{% set paper_total = levels|map(attribute='papers')|map('length')|sum %}
+{% set all_papers = levels|map(attribute='papers')|sum(start=[]) %}
+{% set percent = (stats.answered * 100 / stats.total) if stats.total else 0 %}
+{% set filled = [percent|round(0, 'ceil')|int, 100]|min %}
+
+<section class="hero" aria-labelledby="hero-title">
+    <div class="hero__copy">
+        <p class="eyebrow">CET-4 · CET-6 真题练习{% if all_papers and is_paper(all_papers|min) and is_paper(all_papers|max) %}<span class="eyebrow__sep"></span>{{ (all_papers|min)[:4] }} — {{ (all_papers|max)[:4] }}{% endif %}</p>
+        <h1 class="hero__title" id="hero-title">把真题<span class="mark">做透</span>。</h1>
+        <p class="hero__lead">{{ paper_total }} 套四六级真题，{{ stats.total }} 道题。答完即看解析，听力可对照原文，并从本组起点直接播放。</p>
+        <div class="hero__actions">
+            <a href="/random_practice" class="button button--ink button--lg">{{ icon('shuffle') }}随机刷题</a>
+            <a href="#special-practice" class="button button--line button--lg">专项刷题</a>
         </div>
     </div>
-    {% endfor %}
-</div>
+
+    <aside class="progress-card" aria-label="练习进度">
+        <div class="progress-card__head">
+            <span class="eyebrow">练习进度</span>
+            <span class="progress-card__percent">{{ '%.1f'|format(percent) }}<small>%</small></span>
+        </div>
+        {# An answer sheet with one box per percent of the question bank. #}
+        <div class="meter" role="img" aria-label="已刷 {{ stats.answered }} 题，共 {{ stats.total }} 题">
+            {% for i in range(100) %}<i{% if i < filled %} class="is-on"{% endif %}></i>{% endfor %}
+        </div>
+        <dl class="figures">
+            <div><dt>已刷题</dt><dd>{{ stats.answered }}</dd></div>
+            <div><dt>未刷题</dt><dd>{{ stats.unanswered }}</dd></div>
+            <div><dt>总题目数</dt><dd>{{ stats.total }}</dd></div>
+        </dl>
+    </aside>
+</section>
+
+<section id="special-practice" class="section" aria-labelledby="special-heading">
+    <header class="section__head">
+        <div>
+            <h2 id="special-heading" class="section__title">专项刷题</h2>
+            <p class="section__desc">选择要突破的题型，围绕同一篇原文按组练习。</p>
+        </div>
+    </header>
+    {% include '_special_picker.html' %}
+</section>
+
+<section id="papers" class="section" aria-labelledby="papers-heading">
+    <header class="section__head">
+        <div>
+            <h2 id="papers-heading" class="section__title">按试卷练习</h2>
+            <p class="section__desc">共 {{ paper_total }} 套，按考试场次排列。点开任意一套，从听力做到阅读。</p>
+        </div>
+        {% if levels|length > 1 %}
+        <div class="segmented segmented--tabs" id="level-tabs" role="tablist" aria-label="考试等级">
+            {% for level in levels %}
+            <button class="{% if loop.first %}active{% endif %}" id="level-tab-{{ level.key }}" data-bs-toggle="tab"
+                    data-bs-target="#level-{{ level.key }}" type="button" role="tab"
+                    aria-controls="level-{{ level.key }}" aria-selected="{{ 'true' if loop.first else 'false' }}">
+                <span>{{ level.label }}</span>
+                <small>{{ level.papers|length }} 套 / {{ level.questions }} 题</small>
+            </button>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </header>
+
+    <div class="tab-content">
+        {% for level in levels %}
+        <div class="tab-pane fade {% if loop.first %}show active{% endif %}" id="level-{{ level.key }}" role="tabpanel"
+             {% if levels|length > 1 %}aria-labelledby="level-tab-{{ level.key }}"{% endif %} tabindex="0">
+            {% if levels|length > 1 %}
+            <p class="archive__random">
+                <a href="/random_practice?level={{ level.key }}" class="text-link">{{ icon('shuffle') }}只随机刷 {{ level.label }}</a>
+            </p>
+            {% endif %}
+            {{ paper_archive(level.papers, shared_listening_sources) }}
+        </div>
+        {% else %}
+        <div class="empty">
+            <div class="empty__mark" aria-hidden="true"><i></i><i></i><i></i></div>
+            <h3 class="empty__title">题库里还没有试卷</h3>
+            <p class="empty__text">导入试卷后，它们会按考试场次排列在这里。</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
 {% endblock %}

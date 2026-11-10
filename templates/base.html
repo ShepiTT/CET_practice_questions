@@ -1,168 +1,131 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英语四六级刷题系统</title>
+    <meta name="color-scheme" content="light dark">
+    <title>{% block title %}{% endblock %}CET 四六级真题练习</title>
+    <script>
+    /* Pick the theme before the first paint, so a dark-mode reader never sees a white flash. */
+    (function () {
+        var saved = null;
+        try { saved = localStorage.getItem('cet-theme'); } catch (error) { /* storage can be blocked */ }
+        if (saved !== 'light' && saved !== 'dark') {
+            var cookie = document.cookie.match(/(?:^|; )cet-theme=(light|dark)/);
+            saved = cookie ? cookie[1] : null;
+        }
+        var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+    </script>
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='favicon.svg') }}">
     <link href="{{ url_for('static', filename='vendor/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
-    <style>
-        body { background-color: #f8f9fa; font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif; }
-        .navbar { background-color: #0d6efd; }
-        .navbar .navbar-brand, .navbar .nav-link { color: white; }
-        .nav-tabs .nav-link { color: #0759c7; }
-        .nav-tabs .nav-link.active { color: #212529; }
-        .card { border-radius: 12px; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
-        .option-btn { width: 100%; text-align: left; margin-bottom: 8px; border-radius: 8px; }
-        .correct { background-color: #d4edda !important; border-color: #c3e6cb !important; }
-        .incorrect { background-color: #f8d7da !important; border-color: #f5c6cb !important; }
-        .section-header { border-left: 5px solid #0d6efd; padding-left: 10px; margin: 20px 0; font-weight: bold; }
-        body.has-audio-bar { padding-bottom: 80px; }
-        #audio-bar audio { width: 100%; }
-        .special-card { border: 1px solid #e5eaf1; }
-        .special-card .card-body { padding: 1.25rem; }
-        .practice-toolbar { gap: .75rem; }
-        .practice-title { overflow-wrap: anywhere; }
-    </style>
-    <link href="{{ url_for('static', filename='practice.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg mb-4" data-bs-theme="dark">
-        <div class="container">
-            <a class="navbar-brand" href="/">CET 四六级刷题</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation"
-                    aria-controls="main-navigation" aria-expanded="false" aria-label="展开导航">
-                <span class="navbar-toggler-icon"></span>
+    {# One inline sprite: every icon is local, crisp at any size, and follows the text colour. #}
+    <svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+        <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></symbol>
+        <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="m11 6-6 6 6 6"/></symbol>
+        <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+        <symbol id="i-x" viewBox="0 0 24 24"><path d="m6.5 6.5 11 11"/><path d="m17.5 6.5-11 11"/></symbol>
+        <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5.5 12h13"/><path d="M12 5.5v13"/></symbol>
+        <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5.5 12h13"/></symbol>
+        <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M8.2 5.3v13.4a.9.9 0 0 0 1.37.77l10.7-6.7a.9.9 0 0 0 0-1.54L9.57 4.53a.9.9 0 0 0-1.37.77Z"/></symbol>
+        <symbol id="i-pause" viewBox="0 0 24 24"><rect fill="currentColor" stroke="none" x="6.4" y="5" width="4.1" height="14" rx="1.1"/><rect fill="currentColor" stroke="none" x="13.5" y="5" width="4.1" height="14" rx="1.1"/></symbol>
+        <symbol id="i-restart" viewBox="0 0 24 24"><path d="M4.5 12a7.5 7.5 0 1 0 2.3-5.4"/><path d="M4.5 4.5v4.8h4.8"/></symbol>
+        <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M19.5 12a7.5 7.5 0 1 1-2.3-5.4"/><path d="M19.5 4.5v4.8h-4.8"/></symbol>
+        <symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M3.5 7.5h3.2c1.3 0 2.5.6 3.3 1.7l4 5.6c.8 1.1 2 1.7 3.3 1.7h3.2"/><path d="M3.5 16.5h3.2c1.3 0 2.5-.6 3.3-1.7l.6-.8"/><path d="m13.4 10 .6-.8c.8-1.1 2-1.7 3.3-1.7h3.2"/><path d="m18 5 2.5 2.5L18 10"/><path d="m18 14 2.5 2.5L18 19"/></symbol>
+        <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.8 12s3.3-6.2 9.2-6.2 9.2 6.2 9.2 6.2-3.3 6.2-9.2 6.2S2.8 12 2.8 12Z"/><circle cx="12" cy="12" r="2.7"/></symbol>
+        <symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M2.8 12s3.3-6.2 9.2-6.2 9.2 6.2 9.2 6.2-3.3 6.2-9.2 6.2S2.8 12 2.8 12Z"/><circle cx="12" cy="12" r="2.7"/><path d="m4.5 4.5 15 15"/></symbol>
+        <symbol id="i-sheet" viewBox="0 0 24 24"><rect x="3" y="5.5" width="5" height="5" rx="1.3"/><rect x="9.5" y="5.5" width="5" height="5" rx="1.3" fill="currentColor"/><rect x="16" y="5.5" width="5" height="5" rx="1.3"/><rect x="3" y="13.5" width="5" height="5" rx="1.3"/><rect x="9.5" y="13.5" width="5" height="5" rx="1.3"/><rect x="16" y="13.5" width="5" height="5" rx="1.3" fill="currentColor"/></symbol>
+        <symbol id="i-doc" viewBox="0 0 24 24"><path d="M6.5 3.5h7.8l3.7 3.8v13.2H6.5Z"/><path d="M14 3.7v3.9h3.8"/><path d="M9.3 12h5.4"/><path d="M9.3 15.5h5.4"/></symbol>
+        <symbol id="i-flag" viewBox="0 0 24 24"><path d="M6 21V4"/><path d="M6 5h11.5l-2.4 3.5 2.4 3.5H6"/></symbol>
+        <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.8"/><path d="M12 2.8V5M12 19v2.2M2.8 12H5M19 12h2.2M5.5 5.5l1.6 1.6M16.9 16.9l1.6 1.6M18.5 5.5l-1.6 1.6M7.1 16.9l-1.6 1.6"/></symbol>
+        <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.8 14.6A8.3 8.3 0 0 1 9.4 4.2a8.3 8.3 0 1 0 10.4 10.4Z"/></symbol>
+        <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7.5h8.5"/><path d="M17.5 7.5H20"/><circle cx="15" cy="7.5" r="2.3"/><path d="M4 16.5h2.5"/><path d="M11.5 16.5H20"/><circle cx="9" cy="16.5" r="2.3"/></symbol>
+        <symbol id="i-undo" viewBox="0 0 24 24"><path d="m8.5 5.5-4 4 4 4"/><path d="M4.8 9.5h9.4a5 5 0 0 1 0 10H11"/></symbol>
+        <symbol id="i-remove" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.2"/><path d="M8.3 12h7.4"/></symbol>
+        <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.2"/><path d="M12 11v5.2"/><path d="M12 7.8v.2"/></symbol>
+        <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 4.2 21 19.5H3L12 4.2Z"/><path d="M12 10v4.4"/><path d="M12 16.9v.2"/></symbol>
+        <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 15.5V4.5"/><path d="M7.5 9 12 4.5 16.5 9"/><path d="M4.5 15.5v3a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-3"/></symbol>
+    </svg>
+
+    <a class="skip-link" href="#main">跳到正文</a>
+
+    {% set here = request.endpoint %}
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a class="brand" href="{{ url_for('index') }}" aria-label="CET 四六级真题练习 首页">
+                <svg class="brand__mark" viewBox="0 0 34 18" aria-hidden="true" focusable="false">
+                    <rect class="brand__box" x="1" y="1" width="8.5" height="16" rx="2.6"/>
+                    <rect class="brand__fill" x="12.75" y="1" width="8.5" height="16" rx="2.6"/>
+                    <rect class="brand__box" x="24.5" y="1" width="8.5" height="16" rx="2.6"/>
+                </svg>
+                <span class="brand__name">CET</span>
+                <span class="brand__sub">真题练习</span>
+            </a>
+            <nav class="site-nav" aria-label="主导航">
+                <a href="{{ url_for('index') }}" {% if here == 'index' %}aria-current="page"{% endif %}><span>首页</span></a>
+                <a href="{{ url_for('special_practice') }}" {% if here == 'special_practice' %}aria-current="page"{% endif %}><span>专项刷题</span></a>
+                <a href="{{ url_for('wrong_questions_list') }}" {% if here == 'wrong_questions_list' %}aria-current="page"{% endif %}><span>错题集</span></a>
+                <a href="{{ url_for('admin') }}" {% if here == 'admin' %}aria-current="page"{% endif %}><span>后台设置</span></a>
+            </nav>
+            <button type="button" class="icon-button theme-toggle" data-theme-toggle aria-label="切换深色或浅色界面" aria-pressed="false">
+                <svg class="icon theme-toggle__sun" aria-hidden="true" focusable="false"><use href="#i-sun"></use></svg>
+                <svg class="icon theme-toggle__moon" aria-hidden="true" focusable="false"><use href="#i-moon"></use></svg>
             </button>
-            <div class="collapse navbar-collapse" id="main-navigation">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="/">首页</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url_for('special_practice') }}">专项刷题</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/wrong_questions">错题集</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/admin">后台设置</a></li>
-                </ul>
-            </div>
         </div>
-    </nav>
+    </header>
 
-    <div class="container">
+    <main id="main" class="page {% block page_class %}{% endblock %}">
         {% block content %}{% endblock %}
-    </div>
+    </main>
 
-    <!-- One player for the whole page; the "播放本组" buttons load a paper's MP3 into it and seek. -->
-    <div id="audio-bar" class="fixed-bottom bg-dark text-white px-3 py-2 shadow d-none">
-        <div class="container d-flex align-items-center gap-3">
-            <span id="audio-bar-title" class="small text-nowrap"></span>
-            <audio id="audio-player" controls preload="none" class="flex-grow-1"></audio>
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <span>CET 四六级真题练习</span>
+            <span>题库、录音与练习记录都保存在本机</span>
         </div>
+    </footer>
+
+    {# One player for the whole page; each group's play button loads its paper's MP3 here and seeks. #}
+    <div id="audio-bar" class="player" role="region" aria-label="听力播放器" hidden>
+        <audio id="audio-player" preload="none"></audio>
+        <button type="button" class="player__toggle" data-player-toggle aria-label="播放">
+            <svg class="icon player__icon-play" aria-hidden="true" focusable="false"><use href="#i-play"></use></svg>
+            <svg class="icon player__icon-pause" aria-hidden="true" focusable="false"><use href="#i-pause"></use></svg>
+        </button>
+        <div class="player__meta">
+            <span id="audio-bar-title" class="player__title"></span>
+            <span class="player__group" data-player-group></span>
+        </div>
+        <div class="player__jump">
+            <button type="button" class="player__chip" data-player-skip="-5" aria-label="后退 5 秒">−5s</button>
+            <button type="button" class="player__chip player__chip--icon" data-player-restart aria-label="回到本组起点" title="回到本组起点">
+                <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-restart"></use></svg>
+            </button>
+            <button type="button" class="player__chip" data-player-skip="5" aria-label="前进 5 秒">+5s</button>
+        </div>
+        <div class="player__timeline">
+            <span class="player__time" data-player-current>0:00</span>
+            <div class="player__track">
+                <div class="player__ticks" data-player-ticks aria-hidden="true"></div>
+                <input type="range" class="player__seek" data-player-seek min="0" max="0" step="1" value="0" aria-label="播放进度">
+            </div>
+            <span class="player__time" data-player-duration>0:00</span>
+        </div>
+        <button type="button" class="player__chip player__rate" data-player-rate aria-label="播放速度" title="播放速度">1.0×</button>
+        <button type="button" class="player__close" data-player-close aria-label="关闭播放器">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-x"></use></svg>
+        </button>
     </div>
 
     <script src="{{ url_for('static', filename='vendor/bootstrap/bootstrap.bundle.min.js') }}"></script>
-    <script>
-    async function requestJSON(url, options = {}) {
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 15000);
-        try {
-            const response = await fetch(url, { ...options, signal: controller.signal });
-            const data = await response.json();
-            if (!response.ok || data.error) throw new Error(data.error || '请求失败，请重试');
-            return data;
-        } catch (error) {
-            if (error.name === 'AbortError') throw new Error('请求超时，请重试');
-            if (error instanceof TypeError || error instanceof SyntaxError) throw new Error('连接失败，请稍后重试');
-            throw error;
-        } finally {
-            clearTimeout(timeout);
-        }
-    }
-
-    function showQuestionError(qItem, message) {
-        const feedback = qItem.querySelector('.feedback');
-        feedback.classList.remove('d-none');
-        const alert = feedback.querySelector('.alert');
-        alert.className = 'alert alert-warning py-2 mb-2';
-        alert.textContent = message;
-    }
-
-    async function sendQuestionAnswer(qItem, answer) {
-        if (qItem.dataset.pending === 'true' || qItem.classList.contains('answered')) return;
-        qItem.dataset.pending = 'true';
-        const controls = qItem.querySelectorAll('.options-container button, .options-container input, .options-container select');
-        controls.forEach(control => control.disabled = true);
-        try {
-            const data = await requestJSON('/submit_answer', {
-                method: 'POST', headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ question_id: qItem.dataset.qId, answer })
-            });
-            delete qItem.dataset.wasAutoShown;
-            renderFeedback(qItem, answer, data);
-            if (data.unanswered) qItem.classList.remove('answered');
-        } catch (error) {
-            qItem.classList.remove('answered');
-            showQuestionError(qItem, error.message);
-        } finally {
-            delete qItem.dataset.pending;
-            controls.forEach(control => control.disabled = false);
-        }
-    }
-
-    (function () {
-        const bar = document.getElementById('audio-bar');
-        const player = document.getElementById('audio-player');
-        const title = document.getElementById('audio-bar-title');
-        const fmt = s => { s = Math.floor(s); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); };
-
-        document.addEventListener('click', function (e) {
-            const play = e.target.closest('.audio-play');
-            if (play) {
-                const box = play.closest('.audio-controls');
-                if (player.dataset.src !== play.dataset.src) {
-                    player.src = play.dataset.src;
-                    player.dataset.src = play.dataset.src;
-                    title.textContent = play.dataset.title;
-                }
-                bar.classList.remove('d-none');
-                document.body.classList.add('has-audio-bar');
-                const start = parseFloat(box.dataset.audioStart) || 0;
-                const seek = () => {
-                    if (Number.isFinite(player.duration) && start >= player.duration) {
-                        box.querySelector('.audio-hint').textContent = '起点超过录音时长，请重新标记';
-                        return;
-                    }
-                    player.currentTime = start;
-                    player.play().catch(() => { box.querySelector('.audio-hint').textContent = '播放失败，请检查音频后重试'; });
-                };
-                if (player.readyState >= 1) seek();
-                else { player.addEventListener('loadedmetadata', seek, { once: true }); player.load(); }
-                return;
-            }
-            const mark = e.target.closest('.audio-mark');
-            if (mark) {
-                const box = mark.closest('.audio-controls');
-                if (player.dataset.src !== box.querySelector('.audio-play').dataset.src || player.readyState < 1) {
-                    alert('请先播放这组题对应的录音，再标记起点'); return;
-                }
-                const seconds = Math.max(0, player.currentTime - 1); // a second of lead-in
-                mark.disabled = true;
-                requestJSON('/set_audio_start', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ group_id: box.dataset.groupId, seconds: seconds })
-                }).then(() => {
-                    box.dataset.audioStart = seconds;
-                    box.querySelector('.audio-play').innerHTML = '▶ 播放本组 <span class="audio-start-label">(' + fmt(seconds) + ')</span>';
-                    box.querySelector('.audio-hint').textContent = '起点已记为 ' + fmt(seconds);
-                }).catch(error => { box.querySelector('.audio-hint').textContent = error.message; })
-                  .finally(() => { mark.disabled = false; });
-            }
-        });
-    })();
-    </script>
     <script src="{{ url_for('static', filename='practice-text.js') }}"></script>
-    <script>
-    document.querySelectorAll('[data-reading-kind]').forEach(element => {
-        CETText.render(element, element.textContent, { kind: element.dataset.readingKind });
-    });
-    </script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
     {% block scripts %}{% endblock %}
 </body>
 </html>

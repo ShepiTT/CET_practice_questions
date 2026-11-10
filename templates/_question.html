@@ -1,0 +1,64 @@
+{# One question. Expects `q` and its `group`; `wrong_q_ids` is only passed by the wrong-answer page. #}
+{% from '_ui.html' import icon %}
+{% set is_wrong = wrong_q_ids is defined and q.id in wrong_q_ids %}
+{% set prompt = q.content|clean_exam_text %}
+{% set is_placeholder = prompt == 'Question ' ~ q.q_number or prompt == 'Blank ' ~ q.q_number %}
+{% set answer_kind = group.group_type if group.group_type in ('matching', 'cloze') else 'mcq' %}
+<article class="question-item q{% if is_wrong %} is-wrong{% endif %}{% if is_placeholder and not is_wrong %} q--bare{% endif %}" id="q-{{ q.id }}" data-q-id="{{ q.id }}" data-kind="{{ answer_kind }}">
+    <div class="q__num" aria-hidden="true"><span>{{ q.q_number }}</span></div>
+    <div class="q__main">
+        <div class="q__top">
+            <h3 class="visually-hidden">第 {{ q.q_number }} 题</h3>
+            <p class="question-stem q__stem{% if is_placeholder %} q__stem--hint{% endif %}" lang="{{ 'zh-CN' if is_placeholder else 'en' }}">{% if prompt == 'Question ' ~ q.q_number %}选择正确答案{% elif prompt == 'Blank ' ~ q.q_number %}选择合适的单词{% else %}{{ prompt }}{% endif %}</p>
+            {% if is_wrong %}
+            <div class="q__tools">
+                <span class="tag tag--bad q__wrong-tag">错题</span>
+                <button type="button" class="tool-button retry-btn">{{ icon('undo') }}重做此题</button>
+                <button type="button" class="tool-button remove-btn">{{ icon('remove') }}<span data-label>移出</span></button>
+            </div>
+            {% endif %}
+        </div>
+        {% if not q.correct_answer %}<p class="q__keyless">本题暂无标准答案，可练习但不判分。</p>{% endif %}
+
+        <div class="options-container q__answer">
+            {% if answer_kind == 'matching' %}
+            <div class="answer-row">
+                <div class="matching-input boxes" role="radiogroup" aria-label="第{{ q.q_number }}题答案，对应段落字母">
+                    {% for letter in q.allowed_answers %}
+                    <label class="box"><input type="radio" name="answer-{{ q.id }}" value="{{ letter }}"><span>{{ letter }}</span></label>
+                    {% endfor %}
+                </div>
+                <button type="button" class="submit-btn button button--ink button--sm" disabled>提交</button>
+            </div>
+            {% elif answer_kind == 'cloze' %}
+            <div class="answer-row">
+                <select class="cloze-select select" aria-label="第{{ q.q_number }}题答案">
+                    <option value="">选择单词…</option>
+                    {% for opt in q.options %}
+                    <option value="{{ opt.label }}" data-word="{{ opt.text|clean_exam_text }}">{{ opt.label }} · {{ opt.text|clean_exam_text }}</option>
+                    {% endfor %}
+                </select>
+                <button type="button" class="submit-btn button button--ink button--sm" disabled>提交</button>
+            </div>
+            {% else %}
+            {# Multiple choice, for listening and careful reading. One click answers. #}
+            <div class="choices">
+                {% for opt in q.options %}
+                <button type="button" class="mcq-btn choice" data-label="{{ opt.label }}">
+                    <span class="choice__box" aria-hidden="true">{{ opt.label }}</span>
+                    <span class="choice__text" lang="en"><span class="visually-hidden">{{ opt.label }}. </span>{{ opt.text|clean_exam_text }}</span>
+                </button>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="feedback q__feedback" aria-live="polite" hidden>
+            <p class="verdict"></p>
+            <div class="explanation-box explain" hidden>
+                <h4 class="explanation-title">题目解析</h4>
+                <div class="explanation-text"></div>
+            </div>
+        </div>
+    </div>
+</article>

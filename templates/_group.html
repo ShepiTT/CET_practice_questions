@@ -1,0 +1,55 @@
+{# One question group: its passage or recording on one side, its questions on the other.
+   Expects `group` and `audio_files`; `mode`, `shared_reference` and `wrong_q_ids` are optional. #}
+{% from '_ui.html' import icon, paper_title, TYPE_META %}
+{% set kind = group.group_type %}
+{% set meta = TYPE_META.get(kind, {'label': '题组', 'en': ''}) %}
+{% set has_passage = group.passage and group.passage != "Audio context required." %}
+{% set show_source = wrong_q_ids is defined or mode in ('special', 'random')
+                     or (shared_reference and shared_reference.enabled and kind == 'listening') %}
+<section class="group group--{{ kind or 'other' }}{% if has_passage %} group--split{% endif %}"
+         data-group-type="{{ kind or '' }}" aria-labelledby="group-title-{{ group.id }}">
+    <header class="group__head">
+        <div class="group__heading">
+            <p class="group__kicker">{{ meta.label }}</p>
+            <h2 class="group__title" id="group-title-{{ group.id }}" lang="en">{{ group.title }}</h2>
+            {% if show_source %}<p class="group__source">来源：{{ paper_title(group.source_file) }}</p>{% endif %}
+        </div>
+        {% if kind == 'listening' %}{% include '_audio_controls.html' %}{% endif %}
+    </header>
+
+    {% if kind == 'listening' and group.transcript %}
+    <div class="collapse" id="transcript-{{ group.id }}">
+        <div class="transcript-panel">
+            <h3 class="reading-panel-title">听力原文</h3>
+            <div class="reading-content" data-reading-kind="transcript" lang="en">{{ group.transcript }}</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <div class="group__body">
+        {% if has_passage %}
+        <div class="group__passage passage-panel" tabindex="0" role="region" aria-label="{{ meta.label }}原文">
+            <div class="reading-content" data-reading-kind="passage" lang="en">{{ group.passage|clean_exam_text }}</div>
+        </div>
+        {% endif %}
+        <div class="group__questions">
+            {% if kind == 'cloze' and group.questions %}
+            <div class="word-bank vocabulary-bank">
+                <h3 class="word-bank__title"><span lang="en">Vocabulary Bank</span><small>词库 · 每个词最多用一次</small></h3>
+                <ul class="word-bank__list" lang="en">
+                    {% for opt in group.questions[0].options %}
+                    <li data-word-label="{{ opt.label }}"><b>{{ opt.label }}</b>{{ opt.text|clean_exam_text }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            <div class="questions-list">
+                {% for q in group.questions %}
+                {% include '_question.html' %}
+                {% else %}
+                <p class="group__empty">本组暂未收录题目。</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

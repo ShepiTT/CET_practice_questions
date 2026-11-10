@@ -1,279 +1,102 @@
 {% extends "base.html" %}
+{% from '_ui.html' import icon, paper_title, paper_level, is_paper, TYPE_META %}
+{% block title %}{% if mode == 'normal' %}{{ paper_title(filename) }}{% else %}{{ filename }}{% endif %} · {% endblock %}
+{% block page_class %}page--practice{% endblock %}
 
 {% block content %}
-<div class="d-flex flex-wrap justify-content-between align-items-center mb-4 practice-toolbar">
-    <h2 class="practice-title mb-0">{{ filename }}</h2>
-    <div class="d-flex flex-wrap gap-2">
-        {% if groups %}
-        <button id="show-all-answers" class="btn btn-outline-warning me-2">显示所有答案</button>
-        {% endif %}
-        {% if mode == 'random' %}
-        <a href="{{ url_for('random_practice', level=level) if level else url_for('random_practice') }}" class="btn btn-success me-2">换一批题目</a>
-        {% endif %}
-        {% if mode == 'special' %}
-        <a href="{{ url_for('special_practice', type=special_type, level=level, count=count) }}" class="btn btn-success">换一批题目</a>
-        <a href="{{ url_for('special_practice', level=level, count=count) }}" class="btn btn-outline-primary">调整专项</a>
-        {% endif %}
-        <a href="/" class="btn btn-outline-secondary">返回列表</a>
+{% set question_total = groups|map(attribute='questions')|map('length')|sum %}
+{% set dated = mode == 'normal' and is_paper(filename) %}
+
+<header class="paper-head">
+    <a class="back-link" href="/{% if dated %}#level-{{ filename[11:12] }}{% endif %}">{{ icon('arrow-left') }}返回列表</a>
+    <div class="paper-head__row">
+        <div class="paper-head__text">
+            <p class="eyebrow">
+                {%- if mode == 'special' %}专项练习<span class="eyebrow__sep"></span>{{ level_label }}
+                {%- elif mode == 'random' %}随机刷题<span class="eyebrow__sep"></span>{{ '英语四级 CET-4' if level == '4' else ('英语六级 CET-6' if level == '6' else '全部等级') }}
+                {%- else %}整卷练习{% if dated %}<span class="eyebrow__sep"></span>{{ paper_level(filename) }}{% endif %}
+                {%- endif %}</p>
+            <h1 class="paper-head__title practice-title">{% if dated %}{{ paper_title(filename, level=false) }}{% else %}{{ filename }}{% endif %}</h1>
+            <p class="paper-head__meta">
+                {% if dated %}<span class="file-name">{{ filename }}</span>{% endif %}
+                {% if mode == 'special' %}<span>本次 {{ groups|length }} 组 · {{ question_count }} 题</span>
+                {% if groups and available_groups < count %}<span>当前共有 {{ available_groups }} 组可练，本次已全部抽取。</span>{% endif %}
+                {% else %}<span>{{ groups|length }} 组 · {{ question_total }} 题</span>{% endif %}
+            </p>
+        </div>
+        <div class="paper-head__actions">
+            {% if mode == 'random' %}
+            <a href="{{ url_for('random_practice', level=level) if level else url_for('random_practice') }}" class="button button--ink">{{ icon('refresh') }}换一批题目</a>
+            {% endif %}
+            {% if mode == 'special' %}
+            <a href="{{ url_for('special_practice', type=special_type, level=level, count=count) }}" class="button button--ink">{{ icon('refresh') }}换一批题目</a>
+            <a href="{{ url_for('special_practice', level=level, count=count) }}" class="button button--line">{{ icon('sliders') }}调整专项</a>
+            {% endif %}
+        </div>
     </div>
-</div>
+</header>
 
 {% if shared_reference %}
-<section class="alert {{ 'alert-info' if shared_reference.enabled else 'alert-warning' }} mb-4 shared-listening-notice"
+<section class="notice {{ 'notice--info' if shared_reference.enabled else 'notice--warn' }} shared-listening-notice"
          aria-label="共享听力来源" data-shared-listening-source="{{ shared_reference.source_file or '' }}">
-    <h3 class="h6 fw-bold mb-2">{{ '共享听力 · 25 题' if shared_reference.enabled else '共享听力暂不可用' }}</h3>
-    {% if shared_reference.enabled %}
-    <p class="mb-1">本卷原 PDF 省略听力，本页采用 <a href="{{ url_for('practice', filename=shared_reference.source_file) }}">{{ shared_reference.source_file }}</a> 的完整听力。</p>
-    <p class="mb-0">选项顺序、答案和解析均按上述来源卷，做题进度与来源卷共用；本页其他题型继续使用当前试卷。</p>
-    {% else %}
-    <p class="mb-0">{{ shared_reference.error }}</p>
-    {% endif %}
+    {{ icon('info' if shared_reference.enabled else 'alert') }}
+    <div>
+        <h2 class="notice__title">{{ '共享听力 · 25 题' if shared_reference.enabled else '共享听力暂不可用' }}</h2>
+        {% if shared_reference.enabled %}
+        <p>本卷原 PDF 省略听力，本页采用 <a href="{{ url_for('practice', filename=shared_reference.source_file) }}">{{ shared_reference.source_file }}</a> 的完整听力。</p>
+        <p>选项顺序、答案和解析均按上述来源卷，做题进度与来源卷共用；本页其他题型继续使用当前试卷。</p>
+        {% else %}
+        <p>{{ shared_reference.error }}</p>
+        {% endif %}
+    </div>
 </section>
 {% endif %}
 
-{% if mode == 'special' %}
-<div class="rounded border bg-white px-3 py-3 mb-4" aria-label="本次专项范围">
-    <span class="badge bg-primary me-2">{{ level_label }}</span>
-    本次 {{ groups|length }} 组 · {{ question_count }} 题
-    {% if groups and available_groups < count %}<span class="text-muted small ms-2">当前共有 {{ available_groups }} 组可练，本次已全部抽取。</span>{% endif %}
-</div>
-{% if not groups %}
-<div class="card text-center p-4 p-md-5">
-    <h3 class="h5">暂无可用的{{ special_types[special_type].label }}题组</h3>
-    <p class="text-muted mb-3">试试其他考试等级或题型。{% if special_type == 'listening' %}听力专项需要题目配有录音。{% endif %}</p>
-    <a class="btn btn-primary align-self-center" href="{{ url_for('special_practice', level=level, count=count) }}">重新选择专项</a>
+{% if mode == 'special' and not groups %}
+<div class="empty">
+    <div class="empty__mark" aria-hidden="true"><i></i><i></i><i></i></div>
+    <h2 class="empty__title">暂无可用的{{ special_types[special_type].label }}题组</h2>
+    <p class="empty__text">试试其他考试等级或题型。{% if special_type == 'listening' %}听力专项需要题目配有录音。{% endif %}</p>
+    <a class="button button--ink" href="{{ url_for('special_practice', level=level, count=count) }}">重新选择专项</a>
 </div>
 {% endif %}
-{% endif %}
 
-<div id="groups-container">
-    {% for group in groups %}
-    <div class="card group-card mb-5 shadow-sm">
-        <div class="card-header bg-light">
-            <h3 class="mb-0 text-primary">{{ group.title }}</h3>
-            {% if mode == 'special' or (shared_reference and shared_reference.enabled and group.group_type == 'listening') %}<div class="small text-muted mt-1">来源：{{ group.source_file }}</div>{% endif %}
-        </div>
-        <div class="card-body">
-            {% if group.group_type == 'cloze' %}
-                <div class="vocabulary-bank p-3 mb-4 bg-light border rounded shadow-sm">
-                    <h6 class="text-secondary border-bottom pb-2 mb-3"><i class="bi bi-grid-3x3-gap"></i> Vocabulary Bank</h6>
-                    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-2">
-                        {% for opt in group.questions[0].options %}
-                        <div class="col">
-                            <div class="p-2 border bg-white rounded-sm text-center">
-                                <strong class="text-primary">{{ opt.label }})</strong> {{ opt.text|clean_exam_text }}
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </div>
-            {% endif %}
-
-            {% if group.passage and group.passage != "Audio context required." %}
-            <div class="passage-box passage-panel"><div class="reading-content" data-reading-kind="passage">{{ group.passage|clean_exam_text }}</div></div>
-            {% endif %}
-
-            {% if group.group_type == 'listening' %}{% include '_audio_controls.html' %}{% endif %}
-
-            <div class="questions-list">
-                {% for q in group.questions %}
-                <div class="question-item mb-4 pb-3 border-bottom" data-q-id="{{ q.id }}">
-                    <div class="question-header">
-                        <span class="question-number">Q{{ q.q_number }}</span>
-                        {% set prompt = q.content|clean_exam_text %}
-                        <p class="question-stem">{% if prompt == 'Question ' ~ q.q_number %}选择正确答案{% elif prompt == 'Blank ' ~ q.q_number %}选择合适的单词{% else %}{{ prompt }}{% endif %}</p>
-                    </div>
-                        <div class="question-body">
-                            {% if not q.correct_answer %}<p class="small text-warning-emphasis">本题暂无标准答案，可练习但不判分。</p>{% endif %}
-                            
-                            <div class="options-container">
-                                {% if group.group_type == 'matching' %}
-                                    <div class="input-group answer-input mb-2">
-                                        <span class="input-group-text">对应段落字母</span>
-                                        <input type="text" class="form-control matching-input" placeholder="如: A" maxlength="2" aria-label="第{{ q.q_number }}题答案">
-                                        <button class="btn btn-primary submit-btn">提交</button>
-                                    </div>
-                                {% elif group.group_type == 'cloze' %}
-                                    <div class="input-group answer-input mb-2">
-                                        <select class="form-select cloze-select" aria-label="第{{ q.q_number }}题答案">
-                                            <option value="">选择选项...</option>
-                                            {% for opt in q.options %}
-                                            <option value="{{ opt.label }}">{{ opt.label }}</option>
-                                            {% endfor %}
-                                        </select>
-                                        <button class="btn btn-primary submit-btn">提交</button>
-                                    </div>
-                                {% else %}
-                                    {# MCQ for Listening and Careful Reading #}
-                                    <div class="row row-cols-1 row-cols-md-2 g-2">
-                                        {% for opt in q.options %}
-                                        <div class="col">
-                                            <button class="btn btn-outline-primary w-100 text-start mcq-btn" data-label="{{ opt.label }}">
-                                                <strong>{{ opt.label }}.</strong><span>{{ opt.text|clean_exam_text }}</span>
-                                            </button>
-                                        </div>
-                                        {% endfor %}
-                                    </div>
-                                {% endif %}
-                            </div>
-
-                            <div class="feedback mt-2 d-none" aria-live="polite">
-                                <div class="alert py-2 mb-2"></div>
-                                <div class="explanation-box d-none">
-                                    <h4 class="explanation-title">题目解析</h4>
-                                    <div class="explanation-text"></div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+{% if groups %}
+<div class="dock-sentinel" aria-hidden="true"></div>
+<div class="dock-wrap">
+<div class="dock" id="practice-dock">
+    <div class="dock__progress" role="status" aria-label="答题进度">
+        <span class="dock__count"><b data-progress-done>0</b><span class="dock__of">/ {{ question_total }}</span><small>已答</small></span>
+        <span class="dock__bar" aria-hidden="true"><i class="is-right" data-progress-right></i><i class="is-miss" data-progress-miss></i></span>
+        <span class="dock__score">
+            <span class="dock__right" title="答对">{{ icon('check') }}<b data-count-right>0</b></span>
+            <span class="dock__miss" title="答错">{{ icon('x') }}<b data-count-miss>0</b></span>
+        </span>
     </div>
+    <div class="dock__actions">
+        <button type="button" id="show-all-answers" class="button button--quiet button--sm" aria-pressed="false">{{ icon('eye') }}<span data-label>显示所有答案</span></button>
+        <button type="button" class="button button--line button--sm" data-sheet-toggle aria-expanded="false" aria-controls="answer-sheet">{{ icon('sheet') }}答题卡</button>
+    </div>
+    {% with merge_types = (mode == 'normal') %}{% include '_answer_sheet.html' %}{% endwith %}
+</div>
+</div>
+{% endif %}
+
+<div id="groups-container" class="groups">
+    {% set ns = namespace(previous=none) %}
+    {% for group in groups %}
+    {% if mode == 'normal' and group.group_type != ns.previous %}
+    {% set ns.previous = group.group_type %}
+    {% set meta = TYPE_META.get(group.group_type) %}
+    {% if meta %}
+    <div class="part">
+        <span class="part__no" lang="en">{{ meta.part }}</span>
+        <h2 class="part__title">{{ meta.long }}<em lang="en">{{ meta.en }}</em></h2>
+        <span class="part__count">{{ groups|selectattr('group_type', 'equalto', group.group_type)|map(attribute='questions')|map('length')|sum }} 题</span>
+    </div>
+    {% endif %}
+    {% endif %}
+    {% include '_group.html' %}
     {% endfor %}
 </div>
-
-{% endblock %}
-
-{% block scripts %}
-<script>
-document.addEventListener('click', function(e) {
-    // Handle MCQ buttons
-    if (e.target.classList.contains('mcq-btn') || e.target.closest('.mcq-btn')) {
-        const btn = e.target.classList.contains('mcq-btn') ? e.target : e.target.closest('.mcq-btn');
-        const qItem = btn.closest('.question-item');
-        if (qItem.classList.contains('answered')) return;
-        
-        submitAnswer(qItem, btn.dataset.label);
-    }
-    
-    // Handle Submit buttons (Matching/Cloze)
-    if (e.target.classList.contains('submit-btn')) {
-        const qItem = e.target.closest('.question-item');
-        if (qItem.classList.contains('answered')) return;
-        
-        let answer = "";
-        const matchingInput = qItem.querySelector('.matching-input');
-        const clozeSelect = qItem.querySelector('.cloze-select');
-        
-        if (matchingInput) answer = matchingInput.value;
-        else if (clozeSelect) answer = clozeSelect.value;
-        
-        if (!answer) {
-            alert("请输入或选择答案");
-            return;
-        }
-        submitAnswer(qItem, answer);
-    }
-});
-
-let allAnswersShown = false;
-const REVEAL = "REVEAL"; // client-side marker for renderFeedback, never sent to the server
-
-document.getElementById('show-all-answers')?.addEventListener('click', function() {
-    allAnswersShown = !allAnswersShown;
-    this.textContent = allAnswersShown ? '隐藏所有答案' : '显示所有答案';
-    this.classList.toggle('btn-warning', allAnswersShown);
-    this.classList.toggle('btn-outline-warning', !allAnswersShown);
-
-    const questions = document.querySelectorAll('.question-item');
-    questions.forEach(qItem => {
-        if (allAnswersShown) {
-            // Only show if not already answered manually
-            if (!qItem.classList.contains('answered')) {
-                const qId = qItem.dataset.qId;
-                // Read-only reveal. Must not go through /submit_answer, which records an attempt.
-                requestJSON('/answer/' + qId)
-                .then(data => {
-                    if (!allAnswersShown || qItem.dataset.pending === 'true' || qItem.classList.contains('answered')) return;
-                    renderFeedback(qItem, REVEAL, data);
-                    qItem.dataset.wasAutoShown = "true";
-                }).catch(error => { if (allAnswersShown) showQuestionError(qItem, error.message); });
-            }
-        } else {
-            // Hide if it was automatically shown
-            if (qItem.dataset.wasAutoShown === "true") {
-                resetQuestion(qItem);
-                delete qItem.dataset.wasAutoShown;
-            }
-        }
-    });
-});
-
-function resetQuestion(qItem) {
-    qItem.classList.remove('answered');
-    const feedback = qItem.querySelector('.feedback');
-    feedback.classList.add('d-none');
-    
-    // Reset buttons/inputs
-    qItem.querySelectorAll('.mcq-btn').forEach(btn => {
-        btn.classList.remove('btn-success', 'btn-danger', 'text-white');
-        btn.classList.add('btn-outline-primary');
-    });
-    
-    const matchingInput = qItem.querySelector('.matching-input');
-    if (matchingInput) matchingInput.value = '';
-    
-    const clozeSelect = qItem.querySelector('.cloze-select');
-    if (clozeSelect) clozeSelect.value = '';
-    
-    // Hide explanation
-    const explBox = qItem.querySelector('.explanation-box');
-    if (explBox) explBox.classList.add('d-none');
-}
-
-function submitAnswer(qItem, answer) {
-    return sendQuestionAnswer(qItem, answer);
-}
-
-function renderFeedback(qItem, user_answer, data) {
-    qItem.classList.add('answered');
-    const feedback = qItem.querySelector('.feedback');
-    const alertDiv = feedback.querySelector('.alert');
-    feedback.classList.remove('d-none');
-    
-    // Mark options (for MCQ)
-    qItem.querySelectorAll('.mcq-btn').forEach(btn => {
-        if (btn.dataset.label === data.correct_answer) {
-            btn.classList.add('btn-success');
-            btn.classList.remove('btn-outline-primary');
-        } else if (btn.dataset.label === user_answer.toUpperCase() && !data.is_correct && !data.unanswered) {
-            btn.classList.add('btn-danger');
-            btn.classList.remove('btn-outline-primary');
-        }
-    });
-
-    if (data.unanswered) {
-        // No key for this question yet: grading it would mark a correct pick wrong.
-        alertDiv.className = 'alert alert-warning py-2 mb-2';
-        alertDiv.textContent = '本题暂无标准答案，未计入成绩。可在后台设置答案。';
-    } else if (data.is_correct) {
-        alertDiv.className = 'alert alert-success py-2 mb-2';
-        alertDiv.textContent = '回答正确！';
-    } else {
-        alertDiv.className = 'alert alert-info py-2 mb-2'; // Use info color for revealed answers
-        if (user_answer === REVEAL) {
-            alertDiv.textContent = `正确答案是：${data.correct_answer || '未设置'}`;
-        } else {
-            alertDiv.className = 'alert alert-danger py-2 mb-2';
-            alertDiv.textContent = `回答错误。正确答案是：${data.correct_answer || '未设置'}`;
-        }
-    }
-
-    // Show explanation if available
-    if (data.explanation) {
-        const explBox = qItem.querySelector('.explanation-box');
-        const explText = qItem.querySelector('.explanation-text');
-        CETText.render(explText, data.explanation, { kind: 'explanation' });
-        explBox.classList.remove('d-none');
-    }
-}
-</script>
-<style>
-    .question-item.answered .mcq-btn { pointer-events: none; }
-    .btn-success { color: white !important; }
-    .btn-danger { color: white !important; }
-    .vocabulary-bank .border { transition: all 0.2s; }
-    .vocabulary-bank .border:hover { background-color: #f8f9fa; border-color: #0d6efd !important; }
-</style>
 {% endblock %}

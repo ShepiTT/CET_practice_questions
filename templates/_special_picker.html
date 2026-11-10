@@ -1,54 +1,43 @@
+{# Level, group count and the four question types. A plain GET form: each card submits its own type. #}
+{% from '_ui.html' import icon, TYPE_META %}
 <form action="{{ url_for('special_practice') }}" method="get" class="special-picker"
       data-counts='{{ special_counts|tojson }}'>
-    <div class="row g-3 mb-4 align-items-end">
-        <div class="col-12 col-sm-6 col-lg-3">
-            <label for="special-level" class="form-label fw-semibold">考试等级</label>
-            <select id="special-level" name="level" class="form-select">
-                <option value="" {% if not special_level %}selected{% endif %}>全部等级</option>
-                <option value="4" {% if special_level == '4' %}selected{% endif %}>英语四级 CET-4</option>
-                <option value="6" {% if special_level == '6' %}selected{% endif %}>英语六级 CET-6</option>
-            </select>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-3">
-            <label for="special-count" class="form-label fw-semibold">每次题组数</label>
-            <select id="special-count" name="count" class="form-select">
-                {% for size in range(1, 11) %}
-                <option value="{{ size }}" {% if special_count == size %}selected{% endif %}>{{ size }} 组</option>
-                {% endfor %}
-            </select>
-        </div>
-        <div class="col-lg-6"><p class="text-muted small mb-0">每组保留配套原文和题目，做完可查看答案与解析。</p></div>
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-3">
-        {% for kind, item in special_types.items() %}
-        {% set stock = special_counts[special_level or 'all'][kind] %}
-        <div class="col">
-            <div class="card special-card h-100 mb-0">
-                <div class="card-body d-flex flex-column" data-special-type="{{ kind }}">
-                    <h4 class="h5 fw-bold">{{ item.label }}</h4>
-                    <p class="text-muted small flex-grow-1">{{ item.description }}</p>
-                    <p class="small text-primary" aria-live="polite">
-                        <span data-stock-groups>{{ stock.groups }}</span> 组 · <span data-stock-questions>{{ stock.questions }}</span> 题可练
-                    </p>
-                    <button type="submit" name="type" value="{{ kind }}" class="btn btn-outline-primary"
-                            aria-label="开始{{ item.label }}专项练习">开始练习 <span aria-hidden="true">→</span></button>
-                </div>
+    <div class="picker-bar">
+        <div class="picker-field">
+            <span class="picker-field__label" id="special-level-label">考试等级</span>
+            <div class="segmented" role="radiogroup" aria-labelledby="special-level-label">
+                <label><input type="radio" name="level" value="" {% if not special_level %}checked{% endif %}><span>全部等级</span></label>
+                <label><input type="radio" name="level" value="4" {% if special_level == '4' %}checked{% endif %}><span>四级 <small>CET-4</small></span></label>
+                <label><input type="radio" name="level" value="6" {% if special_level == '6' %}checked{% endif %}><span>六级 <small>CET-6</small></span></label>
             </div>
         </div>
+        <div class="picker-field">
+            <span class="picker-field__label" id="special-count-label">每次题组数</span>
+            <div class="stepper" data-stepper data-min="1" data-max="10" role="group" aria-labelledby="special-count-label">
+                <button type="button" class="stepper__button" data-step="-1" aria-label="减少一组">{{ icon('minus') }}</button>
+                <output class="stepper__value" aria-live="polite"><b data-stepper-value>{{ special_count }}</b> 组</output>
+                <button type="button" class="stepper__button" data-step="1" aria-label="增加一组">{{ icon('plus') }}</button>
+                <input type="hidden" name="count" value="{{ special_count }}">
+            </div>
+        </div>
+        <p class="picker-bar__note">每组保留配套原文和题目，做完可查看答案与解析。</p>
+    </div>
+
+    <div class="type-grid">
+        {% for kind, item in special_types.items() %}
+        {% set stock = special_counts[special_level or 'all'][kind] %}
+        {% set meta = TYPE_META.get(kind, {}) %}
+        <button type="submit" name="type" value="{{ kind }}" class="type-card" data-special-type="{{ kind }}"
+                aria-label="开始{{ item.label }}专项练习">
+            <span class="type-card__part">{{ meta.part or '专项' }}</span>
+            <span class="type-card__name">{{ item.label }}</span>
+            {% if meta.en %}<span class="type-card__en" lang="en">{{ meta.en }}</span>{% endif %}
+            <span class="type-card__desc">{{ item.description }}</span>
+            <span class="type-card__foot">
+                <span class="type-card__stock" aria-live="polite"><b data-stock-groups>{{ stock.groups }}</b> 组 · <b data-stock-questions>{{ stock.questions }}</b> 题可练</span>
+                <span class="type-card__go">{{ icon('arrow-right') }}</span>
+            </span>
+        </button>
         {% endfor %}
     </div>
 </form>
-<script>
-document.querySelectorAll('.special-picker').forEach(form => {
-    const level = form.querySelector('[name="level"]');
-    const counts = JSON.parse(form.dataset.counts);
-    level.addEventListener('change', () => {
-        const stock = counts[level.value || 'all'];
-        form.querySelectorAll('[data-special-type]').forEach(card => {
-            const item = stock[card.dataset.specialType];
-            card.querySelector('[data-stock-groups]').textContent = item.groups;
-            card.querySelector('[data-stock-questions]').textContent = item.questions;
-        });
-    });
-});
-</script>
