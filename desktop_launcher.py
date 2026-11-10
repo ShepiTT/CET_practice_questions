@@ -26,6 +26,8 @@ from urllib.request import ProxyHandler, build_opener
 import uuid
 import webbrowser
 
+from verified_corrections import apply_verified_corrections
+
 PRODUCT = "CETPractice"
 TITLE = "四六级真题练习"
 HEALTH_PATH = "/_launcher/health"
@@ -267,6 +269,7 @@ def _upgrade_database(seed: Path, destination: Path) -> None:
                     if source.execute("PRAGMA integrity_check").fetchone() != ("ok",) or source.execute("PRAGMA foreign_key_check").fetchall():
                         raise ValueError("安装包题库校验失败，已取消更新。")
                     _append_new_papers(connection, source)
+                    apply_verified_corrections(connection, source)
                 if connection.execute("PRAGMA integrity_check").fetchone() != ("ok",) or connection.execute("PRAGMA foreign_key_check").fetchall():
                     raise ValueError("更新后题库校验失败，已取消更新。")
                 if _seed_stat(seed) != signature:
@@ -285,7 +288,7 @@ def _upgrade_database(seed: Path, destination: Path) -> None:
 
 
 def prepare_database(resources: Path, data_directory: Path) -> Path:
-    """Install once, then append newly bundled papers without replacing old rows."""
+    """Install once; append new papers and apply only exact verified corrections."""
     destination = data_directory / "cet4_v2.db"
     seed = resources / "instance" / "cet4_v2.db"
     if destination.exists():

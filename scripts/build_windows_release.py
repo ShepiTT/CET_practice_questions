@@ -27,7 +27,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 EDUCATIONAL_TABLES = ("question_group", "question", "option")
 PERSONAL_TABLES = ("user_history", "wrong_question")
-SOURCE_MODULES = ("desktop_launcher.py", "app.py", "models.py", "parser.py", "ocr.py", "shared_listening.py")
+SOURCE_MODULES = ("desktop_launcher.py", "app.py", "models.py", "parser.py", "ocr.py", "shared_listening.py", "verified_corrections.py")
 VERSIONS = {
     "desktop": ("CETPractice", "CETPractice.exe"),
     "web-launcher": ("CETPractice-Web", "CETPractice-Web.exe"),

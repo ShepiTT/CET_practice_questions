@@ -269,6 +269,8 @@ def isolated_launcher(tmp_path):
     resources = tmp_path / "installation"
     resources.mkdir()
     shutil.copyfile(Path(launcher.__file__), resources / "desktop_launcher.py")
+    shutil.copyfile(Path(launcher.__file__).with_name("verified_corrections.py"),
+                    resources / "verified_corrections.py")
     seed_database(resources)
     (resources / "VERSION").write_text("1.0.0-test", encoding="utf-8")
     (resources / "app.py").write_text('''
