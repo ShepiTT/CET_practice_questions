@@ -1,0 +1,145 @@
+{
+  "version": "1.2.0",
+  "created_at_utc": "2026-11-10T09:36:21.849802+00:00",
+  "platform": "Windows 10/11 x64",
+  "archives": {
+    "cet-practice-1.2.0-windows-desktop-x64.zip": {
+      "size": 875472337,
+      "sha256": "4d37127cee290b72a1b8b0ddf8be6f075453fbb2149d8f007090983c61eb5df3"
+    },
+    "cet-practice-1.2.0-windows-web-launcher-x64.zip": {
+      "size": 875486869,
+      "sha256": "bd00aab596e300e3d12abe53ab6c1ce85eb719de0f50d448d7b9d59d596bf422"
+    }
+  },
+  "automated_tests": {
+    "passed": 354,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "warnings": 28,
+    "executor": "root agent",
+    "junit_xml": ".cache/ui-release-1.2.0-pytest.xml",
+    "junit_time_seconds": 38.153
+  },
+  "source": {
+    "kind": "working-tree",
+    "base_commit": "afa0b6bc60ad82f3d557ff392f92bab3d2471546"
+  },
+  "source_working_tree_sha256": {
+    "desktop_launcher.py": "588f4859a194417d0e89e7e6827145ab98328d2fc9e2bfb01e53ee9e0c1e485b",
+    "app.py": "a546d4f0c8f23497aa11e49e457b543c7007a18e3dacdce7d4a9ab9f3e4bc2bd",
+    "models.py": "ea04b8125022313eed0ee7745800aff4c59eed5b0339d7ab19e4aee6866b762a",
+    "parser.py": "390ae5a733b9bffc53eb484ddebdaa0474efd6bfea7f125f7f3e446e578c2cec",
+    "ocr.py": "decd7770afec415c6ae7f8ed7b3bc5eca67d71b41242ea90a8707bf1f0fe7d8e",
+    "shared_listening.py": "5e072a989311be3f54e8cb0fae652e324ae9efb9f32a32a80cd129a508181b15"
+  },
+  "seed_database": {
+    "question_group": {
+      "rows": 1072,
+      "sha256": "b4479c9eb2505b41c343e0bb554b4f20ef08fefefc734799352ce99863228884"
+    },
+    "question": {
+      "rows": 5064,
+      "sha256": "2e47db4fa3b47899160503d6a782948d749586a473ba93200c5d5a28f7b8030d"
+    },
+    "option": {
+      "rows": 26868,
+      "sha256": "975b4da55ab1bcd50f6d756e89a6e334182afcd5352cc696860acaecf4d4cfc2"
+    },
+    "user_history": {
+      "rows": 0,
+      "sha256": "3d7f0fda5f3e96401e4d110302a8093dea3bc83416d24067def3e9a56e66f5d6"
+    },
+    "wrong_question": {
+      "rows": 0,
+      "sha256": "2c8c2794b755c4905e2300e5c929f7d78e69252f7da82921f9b0fc9755cde442"
+    }
+  },
+  "seed_personal_records_included": false,
+  "asset_counts": {
+    "question_pdfs": 94,
+    "answer_pdfs": 94,
+    "audio_mp3s": 94
+  },
+  "actual_archive_extraction_and_ui_start": {
+    "all_passed": true,
+    "archives": [
+      {
+        "archive": "cet-practice-1.2.0-windows-desktop-x64.zip",
+        "variant": "desktop",
+        "default_mode": "desktop",
+        "version": "1.2.0",
+        "all_manifest_files_verified": true,
+        "seed_personal_tables_empty": true,
+        "actual_frozen_ui_started": true,
+        "single_instance_reused": true,
+        "two_modes_share_preserved_practice_records": true,
+        "server_stopped_on_exit": true,
+        "homepage_status": 200,
+        "new_templates_served": true,
+        "plain_digit_css_served": true,
+        "css_and_javascript_exact_sha256_match_source": true,
+        "paper_pages_status_200": 94,
+        "audio_range_206_and_content_matches": 94,
+        "ui": "desktop-window",
+        "desktop_dom": {
+          "title": "CET 四六级真题练习",
+          "ready_state": "complete",
+          "body_present": true,
+          "question_links": 94
+        },
+        "browser_control_window_mapped": null
+      },
+      {
+        "archive": "cet-practice-1.2.0-windows-web-launcher-x64.zip",
+        "variant": "web-launcher",
+        "default_mode": "browser",
+        "version": "1.2.0",
+        "all_manifest_files_verified": true,
+        "seed_personal_tables_empty": true,
+        "actual_frozen_ui_started": true,
+        "single_instance_reused": true,
+        "two_modes_share_preserved_practice_records": true,
+        "server_stopped_on_exit": true,
+        "homepage_status": 200,
+        "new_templates_served": true,
+        "plain_digit_css_served": true,
+        "css_and_javascript_exact_sha256_match_source": true,
+        "paper_pages_status_200": 94,
+        "audio_range_206_and_content_matches": 94,
+        "ui": "browser-control",
+        "desktop_dom": null,
+        "browser_control_window_mapped": true
+      }
+    ]
+  },
+  "upgrade_from_previous_database": {
+    "old_question_count": 5009,
+    "new_question_count": 5064,
+    "new_paper_questions_added": 55,
+    "all_old_educational_and_personal_rows_unchanged": true,
+    "synthetic_history_rows_preserved": 2,
+    "synthetic_wrong_rows_preserved": 1,
+    "local_explanation_correction_preserved": true,
+    "backup_created_and_matches_old_rows": true,
+    "no_production_personal_records_used": true,
+    "server_stopped_on_exit": true
+  },
+  "cpu_ids": [
+    16,
+    17,
+    18,
+    19
+  ],
+  "process_priority": "BelowNormal",
+  "at_least_four_physical_cores_reserved": true,
+  "production_database_sha256_before": "3b5dcfaa36994bc6cfbf4dbe4d56260c4bee461d62453990576f0cbbed72300d",
+  "production_database_sha256_after": "3b5dcfaa36994bc6cfbf4dbe4d56260c4bee461d62453990576f0cbbed72300d",
+  "production_database_unchanged": true,
+  "limits": [
+    "Programs are unsigned portable Windows x64 ZIPs.",
+    "Desktop WebView2 tested on this computer; no separate clean Windows VM was used.",
+    "Readiness verifies the actual WebView2 DOM and the browser launcher control window; external browser rendering is covered by the separate UI review."
+  ]
+}
