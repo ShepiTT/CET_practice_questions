@@ -1,0 +1,70 @@
+{
+  "version": "1.2.0",
+  "phase": "public",
+  "verified_at_utc": "2026-11-10T10:09:38.292960+00:00",
+  "release_url": "https://github.com/ShepiTT/CET_practice_questions/releases/tag/v1.2.0",
+  "release_id": 440166184,
+  "tag": "v1.2.0",
+  "expected_commit": "fe02840c7a65d428f51b23cd9345698b41bf8bb0",
+  "tag_commit": "fe02840c7a65d428f51b23cd9345698b41bf8bb0",
+  "is_draft": false,
+  "is_prerelease": false,
+  "latest_release_tag": "v1.2.0",
+  "assets": {
+    "cet-practice-1.2.0-windows-desktop-x64.zip": {
+      "size": 875472337,
+      "sha256": "4d37127cee290b72a1b8b0ddf8be6f075453fbb2149d8f007090983c61eb5df3",
+      "asset_id": 730872874,
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/cet-practice-1.2.0-windows-desktop-x64.zip",
+      "expected_public_url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/cet-practice-1.2.0-windows-desktop-x64.zip",
+      "github_digest": "sha256:4d37127cee290b72a1b8b0ddf8be6f075453fbb2149d8f007090983c61eb5df3",
+      "server_digest_matches_local": true,
+      "anonymous_head_status": 200,
+      "anonymous_content_length": 875472337
+    },
+    "cet-practice-1.2.0-windows-web-launcher-x64.zip": {
+      "size": 875486869,
+      "sha256": "bd00aab596e300e3d12abe53ab6c1ce85eb719de0f50d448d7b9d59d596bf422",
+      "asset_id": 730872889,
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/cet-practice-1.2.0-windows-web-launcher-x64.zip",
+      "expected_public_url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/cet-practice-1.2.0-windows-web-launcher-x64.zip",
+      "github_digest": "sha256:bd00aab596e300e3d12abe53ab6c1ce85eb719de0f50d448d7b9d59d596bf422",
+      "server_digest_matches_local": true,
+      "anonymous_head_status": 200,
+      "anonymous_content_length": 875486869
+    },
+    "SHA256SUMS.txt": {
+      "size": 225,
+      "sha256": "5363fcc86506e469e75a552db3283b6df28ede6ecd4aca5c7de600d1970b644b",
+      "asset_id": 730872871,
+      "url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/SHA256SUMS.txt",
+      "expected_public_url": "https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/SHA256SUMS.txt",
+      "github_digest": "sha256:5363fcc86506e469e75a552db3283b6df28ede6ecd4aca5c7de600d1970b644b",
+      "server_digest_matches_local": true,
+      "anonymous_head_status": 200,
+      "anonymous_content_length": 225,
+      "anonymous_body_matches_local": true
+    }
+  },
+  "build_validation_manifest": ".cache\\windows-release-downloads-1.2.0\\build-validation-1.2.0.json",
+  "build_validation_manifest_sha256": "9e7326bcfc0ccd1a340616e6d37407b37b1f97e30db1c0bd6f45558be2162280",
+  "local_validation_report": "windows-release-validation-1.2.0.json",
+  "personal_records_in_downloads": false,
+  "anonymous_downloads_verified": true,
+  "source_and_readme_verification": {
+    "commit": "fe02840c7a65d428f51b23cd9345698b41bf8bb0",
+    "all_github_blobs_match_local_commit": true,
+    "files": {
+      "README.md": true,
+      "VERSION": true,
+      "static/app.css": true,
+      "static/app.js": true,
+      "docs/images/home.jpg": true,
+      "docs/images/special-practice.jpg": true,
+      "docs/images/listening-practice.jpg": true,
+      "docs/images/cet2026-practice.jpg": true,
+      "reports/windows-release-validation-1.2.0.json": true
+    },
+    "method": "GitHub git tree API via existing gh login compared with local committed blobs"
+  }
+}
