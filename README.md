@@ -4,25 +4,27 @@
 
 ## 下载与使用
 
-当前版本：**1.2.0**。桌面程序和网页启动器均已采用下方展示的新界面与常规数字字体。两个程序包适用于 Windows 10/11 x64，均为未签名便携版，解压后使用，无需安装 Python。
+当前版本：**1.2.1**。本次补全 2020 年 12 月六级第 1 套第 26 题的解析末句，沿用下方展示的界面与常规数字字体。两个程序包适用于 Windows 10/11 x64，均为未签名便携版，解压后使用，无需安装 Python。
 
 | 版本 | 下载 | 使用方式 |
 | --- | --- | --- |
-| Windows 桌面程序 | [桌面版 ZIP](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/cet-practice-1.2.0-windows-desktop-x64.zip)（834.9 MB） | 解压完整目录，双击 `CETPractice.exe`，在独立窗口中刷题；需要系统 Edge WebView2 和 .NET 运行环境。 |
-| Windows 网页启动器 | [网页启动器 ZIP](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/cet-practice-1.2.0-windows-web-launcher-x64.zip)（834.9 MB） | 解压完整目录，双击 `CETPractice-Web.exe`，使用默认浏览器刷题；附带控制窗，可重新打开页面或退出服务。 |
-| 源码 | [下载 1.2.0 源码](https://github.com/ShepiTT/CET_practice_questions/archive/refs/tags/v1.2.0.zip) | 按下方“快速开始”安装 Python 依赖并启动。 |
+| Windows 桌面程序 | [桌面版 ZIP](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.1/cet-practice-1.2.1-windows-desktop-x64.zip)（834.9 MB） | 解压完整目录，双击 `CETPractice.exe`，在独立窗口中刷题；需要系统 Edge WebView2 和 .NET 运行环境。 |
+| Windows 网页启动器 | [网页启动器 ZIP](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.1/cet-practice-1.2.1-windows-web-launcher-x64.zip)（834.9 MB） | 解压完整目录，双击 `CETPractice-Web.exe`，使用默认浏览器刷题；附带控制窗，可重新打开页面或退出服务。 |
+| 源码 | [下载 1.2.1 源码](https://github.com/ShepiTT/CET_practice_questions/archive/refs/tags/v1.2.1.zip) | 按下方“快速开始”安装 Python 依赖并启动。 |
 
 两个程序包都包含题库、94 个 MP3 及对应试卷、答案 PDF，页面样式和脚本也随包提供，可以离线练习。请保留解压后的完整目录，**不要只拷贝 EXE**。
 
-两版本共用 `%LOCALAPPDATA%\CETPractice` 中的个人数据库，练习记录仅保存在本机。更新前先退出旧程序，将新版解压到新文件夹后启动；程序会自动备份并追加新增试卷，保留已有题目修订和练习记录；下载包不包含发布者的个人练习记录。关闭网页浏览器不会停止本地服务，用完请在网页启动器控制窗中点击“关闭服务”。桌面版缺少 WebView2 时，可从[微软官网下载运行环境](https://developer.microsoft.com/microsoft-edge/webview2/)，或使用网页启动器版。
+两版本共用 `%LOCALAPPDATA%\CETPractice` 中的个人数据库，练习记录仅保存在本机。更新前先退出旧程序，将新版解压到新文件夹后启动；程序会自动备份个人数据库并追加新增试卷。1.2.1 只在题目、答案、词库及旧解析精确匹配已知缺行记录时，为 2020 年 12 月六级第 1 套 Q26（id3253）补回原 PDF 的解析末句，并清理该解析的 OCR 标题；已自行修改的解析保留，答案 A 和词库不变，练习记录与错题保留。下载包不包含发布者的个人练习记录。
 
-版本说明和附件见 [Release 页面](https://github.com/ShepiTT/CET_practice_questions/releases/tag/v1.2.0)，下载后可使用 [SHA-256 校验文件](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.0/SHA256SUMS.txt) 核对文件。程序运行和自动化检查不代表全库逐题人工验收；内容核验范围见下方“数据状态与使用范围”。
+关闭网页浏览器不会停止本地服务，用完请在网页启动器控制窗中点击“关闭服务”。桌面版缺少 WebView2 时，可从[微软官网下载运行环境](https://developer.microsoft.com/microsoft-edge/webview2/)，或使用网页启动器版。
 
-打包与启动检查见 [Windows 版验证记录](reports/windows-release-validation-1.2.0.json)，公开附件大小、SHA-256 和匿名访问核验见 [下载校验记录](https://github.com/ShepiTT/CET_practice_questions/blob/main/reports/windows-release-publication-1.2.0.json)。
+版本说明和附件见 [Release 页面](https://github.com/ShepiTT/CET_practice_questions/releases/tag/v1.2.1)，下载后可使用 [SHA-256 校验文件](https://github.com/ShepiTT/CET_practice_questions/releases/download/v1.2.1/SHA256SUMS.txt) 核对文件。程序运行和自动化检查不代表全库逐题人工验收；内容核验范围见下方“数据状态与使用范围”。
+
+打包与启动检查见 [Windows 版验证记录](reports/windows-release-validation-1.2.1.json)，公开附件大小、SHA-256 和匿名访问核验见 [下载校验记录](https://github.com/ShepiTT/CET_practice_questions/blob/main/reports/windows-release-publication-1.2.1.json)。本次单题解析更正的原 PDF 页码、哈希与改动范围见 [Q26 解析复核记录](reports/q3253-explanation-correction-20261110.json)。
 
 ## 界面展示
 
-以下为 1.2.0 的实际界面。首页统计、年份、题号与听力时间采用常规数字字体；Windows 优先使用微软雅黑。页面提供答题进度、题号定位与可收起的原文和解析。
+以下为实际运行截图。1.2.1 的界面未变，这些截图仍适用于当前版本。首页统计、年份、题号与听力时间采用常规数字字体；Windows 优先使用微软雅黑。页面提供答题进度、题号定位与可收起的原文和解析。
 
 ### 首页 · 选择等级与试卷
 
@@ -145,7 +147,7 @@ CET_practice_questions/
 
 ## 数据状态与使用范围
 
-截至 2026-11-09 的本地复核记录：5064 道题、703 个听力组；94 个 MP3 文件按音频哈希去重为 59 份独立录音。听力原文和播放起点均已填入，9 份省略卷可练完整 25 道共享听力题。本轮 353 项自动化测试通过，两个打包程序均已验证实际启动、题库读取、判分、重启保留记录及退出后停止服务。
+截至 2026-11-10 的本地复核记录：5064 道题、703 个听力组；94 个 MP3 文件按音频哈希去重为 59 份独立录音。听力原文和播放起点均已填入，9 份省略卷可练完整 25 道共享听力题。本轮 378 项自动化测试通过，打包程序的启动与升级检查详见上方 Windows 版验证记录。
 
 仍有部分听力逐词分歧，以及其他题型的历史缺题、排版或解析问题需要继续核对。题目数量完整、页面能打开或自动化测试通过，都不代表全库每一题已人工确认正确。
 

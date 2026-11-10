@@ -1,0 +1,205 @@
+{
+  "version": "1.2.1",
+  "created_at_utc": "2026-11-10T12:57:52.171329+00:00",
+  "platform": "Windows 10/11 x64",
+  "archives": {
+    "cet-practice-1.2.1-windows-desktop-x64.zip": {
+      "size": 875477770,
+      "sha256": "cae0119c4839d2cbc06f75142f85a7b08b2124a332dabf13265a8aca23ca8534"
+    },
+    "cet-practice-1.2.1-windows-web-launcher-x64.zip": {
+      "size": 875492302,
+      "sha256": "d98be61ad62b5ccb751d3379793f0c10d63c22262b52c301aa23674f8a0262ab"
+    }
+  },
+  "automated_tests": {
+    "passed": 378,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "executor": "root agent",
+    "junit_xml": ".cache/ui-release-1.2.1-pytest.xml",
+    "junit_time_seconds": 40.155
+  },
+  "source": {
+    "kind": "working-tree",
+    "base_commit": "3dc52a70386d46cd6755681ea6265f177f236c25"
+  },
+  "source_working_tree_sha256": {
+    "desktop_launcher.py": "6f1371ec9e654ef638045021543f42eb98197daf49ad350b7e167706650d437c",
+    "app.py": "a546d4f0c8f23497aa11e49e457b543c7007a18e3dacdce7d4a9ab9f3e4bc2bd",
+    "models.py": "ea04b8125022313eed0ee7745800aff4c59eed5b0339d7ab19e4aee6866b762a",
+    "parser.py": "390ae5a733b9bffc53eb484ddebdaa0474efd6bfea7f125f7f3e446e578c2cec",
+    "ocr.py": "decd7770afec415c6ae7f8ed7b3bc5eca67d71b41242ea90a8707bf1f0fe7d8e",
+    "shared_listening.py": "5e072a989311be3f54e8cb0fae652e324ae9efb9f32a32a80cd129a508181b15",
+    "verified_corrections.py": "da94f43efa6ea0a58964f5d91de40904e444907b17fd0c49efa261f6e74794d4"
+  },
+  "seed_database": {
+    "question_group": {
+      "rows": 1072,
+      "sha256": "b4479c9eb2505b41c343e0bb554b4f20ef08fefefc734799352ce99863228884"
+    },
+    "question": {
+      "rows": 5064,
+      "sha256": "2f2e902c13045aa416b7edcf092493f430aa2801dc72914852b3f53536f2ca9f"
+    },
+    "option": {
+      "rows": 26868,
+      "sha256": "975b4da55ab1bcd50f6d756e89a6e334182afcd5352cc696860acaecf4d4cfc2"
+    },
+    "user_history": {
+      "rows": 0,
+      "sha256": "3d7f0fda5f3e96401e4d110302a8093dea3bc83416d24067def3e9a56e66f5d6"
+    },
+    "wrong_question": {
+      "rows": 0,
+      "sha256": "2c8c2794b755c4905e2300e5c929f7d78e69252f7da82921f9b0fc9755cde442"
+    }
+  },
+  "seed_personal_records_included": false,
+  "asset_counts": {
+    "question_pdfs": 94,
+    "answer_pdfs": 94,
+    "audio_mp3s": 94
+  },
+  "actual_archive_extraction_and_ui_start": {
+    "all_passed": true,
+    "archives": [
+      {
+        "archive": "cet-practice-1.2.1-windows-desktop-x64.zip",
+        "variant": "desktop",
+        "default_mode": "desktop",
+        "version": "1.2.1",
+        "all_manifest_files_verified": true,
+        "seed_personal_tables_empty": true,
+        "actual_frozen_ui_started": true,
+        "single_instance_reused": true,
+        "two_modes_share_preserved_practice_records": true,
+        "server_stopped_on_exit": true,
+        "verified_correction": {
+          "question_id": 3253,
+          "correct_answer": "A",
+          "complete_explanation_and_three_sections": true,
+          "answer_get_does_not_submit_practice": true
+        },
+        "homepage_status": 200,
+        "new_templates_served": true,
+        "plain_digit_css_served": true,
+        "css_and_javascript_exact_sha256_match_source": true,
+        "paper_pages_status_200": 94,
+        "audio_range_206_and_content_matches": 94,
+        "ui": "desktop-window",
+        "desktop_dom": {
+          "title": "CET 四六级真题练习",
+          "ready_state": "complete",
+          "body_present": true,
+          "question_links": 94
+        },
+        "browser_control_window_mapped": null
+      },
+      {
+        "archive": "cet-practice-1.2.1-windows-web-launcher-x64.zip",
+        "variant": "web-launcher",
+        "default_mode": "browser",
+        "version": "1.2.1",
+        "all_manifest_files_verified": true,
+        "seed_personal_tables_empty": true,
+        "actual_frozen_ui_started": true,
+        "single_instance_reused": true,
+        "two_modes_share_preserved_practice_records": true,
+        "server_stopped_on_exit": true,
+        "verified_correction": {
+          "question_id": 3253,
+          "correct_answer": "A",
+          "complete_explanation_and_three_sections": true,
+          "answer_get_does_not_submit_practice": true
+        },
+        "homepage_status": 200,
+        "new_templates_served": true,
+        "plain_digit_css_served": true,
+        "css_and_javascript_exact_sha256_match_source": true,
+        "paper_pages_status_200": 94,
+        "audio_range_206_and_content_matches": 94,
+        "ui": "browser-control",
+        "desktop_dom": null,
+        "browser_control_window_mapped": true
+      }
+    ]
+  },
+  "upgrade_from_previous_database": {
+    "source": "Exact local previously published 1.2.0 ZIP seed",
+    "seed_sha256": "db87b27a2fa22cbe4c1868454edd3f89d7dd681e5f479a84d100d6cc3000d545",
+    "cases": [
+      {
+        "case": "old-1.2.0-default-explanation",
+        "old_question_count": 5064,
+        "new_question_count": 5064,
+        "existing_educational_rows_only_target_explanation_changed": true,
+        "custom_target_explanation_preserved": false,
+        "new_paper_questions_added": 0,
+        "synthetic_history_rows_preserved": 2,
+        "synthetic_wrong_rows_preserved": 1,
+        "backup_created_and_matches_all_old_rows": true,
+        "restart_idempotent_database_sha256_and_backups": true,
+        "no_production_personal_records_used": true,
+        "server_stopped_on_exit": true
+      },
+      {
+        "case": "old-1.2.0-custom-explanation",
+        "old_question_count": 5064,
+        "new_question_count": 5064,
+        "existing_educational_rows_only_target_explanation_changed": false,
+        "custom_target_explanation_preserved": true,
+        "new_paper_questions_added": 0,
+        "synthetic_history_rows_preserved": 2,
+        "synthetic_wrong_rows_preserved": 1,
+        "backup_created_and_matches_all_old_rows": true,
+        "restart_idempotent_database_sha256_and_backups": true,
+        "no_production_personal_records_used": true,
+        "server_stopped_on_exit": true
+      },
+      {
+        "case": "old-5009-questions-add-paper",
+        "old_question_count": 5009,
+        "new_question_count": 5064,
+        "existing_educational_rows_only_target_explanation_changed": true,
+        "custom_target_explanation_preserved": false,
+        "new_paper_questions_added": 55,
+        "synthetic_history_rows_preserved": 2,
+        "synthetic_wrong_rows_preserved": 1,
+        "backup_created_and_matches_all_old_rows": true,
+        "restart_idempotent_database_sha256_and_backups": true,
+        "no_production_personal_records_used": true,
+        "server_stopped_on_exit": true
+      }
+    ]
+  },
+  "cpu_ids": [
+    16,
+    17,
+    18,
+    19
+  ],
+  "process_priority": "BelowNormal",
+  "at_least_four_physical_cores_reserved": true,
+  "protected_databases_sha256_before": {
+    "instance\\cet4_v2.db": "4bd6a3679822829a03177803130bdc982d75b50b1afd23a26f970dcfcc465c6c",
+    ".cache\\desktop-preview-1.2.0-20261110-193312\\cet4_v2.db": "6a47b6b545833199a20cd001e9fe5653cb5a19237d241cea9339ad20edd9d006"
+  },
+  "protected_databases_sha256_after": {
+    "instance\\cet4_v2.db": "4bd6a3679822829a03177803130bdc982d75b50b1afd23a26f970dcfcc465c6c",
+    ".cache\\desktop-preview-1.2.0-20261110-193312\\cet4_v2.db": "6a47b6b545833199a20cd001e9fe5653cb5a19237d241cea9339ad20edd9d006"
+  },
+  "production_and_preview_databases_unchanged": true,
+  "existing_preview_service": {
+    "was_running_before": false,
+    "is_running_after": false,
+    "left_untouched": true
+  },
+  "limits": [
+    "Programs are unsigned portable Windows x64 ZIPs.",
+    "Desktop WebView2 tested on this computer; no separate clean Windows VM was used.",
+    "Readiness verifies the actual WebView2 DOM and the browser launcher control window; external browser rendering is covered by the separate UI review.",
+    "Educational audio validation checks HTTP ranges and file bytes, not word-by-word transcription accuracy."
+  ]
+}
