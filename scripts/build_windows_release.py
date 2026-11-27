@@ -207,7 +207,7 @@ def write_root_documents(runtime: Path, licenses: Path, version: str, packages: 
     notice = f"""CET Practice {version} — third-party notices
 
 Project source: https://github.com/ShepiTT/CET_practice_questions
-Project code license: Apache License 2.0 (LICENSE.txt).
+Project code license: PolyForm Noncommercial 1.0.0 (LICENSE.txt).
 
 This distribution embeds CPython and open-source runtime components. Their
 original license and copyright files are preserved under licenses/. The build
